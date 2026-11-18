@@ -1353,31 +1353,261 @@
   }
 
   function renderTeacherTab() {
-    const filteredPupils = state.teacherClassFilter === "ALL"
-      ? state.pupils
-      : state.pupils.filter(p => p.classCode?.toUpperCase() === state.teacherClassFilter);
+    const searchQuery = (state.teacherSearchQuery || "").trim().toLowerCase();
+    const filteredPupils = state.pupils.filter(p => {
+      const matchesClass = state.teacherClassFilter === "ALL" || p.classCode?.toUpperCase() === state.teacherClassFilter;
+      const matchesSearch = !searchQuery || p.name?.toLowerCase().includes(searchQuery) || p.classCode?.toLowerCase().includes(searchQuery);
+      return matchesClass && matchesSearch;
+    });
+
+    const totalAttempts = state.attempts.length;
+    const totalHw = state.homeworkSubmissions.length;
+    const avgPracticeAll = totalAttempts
+      ? Math.round(state.attempts.reduce((s, a) => s + (Number(a.percentage) || 0), 0) / totalAttempts)
+      : 0;
+    const avgHwAll = totalHw
+      ? Math.round(state.homeworkSubmissions.reduce((s, h) => s + (Number(h.percentage) || 0), 0) / totalHw)
+      : 0;
+
+    const inspectedPupil = state.selectedPupilInspect
+      ? state.pupils.find(p => p.userId === state.selectedPupilInspect || p.name === state.selectedPupilInspect)
+      : null;
+    const inspectedAtt = inspectedPupil
+      ? state.attempts.filter(a => a.userId === inspectedPupil.userId || (a.userName?.toLowerCase() === inspectedPupil.name.toLowerCase()))
+      : [];
+    const inspectedHw = inspectedPupil
+      ? state.homeworkSubmissions.filter(s => s.userId === inspectedPupil.userId || (s.userName?.toLowerCase() === inspectedPupil.name.toLowerCase()))
+      : [];
 
     return `
       <section class="section-panel">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px;">
           <div>
-            <p class="kicker">TEACHER DASHBOARD & CLASS CODE CONTINUITY</p>
-            <h2 style="margin-bottom:4px;">Manage Classes, Keep Existing Class Codes & Monitor Pupils</h2>
+            <p class="kicker">MRS STRAUB'S TEACHER DASHBOARD · PUPIL RESULTS &amp; HOMEWORK MARKS</p>
+            <h2 style="margin-bottom:4px;">Class Overview, Individual Pupil Results &amp; Homework Submissions</h2>
             <p style="margin:0;color:var(--text-secondary);font-size:14px;">
-              Your pupils sign in with their <strong>Full Name + Existing Class Code</strong>. Any existing class code they use works automatically, or you can add/import your class list below.
+              Click <strong>"📋 View Results &amp; Homework"</strong> next to any pupil below to inspect all of their practice answers, topic breakdown, and homework marks.
             </p>
           </div>
           <button type="button" class="btn btn-primary btn-sm" id="btn-export-csv">
-            ⬇ Download Class Results CSV
+            ⬇ Download Full Class Results CSV
           </button>
         </div>
 
-        <div class="two-col-layout" style="margin-bottom:20px;">
+        <!-- SUMMARY METRIC CARDS -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:20px;">
+          <div class="side-card" style="padding:14px;">
+            <span style="font-size:12px;color:var(--text-muted);font-weight:700;text-transform:uppercase;">Enrolled Pupils</span>
+            <div style="font-size:26px;font-weight:900;color:#0f766e;margin-top:4px;">${state.pupils.length}</div>
+            <div style="font-size:12.5px;color:var(--text-secondary);">Across ${state.classes.length} classes (4GBM1, 4FBM2, 4CBM3, ABCD)</div>
+          </div>
+          <div class="side-card" style="padding:14px;">
+            <span style="font-size:12px;color:var(--text-muted);font-weight:700;text-transform:uppercase;">Practice &amp; Drill Attempts</span>
+            <div style="font-size:26px;font-weight:900;color:#0284c7;margin-top:4px;">${totalAttempts}</div>
+            <div style="font-size:12.5px;color:var(--text-secondary);">Class Practice Average: <strong>${avgPracticeAll}%</strong></div>
+          </div>
+          <div class="side-card" style="padding:14px;">
+            <span style="font-size:12px;color:var(--text-muted);font-weight:700;text-transform:uppercase;">Homework Submissions</span>
+            <div style="font-size:26px;font-weight:900;color:#7c3aed;margin-top:4px;">${totalHw}</div>
+            <div style="font-size:12.5px;color:var(--text-secondary);">Class Homework Average: <strong>${avgHwAll}%</strong></div>
+          </div>
+        </div>
+
+        ${inspectedPupil ? `
+          <!-- INDIVIDUAL PUPIL INSPECTOR PANEL -->
+          <div style="margin-bottom:24px;padding:18px;border-radius:14px;background:#f0fdfa;border:2px solid #0f766e;box-shadow:0 4px 16px rgba(15,118,110,0.1);">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
+              <div>
+                <span class="badge badge-primary" style="margin-bottom:4px;">INDIVIDUAL PUPIL REPORT</span>
+                <h3 style="margin:0;font-size:20px;color:#0f172a;">
+                  👤 ${escapeHtml(inspectedPupil.name)} <span style="font-size:14px;font-weight:600;color:#0f766e;">(Class ${escapeHtml(inspectedPupil.className || inspectedPupil.classCode)} · Code: ${escapeHtml(inspectedPupil.classCode)})</span>
+                </h3>
+              </div>
+              <button type="button" class="btn btn-outline btn-sm" id="btn-close-pupil-inspect" style="background:#fff;">
+                ✕ Close Pupil Report
+              </button>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:16px;">
+              <div style="background:#fff;padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+                <div style="font-size:12px;color:var(--text-muted);font-weight:700;">PRACTICE ATTEMPTS</div>
+                <div style="font-size:22px;font-weight:800;">${inspectedAtt.length}</div>
+              </div>
+              <div style="background:#fff;padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+                <div style="font-size:12px;color:var(--text-muted);font-weight:700;">PRACTICE AVERAGE</div>
+                <div style="font-size:22px;font-weight:800;color:#0f766e;">
+                  ${inspectedAtt.length ? Math.round(inspectedAtt.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / inspectedAtt.length) + "%" : (inspectedPupil.practiceAverage ? inspectedPupil.practiceAverage + "%" : "—")}
+                </div>
+              </div>
+              <div style="background:#fff;padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+                <div style="font-size:12px;color:var(--text-muted);font-weight:700;">HOMEWORK SUBMITTED</div>
+                <div style="font-size:22px;font-weight:800;">${inspectedHw.length}</div>
+              </div>
+              <div style="background:#fff;padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+                <div style="font-size:12px;color:var(--text-muted);font-weight:700;">HOMEWORK AVERAGE</div>
+                <div style="font-size:22px;font-weight:800;color:#7c3aed;">
+                  ${inspectedHw.length ? Math.round(inspectedHw.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / inspectedHw.length) + "%" : (inspectedPupil.homeworkAverage ? inspectedPupil.homeworkAverage + "%" : "—")}
+                </div>
+              </div>
+              <div style="background:#fff;padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+                <div style="font-size:12px;color:var(--text-muted);font-weight:700;">WEAKEST AREA / COMMAND</div>
+                <div style="font-size:13.5px;font-weight:700;margin-top:4px;">${escapeHtml(inspectedPupil.weakestSubtopic || "—")} (${escapeHtml(inspectedPupil.weakestCommand || "—")})</div>
+              </div>
+            </div>
+
+            <div class="two-col-layout">
+              <!-- Pupil's Homework Marks -->
+              <div style="background:#fff;padding:14px;border-radius:10px;border:1px solid #cbd5e1;">
+                <h4 style="margin:0 0 10px 0;font-size:15px;">📅 Homework Marks &amp; Submissions (${inspectedHw.length})</h4>
+                ${inspectedHw.length === 0 ? `
+                  <p style="margin:0;font-size:13px;color:var(--text-muted);">No homework submissions recorded for ${escapeHtml(inspectedPupil.name)} yet.</p>
+                ` : `
+                  <div class="data-table-wrap" style="max-height:260px;overflow-y:auto;">
+                    <table class="data-table">
+                      <thead>
+                        <tr>
+                          <th>Month / Task</th>
+                          <th>Marks</th>
+                          <th>%</th>
+                          <th>Answer / Feedback</th>
+                          <th>Date</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${inspectedHw.map(h => `
+                          <tr>
+                            <td><strong>${escapeHtml(h.month || "Homework")}</strong><br/><small style="color:var(--text-muted);">${escapeHtml(h.topic || h.questionId || "")}</small></td>
+                            <td><strong>${h.marks ?? "—"}/${h.marksAvailable ?? "—"}</strong></td>
+                            <td><span class="badge ${(h.percentage || 0) >= 70 ? "badge-success" : (h.percentage || 0) >= 50 ? "badge-warning" : "badge-danger"}">${h.percentage ?? 0}%</span></td>
+                            <td style="font-size:12.5px;">${escapeHtml(h.answer || h.feedback || "")}</td>
+                            <td style="font-size:11.5px;color:var(--text-muted);">${escapeHtml(h.submittedAt || "—")}</td>
+                          </tr>
+                        `).join("")}
+                      </tbody>
+                    </table>
+                  </div>
+                `}
+              </div>
+
+              <!-- Pupil's Practice & Drill Results -->
+              <div style="background:#fff;padding:14px;border-radius:10px;border:1px solid #cbd5e1;">
+                <h4 style="margin:0 0 10px 0;font-size:15px;">📝 Past-Paper &amp; Command Drill Attempts (${inspectedAtt.length})</h4>
+                ${inspectedAtt.length === 0 ? `
+                  <p style="margin:0;font-size:13px;color:var(--text-muted);">No practice attempts recorded for ${escapeHtml(inspectedPupil.name)} yet.</p>
+                ` : `
+                  <div class="data-table-wrap" style="max-height:260px;overflow-y:auto;">
+                    <table class="data-table">
+                      <thead>
+                        <tr>
+                          <th>Topic / Subtopic</th>
+                          <th>Command</th>
+                          <th>Marks</th>
+                          <th>Answer &amp; Feedback</th>
+                          <th>Date</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${inspectedAtt.map(a => `
+                          <tr>
+                            <td><strong>${escapeHtml(a.subtopic || a.topic)}</strong><br/><small style="color:var(--text-muted);">${escapeHtml(a.topic || "")}</small></td>
+                            <td><span class="badge badge-primary">${escapeHtml((a.primaryCommand || "describe").toUpperCase())}</span></td>
+                            <td><strong>${a.marks}/${a.marksAvailable}</strong> (${a.percentage}%)</td>
+                            <td style="font-size:12.5px;">
+                              <div>${escapeHtml(a.answer || "")}</div>
+                              ${a.improvements?.length ? `<div style="color:#d97706;font-size:11.5px;margin-top:2px;">Target: ${escapeHtml(a.improvements[0])}</div>` : ""}
+                            </td>
+                            <td style="font-size:11.5px;color:var(--text-muted);">${escapeHtml(a.createdAt || "—")}</td>
+                          </tr>
+                        `).join("")}
+                      </tbody>
+                    </table>
+                  </div>
+                `}
+              </div>
+            </div>
+          </div>
+        ` : ""}
+
+        <!-- Pupil Roster Table Filter & Search -->
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px;">
+          <h3 style="font-size:17px;margin:0;">Individual Pupils, Practice Results &amp; Homework Marks (${filteredPupils.length} pupils)</h3>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            <input
+              type="text"
+              id="teacher-pupil-search"
+              placeholder="🔍 Search pupil name..."
+              value="${escapeHtml(state.teacherSearchQuery || "")}"
+              style="width:200px;padding:8px 11px;font-size:13.5px;"
+            />
+            <select id="teacher-class-filter" style="width:auto;padding:8px 11px;">
+              <option value="ALL" ${state.teacherClassFilter === "ALL" ? "selected" : ""}>All Classes (${state.pupils.length})</option>
+              ${state.classes.map(c => `<option value="${escapeHtml(c.code)}" ${state.teacherClassFilter === c.code ? "selected" : ""}>${escapeHtml(c.name)} (${escapeHtml(c.code)})</option>`).join("")}
+            </select>
+          </div>
+        </div>
+
+        <div class="data-table-wrap" style="margin-bottom:24px;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Pupil Name</th>
+                <th>Class</th>
+                <th>Practice Attempts</th>
+                <th>Practice Avg %</th>
+                <th>Homework Submitted</th>
+                <th>Homework Avg %</th>
+                <th>Weakest Subtopic</th>
+                <th>Weakest Command Word</th>
+                <th>Last Activity</th>
+                <th>Individual Breakdown</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${filteredPupils.length === 0 ? `
+                <tr><td colspan="10" style="text-align:center;color:var(--text-muted);">No pupils match this filter.</td></tr>
+              ` : filteredPupils.map(p => {
+                const pAtt = state.attempts.filter(a => a.userId === p.userId || (a.userName?.toLowerCase() === p.name.toLowerCase() && a.classCode?.toUpperCase() === p.classCode.toUpperCase()));
+                const pHw = state.homeworkSubmissions.filter(s => s.userId === p.userId || (s.userName?.toLowerCase() === p.name.toLowerCase() && s.classCode?.toUpperCase() === p.classCode.toUpperCase()));
+                const avg = pAtt.length ? Math.round(pAtt.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / pAtt.length) : (p.practiceAverage ?? null);
+                const hwAvg = pHw.length ? Math.round(pHw.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / pHw.length) : (p.homeworkAverage ?? null);
+                const weakest = [...pAtt].sort((a, b) => a.percentage - b.percentage)[0];
+                const weakSub = weakest ? (weakest.subtopic || weakest.topic) : (p.weakestSubtopic || "—");
+                const weakCmd = weakest ? (weakest.primaryCommand || "describe") : (p.weakestCommand || "—");
+                const lastAct = p.lastActiveAt || p.lastActivity || (pAtt[0]?.createdAt ? pAtt[0].createdAt : "—");
+                const isSelected = state.selectedPupilInspect === p.userId;
+                return `
+                  <tr style="${isSelected ? "background:#ccfbf1;" : ""}">
+                    <td>
+                      <button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#0f766e;font-weight:800;font-size:14px;cursor:pointer;text-decoration:underline;">
+                        ${escapeHtml(p.name)}
+                      </button>
+                    </td>
+                    <td><span class="badge badge-primary">${escapeHtml(p.classCode)}</span></td>
+                    <td><strong>${pAtt.length}</strong></td>
+                    <td>${avg !== null ? `<span class="badge ${avg >= 70 ? "badge-success" : avg >= 50 ? "badge-warning" : "badge-danger"}">${avg}%</span>` : "—"}</td>
+                    <td><strong>${pHw.length}</strong></td>
+                    <td>${hwAvg !== null ? `<span class="badge ${hwAvg >= 70 ? "badge-success" : hwAvg >= 50 ? "badge-warning" : "badge-danger"}">${hwAvg}%</span>` : "—"}</td>
+                    <td>${escapeHtml(weakSub)}</td>
+                    <td>${weakCmd !== "—" ? `<span class="badge">${escapeHtml(weakCmd)}</span>` : "—"}</td>
+                    <td style="font-size:12px;color:var(--text-muted);">${escapeHtml(lastAct)}</td>
+                    <td>
+                      <button type="button" class="btn btn-soft btn-sm" data-inspect-pupil="${escapeHtml(p.userId)}" style="white-space:nowrap;">
+                        📋 View Results &amp; Homework
+                      </button>
+                    </td>
+                  </tr>
+                `;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="two-col-layout">
           <!-- Create / Add Existing Class Code -->
           <div class="side-card">
-            <h3 style="font-size:16px;margin-bottom:6px;">1. Add or Register Existing Class Codes</h3>
+            <h3 style="font-size:16px;margin-bottom:6px;">Add or Register Class Codes</h3>
             <p style="font-size:13px;color:var(--text-secondary);margin:0 0 10px 0;">
-              Enter your current class names and codes from Floot (e.g. <code>4B1</code> / <code>BM4B1</code>) so pupils use the exact same details.
+              Active class codes: <code>4GBM1</code>, <code>4FBM2</code>, <code>4CBM3</code>, and <code>ABCD</code>. Add another class code anytime:
             </p>
             <div style="display:flex;gap:8px;flex-wrap:wrap;">
               <input type="text" id="new-class-name" placeholder="Class name, e.g. 4B1" value="${escapeHtml(state.newClassName)}" style="flex:1;" />
@@ -1391,76 +1621,22 @@
 
           <!-- Import Floot CSV or Bulk Pupil Roster -->
           <div class="side-card">
-            <h3 style="font-size:16px;margin-bottom:6px;">2. Import Existing Pupils & Class Codes (From Floot CSV or List)</h3>
+            <h3 style="font-size:16px;margin-bottom:6px;">Import Additional Pupils &amp; Class Codes</h3>
             <p style="font-size:13px;color:var(--text-secondary);margin:0 0 8px 0;">
-              Paste lines of <code>Pupil Name, Class Code</code> (or paste your exported Floot CSV) to pre-load all existing pupils immediately:
+              Paste lines of <code>Pupil Name, Class Code</code> to add more pupils to your roster:
             </p>
             <textarea
               id="import-csv-box"
-              rows="3"
-              placeholder="Jamie Smith, BM4B1&#10;Ava MacLeod, BM4B1&#10;Callum Reid, BM4B2"
+              rows="2"
+              placeholder="Jamie Smith, 4GBM1&#10;Ava MacLeod, 4FBM2"
             >${escapeHtml(state.importCsvText)}</textarea>
             <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
               <button type="button" class="btn btn-soft btn-sm" id="btn-import-roster">
-                ✓ Import Class Codes & Pupils
+                ✓ Import Class Codes &amp; Pupils
               </button>
               ${state.importStatusMsg ? `<span style="font-size:12.5px;color:var(--success);font-weight:600;">${escapeHtml(state.importStatusMsg)}</span>` : ""}
             </div>
           </div>
-        </div>
-
-        <!-- Pupil Roster Table -->
-        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px;">
-          <h3 style="font-size:17px;margin:0;">Pupil Progress & Areas Requiring Support (${filteredPupils.length} pupils)</h3>
-          <select id="teacher-class-filter" style="width:auto;">
-            <option value="ALL" ${state.teacherClassFilter === "ALL" ? "selected" : ""}>All Classes (${state.pupils.length})</option>
-            ${state.classes.map(c => `<option value="${escapeHtml(c.code)}" ${state.teacherClassFilter === c.code ? "selected" : ""}>${escapeHtml(c.name)} (${escapeHtml(c.code)})</option>`).join("")}
-          </select>
-        </div>
-
-        <div class="data-table-wrap">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th>Pupil</th>
-                <th>Class</th>
-                <th>Practice attempts</th>
-                <th>Practice average %</th>
-                <th>Homework submitted</th>
-                <th>Homework average %</th>
-                <th>Weakest subtopic</th>
-                <th>Weakest command word</th>
-                <th>Last activity</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${filteredPupils.length === 0 ? `
-                <tr><td colspan="9" style="text-align:center;color:var(--text-muted);">No pupils in this filter yet.</td></tr>
-              ` : filteredPupils.map(p => {
-                const pAtt = state.attempts.filter(a => a.userId === p.userId || (a.userName?.toLowerCase() === p.name.toLowerCase() && a.classCode?.toUpperCase() === p.classCode.toUpperCase()));
-                const pHw = state.homeworkSubmissions.filter(s => s.userId === p.userId || (s.userName?.toLowerCase() === p.name.toLowerCase() && s.classCode?.toUpperCase() === p.classCode.toUpperCase()));
-                const avg = pAtt.length ? Math.round(pAtt.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / pAtt.length) : (p.practiceAverage ?? null);
-                const hwAvg = pHw.length ? Math.round(pHw.reduce((x, y) => x + (Number(y.percentage) || 0), 0) / pHw.length) : (p.homeworkAverage ?? null);
-                const weakest = [...pAtt].sort((a, b) => a.percentage - b.percentage)[0];
-                const weakSub = weakest ? (weakest.subtopic || weakest.topic) : (p.weakestSubtopic || "—");
-                const weakCmd = weakest ? (weakest.primaryCommand || "describe") : (p.weakestCommand || "—");
-                const lastAct = p.lastActiveAt || p.lastActivity || (pAtt[0]?.createdAt ? new Date(pAtt[0].createdAt).toLocaleString("en-GB") : "—");
-                return `
-                  <tr>
-                    <td><strong>${escapeHtml(p.name)}</strong></td>
-                    <td><span class="badge badge-primary">${escapeHtml(p.classCode)}</span></td>
-                    <td>${pAtt.length}</td>
-                    <td>${avg !== null ? `<span class="badge ${avg >= 70 ? "badge-success" : avg >= 50 ? "badge-warning" : "badge-danger"}">${avg}%</span>` : "—"}</td>
-                    <td>${pHw.length}</td>
-                    <td>${hwAvg !== null ? `<span class="badge ${hwAvg >= 70 ? "badge-success" : hwAvg >= 50 ? "badge-warning" : "badge-danger"}">${hwAvg}%</span>` : "—"}</td>
-                    <td>${escapeHtml(weakSub)}</td>
-                    <td>${weakCmd !== "—" ? `<span class="badge">${escapeHtml(weakCmd)}</span>` : "—"}</td>
-                    <td style="font-size:12px;color:var(--text-muted);">${escapeHtml(lastAct)}</td>
-                  </tr>
-                `;
-              }).join("")}
-            </tbody>
-          </table>
         </div>
       </section>
     `;
@@ -1505,7 +1681,8 @@
           </div>
         ` : ""}
 
-        <!-- OVERVIEW DASHBOARD & COURSE CARDS -->
+        ${!isTeacher ? `
+        <!-- OVERVIEW DASHBOARD & COURSE CARDS (Pupil View) -->
         <section class="dashboard-overview">
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
             <div>
@@ -1540,9 +1717,15 @@
             `).join("")}
           </div>
         </section>
+        ` : ""}
 
         <!-- NAVIGATION TABS -->
-        <nav class="nav-tabs" id="hub-workspace">
+        <nav class="nav-tabs" id="hub-workspace" style="margin-top:${isTeacher ? "16px" : "0"};">
+          ${isTeacher ? `
+            <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher" style="font-weight:800;">
+              🎓 Teacher Dashboard (41 Pupils · Results &amp; Homework)
+            </button>
+          ` : ""}
           <button type="button" class="nav-tab ${state.activeTab === "drills" ? "active" : ""}" data-tab="drills">
             ⚡ Command Word Drills (Identify · Describe · Explain)
           </button>
@@ -1561,11 +1744,6 @@
           <button type="button" class="nav-tab ${state.activeTab === "progress" ? "active" : ""}" data-tab="progress">
             📊 My Progress & Weak Areas
           </button>
-          ${isTeacher ? `
-            <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher">
-              🎓 Teacher Dashboard
-            </button>
-          ` : ""}
         </nav>
 
         ${state.activeTab === "drills" ? renderDrillsTab(analytics) : ""}
@@ -1578,6 +1756,7 @@
 
         <!-- MOBILE BOTTOM NAVIGATION DOCK -->
         <nav class="mobile-dock">
+          ${isTeacher ? `<button type="button" class="${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher">🎓<span>Teacher</span></button>` : ""}
           <button type="button" class="${state.activeTab === "drills" ? "active" : ""}" data-tab="drills">⚡<span>Drills</span></button>
           <button type="button" class="${state.activeTab === "lessons" ? "active" : ""}" data-tab="lessons">▶<span>Videos</span></button>
           <button type="button" class="${state.activeTab === "practice" ? "active" : ""}" data-tab="practice">📝<span>Practice</span></button>
@@ -2241,6 +2420,29 @@
 
     document.getElementById("teacher-class-filter")?.addEventListener("change", e => {
       state.teacherClassFilter = e.target.value;
+      render();
+    });
+
+    document.getElementById("teacher-pupil-search")?.addEventListener("input", e => {
+      state.teacherSearchQuery = e.target.value;
+      render();
+      const inputEl = document.getElementById("teacher-pupil-search");
+      if (inputEl) {
+        inputEl.focus();
+        inputEl.setSelectionRange(inputEl.value.length, inputEl.value.length);
+      }
+    });
+
+    document.querySelectorAll("[data-inspect-pupil]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const uid = btn.getAttribute("data-inspect-pupil");
+        state.selectedPupilInspect = state.selectedPupilInspect === uid ? null : uid;
+        render();
+      });
+    });
+
+    document.getElementById("btn-close-pupil-inspect")?.addEventListener("click", () => {
+      state.selectedPupilInspect = null;
       render();
     });
 
