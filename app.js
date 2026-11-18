@@ -238,23 +238,31 @@
     window.navigator?.standalone || window.matchMedia?.("(display-mode: standalone)")?.matches
   );
 
-  if (saved.user?.role === "admin" && saved.user?.name?.includes("Martin")) {
-    saved.user.name = "Mrs Straub (Business Teacher)";
+  const isTeacherUrl = new URLSearchParams(window.location.search).has("teacher");
+
+  // Clear any legacy cached teacher login (e.g. Mrs Martin) that did not unlock with the new Teacher PIN,
+  // and if the user is opening the pupil link (without ?teacher=1), never auto-open the Teacher session!
+  if (saved.user?.role === "admin") {
+    if (!saved.user.pinVerified || !isTeacherUrl) {
+      saved.user = null;
+    } else if (saved.user.name?.includes("Martin")) {
+      saved.user.name = "Mrs Straub (Business Teacher)";
+    }
   }
 
   const state = {
-    user: saved.user || null,
+    user: isTeacherUrl ? null : (saved.user || null),
     rememberedPupil: saved.rememberedPupil || (saved.user && saved.user.role !== "admin" ? saved.user : null),
     showPhoneAppModal: !isStandaloneApp,
     loginName: "",
     loginCode: "",
     loginError: "",
-    showTeacherLogin: new URLSearchParams(window.location.search).has("teacher"),
+    showTeacherLogin: isTeacherUrl,
     teacherNameInput: "Mrs Straub (Business Teacher)",
     teacherPinInput: "",
     teacherPinError: "",
-    teacherUnlocked: saved.user?.role === "admin",
-    activeTab: saved.user?.role === "admin" ? "teacher" : "drills", // 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
+    teacherUnlocked: false,
+    activeTab: "drills", // 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
 
     // Command Word Drills state
     drillCategory: "identify", // 'identify' | 'describe' | 'explain' | 'compare' | 'justify' | 'multicommand'
@@ -559,14 +567,19 @@
           </div>
 
           ${state.showTeacherLogin ? `
-            <div class="teacher-area" style="display:flex;flex-direction:column;gap:10px;margin-top:14px;padding:14px;border-radius:12px;background:#f8fafc;border:1.5px solid #cbd5e1;">
-              <div style="font-weight:700;font-size:14px;color:var(--text);">🔒 Private Teacher Dashboard Access</div>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Your Teacher Name" style="flex:1;min-width:160px;padding:10px;border-radius:8px;border:1px solid #cbd5e1;font-size:14px;" />
-                <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" style="width:160px;padding:10px;border-radius:8px;border:1px solid #cbd5e1;font-size:14px;" />
+            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #0f766e;">
+              <div style="font-weight:800;font-size:16px;color:#0f766e;">🔒 Private Teacher Dashboard Login (Mrs Straub)</div>
+              <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock the Teacher Dashboard &amp; Class Progress Reports.</p>
+              <div style="display:flex;flex-direction:column;gap:10px;">
+                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
+                  <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #cbd5e1;font-size:14.5px;" />
+                </label>
+                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Password / PIN
+                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #0f766e;font-size:15px;" />
+                </label>
               </div>
-              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13px;font-weight:600;">${escapeHtml(state.teacherPinError)}</div>` : ""}
-              <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:12px;font-size:14.5px;">
+              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13.5px;font-weight:700;padding:8px 10px;background:#fef2f2;border-radius:8px;border:1px solid #fecaca;">${escapeHtml(state.teacherPinError)}</div>` : ""}
+              <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:13px;font-size:15px;font-weight:700;">
                 🎓 Unlock Teacher Dashboard
               </button>
             </div>
@@ -1780,6 +1793,13 @@
       state.teacherPinError = "";
     });
 
+    document.getElementById("teacher-pin-field")?.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        document.getElementById("btn-teacher-login")?.click();
+      }
+    });
+
     document.getElementById("btn-teacher-login")?.addEventListener("click", async () => {
       const pin = (state.teacherPinInput || "").trim().toUpperCase();
       const validPins = ["2026", "STRAUB", "N5BM", "TEACHER2026"];
@@ -1795,7 +1815,8 @@
         name: state.teacherNameInput.trim() || "Mrs Straub (Business Teacher)",
         role: "admin",
         teacher: true,
-        owner: true
+        owner: true,
+        pinVerified: true
       };
       state.activeTab = "teacher";
       saveLocalState();
@@ -2262,15 +2283,11 @@
     const params = new URLSearchParams(window.location.search);
     if (params.has("teacher")) {
       state.showTeacherLogin = true;
-      if (state.user?.role === "admin") {
-        if (state.user.name?.includes("Martin")) {
-          state.user.name = "Mrs Straub (Business Teacher)";
-          saveLocalState();
-        }
-        state.activeTab = "teacher";
-      } else {
-        state.user = null;
-      }
+      state.user = null;
+      saveLocalState();
+    } else if (state.user?.role === "admin") {
+      state.user = null;
+      saveLocalState();
     }
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
