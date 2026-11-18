@@ -238,6 +238,10 @@
     window.navigator?.standalone || window.matchMedia?.("(display-mode: standalone)")?.matches
   );
 
+  if (saved.user?.role === "admin" && saved.user?.name?.includes("Martin")) {
+    saved.user.name = "Mrs Straub (Business Teacher)";
+  }
+
   const state = {
     user: saved.user || null,
     rememberedPupil: saved.rememberedPupil || (saved.user && saved.user.role !== "admin" ? saved.user : null),
@@ -245,10 +249,12 @@
     loginName: "",
     loginCode: "",
     loginError: "",
-    showTeacherLogin: false,
-    teacherNameInput: "Mrs Martin (Business Teacher)",
-
-    activeTab: "drills", // 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
+    showTeacherLogin: new URLSearchParams(window.location.search).has("teacher"),
+    teacherNameInput: "Mrs Straub (Business Teacher)",
+    teacherPinInput: "",
+    teacherPinError: "",
+    teacherUnlocked: saved.user?.role === "admin",
+    activeTab: saved.user?.role === "admin" ? "teacher" : "drills", // 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
 
     // Command Word Drills state
     drillCategory: "identify", // 'identify' | 'describe' | 'explain' | 'compare' | 'justify' | 'multicommand'
@@ -552,18 +558,19 @@
             ` : ""}
           </div>
 
-          <div class="teacher-area" style="display:flex;flex-direction:column;gap:10px;margin-top:14px;">
-            <button type="button" class="btn btn-soft" id="btn-teacher-login" style="width:100%;padding:12px;font-size:14.5px;">
-              🎓 Teacher Login — Open Teacher Dashboard
-            </button>
-            <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
-              <span style="font-size:12px;color:var(--text-muted);font-weight:600;">1-Click Returning Pupil Test (Name Only):</span>
-              <button type="button" class="btn btn-outline btn-sm" data-demo-pupil="Erin Newton||">Erin Newton</button>
-              <button type="button" class="btn btn-outline btn-sm" data-demo-pupil="Aaron Coutts||">Aaron Coutts</button>
-              <button type="button" class="btn btn-outline btn-sm" data-demo-pupil="Jamie Marshall||">Jamie Marshall</button>
-              <button type="button" class="btn btn-outline btn-sm" data-demo-pupil="Mr Stephenson||">Mr Stephenson</button>
+          ${state.showTeacherLogin ? `
+            <div class="teacher-area" style="display:flex;flex-direction:column;gap:10px;margin-top:14px;padding:14px;border-radius:12px;background:#f8fafc;border:1.5px solid #cbd5e1;">
+              <div style="font-weight:700;font-size:14px;color:var(--text);">🔒 Private Teacher Dashboard Access</div>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Your Teacher Name" style="flex:1;min-width:160px;padding:10px;border-radius:8px;border:1px solid #cbd5e1;font-size:14px;" />
+                <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" style="width:160px;padding:10px;border-radius:8px;border:1px solid #cbd5e1;font-size:14px;" />
+              </div>
+              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13px;font-weight:600;">${escapeHtml(state.teacherPinError)}</div>` : ""}
+              <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:12px;font-size:14.5px;">
+                🎓 Unlock Teacher Dashboard
+              </button>
             </div>
-          </div>
+          ` : ""}
 
           <div class="login-features">
             <div>✓ <strong>Returning Pupils:</strong> Sign in with <strong>just your name</strong> (all 41 existing pupils already linked!)</div>
@@ -1464,11 +1471,6 @@
             <span class="badge badge-primary">
               👤 ${escapeHtml(state.user.name)} ${state.user.classCode ? `(${escapeHtml(state.user.classCode)})` : "(Teacher)"}
             </span>
-            ${!isTeacher ? `
-              <button type="button" class="btn btn-outline btn-sm" id="btn-switch-teacher">
-                Teacher View
-              </button>
-            ` : ""}
             <button type="button" class="btn btn-outline btn-sm" id="btn-logout">
               Sign out
             </button>
@@ -1736,10 +1738,28 @@
       });
     });
 
+    document.getElementById("teacher-name-field")?.addEventListener("input", e => {
+      state.teacherNameInput = e.target.value;
+    });
+
+    document.getElementById("teacher-pin-field")?.addEventListener("input", e => {
+      state.teacherPinInput = e.target.value;
+      state.teacherPinError = "";
+    });
+
     document.getElementById("btn-teacher-login")?.addEventListener("click", async () => {
+      const pin = (state.teacherPinInput || "").trim().toUpperCase();
+      const validPins = ["2026", "STRAUB", "N5BM", "TEACHER2026"];
+      if (!validPins.includes(pin)) {
+        state.teacherPinError = "Incorrect Teacher PIN. Please enter your Teacher PIN to access the Teacher Dashboard.";
+        render();
+        return;
+      }
+      state.teacherPinError = "";
+      state.teacherUnlocked = true;
       state.user = {
         userId: "teacher-owner",
-        name: state.teacherNameInput.trim() || "Teacher",
+        name: state.teacherNameInput.trim() || "Mrs Straub (Business Teacher)",
         role: "admin",
         teacher: true,
         owner: true
@@ -1750,21 +1770,10 @@
       render();
     });
 
-    document.getElementById("btn-switch-teacher")?.addEventListener("click", () => {
-      state.user = {
-        userId: "teacher-owner",
-        name: "Teacher (Admin View)",
-        role: "admin",
-        teacher: true,
-        owner: true
-      };
-      state.activeTab = "teacher";
-      saveLocalState();
-      render();
-    });
-
     document.getElementById("btn-logout")?.addEventListener("click", () => {
       state.user = null;
+      state.teacherUnlocked = false;
+      state.teacherPinInput = "";
       saveLocalState();
       render();
     });
@@ -2215,9 +2224,21 @@
     });
   }
 
-  // Support 1-tap launch from Google Classroom / Phone Quick-Login button (?pupil=Name&code=4GBM1)
+  // Support 1-tap launch from Google Classroom / Phone Quick-Login button (?pupil=Name&code=4GBM1) or Private Teacher Link (?teacher=1)
   try {
     const params = new URLSearchParams(window.location.search);
+    if (params.has("teacher")) {
+      state.showTeacherLogin = true;
+      if (state.user?.role === "admin") {
+        if (state.user.name?.includes("Martin")) {
+          state.user.name = "Mrs Straub (Business Teacher)";
+          saveLocalState();
+        }
+        state.activeTab = "teacher";
+      } else {
+        state.user = null;
+      }
+    }
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
     if (urlPupil.length >= 2) {
