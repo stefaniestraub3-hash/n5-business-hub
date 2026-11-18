@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>N5 Business Hub — Quick Login</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="N5 Business" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#0f766e" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%230f766e'/%3E%3Ctext x='96' y='112' font-family='Arial,sans-serif' font-size='76' font-weight='900' fill='white' text-anchor='middle'%3EN5%3C/text%3E%3Ctext x='96' y='152' font-family='Arial,sans-serif' font-size='24' font-weight='700' fill='%23ccfbf1' text-anchor='middle'%3EBUSINESS%3C/text%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%230f766e'/%3E%3Ctext x='96' y='112' font-family='Arial,sans-serif' font-size='76' font-weight='900' fill='white' text-anchor='middle'%3EN5%3C/text%3E%3Ctext x='96' y='152' font-family='Arial,sans-serif' font-size='24' font-weight='700' fill='%23ccfbf1' text-anchor='middle'%3EBUSINESS%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root {
+      --bg: #f1f5f9;
+      --card: #ffffff;
+      --primary: #0f766e;
+      --primary-hover: #115e59;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #cbd5e1;
+      --tint: #f0fdfa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(145deg, #0f172a 0%, #134e4a 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .launcher-card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card);
+      border-radius: 22px;
+      padding: 24px 20px;
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+      text-align: center;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #0f766e, #0d9488);
+      color: #ffffff;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      margin-bottom: 12px;
+      box-shadow: 0 10px 20px rgba(15, 118, 110, 0.3);
+    }
+    .app-icon .n5 { font-size: 28px; line-height: 1; }
+    .app-icon .sub { font-size: 9px; letter-spacing: 0.08em; opacity: 0.9; margin-top: 2px; }
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 21px;
+      line-height: 1.25;
+      color: var(--text);
+    }
+    .subtitle {
+      margin: 0 0 18px 0;
+      font-size: 13.5px;
+      color: var(--muted);
+    }
+    .saved-box {
+      background: var(--tint);
+      border: 1.5px solid #99f6e4;
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+    .saved-box label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #0f766e;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .input-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    input, select {
+      width: 100%;
+      padding: 11px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      background: #ffffff;
+    }
+    .launch-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 16px 20px;
+      border-radius: 14px;
+      border: none;
+      background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%);
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(15, 118, 110, 0.35);
+      transition: transform 0.12s ease;
+    }
+    .launch-btn:active {
+      transform: scale(0.98);
+    }
+    .class-pills {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-top: 8px;
+    }
+    .class-pill {
+      padding: 7px 4px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      font-size: 11.5px;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text);
+    }
+    .class-pill.active {
+      background: #0f766e;
+      color: #ffffff;
+      border-color: #0f766e;
+    }
+    .phone-tip {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      text-align: left;
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .phone-tip strong { color: var(--text); }
+    .status-note {
+      font-size: 12px;
+      color: #0f766e;
+      font-weight: 700;
+      margin-top: 8px;
+      min-height: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main class="launcher-card">
+    <div class="app-icon">
+      <span class="n5">N5</span>
+      <span class="sub">BUSINESS</span>
+    </div>
+    <h1>N5 Business Revision Hub</h1>
+    <p class="subtitle">1-Tap Phone &amp; Google Classroom Quick Login</p>
+
+    <div class="saved-box">
+      <label for="pupil-name">Your Full Name (Saved on your phone)</label>
+      <div class="input-row">
+        <input id="pupil-name" type="text" placeholder="e.g. Erin Newton" autocomplete="name" />
+      </div>
+
+      <label style="margin-top:10px;">Your Class (Only needed for 1st login)</label>
+      <div class="class-pills">
+        <button type="button" class="class-pill" data-code="4GBM1" onclick="pickCode('4GBM1')">4GBM<br/><span style="font-size:10px;opacity:0.8;">4GBM1</span></button>
+        <button type="button" class="class-pill" data-code="4FBM2" onclick="pickCode('4FBM2')">4FBM<br/><span style="font-size:10px;opacity:0.8;">4FBM2</span></button>
+        <button type="button" class="class-pill" data-code="4CBM3" onclick="pickCode('4CBM3')">4CBM<br/><span style="font-size:10px;opacity:0.8;">4CBM3</span></button>
+        <button type="button" class="class-pill" data-code="ABCD" onclick="pickCode('ABCD')">4E<br/><span style="font-size:10px;opacity:0.8;">ABCD</span></button>
+      </div>
+      <div id="save-status" class="status-note">✓ Type your name once — your phone remembers it!</div>
+    </div>
+
+    <a id="launch-link" href="https://stefaniestraub3-hash.github.io/n5-business-hub/" onclick="handleLaunch(event)" class="launch-btn">
+      🚀 Tap to Log In Now
+    </a>
+
+    <div class="phone-tip">
+      <strong>📲 How to save this button to your Phone Home Screen:</strong><br/>
+      • <strong>iPhone (Safari):</strong> Tap the <strong>Share</strong> icon (square with arrow ↑) at the bottom, then tap <strong>"Add to Home Screen"</strong>.<br/>
+      • <strong>Android (Chrome):</strong> Tap the <strong>3 dots (⋮)</strong> in the top corner, then tap <strong>"Add to Home screen"</strong>.<br/>
+      • <strong>Google Classroom:</strong> Tap this attachment any time to launch straight into your revision!
+    </div>
+  </main>
+
+  <script>
+    const HUB_URL = "https://stefaniestraub3-hash.github.io/n5-business-hub/";
+    const nameInput = document.getElementById("pupil-name");
+    const statusEl = document.getElementById("save-status");
+    let selectedCode = localStorage.getItem("n5_saved_code") || "4GBM1";
+
+    // Restore saved pupil details on this phone/Chromebook
+    const savedName = localStorage.getItem("n5_saved_name") || "";
+    if (savedName) {
+      nameInput.value = savedName;
+      statusEl.textContent = "✓ Welcome back, " + savedName + " (" + selectedCode + ")!";
+    }
+    highlightCode(selectedCode);
+
+    nameInput.addEventListener("input", () => {
+      const val = nameInput.value.trim();
+      localStorage.setItem("n5_saved_name", val);
+      if (val) {
+        statusEl.textContent = "✓ Saved on this device: " + val + " (" + selectedCode + ")";
+      }
+    });
+
+    function pickCode(code) {
+      selectedCode = code;
+      localStorage.setItem("n5_saved_code", code);
+      highlightCode(code);
+      const val = nameInput.value.trim();
+      statusEl.textContent = val
+        ? "✓ Saved: " + val + " · Class Code: " + code
+        : "✓ Class Code selected: " + code;
+    }
+
+    function highlightCode(code) {
+      document.querySelectorAll(".class-pill").forEach(btn => {
+        btn.classList.toggle("active", btn.getAttribute("data-code") === code);
+      });
+    }
+
+    function handleLaunch(e) {
+      const val = nameInput.value.trim();
+      if (val) {
+        localStorage.setItem("n5_saved_name", val);
+        try {
+          navigator.clipboard?.writeText(val);
+        } catch {}
+      }
+      const target = HUB_URL + (val ? "?pupil=" + encodeURIComponent(val) + "&code=" + encodeURIComponent(selectedCode) : "");
+      document.getElementById("launch-link").href = target;
+    }
+  </script>
+</body>
+</html>
