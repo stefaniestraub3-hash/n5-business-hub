@@ -484,6 +484,40 @@
   }
 
   function renderLogin() {
+    // Dedicated Private Teacher Login Screen (ONLY shown when opening ?teacher=1)
+    if (state.showTeacherLogin) {
+      return `
+        <main class="login-page">
+          <section class="login-panel">
+            <div class="login-logo">N5</div>
+            <p class="kicker">NATIONAL 5 BUSINESS MANAGEMENT · PRIVATE TEACHER PORTAL</p>
+            <h1>🔒 Teacher Dashboard Sign-In</h1>
+            <p class="login-lead">
+              This private portal is only accessible via your personal teacher link (<code>?teacher=1</code>) and does <strong>not</strong> appear on the pupils' login page.
+            </p>
+
+            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #0f766e;">
+              <div style="font-weight:800;font-size:16px;color:#0f766e;">🎓 Mrs Straub — Teacher Dashboard &amp; Class Records</div>
+              <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock individual pupil records, saved answers, practice marks, and monthly homework results.</p>
+              <div style="display:flex;flex-direction:column;gap:10px;">
+                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
+                  <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #cbd5e1;font-size:14.5px;" />
+                </label>
+                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Password / PIN
+                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #0f766e;font-size:15px;" />
+                </label>
+              </div>
+              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13.5px;font-weight:700;padding:8px 10px;background:#fef2f2;border-radius:8px;border:1px solid #fecaca;">${escapeHtml(state.teacherPinError)}</div>` : ""}
+              <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:13px;font-size:15px;font-weight:700;">
+                🎓 Unlock Teacher Dashboard
+              </button>
+            </div>
+          </section>
+        </main>
+      `;
+    }
+
+    // Pupil Login Page (Zero Teacher Login elements or buttons anywhere on this page)
     const matchedPupil = findExistingPupilByName(state.loginName, state.loginCode);
     const rem = state.rememberedPupil;
     return `
@@ -565,25 +599,6 @@
               </div>
             ` : ""}
           </div>
-
-          ${state.showTeacherLogin ? `
-            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #0f766e;">
-              <div style="font-weight:800;font-size:16px;color:#0f766e;">🔒 Private Teacher Dashboard Login (Mrs Straub)</div>
-              <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock the Teacher Dashboard &amp; Class Progress Reports.</p>
-              <div style="display:flex;flex-direction:column;gap:10px;">
-                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
-                  <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #cbd5e1;font-size:14.5px;" />
-                </label>
-                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Password / PIN
-                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #0f766e;font-size:15px;" />
-                </label>
-              </div>
-              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13.5px;font-weight:700;padding:8px 10px;background:#fef2f2;border-radius:8px;border:1px solid #fecaca;">${escapeHtml(state.teacherPinError)}</div>` : ""}
-              <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:13px;font-size:15px;font-weight:700;">
-                🎓 Unlock Teacher Dashboard
-              </button>
-            </div>
-          ` : ""}
 
           <div class="login-features">
             <div>✓ <strong>Returning Pupils:</strong> Sign in with <strong>just your name</strong> (all 41 existing pupils already linked!)</div>
