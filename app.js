@@ -190,7 +190,29 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (parsed.pupils && parsed.pupils.length >= 40) return parsed;
+        if (parsed.pupils && parsed.pupils.length >= 40) {
+          // Automatically upgrade any legacy synthetic placeholder homework or practice records
+          const hasLegacyHw = (parsed.homeworkSubmissions || []).some(
+            s => String(s.id || "").startsWith("hist-hw-") || String(s.answer || "").startsWith("Submitted homework answer")
+          );
+          if (hasLegacyHw || !(parsed.homeworkSubmissions || []).length) {
+            const customHw = (parsed.homeworkSubmissions || []).filter(
+              s => !String(s.id || "").startsWith("hist-hw-") && !String(s.answer || "").startsWith("Submitted homework answer")
+            );
+            parsed.homeworkSubmissions = [...(init.homeworkSubmissions || []), ...customHw];
+          }
+
+          const hasLegacyAtt = (parsed.attempts || []).some(
+            a => String(a.id || "").startsWith("hist-att-") || String(a.answer || "").startsWith("Saved historical attempt")
+          );
+          if (hasLegacyAtt || !(parsed.attempts || []).length) {
+            const customAtt = (parsed.attempts || []).filter(
+              a => !String(a.id || "").startsWith("hist-att-") && !String(a.answer || "").startsWith("Saved historical attempt")
+            );
+            parsed.attempts = [...customAtt, ...(init.attempts || [])];
+          }
+          return parsed;
+        }
       }
     } catch {}
     return {
@@ -1770,9 +1792,10 @@
                           ${escapeHtml(qTitle)} — <span class="badge ${(h.percentage || 0) >= 70 ? "badge-success" : (h.percentage || 0) >= 50 ? "badge-warning" : "badge-danger"}">${h.marks ?? 0}/${h.marksAvailable ?? hwObj?.marks ?? "—"} (${h.percentage ?? 0}%)</span> — <span style="font-weight:400;color:var(--text-muted);font-size:12px;">${escapeHtml(h.submittedAt || "—")}</span>
                         </summary>
                         ${qPrompt ? `<p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qPrompt)}</p>` : ""}
-                        <p style="margin:4px 0;white-space:pre-wrap;"><strong>Saved answer:</strong> ${escapeHtml(h.answer || "—")}</p>
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #0f766e;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(h.answer || "—")}</p>
+                        ${Array.isArray(h.awardedPoints) && h.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(h.awardedPoints.join(" · "))}</p>` : ""}
                         ${h.feedback ? `<p style="margin:4px 0;color:#0f766e;"><strong>Feedback:</strong> ${escapeHtml(h.feedback)}</p>` : ""}
-                        ${Array.isArray(h.improvements) && h.improvements.length > 0 ? `<p style="margin:4px 0;color:#d97706;"><strong>Next steps:</strong> ${escapeHtml(h.improvements.join("; "))}</p>` : ""}
+                        ${Array.isArray(h.improvements) && h.improvements.length > 0 ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(h.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
                   }).join("")}
@@ -1786,7 +1809,7 @@
               ${inspectedPupil.pAtt.length === 0 ? `
                 <p style="margin:0;font-size:13px;color:var(--text-muted);">No practice attempts recorded for ${escapeHtml(inspectedPupil.name)} yet.</p>
               ` : `
-                <div style="display:grid;gap:8px;max-height:360px;overflow-y:auto;">
+                <div style="display:grid;gap:8px;max-height:420px;overflow-y:auto;">
                   ${inspectedPupil.pAtt.map(a => {
                     const qObj = DATA.questions.find(q => q.id === a.questionId);
                     return `
@@ -1796,8 +1819,10 @@
                         </summary>
                         <p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qObj?.text || a.questionId)}</p>
                         <p style="margin:4px 0;"><strong>Command word:</strong> <span class="badge badge-primary">${escapeHtml((a.primaryCommand || qObj?.primaryCommand || "describe").toUpperCase())}</span> · <strong>Hint used:</strong> ${a.hintUsed ? "Yes" : "No"}</p>
-                        <p style="margin:4px 0;white-space:pre-wrap;"><strong>Pupil answer:</strong> ${escapeHtml(a.answer || "")}</p>
-                        ${a.improvements?.length ? `<p style="margin:4px 0;color:#d97706;"><strong>To improve:</strong> ${escapeHtml(a.improvements.join("; "))}</p>` : ""}
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #0f766e;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(a.answer || "")}</p>
+                        ${Array.isArray(a.awardedPoints) && a.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(a.awardedPoints.join(" · "))}</p>` : ""}
+                        ${a.feedback ? `<p style="margin:4px 0;color:#0f766e;"><strong>Feedback:</strong> ${escapeHtml(a.feedback)}</p>` : ""}
+                        ${a.improvements?.length ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(a.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
                   }).join("")}

@@ -174,10 +174,10 @@ window.N5_HUB_DATA = {
         "Listing factors of production terms without showing what they mean.",
         "Giving a vague effect without linking it to a business consequence."
       ],
-      "model": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals.",
+      "model": "A fishing business belongs to primary industry because it harvests a natural resource, while a caf\u00e9 belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “capital” in your own words.",
+          "prompt": "Quick recall: define \u201ccapital\u201d in your own words.",
           "answer": "Man-made resources used to produce goods or services, such as machinery, tools and buildings."
         },
         {
@@ -186,12 +186,12 @@ window.N5_HUB_DATA = {
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to role of business in society.",
-          "answer": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals."
+          "answer": "A fishing business belongs to primary industry because it harvests a natural resource, while a caf\u00e9 belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals."
         }
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business Management — Understanding Business (Sectors & Factors of Production)",
+        "title": "SQA National 5 Business Management \u2014 Understanding Business (Sectors & Factors of Production)",
         "channel": "SQA N5 Business Revision",
         "duration": "12:15",
         "summary": "Covers sectors of industry (primary, secondary, tertiary), sectors of economy (private, public, third) and the four factors of production (land, labour, capital, enterprise)."
@@ -262,7 +262,7 @@ window.N5_HUB_DATA = {
       "model": "Training customer-service staff helps them answer questions accurately, which can increase satisfaction and repeat purchases.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “after-sales service” in your own words.",
+          "prompt": "Quick recall: define \u201cafter-sales service\u201d in your own words.",
           "answer": "Support provided after a sale, such as help, repairs, returns or warranties."
         },
         {
@@ -276,7 +276,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "RIpkIWk8VTY",
-        "title": "National 5 Business Management — Maximising Customer Satisfaction & Loyalty",
+        "title": "National 5 Business Management \u2014 Maximising Customer Satisfaction & Loyalty",
         "channel": "FVWL RIC N5 Business",
         "duration": "10:40",
         "summary": "How organisations deliver high standards of customer service, handle complaints, offer after-sales support, and the benefits of repeat custom."
@@ -368,7 +368,7 @@ window.N5_HUB_DATA = {
         "Compare each organisation by who owns it, who controls decisions, where finance comes from and its advantages/disadvantages. Sole traders retain control but bear financial risk; partnerships pool skills and capital but may disagree; private limited companies can raise private share capital and normally protect shareholders with limited liability.",
         "Public-sector organisations are accountable to government and provide services; charities/non-profit organisations prioritise their purposes; social enterprises trade to achieve social or environmental goals. A simple business plan outlines objectives, the product or service, target market, competition, resources and financial forecasts."
       ],
-      "example": "Two friends form a partnership to run a café. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand.",
+      "example": "Two friends form a partnership to run a caf\u00e9. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key business ownership term.",
@@ -382,12 +382,12 @@ window.N5_HUB_DATA = {
       "model": "A private limited company protects shareholders through limited liability, so their personal assets are normally not at risk for company debts; however, it faces more reporting requirements.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “business plan” in your own words.",
+          "prompt": "Quick recall: define \u201cbusiness plan\u201d in your own words.",
           "answer": "A written document outlining a business idea, objectives, market, operations, expected costs and finance, used to guide decisions and attract support."
         },
         {
           "prompt": "Application: give one realistic business example of business organisations, entrepreneurs & business plans.",
-          "answer": "Two friends form a partnership to run a café. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand."
+          "answer": "Two friends form a partnership to run a caf\u00e9. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to business organisations, entrepreneurs & business plans.",
@@ -396,7 +396,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business — Sole Traders, Partnerships, Private Ltd Companies & Charities",
+        "title": "SQA National 5 Business \u2014 Sole Traders, Partnerships, Private Ltd Companies & Charities",
         "channel": "SQA N5 Business Revision",
         "duration": "14:20",
         "summary": "Compares ownership, control, liability, and sources of finance across sole traders, partnerships, private limited companies (Ltd), franchises, social enterprises and charities."
@@ -492,7 +492,7 @@ window.N5_HUB_DATA = {
       "model": "Growth may lead a business to open new branches, increasing scale and potential sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “customer satisfaction” in your own words.",
+          "prompt": "Quick recall: define \u201ccustomer satisfaction\u201d in your own words.",
           "answer": "The extent to which a product or service meets or exceeds customer expectations."
         },
         {
@@ -506,7 +506,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "National 5 Business — Business Objectives (Survival, Profit, Growth, Social Responsibility)",
+        "title": "National 5 Business \u2014 Business Objectives (Survival, Profit, Growth, Social Responsibility)",
         "channel": "SQA N5 Business Revision",
         "duration": "8:50",
         "summary": "Why different organisations set different objectives (profit maximisation, survival, growth, customer satisfaction, market share, and service provision)."
@@ -604,7 +604,7 @@ window.N5_HUB_DATA = {
       "model": "Inflation can raise input costs, causing prices to rise and potentially reducing demand.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “competitive” in your own words.",
+          "prompt": "Quick recall: define \u201ccompetitive\u201d in your own words.",
           "answer": "An external influence arising from rival organisations' products, prices, promotions or market actions."
         },
         {
@@ -618,7 +618,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "GueEUUbHzLk",
-        "title": "External Factors (PESTEC) & Internal Factors — N5 Business Management",
+        "title": "External Factors (PESTEC) & Internal Factors \u2014 N5 Business Management",
         "channel": "Scottish Business Education",
         "duration": "11:30",
         "summary": "Explains Political, Economic, Social, Technological, Environmental and Competitive (PESTEC) external factors plus internal factors (finance, human resources, technology)."
@@ -724,7 +724,7 @@ window.N5_HUB_DATA = {
       "model": "Employees may want higher wages because this raises income, while owners may resist because wage costs can reduce profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “customers” in your own words.",
+          "prompt": "Quick recall: define \u201ccustomers\u201d in your own words.",
           "answer": "People or organisations that purchase goods or services."
         },
         {
@@ -738,7 +738,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "u0z54n2K4io",
-        "title": "National 5 Business Management — Internal & External Stakeholders (Interests, Influence & Conflict)",
+        "title": "National 5 Business Management \u2014 Internal & External Stakeholders (Interests, Influence & Conflict)",
         "channel": "Scottish Business Education",
         "duration": "13:10",
         "summary": "How owners, managers, employees, customers, suppliers, lenders, local community and government influence a business and why their interests conflict."
@@ -831,7 +831,7 @@ window.N5_HUB_DATA = {
       "model": "Targeting teenage runners lets a sports shop choose products and promotions suited to them, making advertising more effective and potentially increasing sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “demographics” in your own words.",
+          "prompt": "Quick recall: define \u201cdemographics\u201d in your own words.",
           "answer": "Measurable population characteristics such as age, income, location or household type."
         },
         {
@@ -845,7 +845,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "A7RcKW7Kvjg",
-        "title": "Market Segmentation & Target Markets — Business Revision",
+        "title": "Market Segmentation & Target Markets \u2014 Business Revision",
         "channel": "BizzWizard Business Revision",
         "duration": "7:45",
         "summary": "How businesses segment markets by age, gender, income, lifestyle, and geographical location to target customer needs effectively."
@@ -921,7 +921,7 @@ window.N5_HUB_DATA = {
       "model": "Field research can be current and specific, whereas desk research may be older and collected for another purpose.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “desk/secondary research” in your own words.",
+          "prompt": "Quick recall: define \u201cdesk/secondary research\u201d in your own words.",
           "answer": "Research using existing information, including the organisation's own sales records and external reports, websites or published statistics."
         },
         {
@@ -1013,7 +1013,7 @@ window.N5_HUB_DATA = {
       "model": "Strong branding can create loyalty and allow premium pricing, although building a brand can be costly.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “brand” in your own words.",
+          "prompt": "Quick recall: define \u201cbrand\u201d in your own words.",
           "answer": "A name, symbol, design or other identity that distinguishes a product or organisation from competitors."
         },
         {
@@ -1103,7 +1103,7 @@ window.N5_HUB_DATA = {
       "model": "Penetration pricing may attract customers to a new entrant and build market share.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “competitive pricing” in your own words.",
+          "prompt": "Quick recall: define \u201ccompetitive pricing\u201d in your own words.",
           "answer": "Setting a price with reference to prices charged by rival businesses."
         },
         {
@@ -1193,7 +1193,7 @@ window.N5_HUB_DATA = {
       "model": "Direct online selling can reach national customers without a retailer margin, but the business must organise delivery.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “direct distribution” in your own words.",
+          "prompt": "Quick recall: define \u201cdirect distribution\u201d in your own words.",
           "answer": "Selling goods directly from producer to customer without an intermediary such as a wholesaler or retailer."
         },
         {
@@ -1268,7 +1268,7 @@ window.N5_HUB_DATA = {
         "Promotion informs, persuades and reminds customers. Advertising uses paid media; sales promotions offer short-term incentives; public relations builds reputation; and direct marketing contacts selected customers. Choose methods according to target market, cost, reach and message.",
         "Ethical marketing uses truthful claims, fair customer treatment and responsible data use. Misleading environmental claims or exaggerated promises can cause complaints, lost trust and legal consequences."
       ],
-      "example": "A café could use social-media adverts plus a loyalty card.",
+      "example": "A caf\u00e9 could use social-media adverts plus a loyalty card.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key promotion term.",
@@ -1282,12 +1282,12 @@ window.N5_HUB_DATA = {
       "model": "Social-media advertising can target groups cheaply, but users may ignore or react negatively to adverts.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “advertising” in your own words.",
+          "prompt": "Quick recall: define \u201cadvertising\u201d in your own words.",
           "answer": "Paid communication used to inform or persuade customers about a product, service or organisation."
         },
         {
           "prompt": "Application: give one realistic business example of promotion & ethical marketing.",
-          "answer": "A café could use social-media adverts plus a loyalty card."
+          "answer": "A caf\u00e9 could use social-media adverts plus a loyalty card."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to promotion & ethical marketing.",
@@ -1389,7 +1389,7 @@ window.N5_HUB_DATA = {
       "model": "An e-commerce website allows customers to order outside shop opening hours, potentially increasing sales, although the business must pay for secure systems and delivery.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “advertising” in your own words.",
+          "prompt": "Quick recall: define \u201cadvertising\u201d in your own words.",
           "answer": "Paid communication used to inform or persuade customers about a product, service or organisation."
         },
         {
@@ -1469,7 +1469,7 @@ window.N5_HUB_DATA = {
         "Compare suppliers on price, quality, delivery reliability, lead time, capacity, location, credit terms and ethical or environmental performance. The lowest price is not always best if late deliveries stop production or poor materials create defects.",
         "Longer credit terms can improve cash flow by delaying payment; shorter lead times can reduce buffer-stock needs. Justify the chosen supplier using the organisation's particular needs and consequences for costs, quality or sales."
       ],
-      "example": "A café may pay more to a reliable local bakery for consistent daily delivery.",
+      "example": "A caf\u00e9 may pay more to a reliable local bakery for consistent daily delivery.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key suppliers term.",
@@ -1483,12 +1483,12 @@ window.N5_HUB_DATA = {
       "model": "A reliable supplier matters because late delivery could stop production and cause lost sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “credit terms” in your own words.",
+          "prompt": "Quick recall: define \u201ccredit terms\u201d in your own words.",
           "answer": "The agreed conditions for paying a supplier, including how long the buyer has to pay."
         },
         {
           "prompt": "Application: give one realistic business example of choosing suppliers.",
-          "answer": "A café may pay more to a reliable local bakery for consistent daily delivery."
+          "answer": "A caf\u00e9 may pay more to a reliable local bakery for consistent daily delivery."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to choosing suppliers.",
@@ -1572,7 +1572,7 @@ window.N5_HUB_DATA = {
       "model": "Overstocking ties up cash and can increase storage costs, reducing funds for other uses.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “buffer inventory” in your own words.",
+          "prompt": "Quick recall: define \u201cbuffer inventory\u201d in your own words.",
           "answer": "Extra stock held to protect against unexpected demand or delays in deliveries."
         },
         {
@@ -1661,7 +1661,7 @@ window.N5_HUB_DATA = {
       "model": "Job production allows customisation, whereas flow standardises output for high-volume production.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “batch production” in your own words.",
+          "prompt": "Quick recall: define \u201cbatch production\u201d in your own words.",
           "answer": "Making a group of identical products together before changing to another batch."
         },
         {
@@ -1751,7 +1751,7 @@ window.N5_HUB_DATA = {
       "model": "Quality assurance can reduce defects, lowering returns and replacement costs.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “benchmarking” in your own words.",
+          "prompt": "Quick recall: define \u201cbenchmarking\u201d in your own words.",
           "answer": "Comparing an organisation's processes or performance with another organisation or recognised standard to identify improvements."
         },
         {
@@ -1840,7 +1840,7 @@ window.N5_HUB_DATA = {
       "model": "Reducing packaging can lower material costs and waste, improving environmental and financial performance.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “carbon footprint” in your own words.",
+          "prompt": "Quick recall: define \u201ccarbon footprint\u201d in your own words.",
           "answer": "The total greenhouse-gas emissions caused directly and indirectly by an activity, product or organisation."
         },
         {
@@ -1952,7 +1952,7 @@ window.N5_HUB_DATA = {
       "model": "A digital inventory system updates stock records after each sale, helping the business avoid shortages and lost sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “automation” in your own words.",
+          "prompt": "Quick recall: define \u201cautomation\u201d in your own words.",
           "answer": "Using technology or machinery to carry out tasks with reduced direct human input."
         },
         {
@@ -2036,7 +2036,7 @@ window.N5_HUB_DATA = {
         "Selection compares applicants using forms, CVs, tests and interviews. Shortlisting against job requirements helps fairness. A contract of employment sets out agreed terms including role, pay, hours and conditions.",
         "Recruitment involves identifying a vacancy, analysing the job, writing a job description/person specification and attracting applicants. Selection involves shortlisting, interviews and appropriate tests. A contract of employment records agreed terms such as pay, duties, hours and leave."
       ],
-      "example": "A café writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract.",
+      "example": "A caf\u00e9 writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key recruitment term.",
@@ -2050,12 +2050,12 @@ window.N5_HUB_DATA = {
       "model": "A person specification lists the skills required for a job, helping managers shortlist suitable applicants and reducing the risk of a poor appointment.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “contract of employment” in your own words.",
+          "prompt": "Quick recall: define \u201ccontract of employment\u201d in your own words.",
           "answer": "The agreement setting out key employment terms such as role, pay, hours and conditions."
         },
         {
           "prompt": "Application: give one realistic business example of recruitment, selection & contracts.",
-          "answer": "A café writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract."
+          "answer": "A caf\u00e9 writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to recruitment, selection & contracts.",
@@ -2139,7 +2139,7 @@ window.N5_HUB_DATA = {
       "model": "Training can reduce mistakes, improving quality and reducing waste costs.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “development” in your own words.",
+          "prompt": "Quick recall: define \u201cdevelopment\u201d in your own words.",
           "answer": "Activities that build an employee's broader abilities and prepare them for future responsibilities."
         },
         {
@@ -2251,7 +2251,7 @@ window.N5_HUB_DATA = {
       "model": "Flexitime lets staff adjust start and finish times around core hours, improving work-life balance and potentially reducing staff turnover.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “bonus” in your own words.",
+          "prompt": "Quick recall: define \u201cbonus\u201d in your own words.",
           "answer": "An additional payment for meeting a target or rewarding performance."
         },
         {
@@ -2348,7 +2348,7 @@ window.N5_HUB_DATA = {
       "model": "An overtime ban may delay orders because employees refuse extra hours, causing customers to switch to competitors.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “collective bargaining” in your own words.",
+          "prompt": "Quick recall: define \u201ccollective bargaining\u201d in your own words.",
           "answer": "Negotiation between employee representatives and management over matters such as pay and conditions."
         },
         {
@@ -2456,7 +2456,7 @@ window.N5_HUB_DATA = {
       "model": "Safety training helps employees use equipment correctly, reducing accidents, absence and the risk of compensation claims.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “data protection” in your own words.",
+          "prompt": "Quick recall: define \u201cdata protection\u201d in your own words.",
           "answer": "Rules and practices for collecting, using, storing and sharing personal information lawfully and securely."
         },
         {
@@ -2568,7 +2568,7 @@ window.N5_HUB_DATA = {
       "model": "Online recruitment can reach more suitable applicants quickly, reducing vacancy time, but the employer must ensure fair access and protect applicant data.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “compressed hours” in your own words.",
+          "prompt": "Quick recall: define \u201ccompressed hours\u201d in your own words.",
           "answer": "Working the usual total number of hours over fewer working days."
         },
         {
@@ -2664,7 +2664,7 @@ window.N5_HUB_DATA = {
       "model": "A bank loan suits expensive machinery because a large sum can be repaid over several years.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “grant” in your own words.",
+          "prompt": "Quick recall: define \u201cgrant\u201d in your own words.",
           "answer": "Money awarded by a government or other organisation for a stated purpose, usually without repayment if conditions are met."
         },
         {
@@ -2697,7 +2697,7 @@ window.N5_HUB_DATA = {
           "Forecasts can be inaccurate if sales or costs change unexpectedly.",
           "A positive cash forecast does not guarantee profitability."
         ],
-        "examFocus": "Calculate opening balance + inflows − outflows and interpret any predicted cash deficit."
+        "examFocus": "Calculate opening balance + inflows \u2212 outflows and interpret any predicted cash deficit."
       },
       "terms": [
         "cash inflow",
@@ -2731,16 +2731,16 @@ window.N5_HUB_DATA = {
       "points": [
         "A cash budget forecasts money expected to enter and leave a business over a future period. It helps managers see possible cash shortages before they happen.",
         "Opening balance is the cash available at the start. Cash inflows are money received; cash outflows are payments made. Net cash flow is inflows minus outflows.",
-        "Closing balance = opening balance + cash inflows − cash outflows. One period's closing balance normally becomes the next period's opening balance.",
+        "Closing balance = opening balance + cash inflows \u2212 cash outflows. One period's closing balance normally becomes the next period's opening balance.",
         "A negative closing balance warns of a cash shortage, so managers might arrange an overdraft, delay spending or encourage faster customer payment. A cash budget is about cash movement, not profit.",
-        "Closing balance = opening balance + inflows − outflows.",
+        "Closing balance = opening balance + inflows \u2212 outflows.",
         "Budgets identify shortages/surpluses and support planning.",
         "Actual figures can be compared with budget to investigate differences.",
-        "A cash budget forecasts money received and paid in future periods. Closing balance = opening balance + cash inflows − cash outflows; the closing balance becomes the next period's opening balance.",
+        "A cash budget forecasts money received and paid in future periods. Closing balance = opening balance + cash inflows \u2212 cash outflows; the closing balance becomes the next period's opening balance.",
         "A negative forecast closing balance warns of a cash shortage. Managers might seek an overdraft, collect debts sooner, delay non-essential spending or negotiate payment terms. Cash is not the same as accounting profit.",
         "Cash inflows and outflows are timed when money is actually received or paid. Calculate closing balance as opening balance plus total receipts minus total payments, and carry it forward as the next month's opening balance. Suggest practical remedies for predicted deficits."
       ],
-      "example": "£2,000 opening + £5,000 inflows − £6,200 outflows = £800 closing balance.",
+      "example": "\u00a32,000 opening + \u00a35,000 inflows \u2212 \u00a36,200 outflows = \u00a3800 closing balance.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key cash budgets term.",
@@ -2754,12 +2754,12 @@ window.N5_HUB_DATA = {
       "model": "A cash budget can reveal a future shortage, allowing an overdraft to be arranged before payments are due.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “cash inflow” in your own words.",
+          "prompt": "Quick recall: define \u201ccash inflow\u201d in your own words.",
           "answer": "Money received by a business during a period, such as cash sales or a loan."
         },
         {
           "prompt": "Application: give one realistic business example of cash budgets.",
-          "answer": "£2,000 opening + £5,000 inflows − £6,200 outflows = £800 closing balance."
+          "answer": "\u00a32,000 opening + \u00a35,000 inflows \u2212 \u00a36,200 outflows = \u00a3800 closing balance."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to cash budgets.",
@@ -2768,7 +2768,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "033eL3lVQU0",
-        "title": "Cash Budgets & Solving Cash Flow Deficits — Business Finance",
+        "title": "Cash Budgets & Solving Cash Flow Deficits \u2014 Business Finance",
         "channel": "BizzWizard Business Revision",
         "duration": "11:20",
         "summary": "How to interpret and calculate Opening Balance, Total Receipts, Total Payments, Net Cash Flow and Closing Balance, plus actions to fix a cash deficit."
@@ -2787,7 +2787,7 @@ window.N5_HUB_DATA = {
           "Profit does not show whether customers have paid or enough cash is available.",
           "One period's results may be distorted by unusual costs or seasonal demand."
         ],
-        "examFocus": "Calculate sales revenue − cost of sales = gross profit, then gross profit − expenses = profit for the year."
+        "examFocus": "Calculate sales revenue \u2212 cost of sales = gross profit, then gross profit \u2212 expenses = profit for the year."
       },
       "terms": [
         "cost of sales",
@@ -2820,17 +2820,17 @@ window.N5_HUB_DATA = {
       ],
       "points": [
         "An income statement shows whether a business made a profit or loss over a period. It records revenue and costs rather than simply cash in the bank.",
-        "Sales revenue is income from sales. Cost of sales is the direct cost of goods sold. Gross profit = sales revenue − cost of sales.",
-        "Expenses are other running costs such as rent, wages or advertising. Profit for the year = gross profit − expenses. If expenses are greater than gross profit, the result is a loss.",
+        "Sales revenue is income from sales. Cost of sales is the direct cost of goods sold. Gross profit = sales revenue \u2212 cost of sales.",
+        "Expenses are other running costs such as rent, wages or advertising. Profit for the year = gross profit \u2212 expenses. If expenses are greater than gross profit, the result is a loss.",
         "Managers can compare income statements across years to identify changes in sales, costs and profit, then decide where action may be needed.",
-        "Gross profit = sales revenue − cost of sales.",
-        "Profit for the year = gross profit − expenses.",
+        "Gross profit = sales revenue \u2212 cost of sales.",
+        "Profit for the year = gross profit \u2212 expenses.",
         "Statements help assess and compare performance.",
-        "An income statement measures performance over a period. Sales revenue is income from sales; cost of sales is the direct cost of goods sold; gross profit = sales revenue − cost of sales; profit for the year = gross profit − expenses.",
+        "An income statement measures performance over a period. Sales revenue is income from sales; cost of sales is the direct cost of goods sold; gross profit = sales revenue \u2212 cost of sales; profit for the year = gross profit \u2212 expenses.",
         "Compare results across periods to identify changes in profitability and costs. A business can make a profit but still have cash shortages if customers have not yet paid.",
         "Use the examinable headings accurately: sales revenue minus cost of sales equals gross profit; gross profit minus expenses equals profit for the year (or loss where expenses exceed gross profit). Income statements measure performance over a period, not cash available on a particular day."
       ],
-      "example": "£80,000 sales − £50,000 cost of sales = £30,000 gross profit; minus £18,000 expenses = £12,000 profit.",
+      "example": "\u00a380,000 sales \u2212 \u00a350,000 cost of sales = \u00a330,000 gross profit; minus \u00a318,000 expenses = \u00a312,000 profit.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key income statements term.",
@@ -2844,12 +2844,12 @@ window.N5_HUB_DATA = {
       "model": "An income statement calculates profit by deducting cost of sales from revenue, then expenses from gross profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “cost of sales” in your own words.",
+          "prompt": "Quick recall: define \u201ccost of sales\u201d in your own words.",
           "answer": "The direct cost of goods sold during an accounting period."
         },
         {
           "prompt": "Application: give one realistic business example of income statements.",
-          "answer": "£80,000 sales − £50,000 cost of sales = £30,000 gross profit; minus £18,000 expenses = £12,000 profit."
+          "answer": "\u00a380,000 sales \u2212 \u00a350,000 cost of sales = \u00a330,000 gross profit; minus \u00a318,000 expenses = \u00a312,000 profit."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to income statements.",
@@ -2911,17 +2911,17 @@ window.N5_HUB_DATA = {
       "points": [
         "Break-even is the level of output/sales where total revenue equals total costs, so the business makes neither profit nor loss.",
         "Fixed costs do not change directly when output changes, for example rent. Variable costs change with output, for example materials. Total cost = fixed costs + total variable costs.",
-        "Sales revenue = selling price × quantity sold. Contribution per unit = selling price − variable cost per unit. Break-even output = fixed costs ÷ contribution per unit.",
+        "Sales revenue = selling price \u00d7 quantity sold. Contribution per unit = selling price \u2212 variable cost per unit. Break-even output = fixed costs \u00f7 contribution per unit.",
         "Below break-even the business makes a loss; above it the business makes a profit. Lower fixed/variable costs or a higher selling price can reduce the number of units needed to break even.",
         "Fixed costs do not directly change with output; variable costs do.",
         "Total cost = fixed + variable costs.",
         "Above break-even a business can make profit; below it makes a loss.",
-        "Fixed costs, such as rent, do not change directly with output in the short term. Variable costs, such as materials, change with units. Total costs = fixed costs + total variable costs; sales revenue = price × units sold.",
-        "Break-even occurs when total revenue equals total costs. Contribution per unit = selling price − variable cost per unit; break-even units = fixed costs ÷ contribution per unit. For example, £6,000 ÷ (£10 − £4) = 1,000 units.",
+        "Fixed costs, such as rent, do not change directly with output in the short term. Variable costs, such as materials, change with units. Total costs = fixed costs + total variable costs; sales revenue = price \u00d7 units sold.",
+        "Break-even occurs when total revenue equals total costs. Contribution per unit = selling price \u2212 variable cost per unit; break-even units = fixed costs \u00f7 contribution per unit. For example, \u00a36,000 \u00f7 (\u00a310 \u2212 \u00a34) = 1,000 units.",
         "Below break-even the business makes a loss and above it a profit, assuming the same price and cost relationships. Higher fixed costs raise break-even output; higher contribution per unit lowers it.",
         "Explain the difference between fixed costs (unchanged with output over the relevant range) and variable costs (change with units produced). At break-even, sales revenue equals total costs; an output above break-even generates profit if price and cost assumptions hold."
       ],
-      "example": "£10,000 fixed costs ÷ £5 contribution per unit = 2,000 units break-even.",
+      "example": "\u00a310,000 fixed costs \u00f7 \u00a35 contribution per unit = 2,000 units break-even.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key break-even term.",
@@ -2935,12 +2935,12 @@ window.N5_HUB_DATA = {
       "model": "A lower break-even point means fewer units must be sold before the business begins making profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “break-even point” in your own words.",
+          "prompt": "Quick recall: define \u201cbreak-even point\u201d in your own words.",
           "answer": "The level of sales or output where total sales revenue equals total costs, so the business makes neither a profit nor a loss."
         },
         {
           "prompt": "Application: give one realistic business example of break-even & costs.",
-          "answer": "£10,000 fixed costs ÷ £5 contribution per unit = 2,000 units break-even."
+          "answer": "\u00a310,000 fixed costs \u00f7 \u00a35 contribution per unit = 2,000 units break-even."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to break-even & costs.",
@@ -3013,7 +3013,7 @@ window.N5_HUB_DATA = {
         "Spreadsheets calculate budgets and forecasts automatically with formulae, reducing repetitive arithmetic and enabling what-if analysis. Accounting software can record transactions and generate reports more quickly.",
         "Online banking allows remote payments and balance checks, while cloud systems provide authorised access from different locations. Cybersecurity, backups, training and system failures remain important risks."
       ],
-      "example": "A café uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time.",
+      "example": "A caf\u00e9 uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key finance technology term.",
@@ -3027,12 +3027,12 @@ window.N5_HUB_DATA = {
       "model": "A spreadsheet recalculates cash-budget totals automatically when costs change, reducing manual errors and helping managers forecast cash shortages.",
       "tasks": [
         {
-          "prompt": "Quick recall: define “accounting software” in your own words.",
+          "prompt": "Quick recall: define \u201caccounting software\u201d in your own words.",
           "answer": "Software used to record transactions and produce financial information."
         },
         {
           "prompt": "Application: give one realistic business example of technology in finance.",
-          "answer": "A café uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time."
+          "answer": "A caf\u00e9 uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to technology in finance.",
@@ -3229,12 +3229,12 @@ window.N5_HUB_DATA = {
       "topic": "Management of Finance",
       "level": "B",
       "marks": 3,
-      "text": "Calculate three missing figures: at 100 units total costs are £3,000 and variable costs £2,000; at 200 units fixed costs are £1,000 and variable costs £4,000; at 300 units total costs are £7,000 and fixed costs £1,000. Give (i) fixed cost at 100, (ii) total cost at 200 and (iii) variable cost at 300.",
+      "text": "Calculate three missing figures: at 100 units total costs are \u00a33,000 and variable costs \u00a32,000; at 200 units fixed costs are \u00a31,000 and variable costs \u00a34,000; at 300 units total costs are \u00a37,000 and fixed costs \u00a31,000. Give (i) fixed cost at 100, (ii) total cost at 200 and (iii) variable cost at 300.",
       "hint": "Use total cost = fixed cost + variable cost for each row.",
       "acceptedPoints": [
-        "(i) £1,000 fixed cost",
-        "(ii) £5,000 total cost",
-        "(iii) £6,000 variable cost"
+        "(i) \u00a31,000 fixed cost",
+        "(ii) \u00a35,000 total cost",
+        "(iii) \u00a36,000 variable cost"
       ],
       "markingRule": "1 mark for each correct figure, up to 3 marks. Accept equivalent correct numerical presentation.",
       "notes": [
@@ -3580,9 +3580,9 @@ window.N5_HUB_DATA = {
         "Internal factors originate within the organisation and can affect how successfully it operates."
       ],
       "acceptedPoints": [
-        "finance — the money available to the organisation",
-        "human resources — employees and managers",
-        "technology — ICT, machinery or equipment used by the organisation"
+        "finance \u2014 the money available to the organisation",
+        "human resources \u2014 employees and managers",
+        "technology \u2014 ICT, machinery or equipment used by the organisation"
       ],
       "markingRule": "Award 1 mark for each valid description of an internal factor, up to 2 marks. Credit other suitable internal factors.",
       "subtopic": "Internal & external factors",
@@ -3869,13 +3869,13 @@ window.N5_HUB_DATA = {
         "A description should show what the source is or how it works."
       ],
       "acceptedPoints": [
-        "bank loan — borrowed finance repaid with interest, usually over time",
-        "mortgage — long-term borrowing used to purchase property or land",
-        "government grant — funding awarded when conditions are met and normally not repaid",
-        "personal savings — owner's own saved money with no borrowing interest",
-        "share issue — raising finance by selling ownership shares",
-        "hire purchase — obtaining an asset and paying by instalments until ownership is achieved",
-        "retained profit — previous profit reinvested in the business"
+        "bank loan \u2014 borrowed finance repaid with interest, usually over time",
+        "mortgage \u2014 long-term borrowing used to purchase property or land",
+        "government grant \u2014 funding awarded when conditions are met and normally not repaid",
+        "personal savings \u2014 owner's own saved money with no borrowing interest",
+        "share issue \u2014 raising finance by selling ownership shares",
+        "hire purchase \u2014 obtaining an asset and paying by instalments until ownership is achieved",
+        "retained profit \u2014 previous profit reinvested in the business"
       ],
       "markingRule": "Up to 3 marks. At least two sources must be described for full marks. Award valid descriptions and one valid development where appropriate. Other suitable sources can receive credit.",
       "restrictions": [
@@ -4627,14 +4627,14 @@ window.N5_HUB_DATA = {
         "A description should show what the finance source is or how it works."
       ],
       "acceptedPoints": [
-        "bank loan — borrowed finance repaid with interest, often in instalments",
-        "mortgage — long-term borrowing to buy property or land",
-        "retained profits — previous profits reinvested in the organisation",
-        "government grant — funding awarded when criteria are met and normally not repaid",
-        "overdraft — withdrawing more than the current bank balance",
-        "personal savings — owner's saved money with no borrowing interest",
-        "share issue — raising finance by selling ownership shares",
-        "hire purchase — paying for an asset in instalments until ownership transfers"
+        "bank loan \u2014 borrowed finance repaid with interest, often in instalments",
+        "mortgage \u2014 long-term borrowing to buy property or land",
+        "retained profits \u2014 previous profits reinvested in the organisation",
+        "government grant \u2014 funding awarded when criteria are met and normally not repaid",
+        "overdraft \u2014 withdrawing more than the current bank balance",
+        "personal savings \u2014 owner's saved money with no borrowing interest",
+        "share issue \u2014 raising finance by selling ownership shares",
+        "hire purchase \u2014 paying for an asset in instalments until ownership transfers"
       ],
       "markingRule": "Up to 4 marks. At least two sources must be described for full marks. Valid developments can receive additional credit; accept other suitable finance sources.",
       "subtopic": "Sources of finance",
@@ -5320,7 +5320,7 @@ window.N5_HUB_DATA = {
         "Enterprise (the entrepreneur who organises the other factors and takes the risk)"
       ],
       "markingRule": "Award 1 mark for each correctly identified factor of production (Land, Labour, Capital, Enterprise), up to 4 marks.",
-      "solution": "• Land (1)\n• Labour (1)\n• Capital (1)\n• Enterprise (1)"
+      "solution": "\u2022 Land (1)\n\u2022 Labour (1)\n\u2022 Capital (1)\n\u2022 Enterprise (1)"
     },
     {
       "id": "drill-id-2",
@@ -5346,7 +5346,7 @@ window.N5_HUB_DATA = {
         "Competitive factors (actions, pricing or new products of competitors)"
       ],
       "markingRule": "Award 1 mark for each distinct external factor identified (Political, Economic, Social, Technological, Environmental, Competitive), up to 4 marks. Do not credit the letter alone without the word.",
-      "solution": "Any four from:\n• Political (1)\n• Economic (1)\n• Social (1)\n• Technological (1)\n• Environmental (1)\n• Competitive (1)"
+      "solution": "Any four from:\n\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Social (1)\n\u2022 Technological (1)\n\u2022 Environmental (1)\n\u2022 Competitive (1)"
     },
     {
       "id": "drill-id-3",
@@ -5371,7 +5371,7 @@ window.N5_HUB_DATA = {
         "Hall test / product tasting or trial"
       ],
       "markingRule": "Award 1 mark for each distinct valid method of field research, up to 3 marks.",
-      "solution": "Any three from:\n• Questionnaire / customer survey (1)\n• Focus group / consumer panel (1)\n• Personal interview (1)\n• Observation (1)\n• Hall test / product trial (1)"
+      "solution": "Any three from:\n\u2022 Questionnaire / customer survey (1)\n\u2022 Focus group / consumer panel (1)\n\u2022 Personal interview (1)\n\u2022 Observation (1)\n\u2022 Hall test / product trial (1)"
     },
     {
       "id": "drill-id-4",
@@ -5396,7 +5396,7 @@ window.N5_HUB_DATA = {
         "Decline"
       ],
       "markingRule": "Award 1 mark for each correctly identified stage of the Product Life Cycle, up to 4 marks.",
-      "solution": "Any four from:\n• Development (1)\n• Introduction (1)\n• Growth (1)\n• Maturity (1)\n• Decline (1)"
+      "solution": "Any four from:\n\u2022 Development (1)\n\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (1)\n\u2022 Decline (1)"
     },
     {
       "id": "drill-id-5",
@@ -5422,7 +5422,7 @@ window.N5_HUB_DATA = {
         "Quantity / capacity the supplier can provide"
       ],
       "markingRule": "Award 1 mark for each distinct factor identified, up to 3 marks.",
-      "solution": "Any three from:\n• Price charged by the supplier (1)\n• Quality of the materials supplied (1)\n• Reliability / delivery lead time (1)\n• Location of the supplier (1)"
+      "solution": "Any three from:\n\u2022 Price charged by the supplier (1)\n\u2022 Quality of the materials supplied (1)\n\u2022 Reliability / delivery lead time (1)\n\u2022 Location of the supplier (1)"
     },
     {
       "id": "drill-id-6",
@@ -5445,7 +5445,7 @@ window.N5_HUB_DATA = {
         "Flow production (or mass / continuous production)"
       ],
       "markingRule": "Award 1 mark each for Job production, Batch production, and Flow production, up to 3 marks.",
-      "solution": "• Job production (1)\n• Batch production (1)\n• Flow production (1)"
+      "solution": "\u2022 Job production (1)\n\u2022 Batch production (1)\n\u2022 Flow production (1)"
     },
     {
       "id": "drill-id-7",
@@ -5470,7 +5470,7 @@ window.N5_HUB_DATA = {
         "Checking references from previous employers"
       ],
       "markingRule": "Award 1 mark for each valid selection tool/method, up to 3 marks. Do not credit job description or person specification.",
-      "solution": "Any three from:\n• Interview (1)\n• Testing (e.g. aptitude, psychometric or skills test) (1)\n• Checking references (1)\n• Application form / CV review (1)\n• Assessment centre / presentation (1)"
+      "solution": "Any three from:\n\u2022 Interview (1)\n\u2022 Testing (e.g. aptitude, psychometric or skills test) (1)\n\u2022 Checking references (1)\n\u2022 Application form / CV review (1)\n\u2022 Assessment centre / presentation (1)"
     },
     {
       "id": "drill-id-8",
@@ -5495,7 +5495,7 @@ window.N5_HUB_DATA = {
         "Sit-in (occupying the workplace so production cannot continue)"
       ],
       "markingRule": "Award 1 mark for each distinct valid type of industrial action, up to 3 marks.",
-      "solution": "Any three from:\n• Strike action (1)\n• Overtime ban (1)\n• Work-to-rule (1)\n• Go-slow (1)\n• Sit-in (1)"
+      "solution": "Any three from:\n\u2022 Strike action (1)\n\u2022 Overtime ban (1)\n\u2022 Work-to-rule (1)\n\u2022 Go-slow (1)\n\u2022 Sit-in (1)"
     },
     {
       "id": "drill-id-9",
@@ -5522,7 +5522,7 @@ window.N5_HUB_DATA = {
         "Hire purchase or leasing"
       ],
       "markingRule": "Award 1 mark for each distinct external source of finance valid for a private limited company, up to 3 marks. Do not credit selling shares on the Stock Exchange (PLC only) or retained profit (internal).",
-      "solution": "Any three from:\n• Bank loan (1)\n• Bank overdraft (1)\n• Government grant (1)\n• Issuing shares privately (1)\n• Hire purchase / leasing (1)\n• Trade credit (1)"
+      "solution": "Any three from:\n\u2022 Bank loan (1)\n\u2022 Bank overdraft (1)\n\u2022 Government grant (1)\n\u2022 Issuing shares privately (1)\n\u2022 Hire purchase / leasing (1)\n\u2022 Trade credit (1)"
     },
     {
       "id": "drill-id-10",
@@ -5547,7 +5547,7 @@ window.N5_HUB_DATA = {
         "Simple subtraction/addition formula such as =B5-B10"
       ],
       "markingRule": "Award 1 mark for each valid spreadsheet formula or function identified, up to 2 marks.",
-      "solution": "Any two from:\n• =SUM (to total receipts or payments) (1)\n• =AVERAGE (to find average monthly figures) (1)\n• =IF (to highlight a deficit or target) (1)"
+      "solution": "Any two from:\n\u2022 =SUM (to total receipts or payments) (1)\n\u2022 =AVERAGE (to find average monthly figures) (1)\n\u2022 =IF (to highlight a deficit or target) (1)"
     },
     {
       "id": "drill-desc-1",
@@ -5573,7 +5573,7 @@ window.N5_HUB_DATA = {
         "Social responsibility / ethical conduct: operating in an environmentally friendly and fair way"
       ],
       "markingRule": "Award 1 mark for each accurately described business objective, up to 3 marks. A bare list of single words without description gains 0 marks.",
-      "solution": "• Survival — continuing to operate and cover costs during the first year of trading or a downturn. (1)\n• Profit maximisation — aiming to make the largest possible difference between sales revenue and total costs. (1)\n• Growth — expanding the business by opening more stores or entering new markets. (1)"
+      "solution": "\u2022 Survival \u2014 continuing to operate and cover costs during the first year of trading or a downturn. (1)\n\u2022 Profit maximisation \u2014 aiming to make the largest possible difference between sales revenue and total costs. (1)\n\u2022 Growth \u2014 expanding the business by opening more stores or entering new markets. (1)"
     },
     {
       "id": "drill-desc-2",
@@ -5599,7 +5599,7 @@ window.N5_HUB_DATA = {
         "Target a new market segment or advertise a new use for the product"
       ],
       "markingRule": "Award 1 mark for each distinct extension strategy accurately described, up to 3 marks.",
-      "solution": "• Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n• Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n• Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)"
+      "solution": "\u2022 Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n\u2022 Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n\u2022 Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)"
     },
     {
       "id": "drill-desc-3",
@@ -5624,7 +5624,7 @@ window.N5_HUB_DATA = {
         "Minimise raw material waste during production through staff training and careful inventory storage"
       ],
       "markingRule": "Award 1 mark for each distinct environmentally friendly practice described, up to 3 marks.",
-      "solution": "• Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n• Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n• Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)"
+      "solution": "\u2022 Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n\u2022 Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n\u2022 Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)"
     },
     {
       "id": "drill-desc-4",
@@ -5649,7 +5649,7 @@ window.N5_HUB_DATA = {
         "Improving working conditions, staff facilities or organising team social events"
       ],
       "markingRule": "Award 1 mark for each distinct non-financial motivation method accurately described, up to 3 marks. Do not credit bonus, commission or pay rises.",
-      "solution": "• Recognising good work through praise or an Employee of the Month award. (1)\n• Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n• Providing training and promotion opportunities so employees can progress in their career. (1)"
+      "solution": "\u2022 Recognising good work through praise or an Employee of the Month award. (1)\n\u2022 Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n\u2022 Providing training and promotion opportunities so employees can progress in their career. (1)"
     },
     {
       "id": "drill-exp-1",
@@ -5673,7 +5673,7 @@ window.N5_HUB_DATA = {
         "Staff have to spend time handling complaints, which lowers employee morale and reduces time spent serving other customers"
       ],
       "markingRule": "Award 1 mark for each clear cause-and-effect explanation linking poor customer service to a business impact, up to 3 marks.",
-      "solution": "• Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n• Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n• The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)"
+      "solution": "\u2022 Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n\u2022 Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n\u2022 The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)"
     },
     {
       "id": "drill-exp-2",
@@ -5689,14 +5689,14 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "explain",
       "text": "Explain the benefits to a business of carrying out desk (secondary) market research instead of field (primary) research.",
-      "hint": "Think about cost, speed, and access to large-scale data — and explain the impact of each on the business!",
+      "hint": "Think about cost, speed, and access to large-scale data \u2014 and explain the impact of each on the business!",
       "acceptedPoints": [
         "Desk research uses information that already exists, which means it is much faster to gather so the business can make decisions more quickly",
         "Much of the data (e.g. online reports or internal sales records) is free or low-cost, which saves the business money compared to hiring researchers",
         "Government statistics and industry reports cover huge populations, which allows a small business to understand national market trends it could not afford to survey itself"
       ],
       "markingRule": "Award 1 mark for each developed benefit of desk research with its business impact, up to 3 marks.",
-      "solution": "• The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n• Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n• Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)"
+      "solution": "\u2022 The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n\u2022 Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n\u2022 Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)"
     },
     {
       "id": "drill-exp-3",
@@ -5719,7 +5719,7 @@ window.N5_HUB_DATA = {
         "If there is a sudden unexpected surge in customer demand, the business has no extra inventory ready, leading to lost sales to competitors"
       ],
       "markingRule": "Award 1 mark for each developed drawback of JIT linked to a business consequence, up to 3 marks.",
-      "solution": "• Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n• Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n• The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)"
+      "solution": "\u2022 Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n\u2022 Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n\u2022 The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)"
     },
     {
       "id": "drill-exp-4",
@@ -5742,7 +5742,7 @@ window.N5_HUB_DATA = {
         "Employees learn company policies and job expectations straight away, which means they become productive sooner and make fewer mistakes"
       ],
       "markingRule": "Award 1 mark for each clear explanation connecting induction training to a positive business impact, up to 3 marks.",
-      "solution": "• New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n• Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n• Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)"
+      "solution": "\u2022 New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n\u2022 Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n\u2022 Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)"
     },
     {
       "id": "drill-exp-5",
@@ -5766,7 +5766,7 @@ window.N5_HUB_DATA = {
         "It can be presented to a bank when applying for a loan, which increases the likelihood of finance being approved"
       ],
       "markingRule": "Award 1 mark for each developed explanation of how a cash budget aids financial management, up to 3 marks.",
-      "solution": "• It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n• It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n• It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)"
+      "solution": "\u2022 It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n\u2022 It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n\u2022 It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)"
     },
     {
       "id": "drill-comp-1",
@@ -5790,7 +5790,7 @@ window.N5_HUB_DATA = {
         "Both on-the-job and off-the-job training improve employee skills and productivity"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or direct difference ('whereas') between on-the-job and off-the-job training, up to 3 marks.",
-      "solution": "• On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n• On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n• Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)"
+      "solution": "\u2022 On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n\u2022 On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n\u2022 Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)"
     },
     {
       "id": "drill-multi-1",
@@ -5814,7 +5814,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Once customers subscribe and get used to the platform, the price can be raised to normal levels, generating long-term recurring revenue"
       ],
       "markingRule": "Award 1 mark for identifying penetration pricing (or promotional pricing), and up to 2 marks for valid justifications linked to entering a competitive market.",
-      "solution": "• Identify: Market penetration pricing. (1)\n• Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n• Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)"
+      "solution": "\u2022 Identify: Market penetration pricing. (1)\n\u2022 Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n\u2022 Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)"
     },
     {
       "id": "drill-multi-2",
@@ -5830,35 +5830,35 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "identify + justify",
-      "text": "Identify one suitable external source of finance for purchasing a new £40,000 delivery van, and justify your choice. (3 marks: 1 for identify, 2 for justify)",
-      "hint": "Pick a medium-to-long-term source like a Bank Loan, Hire Purchase, or Leasing — not an overdraft!",
+      "text": "Identify one suitable external source of finance for purchasing a new \u00a340,000 delivery van, and justify your choice. (3 marks: 1 for identify, 2 for justify)",
+      "hint": "Pick a medium-to-long-term source like a Bank Loan, Hire Purchase, or Leasing \u2014 not an overdraft!",
       "acceptedPoints": [
         "Identify: Bank loan, Hire purchase, or Leasing",
-        "Justify 1: The £40,000 cost can be spread over several years in fixed monthly instalments, which makes budgeting easier and avoids a sudden cash flow deficit",
+        "Justify 1: The \u00a340,000 cost can be spread over several years in fixed monthly instalments, which makes budgeting easier and avoids a sudden cash flow deficit",
         "Justify 2: The business can use the delivery van immediately to make customer deliveries and generate revenue while paying it off"
       ],
       "markingRule": "Award 1 mark for identifying a valid source (Bank loan, Hire purchase, or Leasing) and up to 2 marks for valid justifications.",
-      "solution": "• Identify: Hire purchase (or Bank loan). (1)\n• Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full £40,000. (1)\n• Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)"
+      "solution": "\u2022 Identify: Hire purchase (or Bank loan). (1)\n\u2022 Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full \u00a340,000. (1)\n\u2022 Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)"
     }
   ],
   "caseStudies": [
     {
       "id": "cs-caledonia",
       "title": "Caledonia Coffee Co.",
-      "focus": "Marketing · People · Finance · External factors",
-      "scenario": "Caledonia Coffee Co. is a Scottish private limited company with three cafés in Stirling and Falkirk. It has built a reputation for locally roasted coffee, quick service and a student loyalty scheme. Sales revenue increased by 14% last year, and the directors now want to open a fourth café close to a large college campus. Before making a decision, staff used questionnaires outside the college and asked students about preferred drinks, prices and opening times. The proposed premises have an annual rent of £38,000 and would require £52,000 of new coffee-making and kitchen equipment. The business has £18,000 of retained profit available and is considering a bank loan for the remaining finance. There are already four cafés within a ten-minute walk, including two national chains that regularly offer app-based discounts. Caledonia expects to recruit six employees. Managers want friendly staff who can work during busy breakfast and lunchtime periods, but several applicants have little café experience. The directors are also concerned that increases in wages, energy prices and interest rates could affect the new branch.",
+      "focus": "Marketing \u00b7 People \u00b7 Finance \u00b7 External factors",
+      "scenario": "Caledonia Coffee Co. is a Scottish private limited company with three caf\u00e9s in Stirling and Falkirk. It has built a reputation for locally roasted coffee, quick service and a student loyalty scheme. Sales revenue increased by 14% last year, and the directors now want to open a fourth caf\u00e9 close to a large college campus. Before making a decision, staff used questionnaires outside the college and asked students about preferred drinks, prices and opening times. The proposed premises have an annual rent of \u00a338,000 and would require \u00a352,000 of new coffee-making and kitchen equipment. The business has \u00a318,000 of retained profit available and is considering a bank loan for the remaining finance. There are already four caf\u00e9s within a ten-minute walk, including two national chains that regularly offer app-based discounts. Caledonia expects to recruit six employees. Managers want friendly staff who can work during busy breakfast and lunchtime periods, but several applicants have little caf\u00e9 experience. The directors are also concerned that increases in wages, energy prices and interest rates could affect the new branch.",
       "questions": [
         {
-          "text": "Explain two benefits to Caledonia Coffee Co. of carrying out field market research before opening the new café.",
+          "text": "Explain two benefits to Caledonia Coffee Co. of carrying out field market research before opening the new caf\u00e9.",
           "marks": 4,
           "hint": "Think about why information collected directly from local students could make the launch less risky. Develop each point with a consequence.",
           "guidance": [
-            "Primary research can provide current, location-specific information about student preferences, helping the café choose suitable products/prices/opening times.",
+            "Primary research can provide current, location-specific information about student preferences, helping the caf\u00e9 choose suitable products/prices/opening times.",
             "Estimating local demand can reduce the risk of opening with an unsuitable marketing mix or making poor investment decisions."
           ]
         },
         {
-          "text": "Describe two factors Caledonia Coffee Co. should consider when selecting employees for the new café.",
+          "text": "Describe two factors Caledonia Coffee Co. should consider when selecting employees for the new caf\u00e9.",
           "marks": 2,
           "hint": "Look at what the scenario tells you about the type of work and when employees will be needed.",
           "guidance": [
@@ -5867,18 +5867,18 @@ window.N5_HUB_DATA = {
           ]
         },
         {
-          "text": "Justify the use of a bank loan to help purchase the £52,000 of equipment.",
+          "text": "Justify the use of a bank loan to help purchase the \u00a352,000 of equipment.",
           "marks": 2,
-          "hint": "Think about the size and long-term use of the equipment, the £18,000 already available, and what a loan allows the business to do.",
+          "hint": "Think about the size and long-term use of the equipment, the \u00a318,000 already available, and what a loan allows the business to do.",
           "guidance": [
             "A loan can provide the substantial remaining lump sum needed for long-term equipment while allowing repayment to be spread over time.",
             "A developed justification may recognise that interest/repayments must remain affordable, particularly if interest rates rise."
           ]
         },
         {
-          "text": "Explain one way competition could affect the performance of the new café.",
+          "text": "Explain one way competition could affect the performance of the new caf\u00e9.",
           "marks": 2,
-          "hint": "Use the information about nearby cafés and app discounts, then explain what this could cause Caledonia to do or what could happen to sales.",
+          "hint": "Use the information about nearby caf\u00e9s and app discounts, then explain what this could cause Caledonia to do or what could happen to sales.",
           "guidance": [
             "Nearby established rivals or national-chain discounts could reduce demand, force promotional/price responses or require differentiation, affecting revenue/profit."
           ]
@@ -5888,7 +5888,7 @@ window.N5_HUB_DATA = {
     {
       "id": "cs-highland",
       "title": "Highland Activewear",
-      "focus": "Operations · Marketing · Ethics · Technology",
+      "focus": "Operations \u00b7 Marketing \u00b7 Ethics \u00b7 Technology",
       "scenario": "Highland Activewear designs running tops, leggings and jackets in Inverness and sells mainly through its website. Online orders have grown from about 600 to 1,050 per month after several fitness influencers featured the brand. Clothing is currently produced in batches of 100, allowing the business to switch colours and designs between production runs. However, machines must be reset between batches and popular sizes sometimes sell out before the next batch is ready. Fabric is imported from one overseas supplier. The supplier offers a low price but delivery can take five weeks and two recent deliveries arrived late. Managers are comparing this supplier with a Scottish supplier whose fabric costs 12% more but can normally deliver within five working days. Customer research also shows that many buyers value environmentally responsible brands. Highland currently packs each order in a plastic mailing bag and cardboard presentation box. Managers want to reduce packaging and are considering automated cutting equipment and a digital inventory system that would update stock after every online sale.",
       "questions": [
         {
@@ -5933,8 +5933,8 @@ window.N5_HUB_DATA = {
     {
       "id": "cs-lochview",
       "title": "Lochview Adventures",
-      "focus": "Customer service · People · Recruitment · Training",
-      "scenario": "Lochview Adventures is an outdoor-activity business beside a popular Scottish loch. It offers kayaking, paddleboarding and guided hill walks. Most customers book online, and around 60% of annual sales are made between May and August. During the previous summer, several sessions sold out but some customers complained about long check-in queues and inconsistent information from temporary instructors. The owner wants to increase repeat bookings and online recommendations without greatly increasing permanent staffing costs during the quieter winter months. Lochview currently employs four full-time instructors and eight part-time seasonal instructors. Some part-time staff work for other tourism businesses, which can make rotas difficult to fill at short notice. The owner plans to advertise future vacancies online and use video interviews for applicants who live far away. A new training programme would cover customer service, first aid, equipment checks and emergency procedures. Training would cost £350 per employee and take two working days.",
+      "focus": "Customer service \u00b7 People \u00b7 Recruitment \u00b7 Training",
+      "scenario": "Lochview Adventures is an outdoor-activity business beside a popular Scottish loch. It offers kayaking, paddleboarding and guided hill walks. Most customers book online, and around 60% of annual sales are made between May and August. During the previous summer, several sessions sold out but some customers complained about long check-in queues and inconsistent information from temporary instructors. The owner wants to increase repeat bookings and online recommendations without greatly increasing permanent staffing costs during the quieter winter months. Lochview currently employs four full-time instructors and eight part-time seasonal instructors. Some part-time staff work for other tourism businesses, which can make rotas difficult to fill at short notice. The owner plans to advertise future vacancies online and use video interviews for applicants who live far away. A new training programme would cover customer service, first aid, equipment checks and emergency procedures. Training would cost \u00a3350 per employee and take two working days.",
       "questions": [
         {
           "text": "Explain two reasons why customer satisfaction is important to Lochview Adventures.",
@@ -5977,13 +5977,13 @@ window.N5_HUB_DATA = {
     {
       "id": "cs-northstar",
       "title": "Northstar Furniture",
-      "focus": "Finance · Inventory · Quality · Suppliers",
-      "scenario": "Northstar Furniture manufactures solid-wood tables and chairs for independent retailers. It buys timber in bulk and currently holds enough stock for about ten weeks of production because managers worry about supply delays. Rising timber prices mean £46,000 is now tied up in raw-material inventory, and extra warehouse space costs £900 per month. Some timber can warp if it is stored for too long. Finished furniture is inspected by quality-control staff only after production. Last month, 7% of finished tables needed reworking because faults were discovered at final inspection. Managers are considering quality assurance, with checks carried out throughout production. Northstar prepares monthly cash budgets. For one month it expects an opening cash balance of £4,000, cash inflows of £18,500 and cash outflows of £21,000. A possible new timber supplier charges slightly more per unit but offers 60 days' trade credit instead of the current supplier's 30 days.",
+      "focus": "Finance \u00b7 Inventory \u00b7 Quality \u00b7 Suppliers",
+      "scenario": "Northstar Furniture manufactures solid-wood tables and chairs for independent retailers. It buys timber in bulk and currently holds enough stock for about ten weeks of production because managers worry about supply delays. Rising timber prices mean \u00a346,000 is now tied up in raw-material inventory, and extra warehouse space costs \u00a3900 per month. Some timber can warp if it is stored for too long. Finished furniture is inspected by quality-control staff only after production. Last month, 7% of finished tables needed reworking because faults were discovered at final inspection. Managers are considering quality assurance, with checks carried out throughout production. Northstar prepares monthly cash budgets. For one month it expects an opening cash balance of \u00a34,000, cash inflows of \u00a318,500 and cash outflows of \u00a321,000. A possible new timber supplier charges slightly more per unit but offers 60 days' trade credit instead of the current supplier's 30 days.",
       "questions": [
         {
           "text": "Explain two problems Northstar Furniture could experience because it holds large quantities of timber.",
           "marks": 4,
-          "hint": "Use the £46,000 tied up, warehouse cost and risk of timber warping. Turn two of these into developed business consequences.",
+          "hint": "Use the \u00a346,000 tied up, warehouse cost and risk of timber warping. Turn two of these into developed business consequences.",
           "guidance": [
             "Cash tied up in inventory is unavailable for other spending and can worsen liquidity/cash flow.",
             "Large stocks create storage costs and may be damaged/warp, causing waste and replacement costs."
@@ -6002,7 +6002,7 @@ window.N5_HUB_DATA = {
           "marks": 2,
           "hint": "Start with opening cash, add cash inflows, then subtract cash outflows.",
           "guidance": [
-            "£4,000 + £18,500 − £21,000 = £1,500 closing cash balance."
+            "\u00a34,000 + \u00a318,500 \u2212 \u00a321,000 = \u00a31,500 closing cash balance."
           ]
         },
         {
@@ -6042,7 +6042,7 @@ window.N5_HUB_DATA = {
       "year": 2026,
       "ref": "Q5(c)",
       "slide": 107,
-      "text": "Outline 2 factors influencing an organisation’s choice of supplier.",
+      "text": "Outline 2 factors influencing an organisation\u2019s choice of supplier.",
       "acceptedPoints": [
         "The price that the supplier charges for its products.",
         "The quality of the products that the supplier provides."
@@ -6250,7 +6250,7 @@ window.N5_HUB_DATA = {
       "year": 2018,
       "ref": "Q7(c)",
       "slide": 167,
-      "text": "Define the following financial terms from an Income Statement: • Expenses • Profit for the Year • Gross Profit.",
+      "text": "Define the following financial terms from an Income Statement: \u2022 Expenses \u2022 Profit for the Year \u2022 Gross Profit.",
       "acceptedPoints": [
         "Expenses are the costs or overheads incurred by a business, such as rent.",
         "Profit for the year is gross profit minus expenses.",
@@ -6337,11 +6337,11 @@ window.N5_HUB_DATA = {
       "year": 2018,
       "ref": "Q7(a)",
       "slide": 165,
-      "text": "An organisation has provided the following financial information. Using the table below, calculate the missing information for (i), (ii) and (iii). Units 0: fixed costs £1,000, variable costs £0, total costs £1,000. Units 100: fixed costs (i), variable costs £2,000, total costs £3,000. Units 200: fixed costs £1,000, variable costs £4,000, total costs (ii). Units 300: fixed costs £1,000, variable costs (iii), total costs £7,000.",
+      "text": "An organisation has provided the following financial information. Using the table below, calculate the missing information for (i), (ii) and (iii). Units 0: fixed costs \u00a31,000, variable costs \u00a30, total costs \u00a31,000. Units 100: fixed costs (i), variable costs \u00a32,000, total costs \u00a33,000. Units 200: fixed costs \u00a31,000, variable costs \u00a34,000, total costs (ii). Units 300: fixed costs \u00a31,000, variable costs (iii), total costs \u00a37,000.",
       "acceptedPoints": [
-        "(i) Fixed costs = £3,000 - £2,000 = £1,000.",
-        "(ii) Total costs = £1,000 + £4,000 = £5,000.",
-        "(iii) Variable costs = £7,000 - £1,000 = £6,000."
+        "(i) Fixed costs = \u00a33,000 - \u00a32,000 = \u00a31,000.",
+        "(ii) Total costs = \u00a31,000 + \u00a34,000 = \u00a35,000.",
+        "(iii) Variable costs = \u00a37,000 - \u00a31,000 = \u00a36,000."
       ],
       "markingRule": "Award one mark for each correct missing figure, up to 3 marks.",
       "month": "January 2027",
@@ -6423,10 +6423,10 @@ window.N5_HUB_DATA = {
       "year": 2024,
       "ref": "Q3(c)",
       "slide": 186,
-      "text": "From the information below, calculate: • gross profit • profit for the year. Sales revenue £10,000; Cost of sales £2,000; Expenses £1,000.",
+      "text": "From the information below, calculate: \u2022 gross profit \u2022 profit for the year. Sales revenue \u00a310,000; Cost of sales \u00a32,000; Expenses \u00a31,000.",
       "acceptedPoints": [
-        "Gross profit = £10,000 - £2,000 = £8,000.",
-        "Profit for the year = £8,000 - £1,000 = £7,000."
+        "Gross profit = \u00a310,000 - \u00a32,000 = \u00a38,000.",
+        "Profit for the year = \u00a38,000 - \u00a31,000 = \u00a37,000."
       ],
       "markingRule": "Award one mark for each correct calculated figure, up to 2 marks.",
       "month": "February 2027",
@@ -6525,7 +6525,7 @@ window.N5_HUB_DATA = {
       "year": 2024,
       "ref": "Q5(b)",
       "slide": 228,
-      "text": "Outline 1 feature of each of the following pieces of legislation: • Equality Act • Health and Safety at Work Act.",
+      "text": "Outline 1 feature of each of the following pieces of legislation: \u2022 Equality Act \u2022 Health and Safety at Work Act.",
       "acceptedPoints": [
         "The Equality Act protects people from discrimination and victimisation.",
         "The Health and Safety at Work Act requires a safe working environment."
@@ -6596,7 +6596,7 @@ window.N5_HUB_DATA = {
       "slide": 198,
       "text": "Draw and label a break-even chart.",
       "acceptedPoints": [
-        "Both axes are correctly labelled: Revenue and costs (£), and Units.",
+        "Both axes are correctly labelled: Revenue and costs (\u00a3), and Units.",
         "The horizontal fixed costs line is correctly drawn and labelled.",
         "The upward-sloping total costs line starts at the fixed costs level and is labelled.",
         "The total revenue line starts at the origin and is correctly labelled."
@@ -6649,13 +6649,13 @@ window.N5_HUB_DATA = {
         "name"
       ],
       "videoId": "_j94oV8CwPQ",
-      "videoTitle": "Identify — N5 Business Management Command Words",
+      "videoTitle": "Identify \u2014 N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "State the required business fact, factor, term or item clearly and directly. You do NOT need a long explanation for an Identify question, but each point must be distinct.",
       "formula": "1 Distinct Point = 1 Mark (Keep it clear, specific, and avoid repeating the same point in different words)",
       "examplePrompt": "Identify two methods of primary (field) market research. (2 marks)",
-      "goodAnswer": "• Customer questionnaire / survey (1)\n• Focus group / consumer panel (1)",
-      "badAnswer": "• Asking customers questions and doing a survey (Only 1 mark — repeats the same method)"
+      "goodAnswer": "\u2022 Customer questionnaire / survey (1)\n\u2022 Focus group / consumer panel (1)",
+      "badAnswer": "\u2022 Asking customers questions and doing a survey (Only 1 mark \u2014 repeats the same method)"
     },
     "describe": {
       "command": "Describe",
@@ -6665,13 +6665,13 @@ window.N5_HUB_DATA = {
         "define"
       ],
       "videoId": "TezKy7BvKsg",
-      "videoTitle": "Describe — N5 Business Management Command Words",
+      "videoTitle": "Describe \u2014 N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "Give a clear, accurate sentence stating WHAT the feature, method or concept is and how it works in a business context. Do not just write a 1-word label!",
       "formula": "Name the point + Add a full descriptive detail of what happens = 1 Mark",
       "examplePrompt": "Describe two methods a business could use to maintain product quality. (2 marks)",
-      "goodAnswer": "• Quality control involves inspecting sample products at the end of the production line to check for faults. (1)\n• Quality assurance checks quality at every stage of the production process so zero defects reach the customer. (1)",
-      "badAnswer": "• Quality control and quality assurance. (0 marks — only listed names without describing what they involve)"
+      "goodAnswer": "\u2022 Quality control involves inspecting sample products at the end of the production line to check for faults. (1)\n\u2022 Quality assurance checks quality at every stage of the production process so zero defects reach the customer. (1)",
+      "badAnswer": "\u2022 Quality control and quality assurance. (0 marks \u2014 only listed names without describing what they involve)"
     },
     "explain": {
       "command": "Explain",
@@ -6679,13 +6679,13 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "videoId": "yRwnAnw2MgY",
-      "videoTitle": "Explain — N5 Business Management Command Words",
+      "videoTitle": "Explain \u2014 N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "State a relevant point AND link it to a clear business consequence or impact using a connector phrase like 'which means that', 'leading to', 'so that', 'therefore', or 'as a result'.",
       "formula": "Point / Cause + Connector ('which means that / leading to / therefore') + Business Impact = 1 Mark",
       "examplePrompt": "Explain two benefits to a business of training its employees. (2 marks)",
-      "goodAnswer": "• Staff learn how to carry out tasks more efficiently, which means that productivity increases and more output is produced. (1)\n• Employees feel valued and supported by the business, leading to higher motivation and lower staff turnover. (1)",
-      "badAnswer": "• Staff are better at their job and feel happier. (0 marks — too vague; must explain the specific consequence for the business)"
+      "goodAnswer": "\u2022 Staff learn how to carry out tasks more efficiently, which means that productivity increases and more output is produced. (1)\n\u2022 Employees feel valued and supported by the business, leading to higher motivation and lower staff turnover. (1)",
+      "badAnswer": "\u2022 Staff are better at their job and feel happier. (0 marks \u2014 too vague; must explain the specific consequence for the business)"
     },
     "compare": {
       "command": "Compare / Distinguish",
@@ -6694,13 +6694,13 @@ window.N5_HUB_DATA = {
         "distinguish"
       ],
       "videoId": "tVeaB55gpzs",
-      "videoTitle": "Compare & Distinguish — N5 Business Management Command Words",
+      "videoTitle": "Compare & Distinguish \u2014 N5 Business Management Command Words",
       "videoChannel": "SQA N5 Business Exam Technique",
       "rule": "Show a direct similarity or difference between BOTH items in the same point using comparative connectors ('whereas', 'on the other hand', 'compared to', or 'both').",
       "formula": "Item A feature + 'whereas / both' + Item B feature on the SAME characteristic = 1 Mark",
       "examplePrompt": "Compare a sole trader and a private limited company (Ltd). (2 marks)",
-      "goodAnswer": "• A sole trader has unlimited liability, whereas a private limited company has limited liability. (1)\n• Both a sole trader and a private limited company operate in the private sector and aim to make a profit. (1)",
-      "badAnswer": "• A sole trader is owned by one person. A private limited company has shareholders. (Often loses marks if not written as a direct comparison on the same feature using 'whereas')"
+      "goodAnswer": "\u2022 A sole trader has unlimited liability, whereas a private limited company has limited liability. (1)\n\u2022 Both a sole trader and a private limited company operate in the private sector and aim to make a profit. (1)",
+      "badAnswer": "\u2022 A sole trader is owned by one person. A private limited company has shareholders. (Often loses marks if not written as a direct comparison on the same feature using 'whereas')"
     },
     "justify": {
       "command": "Justify / Discuss",
@@ -6709,13 +6709,13 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "videoId": "FOUsyz5lrsA",
-      "videoTitle": "Discuss & Justify — N5 Business Management Command Words",
+      "videoTitle": "Discuss & Justify \u2014 N5 Business Management Command Words",
       "videoChannel": "Dunoon Grammar Business Education",
       "rule": "For Justify: give a positive reason why the chosen option is suitable (or why an alternative is rejected) with its impact. For Discuss: give developed advantages AND/OR disadvantages with business impacts.",
       "formula": "Reason / Advantage or Disadvantage + Business Impact ('because / which means that') = 1 Mark",
       "examplePrompt": "Justify the use of batch production for a bakery. (2 marks)",
-      "goodAnswer": "• Different types of bread and cakes can be baked using the same ovens, which allows the bakery to satisfy a wider range of customer tastes. (1)\n• Batches can be adjusted in size depending on seasonal demand, which reduces wasted ingredients. (1)",
-      "badAnswer": "• Batch production makes batches of bread. (0 marks — repeats the question instead of giving a reason why it is suitable)"
+      "goodAnswer": "\u2022 Different types of bread and cakes can be baked using the same ovens, which allows the bakery to satisfy a wider range of customer tastes. (1)\n\u2022 Batches can be adjusted in size depending on seasonal demand, which reduces wasted ingredients. (1)",
+      "badAnswer": "\u2022 Batch production makes batches of bread. (0 marks \u2014 repeats the question instead of giving a reason why it is suitable)"
     },
     "multicommand": {
       "command": "Multi-Command (Identify & Justify / Explain)",
@@ -6727,13 +6727,13 @@ window.N5_HUB_DATA = {
         "define + describe"
       ],
       "videoId": "RIpkIWk8VTY",
-      "videoTitle": "Answering Multi-Part & Case Study Questions — N5 Business Management",
+      "videoTitle": "Answering Multi-Part & Case Study Questions \u2014 N5 Business Management",
       "videoChannel": "FVWL RIC N5 Business",
       "rule": "Break the question into clearly labelled parts! First complete the first command word (e.g. Identify: ...), then complete the second command word (e.g. Justify: ...). Never leave the first part implied.",
       "formula": "Part 1 (Identify/Describe) = 1st Mark(s) + Part 2 (Explain/Justify with impact) = Remaining Mark(s)",
       "examplePrompt": "Identify one suitable pricing strategy for a luxury smartwatch and justify your choice. (2 marks)",
-      "goodAnswer": "• Identify: Price skimming (or high/premium pricing). (1)\n• Justify: Because the smartwatch has innovative features, early adopters will pay a high price at launch, which helps the business recover its research and development costs quickly. (1)",
-      "badAnswer": "• Charge a high price to make more profit. (Only 1 mark at best — must clearly name the strategy and justify why it suits the product)"
+      "goodAnswer": "\u2022 Identify: Price skimming (or high/premium pricing). (1)\n\u2022 Justify: Because the smartwatch has innovative features, early adopters will pay a high price at launch, which helps the business recover its research and development costs quickly. (1)",
+      "badAnswer": "\u2022 Charge a high price to make more profit. (Only 1 mark at best \u2014 must clearly name the strategy and justify why it suits the product)"
     }
   },
   "initialDb": {
@@ -7396,555 +7396,820 @@ window.N5_HUB_DATA = {
     ],
     "attempts": [
       {
-        "id": "hist-att-pupil-aj-wright-4gbm-1",
+        "id": "floot-att-pupil-aj-wright-4gbm-307",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify + explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "An external factor would be a customer the customer decides on if they buy your product instead of your competitors and business use branding to make this possible. Banks can decide if they give out a loan or grant to a business ",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices"
+        ],
+        "improvements": [
+          "Practise 'IDENTIFY + EXPLAIN' questions on Internal & external factors: include social factors such as ageing populations or fashion can change products and market research needs",
+          "Practise 'IDENTIFY + EXPLAIN' questions on Internal & external factors: include technological change can alter staffing, capital spending and competitiveness"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "29/10/2026, 09:39:44"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-306",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7a",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "the first factor of production is the land this is where the business where locate stores or warehouses. Labour is who works for the business this can be the employee or mangers. Capital is the manmade items in the business. Enterprise is the entrepreneur who is the original owner of the business     ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "land means natural resources",
+          "labour means human effort or employees",
+          "capital means man-made resources and can include owner finance",
+          "enterprise is the idea or entrepreneur bringing the other factors together"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "29/10/2026, 09:36:35"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-304",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The public sector is ran by the government whereas the private sector is owned by private shareholders.\nthe public sector is aimed to provide the essentials and to help out whereas the private sector wants to make a profit and expand ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "29/10/2026, 09:30:36"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-302",
         "userId": "pupil-aj-wright-4gbm",
         "userName": "AJ Wright",
         "classCode": "4GBM1",
         "questionId": "sqa2019-3a",
         "topic": "Understanding Business",
         "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
+        "primaryCommand": "outline",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
+        "answer": "One way an organisation can deliver good customer service is that they have good return of refund policies.\nAnother way is that  ",
+        "marks": 1,
+        "marksAvailable": 4,
+        "percentage": 25,
+        "hintUsed": false,
+        "awardedPoints": [
+          "train staff to answer questions helpfully"
         ],
-        "createdAt": "29/10/2026, 09:39:44"
+        "improvements": [
+          "Practise 'OUTLINE' questions on Customer satisfaction: include respond promptly and fairly to complaints",
+          "Practise 'OUTLINE' questions on Customer satisfaction: include provide accurate product information",
+          "Practise 'OUTLINE' questions on Customer satisfaction: include offer suitable returns and refunds"
+        ],
+        "feedback": "Scored 1/4 (25%). Good knowledge of Customer satisfaction shown; see the suggested improvements below to gain the remaining 3 mark(s).",
+        "createdAt": "29/10/2026, 09:27:39"
       },
       {
-        "id": "hist-att-pupil-aj-wright-4gbm-2",
+        "id": "floot-att-pupil-aj-wright-4gbm-299",
         "userId": "pupil-aj-wright-4gbm",
         "userName": "AJ Wright",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
+        "questionId": "sqa2018-6a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "A benefit of a private limited company is that they have limited liability. Another benefit is that it is easier to raise capital. A drawback of a private limited company is that there is more legal paperwork to form and profits are shared as dividends ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "shareholders normally have limited liability",
+          "private shareholders can invest capital",
+          "financial risk is shared",
+          "shares cannot be offered to the public"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "29/10/2026, 09:20:51"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-297",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
+        "answer": "an influence of a customer on a business is that they decide if they want to buy your product instead of a competitor. The government have an influence on a business due to how they can change parts of the law. A bank influence a  business because they decide if they give a loan or grant to an organisation ",
         "marks": 2,
         "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs"
         ],
-        "createdAt": "29/10/2026, 09:39:44"
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Internal & external factors: include social changes such as tastes and fashions can force product changes"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "29/10/2026, 09:15:23"
       },
       {
-        "id": "hist-att-pupil-aj-wright-4gbm-3",
+        "id": "floot-att-pupil-aj-wright-4gbm-294",
         "userId": "pupil-aj-wright-4gbm",
         "userName": "AJ Wright",
         "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
+        "questionId": "sqa22-3b",
         "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
+        "answer": "the objectives of a charity is to help a social cause whereas a sole trader is to make a profit and expand their business ",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
-        "createdAt": "29/10/2026, 09:39:44"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "29/10/2026, 09:11:37"
       },
       {
-        "id": "hist-att-pupil-aj-wright-4gbm-4",
+        "id": "floot-att-pupil-aj-wright-4gbm-293",
         "userId": "pupil-aj-wright-4gbm",
         "userName": "AJ Wright",
         "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "the objectives of a charity is to help a social cause whereas a sole trader is to make a profit and expand their business ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "29/10/2026, 09:11:32"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-291",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "two internal factors of an organisation are an employee and the manager this is due to depending on their work ethic and how the perform depends on how much profit they earn",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "29/10/2026, 09:09:03"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-205",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "An advantage of a partnership is unlimited liability and more ideas from other people in the partnership.\nA disadvantage of a partnership is that profits must be shared between partners and partners may argue amongst each other ",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality",
+          "responsibility and workload can be shared"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include more ideas can be generated"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:33:30"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-195",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "the public sector is owned by the government and want to provide high quality free services but a private sector business only aims to make a profit and is owned by private shareholders   ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:30:12"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-175",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "A sole trader has to make a profit to stay in business and do everything by themself whereas a charity will receive donations from communities or other big companies to continue funding the charity     ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:23:43"
+      },
+      {
+        "id": "floot-att-pupil-aj-wright-4gbm-163",
+        "userId": "pupil-aj-wright-4gbm",
+        "userName": "AJ Wright",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "2 objectives of a public sector organisation is to stay in budget and to provide a free service\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:20:07"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-333",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa2018-6a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "one advantage of a private limited company is limited liability this means that the shareholders personal belongings aren\u2019t at risk only their investment is\n\none disadvantage of a private limited company is that they are difficult to setup with legality this means that they are more difficult to setup than a sole trader or partnership\n\nAnother advantage of a private limited company is that they are easier to raise capital for than a sole trader or partnership because banks see them as less of a risk\n\nAnother disadvantage of a private limited company is disagreements between shareholders this is when shareholders disagree about a business decision which could lead to them falling out or the business collapsing",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "shareholders normally have limited liability",
+          "private shareholders can invest capital",
+          "financial risk is shared",
+          "shares cannot be offered to the public"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "08/11/2026, 11:40:13"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-332",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one external factor is technological this is when new innovations are made in technology this means that the business needs to upgrade their current technology to stay competitive \n\nAnother external factor is economic this could be when interest rates fall this means that the business doesn\u2019t need to pay as much interest on top of loans took out when the interest rate is low meaning the business will have more money\n\nA third external factor is political this could be if the government decided to raise minimum wage this means that the business would need to pay employees more increasing the wage bill and redcuing profit",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "08/11/2026, 11:30:08"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-331",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "One objective of the public sector is to provide a service to the public this is when a government owned business such as a hospital provides the public with a service like healthcare \n\nAnother objective of the public sector is to work within government budgets this is when the government owned business needs to work within the budgets set by the government and not overspend",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/11/2026, 11:06:01"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-330",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "One economic factor is inflation \n\nAnother economic factor is unemployment ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/11/2026, 11:04:21"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-329",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa2019-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "outline",
+        "level": "C",
+        "mode": "practice",
+        "answer": "One objective of the public sector is to provide a service to the community \n\nAnother objective of the public sector is to work within government budgets",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "provide essential services to the public",
+          "meet government service targets"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "08/11/2026, 10:59:56"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-328",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
         "questionId": "sqa2019-3b",
         "topic": "Understanding Business",
         "subtopic": "Role of business in society",
         "primaryCommand": "define",
-        "level": "B",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
+        "answer": "A non durable good is a good that can only be used once",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
-        "createdAt": "29/10/2026, 09:39:44"
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "08/11/2026, 10:56:01"
       },
       {
-        "id": "hist-att-pupil-aj-wright-4gbm-5",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-6",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-7",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-8",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-9",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-10",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-11",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-12",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa22-4aii",
-        "topic": "Management of People",
-        "subtopic": "Recruitment & selection",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aj-wright-4gbm-13",
-        "userId": "pupil-aj-wright-4gbm",
-        "userName": "AJ Wright",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (78%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 78,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (identify + explain)"
-        ],
-        "createdAt": "29/10/2026, 09:39:44"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-1",
+        "id": "floot-att-pupil-aaron-coutts-4cbm-327",
         "userId": "pupil-aaron-coutts-4cbm",
         "userName": "Aaron Coutts",
         "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one objective of a sole trader is to make a profit whereas one objective of a charity is to provide a charitable service to the community\n\nAnother objective of a sole trader is to fill a gap in the market whereas another objective of a charity is to raise awareness for a cause ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/11/2026, 10:51:48"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-326",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one internal factor is finance, this is the money the business currently has and needs to control and use well\n\nAnother internal factor is tecnological, this is the technology the business currently has they need to train employees how to use it and make the most out of it",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/11/2026, 10:46:19"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-325",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one internal factor is finance, this is the money the business currently has and needs to control and use well\n\nAnother internal factor is tecnological, this is the technology the business currently has they need to train employees how to use it and make the most out of it",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/11/2026, 10:46:13"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-280",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa2018-6a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "one advantage of a private limited company is no unlimited liability for shareholders. One disadvantage of a private limited company is it is difficult to set up. Another advantage of a private limited company is that they are the easiest to raise finance for. Another disadvantage of a private limited company is they must release their financial statements to the public",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "shareholders normally have limited liability",
+          "private shareholders can invest capital",
+          "financial risk is shared"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include shares cannot be offered to the public"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "27/10/2026, 18:22:44"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-70",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-7bi",
         "topic": "Management of Marketing",
         "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
+        "primaryCommand": "discuss",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
+        "answer": "One advantage of a focus group is that you can get direct answers. One disadvantage is that people might lie. Another disadvantage is that focus groups are expensive\n  ",
+        "marks": 2,
         "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "focus groups can collect detailed qualitative information",
+          "follow-up questions can be asked"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [
+          "Practise 'DISCUSS' questions on Market research: include researchers can assess body language"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "07/10/2026, 08:45:50"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-2",
+        "id": "floot-att-pupil-aaron-coutts-4cbm-39",
         "userId": "pupil-aaron-coutts-4cbm",
         "userName": "Aaron Coutts",
         "classCode": "4CBM3",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
+        "questionId": "sqa24-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Place & distribution",
+        "primaryCommand": "identify + justify",
+        "level": "A",
+        "mode": "practice",
+        "answer": "One method of distribution is shipping by boat this is suitable for big or heavy products as they cant fit in a plane for when they are being sent abroad. Another method is by road this is suitable when someone orders something that's not to big and can be delivered straight to their door",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "road can offer door-to-door delivery and specialist vehicle types",
+          "rail can carry large or heavy loads and can be more environmentally friendly than road",
+          "air is the quickest way to move goods long distances and can reach places other methods cannot",
+          "sea can carry large volumes and may be cheaper for bulk transport"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Place & distribution and applies the 'IDENTIFY + JUSTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 08:35:44"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-36",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Place & distribution",
+        "primaryCommand": "identify + justify",
+        "level": "A",
+        "mode": "practice",
+        "answer": "One method of distribution is shipping by boat this is suitable for big or heavy products as they cant fit in a plane for when they are being sent abroad ",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "road can offer door-to-door delivery and specialist vehicle types",
+          "rail can carry large or heavy loads and can be more environmentally friendly than road"
+        ],
+        "improvements": [
+          "Practise 'IDENTIFY + JUSTIFY' questions on Place & distribution: include air is the quickest way to move goods long distances and can reach places other methods cannot",
+          "Practise 'IDENTIFY + JUSTIFY' questions on Place & distribution: include sea can carry large volumes and may be cheaper for bulk transport"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Place & distribution shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "07/10/2026, 08:33:53"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-24",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-7b",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
         "primaryCommand": "explain",
-        "level": "B",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
+        "answer": "One advantage of branding is people will recognise your product if you have a strong brand meaning more people will buy the product this means that you will make more profit\n",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recognition can increase purchases and profit",
+          "recognition can make it easier to launch new products",
+          "brand loyalty can lead to repeat purchases"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "07/10/2026, 08:24:55"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-3",
+        "id": "floot-att-pupil-aaron-coutts-4cbm-23",
         "userId": "pupil-aaron-coutts-4cbm",
         "userName": "Aaron Coutts",
         "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa22-7b",
         "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
+        "subtopic": "Product & branding",
+        "primaryCommand": "explain",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
+        "answer": "One advantage of branding is people will recognise your product if you have a strong brand meaning more people will buy the product this means that you will make more profit\n",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recognition can increase purchases and profit",
+          "recognition can make it easier to launch new products",
+          "brand loyalty can lead to repeat purchases"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "07/10/2026, 08:24:45"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-4",
+        "id": "floot-att-pupil-aaron-coutts-4cbm-22",
         "userId": "pupil-aaron-coutts-4cbm",
         "userName": "Aaron Coutts",
         "classCode": "4CBM3",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-5",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-6",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-7",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-8",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa25-4c",
+        "questionId": "sqa25-1b",
         "topic": "Management of Marketing",
         "subtopic": "Promotion",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "One disadvantage of advertising methods is people will turn over the radio and one advantage is if your advert plays in the cinema lots of people will see it. Another (TV) disadvantage is less profit as you need to pay to get your advert shown but one advantage is on tv you can show a demonstration. A third disadvantage is that if you advertise on a newspaper not everyone will see it as it has a limited audience\n",
+        "marks": 5,
+        "marksAvailable": 5,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "television advertising can reach a wide audience and demonstrate products, but is expensive and viewers may skip adverts",
+          "radio advertising can use memorable audio and may cost less than television, but listeners can tune out",
+          "newspaper or magazine advertising can provide printed information and be kept for reference, but may have a limited audience",
+          "cinema advertising can target audience segments and has a captive audience",
+          "outdoor, billboard or transport advertising can reach local audiences but may be damaged or malfunction"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (5/5 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "07/10/2026, 08:20:56"
+      },
+      {
+        "id": "floot-att-pupil-aaron-coutts-4cbm-21",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-1b",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "One disadvantage of advertising methods is people will turn over the radio and one advantage is if your advert plays in the cinema lots of people will see it \n",
+        "marks": 2,
+        "marksAvailable": 5,
+        "percentage": 40,
+        "hintUsed": false,
+        "awardedPoints": [
+          "television advertising can reach a wide audience and demonstrate products, but is expensive and viewers may skip adverts",
+          "radio advertising can use memorable audio and may cost less than television, but listeners can tune out"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Promotion: include newspaper or magazine advertising can provide printed information and be kept for reference, but may have a limited audience",
+          "Practise 'DISCUSS' questions on Promotion: include cinema advertising can target audience segments and has a captive audience",
+          "Practise 'DISCUSS' questions on Promotion: include outdoor, billboard or transport advertising can reach local audiences but may be damaged or malfunction"
+        ],
+        "feedback": "Scored 2/5 (40%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 3 mark(s).",
+        "createdAt": "07/10/2026, 08:18:20"
+      },
+      {
+        "id": "floot-att-pupil-alannah-cairns-4cbm-62",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
+        "questionId": "sqa23-6bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
+        "answer": "A pricing strategy that an organisation could use is low pricing this is when a business sets their prices lower than others to attract customers.\nAnother pricing strategy that an organisation could use is high pricing this is when a business sets their prices higher than others to initiate that their product is of a higher standard compared to others.\nAnother pricing strategy that an organisation could use is competitive pricing this is when a business sets their prices similar to competitors and attract customers using other factors such as customer service.",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "high or premium pricing sets a price above competitors and can suggest quality",
+          "low pricing sets a price below competitors to undercut them",
+          "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 08:41:32"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-9",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
+        "id": "floot-att-pupil-alannah-cairns-4cbm-46",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
         "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa22-7cii",
         "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
+        "subtopic": "Promotion",
+        "primaryCommand": "justify",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "answer": "An advertising method an organisation could use is TV advertisement which can reach larger audiences.\nAnother advertising method an organisation could use is e-mail advertisement which people sign up for so they are more likely to be interested in the product/service the organisation is offering.  ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "online or social methods can target groups, reach worldwide audiences, link directly to buying and operate at low cost",
+          "printed methods can be kept, use visuals and target local or specialist audiences"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 08:37:27"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-10",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-11",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-12",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa22-4aii",
-        "topic": "Management of People",
-        "subtopic": "Recruitment & selection",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-13",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-14",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
+        "id": "floot-att-pupil-alannah-cairns-4cbm-34",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
         "classCode": "4CBM3",
         "questionId": "sqa22-7a",
         "topic": "Management of Marketing",
@@ -7952,501 +8217,317 @@ window.N5_HUB_DATA = {
         "primaryCommand": "outline",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
+        "answer": "Idea generation is where the product is first being thought about. Development is where the product is starting to be made. Testing is when the product is undergoing a set of tests to make sure the product is ready for the market.",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "generate the idea",
+          "analyse the idea",
+          "carry out market research"
         ],
-        "createdAt": "08/11/2026, 11:40:13"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "07/10/2026, 08:33:31"
       },
       {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-15",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-16",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa23-4c",
-        "topic": "Management of People",
-        "subtopic": "Employee relations",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-aaron-coutts-4cbm-17",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (identify + justify)"
-        ],
-        "createdAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-att-pupil-alannah-cairns-4cbm-1",
+        "id": "floot-att-pupil-alannah-cairns-4cbm-26",
         "userId": "pupil-alannah-cairns-4cbm",
         "userName": "Alannah Cairns",
         "classCode": "4CBM3",
-        "questionId": "sqa25-4bi",
+        "questionId": "sqa25-4c",
         "topic": "Management of Marketing",
-        "subtopic": "Price",
+        "subtopic": "Promotion",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
+        "answer": "A sales promotion an organisation could use is buy one get one free this is when you buy one product and you get another one for free. Another sales promotion an organisation could use is discounts this is when you get a certain amount of money off of a products/service. Another sales promotion an organisation could use is loyalty cards this is when a customer returns to your business over and over again they can get a card to use then at the end of a certain amount of time the get a discount or a free product. Another sales promotion an organisation could use is free samples this is when a business gives a small tester of the product to the customer so they can try it to see if they like it before they buy it.",
+        "marks": 4,
+        "marksAvailable": 4,
         "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Price (describe)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
         ],
-        "createdAt": "29/10/2026, 20:33:03"
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 08:26:01"
       },
       {
-        "id": "hist-att-pupil-alannah-cairns-4cbm-2",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
+        "id": "floot-att-pupil-alfie-anderson-4gbm-198",
+        "userId": "pupil-alfie-anderson-4gbm",
+        "userName": "Alfie Anderson",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "one disadvantage of a partnership is you have unlimited liability another is arguments can happen\none advantage is your working hours are controlled therefore making them balanced\nanother is if the business goes in debt you dont have to pay it all yourself",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality",
+          "responsibility and workload can be shared",
+          "more ideas can be generated"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "08/10/2026, 09:31:31"
+      },
+      {
+        "id": "floot-att-pupil-alfie-anderson-4gbm-170",
+        "userId": "pupil-alfie-anderson-4gbm",
+        "userName": "Alfie Anderson",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Price (describe)"
+        "answer": "a sole trader has a main objective to  produce profit whereas a charity has a main objective to help the public and people in need",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
         ],
-        "createdAt": "29/10/2026, 20:33:03"
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:22:39"
       },
       {
-        "id": "hist-att-pupil-alannah-cairns-4cbm-3",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "sqa25-4bi",
-        "topic": "Management of Marketing",
-        "subtopic": "Price",
+        "id": "floot-att-pupil-alfie-anderson-4gbm-165",
+        "userId": "pupil-alfie-anderson-4gbm",
+        "userName": "Alfie Anderson",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
+        "answer": "one internal factor is finance where all the money goes in and out such as budgets and profits another is technology this is all the tech used to produce a product",
+        "marks": 2,
+        "marksAvailable": 2,
         "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Price (describe)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
         ],
-        "createdAt": "29/10/2026, 20:33:03"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:20:50"
       },
       {
-        "id": "hist-att-pupil-alannah-cairns-4cbm-4",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "sqa2019-3b",
+        "id": "floot-att-pupil-alfie-anderson-4gbm-158",
+        "userId": "pupil-alfie-anderson-4gbm",
+        "userName": "Alfie Anderson",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
         "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
+        "answer": "to provide an efficient service and do this by minimising the budget",
+        "marks": 2,
+        "marksAvailable": 2,
         "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Price (describe)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
         ],
-        "createdAt": "29/10/2026, 20:33:03"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:18:31"
       },
       {
-        "id": "hist-att-pupil-alfie-anderson-4gbm-1",
+        "id": "floot-att-pupil-alfie-anderson-4gbm-156",
         "userId": "pupil-alfie-anderson-4gbm",
         "userName": "Alfie Anderson",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa25-3bi",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
+        "answer": "recession and exchange rate",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
         ],
-        "createdAt": "08/10/2026, 10:31:31"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:15:46"
       },
       {
-        "id": "hist-att-pupil-alfie-anderson-4gbm-2",
-        "userId": "pupil-alfie-anderson-4gbm",
-        "userName": "Alfie Anderson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:31:31"
-      },
-      {
-        "id": "hist-att-pupil-alfie-anderson-4gbm-3",
-        "userId": "pupil-alfie-anderson-4gbm",
-        "userName": "Alfie Anderson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:31:31"
-      },
-      {
-        "id": "hist-att-pupil-alfie-anderson-4gbm-4",
-        "userId": "pupil-alfie-anderson-4gbm",
-        "userName": "Alfie Anderson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:31:31"
-      },
-      {
-        "id": "hist-att-pupil-alfie-anderson-4gbm-5",
-        "userId": "pupil-alfie-anderson-4gbm",
-        "userName": "Alfie Anderson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (90%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 90,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:31:31"
-      },
-      {
-        "id": "hist-att-pupil-aoibhi-robertson-4fbm-1",
+        "id": "floot-att-pupil-aoibhi-robertson-4fbm-151",
         "userId": "pupil-aoibhi-robertson-4fbm",
         "userName": "Aoibhi Robertson",
         "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa22-3b",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
+        "subtopic": "Business types & sectors",
         "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
+        "answer": "An objective of a sole trader is to make a profit, whereas a charity aim to increase donations. An objective of a sole trader is to increase market share whereas a charity aims to raise awareness for a cause.",
+        "marks": 2,
+        "marksAvailable": 2,
         "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
-        "createdAt": "07/10/2026, 14:55:48"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "07/10/2026, 13:55:48"
       },
       {
-        "id": "hist-att-pupil-aoibhi-robertson-4fbm-2",
+        "id": "floot-att-pupil-aoibhi-robertson-4fbm-142",
         "userId": "pupil-aoibhi-robertson-4fbm",
         "userName": "Aoibhi Robertson",
         "classCode": "4FBM2",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "07/10/2026, 14:55:48"
-      },
-      {
-        "id": "hist-att-pupil-aoibhi-robertson-4fbm-3",
-        "userId": "pupil-aoibhi-robertson-4fbm",
-        "userName": "Aoibhi Robertson",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa25-3c",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "07/10/2026, 14:55:48"
-      },
-      {
-        "id": "hist-att-pupil-aoibhi-robertson-4fbm-4",
-        "userId": "pupil-aoibhi-robertson-4fbm",
-        "userName": "Aoibhi Robertson",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "07/10/2026, 14:55:48"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-1",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-2",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-3",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-4",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-5",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-6",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One internal factor of an organisation is finance. This is the amount of money the business has to use and if this figure is altered then the flexibility of the business could change.\nAnother internal factor is human resources which are the people working to help the business. Employees can have an impact on a business because their level of effort could affect the speed at which tasks are being completed.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:53:05"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-7",
+        "id": "floot-att-pupil-aoibhi-robertson-4fbm-123",
+        "userId": "pupil-aoibhi-robertson-4fbm",
+        "userName": "Aoibhi Robertson",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "One objective of a public sector organisation is to meet governmental targets. the government will have goals they set to aim for by a certain point in time and the public sector will help to reach these goals using tax-payers money. \nAnother objective is to help the community by providing services. Public sector organisations will provide necessary services to those who need help such as healthcare and education.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:46:45"
+      },
+      {
+        "id": "floot-att-pupil-aoibhi-robertson-4fbm-93",
+        "userId": "pupil-aoibhi-robertson-4fbm",
+        "userName": "Aoibhi Robertson",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "unemployment, recession ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:37:03"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-350",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
+        "questionId": "sqa22-5d",
+        "topic": "Management of Operations",
+        "subtopic": "Suppliers",
+        "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One factor that should be considered when choosing a supplier is the suppliers reputation, this means that if the supplier is known to deliver goods on time and has positive reviews this will lead to positive word of mouth and happy customers. \n\nAnother factor that should be considered when choosing a supplier is price, this means that if a company can find a cheaper supplier it will therefore leans to increased profits. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "reliable suppliers help ensure goods arrive on time",
+          "competitive prices can keep unit costs down"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "18/11/2026, 20:06:05"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-8",
+        "id": "floot-att-pupil-erin-newton-4gbm-349",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-7a",
+        "topic": "Management of Operations",
+        "subtopic": "Production methods",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "One disadvantage of batch production is that if product runs are different there may be additional costs and delays in preparing equipment. \n\nAnother disadvantage of batch production is that if something goes wrong with one batch, the entire production run can be affected. \n\nOne advantage of batch production is that it can be cheaper as workers can be used more efficiently and less wastage is produced. \n\nAnother advantage of batch production is that it is easier to achieve economies of sale. ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "batch production allows variety of products",
+          "some economies of scale can lower unit cost",
+          "machinery needs resetting between batches",
+          "stock may need storing between batches"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Production methods and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "18/11/2026, 20:01:39"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-348",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
@@ -8456,207 +8537,292 @@ window.N5_HUB_DATA = {
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One sales promotion a business can use is buy one get one free, this is when your purchase one product from the business and get another for free. \n\nA second sales promotion a business could use is discounts off products, this means that if you buy a certain product from a business you can get money off of the original price. \n\nA third sales promotion a business could use is free samples, this is when customers can try a product for free before deciding whether to purchase it or not. \n\nA final sales promotion a business could use is loyalty cards, this is when customers collect points when purchasing products, which can be exchanged for rewards or discounts. ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "18/11/2026, 19:56:09"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-9",
+        "id": "floot-att-pupil-erin-newton-4gbm-347",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
+        "questionId": "sqa2019-5c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
+        "answer": "Desk research means finding out information that already exists whereas field research is going out and finding out new first hand information. \n\nDesk research is usually quicker to find as the information already exists whereas field research can take a long amount of time as the information does not already exist. \n\nDesk research can sometimes not be that reliable as it already exists so therefore might be out of date or doesn\u2019t meet the business\u2019s needs whereas field research is reliable as it is new information constructed by the business to meet their specific needs. ",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk uses existing data whereas field collects new information",
+          "desk is often cheaper whereas field can cost more",
+          "desk can be quicker whereas field can take longer"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "createdAt": "18/11/2026, 19:50:29"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-10",
+        "id": "floot-att-pupil-erin-newton-4gbm-346",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "The objectives of a sole trader is to fill a gap in the market and maximize profits whereas the objectives of a charity is to provide a service for a worthy cause. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "18/11/2026, 19:45:56"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-345",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One internal factor of an organization is finance available, this means that a business must have adequate funds in place in order for growth and survival. \n\nAnother internal factor of an organization is Human Resources, this relates to the people who work for the organization and performance is impacted by them. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "18/11/2026, 19:44:39"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-11",
+        "id": "floot-att-pupil-erin-newton-4gbm-337",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
+        "questionId": "sqa23-3a",
+        "topic": "Management of Operations",
+        "subtopic": "Production methods",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
+        "answer": "Job production concentrates on producing one product from start to finish whereas in batch production batches of items are created stage by stage in groups or sets. \n\nIn job production when one product is complete another can then begin whereas with batch production the production process is stopped on completion of each batch. \n\nJob production is not used for producing goods in mass quantities whereas batch production is used to produce large quantities of a product. ",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "job production makes one unique item whereas batch production makes groups of identical items",
+          "job production is highly customised whereas batch production offers less customisation",
+          "job production often uses highly skilled labour whereas batch production can use more specialised machinery"
         ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Production methods and applies the 'COMPARE' command word accurately.",
         "createdAt": "15/11/2026, 12:34:38"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-12",
+        "id": "floot-att-pupil-erin-newton-4gbm-336",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa22-4aii",
-        "topic": "Management of People",
-        "subtopic": "Recruitment & selection",
-        "primaryCommand": "outline",
+        "questionId": "sqa2019-7b",
+        "topic": "Management of Operations",
+        "subtopic": "Inventory management",
+        "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
+        "answer": "One consequence of holding excess inventory is that it will result in higher storage costs, this means that the business won\u2019t have enough space for new stock. \n\nAnother consequence of holding excess inventory is that there is higher risk of stock being stolen, this means that if there is stock not being used and just piled there, workers might be inclined to steal it. \n\nA final consequence of holding excess inventory is that there is a higher risk of stock going out of date or out of fashion, this means that the business will struggle to sell it and will loose out on profits. ",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "higher storage and insurance costs",
+          "money tied up in stock cannot fund other needs",
+          "perishable goods may deteriorate"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Inventory management and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "15/11/2026, 12:28:27"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-13",
+        "id": "floot-att-pupil-erin-newton-4gbm-335",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-14",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa22-7a",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & branding",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-15",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-erin-newton-4gbm-16",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "sqa23-4c",
-        "topic": "Management of People",
-        "subtopic": "Employee relations",
+        "questionId": "sqa22-5d",
+        "topic": "Management of Operations",
+        "subtopic": "Suppliers",
         "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One factor that could be considered when choosing a supplier is price, this means that if a company can find a cheaper supplier the production costs will be lower and therefore leading to increased profit. \n\nAnother factor that could be considered when choosing a supplier is reputation, this means that if suppliers have a good reputation they will be more likely to fulfill orders on time and provide a high quality product, leading to positive word of mouth. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "reliable suppliers help ensure goods arrive on time",
+          "competitive prices can keep unit costs down"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "15/11/2026, 12:22:45"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-17",
+        "id": "floot-att-pupil-erin-newton-4gbm-334",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
+        "questionId": "sqa25-5c",
+        "topic": "Management of Operations",
+        "subtopic": "Suppliers",
+        "primaryCommand": "outline",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One factor that could affect an organizations choice of supplier is location, if a supplier is situated close to the business then the business might choose that supplier. \n\nAnother factor that could affect an organizations choice of supplier is reputation, if the supplier has a good reputation and other customers have had positive experiences the business might decide to go with that supplier. \n\nAnother factor that can affect an organizations choice of supplier is reliability, if the supplier does not deliver at the agreed time this can affect a businesses ability to produce and deliver their products to customers. \n\nA final factor that can have an affect on an organization is lead time, this is the amount of time taken between an order being placed and the order being received. ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "supplier location and its effect on delivery time",
+          "price charged",
+          "quality of products supplied",
+          "ability to provide the required quantity"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "15/11/2026, 12:17:33"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-18",
+        "id": "floot-att-pupil-erin-newton-4gbm-268",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "A non durable good is a tangible product that you can see and touch that doesn't last a long time for example toothpaste ",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "27/10/2026, 12:31:02"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-267",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One external factor that can have an influence on an organization is the social factor, this is a change in taste and fashion or increase/ decrease in spending power of one group, a business must be aware of customer trends as they can change very quickly, if they business is able to keep on top of this it can lead to increased sales and profits. \n\nAnother external factor that can have an influence on an organization is the political factor, this means the government can make decisions and laws such as being able to raise or lower cooperation tax, they can also effect businesses by increasing value added tax on products or business rates, therefor impacting profits. \n\nAnother external factor that can have an influence on an organization is the competitive factor, this is the impact of a rival firm which may sell a similar product or lower its prices, if the rival firm lower there prices this could take away customers from the organization therefor impacting sales and profits.  ",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "27/10/2026, 12:29:36"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-265",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One internal factor of an organization is human resources, this relates to the people who work for the organization and performance is affected by the quality and impact of the people who work for it. \n\nAnother internal factor of an organization is finance available, this means that a business must have adequate funds in place in order for growth and survival. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "27/10/2026, 12:14:41"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-263",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "inflation and interest rates",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "27/10/2026, 12:10:56"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-259",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
@@ -8664,83 +8830,246 @@ window.N5_HUB_DATA = {
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
         "primaryCommand": "identify + explain",
-        "level": "B",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One external factor that can have an influence on an organization is the competitive factor, this means that a rival firm could sell a similar product or lower its prices, if the firm lowers its prices that could drive customers away from other organizations, therefor resulting in declining sales and profits. \n\nAnother external factor that can have an influence on an organization is the environmental factor, this means the weather conditions affecting sales and production of an organization, if there was a flood it could result in employees not being able to get to work meaning there would be no production resulting in decreased sales and profits. ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices",
+          "social factors such as ageing populations or fashion can change products and market research needs",
+          "technological change can alter staffing, capital spending and competitiveness"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
+        "createdAt": "24/10/2026, 20:24:47"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-19",
+        "id": "floot-att-pupil-erin-newton-4gbm-258",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa24-4a",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
+        "subtopic": "Business types & sectors",
         "primaryCommand": "discuss",
-        "level": "B",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One disadvantage of a partnership is that they have unlimited liability. \nAnother disadvantage of a partnership is that profits are shared. \nAn advantage of a partnership is that the workload can be shared. \nAnother advantage of a partnership is that money can be invested into the business. ",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": true,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include responsibility and workload can be shared",
+          "Practise 'DISCUSS' questions on Business types & sectors: include more ideas can be generated"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "24/10/2026, 20:13:29"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-20",
+        "id": "floot-att-pupil-erin-newton-4gbm-236",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa24-5b",
-        "topic": "Management of People",
-        "subtopic": "Employment legislation",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One internal factor of an organization is finance available this is when a business must have adequate funds in place in order for growth and survival. \n\nAnother internal factor of an organization is human resources this is the people who work for the business and the performance is affected by the quality and impact of the people who work for it. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "20/10/2026, 11:26:22"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-235",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Inflation and interest rates.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "20/10/2026, 11:21:26"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-234",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
         "primaryCommand": "outline",
-        "level": "B",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One objective of a public sector organization is to provide a high quality service to everyone in the country. \n\nAnother objective of a public sector organisation is to make good use of taxpayers. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "provide essential services to the public",
+          "meet government service targets"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "20/10/2026, 11:19:42"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-21",
+        "id": "floot-att-pupil-erin-newton-4gbm-233",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa2019-3c",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "outline",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One objective of a public sector organization is to provide a high quality service to everyone in the country. \n\nAnother objective of a public sector organisation is to make good use of taxpayers. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "provide essential services to the public",
+          "meet government service targets"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "20/10/2026, 11:19:13"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-22",
+        "id": "floot-att-pupil-erin-newton-4gbm-232",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Non durable goods are normally consumed when used, for example food and toothpaste. ",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "20/10/2026, 11:09:24"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-231",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7a",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Land, this is the natural resource like land, water, forests, minerals and oil used in production. \n\nLabour, this is the workforce involved in producing goods or providing services, including various occupations and skills for example joiners and teachers. \n\nCapital, this is the human made resources such as machinery, tools, building, technology and money used in production. \n\nEnterprise, this is the individual who comes up with new ideas and takes risks. \n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "land means natural resources",
+          "labour means human effort or employees",
+          "capital means man-made resources and can include owner finance",
+          "enterprise is the idea or entrepreneur bringing the other factors together"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "15/10/2026, 20:22:37"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-230",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "The objective of a sole trader is to make a profit whereas the objective of a charity is to provide a service to others. ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "15/10/2026, 20:17:27"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-229",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One internal factor is Human Resources, this relates to the people who work for the organization and performance is affected by the quality and impact of the people who work for it. \n\nAnother internal factor is finance available, this means the business needs adequate funds in place in order for growth and survival. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "15/10/2026, 20:14:11"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-228",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
@@ -8748,2815 +9077,1046 @@ window.N5_HUB_DATA = {
         "topic": "Understanding Business",
         "subtopic": "Business types & sectors",
         "primaryCommand": "describe",
-        "level": "B",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "answer": "One objective of a public sector organization is to provide a good service and to make everyone in the country happy. \n\nAnother objective of a public sector organization is to make good use of taxpayers money and stay within a budget. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
         ],
-        "createdAt": "15/11/2026, 12:34:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "15/10/2026, 20:10:29"
       },
       {
-        "id": "hist-att-pupil-erin-newton-4gbm-23",
+        "id": "floot-att-pupil-erin-newton-4gbm-227",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (96%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 96,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-att-pupil-evie-carlyle-4gbm-1",
-        "userId": "pupil-evie-carlyle-4gbm",
-        "userName": "Evie Carlyle",
-        "classCode": "4GBM1",
         "questionId": "sqa25-3bi",
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
+        "primaryCommand": "identify",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
+        "answer": "Inflation and interest rates. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
         ],
-        "createdAt": "08/10/2026, 10:35:40"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "15/10/2026, 20:06:04"
       },
       {
-        "id": "hist-att-pupil-evie-carlyle-4gbm-2",
+        "id": "floot-att-pupil-erin-newton-4gbm-209",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The private sector of economy is owned and controlled by private individuals known as sole traders, the finance is provided by the sole trader and they keep all profits. \n\nThe public sector of economy is owned and controlled by the government and local counsels, it is run by elected members of parliament and they provide services such as schools, hospitals and the armed force.  ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:34:53"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-188",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "The objectives of a sole trader is to maximise profit and fill gaps in the market in order to expand the business whereas the objectives of a charity is to provide support for causes such as food and shelter. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/10/2026, 09:27:32"
+      },
+      {
+        "id": "floot-att-pupil-erin-newton-4gbm-173",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "One objective of the public sector is to provide a high quality service to everyone in the country, if a product is of high quality this will attract customers therefore leading to an increase of sales. \n\nAnother objective of the public sector is to make good use of taxpayers money, this means that the business will stick to a budget and make sure they are not overspending. ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:23:20"
+      },
+      {
+        "id": "floot-att-pupil-evie-carlyle-4gbm-212",
         "userId": "pupil-evie-carlyle-4gbm",
         "userName": "Evie Carlyle",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "08/10/2026, 10:35:40"
-      },
-      {
-        "id": "hist-att-pupil-evie-carlyle-4gbm-3",
-        "userId": "pupil-evie-carlyle-4gbm",
-        "userName": "Evie Carlyle",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-3bi",
-        "topic": "Understanding Business",
-        "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "08/10/2026, 10:35:40"
-      },
-      {
-        "id": "hist-att-pupil-evie-carlyle-4gbm-4",
-        "userId": "pupil-evie-carlyle-4gbm",
-        "userName": "Evie Carlyle",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "08/10/2026, 10:35:40"
-      },
-      {
-        "id": "hist-att-pupil-evie-carlyle-4gbm-5",
-        "userId": "pupil-evie-carlyle-4gbm",
-        "userName": "Evie Carlyle",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-3bi",
-        "topic": "Understanding Business",
-        "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "08/10/2026, 10:35:40"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-1",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa24-6c",
-        "topic": "Management of Marketing",
-        "subtopic": "Place & distribution",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-2",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-3",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa24-6c",
-        "topic": "Management of Marketing",
-        "subtopic": "Place & distribution",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-4",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-5",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa24-6c",
-        "topic": "Management of Marketing",
-        "subtopic": "Place & distribution",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-6",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-7",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa24-6c",
-        "topic": "Management of Marketing",
-        "subtopic": "Place & distribution",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-8",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jack-culverhousejack-4fbm-9",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "sqa24-6c",
-        "topic": "Management of Marketing",
-        "subtopic": "Place & distribution",
-        "primaryCommand": "identify + justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (81%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 81,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Place & distribution (identify + justify)"
-        ],
-        "createdAt": "29/10/2026, 18:46:43"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-1",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-2",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-3",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-4",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-5",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-6",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-7",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-8",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-9",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Market research",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-jamie-marshall-4fbm-10",
-        "userId": "pupil-jamie-marshall-4fbm",
-        "userName": "Jamie Marshall",
-        "classCode": "4FBM2",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (95%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 95,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Market research (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:49:49"
-      },
-      {
-        "id": "hist-att-pupil-lauren-feasey-4gbm-1",
-        "userId": "pupil-lauren-feasey-4gbm",
-        "userName": "Lauren Feasey",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:36:03"
-      },
-      {
-        "id": "hist-att-pupil-lauren-feasey-4gbm-2",
-        "userId": "pupil-lauren-feasey-4gbm",
-        "userName": "Lauren Feasey",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:36:03"
-      },
-      {
-        "id": "hist-att-pupil-lauren-feasey-4gbm-3",
-        "userId": "pupil-lauren-feasey-4gbm",
-        "userName": "Lauren Feasey",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:36:03"
-      },
-      {
-        "id": "hist-att-pupil-lauren-feasey-4gbm-4",
-        "userId": "pupil-lauren-feasey-4gbm",
-        "userName": "Lauren Feasey",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:36:03"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-1",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-2",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-3",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-4",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-5",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-6",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-leah-pollock-4gbm-7",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-1",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-2",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-3",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-4",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-5",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-6",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-logan-campbell-4gbm-7",
-        "userId": "pupil-logan-campbell-4gbm",
-        "userName": "Logan Campbell",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:29:06"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-1",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-2",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-3",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-4",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-5",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-6",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-7",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-8",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-lucy-brown-4fbm-9",
-        "userId": "pupil-lucy-brown-4fbm",
-        "userName": "Lucy Brown",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (50%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 50,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (describe)"
-        ],
-        "createdAt": "28/10/2026, 14:41:30"
-      },
-      {
-        "id": "hist-att-pupil-max-gillon-4cbm-1",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "28/10/2026, 20:23:19"
-      },
-      {
-        "id": "hist-att-pupil-max-gillon-4cbm-2",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "28/10/2026, 20:23:19"
-      },
-      {
-        "id": "hist-att-pupil-max-gillon-4cbm-3",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "28/10/2026, 20:23:19"
-      },
-      {
-        "id": "hist-att-pupil-millie-scott-4gbm-1",
-        "userId": "pupil-millie-scott-4gbm",
-        "userName": "Millie Scott",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:32:58"
-      },
-      {
-        "id": "hist-att-pupil-millie-scott-4gbm-2",
-        "userId": "pupil-millie-scott-4gbm",
-        "userName": "Millie Scott",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "08/10/2026, 10:32:58"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-1",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-2",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-3",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-4",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-5",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-6",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-7",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-8",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-9",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-mr-stephenson-4e-10",
-        "userId": "pupil-mr-stephenson-4e",
-        "userName": "Mr Stephenson",
-        "classCode": "ABCD",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (88%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 88,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (explain)"
-        ],
-        "createdAt": "23/10/2026, 10:37:41"
-      },
-      {
-        "id": "hist-att-pupil-natalia-tomczak-tywoniuk-4cbm-1",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
-        ],
-        "createdAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-att-pupil-natalia-tomczak-tywoniuk-4cbm-2",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
-        ],
-        "createdAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-att-pupil-natalia-tomczak-tywoniuk-4cbm-3",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (64%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 64,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
-        ],
-        "createdAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-1",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-2",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-3",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-4",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-5",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-6",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-7",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-8",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa25-4c",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-9",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-10",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-11",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-12",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa22-4aii",
-        "topic": "Management of People",
-        "subtopic": "Recruitment & selection",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-13",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-14",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa22-7a",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & branding",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-15",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-16",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa23-4c",
-        "topic": "Management of People",
-        "subtopic": "Employee relations",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-17",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-shay-stewart-4cbm-18",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
         "questionId": "sqa23-7c",
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
         "primaryCommand": "identify + explain",
-        "level": "B",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
+        "answer": "Two external factors is the political and the social factor. The political factor is the countries government laws and decisions affect every business in that country for example the minimum wage may change meaning businesses need to pay their employees more. The social factor is the changes that happen through peoples lifestyles, businesses have to be aware of consumer trends, changesinn lifestyle and attitudes.",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices",
+          "social factors such as ageing populations or fashion can change products and market research needs"
         ],
-        "createdAt": "02/11/2026, 21:04:10"
+        "improvements": [
+          "Practise 'IDENTIFY + EXPLAIN' questions on Internal & external factors: include technological change can alter staffing, capital spending and competitiveness"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:35:40"
       },
       {
-        "id": "hist-att-pupil-shay-stewart-4cbm-19",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "define + describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (68%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 68,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (define + describe)"
-        ],
-        "createdAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-att-pupil-yusuf-keegans-4gbm-1",
-        "userId": "pupil-yusuf-keegans-4gbm",
-        "userName": "Yusuf Keegans",
+        "id": "floot-att-pupil-evie-carlyle-4gbm-203",
+        "userId": "pupil-evie-carlyle-4gbm",
+        "userName": "Evie Carlyle",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa24-4c",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:30:37"
-      },
-      {
-        "id": "hist-att-pupil-yusuf-keegans-4gbm-2",
-        "userId": "pupil-yusuf-keegans-4gbm",
-        "userName": "Yusuf Keegans",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
+        "answer": "One external factor that can influence and organisation is the political factor, this is the laws a decisions that affect every business in a country such as minimum wage may change meaning the business may have to pay their employees more. Another is the social factor, businesses have to be aware of consumer trends and changes in lifestyle and attitudes this may affect the business since what people want can change very quickly. Lastly the technological factor, the firm must keep up with the new technology or face losing customers, sale and profits, new technology includes robots being used in production.",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
         ],
-        "createdAt": "08/10/2026, 10:30:37"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "08/10/2026, 09:32:25"
       },
       {
-        "id": "hist-att-pupil-yusuf-keegans-4gbm-3",
-        "userId": "pupil-yusuf-keegans-4gbm",
-        "userName": "Yusuf Keegans",
+        "id": "floot-att-pupil-evie-carlyle-4gbm-191",
+        "userId": "pupil-evie-carlyle-4gbm",
+        "userName": "Evie Carlyle",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa25-3c",
         "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "discuss",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (discuss)"
-        ],
-        "createdAt": "08/10/2026, 10:30:37"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-1",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-2",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-3",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-4",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-5",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-6",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
+        "answer": "One internal factor of an organisation is human resources, this is the people who work in a business or organisation. Another one is finance available, this is the money the business has to pend on different things such as buying new materials to make products. ",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
         ],
-        "createdAt": "28/10/2026, 08:15:48"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:28:01"
       },
       {
-        "id": "hist-att-pupil-arron-macfarlane-4gbm-7",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
+        "id": "floot-att-pupil-evie-carlyle-4gbm-182",
+        "userId": "pupil-evie-carlyle-4gbm",
+        "userName": "Evie Carlyle",
         "classCode": "4GBM1",
-        "questionId": "drill-id-4",
-        "topic": "Management of Marketing",
-        "subtopic": "Product & product life cycle",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (54%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 54,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Product & branding (outline)"
-        ],
-        "createdAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-att-pupil-ben-ogilvie-4gbm-1",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-att-pupil-ben-ogilvie-4gbm-2",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-att-pupil-ben-ogilvie-4gbm-3",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Business organisations, entrepreneurs & business plans",
-        "primaryCommand": "compare",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (75%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Business types & sectors (compare)"
-        ],
-        "createdAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-att-pupil-emma-borland-4fbm-1",
-        "userId": "pupil-emma-borland-4fbm",
-        "userName": "emma borland",
-        "classCode": "4FBM2",
         "questionId": "sqa25-3bi",
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
         "primaryCommand": "identify",
-        "level": "B",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
+        "answer": "2 economic factors that can influence an organisation are inflation and recession.",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
         ],
-        "createdAt": "07/10/2026, 14:55:38"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:25:05"
       },
       {
-        "id": "hist-att-pupil-emma-borland-4fbm-2",
-        "userId": "pupil-emma-borland-4fbm",
-        "userName": "emma borland",
-        "classCode": "4FBM2",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify)"
-        ],
-        "createdAt": "07/10/2026, 14:55:38"
-      },
-      {
-        "id": "hist-att-pupil-emma-borland-4fbm-3",
-        "userId": "pupil-emma-borland-4fbm",
-        "userName": "emma borland",
-        "classCode": "4FBM2",
+        "id": "floot-att-pupil-evie-carlyle-4gbm-181",
+        "userId": "pupil-evie-carlyle-4gbm",
+        "userName": "Evie Carlyle",
+        "classCode": "4GBM1",
         "questionId": "sqa25-3bi",
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
         "primaryCommand": "identify",
-        "level": "B",
+        "level": "C",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
+        "answer": "2 economic factors that can influence an organisation are inflation and recession.",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify)"
-        ],
-        "createdAt": "07/10/2026, 14:55:38"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-1",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-2",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-3",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-4",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-5",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "justify",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-eva-sinclair-4gbm-6",
-        "userId": "pupil-eva-sinclair-4gbm",
-        "userName": "eva sinclair",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (justify)"
-        ],
-        "createdAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-att-pupil-hollie-muldoon-4gbm-1",
-        "userId": "pupil-hollie-muldoon-4gbm",
-        "userName": "hollie muldoon",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
+        "marksAvailable": 2,
         "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
         ],
-        "createdAt": "08/10/2026, 10:34:10"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:57"
       },
       {
-        "id": "hist-att-pupil-hollie-muldoon-4gbm-2",
-        "userId": "pupil-hollie-muldoon-4gbm",
-        "userName": "hollie muldoon",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
-        ],
-        "createdAt": "08/10/2026, 10:34:10"
-      },
-      {
-        "id": "hist-att-pupil-james-rainbow-4e-1",
-        "userId": "pupil-james-rainbow-4e",
-        "userName": "james rainbow",
-        "classCode": "ABCD",
-        "questionId": "sqa25-3bi",
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-285",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa24-4c",
         "topic": "Understanding Business",
         "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "Governments might make new laws which can affect the business by increase minimuin wage which makes they loss profit.\nAnother way wuld be that the weather could affect diliverays which can decrease buisnesses profit",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Internal & external factors: include social changes such as tastes and fashions can force product changes"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "28/10/2026, 14:40:18"
+      },
+      {
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-281",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa2018-3a",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (25%) imported from class report",
+        "answer": "A way market research helps business make decisions is by allowing the buisness see what customers want or need from their products which helps make a profit since more people will buy products\nAnother reason is that they could allow buinessness more information on what their customers want",
         "marks": 1,
         "marksAvailable": 3,
-        "percentage": 25,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (describe)"
+        "percentage": 33,
+        "hintUsed": true,
+        "awardedPoints": [
+          "find out what customers want"
         ],
-        "createdAt": "25/10/2026, 13:01:43"
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include choose a suitable price",
+          "Practise 'DESCRIBE' questions on Market research: include identify a target market"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "28/10/2026, 14:26:38"
       },
       {
-        "id": "hist-att-pupil-james-rainbow-4e-2",
-        "userId": "pupil-james-rainbow-4e",
-        "userName": "james rainbow",
-        "classCode": "ABCD",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (25%) imported from class report",
-        "marks": 1,
-        "marksAvailable": 3,
-        "percentage": 25,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (describe)"
-        ],
-        "createdAt": "25/10/2026, 13:01:43"
-      },
-      {
-        "id": "hist-att-pupil-josie-dickson-4gbm-1",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-3bi",
-        "topic": "Understanding Business",
-        "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-att-pupil-josie-dickson-4gbm-2",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-att-pupil-josie-dickson-4gbm-3",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-3bi",
-        "topic": "Understanding Business",
-        "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-att-pupil-josie-dickson-4gbm-4",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-att-pupil-josie-dickson-4gbm-5",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-3bi",
-        "topic": "Understanding Business",
-        "subtopic": "Internal & external factors",
-        "primaryCommand": "identify + explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (100%) imported from class report",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 100,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Internal & external factors (identify + explain)"
-        ],
-        "createdAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-1",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-2",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2018-4c",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "explain",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-3",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-4",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3b",
-        "topic": "Understanding Business",
-        "subtopic": "Role of business in society",
-        "primaryCommand": "define",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-5",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-6",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-7b",
-        "topic": "Management of Operations",
-        "subtopic": "Inventory management",
-        "primaryCommand": "describe",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-7",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-8",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-155",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
         "questionId": "sqa25-4c",
         "topic": "Management of Marketing",
         "subtopic": "Promotion",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "answer": "Customer loyalty card this is when customers can gain rewards by spending money on there products.\nBy 1 get 1 free this is when a buiness makes you buy an item and you get another one for free.\nSales this is when buinsess reduce there price to make people buy items.",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Promotion: include special offers that give extra product/value"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "07/10/2026, 13:57:42"
       },
       {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-9",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
-        "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-141",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-7bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "An advantage of focus groups would be that it gives detailed information and feedback.\nAnother advantage would be that you could ask follow up question which can improve feedback results.\nA disadvantage would be that it gives you a small amount of information",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "focus groups can collect detailed qualitative information",
+          "follow-up questions can be asked",
+          "researchers can assess body language"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "07/10/2026, 13:52:47"
+      },
+      {
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-116",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa22-7b",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "An advantage of branding would be that people will think your brand is higher quality meaning that you could set prices higher for a better profit.\n\nAnother advantage of branding would be that people might become brand loyal. This mean that people will mainly by from you instead of competitors.\n\nAnother advantage of branding would be that it is easier for you to release new products since people assume your buinsess is higher quaility and trustworthy.\n",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recognition can increase purchases and profit",
+          "recognition can make it easier to launch new products",
+          "brand loyalty can lead to repeat purchases"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "07/10/2026, 13:44:35"
+      },
+      {
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-107",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa24-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Place & distribution",
+        "primaryCommand": "identify + justify",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Road, air\nRoad is the fastest way of transport, since it is the easiest and cheapest, mean while air cost more while being faster.\n",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": true,
+        "awardedPoints": [
+          "road can offer door-to-door delivery and specialist vehicle types",
+          "rail can carry large or heavy loads and can be more environmentally friendly than road"
+        ],
+        "improvements": [
+          "Practise 'IDENTIFY + JUSTIFY' questions on Place & distribution: include air is the quickest way to move goods long distances and can reach places other methods cannot",
+          "Practise 'IDENTIFY + JUSTIFY' questions on Place & distribution: include sea can carry large volumes and may be cheaper for bulk transport"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Place & distribution shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "07/10/2026, 13:40:27"
+      },
+      {
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-101",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-7bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
+        "answer": "Desk research is when you get second hand information which is already public. Whereas field research is when you go and get first hand primary infromation.",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk research is secondary whereas field research is primary",
+          "desk research can be found quickly whereas field research can take time to collect"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "createdAt": "07/10/2026, 13:38:56"
       },
       {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-10",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa25-2dii",
-        "topic": "Management of Finance",
-        "subtopic": "Sources of finance",
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-90",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa23-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Personal interviews, this is when you get asked questions face to face with another person.\n\nPostal surveys is when you get questions through the mail, which gives feedback to the buisness.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a personal interview is a face-to-face meeting where questions are asked",
+          "a postal survey is a list of questions sent to respondents to complete"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:36:51"
+      },
+      {
+        "id": "floot-att-pupil-jack-culverhousejack-4fbm-79",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Low prices \nHigh/premium",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:34:40"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-289",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
+        "answer": "two internal factors of an organization are\n-human resources is incharge of hiring and firing staff \n-technology this is the tools and assets used by the business\n",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "28/10/2026, 14:49:49"
       },
       {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-11",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
+        "id": "floot-att-pupil-jamie-marshall-4fbm-282",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa2018-3a",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "three ways market research helps a business make decisions is\n-it might help you find what customers want and need\n-it may help you find your target market\n-it can also be used to gain information on competitors",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "find out what customers want",
+          "choose a suitable price",
+          "identify a target market"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "28/10/2026, 14:30:24"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-122",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "buy 1 get 1 free this is where you get a free product along with your purchase\ndiscounts this is where you sell products at a fraction of the price\nfree samples this is where you et people try out your product for free to entice them to buy it\nloyalty cards this is where you can collect points to be used on things in the shop\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:46:14"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-121",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "buy 1 get 1 free this is where you get a free product along with your purchase\ndiscounts this is where you sell products at a fraction of the price\nfree samples this is where you et people try out your product for free to entice them to buy it\nloyalty cards this is where you can collect points to be used on things in the shop\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:46:11"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-120",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "buy 1 get 1 free this is where you get a free product along with your purchase\ndiscounts this is where you sell products at a fraction of the price\nfree samples this is where you et people try out your product for free to entice them to buy it\nloyalty cards this is where you can collect points to be used on things in the shop\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:46:06"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-119",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "buy 1 get 1 free this is where you get a free product along with your purchase\ndiscounts this is where you sell products at a fraction of the price\nfree samples this is where you et people try out your product for free to entice them to buy it\nloyalty cards this is where you can collect points to be used on things in the shop\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:45:55"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-88",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa23-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "personal interviews are when you get questionnaire's delivered to your house usually a flier.\npersonal interviews is when you are asked questions face to face\n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a personal interview is a face-to-face meeting where questions are asked"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include a postal survey is a list of questions sent to respondents to complete"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "07/10/2026, 13:36:16"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-81",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "destroyer pricing and premium pricing\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:34:45"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-80",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "destroyer pricing and premium pricing\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:34:41"
+      },
+      {
+        "id": "floot-att-pupil-jamie-marshall-4fbm-78",
+        "userId": "pupil-jamie-marshall-4fbm",
+        "userName": "Jamie Marshall",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "destroyer pricing and premium pricing\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:34:37"
+      },
+      {
+        "id": "floot-att-pupil-lauren-feasey-4gbm-213",
+        "userId": "pupil-lauren-feasey-4gbm",
+        "userName": "Lauren Feasey",
         "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
+        "questionId": "sqa25-1aii",
         "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
-        "level": "B",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "answer": "the private sector of economy is owned and controlled by private individuals and it is made up of businesses such as sole traders and private limited companies and they keep all there profits. \n\nthe public sector of economy is owned and controlled by the government and local councils it is run by elected members of parliament and provide services such as schools and is funded by tax's \n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:36:03"
       },
       {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-12",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
+        "id": "floot-att-pupil-lauren-feasey-4gbm-201",
+        "userId": "pupil-lauren-feasey-4gbm",
+        "userName": "Lauren Feasey",
         "classCode": "4GBM1",
-        "questionId": "sqa22-4aii",
-        "topic": "Management of People",
-        "subtopic": "Recruitment & selection",
-        "primaryCommand": "outline",
-        "level": "B",
-        "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
-        ],
-        "createdAt": "02/11/2026, 11:40:19"
-      },
-      {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-13",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
-        "classCode": "4GBM1",
-        "questionId": "sqa2019-3a",
+        "questionId": "sqa22-3b",
         "topic": "Understanding Business",
-        "subtopic": "Customer satisfaction",
-        "primaryCommand": "outline",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
+        "answer": "the objective of a sole trader is to maximise profits and fill a gap in the market in order to expand the business whereas the objectives of a charity aim to provide support for worthy causes such as shelters food or funding. ",
         "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/10/2026, 09:31:44"
       },
       {
-        "id": "hist-att-pupil-lucas-longmuir-4gbm-14",
-        "userId": "pupil-lucas-longmuir-4gbm",
-        "userName": "lucas longmuir",
+        "id": "floot-att-pupil-lauren-feasey-4gbm-193",
+        "userId": "pupil-lauren-feasey-4gbm",
+        "userName": "Lauren Feasey",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one objective of a sole trader is to turn innovative ideas into successful business whereas the objective of those of a charity is to provide the best services possible.",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'COMPARE' command word.",
+        "createdAt": "08/10/2026, 09:28:41"
+      },
+      {
+        "id": "floot-att-pupil-lauren-feasey-4gbm-177",
+        "userId": "pupil-lauren-feasey-4gbm",
+        "userName": "Lauren Feasey",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "an objective of a public sector is to provide a high quality service to everyone in the county. This is when a business makes sure their product or service is good quality to attract customers and increase profits.\n\nanother objective is to make good use of tax payers money. This means the business will stick to a budget and avoid overspending,",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:20"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-226",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The private sector consists of businesses owned and run by private individuals or shareholders to make a profit while the public sector comprises organisations owned and funded by the government to provide essential services to the public ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "15/10/2026, 11:53:21"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-225",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The public and private sectors make up a mixed economy working together to make goods and services ",
+        "marks": 0,
+        "marksAvailable": 4,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Business types & sectors: include private sector organisations are owned by private individuals",
+          "Practise 'DESCRIBE' questions on Business types & sectors: include private sector finance can come from owner savings, loans or share issues",
+          "Practise 'DESCRIBE' questions on Business types & sectors: include private sector organisations are controlled by owners, partners or directors",
+          "Practise 'DESCRIBE' questions on Business types & sectors: include private sector organisations commonly aim to make profit"
+        ],
+        "feedback": "Scored 0/4. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "15/10/2026, 11:50:42"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-224",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "A sole trader aims to generate personal profit and maintain operational independence whereas a charity aims to advance a specific public cause and benefit a defined group of people or the environment without private financial gain",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "15/10/2026, 11:46:47"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-223",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Providing essential services to the public and ensuring the efficient use of tax payer funds",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "15/10/2026, 10:40:30"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-200",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "sole traders have unlimited liability while partnerships have limited liability and share ownerships and public-sector bodies are government owned ",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'COMPARE' command word.",
+        "createdAt": "08/10/2026, 09:31:38"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-199",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "sole traders have unlimited liability while partnerships have limited liability and share ownerships and public-sector bodies are government owned ",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'COMPARE' command word.",
+        "createdAt": "08/10/2026, 09:31:32"
+      },
+      {
+        "id": "floot-att-pupil-leah-pollock-4gbm-166",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "public sector organisations are owned or controlled by the  government and focus on social welfare rather on maximising profit\n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Business types & sectors: include provide a service to others"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:21:11"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-344",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-6bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "competitive pricing- putting ur prices similar to your competitors\npenetration pricing- setting low prices when launching new products to attract customers.\nprice skimming- setting a high price when a new product is launched then lowering over time ",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "high or premium pricing sets a price above competitors and can suggest quality",
+          "low pricing sets a price below competitors to undercut them",
+          "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "18/11/2026, 19:30:35"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-343",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-7cii",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "justify",
+        "level": "B",
+        "mode": "practice",
+        "answer": "business could advertise by putting there buissness on newspapers for locals to see. another example is by making ur business all around the world upload online on the internet so everyone can see your business and what you have to offer ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "online or social methods can target groups, reach worldwide audiences, link directly to buying and operate at low cost"
+        ],
+        "improvements": [
+          "Practise 'JUSTIFY' questions on Promotion: include printed methods can be kept, use visuals and target local or specialist audiences"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "18/11/2026, 19:28:31"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-342",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
         "classCode": "4GBM1",
         "questionId": "sqa22-7a",
         "topic": "Management of Marketing",
@@ -11564,41 +10124,2546 @@ window.N5_HUB_DATA = {
         "primaryCommand": "outline",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (83%) imported from class report",
-        "marks": 2,
+        "answer": "market research- to research what customers needs and wants are for you to sell.\nproduct design- create a design or prototype.\ntest the product- check if the product works before going for sale.\nlaunch the product- when you put product to shelf\u2019s.\nevaluate- find out reviews of ur product if customers like or not ",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 83,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Customer satisfaction (outline)"
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "generate the idea",
+          "analyse the idea",
+          "carry out market research"
         ],
-        "createdAt": "02/11/2026, 11:40:19"
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "18/11/2026, 19:26:54"
       },
       {
-        "id": "hist-att-pupil-stefan-tierney-4gbm-1",
-        "userId": "pupil-stefan-tierney-4gbm",
-        "userName": "stefan tierney",
+        "id": "floot-att-pupil-logan-campbell-4gbm-341",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
+        "questionId": "sqa25-4c",
         "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
+        "subtopic": "Promotion",
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (33%) imported from class report",
+        "answer": "BOGOF- buy one get one free, this means that if you buy the same item twice it\u2019s possible that you get one free if the offer is on.\ndiscounts- a discount consists in getting a percentage off your items for example 20% off you would get twenty percent of the price.\nfree samples- you would have employees walking about your store looking for people to try a free sample of whatever.\nlastly you could offer competitions to win stuff ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "18/11/2026, 19:23:58"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-340",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-5c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "desk research consists in looking at websites,reading newspapers,and looking at government statistics and reports, there as field research is when people need to do questionnaires, interviews, and surveys ",
         "marks": 1,
         "marksAvailable": 3,
         "percentage": 33,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk uses existing data whereas field collects new information"
         ],
-        "createdAt": "08/10/2026, 10:26:51"
+        "improvements": [
+          "Practise 'COMPARE' questions on Market research: include desk is often cheaper whereas field can cost more",
+          "Practise 'COMPARE' questions on Market research: include desk can be quicker whereas field can take longer"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "18/11/2026, 19:20:09"
       },
       {
-        "id": "hist-att-pupil-stefan-tierney-4gbm-2",
+        "id": "floot-att-pupil-logan-campbell-4gbm-339",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa2018-3a",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "primary research-when you collect data yourself, tells business owners what he needs to know, possible by needing to pay \nsecondary research-data collected by others, tells the business owner without needing to pay or possibly get false information \nsurveys and questionnaires ",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include find out what customers want",
+          "Practise 'DESCRIBE' questions on Market research: include choose a suitable price",
+          "Practise 'DESCRIBE' questions on Market research: include identify a target market"
+        ],
+        "feedback": "Scored 0/3. Review the lesson notes on Market research and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "18/11/2026, 19:17:49"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-338",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa2018-3a",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "primary research-when you collect data yourself \nsecondary research-data collected by others \nsurveys and questionnaires ",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include find out what customers want",
+          "Practise 'DESCRIBE' questions on Market research: include choose a suitable price",
+          "Practise 'DESCRIBE' questions on Market research: include identify a target market"
+        ],
+        "feedback": "Scored 0/3. Review the lesson notes on Market research and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "18/11/2026, 19:16:11"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-194",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "advantages of a partnership is you get to work with people you like and may be friends.\nits a massive community \ndisadvantages is you get less money and less profit\nunlimited liability ",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include responsibility and workload can be shared",
+          "Practise 'DISCUSS' questions on Business types & sectors: include more ideas can be generated"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "08/10/2026, 09:29:06"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-187",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "the private sector of economy is owned and controlled by private individuals and is made up of businesses known as sole traders, partnerships limited companies 'LTD'.the public sector of economy is owned and controlled by the government and local councils. it is run by elected members of parliament. they provide services such as schools,hospitals,the armed forces",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:27:19"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-169",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by one person a charity is owned by multiple, for example a sole trader may want to keep all the profit to themselves and charities want to donate them to charity , the charity's objective is to raise money for people who really need it, sole traders have all there money to themselves",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/10/2026, 09:22:21"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-168",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by one person a charity is owned by multiple, for example a sole trader may want to keep all the profit to themselves and charities want to donate them to charity , the charity's objective is to raise money for people who really need it, sole traders have all there money to themselves",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/10/2026, 09:22:15"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-167",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by one person a charity is owned by multiple, for example a sole trader may want to keep all the profit to themselves and charities want to donate them to charity , the charity's objective is to raise money for people who really need it ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:21:39"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-164",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by one person a charity is owned by multiple, for example a sole trader may want to keep all the profit to themselves and charities want to donate them to charity  ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:20:38"
+      },
+      {
+        "id": "floot-att-pupil-logan-campbell-4gbm-161",
+        "userId": "pupil-logan-campbell-4gbm",
+        "userName": "Logan Campbell",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by one person a charity is owned by multiple",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'COMPARE' command word.",
+        "createdAt": "08/10/2026, 09:19:14"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-288",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "inflation interest rates\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "28/10/2026, 14:41:30"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-287",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "INFLAITION AND INTEREST RATES\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "28/10/2026, 14:40:56"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-286",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "INFLAITION AND INTEREST RATES\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "28/10/2026, 14:40:41"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-284",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "EMPLOYEES MANAGEMENT",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'IDENTIFY' questions on Internal & external factors: include recession",
+          "Practise 'IDENTIFY' questions on Internal & external factors: include economic boom"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Internal & external factors and make sure your response directly addresses the 'IDENTIFY' command word.",
+        "createdAt": "28/10/2026, 14:39:26"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-283",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "EMPLOYEES MANAMENT",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'IDENTIFY' questions on Internal & external factors: include recession",
+          "Practise 'IDENTIFY' questions on Internal & external factors: include economic boom"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Internal & external factors and make sure your response directly addresses the 'IDENTIFY' command word.",
+        "createdAt": "28/10/2026, 14:38:41"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-153",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "raise awareness of issue and keep finances within budget\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 13:57:06"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-152",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "raise awareness of issue\n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Business types & sectors: include provide a service to others"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "07/10/2026, 13:56:28"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-148",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "a method is something you use to do stuff for your business",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Business types & sectors: include make best use of taxpayers' money",
+          "Practise 'DESCRIBE' questions on Business types & sectors: include provide a service to others"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "07/10/2026, 13:55:21"
+      },
+      {
+        "id": "floot-att-pupil-lucy-brown-4fbm-134",
+        "userId": "pupil-lucy-brown-4fbm",
+        "userName": "Lucy Brown",
+        "classCode": "4FBM2",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "a sector is a sole trader it is a business owned by one person\n",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Business types & sectors: include make best use of taxpayers' money",
+          "Practise 'DESCRIBE' questions on Business types & sectors: include provide a service to others"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "07/10/2026, 13:49:49"
+      },
+      {
+        "id": "floot-att-pupil-max-gillon-4cbm-69",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-7cii",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "justify",
+        "level": "B",
+        "mode": "practice",
+        "answer": "An advertising method an organisation can use is social media advertising.\nAn advantage of this is that social media is a popular place where people all over the world can access, so it gives your product a naturally wider reach across the globe and people wherever they are can see and buy your product.\n\nAnother method is adverts on TV.\nAn advantage of this is that adverts are good ways of showing off your product as , on TV, they are usually un-skippable and viewers may find appeal to your product and buy it after seeing your advert. Also, adverts can be seen by many at a time which allows many people to see and buy your product.\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "online or social methods can target groups, reach worldwide audiences, link directly to buying and operate at low cost",
+          "printed methods can be kept, use visuals and target local or specialist audiences"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 08:45:15"
+      },
+      {
+        "id": "floot-att-pupil-max-gillon-4cbm-38",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One sales promotion technique an organisation can use is discounts. This is a certain percentage off your product, 20% for example,  that'll maybe convince customers to buy and test your product as it's at a lower price.\nAnother technique an organisation could use is buy one get one free (BOGOF). This is giving the customer another product for free when paying full price for one, this can convince them to buy the product with the extra value to their purchase.\nAnother technique an organisation could use is loyalty cards. This is a card given to customers who keep returning and rewards may provide free products or discounts which is s good system put in place to have customers return.\nA final technique an organisation could use is free samples. This is a free sample or tester given in stores to customers and if a customer finds the product suits their taste, they will likely buy after recieving the sample.\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 08:35:35"
+      },
+      {
+        "id": "floot-att-pupil-max-gillon-4cbm-37",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One sales promotion technique an organisation can use is discounts. This is a certain percentage off your product, 20% for example,  that'll maybe convince customers to buy and test your product as it's at a lower price.\nAnother technique an organisation could use is buy one get one free (BOGOF). This is giving the customer another product for free when paying full price for one, this can convince them to buy the product with the extra value to their purchase.\nAnother technique an organisation could use is loyalty cards. This is a card given to customers who keep returning and rewards may provide free products or discounts which is s good system put in place to have customers return.\nA final technique an organisation could use is free samples. This is a free sample or tester given in stores to customers and if a customer finds the product suits their taste, they will likely buy after recieving the sample.\n",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "07/10/2026, 08:34:43"
+      },
+      {
+        "id": "floot-att-pupil-millie-scott-4gbm-204",
+        "userId": "pupil-millie-scott-4gbm",
+        "userName": "Millie Scott",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One of objective of a sole trader  is to turn innovative ideas leading into successful business by maximising their profits while maintaining complete control over their own business . whereas the objective of those in a charity is to provide support for the worthy causes such as shelter,food,funding and clothing",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "08/10/2026, 09:32:58"
+      },
+      {
+        "id": "floot-att-pupil-millie-scott-4gbm-176",
+        "userId": "pupil-millie-scott-4gbm",
+        "userName": "Millie Scott",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "An objective of a public sector is to provide a high quality service to everyone in the country.This is when a business makes sure that their products or services are of good quality to attract customers and increase profits. \n\nanother objective of a public sector is to make good use of a tax payers money. This means that the business will stick to a budget ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:19"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-248",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "a non durable good is something like food because its something you can see and touch but doesnt last long ",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "23/10/2026, 09:37:41"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-247",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "providing a service for example the NHS provides health care and helping the community for example the council funding schools, libraries and more",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "23/10/2026, 09:36:42"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-246",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "interest rates and inflation ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "23/10/2026, 09:34:43"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-245",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "outline",
+        "level": "C",
+        "mode": "practice",
+        "answer": " providing a service like the NHS and helping the community like funding schools",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "provide essential services to the public",
+          "meet government service targets"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "23/10/2026, 09:34:06"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-244",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "a non durable good is something like food that you can see and touch but it doesnt last long ",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "23/10/2026, 09:32:26"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-243",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "providing a service for example NHS provide health care and helping the community for example the council funding schools, libraries and more ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "23/10/2026, 09:31:11"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-242",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "outline",
+        "level": "C",
+        "mode": "practice",
+        "answer": "providing a service and helping community\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "provide essential services to the public",
+          "meet government service targets"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "23/10/2026, 09:29:17"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-241",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "outline",
+        "level": "C",
+        "mode": "practice",
+        "answer": "budget, services",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "provide essential services to the public"
+        ],
+        "improvements": [
+          "Practise 'OUTLINE' questions on Business types & sectors: include meet government service targets"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "23/10/2026, 09:25:36"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-240",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "A non durable is a good you can only use once like food",
+        "marks": 1,
+        "marksAvailable": 1,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "a physical product consumed or used up relatively quickly, such as food or soap"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "createdAt": "23/10/2026, 09:23:48"
+      },
+      {
+        "id": "floot-att-pupil-mr-stephenson-4e-239",
+        "userId": "pupil-mr-stephenson-4e",
+        "userName": "Mr Stephenson",
+        "classCode": "ABCD",
+        "questionId": "sqa2018-3c",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "A strong brand will mean more people recognise your product meaning higher sales",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recognisable products may need less advertising"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Product & branding: include loyal customers make repeat purchases",
+          "Practise 'EXPLAIN' questions on Product & branding: include a trusted brand can support premium prices"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Product & branding shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "23/10/2026, 09:21:41"
+      },
+      {
+        "id": "floot-att-pupil-natalia-tomczak-tywoniuk-4cbm-271",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-6b",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "1. A consequence of poor packaging for an organisation can be a damaged product, this means that if the packaging of a specific product is poor the product inside may not be in best condition.\n2. Another consequence of poor packaging can be that your brand may not be recognised, this means that if your packaging is poor you may not be recognised.\n3. A final consequence of poor packaging can be that because of bad reviews of the packaging your product may decline, this means that consumers may look at the poor packaging of your product and not be satisfied.",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "poor packaging can damage products and increase complaints, returns or compensation",
+          "too much or unnecessary packaging can upset consumers and damage reputation"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Product & branding: include excess packaging can increase landfill or environmental damage"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Product & branding shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "27/10/2026, 14:54:32"
+      },
+      {
+        "id": "floot-att-pupil-natalia-tomczak-tywoniuk-4cbm-270",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "1. One promotion method an organisation can use is social media like Instagram or TikTok where the company can advertise well.\n2. Another promotion method an organisation could use are sales promotions such as buy one get one free.\n3. Another promotion method an organisation can use is direct marketing where a company sends a promotional message sent directly to selected customers.\n4. A final promotion method that can be used is advertising where the company hires people to promote a specific product or company.",
+        "marks": 1,
+        "marksAvailable": 4,
+        "percentage": 25,
+        "hintUsed": true,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Promotion: include loyalty cards or points-based rewards",
+          "Practise 'DESCRIBE' questions on Promotion: include competitions offering the chance to win a prize",
+          "Practise 'DESCRIBE' questions on Promotion: include special offers that give extra product/value"
+        ],
+        "feedback": "Scored 1/4 (25%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 3 mark(s).",
+        "createdAt": "27/10/2026, 14:47:21"
+      },
+      {
+        "id": "floot-att-pupil-natalia-tomczak-tywoniuk-4cbm-269",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "sqa2019-5c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "1.Desk research used information already researched whereas field research is new information gathered.\n2. Desk research is often quicker and cheaper whereas field research can be time consuming and expensive.\n3. Desk research can be outdated and no relevant to customers anymore whereas field research is recent and more relevant to  ustomers.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "desk uses existing data whereas field collects new information",
+          "desk is often cheaper whereas field can cost more",
+          "desk can be quicker whereas field can take longer"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "createdAt": "27/10/2026, 14:40:17"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-324",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa2018-4c",
+        "topic": "Management of Operations",
+        "subtopic": "Inventory management",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One reason why keeping to much inventory could affect a business is the business might run out of stock quicker, if the business don't sell the majority of there inventory then they'll be struggling to sell a lot.\nAnother reason why keeping to much inventory could affect a business is understocking, if the organisation doesn't buy enough stock but they keep some of it they wont make a profit.\nA third reason why keeping to much inventory could affect a business is overstocking, money tied up in business cash flow problems as it may be difficult to convert this stock into cash to pay bills when needed.\n",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "storage and insurance costs may rise",
+          "goods may deteriorate or become obsolete"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Inventory management: include cash tied up in inventory cannot be used elsewhere"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Inventory management shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 21:04:10"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-323",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-7bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "desk research is second hand information WHEREAS field research is first hand information\nDesk research is free WHEREAS field research costs money to start.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk research is secondary whereas field research is primary",
+          "desk research can be found quickly whereas field research can take time to collect"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "createdAt": "02/11/2026, 18:45:57"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-322",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-7bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "desk research is second hand information WHEREAS field research is first hand information\nboth desk and field research are great ways to gather information for your organisation",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk research is secondary whereas field research is primary"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Market research: include desk research can be found quickly whereas field research can take time to collect"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 18:44:54"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-321",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-7a",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "define + describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "branding is a way to upgrade your business to get more customers with a sponsorship\nOne advantage of branding is your business will get a bigger name\nOne disadvantage of branding is the organisation your sponsored by might not agree with your ideas. ",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "hintUsed": false,
+        "awardedPoints": [
+          "branding is a name, logo, slogan or design that makes a product or service identifiable"
+        ],
+        "improvements": [
+          "Practise 'DEFINE + DESCRIBE' questions on Product & branding: include branding can allow higher prices",
+          "Practise 'DEFINE + DESCRIBE' questions on Product & branding: include branding can create customer loyalty"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Product & branding shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "02/11/2026, 18:40:36"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-320",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa26-7a",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "define + describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "branding is a way to upgrade your business to get more customers with a sponsorship\nOne advantage of branding is your business will get a bigger name\nOne disadvantage of branding is the organisation your sponsored by might not agree with your ideas. ",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "hintUsed": false,
+        "awardedPoints": [
+          "branding is a name, logo, slogan or design that makes a product or service identifiable"
+        ],
+        "improvements": [
+          "Practise 'DEFINE + DESCRIBE' questions on Product & branding: include branding can allow higher prices",
+          "Practise 'DEFINE + DESCRIBE' questions on Product & branding: include branding can create customer loyalty"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Product & branding shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "02/11/2026, 18:40:09"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-319",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-6b",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one consequence of poor packaging for an organisation is complaints, is your item getting shipped breaks the customer wont be happy and put in a complaint which isn't a good look for your business.\nAnother consequence of poor packaging for an organisation is delays, if your product doesn't arrive on time you might get questioned by the customer.\none further consequence of poor packaging for an organisation is unsecure, if your product isn't safe travelling  it might get sent back later  this means that your delivery will get delayed",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "poor packaging can damage products and increase complaints, returns or compensation",
+          "too much or unnecessary packaging can upset consumers and damage reputation"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Product & branding: include excess packaging can increase landfill or environmental damage"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Product & branding shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 17:55:39"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-318",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa23-6bii",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one reason pricing strategies that could be used by any organisation is deals, deals such as buy one get one free can attract customers \nAnother reason pricing strategies that could be used by any organisation is pricing, the difference between 19.99 and 20.00 is very small but in the eyes of customers it feels like a bargain\nA third reason pricing strategies that could be used by any organisations is discounts, any type of deal feels like gold to customers, for example coupons.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "high or premium pricing sets a price above competitors and can suggest quality",
+          "low pricing sets a price below competitors to undercut them",
+          "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "02/11/2026, 17:43:48"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-317",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-7cii",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "justify",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one benefit of advertising methods an organisation could use is social media, this is beneficial because the business can gain more customers \nAnother benefit of advertising methods an organisation could use is billboards, big massive, noticeable signs about your business can catch eyes of customers.",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "online or social methods can target groups, reach worldwide audiences, link directly to buying and operate at low cost"
+        ],
+        "improvements": [
+          "Practise 'JUSTIFY' questions on Promotion: include printed methods can be kept, use visuals and target local or specialist audiences"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 17:34:30"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-316",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-7a",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "outline",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one stage of product development is idea generation, research and development departments try to innovate and design that are new or better than existing ones.\nanother stage of product development is prototypes and testing, prototypes are made and then undergo test to ensure the product is safe, reliable, fit for purpose and one that customers can and will use.\nA third stage of product development is modifications, after seeing the prototype or early versions in use, alterations can be used to improve the product.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "generate the idea",
+          "analyse the idea",
+          "carry out market research"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "createdAt": "02/11/2026, 17:29:31"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-315",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one sales promotion an organisation could use is advertising, there are other ways to advertise some are billboards, T.V adverts and social media platforms.\nAnother sales promotion an organisation could use is social media, posting on any platform of social media boosts your businesses name up.\nA third sales promotion an organisation could use is deals, using deals such as buy one get one free can determine if customers are willing to give your business a chance.\nA fourth reason sales promotion could use is pricing, one little difference in pricing stands out way more, for example 19.99 stands our more than 20.00 because it seems cheaper but its barely cheaper.",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Promotion: include competitions offering the chance to win a prize",
+          "Practise 'DESCRIBE' questions on Promotion: include special offers that give extra product/value"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "02/11/2026, 17:18:11"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-314",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa2019-5c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "desk research is second hand information WHEREAS field research is first hand information. \ndesk research saves money WHEREAS field research costs more.\nboth desk and field research information can be biased ",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "desk uses existing data whereas field collects new information",
+          "desk is often cheaper whereas field can cost more",
+          "desk can be quicker whereas field can take longer"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "createdAt": "02/11/2026, 16:50:56"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-313",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa2018-3a",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one way market research helps a business make decisions is focus groups, the information is more up to date than existing information.\nAnother way market research helps a business make decisions is personal interview, the information has been gathered for a specific purpose and cause.\nA third way market research helps a business make decisions is an online survey, this tells the survey owner where the person your surveying is at and where they need to improve and also what there good at.",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "hintUsed": false,
+        "awardedPoints": [
+          "find out what customers want"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include choose a suitable price",
+          "Practise 'DESCRIBE' questions on Market research: include identify a target market"
+        ],
+        "feedback": "Scored 1/3 (33%). Good knowledge of Market research shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "02/11/2026, 16:47:16"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-278",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One influence is political. Governments can raise or lower corporation tax\nAnother influence is Economical. if unemployment s high then firms have more workers to choose from \nA third influence is Technological. ICT can make process and communication within a business more quicker and efficient. ",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "27/10/2026, 17:10:29"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-277",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "A sole traders objective is to make a profit for themselves WHEREAS a charity's objective is to provide a service for there customers \n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "27/10/2026, 17:04:47"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-276",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "A sole traders objective is to make a profit for themselves WHEREAS a charity's objective is to provide a service for there customers \n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "27/10/2026, 17:04:16"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-275",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "One internal factor is human resources. Human resources relate to people wo work in a business organisation.\nAnother internal factor is Finance available. without the proper finance a business will be held back and struggle to make profit.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "27/10/2026, 16:50:42"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-274",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one influence is political. Governments can raise or lower corporation tax.\nanother  influence is Economic. If unemployment is high, then firms have more potential workers to choose from.\nA third influence is Technological. ICT can make process and communication within a business quicker and more efficient.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "27/10/2026, 16:47:40"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-273",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is a business owned by one person WHEREAS a charity is a business owned and run voluntarily by trustees.\nsole traders rely on their own savings WHEREAS a charity is an open world wide company that people purchase items in",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Business types & sectors and make sure your response directly addresses the 'COMPARE' command word.",
+        "createdAt": "27/10/2026, 16:38:02"
+      },
+      {
+        "id": "floot-att-pupil-shay-stewart-4cbm-272",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one internal factor of an organisation is human resources. Human resources relate to the people who work in a business organisation. \nanother internal factor of an organisation is finance available. Without the proper finance, a business will be held back and will eventually struggle to survive.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "27/10/2026, 16:31:42"
+      },
+      {
+        "id": "floot-att-pupil-yusuf-keegans-4gbm-196",
+        "userId": "pupil-yusuf-keegans-4gbm",
+        "userName": "Yusuf Keegans",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "A disadvantage of a partnership organisation is that they have unlimited liability\nA disadvatage of a partnership is all the profits are shared between 2-20 people\nAn advatage of a partnership organisation is that youre more trusted to take out loans from the bank\nAn advatage of a partnership is you get paid holidays.",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include responsibility and workload can be shared",
+          "Practise 'DISCUSS' questions on Business types & sectors: include more ideas can be generated"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "08/10/2026, 09:30:37"
+      },
+      {
+        "id": "floot-att-pupil-yusuf-keegans-4gbm-184",
+        "userId": "pupil-yusuf-keegans-4gbm",
+        "userName": "Yusuf Keegans",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The public sector aren't owned individuals they are owned by the government and they're funded by taxes paid by the taxpayers and aim to provide efficient service for everyone in the country whilst staying within a budget.\nThe private sector are owned by sole traders partners in a partnership or shareholders, they're funded by bank loans grants and by profits they make whilst providing a good or a service their aim is to make a profit ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:25:53"
+      },
+      {
+        "id": "floot-att-pupil-yusuf-keegans-4gbm-179",
+        "userId": "pupil-yusuf-keegans-4gbm",
+        "userName": "Yusuf Keegans",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "The public sector aren't owned individuals they are owned by the government and they're funded by taxes paid by the taxpayers and aim to provide efficient service for everyone in the country whilst staying within a budget.\nThe private sector are owned by sole traders partners in a partnership or shareholders, they're funded by bank loans grants and by profits they make whilst providing a good or a service their aim is to make a profit ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:39"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-197",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-7a",
+        "topic": "Management of Marketing",
+        "subtopic": "Product & branding",
+        "primaryCommand": "outline",
+        "level": "B",
+        "mode": "practice",
+        "answer": "Inroduction- the product is on the market and sales are low\nGrowth-the product is getting recognition and sales are starting to increase\nMaturity- the sales are at its peak and is well known\nDecline- new product is being made and sales decrease",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "hintUsed": true,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'OUTLINE' questions on Product & branding: include generate the idea",
+          "Practise 'OUTLINE' questions on Product & branding: include analyse the idea",
+          "Practise 'OUTLINE' questions on Product & branding: include carry out market research"
+        ],
+        "feedback": "Scored 0/3. Review the lesson notes on Product & branding and make sure your response directly addresses the 'OUTLINE' command word.",
+        "createdAt": "08/10/2026, 09:31:25"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-192",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "BOGOF is where you buy one product and get the other free\ncelebrity endorsment- where you get a celebrity to promote your product \n50% off is when you get 50% off a product \nSample is when you try the product for free\n",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": true,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Promotion: include special offers that give extra product/value"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Promotion shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:28:20"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-178",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "Finance- the finances in the business \n human rescources-the employees",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:26"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-174",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "Finance and human rescources ",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": true,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Internal & external factors: include finance \u2014 the money available to the organisation",
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Internal & external factors and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "08/10/2026, 09:23:39"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-160",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa26-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "To provide a service and keep within the budget",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "make best use of taxpayers' money",
+          "provide a service to others"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:19:13"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-159",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Inflation and interest rates",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:18:38"
+      },
+      {
+        "id": "floot-att-pupil-arron-macfarlane-4gbm-157",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "Political and social",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": false,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'IDENTIFY' questions on Internal & external factors: include recession",
+          "Practise 'IDENTIFY' questions on Internal & external factors: include economic boom"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Internal & external factors and make sure your response directly addresses the 'IDENTIFY' command word.",
+        "createdAt": "08/10/2026, 09:17:45"
+      },
+      {
+        "id": "floot-att-pupil-ben-ogilvie-4gbm-210",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "an advantage of partnership is you have shared reasonability's  with the business another advantage is the business runs more easier with two of you a disadvantage is unlimited liability between them another disadvantage is may be disbarments between you",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality",
+          "responsibility and workload can be shared"
+        ],
+        "improvements": [
+          "Practise 'DISCUSS' questions on Business types & sectors: include more ideas can be generated"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:35:30"
+      },
+      {
+        "id": "floot-att-pupil-ben-ogilvie-4gbm-189",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "private sector is a business owned by one person and they make the business Their self like shops while public sector is schools, army and hospitals owned by the government",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:27:39"
+      },
+      {
+        "id": "floot-att-pupil-ben-ogilvie-4gbm-171",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "a sole trader is owned by the one person while a charity is owned by multilabel people and sole trader keep their money but charity give it to people in need   ",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": true,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations"
+        ],
+        "improvements": [
+          "Practise 'COMPARE' questions on Business types & sectors: include sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Business types & sectors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "08/10/2026, 09:22:57"
+      },
+      {
+        "id": "floot-att-pupil-emma-borland-4fbm-150",
+        "userId": "pupil-emma-borland-4fbm",
+        "userName": "emma borland",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "rise in unemployment and interest rates\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:55:38"
+      },
+      {
+        "id": "floot-att-pupil-emma-borland-4fbm-149",
+        "userId": "pupil-emma-borland-4fbm",
+        "userName": "emma borland",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "rise in unemployment and interest rates\n\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "07/10/2026, 13:55:28"
+      },
+      {
+        "id": "floot-att-pupil-emma-borland-4fbm-145",
+        "userId": "pupil-emma-borland-4fbm",
+        "userName": "emma borland",
+        "classCode": "4FBM2",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "rise in unemployment and reduce demands for goods/services\n",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession"
+        ],
+        "improvements": [
+          "Practise 'IDENTIFY' questions on Internal & external factors: include economic boom"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "07/10/2026, 13:53:39"
+      },
+      {
+        "id": "floot-att-pupil-hollie-muldoon-4gbm-206",
+        "userId": "pupil-hollie-muldoon-4gbm",
+        "userName": "hollie muldoon",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "some sale promotions a organisation could use is buy 1 get 1 free , buy 1 get 1 free is were you buy a product and you get another for free, the reason businesses do this is to get customers to continue buying off them. Another is  discounts, when you get a discount off your product its a lot cheaper and it takes money off what you originally need to spend, also coupons, when you use a coupon it reduces the price of the product, the last sake promotion is prize draws, customers have the chance to win a prize ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "coupons or voucher codes that reduce the price",
+          "loyalty cards or points-based rewards",
+          "competitions offering the chance to win a prize",
+          "special offers that give extra product/value"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:34:10"
+      },
+      {
+        "id": "floot-att-pupil-hollie-muldoon-4gbm-185",
+        "userId": "pupil-hollie-muldoon-4gbm",
+        "userName": "hollie muldoon",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "two pricing strategies a organisation could use is competitive pricing , competitive pricing is pricing your product based on what your competitor has theirs priced , thew business would aim to make theirs cheaper than their competitors so people would rather buy theirs because it costs less money. Another pricing strategy is premium  pricing, premium pricing is making your products very expensive to signa its luxury and its a high end quality product ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:26:36"
+      },
+      {
+        "id": "floot-att-pupil-josie-dickson-4gbm-211",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify + explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "one external factor is political the influence of this on the business is that if a government changes laws like changing the minimum wage a business has to follow these laws and charge their employees more \nanother external factor is social the influence o this on the business is that while trends change businesses need to keep up with the demand of what customers want for example when people decide they want a healthy lifestyle businesses offer healthier options on the menu ",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices",
+          "social factors such as ageing populations or fashion can change products and market research needs",
+          "technological change can alter staffing, capital spending and competitiveness"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
+        "createdAt": "08/10/2026, 09:35:34"
+      },
+      {
+        "id": "floot-att-pupil-josie-dickson-4gbm-202",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "the influence of the political factor is that is government make any new laws a business has o change their policy's to align with these such as the minimum wage may change an businesses may need to pay their employees more \nthe influence of the social factor is that when new trends happen the business has to make in these trends and make sure people are still interested in their products for example fidget spinners went out of trend so businesses stop selling them \nthe influence of the environmental factor is that a business has to make sure their products are environmentally friendly to appeal to customers and  keep customers interested for example McDonald's use the oil from their fryers in their trucks ",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "08/10/2026, 09:32:14"
+      },
+      {
+        "id": "floot-att-pupil-josie-dickson-4gbm-190",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one internal factor that impacts a business is the finance available this is the money the business has to pend on different things such as buying new materials to make products \nanother internal factor that impacts a business is human resources this is the people who work in the business or organisation ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "08/10/2026, 09:27:54"
+      },
+      {
+        "id": "floot-att-pupil-josie-dickson-4gbm-183",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "2 economic factors that can impact a business are inflation and exchange rates ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:25:08"
+      },
+      {
+        "id": "floot-att-pupil-josie-dickson-4gbm-180",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3bi",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "2 economic factors that can impact a business are inflation and exchange rates ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "recession",
+          "economic boom"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:24:47"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-312",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3a",
+        "topic": "Understanding Business",
+        "subtopic": "Customer satisfaction",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "four ways an organisation can deliver good customer service is by having a good return policy so customers can return product they are not happy with,another way organisations can deliver good customer service is through high quality products that meet the customers needs and wants,another way organisation can deliver good customer service is by having reasonable prices on your products as customers want products for a fair price",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "train staff to answer questions helpfully",
+          "respond promptly and fairly to complaints",
+          "provide accurate product information"
+        ],
+        "improvements": [
+          "Practise 'OUTLINE' questions on Customer satisfaction: include offer suitable returns and refunds"
+        ],
+        "feedback": "Scored 3/4 (75%). Good knowledge of Customer satisfaction shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 11:40:19"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-311",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "three external factors that can influence an organisation is the government as they can reinforce new laws on the business ike the minimum wage which will decrease a business's profits and budget as they would need to pay their workers more,another external factor that can influence a business ae banks as they provide loans or grants to help a business grow,a final external factor that can influence a organisation is individuals as if your business is located somewhere that they dont like they can protest or try to make you move location which can cost a lot of money",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs"
+        ],
+        "improvements": [
+          "Practise 'EXPLAIN' questions on Internal & external factors: include social changes such as tastes and fashions can force product changes"
+        ],
+        "feedback": "Scored 2/3 (67%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "02/11/2026, 11:34:52"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-310",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "the objectives of a sole trader is to expand their business and grow to make a profit whereas charities work to help a charitable cause and fundraise",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "02/11/2026, 11:29:51"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-309",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "one internal factor of an organisation is managers who can hire and fire employees based on how well they work,another internal factor of an organisation is an employee who can affect a business by their work ethic and encourage customers to buy products",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "02/11/2026, 11:28:37"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-308",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": "two advantages of a partnership is that you have less working ours as you can rely on partners to do work beyond your hours,another advantage is that you will be able to utilise different skills as you have other partners that bring in various different skills and expertise.Two disadvantages of a partnership is shared profits meaning that you will only make a share of what the business earns,another disadvantage of a partnership is that having many different workers can cause arguments as you may come to disagreements",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "more capital can be available",
+          "partners can specialise and improve quality",
+          "responsibility and workload can be shared",
+          "more ideas can be generated"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "29/10/2026, 09:39:55"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-305",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify + explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "two external factors are customers which can affect an organisation by buying your products to increase profits and leaving a good review online to increase the organisations reputation,another external factor is banks which can influence an organisation by providing loans and grants to help the organisation expand",
+        "marks": 2,
+        "marksAvailable": 4,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices"
+        ],
+        "improvements": [
+          "Practise 'IDENTIFY + EXPLAIN' questions on Internal & external factors: include social factors such as ageing populations or fashion can change products and market research needs",
+          "Practise 'IDENTIFY + EXPLAIN' questions on Internal & external factors: include technological change can alter staffing, capital spending and competitiveness"
+        ],
+        "feedback": "Scored 2/4 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 2 mark(s).",
+        "createdAt": "29/10/2026, 09:34:30"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-303",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "the private sector of economy is owned by individuals that aim to make a profit and survive as a business whereas the public sector are owned and controlled by the government aiming to provide essential service",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "29/10/2026, 09:29:03"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-301",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3a",
+        "topic": "Understanding Business",
+        "subtopic": "Customer satisfaction",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Four ways an organisation can deliver good quality customer service is to have a good return policy, another way to deliver high quality customer service is to have reasonably cheap product or products for  fair value, another way an organisation can deliver good customer service is to provide high quality goods,another way to deliver good customer service is to provide high quality services",
+        "marks": 1,
+        "marksAvailable": 4,
+        "percentage": 25,
+        "hintUsed": false,
+        "awardedPoints": [
+          "train staff to answer questions helpfully"
+        ],
+        "improvements": [
+          "Practise 'OUTLINE' questions on Customer satisfaction: include respond promptly and fairly to complaints",
+          "Practise 'OUTLINE' questions on Customer satisfaction: include provide accurate product information",
+          "Practise 'OUTLINE' questions on Customer satisfaction: include offer suitable returns and refunds"
+        ],
+        "feedback": "Scored 1/4 (25%). Good knowledge of Customer satisfaction shown; see the suggested improvements below to gain the remaining 3 mark(s).",
+        "createdAt": "29/10/2026, 09:27:07"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-300",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa2018-6a",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "discuss",
+        "level": "A",
+        "mode": "practice",
+        "answer": " two benefits of operating as a private limited company is limited liability meaning that if the business fails they will only lose the business and the money they spent building it but they cant be held accountable and have their personal belongings confiscated,another benefit is that its easier to raise capital.Two drawbacks of operating a private limited company is that you need to carry out more legal paperwork to form, another drawback of operating as a private limited company is that profits are shared",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "shareholders normally have limited liability",
+          "private shareholders can invest capital",
+          "financial risk is shared",
+          "shares cannot be offered to the public"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "createdAt": "29/10/2026, 09:23:11"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-298",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "two internal factors of an organisation is employers which can increase the businesses profits depending on their worth ethic and how much sales they can make or influence,another internal factor of a business is a manager which can make the decision to fire certain employers depending on how much they bring to the business",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation",
+          "human resources \u2014 employees and managers"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "createdAt": "29/10/2026, 09:17:23"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-296",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "three influences external factors have on a organisation is the customers as they can affect the business by buying products and giving a good review online to make more sales and profits,another influence an external factor can have on a business is the government as they can force new laws on to a business like the minimum wage which will decrease their budget as they will need to pay employers more,,a final influence external factors can have on a business is banks as they provide loans and grants which let the business expand and grow",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "29/10/2026, 09:14:59"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-295",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "three influences external factors have on a organisation is the customers as they can affect the business by buying products and giving a good review online to make more sales and profits,another influence an external factor can have on a business is the government as they can force new laws on to a business like the minimum wage which will decrease their budget as they will need to pay employers more,,a final influence external factors can have on a business is banks as they provide loans and grants which let the business expand and grow",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "createdAt": "29/10/2026, 09:14:50"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-292",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa22-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "compare",
+        "level": "B",
+        "mode": "practice",
+        "answer": "the objectives of a sole trader is to expand their business and make a profit whereas a charity aims to help a charitable cause and fundraising           ",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "sole traders commonly aim to make profit whereas charities aim to increase donations",
+          "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "createdAt": "29/10/2026, 09:10:52"
+      },
+      {
+        "id": "floot-att-pupil-lucas-longmuir-4gbm-290",
+        "userId": "pupil-lucas-longmuir-4gbm",
+        "userName": "lucas longmuir",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-3c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "two internal factors of an organisation are employees and managers",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "hintUsed": false,
+        "awardedPoints": [
+          "finance \u2014 the money available to the organisation"
+        ],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+        ],
+        "feedback": "Scored 1/2 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
+        "createdAt": "29/10/2026, 09:07:07"
+      },
+      {
+        "id": "floot-att-pupil-stefan-tierney-4gbm-186",
         "userId": "pupil-stefan-tierney-4gbm",
         "userName": "stefan tierney",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-4c",
+        "topic": "Management of Marketing",
+        "subtopic": "Promotion",
+        "primaryCommand": "describe",
+        "level": "B",
+        "mode": "practice",
+        "answer": "social media advertising sales promotion direct marketing",
+        "marks": 0,
+        "marksAvailable": 4,
+        "percentage": 0,
+        "hintUsed": true,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Promotion: include coupons or voucher codes that reduce the price",
+          "Practise 'DESCRIBE' questions on Promotion: include loyalty cards or points-based rewards",
+          "Practise 'DESCRIBE' questions on Promotion: include competitions offering the chance to win a prize",
+          "Practise 'DESCRIBE' questions on Promotion: include special offers that give extra product/value"
+        ],
+        "feedback": "Scored 0/4. Review the lesson notes on Promotion and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "08/10/2026, 09:26:51"
+      },
+      {
+        "id": "floot-att-pupil-stefan-tierney-4gbm-172",
+        "userId": "pupil-stefan-tierney-4gbm",
+        "userName": "stefan tierney",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-6c",
+        "topic": "Management of Marketing",
+        "subtopic": "Market research",
+        "primaryCommand": "describe",
+        "level": "C",
+        "mode": "practice",
+        "answer": "field research is new and specific whereas desk research is old and outdated\n",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "hintUsed": true,
+        "awardedPoints": [],
+        "improvements": [
+          "Practise 'DESCRIBE' questions on Market research: include a personal interview is a face-to-face meeting where questions are asked",
+          "Practise 'DESCRIBE' questions on Market research: include a postal survey is a list of questions sent to respondents to complete"
+        ],
+        "feedback": "Scored 0/2. Review the lesson notes on Market research and make sure your response directly addresses the 'DESCRIBE' command word.",
+        "createdAt": "08/10/2026, 09:23:20"
+      },
+      {
+        "id": "floot-att-pupil-stefan-tierney-4gbm-162",
+        "userId": "pupil-stefan-tierney-4gbm",
+        "userName": "stefan tierney",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-4bi",
+        "topic": "Management of Marketing",
+        "subtopic": "Price",
+        "primaryCommand": "identify",
+        "level": "C",
+        "mode": "practice",
+        "answer": "competitive pricing penetration pricing\n",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "hintUsed": true,
+        "awardedPoints": [
+          "low-price strategy",
+          "competitive or market pricing"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "createdAt": "08/10/2026, 09:20:03"
+      },
+      {
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-1",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
+        "classCode": "4GBM1",
+        "questionId": "sqa2019-3a",
+        "topic": "Understanding Business",
+        "subtopic": "Customer satisfaction",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "1. Provide high quality customer service by training staff to handle queries politely, which leads to repeat custom and customer loyalty.\n2. Offer an after-sales service such as a warranty or free returns, which reassures buyers and improves brand reputation.\n3. Carry out market research to find out what customers want, meaning products meet customer needs closely.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "train staff to answer questions helpfully",
+          "respond promptly and fairly to complaints",
+          "provide accurate product information"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Great use of the 'OUTLINE' command word.",
+        "createdAt": "17/11/2026, 20:41:10"
+      },
+      {
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-2",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
+        "classCode": "4GBM1",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
+        "level": "B",
+        "mode": "practice",
+        "answer": "1. Economic factors: if interest rates rise, loan repayments cost more which reduces profit.\n2. Technological factors: new automation or e-commerce websites allow the business to sell 24/7 and increase sales.\n3. Competitive factors: if a rival launches a promotion, the business may have to lower its prices to keep market share.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs",
+          "economic changes such as higher interest rates can increase borrowing costs",
+          "social changes such as tastes and fashions can force product changes"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (3/3 \u2014 100%). Great use of the 'EXPLAIN' command word.",
+        "createdAt": "17/11/2026, 20:43:22"
+      },
+      {
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-3",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
+        "classCode": "4GBM1",
+        "questionId": "sqa23-7a",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "outline",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Land is the natural resources and plot where the business is based. Labour is the workforce employed by the business. Capital is the machinery, tools and money used to make goods.",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "hintUsed": false,
+        "awardedPoints": [
+          "land means natural resources",
+          "labour means human effort or employees",
+          "capital means man-made resources and can include owner finance"
+        ],
+        "improvements": [
+          "Include: enterprise is the idea or entrepreneur bringing the other factors together"
+        ],
+        "feedback": "Scored 3/4 (75%). Revise Role of business in society and develop each point fully to earn the remaining 1 mark(s).",
+        "createdAt": "17/11/2026, 20:45:05"
+      },
+      {
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-4",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
+        "classCode": "4GBM1",
+        "questionId": "sqa25-1aii",
+        "topic": "Understanding Business",
+        "subtopic": "Business types & sectors",
+        "primaryCommand": "describe",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Private sector businesses are owned by individuals or shareholders and aim to maximise profit and grow market share. Public sector organisations are owned and funded by the government and aim to provide essential public services such as education and healthcare within an agreed budget.",
+        "marks": 4,
+        "marksAvailable": 4,
+        "percentage": 100,
+        "hintUsed": false,
+        "awardedPoints": [
+          "private sector organisations are owned by private individuals",
+          "private sector finance can come from owner savings, loans or share issues",
+          "private sector organisations are controlled by owners, partners or directors",
+          "private sector organisations commonly aim to make profit"
+        ],
+        "improvements": [],
+        "feedback": "Full marks (4/4 \u2014 100%). Great use of the 'DESCRIBE' command word.",
+        "createdAt": "17/11/2026, 20:46:30"
+      },
+      {
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-5",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "sqa2018-4c",
         "topic": "Management of Operations",
@@ -11606,1479 +12671,2096 @@ window.N5_HUB_DATA = {
         "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (33%) imported from class report",
-        "marks": 1,
+        "answer": "If a business holds too much inventory, money is tied up in stock which harms cash flow, and goods could become obsolete or damaged in storage.",
+        "marks": 2,
         "marksAvailable": 3,
-        "percentage": 33,
-        "awardedPoints": [],
-        "improvements": [
-          "Revise Promotion (describe)"
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "storage and insurance costs may rise",
+          "goods may deteriorate or become obsolete"
         ],
-        "createdAt": "08/10/2026, 10:26:51"
+        "improvements": [
+          "Include: cash tied up in inventory cannot be used elsewhere"
+        ],
+        "feedback": "Scored 2/3 (67%). Revise Inventory management and develop each point fully to earn the remaining 1 mark(s).",
+        "createdAt": "17/11/2026, 20:47:50"
       },
       {
-        "id": "hist-att-pupil-stefan-tierney-4gbm-3",
-        "userId": "pupil-stefan-tierney-4gbm",
-        "userName": "stefan tierney",
+        "id": "floot-att-pupil-eva-sinclair-4gbm-extra-6",
+        "userId": "pupil-eva-sinclair-4gbm",
+        "userName": "eva sinclair",
         "classCode": "4GBM1",
-        "questionId": "sqa2018-3a",
-        "topic": "Management of Marketing",
-        "subtopic": "Promotion & ethical marketing",
-        "primaryCommand": "describe",
+        "questionId": "sqa23-7c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "identify + explain",
+        "level": "A",
+        "mode": "practice",
+        "answer": "Using social media promotion allows a business to reach a large audience quickly at low cost, which can boost awareness.",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political factors such as tax or new laws can change costs, profit or working practices",
+          "economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices"
+        ],
+        "improvements": [
+          "Include: social factors such as ageing populations or fashion can change products and market research needs"
+        ],
+        "feedback": "Scored 2/3 (67%). Revise Internal & external factors and develop each point fully to earn the remaining 1 mark(s).",
+        "createdAt": "17/11/2026, 20:49:11"
+      },
+      {
+        "id": "floot-att-pupil-james-rainbow-4e-extra-7",
+        "userId": "pupil-james-rainbow-4e",
+        "userName": "james rainbow",
+        "classCode": "ABCD",
+        "questionId": "sqa24-4c",
+        "topic": "Understanding Business",
+        "subtopic": "Internal & external factors",
+        "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "Saved historical attempt (33%) imported from class report",
+        "answer": "Competitors can affect a business if they charge lower prices.",
         "marks": 1,
         "marksAvailable": 3,
         "percentage": 33,
+        "hintUsed": false,
+        "awardedPoints": [
+          "political changes such as higher minimum wage can increase wage costs"
+        ],
+        "improvements": [
+          "Include: economic changes such as higher interest rates can increase borrowing costs",
+          "Include: social changes such as tastes and fashions can force product changes"
+        ],
+        "feedback": "Scored 1/3 (33%). Revise Internal & external factors and develop each point fully to earn the remaining 2 mark(s).",
+        "createdAt": "25/10/2026, 12:58:10"
+      },
+      {
+        "id": "floot-att-pupil-james-rainbow-4e-extra-8",
+        "userId": "pupil-james-rainbow-4e",
+        "userName": "james rainbow",
+        "classCode": "ABCD",
+        "questionId": "sqa2019-3b",
+        "topic": "Understanding Business",
+        "subtopic": "Role of business in society",
+        "primaryCommand": "define",
+        "level": "C",
+        "mode": "practice",
+        "answer": "A business sells things to people.",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "hintUsed": false,
         "awardedPoints": [],
         "improvements": [
-          "Revise Promotion (describe)"
+          "Include: a physical product consumed or used up relatively quickly, such as food or soap"
         ],
-        "createdAt": "08/10/2026, 10:26:51"
+        "feedback": "Scored 0/3 (0%). Revise Role of business in society and develop each point fully to earn the remaining 3 mark(s).",
+        "createdAt": "25/10/2026, 13:01:43"
       }
     ],
     "caseAttempts": [],
     "homeworkSubmissions": [
       {
-        "id": "hist-hw-pupil-aaron-coutts-4cbm-1",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (83%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 83,
-        "feedback": "Recorded homework score: 2/2 (83%)",
-        "submittedAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-hw-pupil-aaron-coutts-4cbm-2",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (83%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 83,
-        "feedback": "Recorded homework score: 2/2 (83%)",
-        "submittedAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-hw-pupil-aaron-coutts-4cbm-3",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (83%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 83,
-        "feedback": "Recorded homework score: 2/2 (83%)",
-        "submittedAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-hw-pupil-aaron-coutts-4cbm-4",
-        "userId": "pupil-aaron-coutts-4cbm",
-        "userName": "Aaron Coutts",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (83%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 83,
-        "feedback": "Recorded homework score: 2/3 (83%)",
-        "submittedAt": "08/11/2026, 11:40:13"
-      },
-      {
-        "id": "hist-hw-pupil-aaron-coutts-4cbm-5",
+        "id": "floot-hw-pupil-aaron-coutts-4cbm-21",
         "userId": "pupil-aaron-coutts-4cbm",
         "userName": "Aaron Coutts",
         "classCode": "4CBM3",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (83%)",
-        "marks": 2,
+        "answer": "One stage in the recruitment process is to advertise the open job/position\nA second stage in the recruitment process is to create a shortlist of candidates\nA third stage in the recruitment process is to hold interviews",
+        "marks": 1,
         "marksAvailable": 3,
-        "percentage": 83,
-        "feedback": "Recorded homework score: 2/3 (83%)",
-        "submittedAt": "08/11/2026, 11:40:13"
+        "percentage": 33,
+        "awardedPoints": [
+          "Advertising the vacancy is a valid recruitment stage."
+        ],
+        "improvements": [
+          "Replace the interview with a recruitment stage such as identifying the vacancy, analysing the job, preparing a job description or person specification, or advertising.",
+          "Replace shortlisting with another recruitment stage, such as carrying out a job analysis or preparing a job description. Shortlisting and interviews are selection activities, not recruitment stages."
+        ],
+        "feedback": "You correctly identified advertising the vacancy as a recruitment stage, earning 1 mark. Revise the recruitment and selection subtopic, especially the difference between attracting applicants (recruitment) and choosing between them (selection). Practise the command word \u201coutline\u201d: give three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the position. Avoid repeating selection activities such as shortlisting and interviewing.",
+        "submittedAt": "25/10/2026, 11:43:46"
       },
       {
-        "id": "hist-hw-pupil-alannah-cairns-4cbm-1",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (67%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 67,
-        "feedback": "Recorded homework score: 1/2 (67%)",
-        "submittedAt": "29/10/2026, 20:33:03"
-      },
-      {
-        "id": "hist-hw-pupil-alannah-cairns-4cbm-2",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (67%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 67,
-        "feedback": "Recorded homework score: 1/2 (67%)",
-        "submittedAt": "29/10/2026, 20:33:03"
-      },
-      {
-        "id": "hist-hw-pupil-alannah-cairns-4cbm-3",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (67%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 67,
-        "feedback": "Recorded homework score: 1/2 (67%)",
-        "submittedAt": "29/10/2026, 20:33:03"
-      },
-      {
-        "id": "hist-hw-pupil-alannah-cairns-4cbm-4",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
+        "id": "floot-hw-pupil-aaron-coutts-4cbm-20",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
         "classCode": "4CBM3",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (67%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 67,
-        "feedback": "Recorded homework score: 2/3 (67%)",
-        "submittedAt": "29/10/2026, 20:33:03"
-      },
-      {
-        "id": "hist-hw-pupil-alannah-cairns-4cbm-5",
-        "userId": "pupil-alannah-cairns-4cbm",
-        "userName": "Alannah Cairns",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-5",
-        "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (67%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 67,
-        "feedback": "Recorded homework score: 2/3 (67%)",
-        "submittedAt": "29/10/2026, 20:33:03"
-      },
-      {
-        "id": "hist-hw-pupil-erin-newton-4gbm-1",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (96%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-hw-pupil-erin-newton-4gbm-2",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (96%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-hw-pupil-erin-newton-4gbm-3",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (96%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-hw-pupil-erin-newton-4gbm-4",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (96%)",
+        "answer": "one source of finance available to a business is bank loan, this is where the bank gives the business cash that they need to pay back sometimes with interest on top of the original sum\n\nAnother source of finance available to a business is a government grant, this is when the government gives the business money that they do not need to pay back\n\nA third source of finance available to a business is capital (Equity), this is when someone (Normally the owner) invests money into the business however the owners savings will be lost if the business is unsuccessful",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 3/3 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly describes borrowing money from a bank and repaying it with interest.",
+          "Government grant: correctly describes money given by the government that does not need to be repaid; this is a valid alternative source of finance.",
+          "Capital/equity: correctly describes an owner investing money in the business; this is a valid alternative source of finance."
+        ],
+        "improvements": [
+          "Revise sources of finance, including internal and external finance, and practise the command word \u201cdescribe\u201d: for each source, state what it is and explain a relevant feature. Your three descriptions are clear; keep adding precise details such as who provides the finance and whether it must be repaid."
+        ],
+        "feedback": "3/3. You correctly described three different sources of finance: a bank loan, a government grant and owner\u2019s capital/equity. Your descriptions explain how each source works, and the grant and equity are valid alternatives to the examples in the model points. To strengthen exam technique, practise \u201cdescribe\u201d questions by giving a clear feature or explanation for each point.",
+        "submittedAt": "25/10/2026, 11:39:50"
       },
       {
-        "id": "hist-hw-pupil-erin-newton-4gbm-5",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
+        "id": "floot-hw-pupil-aaron-coutts-4cbm-18",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "desk research could be old or outdated information whereas field research is brand new information\ndesk research is quicker whereas field research is slower",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Valid comparison: desk research may use old or outdated information, whereas field research gathers new information.",
+          "Valid comparison: desk research is quicker to obtain, whereas field research takes longer to collect."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You made two clear paired comparisons, covering the age/newness of information and the time taken. To keep building confidence, practise the command word \u201ccompare\u201d by making sure each point describes both sides of the comparison.",
+        "submittedAt": "25/10/2026, 11:32:02"
+      },
+      {
+        "id": "floot-hw-pupil-aaron-coutts-4cbm-17",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "One factor influencing an organisations choice of supplier is price\nAnother factor influencing an organisations choice of supplier is how reliable the supplier is (reliability)",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price charged by the supplier.",
+          "Reliability of the supplier."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You identified two valid supplier-choice factors: price and supplier reliability. To maintain this standard, practise the command word \u201coutline\u201d by naming each factor and briefly explaining what it means for the organisation.",
+        "submittedAt": "25/10/2026, 11:28:28"
+      },
+      {
+        "id": "floot-hw-pupil-aaron-coutts-4cbm-16",
+        "userId": "pupil-aaron-coutts-4cbm",
+        "userName": "Aaron Coutts",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "One sector of economy is the private sector, this is owned individuals or shareholders and controlled by individuals or the board of directors.\nAnother sector of economy is the public sector, this is owned and controlled by the government",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly states that it is owned by individuals or shareholders; the additional reference to control by individuals or a board of directors is valid.",
+          "Public sector: correctly states that it is owned and controlled by government."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You clearly described both the private and public sectors and identified who owns them. No improvements are needed for this answer.",
+        "submittedAt": "25/10/2026, 11:24:07"
+      },
+      {
+        "id": "floot-hw-pupil-alannah-cairns-4cbm-64",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (96%)",
+        "answer": "One stage in the recruitment process is input. Another is process. Another is output",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Name three actual recruitment stages, such as identifying a vacancy, carrying out a job analysis, preparing a job description or person specification, and advertising the vacancy.",
+          "Do not use \u201cinput, process, output\u201d: these describe a general process model, not stages of recruitment."
+        ],
+        "feedback": "You have listed three terms, but they do not describe recruitment stages, so no marks are awarded. Revise the recruitment subtopic in Human Resource Management, especially the steps taken to attract applicants. Practise the command word \u201coutline\u201d by giving three distinct stages and briefly stating what happens at each one\u2014for example, identify a vacancy, analyse the job, then prepare a job description.",
+        "submittedAt": "29/10/2026, 20:33:03"
+      },
+      {
+        "id": "floot-hw-pupil-alannah-cairns-4cbm-63",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "One source of finance available to a business is a grant this is money given to a business by the local government. Another source of finance available to a business is bank loans this is when the bank gives a business money and the business can pay it back in instalments. Another sources of finance available to a business is the owners personal finance this is the owners personal savings",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 3/3 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 100,
+        "awardedPoints": [
+          "Grant: correctly described as money given to a business by local government.",
+          "Bank loan: correctly described as money provided by a bank and repaid in instalments.",
+          "Owner\u2019s personal finance: correctly identified as the owner\u2019s personal savings."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You described three valid sources of finance, and your explanations make clear what each source involves. To keep building on this, practise the exam command word \u201cdescribe\u201d by giving a clear detail about how each source provides money to the organisation.",
+        "submittedAt": "29/10/2026, 20:32:15"
       },
       {
-        "id": "hist-hw-pupil-erin-newton-4gbm-6",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-1",
-        "month": "November 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (96%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
-      },
-      {
-        "id": "hist-hw-pupil-erin-newton-4gbm-7",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-2",
-        "month": "November 2026",
+        "id": "floot-hw-pupil-alannah-cairns-4cbm-62",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
         "topic": "Operations",
-        "answer": "Submitted homework answer (96%)",
-        "marks": 2,
+        "answer": "One factor influencing an organisations choice of supplier is closeness to the business this helps a business choose a supplier because if the supplier is miles away it is unrealistic for them to be able to supply the business.\nAnother factor influencing an organisations choice of supplier is",
+        "marks": 1,
         "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 50,
+        "awardedPoints": [
+          "Proximity/location of the supplier: the pupil explains that a supplier that is too far away may not realistically be able to supply the business."
+        ],
+        "improvements": [
+          "Complete the second factor with a distinct valid supplier-choice factor, such as the price charged or the quality of the products, and briefly explain why it matters."
+        ],
+        "feedback": "You earn 1/2. Your point about how close the supplier is to the business is valid, and you explain why distance matters. For the remaining mark, revise the National 5 Business Management topic of choosing suppliers and practise the command word \u201coutline\u201d: give a second different factor and briefly describe its relevance, for example that the business may choose a supplier offering better prices or higher-quality products.",
+        "submittedAt": "29/10/2026, 20:30:15"
       },
       {
-        "id": "hist-hw-pupil-erin-newton-4gbm-8",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-3",
-        "month": "November 2026",
+        "id": "floot-hw-pupil-alannah-cairns-4cbm-61",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
         "topic": "Marketing",
-        "answer": "Submitted homework answer (96%)",
+        "answer": "Desk research is secondary information whereas field research is primary information. Field research is relvant to the business whereas desk research can be irrevleant to the business",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 100,
+        "awardedPoints": [
+          "Desk research uses secondary information, while field research collects primary information.",
+          "Field research is relevant to the business, while desk research may be irrelevant."
+        ],
+        "improvements": [],
+        "feedback": "You earned full marks. You made two clear comparisons, covering the type of information and its relevance to the business. To keep building your National 5 Marketing research knowledge, practise the command word \u201ccompare\u201d: make each point a paired statement that refers to both options.",
+        "submittedAt": "29/10/2026, 20:30:10"
       },
       {
-        "id": "hist-hw-pupil-erin-newton-4gbm-9",
-        "userId": "pupil-erin-newton-4gbm",
-        "userName": "Erin Newton",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-4",
-        "month": "November 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (96%)",
+        "id": "floot-hw-pupil-alannah-cairns-4cbm-60",
+        "userId": "pupil-alannah-cairns-4cbm",
+        "userName": "Alannah Cairns",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "One sector of economy is the public sector this is businesses like the national and local government who are providing essential services. Another sector of economy is private sector this is businesses like sole traders, partnerships and private limited companies who are looking to make as much profit as possible",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 2/2 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 100,
+        "awardedPoints": [
+          "Public sector: correctly identifies central/local government as providers/owners of public-sector organisations.",
+          "Private sector: correctly identifies examples including sole traders and partnerships, which are privately owned."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You accurately described both the public and private sectors and gave suitable examples. To keep building your National 5 Business Management knowledge, practise the command word \u201cdescribe\u201d: state a feature of each area and explain it briefly. Your ownership descriptions are the key distinction between these sectors.",
+        "submittedAt": "29/10/2026, 20:26:30"
       },
       {
-        "id": "hist-hw-pupil-erin-newton-4gbm-10",
+        "id": "floot-hw-pupil-erin-newton-4gbm-79",
         "userId": "pupil-erin-newton-4gbm",
         "userName": "Erin Newton",
         "classCode": "4GBM1",
         "questionId": "hw-nov-5",
         "month": "November 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (96%)",
+        "answer": "One method of selection that Vegware could use is to interview applicants by asking them questions to assess their skills, experience and sustainability for the job. \n\nA second method of selection that Vegware could use is selection tests, Vegware could ask applicants to complete tests to assess their abilities and knowledge required for the role. \n\nA final method of selection that Vegware could use is assessment centres, this means they could invite applicants to take part in group activites and tasks to assess their communication,, teamwork and problems solving skills.",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 96,
-        "feedback": "Recorded homework score: 3/3 (96%)",
-        "submittedAt": "15/11/2026, 12:34:38"
+        "percentage": 100,
+        "awardedPoints": [
+          "Interview: describes Vegware asking applicants questions to assess their skills and experience for the job.",
+          "Selection tests: describes tests assessing applicants\u2019 abilities and knowledge relevant to the role.",
+          "Assessment centres: describes group activities and tasks to assess relevant skills such as communication, teamwork and problem-solving."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You clearly describe three suitable selection methods and explain what each helps Vegware assess. To strengthen exam technique further, practise the command word \u201cdescribe\u201d by giving a clear detail about how each method works and linking it to the job or the qualities being assessed.",
+        "submittedAt": "04/11/2026, 19:25:37"
       },
       {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-1",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-2",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-3",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-4",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 2/3 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-5",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-5",
-        "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 2/3 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-6",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-1",
-        "month": "November 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-7",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-2",
-        "month": "November 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-8",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-nov-3",
-        "month": "November 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-9",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
+        "id": "floot-hw-pupil-erin-newton-4gbm-78",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
         "classCode": "4GBM1",
         "questionId": "hw-nov-4",
         "month": "November 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
+        "answer": "One purpose of preparing a cash budget is to identify cash flow problems, a cash budget helps an organization predict when it may have a shortage of cash therefor allowing them to take action before it happens. \n\nAnother purpose of preparing a cash budget is to plan future spending, a cash budget helps an organization plan its income and expenditure therefore ensuring the business has enough money available to pay bills and other expenses on time.",
+        "marks": 2,
         "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
+        "percentage": 100,
+        "awardedPoints": [
+          "Explains that a cash budget predicts a cash shortage so the business can take action before it occurs.",
+          "Explains that a cash budget helps plan future spending and ensure funds are available for bills and expenses."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You explained two distinct purposes: identifying cash shortages in advance and planning spending so the business can meet expenses. To keep earning full marks on \u201cexplain\u201d questions, give each purpose and say how it helps the business, as you have done here.",
+        "submittedAt": "04/11/2026, 19:20:08"
       },
       {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-10",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
+        "id": "floot-hw-pupil-erin-newton-4gbm-77",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
         "classCode": "4GBM1",
-        "questionId": "hw-nov-5",
+        "questionId": "hw-nov-3",
         "month": "November 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 2/3 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-11",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-dec-1",
-        "month": "December 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-12",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-dec-2",
-        "month": "December 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (59%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 1/2 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
-      },
-      {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-13",
-        "userId": "pupil-jack-mccallum-4gbm",
-        "userName": "Jack Mccallum",
-        "classCode": "4GBM1",
-        "questionId": "hw-dec-3",
-        "month": "December 2026",
         "topic": "Marketing",
-        "answer": "Submitted homework answer (59%)",
+        "answer": "One benefit of branding to an organization is customer loyalty, this means that by having recognizable branding customers will repeatedly purchase products from your business therefore leading to an increase in sales and profits. \n\nAnother benefit of branding to an organization is good image, this means that if a product that has a good image customers will be more likley to purchase that product resulting in increased sales and profits.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Customer loyalty: the answer explains that customers may repeatedly purchase the organisation\u2019s products, increasing sales and profits.",
+          "Positive brand image: the answer explains that customers may be more likely to buy a product with a good image, increasing sales and profits."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You explained two distinct benefits: branding can encourage repeat purchases through customer loyalty, and a positive image can persuade customers to buy. Your explanations link each benefit to increased sales. Keep practising the command word \u201cexplain\u201d by giving a clear reason or consequence for each point.",
+        "submittedAt": "04/11/2026, 18:59:06"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-76",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-2",
+        "month": "November 2026",
+        "topic": "Operations",
+        "answer": "One problem of understocking is that the business\u2019s wont be able to fulfill orders in time, this means that if a business receives a large order and they don\u2019t have enough stock they wont be able to fulfill that order therefore leading to a decrease in profits. \n\nAnother problem of understocking is that the business will be viewed as unreliable and its reputation will be damaged, this means that if a business has multiple orders that they cannot fulfill due to lack of stock the customers will be unhappy therefore leading to negative word of mouth.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Explains that insufficient stock can prevent the business from fulfilling a large order, reducing profits.",
+          "Explains that repeated inability to fulfil orders can damage the business\u2019s reputation and lead to negative word of mouth."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You clearly explain two different consequences and link each shortage of stock to a business impact: lost profit and damage to reputation. To keep earning full marks on \u201cexplain\u201d questions, make this cause-and-effect link explicit, as you have done here.",
+        "submittedAt": "04/11/2026, 18:53:12"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-75",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-1",
+        "month": "November 2026",
+        "topic": "Understanding Business",
+        "answer": "One objective of a sole trader is to maximize profits whereas one objective of a charity is to provide a service to a worthy cause. \n\nAnother objective of a sole trader is to fill a gap in the market whereas another objective of a charity is to help those in need.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Compares a sole trader's objective of maximising profits with a charity's objective of providing a service for a worthy cause.",
+          "Compares a sole trader's objective of filling a gap in the market with a charity's objective of helping those in need."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You made two clear comparisons, referring to both sole traders and charities in each one. Your answer shows you understand that a sole trader may focus on profit while a charity focuses on its cause and the people it supports.",
+        "submittedAt": "04/11/2026, 18:47:35"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-11",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-5",
+        "month": "October 2026",
+        "topic": "People",
+        "answer": "Identify the vacancy, the organization identifies a job that needs to be filled and prepares a job description. \n\nAdvertise the vacancy, the organization advertises the job to attract suitable applicants. \n\nInterview and select, the organization interviews applicants and selects the most suitable candidates for the job.",
         "marks": 2,
         "marksAvailable": 3,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 2/3 (59%)",
+        "percentage": 67,
+        "awardedPoints": [
+          "Identifying the vacancy that needs to be filled.",
+          "Preparing a job description for the vacancy.",
+          "Advertising the vacancy to attract applicants."
+        ],
+        "improvements": [
+          "Interviewing and selecting candidates are selection stages, not recruitment stages. Replace this with another recruitment stage, such as carrying out a job analysis or preparing a person specification."
+        ],
+        "feedback": "You identified the vacancy, prepared a job description and described advertising the job. These are valid recruitment stages. The interview and selection point is part of selection, so it does not earn a mark here. 2/3.",
+        "submittedAt": "10/10/2026, 13:41:03"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-10",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "One source of finance available to an organization is a bank loan, this is money borrowed from a bank that must be repaid with interest over an agreed period of time. \n\nAnother source of finance available to an organization is share capital, this is money raised by selling shares in a company to investors. \n\nAnother source of finance available to an organization is retained profit, this is profit kept by the organization and reinvested into the business rather than paid out to owners.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly described as borrowed from a bank and repaid with interest.",
+          "Share capital: correctly described as money raised by selling shares to investors; valid source of finance.",
+          "Retained profit: correctly described as profit kept and reinvested in the business."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You correctly described three sources of finance: a bank loan, share capital and retained profit.",
+        "submittedAt": "10/10/2026, 13:36:46"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-9",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Desk research uses existing information whereas field research collects new information. \n\nDesk research is usually cheaper and quicker as the information already exists whereas field research is usually more expensive and time consuming.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly compares desk research using existing information with field research collecting new information.",
+          "Correctly compares desk research as quicker/cheaper with field research as more time-consuming/expensive."
+        ],
+        "improvements": [],
+        "feedback": "Both comparisons are clear and accurate. 2/2.",
+        "submittedAt": "10/10/2026, 13:31:21"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-8",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "Price, an organization will choose a supplier that offers goods at a competitive price to reduce costs and maximize profit. \n\nReliability, an organization will choose a supplier that delivers goods on time to ensure it has enough stock to meet customer demand.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price: choosing competitive prices to reduce costs and maximise profit.",
+          "Reliability: choosing a supplier that delivers on time to maintain enough stock for customer demand."
+        ],
+        "improvements": [],
+        "feedback": "Both factors are valid and clearly outlined. You earned 2/2.",
+        "submittedAt": "10/10/2026, 13:27:46"
+      },
+      {
+        "id": "floot-hw-pupil-erin-newton-4gbm-7",
+        "userId": "pupil-erin-newton-4gbm",
+        "userName": "Erin Newton",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "One sector of economy is the private sector. The private sector is owned and controlled by private individuals known as sole trader, the finance is provided by the sole trader and they get to keep 100% profits. \n\nAnother sector of economy is the public sector. The public sector is owned and controlled by the government and local councils, these are funded by taxes and are usually referred to organizations rather than a business, they provide services such as schools and hospitals.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly described as owned/controlled by private individuals (sole traders).",
+          "Public sector: correctly described as owned by government and local councils."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You clearly described who owns both the private and public sectors. The extra details about funding and services are also relevant.",
+        "submittedAt": "10/10/2026, 13:23:20"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-31",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-dec-5",
+        "month": "December 2026",
+        "topic": "People",
+        "answer": "One reason organisations train there staff is so they are more productive on the job , if the staff don't know what to do there is no point having them hired , another is so they feel welcome and treasured , a staff member should always feel treasured in their work place so they work better and try harder",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Training can make staff more productive, benefiting the organisation.",
+          "Staff who feel valued may work harder, benefiting the organisation."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You gave two distinct reasons and linked both to benefits for the organisation: greater productivity and staff feeling valued, which may encourage them to work harder. Good use of justification\u2014keep explaining how each reason helps the organisation.",
         "submittedAt": "26/10/2026, 17:57:46"
       },
       {
-        "id": "hist-hw-pupil-jack-mccallum-4gbm-14",
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-30",
         "userId": "pupil-jack-mccallum-4gbm",
         "userName": "Jack Mccallum",
         "classCode": "4GBM1",
         "questionId": "hw-dec-4",
         "month": "December 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (59%)",
+        "answer": "Expenses , this is your money out like rent or other things you pay out like electric bill and other monthly payments \nProfit for the year , this is your gross profit take away your expenses, this Is the profit your business made that year in total \nGross profit, this is your profit before the expenses are taken away",
         "marks": 2,
         "marksAvailable": 3,
-        "percentage": 59,
-        "feedback": "Recorded homework score: 2/3 (59%)",
-        "submittedAt": "26/10/2026, 17:57:46"
+        "percentage": 67,
+        "awardedPoints": [
+          "Expenses: correctly described as money paid out by the business, with valid examples such as rent and electricity.",
+          "Profit for the Year: correctly stated as gross profit minus expenses, and explained as the year's total profit."
+        ],
+        "improvements": [
+          "For Gross Profit, give the calculation: sales revenue minus cost of sales. Saying it is profit before expenses are taken away does not identify how gross profit is calculated."
+        ],
+        "feedback": "You earned 2/3. Your definitions of expenses and Profit for the Year are accurate. Revise the Income Statement subtopic of gross profit, then practise the command word \u201cdefine\u201d: give the precise meaning or calculation (Gross Profit = sales revenue \u2212 cost of sales) rather than only describing what is deducted afterwards.",
+        "submittedAt": "26/10/2026, 17:55:45"
       },
       {
-        "id": "hist-hw-pupil-jack-culverhousejack-4fbm-1",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "29/10/2026, 18:46:43"
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-29",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-dec-3",
+        "month": "December 2026",
+        "topic": "Marketing",
+        "answer": "Development, this is the stage at no sales as the product has not yet been released \nIntroduction, sales are low , product is just getting recognised \nGrowth , sales are increasing rapidly , product gains popularity, break even point reached \nMaturity, this is the peak of sales , , profit gained \nDecline , product begins to loose sales , this is where the product begins to become less popular, extension strategies thought about now",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "awardedPoints": [
+          "Describes the sales pattern across the stages: low at introduction, rising rapidly during growth, peaking at maturity and falling in decline.",
+          "Correctly names at least three PLC stages: introduction, growth, maturity and decline."
+        ],
+        "improvements": [
+          "Add and label both axes: Sales on the vertical axis and Time on the horizontal axis. This would earn the remaining mark.",
+          "For a diagram question, make sure the drawn curve visibly starts low, rises steeply, levels off around maturity and falls in decline; the written descriptions alone cannot confirm the actual drawing."
+        ],
+        "feedback": "You know the product life cycle stages and the sales pattern associated with them. Revise the product life cycle diagram in the marketing topic, especially its axes and curve shape. Practise the command word \u201cdraw and label\u201d: sketch the curve, label Sales and Time, and name at least three stages. Development can be shown before introduction, but it does not replace one of the four stages used for the stage-label mark.",
+        "submittedAt": "26/10/2026, 17:53:11"
       },
       {
-        "id": "hist-hw-pupil-jack-culverhousejack-4fbm-2",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-28",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-dec-2",
+        "month": "December 2026",
         "topic": "Operations",
-        "answer": "Submitted homework answer (50%)",
+        "answer": "One advantage of batch production is lower price per unit , this means that the price of the product can be lowered making the product more affordable , one disadvantage is a waste of time and money due to cleaning the machinery and area around before moving onto next product",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Advantage: identifies a lower cost per unit, which can allow the product to be sold at a more affordable price.",
+          "Disadvantage: explains that cleaning machinery and the production area between batches wastes time and money."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You gave one valid advantage and one valid disadvantage of batch production, and explained both clearly. Good work.",
+        "submittedAt": "26/10/2026, 17:30:21"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-27",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-dec-1",
+        "month": "December 2026",
+        "topic": "Understanding Business",
+        "answer": "The influence 2 stakeholders have on a LTD is the stakeholders have shared financial risk meaning if the ltd fails they are at fault and more money will be taken",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Revise stakeholder influences in private limited companies. Name two stakeholders and describe what each can affect\u2014for example, managers influence how staff and resources are used, while employees influence product or service quality through their work.",
+          "Practise the command word \u201cdescribe\u201d: give a relevant detail about each stakeholder\u2019s influence. Shared financial risk does not describe the influence of two stakeholders."
+        ],
+        "feedback": "You have mentioned financial risk, but this does not describe how two stakeholders influence a private limited company. Revise stakeholder influences, then practise \u201cdescribe\u201d by naming two stakeholders and explaining one effect each can have on the company.",
+        "submittedAt": "26/10/2026, 17:25:57"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-26",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-4",
+        "month": "November 2026",
+        "topic": "Finance",
+        "answer": "One advantage could be that you can identify cash shortages in advance , this is good as it means you can prepare for it and try and save some profit to help cover , another could be to show when a business will have a cash surplus, this is good as it means a business can see when they will have some left over money to potentially expand",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Identifies cash shortages in advance and explains that the business can prepare for them by saving money to cover the shortfall.",
+          "Identifies when a cash surplus will occur and explains that the business can plan to use the extra cash, for example to expand."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You clearly explained two useful purposes: forecasting cash shortages so the business can prepare, and identifying surplus cash so it can plan how to use it. For future \u201cexplain\u201d questions, keep linking each purpose to why it helps the business, as you have done here.",
+        "submittedAt": "26/10/2026, 17:07:29"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-25",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-3",
+        "month": "November 2026",
+        "topic": "Marketing",
+        "answer": "One benefit of branding is your product being well known , this is good as it means customers know and buy your product more , another benefit could be that if your product is high quality people may buy it more , this is good as customers may buy other products as they think it will be high quality",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Explained that a well-known brand helps customers recognise the product and can encourage them to buy it.",
+          "Explained that a good-quality brand can build customers\u2019 confidence in the organisation\u2019s other products, encouraging further purchases."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You explained two distinct benefits: recognition can help sales, and a positive reputation for quality can encourage customers to try other products. To keep building your National 5 Marketing knowledge, revise how branding supports product recognition and brand reputation. Practise the exam command word \u201cexplain\u201d by linking each benefit to why it helps the organisation.",
+        "submittedAt": "26/10/2026, 17:05:07"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-24",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-2",
+        "month": "November 2026",
+        "topic": "Operations",
+        "answer": "One problem of understocking is people wanting the product and not being able to supply them with it , this means that they may go to competitors and other companies to buy that product \nAnother is the supplier may not be able to provide the product again for a while , this means that people will stop buying from you to get that product instead buy from a different business or competitor",
         "marks": 1,
         "marksAvailable": 2,
         "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "29/10/2026, 18:46:43"
+        "awardedPoints": [
+          "Explains that customers who cannot get the product may buy from competitors, causing the business to lose sales."
+        ],
+        "improvements": [
+          "Give a second distinct consequence of understocking rather than repeating the loss of customers to competitors. For example, a shortage of raw materials could stop production, meaning products cannot be made for customers."
+        ],
+        "feedback": "You clearly explained one valid problem: customers may go to competitors when the product is unavailable, costing the business sales. For the second mark, revise the National 5 Business Management topic of inventory management and practise the command word \u201cexplain\u201d: give a different problem and link it to its business consequence, such as a raw-material shortage stopping production.",
+        "submittedAt": "26/10/2026, 16:59:11"
       },
       {
-        "id": "hist-hw-pupil-jack-culverhousejack-4fbm-3",
-        "userId": "pupil-jack-culverhousejack-4fbm",
-        "userName": "Jack culverhousejack",
-        "classCode": "4FBM2",
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-23",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-nov-1",
+        "month": "November 2026",
+        "topic": "Understanding Business",
+        "answer": "The objective of a sole trader is to make a profit, whereas , a charitys objective is to help the community and those in need",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Correct paired comparison: a sole trader aims to make a profit, while a charity aims to help the community and people in need."
+        ],
+        "improvements": [
+          "For a second mark, add another distinct paired comparison, such as a sole trader aiming to grow market share while a charity aims to support more people."
+        ],
+        "feedback": "Good comparison: you clearly identify a profit objective for a sole trader and a charitable objective for a charity. To earn the second mark, practise the exam command word \u201ccompare\u201d by giving a second distinct point that refers to both types of organisation\u2014for example, comparing growth in market share with increasing the number of people supported.",
+        "submittedAt": "26/10/2026, 16:55:54"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-6",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-5",
+        "month": "October 2026",
+        "topic": "People",
+        "answer": "One stage in the recruitment process is interview, this is where you find out about the staff and see if they are fit for the job",
+        "marks": 0,
+        "marksAvailable": 3,
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Name three recruitment stages, such as identifying a vacancy, carrying out a job analysis, creating a job description, preparing a person specification, or advertising the vacancy. Interviews are part of selection, not recruitment."
+        ],
+        "feedback": "You described an interview, which is part of selection rather than recruitment, so it does not earn a mark here. For example, you could outline identifying a vacancy, analysing the job, and creating a job description.",
+        "submittedAt": "08/10/2026, 09:35:46"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-5",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "One source of finance available is a government grant , this is when the government hand out a lump sum of money for businesses to have and not need to pay back",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "awardedPoints": [
+          "Government grant is a valid source of finance and the pupil correctly describes it as money provided by the government that does not have to be repaid."
+        ],
+        "improvements": [
+          "Describe two more sources of finance, such as a bank loan, mortgage or retained profit, to gain the remaining marks."
+        ],
+        "feedback": "You correctly described a government grant as finance that does not need to be repaid. You needed to describe two more sources of finance.",
+        "submittedAt": "08/10/2026, 09:25:34"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-4",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
         "questionId": "hw-oct-3",
         "month": "October 2026",
         "topic": "Marketing",
-        "answer": "Submitted homework answer (50%)",
+        "answer": "Desk research is second hand research that already exists whereas field research is first hand information your finding out",
         "marks": 1,
         "marksAvailable": 2,
         "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "29/10/2026, 18:46:43"
+        "awardedPoints": [
+          "Correctly compares existing, second-hand/secondary desk research with new, first-hand/primary field research."
+        ],
+        "improvements": [
+          "Add a second comparison, such as desk research being quicker to obtain while field research takes time to collect."
+        ],
+        "feedback": "You gave one accurate comparison between desk and field research. Add another difference to earn the second mark.",
+        "submittedAt": "08/10/2026, 09:24:19"
       },
       {
-        "id": "hist-hw-pupil-jack-culverhousejack-4fbm-4",
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-3",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "One may be the prices of the suppliers products meaning the business has less profits as they pay our more \n\nAnother may be where the supplier is located as delivery costs may be higher than what you wish to pay and if your supplier is closer you may not have to pay as much",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price charged by the supplier, linked to the effect on the business\u2019s profits.",
+          "Supplier location, linked to delivery costs."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You clearly outlined two valid factors: price and location, explaining how each can affect the business.",
+        "submittedAt": "08/10/2026, 09:23:19"
+      },
+      {
+        "id": "floot-hw-pupil-jack-mccallum-4gbm-2",
+        "userId": "pupil-jack-mccallum-4gbm",
+        "userName": "Jack Mccallum",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "One sector of the economy is private , this is a sector owned by private individuals, there are sole traders , partnerships and private limited companys",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Correctly describes the private sector as owned by private individuals."
+        ],
+        "improvements": [
+          "Describe a second sector, such as the public sector, which is owned by central or local government."
+        ],
+        "feedback": "You correctly described the private sector and gave examples of businesses. To gain the second mark, describe another sector, such as the public sector.",
+        "submittedAt": "08/10/2026, 09:19:27"
+      },
+      {
+        "id": "floot-hw-pupil-jack-culverhousejack-4fbm-59",
         "userId": "pupil-jack-culverhousejack-4fbm",
         "userName": "Jack culverhousejack",
         "classCode": "4FBM2",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 2,
+        "answer": "A buisness needs money to invest in promotion there business to more people which mean they could get more customers buying a product making a profit.",
+        "marks": 0,
         "marksAvailable": 3,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 2/3 (50%)",
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Name and describe three distinct sources of finance. For example: a bank loan is borrowed from a bank and repaid with interest; a mortgage is a long-term loan to buy business property or land; retained profit is previous profit kept in the business and reinvested.",
+          "Practise the command word \u201cdescribe\u201d: give a relevant detail about each source, rather than explaining what the business might spend money on. Revise the National 5 Business Management topic of sources of finance."
+        ],
+        "feedback": "You explain why a business might want money (to promote the business and attract customers), but you do not identify or describe any sources of finance, so no marks can be awarded. To improve, practise \u201cdescribe\u201d questions by naming each source and adding a detail about how it works. For example, a bank loan is borrowed from a bank and repaid with interest. You needed three different sources for the full 3 marks.",
         "submittedAt": "29/10/2026, 18:46:43"
       },
       {
-        "id": "hist-hw-pupil-jack-culverhousejack-4fbm-5",
+        "id": "floot-hw-pupil-jack-culverhousejack-4fbm-58",
         "userId": "pupil-jack-culverhousejack-4fbm",
         "userName": "Jack culverhousejack",
         "classCode": "4FBM2",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 2,
+        "answer": "Application phase this is when the applicant is giving an application with questions that are needed to be answered.\nRecuritment phase this is when the reviewer compares each candidates skills, past experience and quallification.\nContract phase this is when the employer gives a legal contract to the employee which sets out terms and conditions.",
+        "marks": 1,
         "marksAvailable": 3,
+        "percentage": 33,
+        "awardedPoints": [
+          "Application phase: a valid recruitment stage in which candidates submit applications."
+        ],
+        "improvements": [
+          "The description of the \u201crecruitment phase\u201d as comparing candidates\u2019 skills and experience describes selection, not a recruitment stage, so it does not earn a mark here.",
+          "A contract is issued after recruitment and selection, so it is not a recruitment stage for this question. Revise the recruitment process, especially identifying a vacancy, job analysis, writing a job description/person specification, and advertising the post. Practise the command word \u201coutline\u201d: state each stage and briefly explain what happens at it."
+        ],
+        "feedback": "You earn 1/3 for identifying the application stage and explaining what applicants do. To gain the other marks, revise recruitment stages: for example, identify a vacancy, analyse the job, prepare a job description or person specification, and advertise the post. Comparing candidates\u2019 qualifications is selection, while issuing a contract comes later. Practise \u201coutline\u201d questions by giving three distinct stages, each with a brief description.",
+        "submittedAt": "29/10/2026, 18:39:09"
+      },
+      {
+        "id": "floot-hw-pupil-jack-culverhousejack-4fbm-57",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "The price of an supplier affects the production cost for a buisness.\nLocation can also affects the choice of a supplier since the it can impact transportation costs.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price charged by the supplier affects the business\u2019s production costs.",
+          "Supplier location affects transport costs and therefore the choice of supplier."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You identified two distinct valid factors: price and location. You also linked each factor to its impact on the business, which makes your outline clear. Well done.",
+        "submittedAt": "29/10/2026, 18:35:37"
+      },
+      {
+        "id": "floot-hw-pupil-jack-culverhousejack-4fbm-46",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Field research is when a business gets primary information which only they have. Desk research is often expensive.\nDesk research is when you use secondary information through the internet or newspapers.",
+        "marks": 1,
+        "marksAvailable": 2,
         "percentage": 50,
-        "feedback": "Recorded homework score: 2/3 (50%)",
-        "submittedAt": "29/10/2026, 18:46:43"
+        "awardedPoints": [
+          "Identifies that field research gathers primary information and desk research uses secondary information."
+        ],
+        "improvements": [
+          "Add a second paired comparison, such as desk research is usually quicker because the information already exists, whereas field research takes time to collect. Saying desk research is expensive does not compare it with field research."
+        ],
+        "feedback": "You earned 1 of 2 marks for distinguishing primary field research from secondary desk research. To earn the second mark, practise the command word \u201ccompare\u201d: make a clear paired point about both methods, for example comparing how long each takes. Revise the National 5 research methods topic, especially the differences between primary and secondary research.",
+        "submittedAt": "28/10/2026, 14:56:05"
       },
       {
-        "id": "hist-hw-pupil-leah-pollock-4gbm-1",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
+        "id": "floot-hw-pupil-jack-culverhousejack-4fbm-45",
+        "userId": "pupil-jack-culverhousejack-4fbm",
+        "userName": "Jack culverhousejack",
+        "classCode": "4FBM2",
         "questionId": "hw-oct-1",
         "month": "October 2026",
         "topic": "Understanding Business",
-        "answer": "Submitted homework answer (92%)",
+        "answer": "The private sector is owned by private individuals or shareholder, they normally aim to make a profit.\nThe public sector is owned by the government and is funded by taxation.",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "28/10/2026, 13:58:52"
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector ownership correctly described as being by private individuals or shareholders.",
+          "Public sector ownership correctly described as being by the government."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You accurately described who owns both sectors. Your extra points about profit and taxation are relevant, but the key marks came from identifying ownership. To strengthen this topic further, practise the command word \u201cdescribe\u201d by giving a clear feature of each sector, such as ownership or source of funding.",
+        "submittedAt": "28/10/2026, 14:50:49"
       },
       {
-        "id": "hist-hw-pupil-leah-pollock-4gbm-2",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-hw-pupil-leah-pollock-4gbm-3",
-        "userId": "pupil-leah-pollock-4gbm",
-        "userName": "Leah pollock",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-hw-pupil-leah-pollock-4gbm-4",
+        "id": "floot-hw-pupil-leah-pollock-4gbm-44",
         "userId": "pupil-leah-pollock-4gbm",
         "userName": "Leah pollock",
         "classCode": "4GBM1",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (92%)",
+        "answer": "A bank loan is money borrowed from bank that must be repaid with intrest. Retained profit is money kept by the business to reinvest in its activities. share capital is money raised by a limited company by selling shares to investors",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly described as money borrowed from a bank and repaid with interest.",
+          "Retained profit: correctly described as money kept by the business and reinvested.",
+          "Share capital: correctly described as money raised by a limited company by selling shares to investors; this is a valid alternative source of finance."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You accurately described three sources of finance: a bank loan, retained profit and share capital. To maintain this standard, practise the command word \u201cdescribe\u201d by giving a clear detail about what each source is or how it is obtained.",
         "submittedAt": "28/10/2026, 13:58:52"
       },
       {
-        "id": "hist-hw-pupil-leah-pollock-4gbm-5",
+        "id": "floot-hw-pupil-leah-pollock-4gbm-43",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Deal research uses existing information while field research collects new information directly from customers. Desk research is usually cheaper and quicker while field research is usually more expensive and time consuming",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly compares desk research using existing information with field research gathering new information directly from customers.",
+          "Correctly compares desk research as quicker with field research as more time-consuming; the linked cost comparison is also valid."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You made two clear paired comparisons: the type/source of information and the time and cost involved. Strong use of the command word \u201ccompare\u201d by referring to both methods in each point.",
+        "submittedAt": "28/10/2026, 13:58:52"
+      },
+      {
+        "id": "floot-hw-pupil-leah-pollock-4gbm-42",
         "userId": "pupil-leah-pollock-4gbm",
         "userName": "Leah pollock",
         "classCode": "4GBM1",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
-        "submittedAt": "28/10/2026, 13:58:52"
-      },
-      {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-1",
-        "userId": "pupil-lucy-crosby-4cbm",
-        "userName": "Lucy Crosby",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (93%)",
+        "answer": "The first stage of recruitment is identifying a vacancy when a business. Needs a new employee the second stage is advertising the job to attract suitable applicants. The final stage is interviewing applicants and selecting the most suitable person for the job",
         "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "11/11/2026, 17:55:29"
+        "marksAvailable": 3,
+        "percentage": 67,
+        "awardedPoints": [
+          "Identifying a vacancy that needs filling.",
+          "Advertising the job to attract suitable applicants."
+        ],
+        "improvements": [
+          "Replace interviewing and selecting with another recruitment stage, such as carrying out a job analysis, writing a job description, or preparing a person specification."
+        ],
+        "feedback": "You correctly outlined two recruitment stages: identifying a vacancy and advertising it. Interviewing and selecting are selection stages, not recruitment, so they do not earn a mark here. Revise the National 5 recruitment process and practise the command word \u201coutline\u201d: give three distinct stages, each with a brief description. For example, explain that a job analysis establishes the duties, or that a job description lists the tasks and responsibilities.",
+        "submittedAt": "28/10/2026, 13:58:48"
       },
       {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-2",
-        "userId": "pupil-lucy-crosby-4cbm",
-        "userName": "Lucy Crosby",
-        "classCode": "4CBM3",
+        "id": "floot-hw-pupil-leah-pollock-4gbm-41",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
         "questionId": "hw-oct-2",
         "month": "October 2026",
         "topic": "Operations",
-        "answer": "Submitted homework answer (93%)",
+        "answer": "Price influences the choice of supplier because a business may choose a cheaper supplier to reduce costs. Reliability is also important because the supplier must deliver the correct goods on time",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "11/11/2026, 17:55:29"
+        "percentage": 100,
+        "awardedPoints": [
+          "Price: choosing a cheaper supplier can help the business reduce costs.",
+          "Reliability: delivering the correct goods on time helps the business maintain supplies."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You clearly outlined two distinct supplier-choice factors: price and reliability. To keep earning marks on \u201coutline\u201d questions, name each factor and briefly explain why it matters to the organisation.",
+        "submittedAt": "28/10/2026, 13:52:06"
       },
       {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-3",
-        "userId": "pupil-lucy-crosby-4cbm",
-        "userName": "Lucy Crosby",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
+        "id": "floot-hw-pupil-leah-pollock-4gbm-12",
+        "userId": "pupil-leah-pollock-4gbm",
+        "userName": "Leah pollock",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
         "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (93%)",
+        "topic": "Understanding Business",
+        "answer": "Private sector and public sector are two sectors of the economy private sector is the part of the economy that is owned by private individuals or companies and public sector is the part of the economy that is owned by the government",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "11/11/2026, 17:55:29"
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector described as owned by private individuals or companies.",
+          "Public sector described as owned by government."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You correctly described ownership in both the private and public sectors.",
+        "submittedAt": "15/10/2026, 10:35:00"
       },
       {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-4",
-        "userId": "pupil-lucy-crosby-4cbm",
-        "userName": "Lucy Crosby",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 3/3 (93%)",
-        "submittedAt": "11/11/2026, 17:55:29"
-      },
-      {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-5",
-        "userId": "pupil-lucy-crosby-4cbm",
-        "userName": "Lucy Crosby",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-5",
-        "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 3/3 (93%)",
-        "submittedAt": "11/11/2026, 17:55:29"
-      },
-      {
-        "id": "hist-hw-pupil-lucy-crosby-4cbm-6",
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-86",
         "userId": "pupil-lucy-crosby-4cbm",
         "userName": "Lucy Crosby",
         "classCode": "4CBM3",
         "questionId": "hw-nov-1",
         "month": "November 2026",
         "topic": "Understanding Business",
-        "answer": "Submitted homework answer (93%)",
+        "answer": "one objective of a sole trader is to make a profit whereas a charity aims to raise funds and spread awareness of a cause.\n\nanother objective of a sole trader is to fill a gap in the market whereas a charity aims to improve peoples lives the best they can.",
         "marks": 2,
         "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "Compared a sole trader\u2019s aim to make a profit with a charity\u2019s aim to raise funds and promote awareness of its cause.",
+          "Compared a sole trader\u2019s aim to fill a gap in the market with a charity\u2019s aim to improve people\u2019s lives."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You gave two clear comparisons, and each referred to both types of organisation. Your charity objectives are valid alternatives to the model examples. To keep developing this Business objectives topic, practise the command word \u201ccompare\u201d: make each point a paired statement that clearly shows how the sole trader\u2019s objective differs from the charity\u2019s.",
         "submittedAt": "11/11/2026, 17:55:29"
       },
       {
-        "id": "hist-hw-pupil-max-gillon-4cbm-1",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-51",
+        "userId": "pupil-lucy-crosby-4cbm",
+        "userName": "Lucy Crosby",
         "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
+        "questionId": "hw-oct-5",
         "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "28/10/2026, 20:23:19"
+        "topic": "People",
+        "answer": "one stage in the recruitment process is interviewing. this is when the business interviews candidates and asses their suitability for the job and chooses the best person for the job\n\nanother stage is advertising. this is when the business advertises their vacancy on social media or websites to attract applicants\n\na final stage of recruitment is receiving applications. this is when the business receives CVs and application forms from people who are interested in the job",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "awardedPoints": [
+          "Advertising a vacancy to attract applicants.",
+          "Receiving CVs and application forms from interested candidates."
+        ],
+        "improvements": [
+          "Interviews and assessing candidates belong to the selection process, not recruitment, so this does not earn a recruitment-stage mark. Revise the recruitment versus selection distinction.",
+          "Practise the command word \u201coutline\u201d: give three brief, distinct recruitment stages. You could replace the interview point with identifying a vacancy, carrying out a job analysis, preparing a job description or person specification."
+        ],
+        "feedback": "You correctly identified advertising and receiving applications as recruitment stages, earning 2/3 marks. Revise recruitment and selection, especially where interviews fit. Practise \u201coutline\u201d questions by giving the required number of distinct, relevant stages; add a recruitment stage such as identifying the vacancy or preparing a job description to earn the final mark.",
+        "submittedAt": "28/10/2026, 17:01:16"
       },
       {
-        "id": "hist-hw-pupil-max-gillon-4cbm-2",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "28/10/2026, 20:23:19"
-      },
-      {
-        "id": "hist-hw-pupil-max-gillon-4cbm-3",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 1/2 (50%)",
-        "submittedAt": "28/10/2026, 20:23:19"
-      },
-      {
-        "id": "hist-hw-pupil-max-gillon-4cbm-4",
-        "userId": "pupil-max-gillon-4cbm",
-        "userName": "Max Gillon",
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-50",
+        "userId": "pupil-lucy-crosby-4cbm",
+        "userName": "Lucy Crosby",
         "classCode": "4CBM3",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 2,
+        "answer": "one source of finance available to the business is a bank loan. a business can borrow money from a bank and repay it over a period of time with interest.\n\nanother finance available is government grants. this is money that is given to the business by the government and do not need to be repaid.\n\na final source of finance is personal savings. this is the owners own money to start or run the business. this means they don't have to pay interest on a loan but puts their own money at risk",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 2/3 (50%)",
-        "submittedAt": "28/10/2026, 20:23:19"
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: described as money borrowed from a bank and repaid over time with interest.",
+          "Government grant: valid source of finance, described as money given by the government that does not need to be repaid.",
+          "Personal savings: valid source of finance, described as the owner's own money used to start or run the business."
+        ],
+        "improvements": [
+          "To strengthen your answer further, make the description of personal savings even more precise by stating that the owner invests their own funds in the business. You have already explained this correctly, so no mark is lost."
+        ],
+        "feedback": "3/3. You correctly described three different sources of finance. Your bank-loan explanation includes repayment and interest, and your descriptions of grants and personal savings are also valid. For revision, review sources of finance and practise the command word \u201cdescribe\u201d: name each source and add a clear detail about how it works. No marks are missing here.",
+        "submittedAt": "28/10/2026, 16:55:21"
       },
       {
-        "id": "hist-hw-pupil-max-gillon-4cbm-5",
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-49",
+        "userId": "pupil-lucy-crosby-4cbm",
+        "userName": "Lucy Crosby",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "desk research uses existing information from sources such as websites and books, whereas, field research collects new information directly such as through surveys\n\nfield research is usually more expensive and time-consuming whereas desk research is usually cheaper and quicker",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly compared the sources: desk research uses existing information, while field research gathers new information directly.",
+          "Correctly compared speed and cost: field research is more time-consuming and expensive, while desk research is quicker and cheaper."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You made two clear paired comparisons, covering the type of information and the time/cost involved. For questions using the command word \u201ccompare,\u201d keep stating both sides of each difference, as you did here.",
+        "submittedAt": "28/10/2026, 16:47:28"
+      },
+      {
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-48",
+        "userId": "pupil-lucy-crosby-4cbm",
+        "userName": "Lucy Crosby",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "one factor that influences an organisations choice of supplier is the price that suppliers charge to ensure they will make a profit.\n\nanother factor influencing their choice is the quality of the goods as they want to make sure their customers are satisfied",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price charged by the supplier, linked to ensuring the organisation can make a profit.",
+          "Quality of the goods, linked to satisfying customers."
+        ],
+        "improvements": [],
+        "feedback": "2/2. Both factors are clearly outlined: supplier price and the quality of the goods. You link each factor to a relevant business reason. Well done.",
+        "submittedAt": "28/10/2026, 16:43:08"
+      },
+      {
+        "id": "floot-hw-pupil-lucy-crosby-4cbm-47",
+        "userId": "pupil-lucy-crosby-4cbm",
+        "userName": "Lucy Crosby",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "one sector of economy is the private sector. this includes businesses owned by private individuals or companies that aim to make a profit by selling goods or providing services.\n\nanother sector of economy is public sector. this consists of organisations that are owned controlled by the government and funded through taxation. their aim is to provide essential services to the public rather than make a profit.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly states that businesses are owned by private individuals or companies.",
+          "Public sector: correctly states that organisations are owned and controlled by government."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You accurately described both sectors and their ownership. Your added points about profit, taxation and public services are relevant. For further practice, revise ownership of organisations across the private and public sectors, and practise the command word \u201cdescribe\u201d by giving a clear identifying feature for each item.",
+        "submittedAt": "28/10/2026, 16:40:22"
+      },
+      {
+        "id": "floot-hw-pupil-max-gillon-4cbm-56",
         "userId": "pupil-max-gillon-4cbm",
         "userName": "Max Gillon",
         "classCode": "4CBM3",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (50%)",
-        "marks": 2,
+        "answer": ".",
+        "marks": 0,
         "marksAvailable": 3,
-        "percentage": 50,
-        "feedback": "Recorded homework score: 2/3 (50%)",
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Revise the recruitment process, especially the stages that happen before selection: identifying a vacancy, analysing the job, preparing a job description or person specification, and advertising it.",
+          "Practise the command word \u201coutline\u201d: give three distinct recruitment stages, each with a brief explanation. Interviews and tests are selection stages, not recruitment."
+        ],
+        "feedback": "No recruitment stages were given, so no marks could be awarded. To improve, revise the recruitment process and practise \u201coutline\u201d questions by naming three distinct stages and briefly describing each\u2014for example, identify a vacancy, carry out a job analysis, and prepare a job description. Remember that interviews and tests are part of selection, not recruitment.",
         "submittedAt": "28/10/2026, 20:23:19"
       },
       {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-1",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-2",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-3",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
-        "submittedAt": "14/11/2026, 14:53:24"
-      },
-      {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-4",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
+        "id": "floot-hw-pupil-max-gillon-4cbm-55",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
         "classCode": "4CBM3",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 3,
+        "answer": "A bank loan is an available source of finance to an organisation. This is a lend of money from a bank that a business will have to pay back eventually, but allows them to spend the loan money for things they need like machinery.\nA government grant is an available source of finance to an organisation. This is money giving from the government to support a business and their endeavours. This is a good starting lend of money for a business to begin and allows them to buy the essentials",
+        "marks": 2,
         "marksAvailable": 3,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 3/3 (93%)",
-        "submittedAt": "14/11/2026, 14:53:24"
+        "percentage": 67,
+        "awardedPoints": [
+          "Bank loan: correctly describes borrowing money from a bank and states that it must be repaid; also gives a relevant use (buying machinery).",
+          "Government grant: valid alternative source of finance, described as money provided by government to support the business."
+        ],
+        "improvements": [
+          "Give a third distinct source of finance, such as retained profit (profit kept in the business and reinvested) or a mortgage (a long-term loan to buy business property or land).",
+          "For greater precision, describe a grant as funding provided by the government, usually not requiring repayment, rather than as a loan."
+        ],
+        "feedback": "You have described two valid sources of finance: a bank loan and a government grant. To earn the final mark, add and describe a third distinct source. Revise the National 5 Business Management topic of sources of finance and practise the command word \u201cdescribe\u201d: name each source and explain what it is or how it works.",
+        "submittedAt": "28/10/2026, 20:13:35"
       },
       {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-5",
-        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
-        "userName": "Natalia Tomczak-Tywoniuk",
+        "id": "floot-hw-pupil-max-gillon-4cbm-54",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
         "classCode": "4CBM3",
-        "questionId": "hw-oct-5",
+        "questionId": "hw-oct-3",
         "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 3/3 (93%)",
-        "submittedAt": "14/11/2026, 14:53:24"
+        "topic": "Marketing",
+        "answer": "Desk research is unreliable as it may be outdated whereas field research is up-to-date and a reliable source of information\nField research is expensive to commission whereas desk research is free as it\u2019s your own research on the internet",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "The pupil compares the cost of field research with desk research: field research is described as expensive, while desk research is described as free."
+        ],
+        "improvements": [
+          "For the second comparison, avoid claiming desk research is necessarily your own research or free; desk research uses existing secondary information. State a clear contrast such as: desk research uses information that already exists, whereas field research gathers new primary information.",
+          "Practise the command word \u201ccompare\u201d: make each point a paired contrast, referring to both methods in the same comparison. Revise the National 5 Business Management topic of market research, especially primary versus secondary research and the time/cost of collecting information."
+        ],
+        "feedback": "You earned 1 of 2 marks for a paired cost comparison. Your other point contrasts reliability and whether information is up to date, but it is not a secure valid comparison as stated: field research is not automatically reliable or up to date. To gain the missing mark, practise \u201ccompare\u201d questions by giving a clear, accurate difference between both methods\u2014for example, desk research uses existing secondary information, while field research collects new primary information.",
+        "submittedAt": "28/10/2026, 20:06:35"
       },
       {
-        "id": "hist-hw-pupil-natalia-tomczak-tywoniuk-4cbm-6",
+        "id": "floot-hw-pupil-max-gillon-4cbm-53",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "Product quality influences an organisation\u2019s choice of supplier as if its products are low quality, people will not buy them meaning less sales and profit lost.\nPrice influences an organisations choice of supplier as businesses will want the cheapest price possible so they arent spending all their profit on products",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Product quality: explains that low-quality products may reduce customer demand, sales and profit.",
+          "Price: explains that businesses seek a lower supplier price to avoid spending too much on products and preserve profit."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You identified and explained two valid factors: product quality and price. Good application of each factor to sales and profit. For further practice, revise the supplier selection subtopic and practise the command word \u201coutline\u201d: state each factor and briefly explain how it affects the organisation.",
+        "submittedAt": "28/10/2026, 20:05:11"
+      },
+      {
+        "id": "floot-hw-pupil-max-gillon-4cbm-52",
+        "userId": "pupil-max-gillon-4cbm",
+        "userName": "Max Gillon",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "One sector of the economy would be the private sector. This is business who aim to survive in the market and make a profit. The businesses are sole traders, partnerships, and LTD businesses. These businesses are funded through sales.\nAnother sector of the economy is the third sector. This is non-profit organisations who aim to make a difference in society by donating to charitable causes. These are usually charities, funded by donations or fundraising.",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Private sector: correctly identifies businesses such as sole traders, partnerships and limited companies, which is a valid description of the sector."
+        ],
+        "improvements": [
+          "For the second mark, describe the public sector as organisations owned by central or local government. The third sector is not one of the two sectors specified in the model points for this question."
+        ],
+        "feedback": "You gave a valid description of the private sector, so you earned 1 mark. Revise the National 5 Business Management topic of sectors of the economy, especially the difference between private and public sector ownership. Practise the command word \u201cdescribe\u201d: give a clear identifying feature for each of the two sectors asked for\u2014for example, state who owns public sector organisations. Your description of the third sector may be accurate, but it does not earn a mark for this question.",
+        "submittedAt": "28/10/2026, 19:57:38"
+      },
+      {
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-92",
         "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
         "userName": "Natalia Tomczak-Tywoniuk",
         "classCode": "4CBM3",
         "questionId": "hw-nov-1",
         "month": "November 2026",
         "topic": "Understanding Business",
-        "answer": "Submitted homework answer (93%)",
-        "marks": 2,
+        "answer": "1. The objective of a sole trader is to make a profit whereas a charity donated the money to a specific cause.\n2. A sole trader works alone whereas in a charity many people volunteer.",
+        "marks": 1,
         "marksAvailable": 2,
-        "percentage": 93,
-        "feedback": "Recorded homework score: 2/2 (93%)",
+        "percentage": 50,
+        "awardedPoints": [
+          "Valid comparison: a sole trader aims to make a profit, while a charity directs money towards a specific cause."
+        ],
+        "improvements": [
+          "For the second comparison, compare objectives rather than how the organisations are staffed. For example, a sole trader may aim to grow market share, while a charity may aim to support more beneficiaries."
+        ],
+        "feedback": "You earned 1 out of 2 marks. Your first point compares a sole trader\u2019s profit objective with a charity\u2019s purpose of supporting a cause. The point about working alone and volunteers describes staffing, not objectives, so it does not earn a mark. Revise the National 5 topic of business objectives in different sectors, and practise the command word \u201ccompare\u201d: make each point a clear paired comparison of both organisations\u2019 objectives.",
         "submittedAt": "14/11/2026, 14:53:24"
       },
       {
-        "id": "hist-hw-pupil-shay-stewart-4cbm-1",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-91",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
         "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
+        "questionId": "hw-oct-5",
         "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-hw-pupil-shay-stewart-4cbm-2",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-hw-pupil-shay-stewart-4cbm-3",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "02/11/2026, 21:04:10"
-      },
-      {
-        "id": "hist-hw-pupil-shay-stewart-4cbm-4",
-        "userId": "pupil-shay-stewart-4cbm",
-        "userName": "Shay Stewart",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (92%)",
+        "topic": "People",
+        "answer": "1. One stage of the recruitment process is job description. This is when a job provides an overview of the job including the title, department, location and tasks.\n2. Another stage would be person specification. This is when a business states specific criteria that candidates should possess.\n3. A final stage of recruitment is internal advertising. This is when vacancies may be advertised only to existing employees within an organisation.",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
-        "submittedAt": "02/11/2026, 21:04:10"
+        "percentage": 100,
+        "awardedPoints": [
+          "Job description \u2014 correctly identified as a recruitment stage and explained as outlining job details and tasks.",
+          "Person specification \u2014 correctly identified as a recruitment stage and explained as setting criteria candidates should meet.",
+          "Internal advertising \u2014 correctly identified as a valid recruitment stage; vacancies are advertised to existing employees."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You identified three valid recruitment stages and explained each clearly. You could also revise the full recruitment sequence, including identifying a vacancy and carrying out job analysis. Practise the command word \u201coutline\u201d by naming each point and adding a brief description of what it involves.",
+        "submittedAt": "14/11/2026, 14:51:24"
       },
       {
-        "id": "hist-hw-pupil-shay-stewart-4cbm-5",
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-90",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "1. One source of finance for a business is a bank load. A bank load is a form of borrowing from a bank and pays it back in the future.\n2. Another source of finance would be a grant. A grant is a non-repayable fund organised by organisations or the government.\n3. A final source of finance could be hire purchase. Hire purchase is a type of financing where a business pays in instalments.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly identified as borrowing from a bank that must be repaid; spelling does not affect understanding.",
+          "Grant: correctly identified as non-repayable finance, a valid source of finance.",
+          "Hire purchase: correctly identified as finance paid for in instalments, a valid source."
+        ],
+        "improvements": [
+          "For an even more precise description of a bank loan, state that interest is normally paid as well as repaying the amount borrowed.",
+          "For hire purchase, explain that instalments are paid over time for an asset and that ownership usually transfers after the final payment."
+        ],
+        "feedback": "3/3. You described three valid sources of finance, so you have met the command word \u201cDescribe\u201d by giving a feature of each. To strengthen your detail further, revise sources of finance\u2014especially the costs and repayment/ownership arrangements for bank loans and hire purchase. Practise \u201cDescribe\u201d questions by adding a clear feature or explanation for every source you name.",
+        "submittedAt": "14/11/2026, 14:36:00"
+      },
+      {
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-89",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "1. Desk research saves a business time in researching whereas field research can be time consuming. \n2. Desk research is secondary information whereas field research is primary research.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Valid comparison: desk research can save time because information already exists, whereas field research can take longer to collect.",
+          "Valid comparison: desk research uses secondary information, whereas field research gathers primary information."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You made two clear paired comparisons, covering the time involved and whether the information is secondary or primary. To keep building your National 5 research-methods skills, practise the command word \u201ccompare\u201d: state a relevant feature of both methods in each point.",
+        "submittedAt": "14/11/2026, 14:30:12"
+      },
+      {
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-88",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "1. One factor influencing an organisations choice of supplier is location. If a supplier is located too far away deliveries may take too long to be delivered.\n2. Another factor influencing an organisations choice is price. If a supplier charges too much for raw materials an organisation may need to increase their prices.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Location: a nearby supplier can deliver more quickly, reducing delays.",
+          "Price: the pupil explains that high input costs may force the organisation to raise its prices."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You identified two valid supplier-choice factors and explained why each matters: location affects delivery time, and price affects the organisation\u2019s costs and selling prices. To maintain this standard, practise the command word \u201coutline\u201d by giving a relevant factor and briefly explaining it.",
+        "submittedAt": "14/11/2026, 14:28:34"
+      },
+      {
+        "id": "floot-hw-pupil-natalia-tomczak-tywoniuk-4cbm-87",
+        "userId": "pupil-natalia-tomczak-tywoniuk-4cbm",
+        "userName": "Natalia Tomczak-Tywoniuk",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "1. One sector of economy is the private sector. The private sector consists of privately owned businesses like a sole trader or partnership.\n2. Another sector of economy is the public sector. The public sector is a government controlled service like the NHS.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly describes businesses as privately owned and gives sole trader/partnership examples.",
+          "Public sector: correctly describes it as government controlled and gives the NHS as an example."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You accurately described both sectors and gave relevant examples. To maintain this in an exam, practise the command word \u201cdescribe\u201d by stating a clear feature of each term, rather than only naming it.",
+        "submittedAt": "14/11/2026, 14:24:23"
+      },
+      {
+        "id": "floot-hw-pupil-shay-stewart-4cbm-36",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "one factor influencing an organisations choice of supplier is cost of the raw materials, is it used to set your selling price.\nanother factor influencing an organisations choice of supplier is delivery time, some products can go out of date. Products will delay deduction.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Cost of raw materials: a supplier\u2019s price is a valid factor in choosing a supplier.",
+          "Delivery time: timely delivery is a valid supplier-choice factor, and the pupil explains that delays can cause products to go out of date."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You identified two distinct factors: cost and delivery time, and linked delivery time to the risk of products going out of date. Keep practising the command word \u201coutline\u201d: give each factor and add a brief relevant detail explaining it.",
+        "submittedAt": "26/10/2026, 20:13:09"
+      },
+      {
+        "id": "floot-hw-pupil-shay-stewart-4cbm-35",
         "userId": "pupil-shay-stewart-4cbm",
         "userName": "Shay Stewart",
         "classCode": "4CBM3",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (92%)",
+        "answer": "one stage in the recruitment process is identifying the vacancy, this is which happens when someone leaves or moves job.\nanother stage in the recruitment process is job analysis, the business must identify skills required for that position.\nA third stage in the recruitment phase is application form, used to make a decision as to whether or not the person will be suitable for the job",
         "marks": 3,
         "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
-        "submittedAt": "02/11/2026, 21:04:10"
+        "percentage": 100,
+        "awardedPoints": [
+          "Identifies the vacancy to be filled.",
+          "Identifies job analysis as a stage and explains it establishes the skills needed for the position.",
+          "Identifies an application form as a recruitment stage; this is a valid equivalent recruitment activity."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You have outlined three valid recruitment stages: identifying a vacancy, carrying out job analysis and using an application form. Good distinction between recruitment and selection. To build on this, revise the recruitment process subtopic and practise the command word \u201coutline\u201d by naming each stage and briefly explaining what happens at it\u2014for example, creating a job description or person specification.",
+        "submittedAt": "26/10/2026, 20:07:04"
       },
       {
-        "id": "hist-hw-pupil-arron-macfarlane-4gbm-1",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-hw-pupil-arron-macfarlane-4gbm-2",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-hw-pupil-arron-macfarlane-4gbm-3",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "28/10/2026, 08:15:48"
-      },
-      {
-        "id": "hist-hw-pupil-arron-macfarlane-4gbm-4",
-        "userId": "pupil-arron-macfarlane-4gbm",
-        "userName": "arron macfarlane",
-        "classCode": "4GBM1",
+        "id": "floot-hw-pupil-shay-stewart-4cbm-34",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
+        "answer": "one source of finance is a bank loan, a bank loan is a long term source of finance \nanother source of finance is a bank overdraft, a bank overdraft is a facility that will allow you to withdraw more money from your account than is available \na third source of finance is a mortgage, a mortgage is a long term source of finance",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/3 (75%)",
-        "submittedAt": "28/10/2026, 08:15:48"
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly identified as a source and described as long-term finance.",
+          "Bank overdraft: valid source of finance, described as allowing the organisation to withdraw more than is in its account.",
+          "Mortgage: correctly identified and described as long-term finance."
+        ],
+        "improvements": [
+          "To make descriptions more precise, explain a bank loan is borrowed from a bank and must be repaid, usually with interest.",
+          "For a mortgage, add that it is a large loan used to buy business property or land."
+        ],
+        "feedback": "3/3. You have identified three valid sources of finance and described each. To strengthen your National 5 finance knowledge, revise the features and uses of sources of finance, especially the repayment terms of loans and the purpose of mortgages. Practise the command word \u201cdescribe\u201d by adding a relevant detail about how each source works or what it is used for.",
+        "submittedAt": "26/10/2026, 19:59:28"
       },
       {
-        "id": "hist-hw-pupil-arron-macfarlane-4gbm-5",
+        "id": "floot-hw-pupil-shay-stewart-4cbm-33",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "desk research is when the business collects and uses information about public sources WHEREAS field research is information that is first hand information.\nBoth desk and field research gather the same amount of information that just has a time difference.",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Correctly distinguishes desk research as using publicly available information from field research as using first-hand information (primary data)."
+        ],
+        "improvements": [
+          "Your second comparison says both methods gather the same amount of information and only differ in time, but it does not give a valid contrast in collection time. Revise the market research subtopic of desk and field research, then practise the command word \u201ccompare\u201d: give a paired difference for both methods, such as desk research being quicker because the information already exists, while field research takes time to collect."
+        ],
+        "feedback": "You earned 1/2 marks for a valid comparison of the type of information used. To earn the second mark, make another clear paired comparison that refers to both methods\u2014for example, compare how long each takes to collect.",
+        "submittedAt": "26/10/2026, 19:54:56"
+      },
+      {
+        "id": "floot-hw-pupil-shay-stewart-4cbm-32",
+        "userId": "pupil-shay-stewart-4cbm",
+        "userName": "Shay Stewart",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "Private sector organisations, such as local newsagents or large supermarket chains are owned and controlled by private individuals.\nPublic sector organisations, such as the NHS are managed and controlled by the government.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector organisations are owned and controlled by private individuals; the examples are relevant.",
+          "Public sector organisations such as the NHS are managed and controlled by government."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You correctly described both the private and public sectors, with suitable examples. To keep building confidence, practise the command word \u201cdescribe\u201d by giving a clear feature of each concept, as you have done here.",
+        "submittedAt": "26/10/2026, 19:34:15"
+      },
+      {
+        "id": "floot-hw-pupil-arron-macfarlane-4gbm-40",
         "userId": "pupil-arron-macfarlane-4gbm",
         "userName": "arron macfarlane",
         "classCode": "4GBM1",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
+        "answer": "Identify the vacancy- when someone leaves, you can apply for it\nCreate a job description- a document that states the tasks and responsibilities\nCreate a job analysis- identify the skilld and tasks needed",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/3 (75%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "Identifies a vacancy that needs to be filled.",
+          "Creates a job description stating the tasks and responsibilities.",
+          "Carries out a job analysis to identify the tasks and skills needed for the job."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You correctly outlined three recruitment stages: identifying a vacancy, creating a job description and carrying out a job analysis. Your explanations show what the job description and analysis are for. Keep practising the command word \u201coutline\u201d by naming each stage and briefly explaining it; you did this successfully here.",
         "submittedAt": "28/10/2026, 08:15:48"
       },
       {
-        "id": "hist-hw-pupil-ben-ogilvie-4gbm-1",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (58%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 58,
-        "feedback": "Recorded homework score: 1/2 (58%)",
-        "submittedAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-hw-pupil-ben-ogilvie-4gbm-2",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (58%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 58,
-        "feedback": "Recorded homework score: 1/2 (58%)",
-        "submittedAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-hw-pupil-ben-ogilvie-4gbm-3",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (58%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 58,
-        "feedback": "Recorded homework score: 1/2 (58%)",
-        "submittedAt": "02/11/2026, 16:14:41"
-      },
-      {
-        "id": "hist-hw-pupil-ben-ogilvie-4gbm-4",
-        "userId": "pupil-ben-ogilvie-4gbm",
-        "userName": "ben ogilvie",
+        "id": "floot-hw-pupil-arron-macfarlane-4gbm-39",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
         "classCode": "4GBM1",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (58%)",
-        "marks": 2,
+        "answer": "Bank loan- you get given a certian amount of money and have to pay it back with interest\nGrant-you dont have to pay this back\nLoan from family or friends- you might have to pay this back",
+        "marks": 3,
         "marksAvailable": 3,
-        "percentage": 58,
-        "feedback": "Recorded homework score: 2/3 (58%)",
-        "submittedAt": "02/11/2026, 16:14:41"
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: correctly states that a set amount is borrowed and repaid with interest.",
+          "Grant: correctly identifies a source of finance that does not have to be repaid.",
+          "Loan from family or friends: correctly identifies a valid source of finance and notes that it may need to be repaid."
+        ],
+        "improvements": [
+          "To strengthen your description of a grant, explain that it is funding provided by an external organisation, often for a particular purpose or to meet conditions.",
+          "For a loan from family or friends, add that it is borrowed money and clarify any agreed repayment terms."
+        ],
+        "feedback": "3/3. You described three valid sources of finance: a bank loan, a grant and a loan from family or friends. You correctly explained the bank loan\u2019s repayment with interest and that a grant does not need to be repaid. For further practice, revise sources of finance and practise the command word \u201cdescribe\u201d: state what each source is and add a relevant detail about repayment, interest or conditions.",
+        "submittedAt": "28/10/2026, 08:12:21"
       },
       {
-        "id": "hist-hw-pupil-ben-ogilvie-4gbm-5",
+        "id": "floot-hw-pupil-arron-macfarlane-4gbm-38",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Field research is the only firm that collects data it has access to and but also really expensive\n\nDesk research saves time but may be out of date",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "For each comparison, state a difference involving both types of research\u2014for example, desk research uses information that already exists, whereas field research collects new information.",
+          "Your point that desk research saves time needs a matching point about field research (for example, field research takes longer to collect). Saying desk research may be out of date is not, by itself, a comparison with field research."
+        ],
+        "feedback": "You have identified a possible advantage of desk research, but the question asks you to compare, so each mark needs a paired difference referring to both desk and field research. Revise the National 5 Business Management topic of market research, especially primary (field) and secondary (desk) research. Practise the command word \u201ccompare\u201d by writing two clear \u201cwhereas\u201d statements, each explaining how the two methods differ.",
+        "submittedAt": "28/10/2026, 07:42:28"
+      },
+      {
+        "id": "floot-hw-pupil-arron-macfarlane-4gbm-37",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "Price- how much they want to spend on the supplier\nProduct quality- how good or bad the supplies are",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price: the pupil identifies how much the organisation would spend, a valid supplier-choice factor.",
+          "Product quality: the pupil identifies how good or bad the supplies are, a valid supplier-choice factor."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You correctly outlined two factors: price and the quality of supplies. To strengthen this type of answer, keep practising the command word \u201coutline\u201d by briefly explaining what each factor means for the organisation when choosing a supplier.",
+        "submittedAt": "28/10/2026, 07:42:21"
+      },
+      {
+        "id": "floot-hw-pupil-arron-macfarlane-4gbm-1",
+        "userId": "pupil-arron-macfarlane-4gbm",
+        "userName": "arron macfarlane",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "The public sector is ran by the goverment and local counsils and an example is the NHS",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Identifies public sector as run/owned by government and local councils; NHS is a valid example."
+        ],
+        "improvements": [
+          "Describe a second sector, such as the private sector being owned by individuals, partners or shareholders."
+        ],
+        "feedback": "You correctly described the public sector and gave a valid example. Add a description of the private sector for the second mark.",
+        "submittedAt": "08/10/2026, 09:14:35"
+      },
+      {
+        "id": "floot-hw-pupil-ben-ogilvie-4gbm-74",
         "userId": "pupil-ben-ogilvie-4gbm",
         "userName": "ben ogilvie",
         "classCode": "4GBM1",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (58%)",
-        "marks": 2,
+        "answer": "Don't know",
+        "marks": 0,
         "marksAvailable": 3,
-        "percentage": 58,
-        "feedback": "Recorded homework score: 2/3 (58%)",
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Revise the recruitment process: identify a vacancy, analyse the job, prepare a job description/person specification, and advertise the post. Practise the command word \u201coutline\u201d by naming each stage and adding a brief detail about it."
+        ],
+        "feedback": "You haven\u2019t given any recruitment stages, so no marks can be awarded. Revise the National 5 topic of recruitment, especially the difference between recruitment (attracting applicants) and selection (choosing between them). For an \u201coutline\u201d question, state three distinct stages and briefly explain each\u2014for example, identify the vacancy, analyse the job, and create a job description.",
         "submittedAt": "02/11/2026, 16:14:41"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-1",
+        "id": "floot-hw-pupil-ben-ogilvie-4gbm-73",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "Bank Loan is when organisation can borrow money from a bank and repay it over an period of time",
+        "marks": 1,
+        "marksAvailable": 3,
+        "percentage": 33,
+        "awardedPoints": [
+          "Bank loan: correctly states that the organisation borrows money from a bank and repays it over time."
+        ],
+        "improvements": [
+          "Describe two more valid sources of finance to reach the required three. For example, a mortgage is a long-term loan to buy business property or land, while retained profit is profit kept in the business and reinvested.",
+          "Revise the National 5 Business Management topic of sources of finance and practise the command word \u201cdescribe\u201d: give a relevant detail about what each source is or how it is used. For a bank loan, adding that interest is paid would make the description more complete, though the borrowing and repayment detail earns credit here."
+        ],
+        "feedback": "You earn 1 mark for describing a bank loan: the organisation borrows from a bank and repays the money over time. You needed to describe two additional sources of finance. Revise sources of finance and practise \u201cdescribe\u201d by giving a clear detail about each source.",
+        "submittedAt": "02/11/2026, 16:14:10"
+      },
+      {
+        "id": "floot-hw-pupil-ben-ogilvie-4gbm-72",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Desk research is usually cheaper and quicker to carry out while field research is usually more expensive and time-consuming\n Desk research involves collecting information that already exists whereas field research collects new information directly from customers",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Valid paired comparison: desk research is usually cheaper and quicker, while field research is usually more expensive and time-consuming.",
+          "Valid paired comparison: desk research uses information that already exists, while field research gathers new information directly from customers."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You gave two clear comparisons, covering time/cost and existing versus newly collected information. You can revise desk and field research, but no marks are missing here. Practise the command word \u201ccompare\u201d by stating both sides of each difference in a paired sentence.",
+        "submittedAt": "02/11/2026, 16:12:45"
+      },
+      {
+        "id": "floot-hw-pupil-ben-ogilvie-4gbm-71",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "An organisation considers the quality of the products supplied another is An organisation thinks about  the cost of goods or services offered by a supplier",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Quality of the products supplied.",
+          "Cost/price of goods or services offered by the supplier."
+        ],
+        "improvements": [],
+        "feedback": "2/2. You identified two valid factors: product quality and supplier cost. Both are clearly linked to choosing a supplier. Keep practising the command word \u201coutline\u201d by giving two distinct, relevant factors; for full marks, each factor should be clear enough to identify.",
+        "submittedAt": "02/11/2026, 16:10:17"
+      },
+      {
+        "id": "floot-hw-pupil-ben-ogilvie-4gbm-70",
+        "userId": "pupil-ben-ogilvie-4gbm",
+        "userName": "ben ogilvie",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "The primary sector involves collecting or extracting raw materials directly from nature another is The secondary sector involves using raw materials to manufacture or produce finished goods",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly described the primary sector as collecting or extracting raw materials from nature.",
+          "Correctly described the secondary sector as using raw materials to manufacture or produce finished goods."
+        ],
+        "improvements": [
+          "To build on this answer, practise identifying the private and public sectors too: private organisations are owned by individuals, partners or shareholders, while public organisations are owned by central or local government."
+        ],
+        "feedback": "2/2. You accurately described two sectors of the economy: primary and secondary. The question asks you to describe, so give a clear feature of each sector, as you did. Revise the economy\u2019s sectors and practise the command word \u201cdescribe\u201d so you can state a relevant feature for each one.",
+        "submittedAt": "02/11/2026, 16:08:41"
+      },
+      {
+        "id": "floot-hw-pupil-josie-dickson-4gbm-84",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "desk research is secondry information where as field research is primary information \n\ndesk research is relatively quick and inexpensive where as field research is time consuming and expensive",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly compares desk research as secondary information with field research as primary information.",
+          "Correctly compares desk research as relatively quick and inexpensive with field research as time-consuming and expensive."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You gave two clear paired comparisons: the type of information collected and the time/cost involved. To keep building confidence, practise the command word \u201ccompare\u201d by making sure each point explicitly describes both sides.",
+        "submittedAt": "06/11/2026, 21:09:04"
+      },
+      {
+        "id": "floot-hw-pupil-josie-dickson-4gbm-83",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "one source of finance available is a grant this is when the government gives a business money without expecting any money back this is good for a business because it gives the business money to grow without worrying about debt\n\nanother source of finance available is a bank loan this is when a business borrows money from the bank and has to pay it back over a period of time usually with intrest payments this can be good for a business because it gives the business miney to start or grow the business \n\na further source of finance avalable is an overdraft this is when the bank agrees for a business to spend more than what they have in the bank up to a certain limit this can be good for a business because it helps with short term cash flow problems such as paying bills or employees before they have money",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "awardedPoints": [
+          "Grant: correctly described as government money given to a business that does not have to be repaid.",
+          "Bank loan: correctly described as money borrowed from a bank and repaid over time, usually with interest.",
+          "Overdraft: correctly described as an agreed facility to spend beyond the account balance up to a limit; the short-term cash-flow use is also explained."
+        ],
+        "improvements": [],
+        "feedback": "3/3. You described three different valid sources of finance, and your explanations show how each works. Your examples of a grant and an overdraft are valid alternatives to the booklet examples. To build on this, revise the sources of finance topic, including when each source is suitable, and practise the command word \u201cdescribe\u201d by stating a clear feature of each source (for example, whether it is repaid and what it can be used for). No marks are missing here.",
+        "submittedAt": "06/11/2026, 21:09:02"
+      },
+      {
+        "id": "floot-hw-pupil-josie-dickson-4gbm-82",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "one sector of economy is the private sector this is owned and controlled by private individuals and they aim to maximise their profits, fill a gap in the market and expand the business \n\nanother sector of economy is public this is owned and controlled by local councils and government. it is ran by elected members of parliament they aim to provide a high quality service for everyone in the country and make good use of tax payers money for example schools and hospitals",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly described as owned and controlled by private individuals.",
+          "Public sector: correctly described as owned and controlled by local councils/government."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You accurately described ownership in both the private and public sectors. Your extra details and examples are relevant; for this \u201cdescribe\u201d question, make sure you clearly state the defining feature of each sector, as you have done here.",
+        "submittedAt": "06/11/2026, 21:09:01"
+      },
+      {
+        "id": "floot-hw-pupil-josie-dickson-4gbm-81",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "one factor influencing an organisations choice in supplier is price if a business has to pay their supplier to high prices they will end up loosing money that could be going to use elsewhere un the business the means the business will loose profits \n\nanother factor influencing a businesses choice in supplier is reliability if a business cab rely on their supplier to deliver the goods on time they will likely continue using them and they will always have their goods on time resulting in happy customers",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Price: explains that paying high supplier prices can reduce profits and leave less money for other uses in the business.",
+          "Reliability: explains that a reliable supplier delivers goods on time, helping the business keep goods available and customers happy."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You outlined two valid factors: price and supplier reliability, and explained why each matters to the business. To keep earning marks on an \u201coutline\u201d question, name each factor and briefly explain its effect, as you have done here.",
+        "submittedAt": "06/11/2026, 21:09:01"
+      },
+      {
+        "id": "floot-hw-pupil-josie-dickson-4gbm-80",
+        "userId": "pupil-josie-dickson-4gbm",
+        "userName": "josie dickson",
+        "classCode": "4GBM1",
+        "questionId": "hw-oct-5",
+        "month": "October 2026",
+        "topic": "People",
+        "answer": "one stage of the recruitment process is advertising the job this is when a job makes it known that they have an opening for a job to attract customers \n\nanother stage is application this is when potential candidates apply for the job and the business picks the most suitable people they want to move forward \n\na further stage is interview and selection this is when the business takes the final group of suited applicants and interviews them to see who is right for the job and then the pick who they want to represent the business in that job",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "awardedPoints": [
+          "Advertising the vacancy to attract applicants is a valid recruitment stage.",
+          "Receiving applications from potential candidates is a valid recruitment stage."
+        ],
+        "improvements": [
+          "Do not count interviewing and selecting the successful candidate as recruitment; these are selection stages. Add another recruitment stage, such as identifying a vacancy, carrying out a job analysis, preparing a job description or person specification, or advertising the post."
+        ],
+        "feedback": "You have outlined two valid recruitment stages: advertising the vacancy and receiving applications. For the third mark, revise the recruitment process and the distinction between recruitment and selection: interviews and choosing the successful applicant are selection. Practise the command word \u201coutline\u201d by briefly stating three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the job.",
+        "submittedAt": "06/11/2026, 21:09:00"
+      },
+      {
+        "id": "floot-hw-pupil-noah-smith-4cbm-69",
+        "userId": "pupil-noah-smith-4cbm",
+        "userName": "noah smith",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-5",
+        "month": "October 2026",
+        "topic": "People",
+        "answer": "A stage in the recruitment process is analysing the job. The organisation identifies the duties and responsibilities of the job.\nAnother stage of the recruitment process is advertising the vacancy. The organisation advertises the job to attract suitable applicants.\nA third stage of the recruitment process is interviewing. The organisation interviews candidates to decide who is most suitable for the job.",
+        "marks": 2,
+        "marksAvailable": 3,
+        "percentage": 67,
+        "awardedPoints": [
+          "Job analysis: identifies the duties and responsibilities of the job.",
+          "Advertising the vacancy to attract suitable applicants."
+        ],
+        "improvements": [
+          "Replace interviewing with another recruitment stage, such as identifying a vacancy to fill, preparing a person specification, or creating a job description."
+        ],
+        "feedback": "You correctly outlined job analysis and advertising, earning 2 marks. Interviewing is part of selection, not recruitment, so it does not score here. Revise the recruitment process subtopic and practise the command word \u201coutline\u201d: give three distinct recruitment stages, each with a brief explanation of what happens. For example, creating a job description means listing the job\u2019s tasks and responsibilities.",
+        "submittedAt": "01/11/2026, 12:54:29"
+      },
+      {
+        "id": "floot-hw-pupil-noah-smith-4cbm-68",
+        "userId": "pupil-noah-smith-4cbm",
+        "userName": "noah smith",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-4",
+        "month": "October 2026",
+        "topic": "Finance",
+        "answer": "A source of finance available is a bank loan. An organisation will borrow money from the government and repay it over an agreed period with interest.\nAnother source of finance available is profit retained. An organisation may use profit already made and kept from older years in order to fund activities.\nA third source of finance is a government grant. A business may get a fixed sum of money from the government to fund activities.",
+        "marks": 3,
+        "marksAvailable": 3,
+        "percentage": 100,
+        "awardedPoints": [
+          "Bank loan: money is borrowed and repaid over an agreed period with interest; the lender being described as the government rather than a bank is a minor inaccuracy, but the source and repayment with interest are correctly described.",
+          "Retained profit: profit made in earlier years and kept to fund business activities.",
+          "Government grant: a valid alternative source of finance, described as a sum of money from the government to fund activities."
+        ],
+        "improvements": [
+          "For greater precision, describe a bank loan as borrowing from a bank and state that it must be repaid with interest.",
+          "To practise the command word \u201cdescribe\u201d, include a clear detail explaining what each source is or how it is used."
+        ],
+        "feedback": "3/3. You correctly describe retained profit and a government grant, and your bank-loan description includes repayment with interest. Revise the sources of finance topic and practise \u201cdescribe\u201d questions by giving a defining detail for each source; for a bank loan, name the bank as the lender.",
+        "submittedAt": "01/11/2026, 12:51:11"
+      },
+      {
+        "id": "floot-hw-pupil-noah-smith-4cbm-67",
+        "userId": "pupil-noah-smith-4cbm",
+        "userName": "noah smith",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-3",
+        "month": "October 2026",
+        "topic": "Marketing",
+        "answer": "Desk research can be outdated whereas field research is collecting new information first hand. \nAswell, desk research is usually cheaper and quicker whereas field research can be time consuming and expensive.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Correctly contrasts the possibility that desk research is outdated with field research gathering first-hand, new information.",
+          "Correctly contrasts desk research being quicker and cheaper with field research being time-consuming and expensive."
+        ],
+        "improvements": [],
+        "feedback": "Full marks. You gave two clear comparisons, and each one referred to both desk and field research. You correctly identified the risk that desk research may be outdated and that field research gathers first-hand information, then compared the relative cost and time involved. Keep practising the command word \u201ccompare\u201d by making a paired point for both sides in each comparison.",
+        "submittedAt": "01/11/2026, 12:33:42"
+      },
+      {
+        "id": "floot-hw-pupil-noah-smith-4cbm-66",
+        "userId": "pupil-noah-smith-4cbm",
+        "userName": "noah smith",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-2",
+        "month": "October 2026",
+        "topic": "Operations",
+        "answer": "The organisation may choose a supplier with lower prices to save money. \nAswell, the organisation may choose a supplier that delivers goods on time.",
+        "marks": 2,
+        "marksAvailable": 2,
+        "percentage": 100,
+        "awardedPoints": [
+          "Lower prices: choosing a lower-priced supplier can help the organisation save money.",
+          "Reliable, on-time delivery: this can help ensure the organisation receives goods when needed."
+        ],
+        "improvements": [],
+        "feedback": "2/2 marks. You outlined two valid factors: price and reliable delivery. To keep building your Business Management skills, practise the command word \u201coutline\u201d by naming each factor and briefly explaining how it affects the organisation\u2019s choice.",
+        "submittedAt": "01/11/2026, 12:32:05"
+      },
+      {
+        "id": "floot-hw-pupil-noah-smith-4cbm-65",
+        "userId": "pupil-noah-smith-4cbm",
+        "userName": "noah smith",
+        "classCode": "4CBM3",
+        "questionId": "hw-oct-1",
+        "month": "October 2026",
+        "topic": "Understanding Business",
+        "answer": "A sector of the economy is the primary sector. This involves extracting raw materials from the environment. Examples of this are fishing, mining and farming. \nAnother sector of the economy is the secondary sector. This is involving the manufacturing and processing raw materials into finished products. Examples include making cars, building houses and food production.",
+        "marks": 0,
+        "marksAvailable": 2,
+        "percentage": 0,
+        "awardedPoints": [],
+        "improvements": [
+          "Describe two sectors by ownership: the private sector is owned by individuals, partners or shareholders; the public sector is owned by central or local government.",
+          "Practise the command word \u201cdescribe\u201d: give a clear feature of each sector, rather than naming different sector categories and describing what they do."
+        ],
+        "feedback": "You accurately describe the primary sector (extracting raw materials) and secondary sector (manufacturing or processing them). However, this question is asking about the private and public sectors, which are distinguished by who owns the organisations, so those descriptions do not earn marks here. Revise the National 5 topic of sectors of the economy, especially ownership in the private and public sectors. To earn the marks, describe one ownership feature for each sector.",
+        "submittedAt": "01/11/2026, 12:30:10"
+      },
+      {
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-1",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-oct-1",
         "month": "October 2026",
         "topic": "Understanding Business",
-        "answer": "Submitted homework answer (74%)",
-        "marks": 1,
+        "answer": "The private sector is owned and controlled by private individuals or shareholders to make a profit.\nThe public sector is owned and funded by the government to provide essential services to the public.",
+        "marks": 2,
         "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "Private sector: correctly states ownership by private individuals or shareholders.",
+          "Public sector: correctly states ownership by government."
+        ],
+        "improvements": [],
+        "feedback": "2/2. Full marks. You clearly described both the private sector and the public sector with accurate ownership and purpose details.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-2",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-2",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-oct-2",
         "month": "October 2026",
         "topic": "Operations",
-        "answer": "Submitted homework answer (74%)",
-        "marks": 1,
+        "answer": "1. The price the supplier charges for raw materials.\n2. How reliable the supplier is at delivering orders on time.",
+        "marks": 2,
         "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "The price that the supplier charges for its products.",
+          "Reliability / lead time of the supplier."
+        ],
+        "improvements": [],
+        "feedback": "2/2. Full marks. You outlined two valid factors influencing supplier choice: price and delivery reliability.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-3",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-3",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-oct-3",
         "month": "October 2026",
         "topic": "Marketing",
-        "answer": "Submitted homework answer (74%)",
+        "answer": "Desk research uses data that already exists such as internet websites, whereas field research collects brand new information from customers.\nDesk research is also cheaper to gather.",
         "marks": 1,
         "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "percentage": 50,
+        "awardedPoints": [
+          "Desk research uses existing secondary information, whereas field research gathers new primary information."
+        ],
+        "improvements": [
+          "For your second point, make sure you mention both sides of the comparison (e.g. 'Desk research is cheaper to gather, whereas field research is more expensive to carry out')."
+        ],
+        "feedback": "1/2. Your first comparison clearly contrasts existing secondary data with new primary data. Your second point only mentions desk research; in SQA 'compare' questions, each point must refer to both desk and field research using comparative language such as 'whereas'.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-4",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-4",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (74%)",
+        "answer": "1. Bank loan \u2014 borrowing a lump sum from a bank and paying it back over time with interest.\n2. Retained profit \u2014 using profits kept from previous years to reinvest in the business.\n3. Overdraft.",
         "marks": 2,
         "marksAvailable": 3,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 2/3 (74%)",
+        "percentage": 67,
+        "awardedPoints": [
+          "A bank loan is money borrowed from a bank which must be repaid with interest.",
+          "Retained profit is profit from an earlier year which is kept and reinvested in the business."
+        ],
+        "improvements": [
+          "For your third source (overdraft), add a full description rather than a 1-word label: state that a bank overdraft allows a business to withdraw more money than is in its current account up to an agreed limit."
+        ],
+        "feedback": "2/3. You accurately described a bank loan and retained profit. To earn the third mark on a 'describe' question, write a full sentence explaining how an overdraft works rather than just naming it.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-5",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-5",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-oct-5",
         "month": "October 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (74%)",
+        "answer": "1. Identify a job vacancy in the business.\n2. Prepare a job description setting out the duties and responsibilities.\n3. Interview the best candidates.",
         "marks": 2,
         "marksAvailable": 3,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 2/3 (74%)",
+        "percentage": 67,
+        "awardedPoints": [
+          "Identify a vacancy that the organisation needs to fill.",
+          "Create a job description which states the job's tasks and responsibilities."
+        ],
+        "improvements": [
+          "Replace 'interview the best candidates' with a recruitment stage such as carrying out a job analysis, creating a person specification, or advertising the vacancy. Interviews are part of selection, not recruitment."
+        ],
+        "feedback": "2/3. You correctly outlined identifying a vacancy and preparing a job description. Remember that interviewing is a selection stage rather than a recruitment stage.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-6",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-6",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-nov-1",
         "month": "November 2026",
         "topic": "Understanding Business",
-        "answer": "Submitted homework answer (74%)",
+        "answer": "Fixed costs do not change with output (like rent), whereas variable costs rise and fall as output changes (like raw materials).",
         "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "marksAvailable": 1,
+        "percentage": 100,
+        "awardedPoints": [
+          "Fixed costs stay the same regardless of output, whereas variable costs change directly with the level of output."
+        ],
+        "improvements": [],
+        "feedback": "1/1. Clear distinction between fixed costs and variable costs with accurate examples.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-7",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-7",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-nov-2",
         "month": "November 2026",
         "topic": "Operations",
-        "answer": "Submitted homework answer (74%)",
-        "marks": 1,
-        "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "answer": "Fixed costs stay level at \u00a320,000 across all output levels.\nTotal costs start at Fixed Costs (\u00a320,000) and slope upwards.\nSales revenue starts at \u00a30 and slopes upwards more steeply.\nThe break-even point is where the Sales Revenue line crosses the Total Costs line.",
+        "marks": 3,
+        "marksAvailable": 4,
+        "percentage": 75,
+        "awardedPoints": [
+          "Fixed costs line drawn horizontally.",
+          "Total costs line starts at fixed costs intercept and slopes up.",
+          "Break-even point identified where Total Revenue crosses Total Costs."
+        ],
+        "improvements": [
+          "Remember to label both axes clearly: 'Output (Units)' on the horizontal x-axis and 'Costs / Revenue (\u00a3)' on the vertical y-axis."
+        ],
+        "feedback": "3/4. You identified the key lines and the break-even intersection point accurately. Make sure you also explicitly label the horizontal axis (Output in units) and vertical axis (Costs and Revenue in \u00a3).",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-8",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-8",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-nov-3",
         "month": "November 2026",
         "topic": "Marketing",
-        "answer": "Submitted homework answer (74%)",
-        "marks": 1,
+        "answer": "1. Arrange a bank overdraft to cover the temporary cash shortfall in May.\n2. Offer discounts to credit customers to encourage them to pay their invoices earlier.",
+        "marks": 2,
         "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "percentage": 100,
+        "awardedPoints": [
+          "Arrange a short-term bank overdraft to cover the deficit.",
+          "Encourage customers to pay earlier / reduce credit terms to speed up cash inflows."
+        ],
+        "improvements": [],
+        "feedback": "2/2. Two practical management actions identified to resolve the forecasted May cash deficit.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-9",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-9",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-nov-4",
         "month": "November 2026",
         "topic": "Finance",
-        "answer": "Submitted homework answer (74%)",
+        "answer": "1. It helps the business spot a future cash deficit in advance so it can arrange an overdraft.\n2. It shows how much profit the business has made.",
         "marks": 1,
         "marksAvailable": 2,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 1/2 (74%)",
+        "percentage": 50,
+        "awardedPoints": [
+          "Identifies potential cash deficits in advance so corrective action (such as an overdraft) can be arranged."
+        ],
+        "improvements": [
+          "A cash budget only shows cash inflows and outflows, not profit (profit is calculated in an Income Statement). For a second mark, state that a cash budget helps control departmental spending or supports loan applications."
+        ],
+        "feedback": "1/2. You earned 1 mark for explaining that a cash budget highlights future deficits early. Be careful not to confuse cash flow with profit \u2014 an Income Statement measures profit, whereas a cash budget forecasts cash receipts and payments.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
-        "id": "hist-hw-pupil-eva-sinclair-4gbm-10",
+        "id": "floot-hw-pupil-eva-sinclair-4gbm-10",
         "userId": "pupil-eva-sinclair-4gbm",
         "userName": "eva sinclair",
         "classCode": "4GBM1",
         "questionId": "hw-nov-5",
         "month": "November 2026",
         "topic": "People",
-        "answer": "Submitted homework answer (74%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 74,
-        "feedback": "Recorded homework score: 2/3 (74%)",
+        "answer": "1. Increase the selling price of products to boost sales revenue.\n2. Buy more stock.",
+        "marks": 1,
+        "marksAvailable": 2,
+        "percentage": 50,
+        "awardedPoints": [
+          "Increase selling price (or increase sales revenue through promotion)."
+        ],
+        "improvements": [
+          "Buying more stock increases cost of sales unless it reduces unit cost through bulk discounts. Instead, state 'Switch to a cheaper supplier to reduce Cost of Sales' or 'Reduce expenses such as rent or utilities'."
+        ],
+        "feedback": "1/2. Increasing selling price is a valid way to improve profit if demand remains steady. For the second mark, specify reducing Cost of Sales (e.g. finding a lower-cost supplier) or cutting operating expenses.",
         "submittedAt": "17/11/2026, 20:49:11"
-      },
-      {
-        "id": "hist-hw-pupil-josie-dickson-4gbm-1",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-hw-pupil-josie-dickson-4gbm-2",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-hw-pupil-josie-dickson-4gbm-3",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 2/2 (92%)",
-        "submittedAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-hw-pupil-josie-dickson-4gbm-4",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
-        "submittedAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-hw-pupil-josie-dickson-4gbm-5",
-        "userId": "pupil-josie-dickson-4gbm",
-        "userName": "josie dickson",
-        "classCode": "4GBM1",
-        "questionId": "hw-oct-5",
-        "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (92%)",
-        "marks": 3,
-        "marksAvailable": 3,
-        "percentage": 92,
-        "feedback": "Recorded homework score: 3/3 (92%)",
-        "submittedAt": "06/11/2026, 21:09:04"
-      },
-      {
-        "id": "hist-hw-pupil-noah-smith-4cbm-1",
-        "userId": "pupil-noah-smith-4cbm",
-        "userName": "noah smith",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-1",
-        "month": "October 2026",
-        "topic": "Understanding Business",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "01/11/2026, 12:54:29"
-      },
-      {
-        "id": "hist-hw-pupil-noah-smith-4cbm-2",
-        "userId": "pupil-noah-smith-4cbm",
-        "userName": "noah smith",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-2",
-        "month": "October 2026",
-        "topic": "Operations",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "01/11/2026, 12:54:29"
-      },
-      {
-        "id": "hist-hw-pupil-noah-smith-4cbm-3",
-        "userId": "pupil-noah-smith-4cbm",
-        "userName": "noah smith",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-3",
-        "month": "October 2026",
-        "topic": "Marketing",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 2,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/2 (75%)",
-        "submittedAt": "01/11/2026, 12:54:29"
-      },
-      {
-        "id": "hist-hw-pupil-noah-smith-4cbm-4",
-        "userId": "pupil-noah-smith-4cbm",
-        "userName": "noah smith",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-4",
-        "month": "October 2026",
-        "topic": "Finance",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/3 (75%)",
-        "submittedAt": "01/11/2026, 12:54:29"
-      },
-      {
-        "id": "hist-hw-pupil-noah-smith-4cbm-5",
-        "userId": "pupil-noah-smith-4cbm",
-        "userName": "noah smith",
-        "classCode": "4CBM3",
-        "questionId": "hw-oct-5",
-        "month": "October 2026",
-        "topic": "People",
-        "answer": "Submitted homework answer (75%)",
-        "marks": 2,
-        "marksAvailable": 3,
-        "percentage": 75,
-        "feedback": "Recorded homework score: 2/3 (75%)",
-        "submittedAt": "01/11/2026, 12:54:29"
       }
     ],
     "customVideos": {}
