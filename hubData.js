@@ -5303,7 +5303,7 @@ window.N5_HUB_DATA = {
       "topic": "Understanding Business",
       "subtopic": "Role of business in society",
       "sourceYear": 2024,
-      "sourceQuestion": "Identify Drill Q1",
+      "sourceQuestion": "1(a) pt 1",
       "level": "C",
       "computedLevel": "C",
       "marks": 4,
@@ -5320,14 +5320,16 @@ window.N5_HUB_DATA = {
         "Enterprise (the entrepreneur who organises the other factors and takes the risk)"
       ],
       "markingRule": "Award 1 mark for each correctly identified factor of production (Land, Labour, Capital, Enterprise), up to 4 marks.",
-      "solution": "\u2022 Land (1)\n\u2022 Labour (1)\n\u2022 Capital (1)\n\u2022 Enterprise (1)"
+      "solution": "\u2022 Land (1)\n\u2022 Labour (1)\n\u2022 Capital (1)\n\u2022 Enterprise (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-id-2",
       "topic": "Understanding Business",
       "subtopic": "Internal & external factors",
       "sourceYear": 2024,
-      "sourceQuestion": "Identify Drill Q2",
+      "sourceQuestion": "1(a) pt 2",
       "level": "C",
       "computedLevel": "C",
       "marks": 4,
@@ -5346,14 +5348,16 @@ window.N5_HUB_DATA = {
         "Competitive factors (actions, pricing or new products of competitors)"
       ],
       "markingRule": "Award 1 mark for each distinct external factor identified (Political, Economic, Social, Technological, Environmental, Competitive), up to 4 marks. Do not credit the letter alone without the word.",
-      "solution": "Any four from:\n\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Social (1)\n\u2022 Technological (1)\n\u2022 Environmental (1)\n\u2022 Competitive (1)"
+      "solution": "Any four from:\n\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Social (1)\n\u2022 Technological (1)\n\u2022 Environmental (1)\n\u2022 Competitive (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-id-3",
       "topic": "Management of Marketing",
       "subtopic": "Market research",
       "sourceYear": 2023,
-      "sourceQuestion": "Identify Drill Q3",
+      "sourceQuestion": "1(a) pt 3",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5371,14 +5375,16 @@ window.N5_HUB_DATA = {
         "Hall test / product tasting or trial"
       ],
       "markingRule": "Award 1 mark for each distinct valid method of field research, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Questionnaire / customer survey (1)\n\u2022 Focus group / consumer panel (1)\n\u2022 Personal interview (1)\n\u2022 Observation (1)\n\u2022 Hall test / product trial (1)"
+      "solution": "Any three from:\n\u2022 Questionnaire / customer survey (1)\n\u2022 Focus group / consumer panel (1)\n\u2022 Personal interview (1)\n\u2022 Observation (1)\n\u2022 Hall test / product trial (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
     {
       "id": "drill-id-4",
       "topic": "Management of Marketing",
       "subtopic": "Product & product life cycle",
       "sourceYear": 2023,
-      "sourceQuestion": "Identify Drill Q4",
+      "sourceQuestion": "1(a) pt 4",
       "level": "C",
       "computedLevel": "C",
       "marks": 4,
@@ -5396,14 +5402,16 @@ window.N5_HUB_DATA = {
         "Decline"
       ],
       "markingRule": "Award 1 mark for each correctly identified stage of the Product Life Cycle, up to 4 marks.",
-      "solution": "Any four from:\n\u2022 Development (1)\n\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (1)\n\u2022 Decline (1)"
+      "solution": "Any four from:\n\u2022 Development (1)\n\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (1)\n\u2022 Decline (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
     {
       "id": "drill-id-5",
       "topic": "Management of Operations",
       "subtopic": "Choosing suppliers",
       "sourceYear": 2024,
-      "sourceQuestion": "Identify Drill Q5",
+      "sourceQuestion": "1(a) pt 5",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5422,14 +5430,16 @@ window.N5_HUB_DATA = {
         "Quantity / capacity the supplier can provide"
       ],
       "markingRule": "Award 1 mark for each distinct factor identified, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Price charged by the supplier (1)\n\u2022 Quality of the materials supplied (1)\n\u2022 Reliability / delivery lead time (1)\n\u2022 Location of the supplier (1)"
+      "solution": "Any three from:\n\u2022 Price charged by the supplier (1)\n\u2022 Quality of the materials supplied (1)\n\u2022 Reliability / delivery lead time (1)\n\u2022 Location of the supplier (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-id-6",
       "topic": "Management of Operations",
       "subtopic": "Methods of production",
       "sourceYear": 2022,
-      "sourceQuestion": "Identify Drill Q6",
+      "sourceQuestion": "1(a) pt 6",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5445,14 +5455,16 @@ window.N5_HUB_DATA = {
         "Flow production (or mass / continuous production)"
       ],
       "markingRule": "Award 1 mark each for Job production, Batch production, and Flow production, up to 3 marks.",
-      "solution": "\u2022 Job production (1)\n\u2022 Batch production (1)\n\u2022 Flow production (1)"
+      "solution": "\u2022 Job production (1)\n\u2022 Batch production (1)\n\u2022 Flow production (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
     },
     {
       "id": "drill-id-7",
       "topic": "Management of People",
       "subtopic": "Recruitment, selection & contracts",
       "sourceYear": 2024,
-      "sourceQuestion": "Identify Drill Q7",
+      "sourceQuestion": "1(a) pt 7",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5470,14 +5482,16 @@ window.N5_HUB_DATA = {
         "Checking references from previous employers"
       ],
       "markingRule": "Award 1 mark for each valid selection tool/method, up to 3 marks. Do not credit job description or person specification.",
-      "solution": "Any three from:\n\u2022 Interview (1)\n\u2022 Testing (e.g. aptitude, psychometric or skills test) (1)\n\u2022 Checking references (1)\n\u2022 Application form / CV review (1)\n\u2022 Assessment centre / presentation (1)"
+      "solution": "Any three from:\n\u2022 Interview (1)\n\u2022 Testing (e.g. aptitude, psychometric or skills test) (1)\n\u2022 Checking references (1)\n\u2022 Application form / CV review (1)\n\u2022 Assessment centre / presentation (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-id-8",
       "topic": "Management of People",
       "subtopic": "Employee relations & industrial action",
       "sourceYear": 2023,
-      "sourceQuestion": "Identify Drill Q8",
+      "sourceQuestion": "1(a) pt 8",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5495,14 +5509,16 @@ window.N5_HUB_DATA = {
         "Sit-in (occupying the workplace so production cannot continue)"
       ],
       "markingRule": "Award 1 mark for each distinct valid type of industrial action, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Strike action (1)\n\u2022 Overtime ban (1)\n\u2022 Work-to-rule (1)\n\u2022 Go-slow (1)\n\u2022 Sit-in (1)"
+      "solution": "Any three from:\n\u2022 Strike action (1)\n\u2022 Overtime ban (1)\n\u2022 Work-to-rule (1)\n\u2022 Go-slow (1)\n\u2022 Sit-in (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
     {
       "id": "drill-id-9",
       "topic": "Management of Finance",
       "subtopic": "Sources of finance",
       "sourceYear": 2024,
-      "sourceQuestion": "Identify Drill Q9",
+      "sourceQuestion": "1(a) pt 9",
       "level": "C",
       "computedLevel": "C",
       "marks": 3,
@@ -5522,14 +5538,16 @@ window.N5_HUB_DATA = {
         "Hire purchase or leasing"
       ],
       "markingRule": "Award 1 mark for each distinct external source of finance valid for a private limited company, up to 3 marks. Do not credit selling shares on the Stock Exchange (PLC only) or retained profit (internal).",
-      "solution": "Any three from:\n\u2022 Bank loan (1)\n\u2022 Bank overdraft (1)\n\u2022 Government grant (1)\n\u2022 Issuing shares privately (1)\n\u2022 Hire purchase / leasing (1)\n\u2022 Trade credit (1)"
+      "solution": "Any three from:\n\u2022 Bank loan (1)\n\u2022 Bank overdraft (1)\n\u2022 Government grant (1)\n\u2022 Issuing shares privately (1)\n\u2022 Hire purchase / leasing (1)\n\u2022 Trade credit (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-id-10",
       "topic": "Management of Finance",
       "subtopic": "Technology in finance",
       "sourceYear": 2023,
-      "sourceQuestion": "Identify Drill Q10",
+      "sourceQuestion": "1(a) pt 10",
       "level": "C",
       "computedLevel": "C",
       "marks": 2,
@@ -5547,14 +5565,16 @@ window.N5_HUB_DATA = {
         "Simple subtraction/addition formula such as =B5-B10"
       ],
       "markingRule": "Award 1 mark for each valid spreadsheet formula or function identified, up to 2 marks.",
-      "solution": "Any two from:\n\u2022 =SUM (to total receipts or payments) (1)\n\u2022 =AVERAGE (to find average monthly figures) (1)\n\u2022 =IF (to highlight a deficit or target) (1)"
+      "solution": "Any two from:\n\u2022 =SUM (to total receipts or payments) (1)\n\u2022 =AVERAGE (to find average monthly figures) (1)\n\u2022 =IF (to highlight a deficit or target) (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
     {
       "id": "drill-desc-1",
       "topic": "Understanding Business",
       "subtopic": "Objectives",
       "sourceYear": 2024,
-      "sourceQuestion": "Describe Drill Q1",
+      "sourceQuestion": "2(a) pt 1",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5573,14 +5593,16 @@ window.N5_HUB_DATA = {
         "Social responsibility / ethical conduct: operating in an environmentally friendly and fair way"
       ],
       "markingRule": "Award 1 mark for each accurately described business objective, up to 3 marks. A bare list of single words without description gains 0 marks.",
-      "solution": "\u2022 Survival \u2014 continuing to operate and cover costs during the first year of trading or a downturn. (1)\n\u2022 Profit maximisation \u2014 aiming to make the largest possible difference between sales revenue and total costs. (1)\n\u2022 Growth \u2014 expanding the business by opening more stores or entering new markets. (1)"
+      "solution": "\u2022 Survival \u2014 continuing to operate and cover costs during the first year of trading or a downturn. (1)\n\u2022 Profit maximisation \u2014 aiming to make the largest possible difference between sales revenue and total costs. (1)\n\u2022 Growth \u2014 expanding the business by opening more stores or entering new markets. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-desc-2",
       "topic": "Management of Marketing",
       "subtopic": "Product & product life cycle",
       "sourceYear": 2024,
-      "sourceQuestion": "Describe Drill Q2",
+      "sourceQuestion": "2(a) pt 2",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5599,14 +5621,16 @@ window.N5_HUB_DATA = {
         "Target a new market segment or advertise a new use for the product"
       ],
       "markingRule": "Award 1 mark for each distinct extension strategy accurately described, up to 3 marks.",
-      "solution": "\u2022 Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n\u2022 Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n\u2022 Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)"
+      "solution": "\u2022 Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n\u2022 Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n\u2022 Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-desc-3",
       "topic": "Management of Operations",
       "subtopic": "Ethical & environmental operations",
       "sourceYear": 2023,
-      "sourceQuestion": "Describe Drill Q3",
+      "sourceQuestion": "2(a) pt 3",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5624,14 +5648,16 @@ window.N5_HUB_DATA = {
         "Minimise raw material waste during production through staff training and careful inventory storage"
       ],
       "markingRule": "Award 1 mark for each distinct environmentally friendly practice described, up to 3 marks.",
-      "solution": "\u2022 Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n\u2022 Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n\u2022 Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)"
+      "solution": "\u2022 Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n\u2022 Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n\u2022 Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
     {
       "id": "drill-desc-4",
       "topic": "Management of People",
       "subtopic": "Motivation, payment & working practices",
       "sourceYear": 2024,
-      "sourceQuestion": "Describe Drill Q4",
+      "sourceQuestion": "2(a) pt 4",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5649,14 +5675,16 @@ window.N5_HUB_DATA = {
         "Improving working conditions, staff facilities or organising team social events"
       ],
       "markingRule": "Award 1 mark for each distinct non-financial motivation method accurately described, up to 3 marks. Do not credit bonus, commission or pay rises.",
-      "solution": "\u2022 Recognising good work through praise or an Employee of the Month award. (1)\n\u2022 Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n\u2022 Providing training and promotion opportunities so employees can progress in their career. (1)"
+      "solution": "\u2022 Recognising good work through praise or an Employee of the Month award. (1)\n\u2022 Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n\u2022 Providing training and promotion opportunities so employees can progress in their career. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-exp-1",
       "topic": "Understanding Business",
       "subtopic": "Customer satisfaction",
       "sourceYear": 2024,
-      "sourceQuestion": "Explain Drill Q1",
+      "sourceQuestion": "3(b) pt 1",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5673,14 +5701,16 @@ window.N5_HUB_DATA = {
         "Staff have to spend time handling complaints, which lowers employee morale and reduces time spent serving other customers"
       ],
       "markingRule": "Award 1 mark for each clear cause-and-effect explanation linking poor customer service to a business impact, up to 3 marks.",
-      "solution": "\u2022 Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n\u2022 Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n\u2022 The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)"
+      "solution": "\u2022 Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n\u2022 Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n\u2022 The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-exp-2",
       "topic": "Management of Marketing",
       "subtopic": "Market research",
       "sourceYear": 2024,
-      "sourceQuestion": "Explain Drill Q2",
+      "sourceQuestion": "3(b) pt 2",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5696,14 +5726,16 @@ window.N5_HUB_DATA = {
         "Government statistics and industry reports cover huge populations, which allows a small business to understand national market trends it could not afford to survey itself"
       ],
       "markingRule": "Award 1 mark for each developed benefit of desk research with its business impact, up to 3 marks.",
-      "solution": "\u2022 The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n\u2022 Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n\u2022 Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)"
+      "solution": "\u2022 The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n\u2022 Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n\u2022 Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-exp-3",
       "topic": "Management of Operations",
       "subtopic": "Inventory management",
       "sourceYear": 2024,
-      "sourceQuestion": "Explain Drill Q3",
+      "sourceQuestion": "3(b) pt 3",
       "level": "A",
       "computedLevel": "A",
       "marks": 3,
@@ -5719,14 +5751,16 @@ window.N5_HUB_DATA = {
         "If there is a sudden unexpected surge in customer demand, the business has no extra inventory ready, leading to lost sales to competitors"
       ],
       "markingRule": "Award 1 mark for each developed drawback of JIT linked to a business consequence, up to 3 marks.",
-      "solution": "\u2022 Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n\u2022 Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n\u2022 The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)"
+      "solution": "\u2022 Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n\u2022 Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n\u2022 The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-exp-4",
       "topic": "Management of People",
       "subtopic": "Training",
       "sourceYear": 2024,
-      "sourceQuestion": "Explain Drill Q4",
+      "sourceQuestion": "3(b) pt 4",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5742,14 +5776,16 @@ window.N5_HUB_DATA = {
         "Employees learn company policies and job expectations straight away, which means they become productive sooner and make fewer mistakes"
       ],
       "markingRule": "Award 1 mark for each clear explanation connecting induction training to a positive business impact, up to 3 marks.",
-      "solution": "\u2022 New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n\u2022 Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n\u2022 Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)"
+      "solution": "\u2022 New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n\u2022 Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n\u2022 Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-exp-5",
       "topic": "Management of Finance",
       "subtopic": "Cash budgets",
       "sourceYear": 2024,
-      "sourceQuestion": "Explain Drill Q5",
+      "sourceQuestion": "3(b) pt 5",
       "level": "B",
       "computedLevel": "B",
       "marks": 3,
@@ -5766,14 +5802,16 @@ window.N5_HUB_DATA = {
         "It can be presented to a bank when applying for a loan, which increases the likelihood of finance being approved"
       ],
       "markingRule": "Award 1 mark for each developed explanation of how a cash budget aids financial management, up to 3 marks.",
-      "solution": "\u2022 It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n\u2022 It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n\u2022 It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)"
+      "solution": "\u2022 It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n\u2022 It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n\u2022 It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-comp-1",
       "topic": "Management of People",
       "subtopic": "Training",
       "sourceYear": 2024,
-      "sourceQuestion": "Compare Drill Q1",
+      "sourceQuestion": "4(b) pt 1",
       "level": "A",
       "computedLevel": "A",
       "marks": 3,
@@ -5790,14 +5828,16 @@ window.N5_HUB_DATA = {
         "Both on-the-job and off-the-job training improve employee skills and productivity"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or direct difference ('whereas') between on-the-job and off-the-job training, up to 3 marks.",
-      "solution": "\u2022 On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n\u2022 On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n\u2022 Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)"
+      "solution": "\u2022 On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n\u2022 On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n\u2022 Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-multi-1",
       "topic": "Management of Marketing",
       "subtopic": "Price",
       "sourceYear": 2024,
-      "sourceQuestion": "Multi-Command Drill Q1",
+      "sourceQuestion": "5(a) pt 1",
       "level": "A",
       "computedLevel": "A",
       "marks": 3,
@@ -5814,14 +5854,16 @@ window.N5_HUB_DATA = {
         "Justify 2: Once customers subscribe and get used to the platform, the price can be raised to normal levels, generating long-term recurring revenue"
       ],
       "markingRule": "Award 1 mark for identifying penetration pricing (or promotional pricing), and up to 2 marks for valid justifications linked to entering a competitive market.",
-      "solution": "\u2022 Identify: Market penetration pricing. (1)\n\u2022 Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n\u2022 Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)"
+      "solution": "\u2022 Identify: Market penetration pricing. (1)\n\u2022 Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n\u2022 Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
     {
       "id": "drill-multi-2",
       "topic": "Management of Finance",
       "subtopic": "Sources of finance",
       "sourceYear": 2024,
-      "sourceQuestion": "Multi-Command Drill Q2",
+      "sourceQuestion": "5(a) pt 2",
       "level": "A",
       "computedLevel": "A",
       "marks": 3,
@@ -5838,7 +5880,2187 @@ window.N5_HUB_DATA = {
         "Justify 2: The business can use the delivery van immediately to make customer deliveries and generate revenue while paying it off"
       ],
       "markingRule": "Award 1 mark for identifying a valid source (Bank loan, Hire purchase, or Leasing) and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Hire purchase (or Bank loan). (1)\n\u2022 Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full \u00a340,000. (1)\n\u2022 Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)"
+      "solution": "\u2022 Identify: Hire purchase (or Bank loan). (1)\n\u2022 Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full \u00a340,000. (1)\n\u2022 Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)",
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-id-1",
+      "sourceYear": 2018,
+      "sourceQuestion": "1(a)(i)",
+      "topic": "Understanding Business",
+      "subtopic": "Role of business in society",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify two examples of third-sector organisations.",
+      "hint": "Think of non-profit organisations such as charities, clubs or social enterprises.",
+      "acceptedPoints": [
+        "Charities (e.g. Oxfam, Cancer Research UK)",
+        "Social enterprises (e.g. The Big Issue)",
+        "Voluntary clubs and community associations"
+      ],
+      "markingRule": "Award 1 mark for each valid type or named example of a third-sector organisation, up to 2 marks.",
+      "solution": "\u2022 Charities such as Oxfam or British Heart Foundation (1)\n\u2022 Social enterprises such as The Big Issue (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (1(a)(i))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-id-2",
+      "sourceYear": 2019,
+      "sourceQuestion": "1(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three external stakeholders of a private limited company.",
+      "hint": "External stakeholders are outside the business (not owners, managers or employees).",
+      "acceptedPoints": [
+        "Customers",
+        "Suppliers",
+        "Banks / lenders",
+        "Local community",
+        "Central or local government",
+        "HMRC"
+      ],
+      "markingRule": "Award 1 mark for each distinct external stakeholder identified, up to 3 marks.",
+      "solution": "\u2022 Customers (1)\n\u2022 Suppliers (1)\n\u2022 Banks / lenders (or local community / government) (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (1(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-id-3",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(d)",
+      "topic": "Understanding Business",
+      "subtopic": "Internal & external factors",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three external factors (PESTEC) that can affect a business.",
+      "hint": "Remember the PESTEC acronym: Political, Economic, Social, Technological, Environmental, Competitive.",
+      "acceptedPoints": [
+        "Political factors",
+        "Economic factors",
+        "Social factors",
+        "Technological factors",
+        "Environmental factors",
+        "Competitive factors"
+      ],
+      "markingRule": "Award 1 mark for each distinct PESTEC factor identified, up to 3 marks.",
+      "solution": "\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Technological (or Social / Environmental / Competitive) (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (1(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-id-4",
+      "sourceYear": 2023,
+      "sourceQuestion": "2(a)",
+      "topic": "Management of Marketing",
+      "subtopic": "Product & product life cycle",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "state"
+      ],
+      "primaryCommand": "state",
+      "text": "State three stages of the product life cycle.",
+      "hint": "Think of the 5 stages from creating the product through to decline.",
+      "acceptedPoints": [
+        "Development (or Research and Development)",
+        "Introduction",
+        "Growth",
+        "Maturity (or Saturation)",
+        "Decline"
+      ],
+      "markingRule": "Award 1 mark for each correct stage of the product life cycle stated, up to 3 marks.",
+      "solution": "\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (or Development / Decline) (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (2(a))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-id-5",
+      "sourceYear": 2022,
+      "sourceQuestion": "2(b)",
+      "topic": "Management of Marketing",
+      "subtopic": "Product & product life cycle",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three extension strategies a business could use to prevent a product entering decline.",
+      "hint": "How can a business refresh or boost sales of a mature product?",
+      "acceptedPoints": [
+        "Change or update the packaging / design",
+        "Reduce the selling price or offer price promotions",
+        "Increase advertising or launch a new promotional campaign",
+        "Enter new markets or target a new market segment",
+        "Add new features, flavours or versions of the product"
+      ],
+      "markingRule": "Award 1 mark for each distinct valid extension strategy identified, up to 3 marks.",
+      "solution": "\u2022 Launch new flavours, colours or updated features (1)\n\u2022 Enter a new target market or sell internationally (1)\n\u2022 Redesign the packaging or launch a new advertising campaign (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (2(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-id-6",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(c)",
+      "topic": "Management of Marketing",
+      "subtopic": "Promotion & ethical marketing",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three methods of sales promotion a retail store could use to attract customers.",
+      "hint": "Think of short-term promotional offers used in shops.",
+      "acceptedPoints": [
+        "Buy One Get One Free (BOGOF)",
+        "Discount vouchers or money-off coupons",
+        "Loyalty cards / reward points",
+        "Free samples or free gifts",
+        "Competitions and prize draws",
+        "2-for-1 or multi-buy deals"
+      ],
+      "markingRule": "Award 1 mark for each distinct sales promotion method identified, up to 3 marks.",
+      "solution": "\u2022 Buy One Get One Free (BOGOF) (1)\n\u2022 Loyalty cards / reward points (1)\n\u2022 Money-off discount vouchers or free samples (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (2(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-id-7",
+      "sourceYear": 2019,
+      "sourceQuestion": "4(a)",
+      "topic": "Management of Operations",
+      "subtopic": "Inventory management",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "state"
+      ],
+      "primaryCommand": "state",
+      "text": "State three costs or risks associated with understocking (holding too little inventory).",
+      "hint": "What happens if a factory or shop runs out of stock?",
+      "acceptedPoints": [
+        "Production may halt because raw materials run out",
+        "Customer orders cannot be met, leading to lost sales",
+        "Customers may switch to competitors, damaging reputation",
+        "Emergency orders may cost more in delivery charges",
+        "Bulk-buying discounts are lost"
+      ],
+      "markingRule": "Award 1 mark for each distinct risk or cost of understocking stated, up to 3 marks.",
+      "solution": "\u2022 Production may stop if raw materials run out (1)\n\u2022 Lost sales and dissatisfied customers who switch to competitors (1)\n\u2022 Missing out on bulk-buying discounts (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (4(a))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-id-8",
+      "sourceYear": 2023,
+      "sourceQuestion": "4(b)",
+      "topic": "Management of Operations",
+      "subtopic": "Technology in operations",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify two types of technology used by an operations department.",
+      "hint": "Think of design, manufacturing, and stock control technology.",
+      "acceptedPoints": [
+        "Computer-Aided Design (CAD)",
+        "Computer-Aided Manufacture (CAM)",
+        "Electronic Point of Sale (EPOS) / barcode scanners",
+        "Computerised inventory control systems / robotics"
+      ],
+      "markingRule": "Award 1 mark for each valid operations technology identified, up to 2 marks.",
+      "solution": "\u2022 Computer-Aided Design (CAD) (1)\n\u2022 Computer-Aided Manufacture (CAM) or EPOS stock control (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (4(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-id-9",
+      "sourceYear": 2025,
+      "sourceQuestion": "3(a)",
+      "topic": "Management of People",
+      "subtopic": "Recruitment, selection & contracts",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three methods an organisation could use during the selection process to choose the best candidate.",
+      "hint": "Selection happens AFTER applications arrive \u2014 how do you test and choose between applicants?",
+      "acceptedPoints": [
+        "Job interviews (one-to-one or panel)",
+        "Aptitude, skills or attainment tests",
+        "Psychometric or personality tests",
+        "Assessment centres / group exercises",
+        "Checking references",
+        "Medical or fitness tests"
+      ],
+      "markingRule": "Award 1 mark for each distinct selection method identified, up to 3 marks.",
+      "solution": "\u2022 Job interviews (1)\n\u2022 Aptitude or skills testing (1)\n\u2022 Taking up references (or assessment centres / psychometric tests) (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (3(a))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-id-10",
+      "sourceYear": 2022,
+      "sourceQuestion": "4(a)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three flexible working practices an employer could offer to staff.",
+      "hint": "Think of flexible ways employees can arrange their hours or location.",
+      "acceptedPoints": [
+        "Flexitime",
+        "Homeworking / teleworking / remote working",
+        "Job share",
+        "Part-time working",
+        "Condensed / compressed hours",
+        "Zero-hours contracts"
+      ],
+      "markingRule": "Award 1 mark for each distinct flexible working practice identified, up to 3 marks.",
+      "solution": "\u2022 Flexitime (1)\n\u2022 Homeworking / remote working (1)\n\u2022 Job sharing (or part-time / condensed hours) (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (4(a))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-id-11",
+      "sourceYear": 2024,
+      "sourceQuestion": "4(b)",
+      "topic": "Management of People",
+      "subtopic": "Employee relations & industrial action",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "state"
+      ],
+      "primaryCommand": "state",
+      "text": "State two forms of industrial action employees could take during a dispute with their employer.",
+      "hint": "Think of actions trade union members take to pressure an employer.",
+      "acceptedPoints": [
+        "Strike action (official strike)",
+        "Overtime ban",
+        "Work-to-rule",
+        "Go-slow",
+        "Sit-in"
+      ],
+      "markingRule": "Award 1 mark for each valid form of industrial action stated, up to 2 marks.",
+      "solution": "\u2022 Strike action (1)\n\u2022 Overtime ban (or work-to-rule / go-slow) (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (4(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-id-12",
+      "sourceYear": 2018,
+      "sourceQuestion": "5(a)",
+      "topic": "Management of Finance",
+      "subtopic": "Income statements",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "state"
+      ],
+      "primaryCommand": "state",
+      "text": "State two stakeholders who would use a business's financial information (such as an Income Statement).",
+      "hint": "Who wants to know if a business is making a profit or can pay its debts?",
+      "acceptedPoints": [
+        "Owners / shareholders",
+        "Managers",
+        "Banks / lenders",
+        "HMRC / government",
+        "Suppliers (trade creditors)",
+        "Employees / trade unions"
+      ],
+      "markingRule": "Award 1 mark for each distinct stakeholder identified, up to 2 marks.",
+      "solution": "\u2022 Banks / lenders (1)\n\u2022 Owners / shareholders (or HMRC / managers / suppliers) (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (5(a))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-id-13",
+      "sourceYear": 2023,
+      "sourceQuestion": "5(b)",
+      "topic": "Management of Finance",
+      "subtopic": "Break-even & costs",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify two examples of variable costs for a bakery.",
+      "hint": "Variable costs change directly with the number of cakes/loaves baked.",
+      "acceptedPoints": [
+        "Raw materials / ingredients (flour, sugar, butter, eggs)",
+        "Packaging boxes and wrappers",
+        "Piece-rate wages paid per item baked",
+        "Delivery fuel per order"
+      ],
+      "markingRule": "Award 1 mark for each valid variable cost identified, up to 2 marks.",
+      "solution": "\u2022 Ingredients / raw materials such as flour and sugar (1)\n\u2022 Packaging boxes and wrappers for each item sold (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (5(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-id-14",
+      "sourceYear": 2025,
+      "sourceQuestion": "5(c)",
+      "topic": "Management of Finance",
+      "subtopic": "Cash budgets",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "commands": [
+        "identify"
+      ],
+      "primaryCommand": "identify",
+      "text": "Identify three examples of cash inflows (receipts) that would appear in a business's cash budget.",
+      "hint": "Where does cash coming INTO the business come from?",
+      "acceptedPoints": [
+        "Cash sales",
+        "Receipts from credit customers (trade receivables)",
+        "Bank loan received",
+        "Capital invested by the owner / issue of shares",
+        "Rent received or sale of a non-current asset",
+        "Government grant received"
+      ],
+      "markingRule": "Award 1 mark for each distinct cash inflow identified, up to 3 marks.",
+      "solution": "\u2022 Cash sales from customers (1)\n\u2022 Capital invested by the owner or proceeds from a bank loan (1)\n\u2022 Payments received from credit customers (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (5(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-exp-1",
+      "sourceYear": 2019,
+      "sourceQuestion": "1(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain the benefits to an entrepreneur of preparing a business plan before starting a new business.",
+      "hint": "Use 'which means that...' to link a business plan to getting finance, spotting problems, and setting targets.",
+      "acceptedPoints": [
+        "It can be shown to banks or investors, which increases the chance of securing a bank loan or start-up finance",
+        "It forces the entrepreneur to research costs, cash flow and competitors in advance, which reduces the risk of unexpected financial problems",
+        "It sets clear objectives and targets for the business, which allows the owner to measure progress and stay focused"
+      ],
+      "markingRule": "Award 1 mark for each cause-and-effect explanation of a benefit of a business plan, up to 3 marks.",
+      "solution": "\u2022 It can be presented to a bank or lender, which increases the likelihood of being approved for a start-up loan. (1)\n\u2022 It requires the entrepreneur to forecast cash flow and costs in advance, which helps spot potential deficits early and reduces the risk of failure. (1)\n\u2022 It sets out clear objectives and targets, which allows the entrepreneur to monitor whether the business is on track. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (1(c))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-exp-2",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(e)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain how internal stakeholders can influence the success of a business.",
+      "hint": "Think about owners, managers and employees \u2014 what action can each take and what is the impact on the business?",
+      "acceptedPoints": [
+        "Owners can invest additional capital or vote on key policies, which enables the business to expand and buy new assets",
+        "Managers make strategic and hiring decisions, which directly affects efficiency, costs and profitability",
+        "Employees can work hard and deliver high quality customer service, which increases customer satisfaction and sales (or take industrial action, which halts output)"
+      ],
+      "markingRule": "Award 1 mark for each clear explanation of how an internal stakeholder influences business success, up to 3 marks.",
+      "solution": "\u2022 Owners can invest more of their own capital into the business, which provides funds to expand or upgrade equipment. (1)\n\u2022 Managers make operational and budgeting decisions, which directly determines how efficiently resources are used and whether profits rise. (1)\n\u2022 Employees control the quality of customer service and output, meaning motivated staff will increase customer satisfaction and repeat sales. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (1(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-exp-3",
+      "sourceYear": 2023,
+      "sourceQuestion": "2(d)",
+      "topic": "Management of Marketing",
+      "subtopic": "Customers, segmentation & target markets",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain the benefits to a business of segmenting its market.",
+      "hint": "Why target specific customer groups (by age, income, lifestyle) instead of everyone?",
+      "acceptedPoints": [
+        "Advertising can be tailored to the exact target group, which makes promotion more effective and avoids wasting money on non-customers",
+        "Products and features can be designed to match the specific needs of that segment, which increases customer satisfaction and sales",
+        "Prices can be set to match the income level of the target segment, which maximises revenue and competitiveness"
+      ],
+      "markingRule": "Award 1 mark for each developed benefit of market segmentation, up to 3 marks.",
+      "solution": "\u2022 Products can be tailored to the exact tastes of a specific customer group, which increases customer satisfaction and sales revenue. (1)\n\u2022 Promotional campaigns can be placed in media used by that target market, which reduces wasted advertising spend. (1)\n\u2022 Prices can be matched to the target group's disposable income, which helps maximise revenue. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (2(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-exp-4",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(e)",
+      "topic": "Management of Marketing",
+      "subtopic": "Technology in marketing",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain how using e-commerce (selling online) can benefit a retail business.",
+      "hint": "Think about 24/7 selling, global reach, and lower high-street overheads \u2014 and explain the business impact.",
+      "acceptedPoints": [
+        "Customers can shop 24/7 from anywhere in the world, which expands the target market and increases sales revenue",
+        "The business needs fewer physical high-street shops, which reduces rent and staffing costs and improves profit margins",
+        "Customer buying habits can be tracked automatically online, which allows personalized promotions that encourage repeat purchases"
+      ],
+      "markingRule": "Award 1 mark for each developed benefit of e-commerce linked to a business impact, up to 3 marks.",
+      "solution": "\u2022 The website is open 24 hours a day to customers worldwide, which reaches a much larger market and increases sales revenue. (1)\n\u2022 The business does not need expensive high-street premises, which reduces fixed rent and utility costs and boosts profit. (1)\n\u2022 Customer data can be collected automatically at checkout, allowing targeted email promotions that encourage repeat custom. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (2(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-exp-5",
+      "sourceYear": 2022,
+      "sourceQuestion": "3(c)",
+      "topic": "Management of Operations",
+      "subtopic": "Quality",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain the benefits to a business of ensuring high quality during the production process.",
+      "hint": "What happens to waste, customer returns, reputation, and sales when quality is consistently high?",
+      "acceptedPoints": [
+        "Fewer faulty goods are produced, which reduces waste and saves money on scrapped materials and re-working",
+        "Customers receive reliable, defect-free products, which increases customer satisfaction and generates repeat sales",
+        "Fewer complaints and refund requests are received, which improves brand reputation and lowers administration costs"
+      ],
+      "markingRule": "Award 1 mark for each developed benefit of high quality linked to its business impact, up to 3 marks.",
+      "solution": "\u2022 Fewer defective items are made during production, which reduces wasted raw materials and lowers unit costs. (1)\n\u2022 Customers are happier with reliable products, which builds a strong brand reputation and increases repeat purchases. (1)\n\u2022 There are fewer product returns and warranty claims, which saves time and money on replacements and refunds. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (3(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-exp-6",
+      "sourceYear": 2025,
+      "sourceQuestion": "3(d)",
+      "topic": "Management of Operations",
+      "subtopic": "Ethical & environmental operations",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain how operating in an environmentally responsible way could affect a business.",
+      "hint": "Include both positive effects (reputation, waste savings) and/or cost impacts (expensive green equipment/materials).",
+      "acceptedPoints": [
+        "Customers increasingly prefer eco-friendly businesses, which improves brand reputation and attracts ethical consumers away from rivals",
+        "Reducing energy use and minimising packaging waste lowers utility bills and disposal costs over the long term",
+        "Sourcing sustainable materials or installing green technology can be expensive initially, which increases short-term costs and reduces profit"
+      ],
+      "markingRule": "Award 1 mark for each developed impact (positive or negative) of environmentally responsible operations, up to 3 marks.",
+      "solution": "\u2022 Environmentally conscious consumers will have a better image of the business, which increases customer loyalty and sales. (1)\n\u2022 Minimising packaging and recycling materials reduces landfill taxes and energy bills, which lowers long-term operating costs. (1)\n\u2022 Buying sustainable raw materials or new green machinery can be more expensive, which increases short-term costs. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (3(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-exp-7",
+      "sourceYear": 2019,
+      "sourceQuestion": "5(b)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain the benefits to an employer of having a well-motivated workforce.",
+      "hint": "Connect high employee motivation to productivity, staff turnover, and absenteeism.",
+      "acceptedPoints": [
+        "Motivated employees work harder and with greater care, which increases productivity and improves the quality of output",
+        "Staff are happier in their jobs and less likely to leave, which lowers staff turnover and saves money on recruitment and training",
+        "Absenteeism falls because workers enjoy coming to work, which avoids disruption and reduces the cost of paying overtime or temporary cover"
+      ],
+      "markingRule": "Award 1 mark for each cause-and-effect explanation of a benefit of a motivated workforce, up to 3 marks.",
+      "solution": "\u2022 Motivated workers put in greater effort, which increases productivity and enables customer orders to be fulfilled faster. (1)\n\u2022 Staff are more loyal and less likely to resign, which reduces staff turnover and saves the business recruitment and training costs. (1)\n\u2022 Lower absenteeism means fewer days are lost to sickness, which avoids disruption and reduces the cost of temporary cover staff. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (5(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-exp-8",
+      "sourceYear": 2023,
+      "sourceQuestion": "5(d)",
+      "topic": "Management of People",
+      "subtopic": "Employee relations & industrial action",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain the negative impacts on a business of poor employee relations leading to industrial action.",
+      "hint": "What happens during a strike, overtime ban or work-to-rule?",
+      "acceptedPoints": [
+        "During a strike, production stops completely, which means customer orders are delayed and sales revenue is lost",
+        "Unfulfilled orders and negative media coverage damage the business's reputation, causing customers to switch to competitors",
+        "An overtime ban prevents the business from meeting peak seasonal demand, which reduces output and profitability"
+      ],
+      "markingRule": "Award 1 mark for each developed negative impact of industrial action on a business, up to 3 marks.",
+      "solution": "\u2022 Strike action halts production or service delivery, which leads to lost output and a drop in sales revenue. (1)\n\u2022 Late deliveries and bad publicity damage the organisation's reputation, meaning customers may switch permanently to rivals. (1)\n\u2022 Management time is taken up resolving disputes with trade unions, which distracts from running and growing the business. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (5(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-exp-9",
+      "sourceYear": 2024,
+      "sourceQuestion": "6(b)",
+      "topic": "Management of Finance",
+      "subtopic": "Technology in finance",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "explain"
+      ],
+      "primaryCommand": "explain",
+      "text": "Explain how using spreadsheet software benefits a finance department.",
+      "hint": "Think about automatic formulas (=SUM, =IF), what-if scenarios, and graphs/charts.",
+      "acceptedPoints": [
+        "Built-in formulas recalculate totals automatically whenever a figure changes, which saves time and reduces human arithmetic errors",
+        "Managers can run 'what-if' scenarios (such as testing a rise in costs), which helps them make better-informed financial decisions",
+        "Financial data can be turned into charts and graphs instantly, which makes trends easier to present to non-financial stakeholders"
+      ],
+      "markingRule": "Award 1 mark for each developed benefit of spreadsheet software to a finance department, up to 3 marks.",
+      "solution": "\u2022 Formulas automatically update totals when figures are edited, which saves staff time and eliminates manual calculation errors. (1)\n\u2022 Managers can carry out 'what-if' analysis to model the effect of price or cost changes, which improves financial decision-making. (1)\n\u2022 Data can be converted into graphs and charts with one click, making financial reports easier for managers and shareholders to understand. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (6(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-comp-1",
+      "sourceYear": 2018,
+      "sourceQuestion": "1(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare a sole trader and a partnership as forms of business ownership.",
+      "hint": "Use 'whereas' for differences (number of owners, decision-making, capital) and 'both' for similarities (private sector, unlimited liability, profit objective).",
+      "acceptedPoints": [
+        "A sole trader is owned by one person, whereas a partnership is owned by between 2 and 20 partners",
+        "A sole trader keeps all the profit for themselves, whereas partners must share profits according to their partnership agreement",
+        "A sole trader makes all decisions alone, whereas partners can share decision-making and bring different specialist skills",
+        "Both a sole trader and a partnership operate in the private sector, aim to make a profit, and have unlimited liability"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or direct difference ('whereas') between a sole trader and a partnership, up to 3 marks.",
+      "solution": "\u2022 A sole trader is owned by one individual, whereas a partnership is owned by two or more partners. (1)\n\u2022 A sole trader keeps 100% of the profits, whereas in a partnership profits must be shared among the partners. (1)\n\u2022 Both a sole trader and a partnership are in the private sector and have unlimited liability. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (1(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-comp-2",
+      "sourceYear": 2019,
+      "sourceQuestion": "1(d)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare a sole trader and a private limited company (Ltd).",
+      "hint": "Contrast liability (unlimited vs limited), ownership, and privacy of accounts, or state a similarity ('both').",
+      "acceptedPoints": [
+        "A sole trader has unlimited liability (personal possessions at risk), whereas shareholders in a private limited company have limited liability",
+        "A sole trader is owned by one individual, whereas a private limited company is owned by shareholders who are invited to buy shares",
+        "A sole trader's financial accounts remain private, whereas a private limited company must register with Companies House and publish annual accounts",
+        "Both a sole trader and a private limited company are in the private sector and aim to make a profit"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or paired difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 A sole trader has unlimited liability so personal assets are at risk, whereas a private limited company has limited liability so shareholders only risk their investment. (1)\n\u2022 A sole trader is owned by one person, whereas a private limited company is owned by invited shareholders. (1)\n\u2022 Both are private sector organisations that aim to make a profit. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (1(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-comp-3",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Role of business in society",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between a private-sector organisation and a public-sector organisation.",
+      "hint": "Contrast who owns/funds them and their main objectives using 'whereas'.",
+      "acceptedPoints": [
+        "Private-sector organisations are owned by private individuals or shareholders, whereas public-sector organisations are owned and funded by central or local government",
+        "Private-sector organisations primarily aim to maximise profit and grow market share, whereas public-sector organisations aim to provide essential services (such as healthcare or education) within a budget"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction ('whereas') between the private and public sectors, up to 2 marks.",
+      "solution": "\u2022 Private-sector organisations are owned by private individuals or shareholders, whereas public-sector organisations are owned and controlled by the government. (1)\n\u2022 Private-sector organisations aim to make a profit, whereas public-sector organisations aim to provide quality public services within a budget. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (1(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-comp-4",
+      "sourceYear": 2023,
+      "sourceQuestion": "1(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Role of business in society",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare a charity and a social enterprise.",
+      "hint": "Think about where their money comes from (donations vs trading) and what both do with their surplus.",
+      "acceptedPoints": [
+        "A charity raises most of its funds from donations, grants and fundraising, whereas a social enterprise generates most of its income by trading goods and services like a business",
+        "Both a charity and a social enterprise operate in the third sector and reinvest their surplus to achieve a social or environmental goal rather than paying dividends to private owners"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 2 marks.",
+      "solution": "\u2022 A charity relies mainly on donations and fundraising events, whereas a social enterprise earns revenue by selling goods or services. (1)\n\u2022 Both operate in the third sector and use their surplus to support a social or environmental cause rather than enriching private shareholders. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (1(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-comp-5",
+      "sourceYear": 2024,
+      "sourceQuestion": "1(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Role of business in society",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between a good and a service.",
+      "hint": "Think tangibility (can you touch/store it?) and examples.",
+      "acceptedPoints": [
+        "A good is a tangible physical item that you can see and touch (such as a car or smartphone), whereas a service is intangible and cannot be touched or stored (such as a haircut or bus journey)",
+        "A good can be manufactured in advance and stored as inventory, whereas a service is consumed at the exact moment it is provided"
+      ],
+      "markingRule": "Award 1 mark for each paired distinction between a good and a service, up to 2 marks.",
+      "solution": "\u2022 A good is tangible so it can be seen and touched, whereas a service is intangible and cannot be touched. (1)\n\u2022 Goods can be stored in a warehouse as inventory, whereas a service is produced and consumed at the same time. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (1(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-comp-6",
+      "sourceYear": 2025,
+      "sourceQuestion": "1(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Role of business in society",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between needs and wants.",
+      "hint": "What is essential for human survival vs non-essential desires?",
+      "acceptedPoints": [
+        "Needs are basic items essential for human survival (such as food, water, shelter, warmth and clothing), whereas wants are non-essential luxury items that people desire to improve their quality of life (such as designer clothes or holidays)",
+        "Needs are limited in number, whereas human wants are unlimited"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction between needs and wants, up to 2 marks.",
+      "solution": "\u2022 Needs are essential for survival (such as food, water and shelter), whereas wants are non-essential desires (such as a smartphone or holiday). (1)\n\u2022 Basic human needs are finite, whereas human wants are unlimited. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (1(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-comp-7",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(f)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between internal stakeholders and external stakeholders.",
+      "hint": "Where are they located in relation to the organisation, and give examples of each.",
+      "acceptedPoints": [
+        "Internal stakeholders work within or own the organisation (such as owners, managers and employees), whereas external stakeholders are outside the organisation (such as customers, suppliers, banks and the government)",
+        "Internal stakeholders are directly involved in day-to-day operations and decision-making inside the business, whereas external stakeholders are affected by or influence the business from outside"
+      ],
+      "markingRule": "Award 1 mark for each valid paired distinction, up to 2 marks.",
+      "solution": "\u2022 Internal stakeholders are part of the organisation itself (e.g. employees and managers), whereas external stakeholders are outside individuals or groups (e.g. customers and suppliers). (1)\n\u2022 Internal stakeholders directly carry out or manage day-to-day business operations, whereas external stakeholders interact with the business from the outside. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (1(f))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-comp-8",
+      "sourceYear": 2019,
+      "sourceQuestion": "2(b)",
+      "topic": "Management of Marketing",
+      "subtopic": "Price",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare price skimming and market penetration pricing when launching a new product.",
+      "hint": "Contrast the initial price level, the type of market/product each suits, and state what both are.",
+      "acceptedPoints": [
+        "Price skimming sets a high initial price for a unique or innovative product, whereas market penetration sets a low initial price to enter a competitive market",
+        "Price skimming maximises profit margin per unit from early adopters before competitors enter, whereas market penetration builds high sales volume and market share quickly by attracting customers from rivals",
+        "Both price skimming and market penetration are pricing strategies used when launching a new product into the market"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas') between price skimming and market penetration, up to 3 marks.",
+      "solution": "\u2022 Price skimming charges a high initial price, whereas market penetration charges a low initial price. (1)\n\u2022 Price skimming is used for innovative products with little competition to recover R&D costs quickly, whereas market penetration is used in crowded markets to win market share from rivals. (1)\n\u2022 Both are pricing strategies used at the launch stage of a new product. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (2(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-comp-9",
+      "sourceYear": 2023,
+      "sourceQuestion": "2(c)",
+      "topic": "Management of Marketing",
+      "subtopic": "Place & distribution",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare selling directly to consumers via e-commerce with selling through a high-street retail store.",
+      "hint": "Contrast opening hours/reach, overhead costs, and customer ability to try goods.",
+      "acceptedPoints": [
+        "Selling online via e-commerce allows customers to buy 24/7 worldwide, whereas a physical retail store only serves local customers during set opening hours",
+        "Selling online has lower property overheads as no high-street shop is needed, whereas a physical store incurs high city-centre rent and staffing costs",
+        "In a physical retail store customers can try on or inspect products before buying and take them home immediately, whereas online shoppers must wait for delivery",
+        "Both channels allow a business to sell goods to consumers and generate sales revenue"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or paired difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 E-commerce allows 24/7 worldwide selling, whereas a high-street shop is limited to local customers during opening hours. (1)\n\u2022 A high-street store lets customers touch and try products immediately, whereas online customers cannot physically inspect items and must wait for delivery. (1)\n\u2022 Both distribution channels enable the business to sell products to customers and earn revenue. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (2(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-comp-10",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(d)",
+      "topic": "Management of Marketing",
+      "subtopic": "Promotion & ethical marketing",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between 'into-the-pipeline' promotion and 'out-of-the-pipeline' promotion.",
+      "hint": "Who is each type of promotion aimed at \u2014 retailers/wholesalers vs final consumers?",
+      "acceptedPoints": [
+        "Into-the-pipeline promotion is aimed at persuading wholesalers and retailers to stock the manufacturer's product (e.g. trade fairs, dealer loader deals, sale-or-return), whereas out-of-the-pipeline promotion is aimed directly at final consumers to persuade them to buy the product (e.g. TV advertising, BOGOF, loyalty cards)",
+        "Into-the-pipeline focuses on pushing stock onto shop shelves, whereas out-of-the-pipeline pulls products off the shelves by building consumer demand"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction between into-the-pipeline and out-of-the-pipeline promotion, up to 2 marks.",
+      "solution": "\u2022 Into-the-pipeline promotion targets wholesalers and retailers to persuade them to stock the product, whereas out-of-the-pipeline promotion targets final consumers to persuade them to buy it. (1)\n\u2022 Into-the-pipeline uses trade exhibitions and bulk trade discounts, whereas out-of-the-pipeline uses consumer advertising and BOGOF offers. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (2(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-comp-11",
+      "sourceYear": 2022,
+      "sourceQuestion": "2(e)",
+      "topic": "Management of Marketing",
+      "subtopic": "Promotion & ethical marketing",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare advertising on national television with advertising on social media.",
+      "hint": "Contrast cost, ability to target specific demographics/interact, and state a similarity ('both').",
+      "acceptedPoints": [
+        "National television advertising is very expensive to produce and broadcast, whereas social media advertising is much cheaper and accessible to small businesses",
+        "Television reaches a mass audience untargeted, whereas social media can target specific age groups, interests and locations and allows two-way customer interaction",
+        "Both television and social media advertising use visual and audio content to raise brand awareness and persuade customers to buy"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 National TV advertising is extremely expensive, whereas social media advertising is much lower cost. (1)\n\u2022 Social media adverts can be targeted precisely at specific user profiles and allow instant click-throughs, whereas TV adverts broadcast to a general mass audience. (1)\n\u2022 Both methods can use video and sound to showcase products and boost sales. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (2(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-comp-12",
+      "sourceYear": 2018,
+      "sourceQuestion": "4(b)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare job production and flow production.",
+      "hint": "Contrast customisation vs identical mass items, labour vs capital intensity, and unit costs.",
+      "acceptedPoints": [
+        "Job production makes a single unique item tailored to one customer's exact specification, whereas flow production continuously manufactures thousands of identical standardised items on an assembly line",
+        "Job production relies heavily on skilled labour and has a higher cost per unit, whereas flow production is capital-intensive (automated machinery) and achieves low unit costs through economies of scale",
+        "Both are methods of production used by manufacturing businesses to turn inputs into finished outputs"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas') between job and flow production, up to 3 marks.",
+      "solution": "\u2022 Job production produces one-off custom items to order, whereas flow production continuously mass-produces identical standardised products. (1)\n\u2022 Job production uses highly skilled labour and has high unit costs, whereas flow production is capital-intensive and achieves low unit costs. (1)\n\u2022 Both are methods of production used to manufacture goods for customers. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (4(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-comp-13",
+      "sourceYear": 2023,
+      "sourceQuestion": "3(b)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare job production and batch production.",
+      "hint": "Contrast making a single unique item vs groups of similar items, equipment flexibility, and state a similarity.",
+      "acceptedPoints": [
+        "Job production makes a single one-off item at a time, whereas batch production makes a group (batch) of identical items together before switching to the next batch",
+        "Job production is tailored to an individual customer's exact design, whereas batch production offers variety across different batches (e.g. different flavours of soup or bread rolls)",
+        "Both job production and batch production are methods of production that can be adjusted to meet different customer requirements"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 Job production makes one unique product at a time, whereas batch production makes a set quantity of identical items in a group. (1)\n\u2022 Job production has higher unit costs because every item is bespoke, whereas batch production lowers unit costs by producing multiple items per run. (1)\n\u2022 Both are methods of production used by manufacturers. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (3(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-comp-14",
+      "sourceYear": 2024,
+      "sourceQuestion": "3(c)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare labour-intensive production and capital-intensive production.",
+      "hint": "Contrast relying mainly on human workers vs automated machinery/robotics.",
+      "acceptedPoints": [
+        "Labour-intensive production relies mainly on human workers and manual skills, whereas capital-intensive production relies mainly on automated machinery, robotics and equipment",
+        "Labour-intensive production offers greater craftsmanship and flexibility for bespoke designs, whereas capital-intensive production can operate 24/7 at much faster speeds with consistent standardised quality",
+        "Capital-intensive production requires a much higher initial financial investment in machinery, whereas labour-intensive production has lower equipment setup costs but ongoing wage bills"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 Labour-intensive production uses mainly human workers, whereas capital-intensive production uses mainly machinery and automation. (1)\n\u2022 Labour-intensive production allows individual craftsmanship and customisation, whereas capital-intensive production produces standardised output 24/7 at high speed. (1)\n\u2022 Both approaches combine resources to transform raw materials into finished products. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (3(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-comp-15",
+      "sourceYear": 2025,
+      "sourceQuestion": "3(b)",
+      "topic": "Management of Operations",
+      "subtopic": "Quality",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between quality control and quality assurance.",
+      "hint": "WHEN are the quality checks carried out \u2014 at the very end vs at every stage of production?",
+      "acceptedPoints": [
+        "Quality control inspects sample products at the end of the production line, whereas quality assurance checks quality at every stage of the production process",
+        "Quality control can result in high waste because faulty items are only spotted after they are finished, whereas quality assurance aims for 'right first time' zero defects before moving to the next stage"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction between quality control and quality assurance, up to 2 marks.",
+      "solution": "\u2022 Quality control checks a sample of finished goods at the end of production, whereas quality assurance checks quality at every single stage of the process. (1)\n\u2022 Quality control leads to more wasted materials when faults are found at the end, whereas quality assurance prevents defects early so there is less waste. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (3(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-comp-16",
+      "sourceYear": 2022,
+      "sourceQuestion": "3(d)",
+      "topic": "Management of Operations",
+      "subtopic": "Inventory management",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare Just-in-Time (JIT) inventory control with holding buffer stock (traditional stock control).",
+      "hint": "Contrast warehouse storage costs, risk of running out if a supplier is late, and tied-up capital.",
+      "acceptedPoints": [
+        "Just-in-Time (JIT) orders raw materials only as they are needed for production with zero buffer stock, whereas traditional stock control holds a minimum reserve of buffer stock in a warehouse",
+        "JIT minimises warehousing costs and frees up cash flow, whereas holding buffer stock ties up capital and incurs higher storage and insurance costs",
+        "Holding buffer stock allows production to continue if a supplier delivery is delayed, whereas under JIT any delivery delay brings production to an immediate halt"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 JIT holds little or no inventory and orders materials only when needed, whereas traditional inventory control keeps buffer stock in storage. (1)\n\u2022 JIT saves warehouse storage costs and reduces cash tied up in stock, whereas holding buffer stock incurs storage and insurance costs. (1)\n\u2022 Holding buffer stock protects against late deliveries or sudden surges in demand, whereas JIT risks halting production if a supplier is late. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (3(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-comp-17",
+      "sourceYear": 2019,
+      "sourceQuestion": "5(a)",
+      "topic": "Management of People",
+      "subtopic": "Recruitment, selection & contracts",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare internal recruitment and external recruitment.",
+      "hint": "Contrast recruiting from existing staff vs outside applicants (cost, speed, fresh ideas, morale).",
+      "acceptedPoints": [
+        "Internal recruitment fills a vacancy from existing employees inside the business, whereas external recruitment advertises to applicants outside the organisation",
+        "Internal recruitment is cheaper and faster because the person is already known to the business, whereas external recruitment is more expensive due to external job adverts and longer onboarding",
+        "External recruitment brings fresh ideas and a wider pool of talent into the business, whereas internal recruitment motivates existing staff through promotion opportunities but leaves another vacancy to fill"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 Internal recruitment appoints someone who already works for the business, whereas external recruitment hires a candidate from outside the organisation. (1)\n\u2022 Internal recruitment is cheaper and quicker, whereas external recruitment costs more in advertising and takes longer. (1)\n\u2022 External recruitment brings new ideas and a wider choice of candidates, whereas internal recruitment limits choice to current staff. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (5(a))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-comp-18",
+      "sourceYear": 2023,
+      "sourceQuestion": "4(c)",
+      "topic": "Management of People",
+      "subtopic": "Recruitment, selection & contracts",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between a job description and a person specification.",
+      "hint": "Which document describes the JOB (duties/hours/pay) vs the CANDIDATE (qualifications/skills/experience)?",
+      "acceptedPoints": [
+        "A job description sets out the duties, responsibilities, job title, hours and pay of the job itself, whereas a person specification sets out the skills, qualifications, experience and personal qualities required of the ideal candidate",
+        "A job description tells applicants what work they will be doing, whereas a person specification lists the essential and desirable criteria used to shortlist applicants"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction between a job description and a person specification, up to 2 marks.",
+      "solution": "\u2022 A job description details the tasks, duties and working conditions of the job role, whereas a person specification details the qualifications, skills and experience needed by the person applying. (1)\n\u2022 A job description is about the post itself, whereas a person specification is about the essential and desirable attributes of the candidate. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (4(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-comp-19",
+      "sourceYear": 2024,
+      "sourceQuestion": "4(d)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between time-rate pay and piece-rate pay.",
+      "hint": "How is the worker's pay calculated under each method \u2014 per hour worked vs per unit produced?",
+      "acceptedPoints": [
+        "Time-rate pay rewards employees based on the number of hours they work (e.g. \u00a312 per hour), whereas piece-rate pay rewards employees based on the number of units they produce",
+        "Time-rate pay encourages workers to take care over quality rather than rushing, whereas piece-rate pay motivates faster output but can lead to corners being cut on quality"
+      ],
+      "markingRule": "Award 1 mark for each valid paired distinction between time-rate and piece-rate pay, up to 2 marks.",
+      "solution": "\u2022 Time-rate pay is calculated per hour worked, whereas piece-rate pay is calculated per item produced. (1)\n\u2022 Time-rate gives workers a predictable income for their hours, whereas piece-rate incentivises faster output to earn more money. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (4(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-comp-20",
+      "sourceYear": 2025,
+      "sourceQuestion": "6(a)",
+      "topic": "Management of Finance",
+      "subtopic": "Sources of finance",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "commands": [
+        "compare"
+      ],
+      "primaryCommand": "compare",
+      "text": "Compare a bank loan and a bank overdraft as external sources of finance.",
+      "hint": "Contrast duration (long-term vs short-term), repayment structure, and what each is used for.",
+      "acceptedPoints": [
+        "A bank loan is a medium-to-long-term source of finance repaid in fixed monthly instalments over several years, whereas a bank overdraft is a short-term facility allowing a current account to go below zero up to an agreed limit",
+        "A bank loan is used to buy expensive non-current assets like machinery or vehicles, whereas a bank overdraft is used to cover temporary short-term cash flow deficits",
+        "Both a bank loan and a bank overdraft are external sources of finance provided by a bank that charge interest"
+      ],
+      "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
+      "solution": "\u2022 A bank loan is a long-term lump sum repaid in fixed monthly instalments, whereas a bank overdraft is a flexible short-term borrowing limit on a current account. (1)\n\u2022 A bank loan is suitable for purchasing capital equipment or vehicles, whereas an overdraft is suitable for covering a temporary monthly cash deficit. (1)\n\u2022 Both are external sources of finance from a bank that must be repaid with interest. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (6(a))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-comp-21",
+      "sourceYear": 2022,
+      "sourceQuestion": "5(b)",
+      "topic": "Management of Finance",
+      "subtopic": "Income statements",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "commands": [
+        "distinguish"
+      ],
+      "primaryCommand": "distinguish",
+      "text": "Distinguish between Gross Profit and Profit for the Year (Net Profit).",
+      "hint": "How is each calculated on an Income Statement?",
+      "acceptedPoints": [
+        "Gross Profit is Sales Revenue minus Cost of Sales (the profit made purely from buying and selling trading stock), whereas Profit for the Year is Gross Profit minus all other operating expenses (such as wages, rent and advertising)",
+        "Gross Profit only deducts the direct cost of goods sold, whereas Profit for the Year shows the final bottom-line profit left after all business overheads have been paid"
+      ],
+      "markingRule": "Award 1 mark for each clear paired distinction between Gross Profit and Profit for the Year, up to 2 marks.",
+      "solution": "\u2022 Gross Profit is Sales Revenue minus Cost of Sales, whereas Profit for the Year is Gross Profit minus operating expenses. (1)\n\u2022 Gross Profit only accounts for the direct cost of trading stock, whereas Profit for the Year deducts all business overheads like rent and wages. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (5(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-just-1",
+      "sourceYear": 2018,
+      "sourceQuestion": "1(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "justify"
+      ],
+      "primaryCommand": "justify",
+      "text": "Justify why a sole trader might decide to change their business ownership to a private limited company (Ltd).",
+      "hint": "Give 3 distinct reasons why becoming an Ltd is advantageous (limited liability, raising capital, continuity).",
+      "acceptedPoints": [
+        "Shareholders receive limited liability, which means the owner's personal possessions and house are protected if the business fails",
+        "More capital can be raised by selling shares privately to family, friends or investors, which funds expansion without needing a bank loan",
+        "The company has a separate legal identity and continuity, meaning the business continues to exist even if a shareholder retires or dies"
+      ],
+      "markingRule": "Award 1 mark for each developed justification for converting to a private limited company, up to 3 marks.",
+      "solution": "\u2022 Changing to a private limited company gives the owner limited liability, which protects their personal assets if the business runs into debt. (1)\n\u2022 The business can raise larger amounts of capital by inviting private investors to buy shares, allowing it to expand faster. (1)\n\u2022 Control is not lost to the general public because shares can only be sold privately with the agreement of existing shareholders. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (1(c))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-just-2",
+      "sourceYear": 2019,
+      "sourceQuestion": "1(e)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the advantages and disadvantages of operating a business as a franchise.",
+      "hint": "Include both advantages (established brand name, national advertising, training) and disadvantages (royalty fees, lack of freedom, initial cost).",
+      "acceptedPoints": [
+        "Advantage: The franchisee trades under an already well-known, trusted brand name, which attracts customers immediately and reduces the risk of failure",
+        "Advantage: The franchisor provides training, equipment and national advertising, which saves the franchisee setup time and marketing costs",
+        "Disadvantage: The franchisee must pay an expensive initial licence fee plus ongoing royalties (a percentage of sales/profits) to the franchisor, which reduces profit",
+        "Disadvantage: Strict rules from the franchisor mean the franchisee cannot choose their own products, prices or suppliers"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed (must include at least 1 advantage and 1 disadvantage for full 4 marks).",
+      "solution": "\u2022 Advantage: The franchisee uses an established, well-known brand name, which guarantees an immediate customer base and lowers the risk of failure. (1)\n\u2022 Advantage: The franchisor provides national advertising and training, reducing the franchisee's marketing costs. (1)\n\u2022 Disadvantage: A percentage of revenue or profit must be paid in ongoing royalties to the franchisor every year. (1)\n\u2022 Disadvantage: The franchisee has little independence and must sell only the products and prices dictated by the franchisor. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (1(e))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-just-3",
+      "sourceYear": 2022,
+      "sourceQuestion": "2(c)",
+      "topic": "Management of Marketing",
+      "subtopic": "Market research",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the use of field (primary) market research by a business launching a new product.",
+      "hint": "Include at least one advantage (up-to-date, tailored to the exact business, exclusive) and at least one disadvantage (expensive, time-consuming, small sample).",
+      "acceptedPoints": [
+        "Advantage: The information is collected first-hand for the business's exact purpose, which means it is directly relevant to the new product launch",
+        "Advantage: The data is brand new and up to date, and competitors do not have access to it",
+        "Disadvantage: Designing, conducting and analysing surveys or focus groups takes a long time, which can delay launching the product",
+        "Disadvantage: Field research is expensive to carry out, and a small sample size may not accurately represent the whole market"
+      ],
+      "markingRule": "Award 1 mark for each valid point discussed (at least 1 advantage and 1 disadvantage required for full 4 marks).",
+      "solution": "\u2022 Advantage: The data is gathered specifically for the business's own new product, making it 100% relevant and exclusive to the company. (1)\n\u2022 Advantage: The information is current and reflects today's customer opinions. (1)\n\u2022 Disadvantage: It is expensive and time-consuming to organise questionnaires or focus groups, which delays decision-making. (1)\n\u2022 Disadvantage: Customers may ignore surveys or give biased answers if the sample size is too small. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (2(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-just-4",
+      "sourceYear": 2023,
+      "sourceQuestion": "2(e)",
+      "topic": "Management of Marketing",
+      "subtopic": "Price",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "justify"
+      ],
+      "primaryCommand": "justify",
+      "text": "Justify the use of promotional pricing (short-term price cuts) by a supermarket.",
+      "hint": "Why would a supermarket temporarily slash prices on selected items?",
+      "acceptedPoints": [
+        "Temporary low prices attract customers into the store away from rival supermarkets, which boosts customer footfall and market share",
+        "Once inside the store, customers usually buy other full-price items alongside the promotional product, increasing overall sales revenue",
+        "It helps clear excess or slow-moving inventory quickly before perishable goods pass their sell-by date"
+      ],
+      "markingRule": "Award 1 mark for each developed justification for using promotional pricing, up to 3 marks.",
+      "solution": "\u2022 Slashing prices for a limited period entices customers away from competitors, increasing store footfall. (1)\n\u2022 Shoppers attracted by the deal will often purchase other full-margin groceries at the same time, boosting total revenue. (1)\n\u2022 It clears slow-moving or seasonal stock quickly, freeing up shelf space and reducing waste. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (2(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-just-5",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(f)",
+      "topic": "Management of Marketing",
+      "subtopic": "Product & product life cycle",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "justify"
+      ],
+      "primaryCommand": "justify",
+      "text": "Justify why a business invests in building a strong brand name and logo.",
+      "hint": "How does branding affect customer loyalty, premium pricing, and launching new products?",
+      "acceptedPoints": [
+        "A trusted brand builds customer loyalty, which leads to repeat purchases and stable sales revenue even in competitive markets",
+        "Customers associate a well-known brand with high quality, allowing the business to charge a higher (premium) price and earn higher profit margins",
+        "An established brand reputation makes it much easier and cheaper to launch new products into the product portfolio"
+      ],
+      "markingRule": "Award 1 mark for each developed justification for investing in branding, up to 3 marks.",
+      "solution": "\u2022 A recognisable brand builds trust and customer loyalty, encouraging repeat custom over rival brands. (1)\n\u2022 The business can charge a premium price for branded goods, increasing profit margins. (1)\n\u2022 New products launched under an established brand name are more readily accepted by retailers and consumers. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (2(f))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-just-6",
+      "sourceYear": 2019,
+      "sourceQuestion": "4(c)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the use of flow (mass) production by a car manufacturer.",
+      "hint": "Give both advantages (economies of scale, 24/7 high output, consistent quality) and disadvantages (huge capital setup cost, breakdown halts line, repetitive work).",
+      "acceptedPoints": [
+        "Advantage: Large quantities are produced rapidly 24/7, which lowers unit costs and allows the business to benefit from bulk-buying economies of scale",
+        "Advantage: Automated machinery ensures every product is manufactured to the exact same standardised quality",
+        "Disadvantage: Purchasing and installing automated assembly-line machinery requires a massive initial capital investment",
+        "Disadvantage: If one section of the assembly line breaks down, the entire production process stops, and repetitive tasks can demotivate assembly workers"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed (must include both sides for full 4 marks).",
+      "solution": "\u2022 Advantage: Continuous automated production achieves high output levels and low unit costs. (1)\n\u2022 Advantage: Bulk buying of raw materials earns discounts (economies of scale) and quality is uniform. (1)\n\u2022 Disadvantage: Setting up an automated production line is extremely expensive in capital costs. (1)\n\u2022 Disadvantage: If one machine fails, the whole production line halts, and workers may become bored by repetitive tasks. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (4(c))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-just-7",
+      "sourceYear": 2022,
+      "sourceQuestion": "3(e)",
+      "topic": "Management of Operations",
+      "subtopic": "Inventory management",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the advantages and disadvantages of using a Just-in-Time (JIT) stock control system.",
+      "hint": "Include both advantages (saved warehouse costs, improved cash flow, less waste) and disadvantages (late delivery halts production, no bulk discounts).",
+      "acceptedPoints": [
+        "Advantage: Almost no warehouse storage space is needed, which reduces rent, insurance and security costs",
+        "Advantage: Cash is not tied up in idle inventory, which improves working capital and reduces the risk of stock becoming obsolete or perishing",
+        "Disadvantage: If a supplier delivery is late, there is no buffer stock so production stops immediately and customer orders are delayed",
+        "Disadvantage: Frequent small deliveries mean higher transport costs and the loss of bulk-buying discounts"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
+      "solution": "\u2022 Advantage: Capital is not tied up in stockpiles, improving the business's cash flow. (1)\n\u2022 Advantage: Warehouse storage, insurance and stock deterioration costs are minimised. (1)\n\u2022 Disadvantage: Any delay from a supplier stops production immediately because there is no buffer stock. (1)\n\u2022 Disadvantage: Ordering in small frequent quantities loses bulk-buying discounts and increases delivery charges. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (3(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-just-8",
+      "sourceYear": 2025,
+      "sourceQuestion": "3(e)",
+      "topic": "Management of Operations",
+      "subtopic": "Technology in operations",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the impact of introducing automated robotics (CAM) into a factory.",
+      "hint": "Include advantages (24/7 speed, precision, fewer accidents) and disadvantages (high capital cost, redundancies/morale, maintenance).",
+      "acceptedPoints": [
+        "Advantage: Robots can work 24/7 without breaks, which increases productivity and output speed",
+        "Advantage: Tasks are performed with consistent precision, which reduces human error and wasted materials",
+        "Disadvantage: Automated robotics are very expensive to buy, install and maintain, which can cause a cash outflow or require borrowing",
+        "Disadvantage: Factory workers may face redundancy, which lowers staff morale and can trigger trade union opposition"
+      ],
+      "markingRule": "Award 1 mark for each valid positive or negative impact discussed, up to 4 marks.",
+      "solution": "\u2022 Advantage: CAM robotics operate 24/7 at high speed without tiring, boosting productivity. (1)\n\u2022 Advantage: Greater accuracy ensures consistent quality and less wasted material. (1)\n\u2022 Disadvantage: Very high initial purchase and maintenance costs for the machinery. (1)\n\u2022 Disadvantage: Job losses among manual workers can damage staff morale and employee relations. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (3(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-just-9",
+      "sourceYear": 2018,
+      "sourceQuestion": "5(c)",
+      "topic": "Management of People",
+      "subtopic": "Training",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the use of off-the-job training (sending staff to an external college or training centre).",
+      "hint": "Balance the benefits (specialist trainers, no workplace distractions, recognised qualifications) against the drawbacks (expensive fees, lost working time).",
+      "acceptedPoints": [
+        "Advantage: Training is delivered by qualified external specialists using up-to-date equipment, resulting in high-standard skills",
+        "Advantage: Employees learn away from workplace distractions and can gain recognised qualifications, which increases motivation",
+        "Disadvantage: External course fees, travel and accommodation make off-the-job training expensive for the employer",
+        "Disadvantage: Employees are away from their desks/factory floor while training, which reduces output or requires paying for cover staff"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
+      "solution": "\u2022 Advantage: Expert external trainers provide high-quality specialist instruction and qualifications. (1)\n\u2022 Advantage: Staff can concentrate fully on learning without being interrupted by normal work duties. (1)\n\u2022 Disadvantage: External course fees and travel costs are expensive for the business. (1)\n\u2022 Disadvantage: No work output is produced while the employee is away from the workplace. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (5(c))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-just-10",
+      "sourceYear": 2023,
+      "sourceQuestion": "4(e)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the advantages and disadvantages to an employer of allowing staff to work from home (homeworking).",
+      "hint": "Think about office cost savings, staff retention/morale, vs monitoring difficulty, team isolation, and cybersecurity/IT costs.",
+      "acceptedPoints": [
+        "Advantage: The business needs less office space, which reduces rent, heating and electricity overheads",
+        "Advantage: Employees save commuting time and enjoy better work-life balance, which boosts morale and improves staff retention",
+        "Disadvantage: Managers cannot supervise staff face-to-face, making it harder to monitor whether employees are working productively",
+        "Disadvantage: Staff may feel isolated from colleagues, weakening teamwork, and the business must pay for laptops and secure remote IT systems"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage to the employer discussed, up to 4 marks.",
+      "solution": "\u2022 Advantage: Lower office space requirements reduce fixed overheads such as rent and utilities. (1)\n\u2022 Advantage: Greater flexibility increases employee satisfaction and helps retain skilled staff. (1)\n\u2022 Disadvantage: It is harder for managers to supervise staff and measure productivity remotely. (1)\n\u2022 Disadvantage: Reduced face-to-face contact can weaken team spirit and communication. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (4(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-just-11",
+      "sourceYear": 2024,
+      "sourceQuestion": "4(e)",
+      "topic": "Management of People",
+      "subtopic": "Recruitment, selection & contracts",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "justify"
+      ],
+      "primaryCommand": "justify",
+      "text": "Justify the use of interviews as part of the employee selection process.",
+      "hint": "Why do nearly all employers interview candidates face-to-face or via video before hiring?",
+      "acceptedPoints": [
+        "Interviews allow the employer to assess a candidate's communication skills, body language and interpersonal manner directly",
+        "The panel can probe information written on the CV or application form in depth to check its accuracy and prevent exaggeration",
+        "Candidates can ask questions about the role and culture, ensuring a good two-way fit that reduces early staff turnover"
+      ],
+      "markingRule": "Award 1 mark for each developed justification for using interviews in selection, up to 3 marks.",
+      "solution": "\u2022 Interviews let managers see how well candidates communicate and present themselves in person. (1)\n\u2022 The employer can ask follow-up questions to verify claims made on the candidate's CV or application form. (1)\n\u2022 Candidates can also ask questions about the job, ensuring they understand the role and reducing early turnover. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (4(e))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-just-12",
+      "sourceYear": 2022,
+      "sourceQuestion": "5(c)",
+      "topic": "Management of Finance",
+      "subtopic": "Sources of finance",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 4,
+      "commands": [
+        "discuss"
+      ],
+      "primaryCommand": "discuss",
+      "text": "Discuss the use of a bank loan to finance the expansion of a business.",
+      "hint": "Include advantages (large lump sum, fixed monthly repayments for budgeting, no loss of ownership) and disadvantages (interest charges increase total cost, collateral/security risk).",
+      "acceptedPoints": [
+        "Advantage: Provides a large lump sum immediately so the business can purchase premises or machinery straight away",
+        "Advantage: Repayments are made in fixed monthly instalments over several years, making cash flow budgeting easier, and the bank takes no ownership stake",
+        "Disadvantage: Interest must be paid on top of the loan, which increases total costs and reduces profit",
+        "Disadvantage: The bank may require business assets as security (collateral), which could be seized if repayments are missed"
+      ],
+      "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
+      "solution": "\u2022 Advantage: A large lump sum is received immediately to fund expansion, while ownership is retained. (1)\n\u2022 Advantage: Fixed monthly repayments over several years make cash budget planning straightforward. (1)\n\u2022 Disadvantage: Interest is charged on the loan, increasing the total amount repaid and reducing profit. (1)\n\u2022 Disadvantage: Assets may have to be pledged as security and could be lost if the business defaults. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (5(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-just-13",
+      "sourceYear": 2025,
+      "sourceQuestion": "6(b)",
+      "topic": "Management of Finance",
+      "subtopic": "Sources of finance",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "justify"
+      ],
+      "primaryCommand": "justify",
+      "text": "Justify why a business might choose to use retained profit rather than borrowing from a bank to fund new equipment.",
+      "hint": "Why is using your own saved profit better than taking out a loan?",
+      "acceptedPoints": [
+        "Retained profit belongs to the business, so it does not have to be repaid and no interest charges are incurred, keeping costs low",
+        "The funds are available immediately without waiting for a bank to approve a loan application or inspect credit history",
+        "No business assets need to be put at risk as security (collateral), and ownership is not diluted"
+      ],
+      "markingRule": "Award 1 mark for each developed justification for using retained profit, up to 3 marks.",
+      "solution": "\u2022 No interest is charged and the money never has to be repaid, which saves costs and protects future profits. (1)\n\u2022 The business can access its own funds immediately without going through a lengthy bank approval process. (1)\n\u2022 No collateral/security is required, so business assets are not placed at risk. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (6(b))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-multi-1",
+      "sourceYear": 2018,
+      "sourceQuestion": "1(d)",
+      "topic": "Understanding Business",
+      "subtopic": "Business organisations, entrepreneurs & business plans",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify the most suitable type of business organisation for two dentists opening a dental practice together, and justify your choice. (3 marks: 1 for identify, 2 for justify)",
+      "hint": "Write 'Identify: Partnership' (1), then give two distinct 'Justify:' reasons why a partnership suits two professionals.",
+      "acceptedPoints": [
+        "Identify: Partnership",
+        "Justify 1: Both dentists can pool their start-up capital to buy expensive dental equipment",
+        "Justify 2: Workload, holidays and specialist dental expertise can be shared between the partners"
+      ],
+      "markingRule": "Award 1 mark for identifying a Partnership, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Partnership. (1)\n\u2022 Justify 1: Both dentists can combine their personal savings, making it easier to afford expensive dental equipment and premises. (1)\n\u2022 Justify 2: The partners can share the workload, decision-making and cover for each other during holidays or illness. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (1(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-2",
+      "sourceYear": 2019,
+      "sourceQuestion": "1(f)",
+      "topic": "Understanding Business",
+      "subtopic": "Objectives",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two objectives a private-sector business might set during an economic recession, and explain why each objective is appropriate. (4 marks)",
+      "hint": "Identify an objective (e.g. Survival, Cost minimisation / Sales maximisation) for 1 mark each, then explain WHY it suits a recession for 1 mark each.",
+      "acceptedPoints": [
+        "Identify 1: Survival \u2014 Explain 1: During a recession consumer spending falls, so the business must focus on covering its costs and staying trading until the economy recovers",
+        "Identify 2: Market share / Customer retention \u2014 Explain 2: Offering competitive value keeps loyal customers from switching to cheaper rivals while disposable incomes are low"
+      ],
+      "markingRule": "Award 1 mark for each valid objective identified (up to 2) and 1 mark for each matching explanation (up to 2).",
+      "solution": "\u2022 Identify 1: Survival. (1)\n\u2022 Explain 1: Because customers have less disposable income during a recession, sales fall, so the priority is covering basic costs to avoid bankruptcy. (1)\n\u2022 Identify 2: Maintaining market share / customer satisfaction. (1)\n\u2022 Explain 2: Keeping existing customers happy ensures repeat custom when competitors are fighting for fewer buyers. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (1(f))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-3",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(g)",
+      "topic": "Understanding Business",
+      "subtopic": "Internal & external factors",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two external factors (PESTEC) and explain how each could negatively affect a high-street restaurant. (4 marks)",
+      "hint": "Name a PESTEC factor (1 mark) and explain a negative impact on a restaurant (1 mark), twice.",
+      "acceptedPoints": [
+        "Identify 1: Economic factors \u2014 Explain 1: Rising inflation or interest rates reduce consumers' disposable income, meaning fewer people eat out and sales revenue falls",
+        "Identify 2: Competitive factors \u2014 Explain 2: A new rival restaurant opening nearby could attract customers away, forcing the restaurant to cut prices or lose market share",
+        "Identify 3: Political / Environmental \u2014 Explain 3: An increase in the National Minimum Wage or poor weather disrupting food supplies increases operating costs and reduces profit"
+      ],
+      "markingRule": "Award 1 mark for each PESTEC factor identified (up to 2) and 1 mark for each linked explanation (up to 2).",
+      "solution": "\u2022 Identify 1: Economic factor (e.g. rising interest rates / inflation). (1)\n\u2022 Explain 1: Customers have less disposable income to spend on dining out, which reduces the restaurant's sales revenue. (1)\n\u2022 Identify 2: Competitive factor (e.g. a new takeaway or restaurant opening nearby). (1)\n\u2022 Explain 2: Customers may switch to the rival, reducing market share and profit. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (1(g))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-multi-4",
+      "sourceYear": 2023,
+      "sourceQuestion": "1(d)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two stakeholders whose interests conflict when a business decides to replace factory workers with automated machines, and explain why they conflict. (3 marks)",
+      "hint": "Identify the two conflicting stakeholders (e.g. Owners/Shareholders vs Employees) for 1 mark, then explain each side's opposing view for 2 marks.",
+      "acceptedPoints": [
+        "Identify: Owners (or Shareholders) and Employees (or Trade Unions)",
+        "Explain 1: Owners want automation to cut long-term wage costs and increase productivity and profit",
+        "Explain 2: Employees oppose automation because it threatens their job security and leads to redundancies"
+      ],
+      "markingRule": "Award 1 mark for identifying a valid pair of conflicting stakeholders, and up to 2 marks for explaining both sides of the conflict.",
+      "solution": "\u2022 Identify: Owners/Shareholders and Employees. (1)\n\u2022 Explain 1: Owners want to introduce automated machinery to speed up output, lower wage costs and increase profits. (1)\n\u2022 Explain 2: Whereas employees want to protect their jobs and income, which are threatened by redundancy when machines replace staff. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (1(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-multi-5",
+      "sourceYear": 2018,
+      "sourceQuestion": "2(b)",
+      "topic": "Management of Marketing",
+      "subtopic": "Market research",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable method of field (primary) market research for testing customer reactions to a new chocolate bar recipe, and justify your choice. (3 marks)",
+      "hint": "Identify 'Focus group / consumer tasting panel' (1 mark), then give two justifications why tasting and group discussion works best (2 marks).",
+      "acceptedPoints": [
+        "Identify: Focus group / consumer panel (or free sample taste test with questionnaire)",
+        "Justify 1: Customers can actually taste the chocolate bar and give immediate qualitative feedback on flavour, texture and packaging",
+        "Justify 2: The researcher can ask follow-up questions in a group discussion to find out how to improve the recipe before launch"
+      ],
+      "markingRule": "Award 1 mark for identifying a valid field research method, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Focus group / consumer tasting panel. (1)\n\u2022 Justify 1: Participants can sample the new chocolate recipe in person and give honest qualitative feedback on the taste and packaging. (1)\n\u2022 Justify 2: The business can ask follow-up questions during the discussion to refine the product before full-scale production. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (2(b))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-6",
+      "sourceYear": 2019,
+      "sourceQuestion": "2(d)",
+      "topic": "Management of Marketing",
+      "subtopic": "Price",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable pricing strategy for a tech company launching a world-first virtual reality headset with no direct competitors, and justify your choice. (3 marks)",
+      "hint": "Think: unique innovative product with no rivals -> Price Skimming!",
+      "acceptedPoints": [
+        "Identify: Price skimming",
+        "Justify 1: Early adopters and tech enthusiasts are willing to pay a high initial price for a unique product with no rivals",
+        "Justify 2: The high profit margin per unit helps the company quickly recover its expensive Research and Development (R&D) costs"
+      ],
+      "markingRule": "Award 1 mark for identifying Price Skimming, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Price skimming. (1)\n\u2022 Justify 1: Because there are no direct competitors, keen early adopters will pay a high price to own the latest technology first. (1)\n\u2022 Justify 2: High initial margins enable the business to recoup its high research and development costs quickly before rivals enter the market. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (2(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-7",
+      "sourceYear": 2022,
+      "sourceQuestion": "2(d)",
+      "topic": "Management of Marketing",
+      "subtopic": "Place & distribution",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two factors a business should consider when choosing a location for a new retail store, and explain why each factor is important. (4 marks)",
+      "hint": "Name a location factor (1 mark) and explain its impact on the shop (1 mark), twice.",
+      "acceptedPoints": [
+        "Identify 1: Proximity to customers / high footfall \u2014 Explain 1: Locating in a busy shopping area ensures high visibility and passing trade, which increases sales revenue",
+        "Identify 2: Cost of rent / premises \u2014 Explain 2: Affordable rent keeps fixed overheads low, which protects cash flow and profit margins",
+        "Identify 3: Transport links & parking \u2014 Explain 3: Easy access for customers and delivery lorries attracts more shoppers and ensures shelves stay stocked"
+      ],
+      "markingRule": "Award 1 mark for each valid location factor identified (up to 2) and 1 mark for each linked explanation (up to 2).",
+      "solution": "\u2022 Identify 1: High customer footfall / closeness to target market. (1)\n\u2022 Explain 1: Being near busy pedestrian areas increases passing trade and boosts sales revenue. (1)\n\u2022 Identify 2: Availability of parking and transport links. (1)\n\u2022 Explain 2: Convenient parking makes it easier for customers to visit and carry purchases home, increasing customer numbers. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (2(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-multi-8",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(g)",
+      "topic": "Management of Marketing",
+      "subtopic": "Promotion & ethical marketing",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable method of advertising for a new local dog-walking business with a very small budget, and justify your choice. (3 marks)",
+      "hint": "Think local and low cost: social media page, local leaflets/flyers, or local community noticeboards.",
+      "acceptedPoints": [
+        "Identify: Social media page / local community Facebook groups (or local leaflets / flyers)",
+        "Justify 1: It is free or very low cost to set up, which suits a new start-up with a tiny marketing budget",
+        "Justify 2: Posts or leaflets can be targeted directly at pet owners in the immediate local area without wasting money advertising nationwide"
+      ],
+      "markingRule": "Award 1 mark for identifying a suitable low-cost local advertising method, and up to 2 marks for justifications linked to the context.",
+      "solution": "\u2022 Identify: Social media advertising in local community groups (or local leaflets). (1)\n\u2022 Justify 1: Creating and sharing posts on social media is free or very inexpensive, keeping costs within a small start-up budget. (1)\n\u2022 Justify 2: It targets dog owners in the exact local neighbourhood where the service operates, avoiding wasted national coverage. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (2(g))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-multi-9",
+      "sourceYear": 2018,
+      "sourceQuestion": "4(d)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify the most suitable method of production for a craft jeweller making a custom engagement ring to a customer's exact design, and justify your choice. (3 marks)",
+      "hint": "One-off bespoke item -> Job production!",
+      "acceptedPoints": [
+        "Identify: Job production",
+        "Justify 1: The ring is a unique one-off piece tailored to the individual customer's exact measurements and gemstone choice",
+        "Justify 2: High craftsmanship and bespoke quality allow the jeweller to charge a high premium price for the finished ring"
+      ],
+      "markingRule": "Award 1 mark for identifying Job Production, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Job production. (1)\n\u2022 Justify 1: Each engagement ring is a unique, one-off design made to the customer's exact personal specifications. (1)\n\u2022 Justify 2: Skilled craftsmanship ensures high customer satisfaction and allows the jeweller to charge a premium price. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (4(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-10",
+      "sourceYear": 2019,
+      "sourceQuestion": "4(d)",
+      "topic": "Management of Operations",
+      "subtopic": "Methods of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify the most suitable method of production for a bakery making 200 strawberry tarts, 200 chocolate eclairs and 200 scones each morning, and justify your choice. (3 marks)",
+      "hint": "Groups of identical items made in turns -> Batch production!",
+      "acceptedPoints": [
+        "Identify: Batch production",
+        "Justify 1: Items can be baked in separate groups of 200 using the same ovens and mixers, which keeps unit costs lower than making them one by one",
+        "Justify 2: Ingredient recipes can be changed between batches to offer customers a variety of different cakes and pastries"
+      ],
+      "markingRule": "Award 1 mark for identifying Batch Production, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Batch production. (1)\n\u2022 Justify 1: The same ovens and mixing equipment can be used to bake groups of 200 items at once, saving time and lowering unit costs. (1)\n\u2022 Justify 2: The bakery can easily switch ingredients between batches to provide customers with a variety of products. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (4(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-11",
+      "sourceYear": 2023,
+      "sourceQuestion": "3(d)",
+      "topic": "Management of Operations",
+      "subtopic": "Choosing suppliers",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two factors an operations manager should consider when choosing a supplier of raw materials, and explain how each factor affects the business. (4 marks)",
+      "hint": "Identify a factor (e.g. Price, Quality, Lead time/Reliability) for 1 mark and explain its impact for 1 mark, twice.",
+      "acceptedPoints": [
+        "Identify 1: Price of raw materials \u2014 Explain 1: A lower price reduces Cost of Sales, allowing the business to earn a higher profit margin or charge more competitive prices",
+        "Identify 2: Quality of raw materials \u2014 Explain 2: High-grade materials ensure the finished product is durable and reliable, reducing customer complaints and returns",
+        "Identify 3: Reliability / Lead time \u2014 Explain 3: On-time deliveries prevent stockouts so production never halts and customer orders are met on schedule"
+      ],
+      "markingRule": "Award 1 mark for each supplier factor identified (up to 2) and 1 mark for each matching explanation (up to 2).",
+      "solution": "\u2022 Identify 1: Price charged by the supplier. (1)\n\u2022 Explain 1: Lower material prices reduce production costs, which increases the business's profit margin. (1)\n\u2022 Identify 2: Quality of raw materials. (1)\n\u2022 Explain 2: Using high-quality inputs results in fewer faulty finished goods and higher customer satisfaction. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (3(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-multi-12",
+      "sourceYear": 2025,
+      "sourceQuestion": "3(f)",
+      "topic": "Management of Operations",
+      "subtopic": "Quality",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "describe"
+      ],
+      "primaryCommand": "identify + describe",
+      "text": "Identify two methods a hotel could use to check and maintain service quality, and describe how each method works. (4 marks)",
+      "hint": "Think: Mystery shopper, Customer feedback questionnaires / online reviews, Staff training, Benchmarking.",
+      "acceptedPoints": [
+        "Identify 1: Mystery shopper \u2014 Describe 1: An anonymous inspector poses as a normal hotel guest to experience and rate check-in, room cleanliness and dining service",
+        "Identify 2: Customer satisfaction survey \u2014 Describe 2: Guests are emailed a questionnaire after checkout asking them to score their stay and suggest improvements",
+        "Identify 3: Benchmarking \u2014 Describe 3: The hotel compares its service standards directly against the best-performing 5-star hotel in the industry"
+      ],
+      "markingRule": "Award 1 mark for each quality method identified (up to 2) and 1 mark for each accurate description (up to 2).",
+      "solution": "\u2022 Identify 1: Mystery guest / mystery shopper. (1)\n\u2022 Describe 1: An undercover evaluator stays at the hotel pretending to be a customer and writes a report on staff service and cleanliness. (1)\n\u2022 Identify 2: Customer feedback questionnaire. (1)\n\u2022 Describe 2: Guests complete an online survey after their stay to rate their experience and highlight any issues. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (3(f))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
+    },
+    {
+      "id": "sqa-multi-13",
+      "sourceYear": 2018,
+      "sourceQuestion": "5(d)",
+      "topic": "Management of People",
+      "subtopic": "Training",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable type of training for a newly hired supermarket checkout assistant on their first day, and justify your choice. (3 marks)",
+      "hint": "First day in a new job -> Induction training (or On-the-job training)!",
+      "acceptedPoints": [
+        "Identify: Induction training (or On-the-job training)",
+        "Justify 1: It introduces the new assistant to store layout, fire exits, health and safety rules and colleagues on day one",
+        "Justify 2: It helps the new starter feel welcome and confident quickly, reducing anxiety and early staff turnover"
+      ],
+      "markingRule": "Award 1 mark for identifying Induction (or On-the-job) training, and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Induction training. (1)\n\u2022 Justify 1: The new checkout assistant learns vital health and safety rules, store layout and company policies before starting work. (1)\n\u2022 Justify 2: Meeting colleagues on the first day helps them settle in quickly and feel confident in their new role. (1)",
+      "notes": [
+        "Authentic SQA 2018 National 5 Business Management past-paper question (5(d))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2018.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2018/N5_Business_2018_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-14",
+      "sourceYear": 2019,
+      "sourceQuestion": "5(c)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable financial method of motivation for a car salesperson, and justify your choice. (3 marks)",
+      "hint": "Sales role -> Commission (or performance bonus)!",
+      "acceptedPoints": [
+        "Identify: Commission (or performance-related bonus)",
+        "Justify 1: Earning a percentage of each car sold directly motivates the salesperson to work hard and close more sales",
+        "Justify 2: The business only pays out higher commission when sales revenue actually increases, making it cost-effective"
+      ],
+      "markingRule": "Award 1 mark for identifying Commission (or Bonus), and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Commission. (1)\n\u2022 Justify 1: Receiving a percentage of the sale value of every car sold incentivises the salesperson to persuade more customers to buy. (1)\n\u2022 Justify 2: Higher commission payments are directly funded by the extra sales revenue generated for the dealership. (1)",
+      "notes": [
+        "Authentic SQA 2019 National 5 Business Management past-paper question (5(c))."
+      ],
+      "paperUrl": "https://www.learnyay.co.uk/wp-content/uploads/2021/02/sqa-national-5-business-management-paper-1-question-paper-may-2019.pdf",
+      "markingUrl": "https://nat5.sqa.my/business/2019/N5_Business_2019_Marking.pdf"
+    },
+    {
+      "id": "sqa-multi-15",
+      "sourceYear": 2022,
+      "sourceQuestion": "4(c)",
+      "topic": "Management of People",
+      "subtopic": "Motivation, payment & working practices",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "describe"
+      ],
+      "primaryCommand": "identify + describe",
+      "text": "Identify two non-financial methods an employer could use to motivate staff, and describe how each method works. (4 marks)",
+      "hint": "Think: Job enlargement, Job rotation, Empowerment, Teamworking, Praise/Employee of the Month, Flexible working.",
+      "acceptedPoints": [
+        "Identify 1: Job rotation \u2014 Describe 1: Employees switch between different tasks or workstations periodically to prevent boredom and build multi-skilling",
+        "Identify 2: Empowerment / Delegation \u2014 Describe 2: Managers give staff authority to make decisions about their own work, making them feel trusted and valued",
+        "Identify 3: Praise and recognition (e.g. Employee of the Month) \u2014 Describe 3: Publicly rewarding outstanding effort in front of colleagues to boost self-esteem"
+      ],
+      "markingRule": "Award 1 mark for each non-financial method identified (up to 2) and 1 mark for each matching description (up to 2).",
+      "solution": "\u2022 Identify 1: Job rotation. (1)\n\u2022 Describe 1: Workers move between different tasks during the week to add variety and reduce boredom. (1)\n\u2022 Identify 2: Empowerment. (1)\n\u2022 Describe 2: Employees are trusted with responsibility to make decisions about how they complete their work. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (4(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-multi-16",
+      "sourceYear": 2023,
+      "sourceQuestion": "4(f)",
+      "topic": "Management of People",
+      "subtopic": "Equality & health and safety",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "describe"
+      ],
+      "primaryCommand": "identify + describe",
+      "text": "Identify two pieces of employment legislation and describe one duty each places on an employer. (4 marks)",
+      "hint": "Think: Equality Act 2010, Health and Safety at Work Act 1974, National Minimum Wage Act 1998.",
+      "acceptedPoints": [
+        "Identify 1: Health and Safety at Work Act 1974 \u2014 Describe 1: The employer must provide safe equipment, protective clothing (PPE), risk assessments and health and safety training",
+        "Identify 2: Equality Act 2010 \u2014 Describe 2: The employer must not discriminate against applicants or staff based on protected characteristics such as age, sex, race, disability or religion",
+        "Identify 3: National Minimum Wage Act \u2014 Describe 3: The employer must pay workers at least the legal minimum hourly rate for their age group"
+      ],
+      "markingRule": "Award 1 mark for each Act identified (up to 2) and 1 mark for each accurate employer duty described (up to 2).",
+      "solution": "\u2022 Identify 1: Health and Safety at Work Act 1974. (1)\n\u2022 Describe 1: Employers must provide a safe working environment, safety training and protective equipment (PPE). (1)\n\u2022 Identify 2: Equality Act 2010. (1)\n\u2022 Describe 2: Employers must treat all staff and job applicants fairly and must not discriminate on grounds such as gender, race, age or disability. (1)",
+      "notes": [
+        "Authentic SQA 2023 National 5 Business Management past-paper question (4(f))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
+    },
+    {
+      "id": "sqa-multi-17",
+      "sourceYear": 2024,
+      "sourceQuestion": "6(c)",
+      "topic": "Management of Finance",
+      "subtopic": "Sources of finance",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 3,
+      "commands": [
+        "identify",
+        "justify"
+      ],
+      "primaryCommand": "identify + justify",
+      "text": "Identify one suitable short-term source of finance for a seasonal gift shop facing a temporary 3-week cash flow deficit in November before Christmas sales arrive, and justify your choice. (3 marks)",
+      "hint": "Short-term temporary cash deficit -> Bank overdraft (or Trade credit)!",
+      "acceptedPoints": [
+        "Identify: Bank overdraft (or Trade credit)",
+        "Justify 1: An overdraft is quick and flexible to arrange for a short 3-week period and can be paid off as soon as December Christmas cash sales come in",
+        "Justify 2: Interest is only charged on the exact amount overdrawn for those 3 weeks, making it cheaper than taking out a long-term loan"
+      ],
+      "markingRule": "Award 1 mark for identifying a Bank Overdraft (or Trade Credit), and up to 2 marks for valid justifications.",
+      "solution": "\u2022 Identify: Bank overdraft. (1)\n\u2022 Justify 1: It provides flexible short-term cover for the 3-week deficit and is automatically cleared when December cash receipts arrive. (1)\n\u2022 Justify 2: Interest is only paid on the daily amount overdrawn for those few weeks rather than being locked into a long-term loan. (1)",
+      "notes": [
+        "Authentic SQA 2024 National 5 Business Management past-paper question (6(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
+    },
+    {
+      "id": "sqa-multi-18",
+      "sourceYear": 2022,
+      "sourceQuestion": "5(d)",
+      "topic": "Management of Finance",
+      "subtopic": "Cash budgets",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two causes of a cash flow deficit in a profitable business, and explain how each cause creates a cash shortage. (4 marks)",
+      "hint": "Why can a profitable business run out of cash? Think: giving customers too long credit terms, tying cash up in excess stock, or buying expensive assets for cash.",
+      "acceptedPoints": [
+        "Identify 1: Giving credit customers too long to pay \u2014 Explain 1: The sale is recorded as profit immediately, but no actual cash enters the bank account for 60 or 90 days to pay bills",
+        "Identify 2: Overstocking (buying too much inventory) \u2014 Explain 2: Large amounts of cash are paid out to suppliers and remain tied up in unsold stock in the warehouse",
+        "Identify 3: Purchasing expensive capital equipment with cash \u2014 Explain 3: A huge one-off cash outflow leaves the bank account immediately instead of being spread via leasing or hire purchase"
+      ],
+      "markingRule": "Award 1 mark for each valid cause identified (up to 2) and 1 mark for each linked explanation (up to 2).",
+      "solution": "\u2022 Identify 1: Allowing credit customers too long to pay their invoices. (1)\n\u2022 Explain 1: Even though the sale counts towards profit, cash inflows are delayed so the business lacks cash to pay its own immediate bills. (1)\n\u2022 Identify 2: Purchasing too much inventory (overstocking). (1)\n\u2022 Explain 2: Cash is spent immediately on stock that sits unsold in the warehouse instead of staying in the bank account. (1)",
+      "notes": [
+        "Authentic SQA 2022 National 5 Business Management past-paper question (5(d))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
+    },
+    {
+      "id": "sqa-multi-19",
+      "sourceYear": 2025,
+      "sourceQuestion": "6(c)",
+      "topic": "Management of Finance",
+      "subtopic": "Break-even & costs",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 4,
+      "commands": [
+        "identify",
+        "explain"
+      ],
+      "primaryCommand": "identify + explain",
+      "text": "Identify two actions a business could take to lower its break-even point, and explain how each action reduces the number of units needed to break even. (4 marks)",
+      "hint": "To break even at fewer units, either increase contribution per unit (raise selling price / cut variable cost) or reduce fixed costs!",
+      "acceptedPoints": [
+        "Identify 1: Increase the selling price per unit \u2014 Explain 1: Each unit sold generates more revenue and higher contribution, so fewer units need to be sold to cover total costs",
+        "Identify 2: Switch to a cheaper supplier of raw materials (reduce variable costs) \u2014 Explain 2: Lower variable cost per unit increases the contribution per unit towards paying off fixed costs",
+        "Identify 3: Reduce fixed costs (e.g. move to cheaper premises) \u2014 Explain 3: There is a smaller total fixed overhead to recover, so the Total Cost line drops and crosses Total Revenue at a lower output"
+      ],
+      "markingRule": "Award 1 mark for each valid action identified (up to 2) and 1 mark for each matching explanation (up to 2).",
+      "solution": "\u2022 Identify 1: Increase the selling price of the product. (1)\n\u2022 Explain 1: Higher revenue is earned on every unit sold, meaning fewer sales are required to cover total costs. (1)\n\u2022 Identify 2: Reduce fixed costs (such as negotiating lower rent) or find a cheaper raw material supplier. (1)\n\u2022 Explain 2: Lower total costs mean the Total Revenue line intersects the Total Cost line at a lower level of output. (1)",
+      "notes": [
+        "Authentic SQA 2025 National 5 Business Management past-paper question (6(c))."
+      ],
+      "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2025/N5_Business-Management_QP_2025.pdf",
+      "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2025/mi_N5_Business-Management_mi_2025.pdf"
     }
   ],
   "caseStudies": [

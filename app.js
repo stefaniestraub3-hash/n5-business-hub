@@ -787,12 +787,20 @@
                     <span class="badge">${ currentQ.marks } ${ currentQ.marks === 1 ? "mark" : "marks" }</span>
                     <span class="badge">Level ${escapeHtml(currentQ.computedLevel || currentQ.level || "B")}</span>
                     <span class="badge">${escapeHtml(currentQ.topic)} · ${escapeHtml(currentQ.subtopic)}</span>
-                    <span class="badge">${escapeHtml(String(currentQ.sourceYear))} ${escapeHtml(currentQ.sourceQuestion)}</span>
+                    <span class="badge">SQA Past Paper · ${escapeHtml(String(currentQ.sourceYear))} · Q${escapeHtml(String(currentQ.sourceQuestion).replace(/^Q/i, ""))}</span>
                   </div>
                   <span style="font-size:13px;font-weight:600;color:var(--text-muted);">
                     Drill Question ${safeIdx + 1} of ${questions.length}
                   </span>
                 </div>
+
+                ${currentQ.paperUrl || currentQ.markingUrl ? `
+                  <div style="font-size:12.5px;margin-bottom:8px;">
+                    ${currentQ.paperUrl ? `<a href="${escapeHtml(currentQ.paperUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">Open original SQA ${escapeHtml(String(currentQ.sourceYear))} paper ↗</a>` : ""}
+                    ${currentQ.paperUrl && currentQ.markingUrl ? " · " : ""}
+                    ${currentQ.markingUrl ? `<a href="${escapeHtml(currentQ.markingUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">Open official SQA marking instructions ↗</a>` : ""}
+                  </div>
+                ` : ""}
 
                 <h3 style="font-size:18px;margin:8px 0 12px 0;line-height:1.45;">
                   ${escapeHtml(currentQ.text)}
