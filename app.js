@@ -1468,6 +1468,11 @@
             </div>
           </div>
           <div class="user-pill-row">
+            ${!isStandaloneApp ? `
+              <button type="button" class="btn btn-primary btn-sm" id="btn-top-install-app" style="background:#0d9488;">
+                📲 Add App to Phone
+              </button>
+            ` : ""}
             <span class="badge badge-primary">
               👤 ${escapeHtml(state.user.name)} ${state.user.classCode ? `(${escapeHtml(state.user.classCode)})` : "(Teacher)"}
             </span>
@@ -1476,6 +1481,16 @@
             </button>
           </div>
         </header>
+        ${state.showTopPhoneModal && !isStandaloneApp ? `
+          <div style="margin:12px auto 0;max-width:1180px;padding:12px 16px;background:#f0fdfa;border:1.5px solid #0d9488;border-radius:12px;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+            <div>
+              <strong>📲 Add the Green "N5 Business" App Icon to Your Phone Screen:</strong><br/>
+              🍎 <strong>iPhone (Safari):</strong> Tap <strong>Share (↑)</strong> at the bottom &rarr; tap <strong>"Add to Home Screen" (➕)</strong> &rarr; <strong>Add</strong>.<br/>
+              🤖 <strong>Android (Chrome):</strong> Tap the <strong>3 dots (⋮)</strong> top-right &rarr; tap <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong>.
+            </div>
+            <button type="button" class="btn btn-outline btn-sm" id="btn-close-top-install">Got it</button>
+          </div>
+        ` : ""}
 
         <!-- OVERVIEW DASHBOARD & COURSE CARDS -->
         <section class="dashboard-overview">
@@ -1721,6 +1736,24 @@
         } catch {}
       }
       state.showPhoneAppModal = !state.showPhoneAppModal;
+      render();
+    });
+
+    document.getElementById("btn-top-install-app")?.addEventListener("click", async () => {
+      if (deferredInstallPrompt) {
+        try {
+          deferredInstallPrompt.prompt();
+          await deferredInstallPrompt.userChoice;
+          deferredInstallPrompt = null;
+          return;
+        } catch {}
+      }
+      state.showTopPhoneModal = !state.showTopPhoneModal;
+      render();
+    });
+
+    document.getElementById("btn-close-top-install")?.addEventListener("click", () => {
+      state.showTopPhoneModal = false;
       render();
     });
 
