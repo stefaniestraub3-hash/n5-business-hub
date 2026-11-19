@@ -2491,6 +2491,21 @@
         e.preventDefault();
         const name = state.loginName.trim();
         const code = state.loginCode.trim().toUpperCase();
+        // Private Teacher Access directly from the installed phone app (no teacher buttons shown to pupils)
+        if ((name.toLowerCase().includes("straub") || name.toLowerCase() === "teacher") && (code === "2026" || code === "STRAUB")) {
+          state.user = {
+            userId: "teacher-mrs-straub",
+            name: "Mrs Straub",
+            role: "teacher",
+            classCode: "TEACHER",
+            className: "Business Teacher"
+          };
+          state.teacherUnlocked = true;
+          state.activeTab = "teacher";
+          state.loginError = "";
+          saveLocalState();
+          return render();
+        }
         if (name.length < 2) {
           state.loginError = "Please enter your full name.";
           return render();
