@@ -227,6 +227,7 @@
       attempts: init.attempts || [],
       caseAttempts: init.caseAttempts || [],
       homeworkSubmissions: init.homeworkSubmissions || [],
+      trackingRecords: init.trackingRecords || {},
       reviseTerms: [],
       customVideos: {}
     };
@@ -241,6 +242,7 @@
         attempts: state.attempts,
         caseAttempts: state.caseAttempts,
         homeworkSubmissions: state.homeworkSubmissions,
+        trackingRecords: state.trackingRecords || {},
         reviseTerms: state.reviseTerms,
         customVideos: state.customVideos,
         rememberedPupil: state.rememberedPupil
@@ -356,6 +358,8 @@
     attempts: saved.attempts,
     caseAttempts: saved.caseAttempts,
     homeworkSubmissions: saved.homeworkSubmissions,
+    trackingRecords: saved.trackingRecords || {},
+    trackingClassFilter: 'All',
     customVideos: saved.customVideos || {}
   };
 
@@ -2045,6 +2049,88 @@
             </div>
           </div>
         </div>
+        <!-- CLASS FULL TRACKING SHEET (CSV IMPORT / LIVE EDIT / EXPORT) -->
+        <div class="side-card" style="margin-top:20px;background:#ffffff;border:2px solid var(--border-strong);">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px;">
+            <div>
+              <p class="kicker" style="margin:0;">CLASS TRACKING &amp; MONITORING</p>
+              <h3 style="margin:2px 0 0 0;">📋 Full Class Tracking Sheet (Import, Update &amp; Export)</h3>
+              <p style="margin:4px 0 0 0;font-size:13px;color:var(--text-muted);">Import your Excel / Google Sheets tracking CSV, update grades, prelims, assignment marks &amp; notes right here (auto-saves), and export back to CSV anytime.</p>
+            </div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;" class="no-print">
+              <label class="btn btn-primary btn-sm" style="cursor:pointer;margin:0;">
+                📥 Import Tracking CSV
+                <input type="file" id="tracking-csv-file" accept=".csv,text/csv" style="display:none;" />
+              </label>
+              <button type="button" class="btn btn-soft btn-sm" id="btn-export-tracking-csv">📤 Export CSV</button>
+              <button type="button" class="btn btn-outline btn-sm" id="btn-add-tracking-row">➕ Add Pupil</button>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;" class="no-print">
+            <label style="font-size:13px;font-weight:700;">Filter Class:</label>
+            <select id="tracking-class-filter" style="width:auto;min-width:140px;padding:6px 10px;">
+              <option value="All" ${state.trackingClassFilter === "All" ? "selected" : ""}>All Classes</option>
+              <option value="4GBM" ${state.trackingClassFilter === "4GBM" ? "selected" : ""}>4GBM</option>
+              <option value="4FBM" ${state.trackingClassFilter === "4FBM" ? "selected" : ""}>4FBM</option>
+              <option value="4CBM" ${state.trackingClassFilter === "4CBM" ? "selected" : ""}>4CBM</option>
+              <option value="4E" ${state.trackingClassFilter === "4E" ? "selected" : ""}>4E</option>
+            </select>
+            <span id="tracking-save-status" style="font-size:12.5px;color:var(--primary);font-weight:600;">✓ Auto-saved on this device</span>
+          </div>
+
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Pupil Name</th>
+                  <th>Class</th>
+                  <th>Target</th>
+                  <th>Working</th>
+                  <th>Prelim %</th>
+                  <th>Assignment /30</th>
+                  <th>Effort</th>
+                  <th>Teacher Notes / Next Steps</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${(() => {
+                  const basePupils = (state.pupils || []).map(p => ({
+                    key: (p.name || "").trim().toLowerCase(),
+                    name: p.name,
+                    className: p.className || p.classCode || ""
+                  }));
+                  const extraKeys = Object.keys(state.trackingRecords || {}).filter(k => !basePupils.some(p => p.key === k));
+                  const allRows = [
+                    ...basePupils,
+                    ...extraKeys.map(k => ({
+                      key: k,
+                      name: state.trackingRecords[k]?.name || k,
+                      className: state.trackingRecords[k]?.className || ""
+                    }))
+                  ].filter(r => state.trackingClassFilter === "All" || (r.className || "").toUpperCase().includes(state.trackingClassFilter));
+
+                  return allRows.map(r => {
+                    const rec = (state.trackingRecords || {})[r.key] || {};
+                    const cls = rec.className || r.className || "";
+                    return `
+                      <tr>
+                        <td style="font-weight:700;white-space:nowrap;">${escapeHtml(rec.name || r.name)}</td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="className" value="${escapeHtml(cls)}" style="min-width:68px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="target" value="${escapeHtml(rec.target || "")}" placeholder="A/B/C" style="min-width:58px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="working" value="${escapeHtml(rec.working || "")}" placeholder="A/B/C" style="min-width:58px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="prelim" value="${escapeHtml(rec.prelim || "")}" placeholder="%" style="min-width:64px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="assignment" value="${escapeHtml(rec.assignment || "")}" placeholder="/30" style="min-width:64px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="effort" value="${escapeHtml(rec.effort || "")}" placeholder="1-4" style="min-width:58px;padding:5px 7px;font-size:13px;" /></td>
+                        <td><input type="text" data-track-key="${escapeHtml(r.key)}" data-track-field="notes" value="${escapeHtml(rec.notes || "")}" placeholder="Notes / interventions..." style="min-width:170px;padding:5px 7px;font-size:13px;" /></td>
+                      </tr>
+                    `;
+                  }).join("");
+                })()}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </section>
     `;
   }
@@ -2662,6 +2748,121 @@
 
     document.getElementById("btn-print-teacher-report")?.addEventListener("click", () => {
       window.print();
+    });
+
+    // CLASS TRACKING IMPORT / EDIT / EXPORT EVENTS
+    document.getElementById("tracking-class-filter")?.addEventListener("change", e => {
+      state.trackingClassFilter = e.target.value;
+      render();
+    });
+
+    document.querySelectorAll("[data-track-key]").forEach(inp => {
+      inp.addEventListener("input", e => {
+        const key = inp.getAttribute("data-track-key");
+        const field = inp.getAttribute("data-track-field");
+        state.trackingRecords = state.trackingRecords || {};
+        if (!state.trackingRecords[key]) {
+          const p = (state.pupils || []).find(x => (x.name || "").trim().toLowerCase() === key);
+          state.trackingRecords[key] = { name: p?.name || key, className: p?.className || p?.classCode || "" };
+        }
+        state.trackingRecords[key][field] = e.target.value;
+        saveLocalState();
+        const st = document.getElementById("tracking-save-status");
+        if (st) st.textContent = "✓ Saved just now";
+      });
+    });
+
+    document.getElementById("btn-add-tracking-row")?.addEventListener("click", () => {
+      const name = prompt("Enter pupil full name:");
+      if (!name || !name.trim()) return;
+      const cls = prompt("Enter class (e.g. 4GBM, 4FBM, 4CBM, 4E):", state.trackingClassFilter !== "All" ? state.trackingClassFilter : "4GBM") || "";
+      const key = name.trim().toLowerCase();
+      state.trackingRecords = state.trackingRecords || {};
+      state.trackingRecords[key] = { ...(state.trackingRecords[key] || {}), name: name.trim(), className: cls.trim() };
+      saveLocalState();
+      render();
+    });
+
+    document.getElementById("tracking-csv-file")?.addEventListener("change", e => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = ev => {
+        const text = String(ev.target?.result || "");
+        const lines = text.split(/\r?\n/).filter(l => l.trim());
+        if (lines.length < 2) { alert("CSV file appears empty."); return; }
+        const parseCsvLine = line => {
+          const res = []; let cur = ""; let inQ = false;
+          for (let i = 0; i < line.length; i++) {
+            const ch = line[i];
+            if (ch === '"') { inQ = !inQ; }
+            else if (ch === ',' && !inQ) { res.push(cur.trim()); cur = ""; }
+            else cur += ch;
+          }
+          res.push(cur.trim());
+          return res;
+        };
+        const headers = parseCsvLine(lines[0]).map(h => h.toLowerCase());
+        const findCol = keys => headers.findIndex(h => keys.some(k => h.includes(k)));
+        const iName = Math.max(0, findCol(["name", "pupil", "student"]));
+        const iClass = findCol(["class", "reg", "group"]);
+        const iTarget = findCol(["target", "tg"]);
+        const iWork = findCol(["work", "current", "grade", "wg"]);
+        const iPrelim = findCol(["prelim", "exam", "test", "score"]);
+        const iAssign = findCol(["assign", "coursework"]);
+        const iEffort = findCol(["effort", "behav", "att"]);
+        const iNotes = findCol(["note", "comment", "next", "interven"]);
+
+        state.trackingRecords = state.trackingRecords || {};
+        let count = 0;
+        for (let i = 1; i < lines.length; i++) {
+          const cols = parseCsvLine(lines[i]);
+          const name = (cols[iName] || "").trim();
+          if (!name) continue;
+          const key = name.toLowerCase();
+          const prev = state.trackingRecords[key] || {};
+          state.trackingRecords[key] = {
+            ...prev,
+            name,
+            className: iClass >= 0 ? (cols[iClass] || prev.className || "") : (prev.className || ""),
+            target: iTarget >= 0 ? (cols[iTarget] || prev.target || "") : (prev.target || ""),
+            working: iWork >= 0 ? (cols[iWork] || prev.working || "") : (prev.working || ""),
+            prelim: iPrelim >= 0 ? (cols[iPrelim] || prev.prelim || "") : (prev.prelim || ""),
+            assignment: iAssign >= 0 ? (cols[iAssign] || prev.assignment || "") : (prev.assignment || ""),
+            effort: iEffort >= 0 ? (cols[iEffort] || prev.effort || "") : (prev.effort || ""),
+            notes: iNotes >= 0 ? (cols[iNotes] || prev.notes || "") : (prev.notes || "")
+          };
+          count++;
+        }
+        saveLocalState();
+        alert(`Imported tracking data for ${count} pupils!`);
+        render();
+      };
+      reader.readAsText(file);
+    });
+
+    document.getElementById("btn-export-tracking-csv")?.addEventListener("click", () => {
+      const esc = v => '"' + String(v || "").replace(/"/g, '""') + '"';
+      const rows = [["Pupil Name", "Class", "Target Grade", "Working Grade", "Prelim %", "Assignment /30", "Effort", "Teacher Notes"]];
+      const seen = new Set();
+      for (const p of (state.pupils || [])) {
+        const key = (p.name || "").trim().toLowerCase();
+        seen.add(key);
+        const rec = (state.trackingRecords || {})[key] || {};
+        rows.push([rec.name || p.name, rec.className || p.className || p.classCode || "", rec.target || "", rec.working || "", rec.prelim || "", rec.assignment || "", rec.effort || "", rec.notes || ""]);
+      }
+      for (const [key, rec] of Object.entries(state.trackingRecords || {})) {
+        if (seen.has(key)) continue;
+        rows.push([rec.name || key, rec.className || "", rec.target || "", rec.working || "", rec.prelim || "", rec.assignment || "", rec.effort || "", rec.notes || ""]);
+      }
+      const csv = rows.map(r => r.map(esc).join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "N5_Business_Class_Tracking.csv";
+      a.click();
+      URL.revokeObjectURL(url);
     });
 
     // DRILLS TAB EVENTS
