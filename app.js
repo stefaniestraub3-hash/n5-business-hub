@@ -990,7 +990,7 @@
     const topicLessons = DATA.lessons.filter(l => l.topic === state.lessonTopic);
     const activeLesson = topicLessons.find(l => l.title === state.lessonTitle) || topicLessons[0] || DATA.lessons[0];
     const customVid = state.customVideos[activeLesson.title];
-    const videoId = customVid?.videoId || activeLesson.video?.videoId || "vjnHyYKHey4";
+    const videoId = customVid?.videoId || activeLesson.video?.videoId || "";
     const videoTitle = customVid?.title || activeLesson.video?.title || activeLesson.title;
     const ytSearchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent("SQA National 5 Business Management " + activeLesson.title)}`;
 
@@ -1071,11 +1071,13 @@
                   <h4>▶ ${escapeHtml(videoTitle)}</h4>
                 </div>
                 <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                  <a href="https://www.youtube.com/watch?v=${escapeHtml(videoId)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">
-                    Watch on YouTube ↗
-                  </a>
-                  <a href="${escapeHtml(ytSearchUrl)}" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="background:#1e293b;color:#fff;border-color:#334155;">
-                    More N5 Videos on Topic ↗
+                  ${videoId ? `
+                    <a href="https://www.youtube.com/watch?v=${escapeHtml(videoId)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">
+                      Watch on YouTube ↗
+                    </a>
+                  ` : ""}
+                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="background:#4c1d95;color:#fff;border-color:#7c3aed;">
+                    Your Business Tutor (N5) ↗
                   </a>
                 </div>
               </div>
