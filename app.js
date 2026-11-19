@@ -266,7 +266,8 @@
       ],
       teachers: init.teachers || [
         { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] },
-        { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4E2026", isOwner: false, assignedClasses: ["ABCD"] }
+        { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4E2026", isOwner: false, assignedClasses: ["ABCD"] },
+        { id: "teacher-craig-stephenson", name: "Craig Stephenson", pin: "CS2026", isOwner: false, assignedClasses: ["ALL"] }
       ],
       pupils: init.pupils || [],
       attempts: init.attempts || [],
@@ -3844,6 +3845,21 @@
         owner: false,
         pinVerified: true,
         assignedClasses: ["ABCD"],
+        classCode: "TEACHER",
+        className: "Teacher"
+      };
+      state.teacherUnlocked = true;
+      state.activeTab = "teacher";
+      saveLocalState();
+    } else if ((state.user?.name || "").trim().toLowerCase() === "craig stephenson") {
+      state.user = {
+        userId: "teacher-craig-stephenson",
+        name: "Craig Stephenson",
+        role: "teacher",
+        teacher: true,
+        owner: false,
+        pinVerified: true,
+        assignedClasses: ["ALL"],
         classCode: "TEACHER",
         className: "Teacher"
       };
