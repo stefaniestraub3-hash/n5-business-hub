@@ -1295,9 +1295,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "56aAi4tIAok",
-        "title": "Promotional Strategies, Advertising, Sales Promotions & Ethical Marketing",
-        "channel": "Sense Business Studies",
+        "videoId": "NKYRcMdYxzk",
+        "title": "Into and Out the Pipeline Promotion — Scottish Educational Videos",
+        "channel": "Scottish Educational Videos",
         "duration": "11:05",
         "summary": "Into-the-pipeline and out-of-the-pipeline promotion, advertising media, public relations, BOGOF, loyalty cards, and ethical marketing practices."
       }
@@ -1674,9 +1674,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "fQnXmitjEWQ",
-        "title": "Methods of Production Explained: Job, Batch and Flow Production",
-        "channel": "Business Teacher T",
+        "videoId": "AibcJmIom04",
+        "title": "Quality Methods in Production — Scottish Educational Videos",
+        "channel": "Scottish Educational Videos",
         "duration": "11:40",
         "summary": "Compares job production, batch production and flow production, plus labour-intensive vs capital-intensive manufacturing."
       }
@@ -1764,9 +1764,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "O9KjWuPAGWk",
-        "title": "Maintaining Consistent Quality: Quality Control, Quality Assurance & TQM",
-        "channel": "Business Revision Hub",
+        "videoId": "C_S63xDfgok",
+        "title": "Ensuring Quality — Scottish Educational Videos",
+        "channel": "Scottish Educational Videos",
         "duration": "9:18",
         "summary": "How high-quality raw materials, staff training, Quality Control (end inspection), Quality Assurance (every stage), mystery shoppers and benchmarking ensure quality."
       }
@@ -1853,9 +1853,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "B6N1d6UmJqg",
-        "title": "Ethical & Environmental Operations: Recycling, Waste Reduction & Sustainability",
-        "channel": "Business Revision Hub",
+        "videoId": "r1w5FXX2FeQ",
+        "title": "Ethics in Operations — Scottish Educational Videos",
+        "channel": "Scottish Educational Videos",
         "duration": "8:45",
         "summary": "Minimising waste, reducing packaging, recycling, ethical sourcing (Fairtrade) and the business costs vs reputation benefits."
       }
