@@ -524,15 +524,15 @@
               This private portal is only accessible via your personal teacher link (<code>?teacher=1</code>) and does <strong>not</strong> appear on the pupils' login page.
             </p>
 
-            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #0f766e;">
-              <div style="font-weight:800;font-size:16px;color:#0f766e;">🎓 Mrs Straub — Teacher Dashboard &amp; Class Records</div>
+            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #7c3aed;">
+              <div style="font-weight:800;font-size:16px;color:#7c3aed;">🎓 Mrs Straub — Teacher Dashboard &amp; Class Records</div>
               <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock individual pupil records, saved answers, practice marks, and monthly homework results.</p>
               <div style="display:flex;flex-direction:column;gap:10px;">
                 <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
                   <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #cbd5e1;font-size:14.5px;" />
                 </label>
                 <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Password / PIN
-                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #0f766e;font-size:15px;" />
+                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #7c3aed;font-size:15px;" />
                 </label>
               </div>
               ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13.5px;font-weight:700;padding:8px 10px;background:#fef2f2;border-radius:8px;border:1px solid #fecaca;">${escapeHtml(state.teacherPinError)}</div>` : ""}
@@ -606,14 +606,14 @@
           </form>
 
           <!-- ADD TO PHONE HOME SCREEN APP ICON BUTTON -->
-          <div style="margin-top:14px;padding:12px;border-radius:12px;background:#f0fdfa;border:1.5px solid #99f6e4;">
-            <button type="button" class="btn btn-primary" id="btn-install-phone-app" style="width:100%;padding:11px;background:#0d9488;font-size:14px;">
+          <div style="margin-top:14px;padding:12px;border-radius:12px;background:#f5f3ff;border:1.5px solid #c4b5fd;">
+            <button type="button" class="btn btn-primary" id="btn-install-phone-app" style="width:100%;padding:11px;background:#7c3aed;font-size:14px;">
               📲 Add "N5 Business" App Button to My Phone Screen
             </button>
             ${state.showPhoneAppModal ? `
               <div style="margin-top:10px;padding:12px;background:#ffffff;border-radius:10px;border:1px solid #cbd5e1;font-size:13px;line-height:1.5;color:var(--text);">
                 <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
-                  <div style="width:42px;height:42px;border-radius:10px;background:#0f766e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;flex-shrink:0;">
+                  <div style="width:42px;height:42px;border-radius:10px;background:#7c3aed;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;flex-shrink:0;">
                     <span style="font-size:16px;line-height:1;">N5</span>
                     <span style="font-size:6px;">BUSINESS</span>
                   </div>
@@ -623,7 +623,7 @@
                 </div>
                 <div style="margin-bottom:6px;">🍎 <strong>On iPhone (Safari):</strong><br/>1. Tap the <strong>Share</strong> button <strong>(square with arrow ↑)</strong> at the bottom of Safari.<br/>2. Scroll down and tap <strong>"Add to Home Screen" (➕)</strong>, then tap <strong>Add</strong>.</div>
                 <div>🤖 <strong>On Android (Chrome):</strong><br/>1. Tap the <strong>3 dots (⋮)</strong> in the top-right corner of Chrome.<br/>2. Tap <strong>"Add to Home screen"</strong> or <strong>"Install app"</strong>.</div>
-                <div style="margin-top:8px;color:#0f766e;font-weight:700;">✓ Once added, tapping the N5 Business icon on your phone opens straight into your account!</div>
+                <div style="margin-top:8px;color:#7c3aed;font-weight:700;">✓ Once added, tapping the N5 Business icon on your phone opens straight into your account!</div>
               </div>
             ` : ""}
           </div>
@@ -756,7 +756,7 @@
                   <button type="button" class="btn btn-outline btn-sm" id="btn-top-prev-drill">
                     ← Prev
                   </button>
-                  <select id="drill-question-jump" aria-label="Jump to drill question" style="flex:1;min-width:160px;font-weight:700;border-color:var(--primary);background:#f0fdfa;">
+                  <select id="drill-question-jump" aria-label="Jump to drill question" style="flex:1;min-width:160px;font-weight:700;border-color:var(--primary);background:#f5f3ff;">
                     ${questions.map((qItem, qIdx) => `
                       <option value="${qIdx}" ${qIdx === safeIdx ? "selected" : ""}>
                         Q${qIdx + 1} of ${questions.length} · ${escapeHtml(String(qItem.sourceYear))} Q${escapeHtml(String(qItem.sourceQuestion).replace(/^Q/i, ""))} (${escapeHtml(qItem.subtopic)})
@@ -769,10 +769,10 @@
                 </div>
 
                 <!-- COMPACT COMMAND WORD BLUEPRINT & YOUTUBE GUIDE TOGGLE BAR -->
-                <div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#f0fdfa;border:1px solid #99f6e4;">
+                <div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#f5f3ff;border:1px solid #c4b5fd;">
                   <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
                     <div style="font-size:13px;">
-                      <strong style="color:#0f766e;">🎯 ${escapeHtml(guide.command.toUpperCase())} Rule:</strong>
+                      <strong style="color:#7c3aed;">🎯 ${escapeHtml(guide.command.toUpperCase())} Rule:</strong>
                       <span>${escapeHtml(guide.formula)}</span>
                     </div>
                     <div style="display:flex;gap:6px;flex-wrap:wrap;">
@@ -786,7 +786,7 @@
                   </div>
 
                   ${state.drillShowBlueprint ? `
-                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid #99f6e4;">
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid #c4b5fd;">
                       <p style="margin:0 0 8px 0;font-size:13px;color:var(--text-secondary);">${escapeHtml(guide.rule)}</p>
                       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;font-size:12.5px;">
                         <div style="background:#dcfce7;border:1px solid #86efac;padding:9px;border-radius:8px;">
@@ -1201,7 +1201,7 @@
                     const tRev = state.lessonTaskRevealed[tKey];
                     return `
                       <div class="side-card" style="background:#f8fafc;">
-                        <strong style="font-size:13.5px;color:#0f766e;">Task ${idx + 1}: ${escapeHtml(t.prompt)}</strong>
+                        <strong style="font-size:13.5px;color:#7c3aed;">Task ${idx + 1}: ${escapeHtml(t.prompt)}</strong>
                         <textarea rows="2" data-lesson-task-input="${escapeHtml(tKey)}" placeholder="Write your answer first…" style="margin-top:6px;">${escapeHtml(tAns)}</textarea>
                         <div style="margin-top:6px;">
                           <button type="button" class="btn btn-outline btn-sm" data-check-lesson-task="${escapeHtml(tKey)}">
@@ -1403,7 +1403,7 @@
                   ${(matchingLesson.points || []).map(pt => `<li>${escapeHtml(pt)}</li>`).join("")}
                 </ul>
                 ${matchingLesson.example ? `<div style="margin-top:8px;font-size:13px;"><strong>Worked example:</strong> ${escapeHtml(matchingLesson.example)}</div>` : ""}
-                ${matchingLesson.examTip ? `<div style="margin-top:6px;font-size:13px;color:#0f766e;"><strong>Exam technique:</strong> ${escapeHtml(matchingLesson.examTip)}</div>` : ""}
+                ${matchingLesson.examTip ? `<div style="margin-top:6px;font-size:13px;color:#7c3aed;"><strong>Exam technique:</strong> ${escapeHtml(matchingLesson.examTip)}</div>` : ""}
               </div>
             ` : ""}
 
@@ -1664,7 +1664,7 @@
                   <span class="badge ${tAtt.length ? (tAvg >= 75 ? "badge-success" : tAvg >= 55 ? "badge-warning" : "badge-danger") : ""}">${tAtt.length ? tAvg + "%" : "Not started"}</span>
                 </div>
                 <div style="height:8px;border-radius:6px;background:#e2e8f0;overflow:hidden;margin-bottom:6px;">
-                  <div style="height:100%;width:${tAvg}%;background:#0f766e;"></div>
+                  <div style="height:100%;width:${tAvg}%;background:#7c3aed;"></div>
                 </div>
                 <small style="color:var(--text-muted);">${tAtt.length ? (tAvg < 60 ? "Priority for practice" : tAvg >= 80 ? "Strong area" : "Keep practising") : "Choose this topic to begin"}</small>
               </div>
@@ -1795,7 +1795,7 @@
           </div>
           <div style="min-width:240px;flex:1.5;">
             <label style="font-size:12.5px;font-weight:700;display:block;margin-bottom:4px;">Pupil (Select to inspect all saved answers &amp; homework marks)</label>
-            <select id="teacher-pupil-select" style="width:100%;padding:9px 11px;border-color:#0f766e;font-weight:600;">
+            <select id="teacher-pupil-select" style="width:100%;padding:9px 11px;border-color:#7c3aed;font-weight:600;">
               <option value="ALL" ${!inspectedPupil ? "selected" : ""}>All pupils — Select a pupil to inspect individual answers…</option>
               ${classFilteredPupils.map(p => `<option value="${escapeHtml(p.userId)}" ${inspectedPupil?.userId === p.userId ? "selected" : ""}>${escapeHtml(p.name)} — ${escapeHtml(p.className || p.classCode)} (${escapeHtml(p.classCode)})</option>`).join("")}
             </select>
@@ -1817,7 +1817,7 @@
           <strong>Class overview:</strong> ${below50Count} pupil${below50Count === 1 ? "" : "s"} currently average below 50% on practice questions; ${notStartedCount} pupil${notStartedCount === 1 ? " has" : "s have"} not started. These are indicators for teacher review, not predictions of exam grades.
         </div>
 
-        <div style="display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:10px;margin-bottom:18px;font-size:14px;">
+        <div style="display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;background:#f5f3ff;border:1px solid #c4b5fd;border-radius:10px;margin-bottom:18px;font-size:14px;">
           <strong>👥 ${enrichedPupils.length} pupils</strong>
           <strong>📝 ${allFilteredAttempts.length} practice attempts</strong>
           <strong>📊 ${allFilteredAttempts.length ? avgPracticeAll + "%" : "—"} practice average</strong>
@@ -1827,12 +1827,12 @@
 
         ${inspectedPupil ? `
           <!-- INDIVIDUAL PUPIL FULL RECORD (Exact Original Floot Pupil Inspector + Monthly Homework Table + Expandable Answers) -->
-          <div style="margin-bottom:24px;padding:20px;border-radius:14px;background:#f0fdfa;border:2px solid #0f766e;box-shadow:0 6px 20px rgba(15,118,110,0.12);">
+          <div style="margin-bottom:24px;padding:20px;border-radius:14px;background:#f5f3ff;border:2px solid #7c3aed;box-shadow:0 6px 20px rgba(15,118,110,0.12);">
             <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:12px;">
               <div>
                 <span class="badge badge-primary" style="margin-bottom:4px;">INDIVIDUAL PUPIL RECORD &amp; SAVED ANSWERS</span>
                 <h3 style="margin:0;font-size:21px;color:#0f172a;">
-                  👤 ${escapeHtml(inspectedPupil.name)} — ${escapeHtml(inspectedPupil.className || inspectedPupil.classCode)} <span style="font-size:14px;font-weight:600;color:#0f766e;">(Class Code: ${escapeHtml(inspectedPupil.classCode)})</span>
+                  👤 ${escapeHtml(inspectedPupil.name)} — ${escapeHtml(inspectedPupil.className || inspectedPupil.classCode)} <span style="font-size:14px;font-weight:600;color:#7c3aed;">(Class Code: ${escapeHtml(inspectedPupil.classCode)})</span>
                 </h3>
                 <p style="margin:6px 0 0 0;font-size:14px;color:var(--text-secondary);">
                   Practice average: <strong>${inspectedPupil.avg === null ? "—" : inspectedPupil.avg + "%"}</strong> ·
@@ -1870,9 +1870,9 @@
                           ${escapeHtml(qTitle)} — <span class="badge ${(h.percentage || 0) >= 70 ? "badge-success" : (h.percentage || 0) >= 50 ? "badge-warning" : "badge-danger"}">${h.marks ?? 0}/${h.marksAvailable ?? hwObj?.marks ?? "—"} (${h.percentage ?? 0}%)</span> — <span style="font-weight:400;color:var(--text-muted);font-size:12px;">${escapeHtml(h.submittedAt || "—")}</span>
                         </summary>
                         ${qPrompt ? `<p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qPrompt)}</p>` : ""}
-                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #0f766e;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(h.answer || "—")}</p>
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #7c3aed;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(h.answer || "—")}</p>
                         ${Array.isArray(h.awardedPoints) && h.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(h.awardedPoints.join(" · "))}</p>` : ""}
-                        ${h.feedback ? `<p style="margin:4px 0;color:#0f766e;"><strong>Feedback:</strong> ${escapeHtml(h.feedback)}</p>` : ""}
+                        ${h.feedback ? `<p style="margin:4px 0;color:#7c3aed;"><strong>Feedback:</strong> ${escapeHtml(h.feedback)}</p>` : ""}
                         ${Array.isArray(h.improvements) && h.improvements.length > 0 ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(h.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
@@ -1897,9 +1897,9 @@
                         </summary>
                         <p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qObj?.text || a.questionId)}</p>
                         <p style="margin:4px 0;"><strong>Command word:</strong> <span class="badge badge-primary">${escapeHtml((a.primaryCommand || qObj?.primaryCommand || "describe").toUpperCase())}</span> · <strong>Hint used:</strong> ${a.hintUsed ? "Yes" : "No"}</p>
-                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #0f766e;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(a.answer || "")}</p>
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #7c3aed;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(a.answer || "")}</p>
                         ${Array.isArray(a.awardedPoints) && a.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(a.awardedPoints.join(" · "))}</p>` : ""}
-                        ${a.feedback ? `<p style="margin:4px 0;color:#0f766e;"><strong>Feedback:</strong> ${escapeHtml(a.feedback)}</p>` : ""}
+                        ${a.feedback ? `<p style="margin:4px 0;color:#7c3aed;"><strong>Feedback:</strong> ${escapeHtml(a.feedback)}</p>` : ""}
                         ${a.improvements?.length ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(a.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
@@ -1957,7 +1957,7 @@
                 return `
                   <tr style="${isSelected ? "background:#ccfbf1;" : ""}">
                     <td>
-                      <button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#0f766e;font-weight:800;font-size:14.5px;cursor:pointer;text-decoration:underline;text-align:left;">
+                      <button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#7c3aed;font-weight:800;font-size:14.5px;cursor:pointer;text-decoration:underline;text-align:left;">
                         ${escapeHtml(p.name)}
                       </button>
                       <small style="display:block;color:var(--text-muted);">${escapeHtml(p.className || p.classCode)} (${escapeHtml(p.classCode)})</small>
@@ -2010,7 +2010,7 @@
                     <summary style="font-weight:700;cursor:pointer;">${escapeHtml(c.name)} · ${clsPupils.length} pupils</summary>
                     <p style="margin:6px 0;">Join code: <strong>${escapeHtml(c.code)}</strong> (share privately with this class)</p>
                     <ul style="margin:0;padding-left:18px;">
-                      ${clsPupils.map(p => `<li><button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#0f766e;text-decoration:underline;cursor:pointer;">${escapeHtml(p.name)}</button></li>`).join("")}
+                      ${clsPupils.map(p => `<li><button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#7c3aed;text-decoration:underline;cursor:pointer;">${escapeHtml(p.name)}</button></li>`).join("")}
                     </ul>
                   </details>
                 `;
@@ -2057,7 +2057,7 @@
           </div>
           <div class="user-pill-row">
             ${!isStandaloneApp ? `
-              <button type="button" class="btn btn-primary btn-sm" id="btn-top-install-app" style="background:#0d9488;">
+              <button type="button" class="btn btn-primary btn-sm" id="btn-top-install-app" style="background:#7c3aed;">
                 📲 Add App to Phone
               </button>
             ` : ""}
@@ -2070,7 +2070,7 @@
           </div>
         </header>
         ${state.showTopPhoneModal && !isStandaloneApp ? `
-          <div style="margin:12px auto 0;max-width:1180px;padding:12px 16px;background:#f0fdfa;border:1.5px solid #0d9488;border-radius:12px;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+          <div style="margin:12px auto 0;max-width:1180px;padding:12px 16px;background:#f5f3ff;border:1.5px solid #7c3aed;border-radius:12px;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
             <div>
               <strong>📲 Add the Green "N5 Business" App Icon to Your Phone Screen:</strong><br/>
               🍎 <strong>iPhone (Safari):</strong> Tap <strong>Share (↑)</strong> at the bottom &rarr; tap <strong>"Add to Home Screen" (➕)</strong> &rarr; <strong>Add</strong>.<br/>
