@@ -1931,14 +1931,16 @@
         <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
           <div>
             <p class="kicker">TEACHER DASHBOARD · SIGNED IN AS ${escapeHtml((state.user?.name || "Mrs Straub").toUpperCase())}</p>
-            <h2 style="margin-bottom:4px;">Teacher dashboard — class and pupil records</h2>
+            <h2 style="margin-bottom:4px;">${isOwnerTeacher ? "Teacher dashboard — class and pupil records" : `${escapeHtml(state.user?.name || "Teacher")}'s Class Dashboard`}</h2>
             <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">
-              Each pupil appears once, linked to their signed-in account. Choose a class, then select a pupil from the dropdown (or click their name in the table) to inspect every saved answer, practice mark, and monthly homework result.
+              ${isOwnerTeacher
+                ? "Each pupil appears once, linked to their signed-in account. Choose a class, then select a pupil from the dropdown (or click their name in the table) to inspect every saved answer, practice mark, and monthly homework result."
+                : `Showing only your allocated &amp; added classes: <strong>${visibleClasses.map(c => escapeHtml(c.name)).join(", ") || "None yet"}</strong>. Select a pupil to inspect their saved answers, practice marks, and monthly homework.`}
             </p>
           </div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
             <button type="button" class="btn btn-outline btn-sm" onclick="document.getElementById('manage-classes-teachers-panel')?.scrollIntoView({behavior:'smooth'})" style="border-color:#7c3aed;color:#6d28d9;font-weight:700;">
-              🏫 Manage Classes &amp; Teachers
+              ${isOwnerTeacher ? "🏫 Manage Classes &amp; Teachers" : "🏫 My Classes (+ Add Class)"}
             </button>
             <button type="button" class="btn btn-primary btn-sm" id="btn-export-csv">
               ⬇ Download selected class report (CSV)
@@ -2219,11 +2221,8 @@
           <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;" class="no-print">
             <label style="font-size:13px;font-weight:700;">Filter Class:</label>
             <select id="tracking-class-filter" style="width:auto;min-width:140px;padding:6px 10px;">
-              <option value="All" ${state.trackingClassFilter === "All" ? "selected" : ""}>All Classes</option>
-              <option value="4GBM" ${state.trackingClassFilter === "4GBM" ? "selected" : ""}>4GBM</option>
-              <option value="4FBM" ${state.trackingClassFilter === "4FBM" ? "selected" : ""}>4FBM</option>
-              <option value="4CBM" ${state.trackingClassFilter === "4CBM" ? "selected" : ""}>4CBM</option>
-              <option value="4E" ${state.trackingClassFilter === "4E" ? "selected" : ""}>4E</option>
+              <option value="All" ${state.trackingClassFilter === "All" ? "selected" : ""}>All My Classes</option>
+              ${visibleClasses.map(c => `<option value="${escapeHtml(c.name)}" ${state.trackingClassFilter === c.name ? "selected" : ""}>${escapeHtml(c.name)}</option>`).join("")}
             </select>
             <span id="tracking-save-status" style="font-size:12.5px;color:var(--primary);font-weight:600;">✓ Auto-saved on this device</span>
           </div>
