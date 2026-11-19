@@ -9,13 +9,13 @@
   "theme_color": "#7c3aed",
   "icons": [
     {
-      "src": "./n5-app-icon.png",
+      "src": "./n5-app-icon.png?v=16",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./n5-app-icon.png",
+      "src": "./n5-app-icon.png?v=16",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
