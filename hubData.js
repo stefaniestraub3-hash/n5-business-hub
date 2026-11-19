@@ -2977,6 +2977,120 @@ window.N5_HUB_DATA = {
   ],
   "questions": [
     {
+      "id": "sqa-ind-5",
+      "sourceYear": 2025,
+      "sourceQuestion": "1(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of industry & factors of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "primaryCommand": "explain",
+      "commands": [
+        "explain"
+      ],
+      "text": "Explain how a business adds value as a product moves through the sectors of industry.",
+      "hint": "Use cause-and-impact language ('which means that' / 'leading to') to explain how processing raw materials increases selling price and profit.",
+      "acceptedPoints": [
+        "Raw materials are processed and manufactured into finished products, which means that customers are willing to pay a higher price than for the raw materials alone.",
+        "Retailers package, market, and conveniently sell finished goods to consumers, leading to increased sales revenue and higher profit for the business."
+      ],
+      "markingRule": "Award 1 mark for each clear cause-and-impact explanation of adding value, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Raw materials from the primary sector are manufactured into finished goods in the secondary sector, which means that customers are willing to pay a higher price than for the raw materials alone. (1 mark)\n• Tertiary businesses package, promote, and conveniently sell the finished product to consumers, leading to higher sales revenue and greater profit. (1 mark)\n\nSQA Marking Note: Award 1 mark for each developed cause-and-impact explanation, up to 2 marks."
+    },
+    {
+      "id": "sqa-ind-4",
+      "sourceYear": 2024,
+      "sourceQuestion": "4(a)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of industry & factors of production",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "primaryCommand": "compare",
+      "commands": [
+        "compare"
+      ],
+      "text": "Compare the secondary sector of industry with the tertiary sector of industry.",
+      "hint": "Use linking words like 'whereas' or 'both' to compare what each sector produces.",
+      "acceptedPoints": [
+        "The secondary sector manufactures tangible physical goods from raw materials, whereas the tertiary sector provides intangible services to customers.",
+        "Both the secondary and tertiary sectors add value to the economy and create employment."
+      ],
+      "markingRule": "Award 1 mark for each valid comparison using linking language (e.g. whereas/both), up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• The secondary sector manufactures physical goods from raw materials, whereas the tertiary sector provides services such as retail or banking. (1 mark)\n• Both the secondary and tertiary sectors create jobs and add value to the economy. (1 mark)\n\nSQA Marking Note: Must include a clear comparison word (e.g. whereas, however, both) to gain marks."
+    },
+    {
+      "id": "sqa-ind-3",
+      "sourceYear": 2023,
+      "sourceQuestion": "2(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of industry & factors of production",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "primaryCommand": "describe",
+      "commands": [
+        "describe"
+      ],
+      "text": "Describe two factors of production needed by a business.",
+      "hint": "Remember CELL: Capital, Enterprise, Land, Labour — describe any two clearly.",
+      "acceptedPoints": [
+        "Land refers to the natural resources and raw materials used in production, such as water, timber, or farmland.",
+        "Labour refers to the human workforce and employees who produce goods or provide services.",
+        "Capital refers to the money, machinery, buildings, and equipment invested to run the business.",
+        "Enterprise refers to the entrepreneur who brings the other factors together and takes the risk to start the business."
+      ],
+      "markingRule": "Award 1 mark for each factor of production accurately described, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Land is the natural resources and raw materials used to make products, such as farmland or oil. (1 mark)\n• Labour is the human workforce and staff employed by the business to make goods or provide services. (1 mark)\n• Capital is the finance, machinery, and equipment used by the business to operate. (1 mark)\n• Enterprise is the entrepreneur who combines the other factors of production and takes the risk to run the business. (1 mark)\n\nSQA Marking Note: Award 1 mark for each factor of production accurately described, up to 2 marks."
+    },
+    {
+      "id": "sqa-ind-2",
+      "sourceYear": 2021,
+      "sourceQuestion": "3(a)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of industry & factors of production",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "primaryCommand": "describe",
+      "commands": [
+        "describe"
+      ],
+      "text": "Describe the three sectors of industry, giving an example of each.",
+      "hint": "For each sector (Primary, Secondary, Tertiary), state what businesses in that sector do and give a clear example.",
+      "acceptedPoints": [
+        "Primary sector extracts raw materials from the earth or sea, such as farming, fishing, or mining.",
+        "Secondary sector manufactures or constructs raw materials into finished goods, such as a car factory or bakery.",
+        "Tertiary sector provides services to consumers or businesses, such as retail shops, banks, or hairdressers."
+      ],
+      "markingRule": "Award 1 mark for each clear description of a sector of industry, up to 3 marks.",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Primary sector extracts raw materials from the earth or sea, for example farming, fishing, or mining. (1 mark)\n• Secondary sector manufactures or constructs raw materials into finished goods, for example a bakery or car manufacturer. (1 mark)\n• Tertiary sector provides services to customers, for example a supermarket, bank, or hairdresser. (1 mark)\n\nSQA Marking Note: Award 1 mark for each clear description of a sector of industry, up to 3 marks."
+    },
+    {
+      "id": "sqa-ind-1",
+      "sourceYear": 2022,
+      "sourceQuestion": "1(a)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of industry & factors of production",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "primaryCommand": "identify",
+      "commands": [
+        "identify"
+      ],
+      "text": "Identify the three sectors of industry.",
+      "hint": "Think about the three stages of production: extracting raw materials, manufacturing, and providing services.",
+      "acceptedPoints": [
+        "Primary sector",
+        "Secondary sector",
+        "Tertiary sector"
+      ],
+      "markingRule": "Award 1 mark for each sector of industry correctly identified, up to 3 marks.",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Primary sector. (1 mark)\n• Secondary sector. (1 mark)\n• Tertiary sector. (1 mark)\n\nSQA Marking Note: Award 1 mark for each sector of industry correctly identified, up to 3 marks."
+    },
+    {
       "id": "sqa2018-3a",
       "sourceYear": 2018,
       "sourceQuestion": "3(a)",
