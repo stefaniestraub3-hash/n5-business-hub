@@ -566,6 +566,23 @@
     return Array.from(map.values());
   }
 
+  const EXCLUDED_PUPIL_NAMES = new Set(["lee morgan", "mr m", "craig stephenson", "mrs straub", "rebecca"]);
+  function isExcludedPupil(p) {
+    const n = String(p?.name || "").trim().toLowerCase();
+    return EXCLUDED_PUPIL_NAMES.has(n);
+  }
+  function cleanPupilList(arr) {
+    const kept = [];
+    (arr || []).forEach(p => {
+      if (isExcludedPupil(p)) {
+        if (p?.userId) cloudDelete("pupils/" + safeFirebaseKey(p.userId));
+      } else {
+        kept.push(p);
+      }
+    });
+    return kept;
+  }
+
   // Sync with Firebase Realtime Database (and local backend if present)
   async function syncFromServer() {
     try {
@@ -576,7 +593,8 @@
           const db = (await res.json()) || {};
           if (db.classes) state.classes = mergeById(state.classes, db.classes, "code");
           if (db.teachers) state.teachers = mergeById(state.teachers, db.teachers, "id");
-          if (db.pupils) state.pupils = mergeById(state.pupils, db.pupils, "userId");
+          if (db.pupils) state.pupils = cleanPupilList(mergeById(state.pupils, db.pupils, "userId"));
+          else state.pupils = cleanPupilList(state.pupils);
           if (db.attempts) {
             state.attempts = mergeById(state.attempts, db.attempts, "id")
               .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
@@ -3207,8 +3225,9 @@
           saveLocalState();
           return render();
         }
-        if (name.length < 2) {
-          state.loginError = "Please enter your full name.";
+        const nameParts = name.split(/\s+/).filter(Boolean);
+        if (nameParts.length < 2 || nameParts[0].length < 2 || nameParts[nameParts.length - 1].length < 2) {
+          state.loginError = "Please enter your full First Name and Surname (e.g. Sophie Miller).";
           return render();
         }
         try {
@@ -4535,6 +4554,7 @@
     }
   } catch {}
 
+  state.pupils = cleanPupilList(state.pupils);
   render();
   syncFromServer();
 })();
