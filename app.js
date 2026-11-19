@@ -2288,10 +2288,10 @@
               <button type="button" class="btn btn-primary btn-sm" id="btn-add-class">➕ Add Class</button>
             </div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">
-              ${state.classes.map(c => `
+              ${visibleClasses.map(c => `
                 <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#f5f3ff;border:1px solid #c4b5fd;font-size:12.5px;font-weight:600;color:#4c1d95;">
                   ${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})
-                  ${isOwnerTeacher && !["4GBM", "4CBM", "4FBM", "ABCD"].includes(String(c.code).toUpperCase()) ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
+                  ${(isOwnerTeacher || c.createdBy === state.user?.name) && !["4GBM", "4CBM", "4FBM", "ABCD"].includes(String(c.code).toUpperCase()) ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
                 </span>
               `).join("")}
             </div>
@@ -3665,9 +3665,24 @@
       const clsCode = (codeInput?.value || clsName).trim().toUpperCase().replace(/\s+/g, "");
       if (!clsName || !clsCode) return;
       if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
-        state.classes.push({ id: "cls-" + Date.now(), name: clsName, code: clsCode });
-        saveLocalState();
+        state.classes.push({
+          id: "cls-" + Date.now(),
+          name: clsName,
+          code: clsCode,
+          createdBy: state.user?.name || "Teacher"
+        });
       }
+      // If a colleague teacher adds a class under their own account, automatically assign it to them
+      if (state.user && Array.isArray(state.user.assignedClasses) && !state.user.assignedClasses.includes("ALL")) {
+        if (!state.user.assignedClasses.includes(clsCode)) {
+          state.user.assignedClasses.push(clsCode);
+        }
+        const tRec = (state.teachers || []).find(t => t.id === state.user.userId || String(t.name).toLowerCase() === String(state.user.name || "").toLowerCase());
+        if (tRec && Array.isArray(tRec.assignedClasses) && !tRec.assignedClasses.includes("ALL") && !tRec.assignedClasses.includes(clsCode)) {
+          tRec.assignedClasses.push(clsCode);
+        }
+      }
+      saveLocalState();
       render();
     });
 
