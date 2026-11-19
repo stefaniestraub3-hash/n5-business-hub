@@ -3668,7 +3668,10 @@
       const codeInput = document.getElementById("new-class-code");
       const clsName = (nameInput?.value || "").trim();
       const clsCode = (codeInput?.value || clsName).trim().toUpperCase().replace(/\s+/g, "");
-      if (!clsName || !clsCode) return;
+      if (!clsName || !clsCode) {
+        alert("Please enter a Class Name (e.g. 4HBM1) and Join Code.");
+        return;
+      }
       if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
         state.classes.push({
           id: "cls-" + Date.now(),
@@ -3707,7 +3710,10 @@
       const tName = (document.getElementById("new-teacher-name")?.value || "").trim();
       const tPin = (document.getElementById("new-teacher-pin")?.value || "").trim().toUpperCase();
       const tClass = document.getElementById("new-teacher-class")?.value || "ALL";
-      if (!tName || tPin.length < 3) return;
+      if (!tName || tPin.length < 3) {
+        alert("Please enter a Teacher Name and a Personal PIN (at least 3 characters).");
+        return;
+      }
       state.teachers = state.teachers || [];
       state.teachers.push({
         id: "teacher-" + Date.now(),
