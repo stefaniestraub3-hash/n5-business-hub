@@ -96,8 +96,17 @@
         const hitCount = ptStems.filter(stem =>
           answerStems.has(stem) || expandedAnswer.includes(stem)
         ).length;
-        const threshold = ptStems.length <= 2 ? 1 : Math.max(2, Math.ceil(ptStems.length * 0.42));
-        matched = hitCount >= threshold;
+        // If point has a "Key Term — explanation" format, credit if pupil uses the key term + context (or just key term for Identify)
+        const dashParts = pt.split(/—| - |:/);
+        let keyTermMatched = false;
+        if (dashParts.length >= 2) {
+          const termStems = getStems(normalizeText(dashParts[0]));
+          if (termStems.length > 0 && termStems.every(ts => answerStems.has(ts) || expandedAnswer.includes(ts))) {
+            keyTermMatched = primaryCmd.includes("identify") || hitCount >= Math.min(2, ptStems.length);
+          }
+        }
+        const threshold = ptStems.length <= 2 ? 1 : Math.min(4, Math.max(2, Math.ceil(ptStems.length * 0.32)));
+        matched = keyTermMatched || hitCount >= threshold;
       }
 
       if (matched) {
