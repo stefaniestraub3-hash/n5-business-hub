@@ -266,8 +266,8 @@
       ],
       teachers: init.teachers || [
         { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] },
-        { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4E2026", isOwner: false, assignedClasses: ["ABCD"] },
-        { id: "teacher-craig-stephenson", name: "Craig Stephenson", pin: "CS2026", isOwner: false, assignedClasses: ["ALL"] }
+        { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4C2026", isOwner: false, assignedClasses: ["4CBM", "4CBM3"] },
+        { id: "teacher-craig-stephenson", name: "Craig Stephenson", pin: "CS2026", isOwner: false, assignedClasses: ["ABCD"] }
       ],
       pupils: init.pupils || [],
       attempts: init.attempts || [],
@@ -2735,7 +2735,7 @@
             teacher: true,
             owner: false,
             pinVerified: true,
-            assignedClasses: ["ABCD"],
+            assignedClasses: ["4CBM", "4CBM3"],
             classCode: "TEACHER",
             className: "Teacher"
           };
@@ -2754,7 +2754,7 @@
             teacher: true,
             owner: false,
             pinVerified: true,
-            assignedClasses: ["ALL"],
+            assignedClasses: ["ABCD"],
             classCode: "TEACHER",
             className: "Teacher"
           };
@@ -3871,10 +3871,8 @@
     } else if (state.user?.role === "admin") {
       state.user = null;
       saveLocalState();
-    } else if (state.user?.role === "teacher" || state.user?.teacher) {
-      state.teacherUnlocked = true;
-      state.activeTab = "teacher";
-    } else if ((state.user?.name || "").trim().toLowerCase() === "lee morgan") {
+    } else if (state.user && (state.user.name || "").trim().toLowerCase() === "lee morgan") {
+      const customOwn = (state.classes || []).filter(c => c.createdBy === "Lee Morgan").map(c => String(c.code).toUpperCase());
       state.user = {
         userId: "teacher-lee-morgan",
         name: "Lee Morgan",
@@ -3882,14 +3880,16 @@
         teacher: true,
         owner: false,
         pinVerified: true,
-        assignedClasses: ["ABCD"],
+        assignedClasses: Array.from(new Set(["4CBM", "4CBM3", ...customOwn])),
         classCode: "TEACHER",
         className: "Teacher"
       };
       state.teacherUnlocked = true;
+      state.teacherClassFilter = "ALL";
       state.activeTab = "teacher";
       saveLocalState();
-    } else if ((state.user?.name || "").trim().toLowerCase() === "craig stephenson") {
+    } else if (state.user && (state.user.name || "").trim().toLowerCase() === "craig stephenson") {
+      const customOwn = (state.classes || []).filter(c => c.createdBy === "Craig Stephenson").map(c => String(c.code).toUpperCase());
       state.user = {
         userId: "teacher-craig-stephenson",
         name: "Craig Stephenson",
@@ -3897,13 +3897,17 @@
         teacher: true,
         owner: false,
         pinVerified: true,
-        assignedClasses: ["ALL"],
+        assignedClasses: Array.from(new Set(["ABCD", ...customOwn])),
         classCode: "TEACHER",
         className: "Teacher"
       };
       state.teacherUnlocked = true;
+      state.teacherClassFilter = "ALL";
       state.activeTab = "teacher";
       saveLocalState();
+    } else if (state.user?.role === "teacher" || state.user?.teacher) {
+      state.teacherUnlocked = true;
+      state.activeTab = "teacher";
     }
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
