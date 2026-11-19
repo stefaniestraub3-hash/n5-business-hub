@@ -174,10 +174,10 @@ window.N5_HUB_DATA = {
         "Listing factors of production terms without showing what they mean.",
         "Giving a vague effect without linking it to a business consequence."
       ],
-      "model": "A fishing business belongs to primary industry because it harvests a natural resource, while a caf\u00e9 belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals.",
+      "model": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccapital\u201d in your own words.",
+          "prompt": "Quick recall: define “capital” in your own words.",
           "answer": "Man-made resources used to produce goods or services, such as machinery, tools and buildings."
         },
         {
@@ -186,12 +186,12 @@ window.N5_HUB_DATA = {
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to role of business in society.",
-          "answer": "A fishing business belongs to primary industry because it harvests a natural resource, while a caf\u00e9 belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals."
+          "answer": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals."
         }
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business Management \u2014 Understanding Business (Sectors & Factors of Production)",
+        "title": "SQA National 5 Business Management — Understanding Business (Sectors & Factors of Production)",
         "channel": "SQA N5 Business Revision",
         "duration": "12:15",
         "summary": "Covers sectors of industry (primary, secondary, tertiary), sectors of economy (private, public, third) and the four factors of production (land, labour, capital, enterprise)."
@@ -262,7 +262,7 @@ window.N5_HUB_DATA = {
       "model": "Training customer-service staff helps them answer questions accurately, which can increase satisfaction and repeat purchases.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cafter-sales service\u201d in your own words.",
+          "prompt": "Quick recall: define “after-sales service” in your own words.",
           "answer": "Support provided after a sale, such as help, repairs, returns or warranties."
         },
         {
@@ -276,7 +276,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "RIpkIWk8VTY",
-        "title": "National 5 Business Management \u2014 Maximising Customer Satisfaction & Loyalty",
+        "title": "National 5 Business Management — Maximising Customer Satisfaction & Loyalty",
         "channel": "FVWL RIC N5 Business",
         "duration": "10:40",
         "summary": "How organisations deliver high standards of customer service, handle complaints, offer after-sales support, and the benefits of repeat custom."
@@ -368,7 +368,7 @@ window.N5_HUB_DATA = {
         "Compare each organisation by who owns it, who controls decisions, where finance comes from and its advantages/disadvantages. Sole traders retain control but bear financial risk; partnerships pool skills and capital but may disagree; private limited companies can raise private share capital and normally protect shareholders with limited liability.",
         "Public-sector organisations are accountable to government and provide services; charities/non-profit organisations prioritise their purposes; social enterprises trade to achieve social or environmental goals. A simple business plan outlines objectives, the product or service, target market, competition, resources and financial forecasts."
       ],
-      "example": "Two friends form a partnership to run a caf\u00e9. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand.",
+      "example": "Two friends form a partnership to run a café. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key business ownership term.",
@@ -382,12 +382,12 @@ window.N5_HUB_DATA = {
       "model": "A private limited company protects shareholders through limited liability, so their personal assets are normally not at risk for company debts; however, it faces more reporting requirements.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbusiness plan\u201d in your own words.",
+          "prompt": "Quick recall: define “business plan” in your own words.",
           "answer": "A written document outlining a business idea, objectives, market, operations, expected costs and finance, used to guide decisions and attract support."
         },
         {
           "prompt": "Application: give one realistic business example of business organisations, entrepreneurs & business plans.",
-          "answer": "Two friends form a partnership to run a caf\u00e9. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand."
+          "answer": "Two friends form a partnership to run a café. They share investment and decisions, but must agree how to split profits and responsibilities. A business plan helps forecast start-up costs and customer demand."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to business organisations, entrepreneurs & business plans.",
@@ -396,7 +396,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business \u2014 Sole Traders, Partnerships, Private Ltd Companies & Charities",
+        "title": "SQA National 5 Business — Sole Traders, Partnerships, Private Ltd Companies & Charities",
         "channel": "SQA N5 Business Revision",
         "duration": "14:20",
         "summary": "Compares ownership, control, liability, and sources of finance across sole traders, partnerships, private limited companies (Ltd), franchises, social enterprises and charities."
@@ -492,7 +492,7 @@ window.N5_HUB_DATA = {
       "model": "Growth may lead a business to open new branches, increasing scale and potential sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccustomer satisfaction\u201d in your own words.",
+          "prompt": "Quick recall: define “customer satisfaction” in your own words.",
           "answer": "The extent to which a product or service meets or exceeds customer expectations."
         },
         {
@@ -506,7 +506,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "vjnHyYKHey4",
-        "title": "National 5 Business \u2014 Business Objectives (Survival, Profit, Growth, Social Responsibility)",
+        "title": "National 5 Business — Business Objectives (Survival, Profit, Growth, Social Responsibility)",
         "channel": "SQA N5 Business Revision",
         "duration": "8:50",
         "summary": "Why different organisations set different objectives (profit maximisation, survival, growth, customer satisfaction, market share, and service provision)."
@@ -604,7 +604,7 @@ window.N5_HUB_DATA = {
       "model": "Inflation can raise input costs, causing prices to rise and potentially reducing demand.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccompetitive\u201d in your own words.",
+          "prompt": "Quick recall: define “competitive” in your own words.",
           "answer": "An external influence arising from rival organisations' products, prices, promotions or market actions."
         },
         {
@@ -618,7 +618,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "GueEUUbHzLk",
-        "title": "External Factors (PESTEC) & Internal Factors \u2014 N5 Business Management",
+        "title": "External Factors (PESTEC) & Internal Factors — N5 Business Management",
         "channel": "Scottish Business Education",
         "duration": "11:30",
         "summary": "Explains Political, Economic, Social, Technological, Environmental and Competitive (PESTEC) external factors plus internal factors (finance, human resources, technology)."
@@ -724,7 +724,7 @@ window.N5_HUB_DATA = {
       "model": "Employees may want higher wages because this raises income, while owners may resist because wage costs can reduce profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccustomers\u201d in your own words.",
+          "prompt": "Quick recall: define “customers” in your own words.",
           "answer": "People or organisations that purchase goods or services."
         },
         {
@@ -738,7 +738,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "u0z54n2K4io",
-        "title": "National 5 Business Management \u2014 Internal & External Stakeholders (Interests, Influence & Conflict)",
+        "title": "National 5 Business Management — Internal & External Stakeholders (Interests, Influence & Conflict)",
         "channel": "Scottish Business Education",
         "duration": "13:10",
         "summary": "How owners, managers, employees, customers, suppliers, lenders, local community and government influence a business and why their interests conflict."
@@ -831,7 +831,7 @@ window.N5_HUB_DATA = {
       "model": "Targeting teenage runners lets a sports shop choose products and promotions suited to them, making advertising more effective and potentially increasing sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cdemographics\u201d in your own words.",
+          "prompt": "Quick recall: define “demographics” in your own words.",
           "answer": "Measurable population characteristics such as age, income, location or household type."
         },
         {
@@ -845,7 +845,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "A7RcKW7Kvjg",
-        "title": "Market Segmentation & Target Markets \u2014 Business Revision",
+        "title": "Market Segmentation & Target Markets — Business Revision",
         "channel": "BizzWizard Business Revision",
         "duration": "7:45",
         "summary": "How businesses segment markets by age, gender, income, lifestyle, and geographical location to target customer needs effectively."
@@ -921,7 +921,7 @@ window.N5_HUB_DATA = {
       "model": "Field research can be current and specific, whereas desk research may be older and collected for another purpose.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cdesk/secondary research\u201d in your own words.",
+          "prompt": "Quick recall: define “desk/secondary research” in your own words.",
           "answer": "Research using existing information, including the organisation's own sales records and external reports, websites or published statistics."
         },
         {
@@ -1013,7 +1013,7 @@ window.N5_HUB_DATA = {
       "model": "Strong branding can create loyalty and allow premium pricing, although building a brand can be costly.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbrand\u201d in your own words.",
+          "prompt": "Quick recall: define “brand” in your own words.",
           "answer": "A name, symbol, design or other identity that distinguishes a product or organisation from competitors."
         },
         {
@@ -1103,7 +1103,7 @@ window.N5_HUB_DATA = {
       "model": "Penetration pricing may attract customers to a new entrant and build market share.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccompetitive pricing\u201d in your own words.",
+          "prompt": "Quick recall: define “competitive pricing” in your own words.",
           "answer": "Setting a price with reference to prices charged by rival businesses."
         },
         {
@@ -1193,7 +1193,7 @@ window.N5_HUB_DATA = {
       "model": "Direct online selling can reach national customers without a retailer margin, but the business must organise delivery.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cdirect distribution\u201d in your own words.",
+          "prompt": "Quick recall: define “direct distribution” in your own words.",
           "answer": "Selling goods directly from producer to customer without an intermediary such as a wholesaler or retailer."
         },
         {
@@ -1268,7 +1268,7 @@ window.N5_HUB_DATA = {
         "Promotion informs, persuades and reminds customers. Advertising uses paid media; sales promotions offer short-term incentives; public relations builds reputation; and direct marketing contacts selected customers. Choose methods according to target market, cost, reach and message.",
         "Ethical marketing uses truthful claims, fair customer treatment and responsible data use. Misleading environmental claims or exaggerated promises can cause complaints, lost trust and legal consequences."
       ],
-      "example": "A caf\u00e9 could use social-media adverts plus a loyalty card.",
+      "example": "A café could use social-media adverts plus a loyalty card.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key promotion term.",
@@ -1282,12 +1282,12 @@ window.N5_HUB_DATA = {
       "model": "Social-media advertising can target groups cheaply, but users may ignore or react negatively to adverts.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cadvertising\u201d in your own words.",
+          "prompt": "Quick recall: define “advertising” in your own words.",
           "answer": "Paid communication used to inform or persuade customers about a product, service or organisation."
         },
         {
           "prompt": "Application: give one realistic business example of promotion & ethical marketing.",
-          "answer": "A caf\u00e9 could use social-media adverts plus a loyalty card."
+          "answer": "A café could use social-media adverts plus a loyalty card."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to promotion & ethical marketing.",
@@ -1389,7 +1389,7 @@ window.N5_HUB_DATA = {
       "model": "An e-commerce website allows customers to order outside shop opening hours, potentially increasing sales, although the business must pay for secure systems and delivery.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cadvertising\u201d in your own words.",
+          "prompt": "Quick recall: define “advertising” in your own words.",
           "answer": "Paid communication used to inform or persuade customers about a product, service or organisation."
         },
         {
@@ -1469,7 +1469,7 @@ window.N5_HUB_DATA = {
         "Compare suppliers on price, quality, delivery reliability, lead time, capacity, location, credit terms and ethical or environmental performance. The lowest price is not always best if late deliveries stop production or poor materials create defects.",
         "Longer credit terms can improve cash flow by delaying payment; shorter lead times can reduce buffer-stock needs. Justify the chosen supplier using the organisation's particular needs and consequences for costs, quality or sales."
       ],
-      "example": "A caf\u00e9 may pay more to a reliable local bakery for consistent daily delivery.",
+      "example": "A café may pay more to a reliable local bakery for consistent daily delivery.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key suppliers term.",
@@ -1483,12 +1483,12 @@ window.N5_HUB_DATA = {
       "model": "A reliable supplier matters because late delivery could stop production and cause lost sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccredit terms\u201d in your own words.",
+          "prompt": "Quick recall: define “credit terms” in your own words.",
           "answer": "The agreed conditions for paying a supplier, including how long the buyer has to pay."
         },
         {
           "prompt": "Application: give one realistic business example of choosing suppliers.",
-          "answer": "A caf\u00e9 may pay more to a reliable local bakery for consistent daily delivery."
+          "answer": "A café may pay more to a reliable local bakery for consistent daily delivery."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to choosing suppliers.",
@@ -1572,7 +1572,7 @@ window.N5_HUB_DATA = {
       "model": "Overstocking ties up cash and can increase storage costs, reducing funds for other uses.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbuffer inventory\u201d in your own words.",
+          "prompt": "Quick recall: define “buffer inventory” in your own words.",
           "answer": "Extra stock held to protect against unexpected demand or delays in deliveries."
         },
         {
@@ -1661,7 +1661,7 @@ window.N5_HUB_DATA = {
       "model": "Job production allows customisation, whereas flow standardises output for high-volume production.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbatch production\u201d in your own words.",
+          "prompt": "Quick recall: define “batch production” in your own words.",
           "answer": "Making a group of identical products together before changing to another batch."
         },
         {
@@ -1751,7 +1751,7 @@ window.N5_HUB_DATA = {
       "model": "Quality assurance can reduce defects, lowering returns and replacement costs.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbenchmarking\u201d in your own words.",
+          "prompt": "Quick recall: define “benchmarking” in your own words.",
           "answer": "Comparing an organisation's processes or performance with another organisation or recognised standard to identify improvements."
         },
         {
@@ -1840,7 +1840,7 @@ window.N5_HUB_DATA = {
       "model": "Reducing packaging can lower material costs and waste, improving environmental and financial performance.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccarbon footprint\u201d in your own words.",
+          "prompt": "Quick recall: define “carbon footprint” in your own words.",
           "answer": "The total greenhouse-gas emissions caused directly and indirectly by an activity, product or organisation."
         },
         {
@@ -1952,7 +1952,7 @@ window.N5_HUB_DATA = {
       "model": "A digital inventory system updates stock records after each sale, helping the business avoid shortages and lost sales.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cautomation\u201d in your own words.",
+          "prompt": "Quick recall: define “automation” in your own words.",
           "answer": "Using technology or machinery to carry out tasks with reduced direct human input."
         },
         {
@@ -2036,7 +2036,7 @@ window.N5_HUB_DATA = {
         "Selection compares applicants using forms, CVs, tests and interviews. Shortlisting against job requirements helps fairness. A contract of employment sets out agreed terms including role, pay, hours and conditions.",
         "Recruitment involves identifying a vacancy, analysing the job, writing a job description/person specification and attracting applicants. Selection involves shortlisting, interviews and appropriate tests. A contract of employment records agreed terms such as pay, duties, hours and leave."
       ],
-      "example": "A caf\u00e9 writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract.",
+      "example": "A café writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key recruitment term.",
@@ -2050,12 +2050,12 @@ window.N5_HUB_DATA = {
       "model": "A person specification lists the skills required for a job, helping managers shortlist suitable applicants and reducing the risk of a poor appointment.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccontract of employment\u201d in your own words.",
+          "prompt": "Quick recall: define “contract of employment” in your own words.",
           "answer": "The agreement setting out key employment terms such as role, pay, hours and conditions."
         },
         {
           "prompt": "Application: give one realistic business example of recruitment, selection & contracts.",
-          "answer": "A caf\u00e9 writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract."
+          "answer": "A café writes a person specification requiring customer-service skills, advertises the vacancy and interviews shortlisted applicants before agreeing hours and pay in a contract."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to recruitment, selection & contracts.",
@@ -2139,7 +2139,7 @@ window.N5_HUB_DATA = {
       "model": "Training can reduce mistakes, improving quality and reducing waste costs.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cdevelopment\u201d in your own words.",
+          "prompt": "Quick recall: define “development” in your own words.",
           "answer": "Activities that build an employee's broader abilities and prepare them for future responsibilities."
         },
         {
@@ -2251,7 +2251,7 @@ window.N5_HUB_DATA = {
       "model": "Flexitime lets staff adjust start and finish times around core hours, improving work-life balance and potentially reducing staff turnover.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbonus\u201d in your own words.",
+          "prompt": "Quick recall: define “bonus” in your own words.",
           "answer": "An additional payment for meeting a target or rewarding performance."
         },
         {
@@ -2348,7 +2348,7 @@ window.N5_HUB_DATA = {
       "model": "An overtime ban may delay orders because employees refuse extra hours, causing customers to switch to competitors.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccollective bargaining\u201d in your own words.",
+          "prompt": "Quick recall: define “collective bargaining” in your own words.",
           "answer": "Negotiation between employee representatives and management over matters such as pay and conditions."
         },
         {
@@ -2456,7 +2456,7 @@ window.N5_HUB_DATA = {
       "model": "Safety training helps employees use equipment correctly, reducing accidents, absence and the risk of compensation claims.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cdata protection\u201d in your own words.",
+          "prompt": "Quick recall: define “data protection” in your own words.",
           "answer": "Rules and practices for collecting, using, storing and sharing personal information lawfully and securely."
         },
         {
@@ -2568,7 +2568,7 @@ window.N5_HUB_DATA = {
       "model": "Online recruitment can reach more suitable applicants quickly, reducing vacancy time, but the employer must ensure fair access and protect applicant data.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccompressed hours\u201d in your own words.",
+          "prompt": "Quick recall: define “compressed hours” in your own words.",
           "answer": "Working the usual total number of hours over fewer working days."
         },
         {
@@ -2664,7 +2664,7 @@ window.N5_HUB_DATA = {
       "model": "A bank loan suits expensive machinery because a large sum can be repaid over several years.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cgrant\u201d in your own words.",
+          "prompt": "Quick recall: define “grant” in your own words.",
           "answer": "Money awarded by a government or other organisation for a stated purpose, usually without repayment if conditions are met."
         },
         {
@@ -2697,7 +2697,7 @@ window.N5_HUB_DATA = {
           "Forecasts can be inaccurate if sales or costs change unexpectedly.",
           "A positive cash forecast does not guarantee profitability."
         ],
-        "examFocus": "Calculate opening balance + inflows \u2212 outflows and interpret any predicted cash deficit."
+        "examFocus": "Calculate opening balance + inflows − outflows and interpret any predicted cash deficit."
       },
       "terms": [
         "cash inflow",
@@ -2731,16 +2731,16 @@ window.N5_HUB_DATA = {
       "points": [
         "A cash budget forecasts money expected to enter and leave a business over a future period. It helps managers see possible cash shortages before they happen.",
         "Opening balance is the cash available at the start. Cash inflows are money received; cash outflows are payments made. Net cash flow is inflows minus outflows.",
-        "Closing balance = opening balance + cash inflows \u2212 cash outflows. One period's closing balance normally becomes the next period's opening balance.",
+        "Closing balance = opening balance + cash inflows − cash outflows. One period's closing balance normally becomes the next period's opening balance.",
         "A negative closing balance warns of a cash shortage, so managers might arrange an overdraft, delay spending or encourage faster customer payment. A cash budget is about cash movement, not profit.",
-        "Closing balance = opening balance + inflows \u2212 outflows.",
+        "Closing balance = opening balance + inflows − outflows.",
         "Budgets identify shortages/surpluses and support planning.",
         "Actual figures can be compared with budget to investigate differences.",
-        "A cash budget forecasts money received and paid in future periods. Closing balance = opening balance + cash inflows \u2212 cash outflows; the closing balance becomes the next period's opening balance.",
+        "A cash budget forecasts money received and paid in future periods. Closing balance = opening balance + cash inflows − cash outflows; the closing balance becomes the next period's opening balance.",
         "A negative forecast closing balance warns of a cash shortage. Managers might seek an overdraft, collect debts sooner, delay non-essential spending or negotiate payment terms. Cash is not the same as accounting profit.",
         "Cash inflows and outflows are timed when money is actually received or paid. Calculate closing balance as opening balance plus total receipts minus total payments, and carry it forward as the next month's opening balance. Suggest practical remedies for predicted deficits."
       ],
-      "example": "\u00a32,000 opening + \u00a35,000 inflows \u2212 \u00a36,200 outflows = \u00a3800 closing balance.",
+      "example": "£2,000 opening + £5,000 inflows − £6,200 outflows = £800 closing balance.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key cash budgets term.",
@@ -2754,12 +2754,12 @@ window.N5_HUB_DATA = {
       "model": "A cash budget can reveal a future shortage, allowing an overdraft to be arranged before payments are due.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccash inflow\u201d in your own words.",
+          "prompt": "Quick recall: define “cash inflow” in your own words.",
           "answer": "Money received by a business during a period, such as cash sales or a loan."
         },
         {
           "prompt": "Application: give one realistic business example of cash budgets.",
-          "answer": "\u00a32,000 opening + \u00a35,000 inflows \u2212 \u00a36,200 outflows = \u00a3800 closing balance."
+          "answer": "£2,000 opening + £5,000 inflows − £6,200 outflows = £800 closing balance."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to cash budgets.",
@@ -2768,7 +2768,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "033eL3lVQU0",
-        "title": "Cash Budgets & Solving Cash Flow Deficits \u2014 Business Finance",
+        "title": "Cash Budgets & Solving Cash Flow Deficits — Business Finance",
         "channel": "BizzWizard Business Revision",
         "duration": "11:20",
         "summary": "How to interpret and calculate Opening Balance, Total Receipts, Total Payments, Net Cash Flow and Closing Balance, plus actions to fix a cash deficit."
@@ -2787,7 +2787,7 @@ window.N5_HUB_DATA = {
           "Profit does not show whether customers have paid or enough cash is available.",
           "One period's results may be distorted by unusual costs or seasonal demand."
         ],
-        "examFocus": "Calculate sales revenue \u2212 cost of sales = gross profit, then gross profit \u2212 expenses = profit for the year."
+        "examFocus": "Calculate sales revenue − cost of sales = gross profit, then gross profit − expenses = profit for the year."
       },
       "terms": [
         "cost of sales",
@@ -2820,17 +2820,17 @@ window.N5_HUB_DATA = {
       ],
       "points": [
         "An income statement shows whether a business made a profit or loss over a period. It records revenue and costs rather than simply cash in the bank.",
-        "Sales revenue is income from sales. Cost of sales is the direct cost of goods sold. Gross profit = sales revenue \u2212 cost of sales.",
-        "Expenses are other running costs such as rent, wages or advertising. Profit for the year = gross profit \u2212 expenses. If expenses are greater than gross profit, the result is a loss.",
+        "Sales revenue is income from sales. Cost of sales is the direct cost of goods sold. Gross profit = sales revenue − cost of sales.",
+        "Expenses are other running costs such as rent, wages or advertising. Profit for the year = gross profit − expenses. If expenses are greater than gross profit, the result is a loss.",
         "Managers can compare income statements across years to identify changes in sales, costs and profit, then decide where action may be needed.",
-        "Gross profit = sales revenue \u2212 cost of sales.",
-        "Profit for the year = gross profit \u2212 expenses.",
+        "Gross profit = sales revenue − cost of sales.",
+        "Profit for the year = gross profit − expenses.",
         "Statements help assess and compare performance.",
-        "An income statement measures performance over a period. Sales revenue is income from sales; cost of sales is the direct cost of goods sold; gross profit = sales revenue \u2212 cost of sales; profit for the year = gross profit \u2212 expenses.",
+        "An income statement measures performance over a period. Sales revenue is income from sales; cost of sales is the direct cost of goods sold; gross profit = sales revenue − cost of sales; profit for the year = gross profit − expenses.",
         "Compare results across periods to identify changes in profitability and costs. A business can make a profit but still have cash shortages if customers have not yet paid.",
         "Use the examinable headings accurately: sales revenue minus cost of sales equals gross profit; gross profit minus expenses equals profit for the year (or loss where expenses exceed gross profit). Income statements measure performance over a period, not cash available on a particular day."
       ],
-      "example": "\u00a380,000 sales \u2212 \u00a350,000 cost of sales = \u00a330,000 gross profit; minus \u00a318,000 expenses = \u00a312,000 profit.",
+      "example": "£80,000 sales − £50,000 cost of sales = £30,000 gross profit; minus £18,000 expenses = £12,000 profit.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key income statements term.",
@@ -2844,12 +2844,12 @@ window.N5_HUB_DATA = {
       "model": "An income statement calculates profit by deducting cost of sales from revenue, then expenses from gross profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201ccost of sales\u201d in your own words.",
+          "prompt": "Quick recall: define “cost of sales” in your own words.",
           "answer": "The direct cost of goods sold during an accounting period."
         },
         {
           "prompt": "Application: give one realistic business example of income statements.",
-          "answer": "\u00a380,000 sales \u2212 \u00a350,000 cost of sales = \u00a330,000 gross profit; minus \u00a318,000 expenses = \u00a312,000 profit."
+          "answer": "£80,000 sales − £50,000 cost of sales = £30,000 gross profit; minus £18,000 expenses = £12,000 profit."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to income statements.",
@@ -2911,17 +2911,17 @@ window.N5_HUB_DATA = {
       "points": [
         "Break-even is the level of output/sales where total revenue equals total costs, so the business makes neither profit nor loss.",
         "Fixed costs do not change directly when output changes, for example rent. Variable costs change with output, for example materials. Total cost = fixed costs + total variable costs.",
-        "Sales revenue = selling price \u00d7 quantity sold. Contribution per unit = selling price \u2212 variable cost per unit. Break-even output = fixed costs \u00f7 contribution per unit.",
+        "Sales revenue = selling price × quantity sold. Contribution per unit = selling price − variable cost per unit. Break-even output = fixed costs ÷ contribution per unit.",
         "Below break-even the business makes a loss; above it the business makes a profit. Lower fixed/variable costs or a higher selling price can reduce the number of units needed to break even.",
         "Fixed costs do not directly change with output; variable costs do.",
         "Total cost = fixed + variable costs.",
         "Above break-even a business can make profit; below it makes a loss.",
-        "Fixed costs, such as rent, do not change directly with output in the short term. Variable costs, such as materials, change with units. Total costs = fixed costs + total variable costs; sales revenue = price \u00d7 units sold.",
-        "Break-even occurs when total revenue equals total costs. Contribution per unit = selling price \u2212 variable cost per unit; break-even units = fixed costs \u00f7 contribution per unit. For example, \u00a36,000 \u00f7 (\u00a310 \u2212 \u00a34) = 1,000 units.",
+        "Fixed costs, such as rent, do not change directly with output in the short term. Variable costs, such as materials, change with units. Total costs = fixed costs + total variable costs; sales revenue = price × units sold.",
+        "Break-even occurs when total revenue equals total costs. Contribution per unit = selling price − variable cost per unit; break-even units = fixed costs ÷ contribution per unit. For example, £6,000 ÷ (£10 − £4) = 1,000 units.",
         "Below break-even the business makes a loss and above it a profit, assuming the same price and cost relationships. Higher fixed costs raise break-even output; higher contribution per unit lowers it.",
         "Explain the difference between fixed costs (unchanged with output over the relevant range) and variable costs (change with units produced). At break-even, sales revenue equals total costs; an output above break-even generates profit if price and cost assumptions hold."
       ],
-      "example": "\u00a310,000 fixed costs \u00f7 \u00a35 contribution per unit = 2,000 units break-even.",
+      "example": "£10,000 fixed costs ÷ £5 contribution per unit = 2,000 units break-even.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key break-even term.",
@@ -2935,12 +2935,12 @@ window.N5_HUB_DATA = {
       "model": "A lower break-even point means fewer units must be sold before the business begins making profit.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201cbreak-even point\u201d in your own words.",
+          "prompt": "Quick recall: define “break-even point” in your own words.",
           "answer": "The level of sales or output where total sales revenue equals total costs, so the business makes neither a profit nor a loss."
         },
         {
           "prompt": "Application: give one realistic business example of break-even & costs.",
-          "answer": "\u00a310,000 fixed costs \u00f7 \u00a35 contribution per unit = 2,000 units break-even."
+          "answer": "£10,000 fixed costs ÷ £5 contribution per unit = 2,000 units break-even."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to break-even & costs.",
@@ -3013,7 +3013,7 @@ window.N5_HUB_DATA = {
         "Spreadsheets calculate budgets and forecasts automatically with formulae, reducing repetitive arithmetic and enabling what-if analysis. Accounting software can record transactions and generate reports more quickly.",
         "Online banking allows remote payments and balance checks, while cloud systems provide authorised access from different locations. Cybersecurity, backups, training and system failures remain important risks."
       ],
-      "example": "A caf\u00e9 uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time.",
+      "example": "A café uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time.",
       "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
       "check": [
         "Define one key finance technology term.",
@@ -3027,12 +3027,12 @@ window.N5_HUB_DATA = {
       "model": "A spreadsheet recalculates cash-budget totals automatically when costs change, reducing manual errors and helping managers forecast cash shortages.",
       "tasks": [
         {
-          "prompt": "Quick recall: define \u201caccounting software\u201d in your own words.",
+          "prompt": "Quick recall: define “accounting software” in your own words.",
           "answer": "Software used to record transactions and produce financial information."
         },
         {
           "prompt": "Application: give one realistic business example of technology in finance.",
-          "answer": "A caf\u00e9 uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time."
+          "answer": "A café uses spreadsheet formulae to update a monthly cash budget and online banking to check whether it can pay suppliers on time."
         },
         {
           "prompt": "Mini exam task: explain one business effect connected to technology in finance.",
@@ -3076,7 +3076,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Find out what customers want. (1 mark)\n• Choose a suitable price. (1 mark)\n• Identify a target market. (1 mark)\n• Learn about competitors. (1 mark)\n• Track changes in buying behaviour. (1 mark)\n\nSQA Marking Note: Up to 3 marks for distinct valid uses/descriptions of market research; credit appropriate development without repeating an idea."
     },
     {
       "id": "sqa2018-3c",
@@ -3104,7 +3105,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Recognisable products may need less advertising. (1 mark)\n• Loyal customers make repeat purchases. (1 mark)\n• A trusted brand can support premium prices. (1 mark)\n• New products can launch using established reputation. (1 mark)\n\nSQA Marking Note: Explain at least two distinct benefits for full marks; up to 2 marks for one developed benefit."
     },
     {
       "id": "sqa2018-4a",
@@ -3133,7 +3135,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Quality control inspects products for faults. (1 mark)\n• Quality assurance checks processes at every stage. (1 mark)\n• High-quality raw materials improve finished goods. (1 mark)\n• Staff training reduces mistakes. (1 mark)\n• Well-maintained equipment improves consistency. (1 mark)\n\nSQA Marking Note: At least two distinct methods for full marks; up to 3 marks for one developed method."
     },
     {
       "id": "sqa2018-4c",
@@ -3162,7 +3165,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Storage and insurance costs may rise. (1 mark)\n• Goods may deteriorate or become obsolete. (1 mark)\n• Cash tied up in inventory cannot be used elsewhere. (1 mark)\n• Theft or waste may increase. (1 mark)\n• Having stock ready can help meet unexpected demand. (1 mark)\n\nSQA Marking Note: At least two different impacts for full marks; credit developed cause-and-effect links, up to 2 marks for one impact."
     },
     {
       "id": "sqa2018-5a",
@@ -3189,7 +3193,8 @@ window.N5_HUB_DATA = {
         "identify"
       ],
       "primaryCommand": "identify",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Equality Act 2010. (1 mark)\n• Health and Safety at Work etc. Act 1974. (1 mark)\n• National Minimum Wage Act 1998. (1 mark)\n\nSQA Marking Note: Award 1 mark per correctly named, distinct relevant law. Do not accept abbreviations alone."
     },
     {
       "id": "sqa2018-6a",
@@ -3220,7 +3225,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Shareholders normally have limited liability. (1 mark)\n• Private shareholders can invest capital. (1 mark)\n• Financial risk is shared. (1 mark)\n• Shares cannot be offered to the public. (1 mark)\n• More legal and administrative requirements. (1 mark)\n• Profits may be shared with shareholders. (1 mark)\n• More owners may complicate decisions. (1 mark)\n\nSQA Marking Note: Full marks require at least one advantage and one disadvantage; award developed valid points up to 4 marks."
     },
     {
       "id": "sqa2018-7a",
@@ -3229,12 +3235,12 @@ window.N5_HUB_DATA = {
       "topic": "Management of Finance",
       "level": "B",
       "marks": 3,
-      "text": "Calculate three missing figures: at 100 units total costs are \u00a33,000 and variable costs \u00a32,000; at 200 units fixed costs are \u00a31,000 and variable costs \u00a34,000; at 300 units total costs are \u00a37,000 and fixed costs \u00a31,000. Give (i) fixed cost at 100, (ii) total cost at 200 and (iii) variable cost at 300.",
+      "text": "Calculate three missing figures: at 100 units total costs are £3,000 and variable costs £2,000; at 200 units fixed costs are £1,000 and variable costs £4,000; at 300 units total costs are £7,000 and fixed costs £1,000. Give (i) fixed cost at 100, (ii) total cost at 200 and (iii) variable cost at 300.",
       "hint": "Use total cost = fixed cost + variable cost for each row.",
       "acceptedPoints": [
-        "(i) \u00a31,000 fixed cost",
-        "(ii) \u00a35,000 total cost",
-        "(iii) \u00a36,000 variable cost"
+        "(i) £1,000 fixed cost",
+        "(ii) £5,000 total cost",
+        "(iii) £6,000 variable cost"
       ],
       "markingRule": "1 mark for each correct figure, up to 3 marks. Accept equivalent correct numerical presentation.",
       "notes": [
@@ -3247,7 +3253,8 @@ window.N5_HUB_DATA = {
         "calculate"
       ],
       "primaryCommand": "calculate",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• (i) £1,000 fixed cost. (1 mark)\n• (ii) £5,000 total cost. (1 mark)\n• (iii) £6,000 variable cost. (1 mark)\n\nSQA Marking Note: 1 mark for each correct figure, up to 3 marks. Accept equivalent correct numerical presentation."
     },
     {
       "id": "sqa2018-7c",
@@ -3274,7 +3281,8 @@ window.N5_HUB_DATA = {
         "define"
       ],
       "primaryCommand": "define",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Expenses are running costs or overheads such as rent. (1 mark)\n• Gross profit is sales revenue minus cost of sales. (1 mark)\n• Profit for the year is gross profit minus expenses. (1 mark)\n\nSQA Marking Note: 1 mark per accurate definition; all three terms needed for full marks."
     },
     {
       "id": "sqa2019-3a",
@@ -3304,7 +3312,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Train staff to answer questions helpfully. (1 mark)\n• Respond promptly and fairly to complaints. (1 mark)\n• Provide accurate product information. (1 mark)\n• Offer suitable returns and refunds. (1 mark)\n• Provide after-sales support. (1 mark)\n• Keep promises about delivery and quality. (1 mark)\n\nSQA Marking Note: Award relevant factual methods with sufficient detail, up to 4 marks; avoid repeating the same method."
     },
     {
       "id": "sqa2019-3b",
@@ -3329,7 +3338,8 @@ window.N5_HUB_DATA = {
         "define"
       ],
       "primaryCommand": "define",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 1 mark):\n• A physical product consumed or used up relatively quickly, such as food or soap. (1 mark)\n\nSQA Marking Note: Award 1 mark for an accurate definition; an example alone is not a definition."
     },
     {
       "id": "sqa2019-3c",
@@ -3358,7 +3368,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Provide essential services to the public. (1 mark)\n• Meet government service targets. (1 mark)\n• Use taxpayers' money efficiently. (1 mark)\n• Improve access to services. (1 mark)\n• Satisfy community needs. (1 mark)\n\nSQA Marking Note: Award 1 mark for each distinct, relevant outlined public-sector objective, up to 2 marks."
     },
     {
       "id": "sqa2019-4b",
@@ -3387,7 +3398,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "justify",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Training can improve productivity and reduce unit costs. (1 mark)\n• Training can improve quality and reduce waste. (1 mark)\n• Safety training can prevent accidents and absence. (1 mark)\n• Better skills can improve customer service and repeat sales. (1 mark)\n• Development can improve motivation and retention. (1 mark)\n\nSQA Marking Note: Up to 4 marks for justified, distinct reasons with business consequences; accept other suitable benefits."
     },
     {
       "id": "sqa2019-5c",
@@ -3416,7 +3428,8 @@ window.N5_HUB_DATA = {
         "compare"
       ],
       "primaryCommand": "compare",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Desk uses existing data whereas field collects new information. (1 mark)\n• Desk is often cheaper whereas field can cost more. (1 mark)\n• Desk can be quicker whereas field can take longer. (1 mark)\n• Desk may be outdated whereas field is current. (1 mark)\n• Desk may be general whereas field can be tailored to a specific need. (1 mark)\n\nSQA Marking Note: Award 1 mark per valid paired comparison; both sides must be clear. Maximum 3."
     },
     {
       "id": "sqa2019-6b",
@@ -3445,7 +3458,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Forecast cash inflows and outflows. (1 mark)\n• Identify future shortages so finance can be arranged. (1 mark)\n• Plan timing of payments and spending. (1 mark)\n• Identify surpluses for possible investment. (1 mark)\n• Compare forecast with actual cash movement. (1 mark)\n\nSQA Marking Note: Up to 3 marks for valid explained purposes; reward appropriate consequences and do not repeat ideas."
     },
     {
       "id": "sqa2019-7a",
@@ -3475,7 +3489,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Batch production allows variety of products. (1 mark)\n• Some economies of scale can lower unit cost. (1 mark)\n• Machinery needs resetting between batches. (1 mark)\n• Stock may need storing between batches. (1 mark)\n• Popular items can sell out before the next batch. (1 mark)\n• Quality can be checked after each batch. (1 mark)\n\nSQA Marking Note: For full marks include both benefits and drawbacks, with developed valid points up to 4 marks."
     },
     {
       "id": "sqa2019-7b",
@@ -3504,7 +3519,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Higher storage and insurance costs. (1 mark)\n• Money tied up in stock cannot fund other needs. (1 mark)\n• Perishable goods may deteriorate. (1 mark)\n• Products may become obsolete. (1 mark)\n• More space is needed for stock. (1 mark)\n\nSQA Marking Note: Up to 3 marks for distinct relevant consequences and valid development."
     },
     {
       "id": "sqa2019-7c",
@@ -3533,7 +3549,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Responsible sourcing can improve reputation. (1 mark)\n• Fair treatment of workers can improve motivation and retention. (1 mark)\n• Ethical products may attract concerned customers. (1 mark)\n• Avoiding exploitation can reduce reputational and legal risks. (1 mark)\n• Reduced waste can save costs and appeal to customers. (1 mark)\n\nSQA Marking Note: Up to 3 marks for valid, distinct benefits explained with enough detail."
     },
     {
       "id": "sqa25-3bi",
@@ -3563,7 +3580,8 @@ window.N5_HUB_DATA = {
         "identify"
       ],
       "primaryCommand": "identify",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Recession. (1 mark)\n• Economic boom. (1 mark)\n• Interest rates. (1 mark)\n• Inflation. (1 mark)\n• Exchange rates. (1 mark)\n• Unemployment. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid economic factor, up to 2 marks. Other suitable economic factors can also receive credit."
     },
     {
       "id": "sqa25-3c",
@@ -3580,9 +3598,9 @@ window.N5_HUB_DATA = {
         "Internal factors originate within the organisation and can affect how successfully it operates."
       ],
       "acceptedPoints": [
-        "finance \u2014 the money available to the organisation",
-        "human resources \u2014 employees and managers",
-        "technology \u2014 ICT, machinery or equipment used by the organisation"
+        "finance — the money available to the organisation",
+        "human resources — employees and managers",
+        "technology — ICT, machinery or equipment used by the organisation"
       ],
       "markingRule": "Award 1 mark for each valid description of an internal factor, up to 2 marks. Credit other suitable internal factors.",
       "subtopic": "Internal & external factors",
@@ -3590,7 +3608,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Finance — the money available to the organisation. (1 mark)\n• Human resources — employees and managers. (1 mark)\n• Technology — ICT, machinery or equipment used by the organisation. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description of an internal factor, up to 2 marks. Credit other suitable internal factors."
     },
     {
       "id": "sqa25-1aii",
@@ -3628,7 +3647,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Private sector organisations are owned by private individuals. (1 mark)\n• Private sector finance can come from owner savings, loans or share issues. (1 mark)\n• Private sector organisations are controlled by owners, partners or directors. (1 mark)\n• Private sector organisations commonly aim to make profit. (1 mark)\n• Valid private-sector examples include sole traders, partnerships and limited companies. (1 mark)\n• Public sector organisations are owned by government. (1 mark)\n• Public sector organisations are financed through taxation/public funds. (1 mark)\n• Public sector organisations are controlled by elected government/public bodies. (1 mark)\n• Public sector organisations aim to provide services. (1 mark)\n• Valid public-sector examples include the NHS, schools, councils and armed forces. (1 mark)\n\nSQA Marking Note: Up to 4 marks. The response must describe both sectors for full marks. Award 1 mark per valid description. Examples and aims are subject to the limits in the official marking instructions."
     },
     {
       "id": "sqa25-4bi",
@@ -3655,7 +3675,8 @@ window.N5_HUB_DATA = {
         "identify"
       ],
       "primaryCommand": "identify",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Low-price strategy. (1 mark)\n• Competitive or market pricing. (1 mark)\n• Premium or high-price strategy. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid pricing strategy, up to 2 marks. Other suitable strategies can receive credit."
     },
     {
       "id": "sqa25-4c",
@@ -3690,7 +3711,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Coupons or voucher codes that reduce the price. (1 mark)\n• Loyalty cards or points-based rewards. (1 mark)\n• Competitions offering the chance to win a prize. (1 mark)\n• Special offers that give extra product/value. (1 mark)\n• Buy-one-get-one-free offers. (1 mark)\n• Free delivery. (1 mark)\n• Flash sales or short-term promotional pricing. (1 mark)\n• Discounts that reduce the normal price. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description of a sales promotion, up to 4 marks. Other suitable sales promotions can receive credit."
     },
     {
       "id": "sqa25-1b",
@@ -3726,7 +3748,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 5 marks):\n• Television advertising can reach a wide audience and demonstrate products, but is expensive and viewers may skip adverts. (1 mark)\n• Radio advertising can use memorable audio and may cost less than television, but listeners can tune out. (1 mark)\n• Newspaper or magazine advertising can provide printed information and be kept for reference, but may have a limited audience. (1 mark)\n• Cinema advertising can target audience segments and has a captive audience. (1 mark)\n• Outdoor, billboard or transport advertising can reach local audiences but may be damaged or malfunction. (1 mark)\n• SMS advertising can reach many customers quickly but carries limited information. (1 mark)\n• In-app advertising can be interactive but may frustrate users. (1 mark)\n• Social-media advertising can be shared widely but can also be ignored or skipped. (1 mark)\n\nSQA Marking Note: Up to 5 marks. At least two advertising methods must be discussed for full marks. Award marks for valid discussion points and valid developments; the official instructions limit purely descriptive credit."
     },
     {
       "id": "sqa25-5b",
@@ -3757,7 +3780,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Recycling can reduce waste. (1 mark)\n• Environmentally friendly production can protect wildlife or the environment. (1 mark)\n• It can reduce air pollution or carbon footprint. (1 mark)\n• It can help the organisation comply with legislation and avoid fines. (1 mark)\n• Environmental awards or actions can improve image and attract ethical customers. (1 mark)\n• It may attract skilled staff who share the organisation's values. (1 mark)\n• Using less packaging can reduce costs and improve profit. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two benefits must be described for full marks. Award valid descriptions and valid developments. Other suitable benefits can receive credit."
     },
     {
       "id": "sqa25-5c",
@@ -3793,7 +3817,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Supplier location and its effect on delivery time. (1 mark)\n• Price charged. (1 mark)\n• Quality of products supplied. (1 mark)\n• Ability to provide the required quantity. (1 mark)\n• Discounts offered. (1 mark)\n• Credit terms. (1 mark)\n• Supplier reputation. (1 mark)\n• Reliability and on-time delivery. (1 mark)\n• Accuracy of orders. (1 mark)\n• Lead time. (1 mark)\n• Ability to meet rush orders. (1 mark)\n• Ethical or environmentally friendly practices. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two factors must be outlined for full marks. Award valid outline points and valid developments. Other suitable factors can receive credit."
     },
     {
       "id": "sqa25-2c",
@@ -3824,7 +3849,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Avoid overstocking. (1 mark)\n• Make theft easier to identify. (1 mark)\n• Reduce storage, security or insurance costs, potentially increasing profit. (1 mark)\n• Avoid obsolete stock that may need to be sold at lower prices. (1 mark)\n• Reduce money tied up in inventory so resources can be used elsewhere. (1 mark)\n• Reduce deterioration or out-of-date stock and wastage costs. (1 mark)\n• Reduce storage space required and free space for other uses. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two reasons must be discussed for full marks. Award valid discussion points and valid developments. Other suitable reasons can receive credit."
     },
     {
       "id": "sqa25-6bi",
@@ -3852,7 +3878,8 @@ window.N5_HUB_DATA = {
         "name"
       ],
       "primaryCommand": "name",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 1 mark):\n• Income statement. (1 mark)\n\nSQA Marking Note: Award 1 mark for 'income statement'. No alternative response is accepted for this particular item."
     },
     {
       "id": "sqa25-2dii",
@@ -3869,13 +3896,13 @@ window.N5_HUB_DATA = {
         "A description should show what the source is or how it works."
       ],
       "acceptedPoints": [
-        "bank loan \u2014 borrowed finance repaid with interest, usually over time",
-        "mortgage \u2014 long-term borrowing used to purchase property or land",
-        "government grant \u2014 funding awarded when conditions are met and normally not repaid",
-        "personal savings \u2014 owner's own saved money with no borrowing interest",
-        "share issue \u2014 raising finance by selling ownership shares",
-        "hire purchase \u2014 obtaining an asset and paying by instalments until ownership is achieved",
-        "retained profit \u2014 previous profit reinvested in the business"
+        "bank loan — borrowed finance repaid with interest, usually over time",
+        "mortgage — long-term borrowing used to purchase property or land",
+        "government grant — funding awarded when conditions are met and normally not repaid",
+        "personal savings — owner's own saved money with no borrowing interest",
+        "share issue — raising finance by selling ownership shares",
+        "hire purchase — obtaining an asset and paying by instalments until ownership is achieved",
+        "retained profit — previous profit reinvested in the business"
       ],
       "markingRule": "Up to 3 marks. At least two sources must be described for full marks. Award valid descriptions and one valid development where appropriate. Other suitable sources can receive credit.",
       "restrictions": [
@@ -3886,7 +3913,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Bank loan — borrowed finance repaid with interest, usually over time. (1 mark)\n• Mortgage — long-term borrowing used to purchase property or land. (1 mark)\n• Government grant — funding awarded when conditions are met and normally not repaid. (1 mark)\n• Personal savings — owner's own saved money with no borrowing interest. (1 mark)\n• Share issue — raising finance by selling ownership shares. (1 mark)\n• Hire purchase — obtaining an asset and paying by instalments until ownership is achieved. (1 mark)\n• Retained profit — previous profit reinvested in the business. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two sources must be described for full marks. Award valid descriptions and one valid development where appropriate. Other suitable sources can receive credit."
     },
     {
       "id": "sqa25-6bii",
@@ -3922,7 +3950,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Lower sales revenue: customers buy less. (1 mark)\n• Lower sales revenue: selling price changes. (1 mark)\n• Lower sales revenue: changes in tastes or fashion. (1 mark)\n• Lower sales revenue: competitors reduce prices. (1 mark)\n• Higher cost of sales: supplier or raw-material prices increase. (1 mark)\n• Lower profit for the year: expenses increase. (1 mark)\n• Lower profit for the year: gross profit decreases. (1 mark)\n• Lower profit for the year: cost of sales increases. (1 mark)\n• Lower profit for the year: sales revenue decreases. (1 mark)\n\nSQA Marking Note: Up to 3 marks. Award one valid reason for each of the three requested financial changes. Other suitable reasons can receive credit."
     },
     {
       "id": "sqa25-7c",
@@ -3952,7 +3981,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Represent employees' rights. (1 mark)\n• Negotiate wage increases. (1 mark)\n• Negotiate fair working conditions. (1 mark)\n• Organise industrial action. (1 mark)\n• Give members advice or support on employment issues. (1 mark)\n• Provide training or education. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description, up to 2 marks. Other suitable trade-union roles can receive credit."
     },
     {
       "id": "sqa25-7a",
@@ -3987,7 +4017,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Identify the vacancy. (1 mark)\n• Carry out a job analysis to check the job and its requirements. (1 mark)\n• Create a job description setting out tasks and responsibilities. (1 mark)\n• Create a person specification setting out essential and desirable qualities. (1 mark)\n• Advertise the job internally or externally. (1 mark)\n• Send out or make application forms available. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two recruitment stages must be outlined for full marks. Award outline points and valid developments; stages can be in any order."
     },
     {
       "id": "sqa25-1d",
@@ -4020,7 +4051,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Training takes employees away from work and can reduce productivity. (1 mark)\n• Training courses cost money, leaving less finance for other uses. (1 mark)\n• Temporary cover may be needed while employees train. (1 mark)\n• Service quality can fall during training and may harm reputation. (1 mark)\n• Training improves skills and can reduce errors or waste. (1 mark)\n• Training can make more employees suitable for promotion. (1 mark)\n• Qualifications can improve motivation and output. (1 mark)\n• Training can improve retention and reduce staff turnover. (1 mark)\n• A strong training reputation can attract future applicants. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least one cost and one benefit must be explained for full marks. Award valid explanations and valid developments. Other suitable responses can receive credit."
     },
     {
       "id": "sqa22-3b",
@@ -4049,7 +4081,8 @@ window.N5_HUB_DATA = {
         "compare"
       ],
       "primaryCommand": "compare",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Sole traders commonly aim to make profit whereas charities aim to increase donations. (1 mark)\n• Sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause. (1 mark)\n• Both may aim to survive. (1 mark)\n• Both may aim to grow. (1 mark)\n• Both may aim to be socially responsible. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid comparison, up to 2 marks. Both sides of each comparison must be clear. Other suitable comparisons can receive credit."
     },
     {
       "id": "sqa22-4aii",
@@ -4079,7 +4112,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Identify the vacancy. (1 mark)\n• Carry out a job analysis and establish what the job involves. (1 mark)\n• Create a job description covering tasks and responsibilities. (1 mark)\n• Create a person specification covering skills and qualifications. (1 mark)\n• Advertise the job internally or externally. (1 mark)\n• Send out application forms. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two stages must be outlined for full marks. Developments can receive additional credit and other suitable recruitment stages can be accepted."
     },
     {
       "id": "sqa22-4bii",
@@ -4109,7 +4143,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Higher quality output can improve customer satisfaction. (1 mark)\n• More motivated employees can increase productivity. (1 mark)\n• Reduced staff turnover can lower recruitment and selection costs. (1 mark)\n• Better customer service can increase loyalty. (1 mark)\n• A good training reputation can attract customers or applicants. (1 mark)\n• Staff can develop new skills and improve promotion prospects. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid explanation, up to 2 marks. Other suitable training benefits can receive credit."
     },
     {
       "id": "sqa22-5c",
@@ -4141,7 +4176,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Large quantities can create economies of scale. (1 mark)\n• Lower labour costs can reduce unit costs. (1 mark)\n• Standardisation can improve consistency. (1 mark)\n• Production can continue for long periods. (1 mark)\n• High setup costs and machinery make it capital intensive. (1 mark)\n• Repetitive work can demotivate employees. (1 mark)\n• Breakdowns can halt production. (1 mark)\n• Products cannot be fully customised. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least one advantage and one disadvantage must be discussed for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa22-5d",
@@ -4173,7 +4209,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Reliable suppliers help ensure goods arrive on time. (1 mark)\n• Competitive prices can keep unit costs down. (1 mark)\n• Discounts can reduce the cost of supplies. (1 mark)\n• Credit terms can improve cash flow. (1 mark)\n• Acceptable quality supports a good production input. (1 mark)\n• Required quantities prevent interrupted production. (1 mark)\n• Ethical suppliers can support a good image. (1 mark)\n• Nearby suppliers can reduce transport costs and carbon footprint. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid explanation, up to 2 marks. Other suitable supplier factors can receive credit."
     },
     {
       "id": "sqa22-6a",
@@ -4205,7 +4242,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Predict cash income and outgoings. (1 mark)\n• Identify forecast cash deficits. (1 mark)\n• Identify forecast cash surpluses. (1 mark)\n• Plan for large future purchases. (1 mark)\n• Set financial targets. (1 mark)\n• Support decision making. (1 mark)\n• Help secure finance. (1 mark)\n• Control costs. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid outline, up to 4 marks. Other suitable purposes can receive credit."
     },
     {
       "id": "sqa22-6cii",
@@ -4234,7 +4272,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Personal savings have no interest and no repayment but may be limited. (1 mark)\n• Bank loans can provide large sums and staged repayments but charge interest and may require collateral. (1 mark)\n• Overdrafts can solve short-term cash-flow problems but may carry high daily interest. (1 mark)\n• Mortgages can raise large sums over a long period but charge interest and put property at risk. (1 mark)\n• Government grants do not normally need repaid but have eligibility criteria and an application process. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least one advantage and one disadvantage must be discussed for full marks. Credit valid points for any suitable sole-trader finance source."
     },
     {
       "id": "sqa22-7a",
@@ -4265,7 +4304,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Generate the idea. (1 mark)\n• Analyse the idea. (1 mark)\n• Carry out market research. (1 mark)\n• Produce a prototype. (1 mark)\n• Test the product. (1 mark)\n• Alter the design using feedback. (1 mark)\n• Create a marketing campaign. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid stage, up to 3 marks. Other suitable product-development stages can receive credit."
     },
     {
       "id": "sqa22-7b",
@@ -4294,7 +4334,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Recognition can increase purchases and profit. (1 mark)\n• Recognition can make it easier to launch new products. (1 mark)\n• Brand loyalty can lead to repeat purchases. (1 mark)\n• Customers may pay more for branded products. (1 mark)\n• A quality image can increase trust. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two advantages must be explained for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa22-7cii",
@@ -4321,7 +4362,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "justify",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Online or social methods can target groups, reach worldwide audiences, link directly to buying and operate at low cost. (1 mark)\n• Printed methods can be kept, use visuals and target local or specialist audiences. (1 mark)\n• Television, radio or cinema can be memorable, attention-grabbing and target segments or locations. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid justification, up to 2 marks. A different justification should be used for each method; equivalent suitable reasons can receive credit."
     },
     {
       "id": "sqa23-3a",
@@ -4350,7 +4392,8 @@ window.N5_HUB_DATA = {
         "compare"
       ],
       "primaryCommand": "compare",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Job production makes one unique item whereas batch production makes groups of identical items. (1 mark)\n• Job production is highly customised whereas batch production offers less customisation. (1 mark)\n• Job production often uses highly skilled labour whereas batch production can use more specialised machinery. (1 mark)\n• Job production can take longer per item whereas batch production can produce more units together. (1 mark)\n• Job production usually has higher unit costs whereas batch production can gain some economies of scale. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid comparison, up to 3 marks. Both sides of each comparison must be clear. Accept other suitable comparisons."
     },
     {
       "id": "sqa23-3b",
@@ -4382,7 +4425,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Quality control checks products at selected stages or at the end. (1 mark)\n• Quality assurance checks throughout the process. (1 mark)\n• Use high-quality raw materials. (1 mark)\n• Train or recruit skilled employees. (1 mark)\n• Maintain machinery and equipment. (1 mark)\n• Use up-to-date technology. (1 mark)\n• Apply quality standards and procedures. (1 mark)\n• Use customer feedback to improve quality. (1 mark)\n\nSQA Marking Note: Up to 4 marks for valid descriptions. Developed points may receive additional credit where appropriate; accept other suitable quality methods."
     },
     {
       "id": "sqa23-4a",
@@ -4411,7 +4455,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Flexi-time lets employees vary start and finish times around core hours. (1 mark)\n• Homeworking means employees work from home. (1 mark)\n• Teleworking means working remotely while connected electronically to the workplace. (1 mark)\n• Job sharing means two employees split one job, workload and pay. (1 mark)\n• Employees may bank extra flexi-time hours for time off. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two working practices must be described for full marks. Valid developments can receive additional credit."
     },
     {
       "id": "sqa23-4c",
@@ -4442,7 +4487,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Production can stop and deadlines may be missed. (1 mark)\n• Customers may become unhappy and sales or reputation may suffer. (1 mark)\n• Employees may lose income during action. (1 mark)\n• Employees may gain higher pay which increases business costs. (1 mark)\n• Staff morale can fall and productivity may reduce. (1 mark)\n• Employee relations can deteriorate and future changes become harder. (1 mark)\n• Staff turnover may change. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two effects must be explained for full marks. A valid development can earn additional credit."
     },
     {
       "id": "sqa23-5bi",
@@ -4470,7 +4516,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Predict cash inflows and outflows so monthly payments can be covered. (1 mark)\n• Compare actual cash flow with forecast figures to identify overspending. (1 mark)\n• Identify cash shortages so finance can be arranged. (1 mark)\n• Identify cash surpluses so large purchases can be planned. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two reasons must be described for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa23-5bii",
@@ -4498,7 +4545,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "justify",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Templates can standardise layouts. (1 mark)\n• Saved information can be edited later. (1 mark)\n• Formulae can update calculations automatically and reduce human error. (1 mark)\n• Graphs can display trends visually. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid justification, up to 2 marks. A developed justification may earn the second mark. Vague claims such as 'easy' or 'quick' need qualification."
     },
     {
       "id": "sqa23-6bii",
@@ -4525,7 +4573,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• High or premium pricing sets a price above competitors and can suggest quality. (1 mark)\n• Low pricing sets a price below competitors to undercut them. (1 mark)\n• Competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two pricing strategies must be described for full marks. One valid development can receive additional credit."
     },
     {
       "id": "sqa23-6c",
@@ -4551,7 +4600,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A personal interview is a face-to-face meeting where questions are asked. (1 mark)\n• A postal survey is a list of questions sent to respondents to complete. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description. Both methods must be described for full marks."
     },
     {
       "id": "sqa23-7a",
@@ -4579,7 +4629,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Land means natural resources. (1 mark)\n• Labour means human effort or employees. (1 mark)\n• Capital means man-made resources and can include owner finance. (1 mark)\n• Enterprise is the idea or entrepreneur bringing the other factors together. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two factors must be outlined for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa23-7c",
@@ -4610,7 +4661,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "identify + explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Political factors such as tax or new laws can change costs, profit or working practices. (1 mark)\n• Economic factors such as interest rates, inflation or recession can affect borrowing costs, demand and prices. (1 mark)\n• Social factors such as ageing populations or fashion can change products and market research needs. (1 mark)\n• Technological change can alter staffing, capital spending and competitiveness. (1 mark)\n• Environmental factors such as weather or pressure groups can affect delivery or customer behaviour. (1 mark)\n• Competitive changes such as rivals lowering prices may force a response. (1 mark)\n\nSQA Marking Note: Up to 4 marks: identify two valid external factors and explain the influence of each. Accept other suitable factors and effects."
     },
     {
       "id": "sqa24-3a",
@@ -4627,14 +4679,14 @@ window.N5_HUB_DATA = {
         "A description should show what the finance source is or how it works."
       ],
       "acceptedPoints": [
-        "bank loan \u2014 borrowed finance repaid with interest, often in instalments",
-        "mortgage \u2014 long-term borrowing to buy property or land",
-        "retained profits \u2014 previous profits reinvested in the organisation",
-        "government grant \u2014 funding awarded when criteria are met and normally not repaid",
-        "overdraft \u2014 withdrawing more than the current bank balance",
-        "personal savings \u2014 owner's saved money with no borrowing interest",
-        "share issue \u2014 raising finance by selling ownership shares",
-        "hire purchase \u2014 paying for an asset in instalments until ownership transfers"
+        "bank loan — borrowed finance repaid with interest, often in instalments",
+        "mortgage — long-term borrowing to buy property or land",
+        "retained profits — previous profits reinvested in the organisation",
+        "government grant — funding awarded when criteria are met and normally not repaid",
+        "overdraft — withdrawing more than the current bank balance",
+        "personal savings — owner's saved money with no borrowing interest",
+        "share issue — raising finance by selling ownership shares",
+        "hire purchase — paying for an asset in instalments until ownership transfers"
       ],
       "markingRule": "Up to 4 marks. At least two sources must be described for full marks. Valid developments can receive additional credit; accept other suitable finance sources.",
       "subtopic": "Sources of finance",
@@ -4642,7 +4694,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Bank loan — borrowed finance repaid with interest, often in instalments. (1 mark)\n• Mortgage — long-term borrowing to buy property or land. (1 mark)\n• Retained profits — previous profits reinvested in the organisation. (1 mark)\n• Government grant — funding awarded when criteria are met and normally not repaid. (1 mark)\n• Overdraft — withdrawing more than the current bank balance. (1 mark)\n• Personal savings — owner's saved money with no borrowing interest. (1 mark)\n• Share issue — raising finance by selling ownership shares. (1 mark)\n• Hire purchase — paying for an asset in instalments until ownership transfers. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two sources must be described for full marks. Valid developments can receive additional credit; accept other suitable finance sources."
     },
     {
       "id": "sqa24-3b",
@@ -4670,7 +4723,8 @@ window.N5_HUB_DATA = {
         "define"
       ],
       "primaryCommand": "define",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Fixed costs do not change as output or sales change. (1 mark)\n• Total costs equal fixed costs plus variable costs. (1 mark)\n• Total revenue is units sold multiplied by selling price or income generated from sales. (1 mark)\n• Break-even is where total revenue equals total costs and no profit or loss is made. (1 mark)\n\nSQA Marking Note: Award 1 mark for each correct definition. All four terms must be defined for 4 marks."
     },
     {
       "id": "sqa24-4a",
@@ -4701,7 +4755,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• More capital can be available. (1 mark)\n• Partners can specialise and improve quality. (1 mark)\n• Responsibility and workload can be shared. (1 mark)\n• More ideas can be generated. (1 mark)\n• Arguments between partners can occur. (1 mark)\n• Profits must be shared. (1 mark)\n• Partners can have unlimited liability and personal assets may be at risk. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least one advantage and one disadvantage must be discussed for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa24-4c",
@@ -4731,7 +4786,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Political changes such as higher minimum wage can increase wage costs. (1 mark)\n• Economic changes such as higher interest rates can increase borrowing costs. (1 mark)\n• Social changes such as tastes and fashions can force product changes. (1 mark)\n• New technology may require staff training or investment. (1 mark)\n• Bad weather can delay deliveries. (1 mark)\n• Competitor price changes may force the organisation to adjust its own price. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid explanation of an external factor, up to 3 marks. Other suitable external influences can receive credit."
     },
     {
       "id": "sqa24-5a",
@@ -4761,7 +4817,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Training is expensive and can reduce profit. (1 mark)\n• Employees may be absent from work and temporary cover may be needed. (1 mark)\n• Trained employees may leave and create new recruitment costs. (1 mark)\n• Production can fall while employees are away training and orders may be delayed. (1 mark)\n• Generic external training may cause confusion. (1 mark)\n• Quality may temporarily fall and complaints may rise. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two costs must be explained for full marks. One valid development can receive additional credit."
     },
     {
       "id": "sqa24-5b",
@@ -4792,7 +4849,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Equality Act protects people with protected characteristics. (1 mark)\n• Equality Act aims to prevent discrimination, harassment and victimisation. (1 mark)\n• Protected characteristics include age, disability, sex, pregnancy/maternity, race, religion/belief, sexual orientation, gender reassignment and marriage/civil partnership. (1 mark)\n• Health and Safety law sets employer and employee responsibilities. (1 mark)\n• Employers must provide a safe working environment and suitable safety equipment. (1 mark)\n• Employers must ensure equipment and materials are handled safely. (1 mark)\n• Employees must follow safety procedures and report issues. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least one feature of each Act must be outlined for full marks. The official guidance limits credit for simply listing protected characteristics."
     },
     {
       "id": "sqa24-6b",
@@ -4821,7 +4879,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Poor packaging can damage products and increase complaints, returns or compensation. (1 mark)\n• Too much or unnecessary packaging can upset consumers and damage reputation. (1 mark)\n• Excess packaging can increase landfill or environmental damage. (1 mark)\n• Misleading information can lead to legal action. (1 mark)\n• Cheaper packaging materials may reduce costs but can affect protection or image. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least two consequences must be explained for full marks. One valid development can receive additional credit."
     },
     {
       "id": "sqa24-6c",
@@ -4850,7 +4909,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "identify + justify",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Road can offer door-to-door delivery and specialist vehicle types. (1 mark)\n• Rail can carry large or heavy loads and can be more environmentally friendly than road. (1 mark)\n• Air is the quickest way to move goods long distances and can reach places other methods cannot. (1 mark)\n• Sea can carry large volumes and may be cheaper for bulk transport. (1 mark)\n\nSQA Marking Note: Up to 4 marks: identify two valid distribution methods and justify both. Use a different suitable justification for each method."
     },
     {
       "id": "sqa24-7b",
@@ -4878,7 +4938,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Production may stop and future products may be unavailable. (1 mark)\n• Unexpected orders cannot be met and sales revenue can fall. (1 mark)\n• Employees may still need paid while not producing, increasing costs. (1 mark)\n• The business may appear unreliable and damage its image. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid explanation, up to 2 marks. Other suitable understocking problems can receive credit."
     },
     {
       "id": "sqa24-7c",
@@ -4905,7 +4966,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "justify",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Short lead times give quicker access to goods. (1 mark)\n• Credit terms allow later payment and can improve cash flow. (1 mark)\n• Reliability helps ensure the correct quantity, quality and timing of deliveries. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid justification, up to 3 marks. Full marks require all three factors and a different justification for each."
     },
     {
       "id": "sqa26-3b",
@@ -4935,7 +4997,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Higher minimum wage can increase wage expenses and reduce profit. (1 mark)\n• Higher unemployment can reduce demand for goods and services. (1 mark)\n• Changes in taste or fashion can make products obsolete. (1 mark)\n• New technology can increase capital expenditure. (1 mark)\n• Poor weather can delay raw-material deliveries. (1 mark)\n• A new competitor can cause loss of customers. (1 mark)\n\nSQA Marking Note: Up to 4 marks. At least two factors must be explained for full marks. Award valid explanations and valid developments; other suitable external influences can receive credit."
     },
     {
       "id": "sqa26-3c",
@@ -4965,7 +5028,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "C"
+      "computedLevel": "C",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Make best use of taxpayers' money. (1 mark)\n• Provide a service to others. (1 mark)\n• Raise awareness of issues. (1 mark)\n• Keep finances within budget. (1 mark)\n• Be socially responsible or environmentally friendly. (1 mark)\n• Meet government targets. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description, up to 2 marks. Other suitable public-sector objectives can receive credit."
     },
     {
       "id": "sqa26-4aii",
@@ -4996,7 +5060,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Increase sales revenue. (1 mark)\n• Use promotions to increase sales. (1 mark)\n• Increase selling price. (1 mark)\n• Reduce cost of sales. (1 mark)\n• Find cheaper suppliers. (1 mark)\n• Negotiate cheaper supplier prices. (1 mark)\n• Negotiate bulk-buying deals. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description, up to 2 marks. Other suitable ways of improving gross profit can receive credit."
     },
     {
       "id": "sqa26-4c",
@@ -5027,7 +5092,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Spreadsheets can create income statements or cash budgets. (1 mark)\n• Spreadsheets can create break-even or sales-trend charts. (1 mark)\n• Spreadsheets can record sales figures. (1 mark)\n• Online banking can pay suppliers, check balances or pay wages. (1 mark)\n• Email can send invoices to customers. (1 mark)\n• Presentation software can present financial performance. (1 mark)\n• Word processing can create invoices. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description, up to 3 marks. The technology must be named. The official guidance caps repeated financial-statement/chart uses."
     },
     {
       "id": "sqa26-5a",
@@ -5066,7 +5132,8 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "primaryCommand": "describe + explain",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Batch production makes groups of identical products and is flexible between batches. (1 mark)\n• Batch production can reduce material costs through bulk buying. (1 mark)\n• Batch production may create wastage if a whole batch has a fault. (1 mark)\n• Batch production can involve setup time between batches. (1 mark)\n• Flow production continuously mass-produces identical products. (1 mark)\n• Flow production can achieve economies of scale and lower labour costs. (1 mark)\n• Flow production produces standardised products with consistent quality. (1 mark)\n• Flow production has high setup costs. (1 mark)\n• Flow production can be repetitive and demotivating. (1 mark)\n• Machinery breakdowns can halt flow production. (1 mark)\n• Flow production offers little customisation. (1 mark)\n\nSQA Marking Note: Up to 4 marks: 1 mark for a suitable method description, then up to 3 marks for costs and benefits. To gain the cost/benefit marks fully, include at least one cost and one benefit of the chosen method."
     },
     {
       "id": "sqa26-5b",
@@ -5098,7 +5165,8 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "justify",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Inventory levels can update automatically. (1 mark)\n• The system can place automatic reorders. (1 mark)\n• Levels can be monitored to reduce overstocking and understocking. (1 mark)\n• The system can show fast- and slow-selling inventory. (1 mark)\n• Manual inventory checks can be reduced. (1 mark)\n• Barcodes can provide data quickly. (1 mark)\n• Barcodes can track item locations. (1 mark)\n• Computerised systems can reduce human error. (1 mark)\n\nSQA Marking Note: Up to 3 marks for valid justifications and developments. Other suitable benefits of computerised inventory control can receive credit."
     },
     {
       "id": "sqa26-5c",
@@ -5135,7 +5203,8 @@ window.N5_HUB_DATA = {
         "outline"
       ],
       "primaryCommand": "outline",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Supplier location. (1 mark)\n• Price charged. (1 mark)\n• Delivery cost. (1 mark)\n• Quality of products. (1 mark)\n• Ability to meet required quantity. (1 mark)\n• Discounts offered. (1 mark)\n• Credit terms. (1 mark)\n• Supplier reputation. (1 mark)\n• Reliable on-time delivery. (1 mark)\n• Accuracy of orders. (1 mark)\n• Lead time. (1 mark)\n• Ability to meet rush orders. (1 mark)\n• Ethical or environmentally friendly operation. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid outline, up to 3 marks. Other suitable supplier factors can receive credit."
     },
     {
       "id": "sqa26-6a",
@@ -5172,7 +5241,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "identify + describe",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 5 marks):\n• Strike. (1 mark)\n• Sit-in. (1 mark)\n• Overtime ban. (1 mark)\n• Work to rule. (1 mark)\n• Production can stop or slow and deadlines can be missed. (1 mark)\n• Reputation can suffer. (1 mark)\n• Customers may move to competitors. (1 mark)\n• Employees may gain better pay or working conditions. (1 mark)\n• Employees may lose pay during a strike. (1 mark)\n• Staff turnover can increase. (1 mark)\n• Motivation can decrease. (1 mark)\n• Working relationships can be damaged. (1 mark)\n\nSQA Marking Note: Up to 5 marks: 2 marks for identifying two methods and up to 3 marks for describing effects. At least two effects are needed for full effect marks; developments can receive credit."
     },
     {
       "id": "sqa26-6b",
@@ -5204,7 +5274,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Employers and employees both have responsibilities. (1 mark)\n• Employees must have a safe working environment. (1 mark)\n• Employers should provide safety equipment or clothing. (1 mark)\n• Equipment must be safe to use. (1 mark)\n• Employers must provide safety training. (1 mark)\n• Materials must be stored safely. (1 mark)\n• Employees must follow health and safety policy. (1 mark)\n• Employees must report safety issues. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid description, up to 3 marks. Other suitable features can receive credit."
     },
     {
       "id": "sqa26-7a",
@@ -5237,7 +5308,8 @@ window.N5_HUB_DATA = {
         "describe"
       ],
       "primaryCommand": "define + describe",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Branding is a name, logo, slogan or design that makes a product or service identifiable. (1 mark)\n• Branding can allow higher prices. (1 mark)\n• Branding can create customer loyalty. (1 mark)\n• Branding can make new products easier to launch. (1 mark)\n• Branding can involve high marketing costs. (1 mark)\n• Brands can be imitated. (1 mark)\n• Bad publicity can affect the whole brand. (1 mark)\n• Branded products may be expensive for customers. (1 mark)\n\nSQA Marking Note: Up to 3 marks: 1 for a valid definition, 1 for an advantage and 1 for a disadvantage. Full marks require both sides."
     },
     {
       "id": "sqa26-7bi",
@@ -5267,7 +5339,8 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "primaryCommand": "discuss",
-      "computedLevel": "A"
+      "computedLevel": "A",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Focus groups can collect detailed qualitative information. (1 mark)\n• Follow-up questions can be asked. (1 mark)\n• Researchers can assess body language. (1 mark)\n• The sample may be small and unrepresentative. (1 mark)\n• Focus groups can be expensive to organise. (1 mark)\n• Qualitative information can be difficult to analyse. (1 mark)\n\nSQA Marking Note: Up to 3 marks. At least one advantage and one disadvantage must be discussed for full marks. Developments can receive additional credit."
     },
     {
       "id": "sqa26-7bii",
@@ -5296,7 +5369,8 @@ window.N5_HUB_DATA = {
         "compare"
       ],
       "primaryCommand": "compare",
-      "computedLevel": "B"
+      "computedLevel": "B",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Desk research is secondary whereas field research is primary. (1 mark)\n• Desk research can be found quickly whereas field research can take time to collect. (1 mark)\n• Desk research may have been collected for another purpose whereas field research can be specific. (1 mark)\n• Desk research may be historical whereas field research can be current. (1 mark)\n• Desk research is widely available whereas field research can be internal to the business. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid comparison, up to 2 marks. Both sides of each comparison must be clear."
     },
     {
       "id": "drill-id-1",
@@ -5320,7 +5394,7 @@ window.N5_HUB_DATA = {
         "Enterprise (the entrepreneur who organises the other factors and takes the risk)"
       ],
       "markingRule": "Award 1 mark for each correctly identified factor of production (Land, Labour, Capital, Enterprise), up to 4 marks.",
-      "solution": "\u2022 Land (1)\n\u2022 Labour (1)\n\u2022 Capital (1)\n\u2022 Enterprise (1)",
+      "solution": "• Land (1)\n• Labour (1)\n• Capital (1)\n• Enterprise (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5348,7 +5422,7 @@ window.N5_HUB_DATA = {
         "Competitive factors (actions, pricing or new products of competitors)"
       ],
       "markingRule": "Award 1 mark for each distinct external factor identified (Political, Economic, Social, Technological, Environmental, Competitive), up to 4 marks. Do not credit the letter alone without the word.",
-      "solution": "Any four from:\n\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Social (1)\n\u2022 Technological (1)\n\u2022 Environmental (1)\n\u2022 Competitive (1)",
+      "solution": "Any four from:\n• Political (1)\n• Economic (1)\n• Social (1)\n• Technological (1)\n• Environmental (1)\n• Competitive (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5375,7 +5449,7 @@ window.N5_HUB_DATA = {
         "Hall test / product tasting or trial"
       ],
       "markingRule": "Award 1 mark for each distinct valid method of field research, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Questionnaire / customer survey (1)\n\u2022 Focus group / consumer panel (1)\n\u2022 Personal interview (1)\n\u2022 Observation (1)\n\u2022 Hall test / product trial (1)",
+      "solution": "Any three from:\n• Questionnaire / customer survey (1)\n• Focus group / consumer panel (1)\n• Personal interview (1)\n• Observation (1)\n• Hall test / product trial (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
@@ -5402,7 +5476,7 @@ window.N5_HUB_DATA = {
         "Decline"
       ],
       "markingRule": "Award 1 mark for each correctly identified stage of the Product Life Cycle, up to 4 marks.",
-      "solution": "Any four from:\n\u2022 Development (1)\n\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (1)\n\u2022 Decline (1)",
+      "solution": "Any four from:\n• Development (1)\n• Introduction (1)\n• Growth (1)\n• Maturity (1)\n• Decline (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
@@ -5430,7 +5504,7 @@ window.N5_HUB_DATA = {
         "Quantity / capacity the supplier can provide"
       ],
       "markingRule": "Award 1 mark for each distinct factor identified, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Price charged by the supplier (1)\n\u2022 Quality of the materials supplied (1)\n\u2022 Reliability / delivery lead time (1)\n\u2022 Location of the supplier (1)",
+      "solution": "Any three from:\n• Price charged by the supplier (1)\n• Quality of the materials supplied (1)\n• Reliability / delivery lead time (1)\n• Location of the supplier (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5455,7 +5529,7 @@ window.N5_HUB_DATA = {
         "Flow production (or mass / continuous production)"
       ],
       "markingRule": "Award 1 mark each for Job production, Batch production, and Flow production, up to 3 marks.",
-      "solution": "\u2022 Job production (1)\n\u2022 Batch production (1)\n\u2022 Flow production (1)",
+      "solution": "• Job production (1)\n• Batch production (1)\n• Flow production (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2022/N5_Business-Management_QP_2022.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2022/mi_N5_Business-Management_mi_2022.pdf"
     },
@@ -5482,7 +5556,7 @@ window.N5_HUB_DATA = {
         "Checking references from previous employers"
       ],
       "markingRule": "Award 1 mark for each valid selection tool/method, up to 3 marks. Do not credit job description or person specification.",
-      "solution": "Any three from:\n\u2022 Interview (1)\n\u2022 Testing (e.g. aptitude, psychometric or skills test) (1)\n\u2022 Checking references (1)\n\u2022 Application form / CV review (1)\n\u2022 Assessment centre / presentation (1)",
+      "solution": "Any three from:\n• Interview (1)\n• Testing (e.g. aptitude, psychometric or skills test) (1)\n• Checking references (1)\n• Application form / CV review (1)\n• Assessment centre / presentation (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5509,7 +5583,7 @@ window.N5_HUB_DATA = {
         "Sit-in (occupying the workplace so production cannot continue)"
       ],
       "markingRule": "Award 1 mark for each distinct valid type of industrial action, up to 3 marks.",
-      "solution": "Any three from:\n\u2022 Strike action (1)\n\u2022 Overtime ban (1)\n\u2022 Work-to-rule (1)\n\u2022 Go-slow (1)\n\u2022 Sit-in (1)",
+      "solution": "Any three from:\n• Strike action (1)\n• Overtime ban (1)\n• Work-to-rule (1)\n• Go-slow (1)\n• Sit-in (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
@@ -5538,7 +5612,7 @@ window.N5_HUB_DATA = {
         "Hire purchase or leasing"
       ],
       "markingRule": "Award 1 mark for each distinct external source of finance valid for a private limited company, up to 3 marks. Do not credit selling shares on the Stock Exchange (PLC only) or retained profit (internal).",
-      "solution": "Any three from:\n\u2022 Bank loan (1)\n\u2022 Bank overdraft (1)\n\u2022 Government grant (1)\n\u2022 Issuing shares privately (1)\n\u2022 Hire purchase / leasing (1)\n\u2022 Trade credit (1)",
+      "solution": "Any three from:\n• Bank loan (1)\n• Bank overdraft (1)\n• Government grant (1)\n• Issuing shares privately (1)\n• Hire purchase / leasing (1)\n• Trade credit (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5565,7 +5639,7 @@ window.N5_HUB_DATA = {
         "Simple subtraction/addition formula such as =B5-B10"
       ],
       "markingRule": "Award 1 mark for each valid spreadsheet formula or function identified, up to 2 marks.",
-      "solution": "Any two from:\n\u2022 =SUM (to total receipts or payments) (1)\n\u2022 =AVERAGE (to find average monthly figures) (1)\n\u2022 =IF (to highlight a deficit or target) (1)",
+      "solution": "Any two from:\n• =SUM (to total receipts or payments) (1)\n• =AVERAGE (to find average monthly figures) (1)\n• =IF (to highlight a deficit or target) (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
@@ -5593,7 +5667,7 @@ window.N5_HUB_DATA = {
         "Social responsibility / ethical conduct: operating in an environmentally friendly and fair way"
       ],
       "markingRule": "Award 1 mark for each accurately described business objective, up to 3 marks. A bare list of single words without description gains 0 marks.",
-      "solution": "\u2022 Survival \u2014 continuing to operate and cover costs during the first year of trading or a downturn. (1)\n\u2022 Profit maximisation \u2014 aiming to make the largest possible difference between sales revenue and total costs. (1)\n\u2022 Growth \u2014 expanding the business by opening more stores or entering new markets. (1)",
+      "solution": "• Survival — continuing to operate and cover costs during the first year of trading or a downturn. (1)\n• Profit maximisation — aiming to make the largest possible difference between sales revenue and total costs. (1)\n• Growth — expanding the business by opening more stores or entering new markets. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5621,7 +5695,7 @@ window.N5_HUB_DATA = {
         "Target a new market segment or advertise a new use for the product"
       ],
       "markingRule": "Award 1 mark for each distinct extension strategy accurately described, up to 3 marks.",
-      "solution": "\u2022 Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n\u2022 Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n\u2022 Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)",
+      "solution": "• Launch new variations, flavours or updated features of the product to attract existing and new customers. (1)\n• Redesign the product packaging so it stands out on shelves or appeals to a new target market. (1)\n• Begin selling the product through new distribution channels such as e-commerce or overseas markets. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5648,7 +5722,7 @@ window.N5_HUB_DATA = {
         "Minimise raw material waste during production through staff training and careful inventory storage"
       ],
       "markingRule": "Award 1 mark for each distinct environmentally friendly practice described, up to 3 marks.",
-      "solution": "\u2022 Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n\u2022 Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n\u2022 Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)",
+      "solution": "• Switch to biodegradable or recyclable packaging and reduce unnecessary wrapping on products. (1)\n• Install solar panels or energy-efficient machinery to reduce electricity usage and carbon emissions. (1)\n• Buy raw materials from local suppliers to cut transport distances and vehicle emissions. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2023/N5_Business-Management_QP_2023.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2023/mi_N5_Business-Management_mi_2023.pdf"
     },
@@ -5675,7 +5749,7 @@ window.N5_HUB_DATA = {
         "Improving working conditions, staff facilities or organising team social events"
       ],
       "markingRule": "Award 1 mark for each distinct non-financial motivation method accurately described, up to 3 marks. Do not credit bonus, commission or pay rises.",
-      "solution": "\u2022 Recognising good work through praise or an Employee of the Month award. (1)\n\u2022 Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n\u2022 Providing training and promotion opportunities so employees can progress in their career. (1)",
+      "solution": "• Recognising good work through praise or an Employee of the Month award. (1)\n• Offering flexible working arrangements such as flexitime or homeworking to improve work-life balance. (1)\n• Providing training and promotion opportunities so employees can progress in their career. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5701,7 +5775,7 @@ window.N5_HUB_DATA = {
         "Staff have to spend time handling complaints, which lowers employee morale and reduces time spent serving other customers"
       ],
       "markingRule": "Award 1 mark for each clear cause-and-effect explanation linking poor customer service to a business impact, up to 3 marks.",
-      "solution": "\u2022 Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n\u2022 Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n\u2022 The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)",
+      "solution": "• Dissatisfied customers will switch to competitors, which means that repeat custom and sales revenue will fall. (1)\n• Customers may post negative reviews on social media, leading to a damaged reputation that puts off potential new buyers. (1)\n• The business will receive more complaints and refund requests, which increases costs and reduces profit. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5719,14 +5793,14 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "explain",
       "text": "Explain the benefits to a business of carrying out desk (secondary) market research instead of field (primary) research.",
-      "hint": "Think about cost, speed, and access to large-scale data \u2014 and explain the impact of each on the business!",
+      "hint": "Think about cost, speed, and access to large-scale data — and explain the impact of each on the business!",
       "acceptedPoints": [
         "Desk research uses information that already exists, which means it is much faster to gather so the business can make decisions more quickly",
         "Much of the data (e.g. online reports or internal sales records) is free or low-cost, which saves the business money compared to hiring researchers",
         "Government statistics and industry reports cover huge populations, which allows a small business to understand national market trends it could not afford to survey itself"
       ],
       "markingRule": "Award 1 mark for each developed benefit of desk research with its business impact, up to 3 marks.",
-      "solution": "\u2022 The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n\u2022 Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n\u2022 Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)",
+      "solution": "• The information has already been collected, which means the business can gather it quickly and make faster marketing decisions. (1)\n• Sources such as internal sales figures or online articles are free or inexpensive, which keeps marketing costs low. (1)\n• Published government and industry reports cover large sample sizes, allowing the business to spot national trends it could not survey on its own. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5751,7 +5825,7 @@ window.N5_HUB_DATA = {
         "If there is a sudden unexpected surge in customer demand, the business has no extra inventory ready, leading to lost sales to competitors"
       ],
       "markingRule": "Award 1 mark for each developed drawback of JIT linked to a business consequence, up to 3 marks.",
-      "solution": "\u2022 Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n\u2022 Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n\u2022 The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)",
+      "solution": "• Because no buffer stock is kept, any delay from a supplier means production halts and customer orders are delayed. (1)\n• Raw materials are ordered in small frequent deliveries rather than large batches, which means the business misses out on bulk-buying discounts and pays more for transport. (1)\n• The business cannot respond immediately to a sudden rise in demand, leading to missed sales and unhappy customers. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5776,7 +5850,7 @@ window.N5_HUB_DATA = {
         "Employees learn company policies and job expectations straight away, which means they become productive sooner and make fewer mistakes"
       ],
       "markingRule": "Award 1 mark for each clear explanation connecting induction training to a positive business impact, up to 3 marks.",
-      "solution": "\u2022 New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n\u2022 Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n\u2022 Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)",
+      "solution": "• New starters meet their team and learn the workplace layout, which helps them feel welcome and reduces the chance of them leaving early. (1)\n• Health and safety procedures are taught before starting work, which reduces accidents and potential injury claims. (1)\n• Staff understand company standards from the beginning, which means they become productive more quickly and make fewer errors. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5802,7 +5876,7 @@ window.N5_HUB_DATA = {
         "It can be presented to a bank when applying for a loan, which increases the likelihood of finance being approved"
       ],
       "markingRule": "Award 1 mark for each developed explanation of how a cash budget aids financial management, up to 3 marks.",
-      "solution": "\u2022 It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n\u2022 It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n\u2022 It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)",
+      "solution": "• It highlights months where a cash deficit is forecast, which allows the business to arrange a bank overdraft in advance. (1)\n• It identifies periods with a healthy cash surplus, meaning managers can plan when they can afford to purchase new machinery. (1)\n• It provides clear spending limits for departments, which helps the business control outflows and avoid overspending. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5828,7 +5902,7 @@ window.N5_HUB_DATA = {
         "Both on-the-job and off-the-job training improve employee skills and productivity"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or direct difference ('whereas') between on-the-job and off-the-job training, up to 3 marks.",
-      "solution": "\u2022 On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n\u2022 On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n\u2022 Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)",
+      "solution": "• On-the-job training takes place within the workplace, whereas off-the-job training takes place externally at a college or training centre. (1)\n• On-the-job training is normally lower cost as experienced staff deliver it, whereas off-the-job training incurs expensive external course fees. (1)\n• Both on-the-job and off-the-job training develop employee skills and increase productivity. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5854,7 +5928,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Once customers subscribe and get used to the platform, the price can be raised to normal levels, generating long-term recurring revenue"
       ],
       "markingRule": "Award 1 mark for identifying penetration pricing (or promotional pricing), and up to 2 marks for valid justifications linked to entering a competitive market.",
-      "solution": "\u2022 Identify: Market penetration pricing. (1)\n\u2022 Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n\u2022 Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)",
+      "solution": "• Identify: Market penetration pricing. (1)\n• Justify 1: Setting a lower initial price than rival streaming platforms entices customers to try the service, which rapidly builds market share. (1)\n• Justify 2: Once a loyal subscriber base is established, the monthly fee can be increased to boost profit margins. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5872,15 +5946,15 @@ window.N5_HUB_DATA = {
         "justify"
       ],
       "primaryCommand": "identify + justify",
-      "text": "Identify one suitable external source of finance for purchasing a new \u00a340,000 delivery van, and justify your choice. (3 marks: 1 for identify, 2 for justify)",
-      "hint": "Pick a medium-to-long-term source like a Bank Loan, Hire Purchase, or Leasing \u2014 not an overdraft!",
+      "text": "Identify one suitable external source of finance for purchasing a new £40,000 delivery van, and justify your choice. (3 marks: 1 for identify, 2 for justify)",
+      "hint": "Pick a medium-to-long-term source like a Bank Loan, Hire Purchase, or Leasing — not an overdraft!",
       "acceptedPoints": [
         "Identify: Bank loan, Hire purchase, or Leasing",
-        "Justify 1: The \u00a340,000 cost can be spread over several years in fixed monthly instalments, which makes budgeting easier and avoids a sudden cash flow deficit",
+        "Justify 1: The £40,000 cost can be spread over several years in fixed monthly instalments, which makes budgeting easier and avoids a sudden cash flow deficit",
         "Justify 2: The business can use the delivery van immediately to make customer deliveries and generate revenue while paying it off"
       ],
       "markingRule": "Award 1 mark for identifying a valid source (Bank loan, Hire purchase, or Leasing) and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Hire purchase (or Bank loan). (1)\n\u2022 Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full \u00a340,000. (1)\n\u2022 Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)",
+      "solution": "• Identify: Hire purchase (or Bank loan). (1)\n• Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full £40,000. (1)\n• Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)",
       "paperUrl": "https://www.sqa.org.uk/pastpapers/papers/papers/2024/N5_Business-Management_QP_2024.pdf",
       "markingUrl": "https://www.sqa.org.uk/pastpapers/papers/instructions/2024/mi_N5_Business-Management_mi_2024.pdf"
     },
@@ -5905,7 +5979,7 @@ window.N5_HUB_DATA = {
         "Voluntary clubs and community associations"
       ],
       "markingRule": "Award 1 mark for each valid type or named example of a third-sector organisation, up to 2 marks.",
-      "solution": "\u2022 Charities such as Oxfam or British Heart Foundation (1)\n\u2022 Social enterprises such as The Big Issue (1)",
+      "solution": "• Charities such as Oxfam or British Heart Foundation (1)\n• Social enterprises such as The Big Issue (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (1(a)(i))."
       ],
@@ -5936,7 +6010,7 @@ window.N5_HUB_DATA = {
         "HMRC"
       ],
       "markingRule": "Award 1 mark for each distinct external stakeholder identified, up to 3 marks.",
-      "solution": "\u2022 Customers (1)\n\u2022 Suppliers (1)\n\u2022 Banks / lenders (or local community / government) (1)",
+      "solution": "• Customers (1)\n• Suppliers (1)\n• Banks / lenders (or local community / government) (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (1(b))."
       ],
@@ -5967,7 +6041,7 @@ window.N5_HUB_DATA = {
         "Competitive factors"
       ],
       "markingRule": "Award 1 mark for each distinct PESTEC factor identified, up to 3 marks.",
-      "solution": "\u2022 Political (1)\n\u2022 Economic (1)\n\u2022 Technological (or Social / Environmental / Competitive) (1)",
+      "solution": "• Political (1)\n• Economic (1)\n• Technological (or Social / Environmental / Competitive) (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (1(d))."
       ],
@@ -5997,7 +6071,7 @@ window.N5_HUB_DATA = {
         "Decline"
       ],
       "markingRule": "Award 1 mark for each correct stage of the product life cycle stated, up to 3 marks.",
-      "solution": "\u2022 Introduction (1)\n\u2022 Growth (1)\n\u2022 Maturity (or Development / Decline) (1)",
+      "solution": "• Introduction (1)\n• Growth (1)\n• Maturity (or Development / Decline) (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (2(a))."
       ],
@@ -6027,7 +6101,7 @@ window.N5_HUB_DATA = {
         "Add new features, flavours or versions of the product"
       ],
       "markingRule": "Award 1 mark for each distinct valid extension strategy identified, up to 3 marks.",
-      "solution": "\u2022 Launch new flavours, colours or updated features (1)\n\u2022 Enter a new target market or sell internationally (1)\n\u2022 Redesign the packaging or launch a new advertising campaign (1)",
+      "solution": "• Launch new flavours, colours or updated features (1)\n• Enter a new target market or sell internationally (1)\n• Redesign the packaging or launch a new advertising campaign (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (2(b))."
       ],
@@ -6058,7 +6132,7 @@ window.N5_HUB_DATA = {
         "2-for-1 or multi-buy deals"
       ],
       "markingRule": "Award 1 mark for each distinct sales promotion method identified, up to 3 marks.",
-      "solution": "\u2022 Buy One Get One Free (BOGOF) (1)\n\u2022 Loyalty cards / reward points (1)\n\u2022 Money-off discount vouchers or free samples (1)",
+      "solution": "• Buy One Get One Free (BOGOF) (1)\n• Loyalty cards / reward points (1)\n• Money-off discount vouchers or free samples (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (2(c))."
       ],
@@ -6088,7 +6162,7 @@ window.N5_HUB_DATA = {
         "Bulk-buying discounts are lost"
       ],
       "markingRule": "Award 1 mark for each distinct risk or cost of understocking stated, up to 3 marks.",
-      "solution": "\u2022 Production may stop if raw materials run out (1)\n\u2022 Lost sales and dissatisfied customers who switch to competitors (1)\n\u2022 Missing out on bulk-buying discounts (1)",
+      "solution": "• Production may stop if raw materials run out (1)\n• Lost sales and dissatisfied customers who switch to competitors (1)\n• Missing out on bulk-buying discounts (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (4(a))."
       ],
@@ -6117,7 +6191,7 @@ window.N5_HUB_DATA = {
         "Computerised inventory control systems / robotics"
       ],
       "markingRule": "Award 1 mark for each valid operations technology identified, up to 2 marks.",
-      "solution": "\u2022 Computer-Aided Design (CAD) (1)\n\u2022 Computer-Aided Manufacture (CAM) or EPOS stock control (1)",
+      "solution": "• Computer-Aided Design (CAD) (1)\n• Computer-Aided Manufacture (CAM) or EPOS stock control (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (4(b))."
       ],
@@ -6138,7 +6212,7 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "identify",
       "text": "Identify three methods an organisation could use during the selection process to choose the best candidate.",
-      "hint": "Selection happens AFTER applications arrive \u2014 how do you test and choose between applicants?",
+      "hint": "Selection happens AFTER applications arrive — how do you test and choose between applicants?",
       "acceptedPoints": [
         "Job interviews (one-to-one or panel)",
         "Aptitude, skills or attainment tests",
@@ -6148,7 +6222,7 @@ window.N5_HUB_DATA = {
         "Medical or fitness tests"
       ],
       "markingRule": "Award 1 mark for each distinct selection method identified, up to 3 marks.",
-      "solution": "\u2022 Job interviews (1)\n\u2022 Aptitude or skills testing (1)\n\u2022 Taking up references (or assessment centres / psychometric tests) (1)",
+      "solution": "• Job interviews (1)\n• Aptitude or skills testing (1)\n• Taking up references (or assessment centres / psychometric tests) (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (3(a))."
       ],
@@ -6179,7 +6253,7 @@ window.N5_HUB_DATA = {
         "Zero-hours contracts"
       ],
       "markingRule": "Award 1 mark for each distinct flexible working practice identified, up to 3 marks.",
-      "solution": "\u2022 Flexitime (1)\n\u2022 Homeworking / remote working (1)\n\u2022 Job sharing (or part-time / condensed hours) (1)",
+      "solution": "• Flexitime (1)\n• Homeworking / remote working (1)\n• Job sharing (or part-time / condensed hours) (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (4(a))."
       ],
@@ -6209,7 +6283,7 @@ window.N5_HUB_DATA = {
         "Sit-in"
       ],
       "markingRule": "Award 1 mark for each valid form of industrial action stated, up to 2 marks.",
-      "solution": "\u2022 Strike action (1)\n\u2022 Overtime ban (or work-to-rule / go-slow) (1)",
+      "solution": "• Strike action (1)\n• Overtime ban (or work-to-rule / go-slow) (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (4(b))."
       ],
@@ -6240,7 +6314,7 @@ window.N5_HUB_DATA = {
         "Employees / trade unions"
       ],
       "markingRule": "Award 1 mark for each distinct stakeholder identified, up to 2 marks.",
-      "solution": "\u2022 Banks / lenders (1)\n\u2022 Owners / shareholders (or HMRC / managers / suppliers) (1)",
+      "solution": "• Banks / lenders (1)\n• Owners / shareholders (or HMRC / managers / suppliers) (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (5(a))."
       ],
@@ -6269,7 +6343,7 @@ window.N5_HUB_DATA = {
         "Delivery fuel per order"
       ],
       "markingRule": "Award 1 mark for each valid variable cost identified, up to 2 marks.",
-      "solution": "\u2022 Ingredients / raw materials such as flour and sugar (1)\n\u2022 Packaging boxes and wrappers for each item sold (1)",
+      "solution": "• Ingredients / raw materials such as flour and sugar (1)\n• Packaging boxes and wrappers for each item sold (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (5(b))."
       ],
@@ -6300,7 +6374,7 @@ window.N5_HUB_DATA = {
         "Government grant received"
       ],
       "markingRule": "Award 1 mark for each distinct cash inflow identified, up to 3 marks.",
-      "solution": "\u2022 Cash sales from customers (1)\n\u2022 Capital invested by the owner or proceeds from a bank loan (1)\n\u2022 Payments received from credit customers (1)",
+      "solution": "• Cash sales from customers (1)\n• Capital invested by the owner or proceeds from a bank loan (1)\n• Payments received from credit customers (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (5(c))."
       ],
@@ -6328,7 +6402,7 @@ window.N5_HUB_DATA = {
         "It sets clear objectives and targets for the business, which allows the owner to measure progress and stay focused"
       ],
       "markingRule": "Award 1 mark for each cause-and-effect explanation of a benefit of a business plan, up to 3 marks.",
-      "solution": "\u2022 It can be presented to a bank or lender, which increases the likelihood of being approved for a start-up loan. (1)\n\u2022 It requires the entrepreneur to forecast cash flow and costs in advance, which helps spot potential deficits early and reduces the risk of failure. (1)\n\u2022 It sets out clear objectives and targets, which allows the entrepreneur to monitor whether the business is on track. (1)",
+      "solution": "• It can be presented to a bank or lender, which increases the likelihood of being approved for a start-up loan. (1)\n• It requires the entrepreneur to forecast cash flow and costs in advance, which helps spot potential deficits early and reduces the risk of failure. (1)\n• It sets out clear objectives and targets, which allows the entrepreneur to monitor whether the business is on track. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (1(c))."
       ],
@@ -6349,14 +6423,14 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "explain",
       "text": "Explain how internal stakeholders can influence the success of a business.",
-      "hint": "Think about owners, managers and employees \u2014 what action can each take and what is the impact on the business?",
+      "hint": "Think about owners, managers and employees — what action can each take and what is the impact on the business?",
       "acceptedPoints": [
         "Owners can invest additional capital or vote on key policies, which enables the business to expand and buy new assets",
         "Managers make strategic and hiring decisions, which directly affects efficiency, costs and profitability",
         "Employees can work hard and deliver high quality customer service, which increases customer satisfaction and sales (or take industrial action, which halts output)"
       ],
       "markingRule": "Award 1 mark for each clear explanation of how an internal stakeholder influences business success, up to 3 marks.",
-      "solution": "\u2022 Owners can invest more of their own capital into the business, which provides funds to expand or upgrade equipment. (1)\n\u2022 Managers make operational and budgeting decisions, which directly determines how efficiently resources are used and whether profits rise. (1)\n\u2022 Employees control the quality of customer service and output, meaning motivated staff will increase customer satisfaction and repeat sales. (1)",
+      "solution": "• Owners can invest more of their own capital into the business, which provides funds to expand or upgrade equipment. (1)\n• Managers make operational and budgeting decisions, which directly determines how efficiently resources are used and whether profits rise. (1)\n• Employees control the quality of customer service and output, meaning motivated staff will increase customer satisfaction and repeat sales. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (1(e))."
       ],
@@ -6384,7 +6458,7 @@ window.N5_HUB_DATA = {
         "Prices can be set to match the income level of the target segment, which maximises revenue and competitiveness"
       ],
       "markingRule": "Award 1 mark for each developed benefit of market segmentation, up to 3 marks.",
-      "solution": "\u2022 Products can be tailored to the exact tastes of a specific customer group, which increases customer satisfaction and sales revenue. (1)\n\u2022 Promotional campaigns can be placed in media used by that target market, which reduces wasted advertising spend. (1)\n\u2022 Prices can be matched to the target group's disposable income, which helps maximise revenue. (1)",
+      "solution": "• Products can be tailored to the exact tastes of a specific customer group, which increases customer satisfaction and sales revenue. (1)\n• Promotional campaigns can be placed in media used by that target market, which reduces wasted advertising spend. (1)\n• Prices can be matched to the target group's disposable income, which helps maximise revenue. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (2(d))."
       ],
@@ -6405,14 +6479,14 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "explain",
       "text": "Explain how using e-commerce (selling online) can benefit a retail business.",
-      "hint": "Think about 24/7 selling, global reach, and lower high-street overheads \u2014 and explain the business impact.",
+      "hint": "Think about 24/7 selling, global reach, and lower high-street overheads — and explain the business impact.",
       "acceptedPoints": [
         "Customers can shop 24/7 from anywhere in the world, which expands the target market and increases sales revenue",
         "The business needs fewer physical high-street shops, which reduces rent and staffing costs and improves profit margins",
         "Customer buying habits can be tracked automatically online, which allows personalized promotions that encourage repeat purchases"
       ],
       "markingRule": "Award 1 mark for each developed benefit of e-commerce linked to a business impact, up to 3 marks.",
-      "solution": "\u2022 The website is open 24 hours a day to customers worldwide, which reaches a much larger market and increases sales revenue. (1)\n\u2022 The business does not need expensive high-street premises, which reduces fixed rent and utility costs and boosts profit. (1)\n\u2022 Customer data can be collected automatically at checkout, allowing targeted email promotions that encourage repeat custom. (1)",
+      "solution": "• The website is open 24 hours a day to customers worldwide, which reaches a much larger market and increases sales revenue. (1)\n• The business does not need expensive high-street premises, which reduces fixed rent and utility costs and boosts profit. (1)\n• Customer data can be collected automatically at checkout, allowing targeted email promotions that encourage repeat custom. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (2(e))."
       ],
@@ -6440,7 +6514,7 @@ window.N5_HUB_DATA = {
         "Fewer complaints and refund requests are received, which improves brand reputation and lowers administration costs"
       ],
       "markingRule": "Award 1 mark for each developed benefit of high quality linked to its business impact, up to 3 marks.",
-      "solution": "\u2022 Fewer defective items are made during production, which reduces wasted raw materials and lowers unit costs. (1)\n\u2022 Customers are happier with reliable products, which builds a strong brand reputation and increases repeat purchases. (1)\n\u2022 There are fewer product returns and warranty claims, which saves time and money on replacements and refunds. (1)",
+      "solution": "• Fewer defective items are made during production, which reduces wasted raw materials and lowers unit costs. (1)\n• Customers are happier with reliable products, which builds a strong brand reputation and increases repeat purchases. (1)\n• There are fewer product returns and warranty claims, which saves time and money on replacements and refunds. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (3(c))."
       ],
@@ -6468,7 +6542,7 @@ window.N5_HUB_DATA = {
         "Sourcing sustainable materials or installing green technology can be expensive initially, which increases short-term costs and reduces profit"
       ],
       "markingRule": "Award 1 mark for each developed impact (positive or negative) of environmentally responsible operations, up to 3 marks.",
-      "solution": "\u2022 Environmentally conscious consumers will have a better image of the business, which increases customer loyalty and sales. (1)\n\u2022 Minimising packaging and recycling materials reduces landfill taxes and energy bills, which lowers long-term operating costs. (1)\n\u2022 Buying sustainable raw materials or new green machinery can be more expensive, which increases short-term costs. (1)",
+      "solution": "• Environmentally conscious consumers will have a better image of the business, which increases customer loyalty and sales. (1)\n• Minimising packaging and recycling materials reduces landfill taxes and energy bills, which lowers long-term operating costs. (1)\n• Buying sustainable raw materials or new green machinery can be more expensive, which increases short-term costs. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (3(d))."
       ],
@@ -6496,7 +6570,7 @@ window.N5_HUB_DATA = {
         "Absenteeism falls because workers enjoy coming to work, which avoids disruption and reduces the cost of paying overtime or temporary cover"
       ],
       "markingRule": "Award 1 mark for each cause-and-effect explanation of a benefit of a motivated workforce, up to 3 marks.",
-      "solution": "\u2022 Motivated workers put in greater effort, which increases productivity and enables customer orders to be fulfilled faster. (1)\n\u2022 Staff are more loyal and less likely to resign, which reduces staff turnover and saves the business recruitment and training costs. (1)\n\u2022 Lower absenteeism means fewer days are lost to sickness, which avoids disruption and reduces the cost of temporary cover staff. (1)",
+      "solution": "• Motivated workers put in greater effort, which increases productivity and enables customer orders to be fulfilled faster. (1)\n• Staff are more loyal and less likely to resign, which reduces staff turnover and saves the business recruitment and training costs. (1)\n• Lower absenteeism means fewer days are lost to sickness, which avoids disruption and reduces the cost of temporary cover staff. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (5(b))."
       ],
@@ -6524,7 +6598,7 @@ window.N5_HUB_DATA = {
         "An overtime ban prevents the business from meeting peak seasonal demand, which reduces output and profitability"
       ],
       "markingRule": "Award 1 mark for each developed negative impact of industrial action on a business, up to 3 marks.",
-      "solution": "\u2022 Strike action halts production or service delivery, which leads to lost output and a drop in sales revenue. (1)\n\u2022 Late deliveries and bad publicity damage the organisation's reputation, meaning customers may switch permanently to rivals. (1)\n\u2022 Management time is taken up resolving disputes with trade unions, which distracts from running and growing the business. (1)",
+      "solution": "• Strike action halts production or service delivery, which leads to lost output and a drop in sales revenue. (1)\n• Late deliveries and bad publicity damage the organisation's reputation, meaning customers may switch permanently to rivals. (1)\n• Management time is taken up resolving disputes with trade unions, which distracts from running and growing the business. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (5(d))."
       ],
@@ -6552,7 +6626,7 @@ window.N5_HUB_DATA = {
         "Financial data can be turned into charts and graphs instantly, which makes trends easier to present to non-financial stakeholders"
       ],
       "markingRule": "Award 1 mark for each developed benefit of spreadsheet software to a finance department, up to 3 marks.",
-      "solution": "\u2022 Formulas automatically update totals when figures are edited, which saves staff time and eliminates manual calculation errors. (1)\n\u2022 Managers can carry out 'what-if' analysis to model the effect of price or cost changes, which improves financial decision-making. (1)\n\u2022 Data can be converted into graphs and charts with one click, making financial reports easier for managers and shareholders to understand. (1)",
+      "solution": "• Formulas automatically update totals when figures are edited, which saves staff time and eliminates manual calculation errors. (1)\n• Managers can carry out 'what-if' analysis to model the effect of price or cost changes, which improves financial decision-making. (1)\n• Data can be converted into graphs and charts with one click, making financial reports easier for managers and shareholders to understand. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (6(b))."
       ],
@@ -6581,7 +6655,7 @@ window.N5_HUB_DATA = {
         "Both a sole trader and a partnership operate in the private sector, aim to make a profit, and have unlimited liability"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or direct difference ('whereas') between a sole trader and a partnership, up to 3 marks.",
-      "solution": "\u2022 A sole trader is owned by one individual, whereas a partnership is owned by two or more partners. (1)\n\u2022 A sole trader keeps 100% of the profits, whereas in a partnership profits must be shared among the partners. (1)\n\u2022 Both a sole trader and a partnership are in the private sector and have unlimited liability. (1)",
+      "solution": "• A sole trader is owned by one individual, whereas a partnership is owned by two or more partners. (1)\n• A sole trader keeps 100% of the profits, whereas in a partnership profits must be shared among the partners. (1)\n• Both a sole trader and a partnership are in the private sector and have unlimited liability. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (1(b))."
       ],
@@ -6610,7 +6684,7 @@ window.N5_HUB_DATA = {
         "Both a sole trader and a private limited company are in the private sector and aim to make a profit"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or paired difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 A sole trader has unlimited liability so personal assets are at risk, whereas a private limited company has limited liability so shareholders only risk their investment. (1)\n\u2022 A sole trader is owned by one person, whereas a private limited company is owned by invited shareholders. (1)\n\u2022 Both are private sector organisations that aim to make a profit. (1)",
+      "solution": "• A sole trader has unlimited liability so personal assets are at risk, whereas a private limited company has limited liability so shareholders only risk their investment. (1)\n• A sole trader is owned by one person, whereas a private limited company is owned by invited shareholders. (1)\n• Both are private sector organisations that aim to make a profit. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (1(d))."
       ],
@@ -6637,7 +6711,7 @@ window.N5_HUB_DATA = {
         "Private-sector organisations primarily aim to maximise profit and grow market share, whereas public-sector organisations aim to provide essential services (such as healthcare or education) within a budget"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction ('whereas') between the private and public sectors, up to 2 marks.",
-      "solution": "\u2022 Private-sector organisations are owned by private individuals or shareholders, whereas public-sector organisations are owned and controlled by the government. (1)\n\u2022 Private-sector organisations aim to make a profit, whereas public-sector organisations aim to provide quality public services within a budget. (1)",
+      "solution": "• Private-sector organisations are owned by private individuals or shareholders, whereas public-sector organisations are owned and controlled by the government. (1)\n• Private-sector organisations aim to make a profit, whereas public-sector organisations aim to provide quality public services within a budget. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (1(b))."
       ],
@@ -6664,7 +6738,7 @@ window.N5_HUB_DATA = {
         "Both a charity and a social enterprise operate in the third sector and reinvest their surplus to achieve a social or environmental goal rather than paying dividends to private owners"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 2 marks.",
-      "solution": "\u2022 A charity relies mainly on donations and fundraising events, whereas a social enterprise earns revenue by selling goods or services. (1)\n\u2022 Both operate in the third sector and use their surplus to support a social or environmental cause rather than enriching private shareholders. (1)",
+      "solution": "• A charity relies mainly on donations and fundraising events, whereas a social enterprise earns revenue by selling goods or services. (1)\n• Both operate in the third sector and use their surplus to support a social or environmental cause rather than enriching private shareholders. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (1(c))."
       ],
@@ -6691,7 +6765,7 @@ window.N5_HUB_DATA = {
         "A good can be manufactured in advance and stored as inventory, whereas a service is consumed at the exact moment it is provided"
       ],
       "markingRule": "Award 1 mark for each paired distinction between a good and a service, up to 2 marks.",
-      "solution": "\u2022 A good is tangible so it can be seen and touched, whereas a service is intangible and cannot be touched. (1)\n\u2022 Goods can be stored in a warehouse as inventory, whereas a service is produced and consumed at the same time. (1)",
+      "solution": "• A good is tangible so it can be seen and touched, whereas a service is intangible and cannot be touched. (1)\n• Goods can be stored in a warehouse as inventory, whereas a service is produced and consumed at the same time. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (1(b))."
       ],
@@ -6718,7 +6792,7 @@ window.N5_HUB_DATA = {
         "Needs are limited in number, whereas human wants are unlimited"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction between needs and wants, up to 2 marks.",
-      "solution": "\u2022 Needs are essential for survival (such as food, water and shelter), whereas wants are non-essential desires (such as a smartphone or holiday). (1)\n\u2022 Basic human needs are finite, whereas human wants are unlimited. (1)",
+      "solution": "• Needs are essential for survival (such as food, water and shelter), whereas wants are non-essential desires (such as a smartphone or holiday). (1)\n• Basic human needs are finite, whereas human wants are unlimited. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (1(c))."
       ],
@@ -6745,7 +6819,7 @@ window.N5_HUB_DATA = {
         "Internal stakeholders are directly involved in day-to-day operations and decision-making inside the business, whereas external stakeholders are affected by or influence the business from outside"
       ],
       "markingRule": "Award 1 mark for each valid paired distinction, up to 2 marks.",
-      "solution": "\u2022 Internal stakeholders are part of the organisation itself (e.g. employees and managers), whereas external stakeholders are outside individuals or groups (e.g. customers and suppliers). (1)\n\u2022 Internal stakeholders directly carry out or manage day-to-day business operations, whereas external stakeholders interact with the business from the outside. (1)",
+      "solution": "• Internal stakeholders are part of the organisation itself (e.g. employees and managers), whereas external stakeholders are outside individuals or groups (e.g. customers and suppliers). (1)\n• Internal stakeholders directly carry out or manage day-to-day business operations, whereas external stakeholders interact with the business from the outside. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (1(f))."
       ],
@@ -6773,7 +6847,7 @@ window.N5_HUB_DATA = {
         "Both price skimming and market penetration are pricing strategies used when launching a new product into the market"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas') between price skimming and market penetration, up to 3 marks.",
-      "solution": "\u2022 Price skimming charges a high initial price, whereas market penetration charges a low initial price. (1)\n\u2022 Price skimming is used for innovative products with little competition to recover R&D costs quickly, whereas market penetration is used in crowded markets to win market share from rivals. (1)\n\u2022 Both are pricing strategies used at the launch stage of a new product. (1)",
+      "solution": "• Price skimming charges a high initial price, whereas market penetration charges a low initial price. (1)\n• Price skimming is used for innovative products with little competition to recover R&D costs quickly, whereas market penetration is used in crowded markets to win market share from rivals. (1)\n• Both are pricing strategies used at the launch stage of a new product. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (2(b))."
       ],
@@ -6802,7 +6876,7 @@ window.N5_HUB_DATA = {
         "Both channels allow a business to sell goods to consumers and generate sales revenue"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or paired difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 E-commerce allows 24/7 worldwide selling, whereas a high-street shop is limited to local customers during opening hours. (1)\n\u2022 A high-street store lets customers touch and try products immediately, whereas online customers cannot physically inspect items and must wait for delivery. (1)\n\u2022 Both distribution channels enable the business to sell products to customers and earn revenue. (1)",
+      "solution": "• E-commerce allows 24/7 worldwide selling, whereas a high-street shop is limited to local customers during opening hours. (1)\n• A high-street store lets customers touch and try products immediately, whereas online customers cannot physically inspect items and must wait for delivery. (1)\n• Both distribution channels enable the business to sell products to customers and earn revenue. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (2(c))."
       ],
@@ -6823,13 +6897,13 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "distinguish",
       "text": "Distinguish between 'into-the-pipeline' promotion and 'out-of-the-pipeline' promotion.",
-      "hint": "Who is each type of promotion aimed at \u2014 retailers/wholesalers vs final consumers?",
+      "hint": "Who is each type of promotion aimed at — retailers/wholesalers vs final consumers?",
       "acceptedPoints": [
         "Into-the-pipeline promotion is aimed at persuading wholesalers and retailers to stock the manufacturer's product (e.g. trade fairs, dealer loader deals, sale-or-return), whereas out-of-the-pipeline promotion is aimed directly at final consumers to persuade them to buy the product (e.g. TV advertising, BOGOF, loyalty cards)",
         "Into-the-pipeline focuses on pushing stock onto shop shelves, whereas out-of-the-pipeline pulls products off the shelves by building consumer demand"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction between into-the-pipeline and out-of-the-pipeline promotion, up to 2 marks.",
-      "solution": "\u2022 Into-the-pipeline promotion targets wholesalers and retailers to persuade them to stock the product, whereas out-of-the-pipeline promotion targets final consumers to persuade them to buy it. (1)\n\u2022 Into-the-pipeline uses trade exhibitions and bulk trade discounts, whereas out-of-the-pipeline uses consumer advertising and BOGOF offers. (1)",
+      "solution": "• Into-the-pipeline promotion targets wholesalers and retailers to persuade them to stock the product, whereas out-of-the-pipeline promotion targets final consumers to persuade them to buy it. (1)\n• Into-the-pipeline uses trade exhibitions and bulk trade discounts, whereas out-of-the-pipeline uses consumer advertising and BOGOF offers. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (2(d))."
       ],
@@ -6857,7 +6931,7 @@ window.N5_HUB_DATA = {
         "Both television and social media advertising use visual and audio content to raise brand awareness and persuade customers to buy"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 National TV advertising is extremely expensive, whereas social media advertising is much lower cost. (1)\n\u2022 Social media adverts can be targeted precisely at specific user profiles and allow instant click-throughs, whereas TV adverts broadcast to a general mass audience. (1)\n\u2022 Both methods can use video and sound to showcase products and boost sales. (1)",
+      "solution": "• National TV advertising is extremely expensive, whereas social media advertising is much lower cost. (1)\n• Social media adverts can be targeted precisely at specific user profiles and allow instant click-throughs, whereas TV adverts broadcast to a general mass audience. (1)\n• Both methods can use video and sound to showcase products and boost sales. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (2(e))."
       ],
@@ -6885,7 +6959,7 @@ window.N5_HUB_DATA = {
         "Both are methods of production used by manufacturing businesses to turn inputs into finished outputs"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas') between job and flow production, up to 3 marks.",
-      "solution": "\u2022 Job production produces one-off custom items to order, whereas flow production continuously mass-produces identical standardised products. (1)\n\u2022 Job production uses highly skilled labour and has high unit costs, whereas flow production is capital-intensive and achieves low unit costs. (1)\n\u2022 Both are methods of production used to manufacture goods for customers. (1)",
+      "solution": "• Job production produces one-off custom items to order, whereas flow production continuously mass-produces identical standardised products. (1)\n• Job production uses highly skilled labour and has high unit costs, whereas flow production is capital-intensive and achieves low unit costs. (1)\n• Both are methods of production used to manufacture goods for customers. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (4(b))."
       ],
@@ -6913,7 +6987,7 @@ window.N5_HUB_DATA = {
         "Both job production and batch production are methods of production that can be adjusted to meet different customer requirements"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 Job production makes one unique product at a time, whereas batch production makes a set quantity of identical items in a group. (1)\n\u2022 Job production has higher unit costs because every item is bespoke, whereas batch production lowers unit costs by producing multiple items per run. (1)\n\u2022 Both are methods of production used by manufacturers. (1)",
+      "solution": "• Job production makes one unique product at a time, whereas batch production makes a set quantity of identical items in a group. (1)\n• Job production has higher unit costs because every item is bespoke, whereas batch production lowers unit costs by producing multiple items per run. (1)\n• Both are methods of production used by manufacturers. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (3(b))."
       ],
@@ -6941,7 +7015,7 @@ window.N5_HUB_DATA = {
         "Capital-intensive production requires a much higher initial financial investment in machinery, whereas labour-intensive production has lower equipment setup costs but ongoing wage bills"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 Labour-intensive production uses mainly human workers, whereas capital-intensive production uses mainly machinery and automation. (1)\n\u2022 Labour-intensive production allows individual craftsmanship and customisation, whereas capital-intensive production produces standardised output 24/7 at high speed. (1)\n\u2022 Both approaches combine resources to transform raw materials into finished products. (1)",
+      "solution": "• Labour-intensive production uses mainly human workers, whereas capital-intensive production uses mainly machinery and automation. (1)\n• Labour-intensive production allows individual craftsmanship and customisation, whereas capital-intensive production produces standardised output 24/7 at high speed. (1)\n• Both approaches combine resources to transform raw materials into finished products. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (3(c))."
       ],
@@ -6962,13 +7036,13 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "distinguish",
       "text": "Distinguish between quality control and quality assurance.",
-      "hint": "WHEN are the quality checks carried out \u2014 at the very end vs at every stage of production?",
+      "hint": "WHEN are the quality checks carried out — at the very end vs at every stage of production?",
       "acceptedPoints": [
         "Quality control inspects sample products at the end of the production line, whereas quality assurance checks quality at every stage of the production process",
         "Quality control can result in high waste because faulty items are only spotted after they are finished, whereas quality assurance aims for 'right first time' zero defects before moving to the next stage"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction between quality control and quality assurance, up to 2 marks.",
-      "solution": "\u2022 Quality control checks a sample of finished goods at the end of production, whereas quality assurance checks quality at every single stage of the process. (1)\n\u2022 Quality control leads to more wasted materials when faults are found at the end, whereas quality assurance prevents defects early so there is less waste. (1)",
+      "solution": "• Quality control checks a sample of finished goods at the end of production, whereas quality assurance checks quality at every single stage of the process. (1)\n• Quality control leads to more wasted materials when faults are found at the end, whereas quality assurance prevents defects early so there is less waste. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (3(b))."
       ],
@@ -6996,7 +7070,7 @@ window.N5_HUB_DATA = {
         "Holding buffer stock allows production to continue if a supplier delivery is delayed, whereas under JIT any delivery delay brings production to an immediate halt"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 JIT holds little or no inventory and orders materials only when needed, whereas traditional inventory control keeps buffer stock in storage. (1)\n\u2022 JIT saves warehouse storage costs and reduces cash tied up in stock, whereas holding buffer stock incurs storage and insurance costs. (1)\n\u2022 Holding buffer stock protects against late deliveries or sudden surges in demand, whereas JIT risks halting production if a supplier is late. (1)",
+      "solution": "• JIT holds little or no inventory and orders materials only when needed, whereas traditional inventory control keeps buffer stock in storage. (1)\n• JIT saves warehouse storage costs and reduces cash tied up in stock, whereas holding buffer stock incurs storage and insurance costs. (1)\n• Holding buffer stock protects against late deliveries or sudden surges in demand, whereas JIT risks halting production if a supplier is late. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (3(d))."
       ],
@@ -7024,7 +7098,7 @@ window.N5_HUB_DATA = {
         "External recruitment brings fresh ideas and a wider pool of talent into the business, whereas internal recruitment motivates existing staff through promotion opportunities but leaves another vacancy to fill"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 Internal recruitment appoints someone who already works for the business, whereas external recruitment hires a candidate from outside the organisation. (1)\n\u2022 Internal recruitment is cheaper and quicker, whereas external recruitment costs more in advertising and takes longer. (1)\n\u2022 External recruitment brings new ideas and a wider choice of candidates, whereas internal recruitment limits choice to current staff. (1)",
+      "solution": "• Internal recruitment appoints someone who already works for the business, whereas external recruitment hires a candidate from outside the organisation. (1)\n• Internal recruitment is cheaper and quicker, whereas external recruitment costs more in advertising and takes longer. (1)\n• External recruitment brings new ideas and a wider choice of candidates, whereas internal recruitment limits choice to current staff. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (5(a))."
       ],
@@ -7051,7 +7125,7 @@ window.N5_HUB_DATA = {
         "A job description tells applicants what work they will be doing, whereas a person specification lists the essential and desirable criteria used to shortlist applicants"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction between a job description and a person specification, up to 2 marks.",
-      "solution": "\u2022 A job description details the tasks, duties and working conditions of the job role, whereas a person specification details the qualifications, skills and experience needed by the person applying. (1)\n\u2022 A job description is about the post itself, whereas a person specification is about the essential and desirable attributes of the candidate. (1)",
+      "solution": "• A job description details the tasks, duties and working conditions of the job role, whereas a person specification details the qualifications, skills and experience needed by the person applying. (1)\n• A job description is about the post itself, whereas a person specification is about the essential and desirable attributes of the candidate. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (4(c))."
       ],
@@ -7072,13 +7146,13 @@ window.N5_HUB_DATA = {
       ],
       "primaryCommand": "distinguish",
       "text": "Distinguish between time-rate pay and piece-rate pay.",
-      "hint": "How is the worker's pay calculated under each method \u2014 per hour worked vs per unit produced?",
+      "hint": "How is the worker's pay calculated under each method — per hour worked vs per unit produced?",
       "acceptedPoints": [
-        "Time-rate pay rewards employees based on the number of hours they work (e.g. \u00a312 per hour), whereas piece-rate pay rewards employees based on the number of units they produce",
+        "Time-rate pay rewards employees based on the number of hours they work (e.g. £12 per hour), whereas piece-rate pay rewards employees based on the number of units they produce",
         "Time-rate pay encourages workers to take care over quality rather than rushing, whereas piece-rate pay motivates faster output but can lead to corners being cut on quality"
       ],
       "markingRule": "Award 1 mark for each valid paired distinction between time-rate and piece-rate pay, up to 2 marks.",
-      "solution": "\u2022 Time-rate pay is calculated per hour worked, whereas piece-rate pay is calculated per item produced. (1)\n\u2022 Time-rate gives workers a predictable income for their hours, whereas piece-rate incentivises faster output to earn more money. (1)",
+      "solution": "• Time-rate pay is calculated per hour worked, whereas piece-rate pay is calculated per item produced. (1)\n• Time-rate gives workers a predictable income for their hours, whereas piece-rate incentivises faster output to earn more money. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (4(d))."
       ],
@@ -7106,7 +7180,7 @@ window.N5_HUB_DATA = {
         "Both a bank loan and a bank overdraft are external sources of finance provided by a bank that charge interest"
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
-      "solution": "\u2022 A bank loan is a long-term lump sum repaid in fixed monthly instalments, whereas a bank overdraft is a flexible short-term borrowing limit on a current account. (1)\n\u2022 A bank loan is suitable for purchasing capital equipment or vehicles, whereas an overdraft is suitable for covering a temporary monthly cash deficit. (1)\n\u2022 Both are external sources of finance from a bank that must be repaid with interest. (1)",
+      "solution": "• A bank loan is a long-term lump sum repaid in fixed monthly instalments, whereas a bank overdraft is a flexible short-term borrowing limit on a current account. (1)\n• A bank loan is suitable for purchasing capital equipment or vehicles, whereas an overdraft is suitable for covering a temporary monthly cash deficit. (1)\n• Both are external sources of finance from a bank that must be repaid with interest. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (6(a))."
       ],
@@ -7133,7 +7207,7 @@ window.N5_HUB_DATA = {
         "Gross Profit only deducts the direct cost of goods sold, whereas Profit for the Year shows the final bottom-line profit left after all business overheads have been paid"
       ],
       "markingRule": "Award 1 mark for each clear paired distinction between Gross Profit and Profit for the Year, up to 2 marks.",
-      "solution": "\u2022 Gross Profit is Sales Revenue minus Cost of Sales, whereas Profit for the Year is Gross Profit minus operating expenses. (1)\n\u2022 Gross Profit only accounts for the direct cost of trading stock, whereas Profit for the Year deducts all business overheads like rent and wages. (1)",
+      "solution": "• Gross Profit is Sales Revenue minus Cost of Sales, whereas Profit for the Year is Gross Profit minus operating expenses. (1)\n• Gross Profit only accounts for the direct cost of trading stock, whereas Profit for the Year deducts all business overheads like rent and wages. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (5(b))."
       ],
@@ -7161,7 +7235,7 @@ window.N5_HUB_DATA = {
         "The company has a separate legal identity and continuity, meaning the business continues to exist even if a shareholder retires or dies"
       ],
       "markingRule": "Award 1 mark for each developed justification for converting to a private limited company, up to 3 marks.",
-      "solution": "\u2022 Changing to a private limited company gives the owner limited liability, which protects their personal assets if the business runs into debt. (1)\n\u2022 The business can raise larger amounts of capital by inviting private investors to buy shares, allowing it to expand faster. (1)\n\u2022 Control is not lost to the general public because shares can only be sold privately with the agreement of existing shareholders. (1)",
+      "solution": "• Changing to a private limited company gives the owner limited liability, which protects their personal assets if the business runs into debt. (1)\n• The business can raise larger amounts of capital by inviting private investors to buy shares, allowing it to expand faster. (1)\n• Control is not lost to the general public because shares can only be sold privately with the agreement of existing shareholders. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (1(c))."
       ],
@@ -7190,7 +7264,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Strict rules from the franchisor mean the franchisee cannot choose their own products, prices or suppliers"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed (must include at least 1 advantage and 1 disadvantage for full 4 marks).",
-      "solution": "\u2022 Advantage: The franchisee uses an established, well-known brand name, which guarantees an immediate customer base and lowers the risk of failure. (1)\n\u2022 Advantage: The franchisor provides national advertising and training, reducing the franchisee's marketing costs. (1)\n\u2022 Disadvantage: A percentage of revenue or profit must be paid in ongoing royalties to the franchisor every year. (1)\n\u2022 Disadvantage: The franchisee has little independence and must sell only the products and prices dictated by the franchisor. (1)",
+      "solution": "• Advantage: The franchisee uses an established, well-known brand name, which guarantees an immediate customer base and lowers the risk of failure. (1)\n• Advantage: The franchisor provides national advertising and training, reducing the franchisee's marketing costs. (1)\n• Disadvantage: A percentage of revenue or profit must be paid in ongoing royalties to the franchisor every year. (1)\n• Disadvantage: The franchisee has little independence and must sell only the products and prices dictated by the franchisor. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (1(e))."
       ],
@@ -7219,7 +7293,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Field research is expensive to carry out, and a small sample size may not accurately represent the whole market"
       ],
       "markingRule": "Award 1 mark for each valid point discussed (at least 1 advantage and 1 disadvantage required for full 4 marks).",
-      "solution": "\u2022 Advantage: The data is gathered specifically for the business's own new product, making it 100% relevant and exclusive to the company. (1)\n\u2022 Advantage: The information is current and reflects today's customer opinions. (1)\n\u2022 Disadvantage: It is expensive and time-consuming to organise questionnaires or focus groups, which delays decision-making. (1)\n\u2022 Disadvantage: Customers may ignore surveys or give biased answers if the sample size is too small. (1)",
+      "solution": "• Advantage: The data is gathered specifically for the business's own new product, making it 100% relevant and exclusive to the company. (1)\n• Advantage: The information is current and reflects today's customer opinions. (1)\n• Disadvantage: It is expensive and time-consuming to organise questionnaires or focus groups, which delays decision-making. (1)\n• Disadvantage: Customers may ignore surveys or give biased answers if the sample size is too small. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (2(c))."
       ],
@@ -7247,7 +7321,7 @@ window.N5_HUB_DATA = {
         "It helps clear excess or slow-moving inventory quickly before perishable goods pass their sell-by date"
       ],
       "markingRule": "Award 1 mark for each developed justification for using promotional pricing, up to 3 marks.",
-      "solution": "\u2022 Slashing prices for a limited period entices customers away from competitors, increasing store footfall. (1)\n\u2022 Shoppers attracted by the deal will often purchase other full-margin groceries at the same time, boosting total revenue. (1)\n\u2022 It clears slow-moving or seasonal stock quickly, freeing up shelf space and reducing waste. (1)",
+      "solution": "• Slashing prices for a limited period entices customers away from competitors, increasing store footfall. (1)\n• Shoppers attracted by the deal will often purchase other full-margin groceries at the same time, boosting total revenue. (1)\n• It clears slow-moving or seasonal stock quickly, freeing up shelf space and reducing waste. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (2(e))."
       ],
@@ -7275,7 +7349,7 @@ window.N5_HUB_DATA = {
         "An established brand reputation makes it much easier and cheaper to launch new products into the product portfolio"
       ],
       "markingRule": "Award 1 mark for each developed justification for investing in branding, up to 3 marks.",
-      "solution": "\u2022 A recognisable brand builds trust and customer loyalty, encouraging repeat custom over rival brands. (1)\n\u2022 The business can charge a premium price for branded goods, increasing profit margins. (1)\n\u2022 New products launched under an established brand name are more readily accepted by retailers and consumers. (1)",
+      "solution": "• A recognisable brand builds trust and customer loyalty, encouraging repeat custom over rival brands. (1)\n• The business can charge a premium price for branded goods, increasing profit margins. (1)\n• New products launched under an established brand name are more readily accepted by retailers and consumers. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (2(f))."
       ],
@@ -7304,7 +7378,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: If one section of the assembly line breaks down, the entire production process stops, and repetitive tasks can demotivate assembly workers"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed (must include both sides for full 4 marks).",
-      "solution": "\u2022 Advantage: Continuous automated production achieves high output levels and low unit costs. (1)\n\u2022 Advantage: Bulk buying of raw materials earns discounts (economies of scale) and quality is uniform. (1)\n\u2022 Disadvantage: Setting up an automated production line is extremely expensive in capital costs. (1)\n\u2022 Disadvantage: If one machine fails, the whole production line halts, and workers may become bored by repetitive tasks. (1)",
+      "solution": "• Advantage: Continuous automated production achieves high output levels and low unit costs. (1)\n• Advantage: Bulk buying of raw materials earns discounts (economies of scale) and quality is uniform. (1)\n• Disadvantage: Setting up an automated production line is extremely expensive in capital costs. (1)\n• Disadvantage: If one machine fails, the whole production line halts, and workers may become bored by repetitive tasks. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (4(c))."
       ],
@@ -7333,7 +7407,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Frequent small deliveries mean higher transport costs and the loss of bulk-buying discounts"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
-      "solution": "\u2022 Advantage: Capital is not tied up in stockpiles, improving the business's cash flow. (1)\n\u2022 Advantage: Warehouse storage, insurance and stock deterioration costs are minimised. (1)\n\u2022 Disadvantage: Any delay from a supplier stops production immediately because there is no buffer stock. (1)\n\u2022 Disadvantage: Ordering in small frequent quantities loses bulk-buying discounts and increases delivery charges. (1)",
+      "solution": "• Advantage: Capital is not tied up in stockpiles, improving the business's cash flow. (1)\n• Advantage: Warehouse storage, insurance and stock deterioration costs are minimised. (1)\n• Disadvantage: Any delay from a supplier stops production immediately because there is no buffer stock. (1)\n• Disadvantage: Ordering in small frequent quantities loses bulk-buying discounts and increases delivery charges. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (3(e))."
       ],
@@ -7362,7 +7436,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Factory workers may face redundancy, which lowers staff morale and can trigger trade union opposition"
       ],
       "markingRule": "Award 1 mark for each valid positive or negative impact discussed, up to 4 marks.",
-      "solution": "\u2022 Advantage: CAM robotics operate 24/7 at high speed without tiring, boosting productivity. (1)\n\u2022 Advantage: Greater accuracy ensures consistent quality and less wasted material. (1)\n\u2022 Disadvantage: Very high initial purchase and maintenance costs for the machinery. (1)\n\u2022 Disadvantage: Job losses among manual workers can damage staff morale and employee relations. (1)",
+      "solution": "• Advantage: CAM robotics operate 24/7 at high speed without tiring, boosting productivity. (1)\n• Advantage: Greater accuracy ensures consistent quality and less wasted material. (1)\n• Disadvantage: Very high initial purchase and maintenance costs for the machinery. (1)\n• Disadvantage: Job losses among manual workers can damage staff morale and employee relations. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (3(e))."
       ],
@@ -7391,7 +7465,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Employees are away from their desks/factory floor while training, which reduces output or requires paying for cover staff"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
-      "solution": "\u2022 Advantage: Expert external trainers provide high-quality specialist instruction and qualifications. (1)\n\u2022 Advantage: Staff can concentrate fully on learning without being interrupted by normal work duties. (1)\n\u2022 Disadvantage: External course fees and travel costs are expensive for the business. (1)\n\u2022 Disadvantage: No work output is produced while the employee is away from the workplace. (1)",
+      "solution": "• Advantage: Expert external trainers provide high-quality specialist instruction and qualifications. (1)\n• Advantage: Staff can concentrate fully on learning without being interrupted by normal work duties. (1)\n• Disadvantage: External course fees and travel costs are expensive for the business. (1)\n• Disadvantage: No work output is produced while the employee is away from the workplace. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (5(c))."
       ],
@@ -7420,7 +7494,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: Staff may feel isolated from colleagues, weakening teamwork, and the business must pay for laptops and secure remote IT systems"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage to the employer discussed, up to 4 marks.",
-      "solution": "\u2022 Advantage: Lower office space requirements reduce fixed overheads such as rent and utilities. (1)\n\u2022 Advantage: Greater flexibility increases employee satisfaction and helps retain skilled staff. (1)\n\u2022 Disadvantage: It is harder for managers to supervise staff and measure productivity remotely. (1)\n\u2022 Disadvantage: Reduced face-to-face contact can weaken team spirit and communication. (1)",
+      "solution": "• Advantage: Lower office space requirements reduce fixed overheads such as rent and utilities. (1)\n• Advantage: Greater flexibility increases employee satisfaction and helps retain skilled staff. (1)\n• Disadvantage: It is harder for managers to supervise staff and measure productivity remotely. (1)\n• Disadvantage: Reduced face-to-face contact can weaken team spirit and communication. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (4(e))."
       ],
@@ -7448,7 +7522,7 @@ window.N5_HUB_DATA = {
         "Candidates can ask questions about the role and culture, ensuring a good two-way fit that reduces early staff turnover"
       ],
       "markingRule": "Award 1 mark for each developed justification for using interviews in selection, up to 3 marks.",
-      "solution": "\u2022 Interviews let managers see how well candidates communicate and present themselves in person. (1)\n\u2022 The employer can ask follow-up questions to verify claims made on the candidate's CV or application form. (1)\n\u2022 Candidates can also ask questions about the job, ensuring they understand the role and reducing early turnover. (1)",
+      "solution": "• Interviews let managers see how well candidates communicate and present themselves in person. (1)\n• The employer can ask follow-up questions to verify claims made on the candidate's CV or application form. (1)\n• Candidates can also ask questions about the job, ensuring they understand the role and reducing early turnover. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (4(e))."
       ],
@@ -7477,7 +7551,7 @@ window.N5_HUB_DATA = {
         "Disadvantage: The bank may require business assets as security (collateral), which could be seized if repayments are missed"
       ],
       "markingRule": "Award 1 mark for each valid advantage or disadvantage discussed, up to 4 marks.",
-      "solution": "\u2022 Advantage: A large lump sum is received immediately to fund expansion, while ownership is retained. (1)\n\u2022 Advantage: Fixed monthly repayments over several years make cash budget planning straightforward. (1)\n\u2022 Disadvantage: Interest is charged on the loan, increasing the total amount repaid and reducing profit. (1)\n\u2022 Disadvantage: Assets may have to be pledged as security and could be lost if the business defaults. (1)",
+      "solution": "• Advantage: A large lump sum is received immediately to fund expansion, while ownership is retained. (1)\n• Advantage: Fixed monthly repayments over several years make cash budget planning straightforward. (1)\n• Disadvantage: Interest is charged on the loan, increasing the total amount repaid and reducing profit. (1)\n• Disadvantage: Assets may have to be pledged as security and could be lost if the business defaults. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (5(c))."
       ],
@@ -7505,7 +7579,7 @@ window.N5_HUB_DATA = {
         "No business assets need to be put at risk as security (collateral), and ownership is not diluted"
       ],
       "markingRule": "Award 1 mark for each developed justification for using retained profit, up to 3 marks.",
-      "solution": "\u2022 No interest is charged and the money never has to be repaid, which saves costs and protects future profits. (1)\n\u2022 The business can access its own funds immediately without going through a lengthy bank approval process. (1)\n\u2022 No collateral/security is required, so business assets are not placed at risk. (1)",
+      "solution": "• No interest is charged and the money never has to be repaid, which saves costs and protects future profits. (1)\n• The business can access its own funds immediately without going through a lengthy bank approval process. (1)\n• No collateral/security is required, so business assets are not placed at risk. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (6(b))."
       ],
@@ -7534,7 +7608,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Workload, holidays and specialist dental expertise can be shared between the partners"
       ],
       "markingRule": "Award 1 mark for identifying a Partnership, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Partnership. (1)\n\u2022 Justify 1: Both dentists can combine their personal savings, making it easier to afford expensive dental equipment and premises. (1)\n\u2022 Justify 2: The partners can share the workload, decision-making and cover for each other during holidays or illness. (1)",
+      "solution": "• Identify: Partnership. (1)\n• Justify 1: Both dentists can combine their personal savings, making it easier to afford expensive dental equipment and premises. (1)\n• Justify 2: The partners can share the workload, decision-making and cover for each other during holidays or illness. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (1(d))."
       ],
@@ -7558,11 +7632,11 @@ window.N5_HUB_DATA = {
       "text": "Identify two objectives a private-sector business might set during an economic recession, and explain why each objective is appropriate. (4 marks)",
       "hint": "Identify an objective (e.g. Survival, Cost minimisation / Sales maximisation) for 1 mark each, then explain WHY it suits a recession for 1 mark each.",
       "acceptedPoints": [
-        "Identify 1: Survival \u2014 Explain 1: During a recession consumer spending falls, so the business must focus on covering its costs and staying trading until the economy recovers",
-        "Identify 2: Market share / Customer retention \u2014 Explain 2: Offering competitive value keeps loyal customers from switching to cheaper rivals while disposable incomes are low"
+        "Identify 1: Survival — Explain 1: During a recession consumer spending falls, so the business must focus on covering its costs and staying trading until the economy recovers",
+        "Identify 2: Market share / Customer retention — Explain 2: Offering competitive value keeps loyal customers from switching to cheaper rivals while disposable incomes are low"
       ],
       "markingRule": "Award 1 mark for each valid objective identified (up to 2) and 1 mark for each matching explanation (up to 2).",
-      "solution": "\u2022 Identify 1: Survival. (1)\n\u2022 Explain 1: Because customers have less disposable income during a recession, sales fall, so the priority is covering basic costs to avoid bankruptcy. (1)\n\u2022 Identify 2: Maintaining market share / customer satisfaction. (1)\n\u2022 Explain 2: Keeping existing customers happy ensures repeat custom when competitors are fighting for fewer buyers. (1)",
+      "solution": "• Identify 1: Survival. (1)\n• Explain 1: Because customers have less disposable income during a recession, sales fall, so the priority is covering basic costs to avoid bankruptcy. (1)\n• Identify 2: Maintaining market share / customer satisfaction. (1)\n• Explain 2: Keeping existing customers happy ensures repeat custom when competitors are fighting for fewer buyers. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (1(f))."
       ],
@@ -7586,12 +7660,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two external factors (PESTEC) and explain how each could negatively affect a high-street restaurant. (4 marks)",
       "hint": "Name a PESTEC factor (1 mark) and explain a negative impact on a restaurant (1 mark), twice.",
       "acceptedPoints": [
-        "Identify 1: Economic factors \u2014 Explain 1: Rising inflation or interest rates reduce consumers' disposable income, meaning fewer people eat out and sales revenue falls",
-        "Identify 2: Competitive factors \u2014 Explain 2: A new rival restaurant opening nearby could attract customers away, forcing the restaurant to cut prices or lose market share",
-        "Identify 3: Political / Environmental \u2014 Explain 3: An increase in the National Minimum Wage or poor weather disrupting food supplies increases operating costs and reduces profit"
+        "Identify 1: Economic factors — Explain 1: Rising inflation or interest rates reduce consumers' disposable income, meaning fewer people eat out and sales revenue falls",
+        "Identify 2: Competitive factors — Explain 2: A new rival restaurant opening nearby could attract customers away, forcing the restaurant to cut prices or lose market share",
+        "Identify 3: Political / Environmental — Explain 3: An increase in the National Minimum Wage or poor weather disrupting food supplies increases operating costs and reduces profit"
       ],
       "markingRule": "Award 1 mark for each PESTEC factor identified (up to 2) and 1 mark for each linked explanation (up to 2).",
-      "solution": "\u2022 Identify 1: Economic factor (e.g. rising interest rates / inflation). (1)\n\u2022 Explain 1: Customers have less disposable income to spend on dining out, which reduces the restaurant's sales revenue. (1)\n\u2022 Identify 2: Competitive factor (e.g. a new takeaway or restaurant opening nearby). (1)\n\u2022 Explain 2: Customers may switch to the rival, reducing market share and profit. (1)",
+      "solution": "• Identify 1: Economic factor (e.g. rising interest rates / inflation). (1)\n• Explain 1: Customers have less disposable income to spend on dining out, which reduces the restaurant's sales revenue. (1)\n• Identify 2: Competitive factor (e.g. a new takeaway or restaurant opening nearby). (1)\n• Explain 2: Customers may switch to the rival, reducing market share and profit. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (1(g))."
       ],
@@ -7620,7 +7694,7 @@ window.N5_HUB_DATA = {
         "Explain 2: Employees oppose automation because it threatens their job security and leads to redundancies"
       ],
       "markingRule": "Award 1 mark for identifying a valid pair of conflicting stakeholders, and up to 2 marks for explaining both sides of the conflict.",
-      "solution": "\u2022 Identify: Owners/Shareholders and Employees. (1)\n\u2022 Explain 1: Owners want to introduce automated machinery to speed up output, lower wage costs and increase profits. (1)\n\u2022 Explain 2: Whereas employees want to protect their jobs and income, which are threatened by redundancy when machines replace staff. (1)",
+      "solution": "• Identify: Owners/Shareholders and Employees. (1)\n• Explain 1: Owners want to introduce automated machinery to speed up output, lower wage costs and increase profits. (1)\n• Explain 2: Whereas employees want to protect their jobs and income, which are threatened by redundancy when machines replace staff. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (1(d))."
       ],
@@ -7649,7 +7723,7 @@ window.N5_HUB_DATA = {
         "Justify 2: The researcher can ask follow-up questions in a group discussion to find out how to improve the recipe before launch"
       ],
       "markingRule": "Award 1 mark for identifying a valid field research method, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Focus group / consumer tasting panel. (1)\n\u2022 Justify 1: Participants can sample the new chocolate recipe in person and give honest qualitative feedback on the taste and packaging. (1)\n\u2022 Justify 2: The business can ask follow-up questions during the discussion to refine the product before full-scale production. (1)",
+      "solution": "• Identify: Focus group / consumer tasting panel. (1)\n• Justify 1: Participants can sample the new chocolate recipe in person and give honest qualitative feedback on the taste and packaging. (1)\n• Justify 2: The business can ask follow-up questions during the discussion to refine the product before full-scale production. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (2(b))."
       ],
@@ -7678,7 +7752,7 @@ window.N5_HUB_DATA = {
         "Justify 2: The high profit margin per unit helps the company quickly recover its expensive Research and Development (R&D) costs"
       ],
       "markingRule": "Award 1 mark for identifying Price Skimming, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Price skimming. (1)\n\u2022 Justify 1: Because there are no direct competitors, keen early adopters will pay a high price to own the latest technology first. (1)\n\u2022 Justify 2: High initial margins enable the business to recoup its high research and development costs quickly before rivals enter the market. (1)",
+      "solution": "• Identify: Price skimming. (1)\n• Justify 1: Because there are no direct competitors, keen early adopters will pay a high price to own the latest technology first. (1)\n• Justify 2: High initial margins enable the business to recoup its high research and development costs quickly before rivals enter the market. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (2(d))."
       ],
@@ -7702,12 +7776,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two factors a business should consider when choosing a location for a new retail store, and explain why each factor is important. (4 marks)",
       "hint": "Name a location factor (1 mark) and explain its impact on the shop (1 mark), twice.",
       "acceptedPoints": [
-        "Identify 1: Proximity to customers / high footfall \u2014 Explain 1: Locating in a busy shopping area ensures high visibility and passing trade, which increases sales revenue",
-        "Identify 2: Cost of rent / premises \u2014 Explain 2: Affordable rent keeps fixed overheads low, which protects cash flow and profit margins",
-        "Identify 3: Transport links & parking \u2014 Explain 3: Easy access for customers and delivery lorries attracts more shoppers and ensures shelves stay stocked"
+        "Identify 1: Proximity to customers / high footfall — Explain 1: Locating in a busy shopping area ensures high visibility and passing trade, which increases sales revenue",
+        "Identify 2: Cost of rent / premises — Explain 2: Affordable rent keeps fixed overheads low, which protects cash flow and profit margins",
+        "Identify 3: Transport links & parking — Explain 3: Easy access for customers and delivery lorries attracts more shoppers and ensures shelves stay stocked"
       ],
       "markingRule": "Award 1 mark for each valid location factor identified (up to 2) and 1 mark for each linked explanation (up to 2).",
-      "solution": "\u2022 Identify 1: High customer footfall / closeness to target market. (1)\n\u2022 Explain 1: Being near busy pedestrian areas increases passing trade and boosts sales revenue. (1)\n\u2022 Identify 2: Availability of parking and transport links. (1)\n\u2022 Explain 2: Convenient parking makes it easier for customers to visit and carry purchases home, increasing customer numbers. (1)",
+      "solution": "• Identify 1: High customer footfall / closeness to target market. (1)\n• Explain 1: Being near busy pedestrian areas increases passing trade and boosts sales revenue. (1)\n• Identify 2: Availability of parking and transport links. (1)\n• Explain 2: Convenient parking makes it easier for customers to visit and carry purchases home, increasing customer numbers. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (2(d))."
       ],
@@ -7736,7 +7810,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Posts or leaflets can be targeted directly at pet owners in the immediate local area without wasting money advertising nationwide"
       ],
       "markingRule": "Award 1 mark for identifying a suitable low-cost local advertising method, and up to 2 marks for justifications linked to the context.",
-      "solution": "\u2022 Identify: Social media advertising in local community groups (or local leaflets). (1)\n\u2022 Justify 1: Creating and sharing posts on social media is free or very inexpensive, keeping costs within a small start-up budget. (1)\n\u2022 Justify 2: It targets dog owners in the exact local neighbourhood where the service operates, avoiding wasted national coverage. (1)",
+      "solution": "• Identify: Social media advertising in local community groups (or local leaflets). (1)\n• Justify 1: Creating and sharing posts on social media is free or very inexpensive, keeping costs within a small start-up budget. (1)\n• Justify 2: It targets dog owners in the exact local neighbourhood where the service operates, avoiding wasted national coverage. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (2(g))."
       ],
@@ -7765,7 +7839,7 @@ window.N5_HUB_DATA = {
         "Justify 2: High craftsmanship and bespoke quality allow the jeweller to charge a high premium price for the finished ring"
       ],
       "markingRule": "Award 1 mark for identifying Job Production, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Job production. (1)\n\u2022 Justify 1: Each engagement ring is a unique, one-off design made to the customer's exact personal specifications. (1)\n\u2022 Justify 2: Skilled craftsmanship ensures high customer satisfaction and allows the jeweller to charge a premium price. (1)",
+      "solution": "• Identify: Job production. (1)\n• Justify 1: Each engagement ring is a unique, one-off design made to the customer's exact personal specifications. (1)\n• Justify 2: Skilled craftsmanship ensures high customer satisfaction and allows the jeweller to charge a premium price. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (4(d))."
       ],
@@ -7794,7 +7868,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Ingredient recipes can be changed between batches to offer customers a variety of different cakes and pastries"
       ],
       "markingRule": "Award 1 mark for identifying Batch Production, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Batch production. (1)\n\u2022 Justify 1: The same ovens and mixing equipment can be used to bake groups of 200 items at once, saving time and lowering unit costs. (1)\n\u2022 Justify 2: The bakery can easily switch ingredients between batches to provide customers with a variety of products. (1)",
+      "solution": "• Identify: Batch production. (1)\n• Justify 1: The same ovens and mixing equipment can be used to bake groups of 200 items at once, saving time and lowering unit costs. (1)\n• Justify 2: The bakery can easily switch ingredients between batches to provide customers with a variety of products. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (4(d))."
       ],
@@ -7818,12 +7892,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two factors an operations manager should consider when choosing a supplier of raw materials, and explain how each factor affects the business. (4 marks)",
       "hint": "Identify a factor (e.g. Price, Quality, Lead time/Reliability) for 1 mark and explain its impact for 1 mark, twice.",
       "acceptedPoints": [
-        "Identify 1: Price of raw materials \u2014 Explain 1: A lower price reduces Cost of Sales, allowing the business to earn a higher profit margin or charge more competitive prices",
-        "Identify 2: Quality of raw materials \u2014 Explain 2: High-grade materials ensure the finished product is durable and reliable, reducing customer complaints and returns",
-        "Identify 3: Reliability / Lead time \u2014 Explain 3: On-time deliveries prevent stockouts so production never halts and customer orders are met on schedule"
+        "Identify 1: Price of raw materials — Explain 1: A lower price reduces Cost of Sales, allowing the business to earn a higher profit margin or charge more competitive prices",
+        "Identify 2: Quality of raw materials — Explain 2: High-grade materials ensure the finished product is durable and reliable, reducing customer complaints and returns",
+        "Identify 3: Reliability / Lead time — Explain 3: On-time deliveries prevent stockouts so production never halts and customer orders are met on schedule"
       ],
       "markingRule": "Award 1 mark for each supplier factor identified (up to 2) and 1 mark for each matching explanation (up to 2).",
-      "solution": "\u2022 Identify 1: Price charged by the supplier. (1)\n\u2022 Explain 1: Lower material prices reduce production costs, which increases the business's profit margin. (1)\n\u2022 Identify 2: Quality of raw materials. (1)\n\u2022 Explain 2: Using high-quality inputs results in fewer faulty finished goods and higher customer satisfaction. (1)",
+      "solution": "• Identify 1: Price charged by the supplier. (1)\n• Explain 1: Lower material prices reduce production costs, which increases the business's profit margin. (1)\n• Identify 2: Quality of raw materials. (1)\n• Explain 2: Using high-quality inputs results in fewer faulty finished goods and higher customer satisfaction. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (3(d))."
       ],
@@ -7847,12 +7921,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two methods a hotel could use to check and maintain service quality, and describe how each method works. (4 marks)",
       "hint": "Think: Mystery shopper, Customer feedback questionnaires / online reviews, Staff training, Benchmarking.",
       "acceptedPoints": [
-        "Identify 1: Mystery shopper \u2014 Describe 1: An anonymous inspector poses as a normal hotel guest to experience and rate check-in, room cleanliness and dining service",
-        "Identify 2: Customer satisfaction survey \u2014 Describe 2: Guests are emailed a questionnaire after checkout asking them to score their stay and suggest improvements",
-        "Identify 3: Benchmarking \u2014 Describe 3: The hotel compares its service standards directly against the best-performing 5-star hotel in the industry"
+        "Identify 1: Mystery shopper — Describe 1: An anonymous inspector poses as a normal hotel guest to experience and rate check-in, room cleanliness and dining service",
+        "Identify 2: Customer satisfaction survey — Describe 2: Guests are emailed a questionnaire after checkout asking them to score their stay and suggest improvements",
+        "Identify 3: Benchmarking — Describe 3: The hotel compares its service standards directly against the best-performing 5-star hotel in the industry"
       ],
       "markingRule": "Award 1 mark for each quality method identified (up to 2) and 1 mark for each accurate description (up to 2).",
-      "solution": "\u2022 Identify 1: Mystery guest / mystery shopper. (1)\n\u2022 Describe 1: An undercover evaluator stays at the hotel pretending to be a customer and writes a report on staff service and cleanliness. (1)\n\u2022 Identify 2: Customer feedback questionnaire. (1)\n\u2022 Describe 2: Guests complete an online survey after their stay to rate their experience and highlight any issues. (1)",
+      "solution": "• Identify 1: Mystery guest / mystery shopper. (1)\n• Describe 1: An undercover evaluator stays at the hotel pretending to be a customer and writes a report on staff service and cleanliness. (1)\n• Identify 2: Customer feedback questionnaire. (1)\n• Describe 2: Guests complete an online survey after their stay to rate their experience and highlight any issues. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (3(f))."
       ],
@@ -7881,7 +7955,7 @@ window.N5_HUB_DATA = {
         "Justify 2: It helps the new starter feel welcome and confident quickly, reducing anxiety and early staff turnover"
       ],
       "markingRule": "Award 1 mark for identifying Induction (or On-the-job) training, and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Induction training. (1)\n\u2022 Justify 1: The new checkout assistant learns vital health and safety rules, store layout and company policies before starting work. (1)\n\u2022 Justify 2: Meeting colleagues on the first day helps them settle in quickly and feel confident in their new role. (1)",
+      "solution": "• Identify: Induction training. (1)\n• Justify 1: The new checkout assistant learns vital health and safety rules, store layout and company policies before starting work. (1)\n• Justify 2: Meeting colleagues on the first day helps them settle in quickly and feel confident in their new role. (1)",
       "notes": [
         "Authentic SQA 2018 National 5 Business Management past-paper question (5(d))."
       ],
@@ -7910,7 +7984,7 @@ window.N5_HUB_DATA = {
         "Justify 2: The business only pays out higher commission when sales revenue actually increases, making it cost-effective"
       ],
       "markingRule": "Award 1 mark for identifying Commission (or Bonus), and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Commission. (1)\n\u2022 Justify 1: Receiving a percentage of the sale value of every car sold incentivises the salesperson to persuade more customers to buy. (1)\n\u2022 Justify 2: Higher commission payments are directly funded by the extra sales revenue generated for the dealership. (1)",
+      "solution": "• Identify: Commission. (1)\n• Justify 1: Receiving a percentage of the sale value of every car sold incentivises the salesperson to persuade more customers to buy. (1)\n• Justify 2: Higher commission payments are directly funded by the extra sales revenue generated for the dealership. (1)",
       "notes": [
         "Authentic SQA 2019 National 5 Business Management past-paper question (5(c))."
       ],
@@ -7934,12 +8008,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two non-financial methods an employer could use to motivate staff, and describe how each method works. (4 marks)",
       "hint": "Think: Job enlargement, Job rotation, Empowerment, Teamworking, Praise/Employee of the Month, Flexible working.",
       "acceptedPoints": [
-        "Identify 1: Job rotation \u2014 Describe 1: Employees switch between different tasks or workstations periodically to prevent boredom and build multi-skilling",
-        "Identify 2: Empowerment / Delegation \u2014 Describe 2: Managers give staff authority to make decisions about their own work, making them feel trusted and valued",
-        "Identify 3: Praise and recognition (e.g. Employee of the Month) \u2014 Describe 3: Publicly rewarding outstanding effort in front of colleagues to boost self-esteem"
+        "Identify 1: Job rotation — Describe 1: Employees switch between different tasks or workstations periodically to prevent boredom and build multi-skilling",
+        "Identify 2: Empowerment / Delegation — Describe 2: Managers give staff authority to make decisions about their own work, making them feel trusted and valued",
+        "Identify 3: Praise and recognition (e.g. Employee of the Month) — Describe 3: Publicly rewarding outstanding effort in front of colleagues to boost self-esteem"
       ],
       "markingRule": "Award 1 mark for each non-financial method identified (up to 2) and 1 mark for each matching description (up to 2).",
-      "solution": "\u2022 Identify 1: Job rotation. (1)\n\u2022 Describe 1: Workers move between different tasks during the week to add variety and reduce boredom. (1)\n\u2022 Identify 2: Empowerment. (1)\n\u2022 Describe 2: Employees are trusted with responsibility to make decisions about how they complete their work. (1)",
+      "solution": "• Identify 1: Job rotation. (1)\n• Describe 1: Workers move between different tasks during the week to add variety and reduce boredom. (1)\n• Identify 2: Empowerment. (1)\n• Describe 2: Employees are trusted with responsibility to make decisions about how they complete their work. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (4(c))."
       ],
@@ -7963,12 +8037,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two pieces of employment legislation and describe one duty each places on an employer. (4 marks)",
       "hint": "Think: Equality Act 2010, Health and Safety at Work Act 1974, National Minimum Wage Act 1998.",
       "acceptedPoints": [
-        "Identify 1: Health and Safety at Work Act 1974 \u2014 Describe 1: The employer must provide safe equipment, protective clothing (PPE), risk assessments and health and safety training",
-        "Identify 2: Equality Act 2010 \u2014 Describe 2: The employer must not discriminate against applicants or staff based on protected characteristics such as age, sex, race, disability or religion",
-        "Identify 3: National Minimum Wage Act \u2014 Describe 3: The employer must pay workers at least the legal minimum hourly rate for their age group"
+        "Identify 1: Health and Safety at Work Act 1974 — Describe 1: The employer must provide safe equipment, protective clothing (PPE), risk assessments and health and safety training",
+        "Identify 2: Equality Act 2010 — Describe 2: The employer must not discriminate against applicants or staff based on protected characteristics such as age, sex, race, disability or religion",
+        "Identify 3: National Minimum Wage Act — Describe 3: The employer must pay workers at least the legal minimum hourly rate for their age group"
       ],
       "markingRule": "Award 1 mark for each Act identified (up to 2) and 1 mark for each accurate employer duty described (up to 2).",
-      "solution": "\u2022 Identify 1: Health and Safety at Work Act 1974. (1)\n\u2022 Describe 1: Employers must provide a safe working environment, safety training and protective equipment (PPE). (1)\n\u2022 Identify 2: Equality Act 2010. (1)\n\u2022 Describe 2: Employers must treat all staff and job applicants fairly and must not discriminate on grounds such as gender, race, age or disability. (1)",
+      "solution": "• Identify 1: Health and Safety at Work Act 1974. (1)\n• Describe 1: Employers must provide a safe working environment, safety training and protective equipment (PPE). (1)\n• Identify 2: Equality Act 2010. (1)\n• Describe 2: Employers must treat all staff and job applicants fairly and must not discriminate on grounds such as gender, race, age or disability. (1)",
       "notes": [
         "Authentic SQA 2023 National 5 Business Management past-paper question (4(f))."
       ],
@@ -7997,7 +8071,7 @@ window.N5_HUB_DATA = {
         "Justify 2: Interest is only charged on the exact amount overdrawn for those 3 weeks, making it cheaper than taking out a long-term loan"
       ],
       "markingRule": "Award 1 mark for identifying a Bank Overdraft (or Trade Credit), and up to 2 marks for valid justifications.",
-      "solution": "\u2022 Identify: Bank overdraft. (1)\n\u2022 Justify 1: It provides flexible short-term cover for the 3-week deficit and is automatically cleared when December cash receipts arrive. (1)\n\u2022 Justify 2: Interest is only paid on the daily amount overdrawn for those few weeks rather than being locked into a long-term loan. (1)",
+      "solution": "• Identify: Bank overdraft. (1)\n• Justify 1: It provides flexible short-term cover for the 3-week deficit and is automatically cleared when December cash receipts arrive. (1)\n• Justify 2: Interest is only paid on the daily amount overdrawn for those few weeks rather than being locked into a long-term loan. (1)",
       "notes": [
         "Authentic SQA 2024 National 5 Business Management past-paper question (6(c))."
       ],
@@ -8021,12 +8095,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two causes of a cash flow deficit in a profitable business, and explain how each cause creates a cash shortage. (4 marks)",
       "hint": "Why can a profitable business run out of cash? Think: giving customers too long credit terms, tying cash up in excess stock, or buying expensive assets for cash.",
       "acceptedPoints": [
-        "Identify 1: Giving credit customers too long to pay \u2014 Explain 1: The sale is recorded as profit immediately, but no actual cash enters the bank account for 60 or 90 days to pay bills",
-        "Identify 2: Overstocking (buying too much inventory) \u2014 Explain 2: Large amounts of cash are paid out to suppliers and remain tied up in unsold stock in the warehouse",
-        "Identify 3: Purchasing expensive capital equipment with cash \u2014 Explain 3: A huge one-off cash outflow leaves the bank account immediately instead of being spread via leasing or hire purchase"
+        "Identify 1: Giving credit customers too long to pay — Explain 1: The sale is recorded as profit immediately, but no actual cash enters the bank account for 60 or 90 days to pay bills",
+        "Identify 2: Overstocking (buying too much inventory) — Explain 2: Large amounts of cash are paid out to suppliers and remain tied up in unsold stock in the warehouse",
+        "Identify 3: Purchasing expensive capital equipment with cash — Explain 3: A huge one-off cash outflow leaves the bank account immediately instead of being spread via leasing or hire purchase"
       ],
       "markingRule": "Award 1 mark for each valid cause identified (up to 2) and 1 mark for each linked explanation (up to 2).",
-      "solution": "\u2022 Identify 1: Allowing credit customers too long to pay their invoices. (1)\n\u2022 Explain 1: Even though the sale counts towards profit, cash inflows are delayed so the business lacks cash to pay its own immediate bills. (1)\n\u2022 Identify 2: Purchasing too much inventory (overstocking). (1)\n\u2022 Explain 2: Cash is spent immediately on stock that sits unsold in the warehouse instead of staying in the bank account. (1)",
+      "solution": "• Identify 1: Allowing credit customers too long to pay their invoices. (1)\n• Explain 1: Even though the sale counts towards profit, cash inflows are delayed so the business lacks cash to pay its own immediate bills. (1)\n• Identify 2: Purchasing too much inventory (overstocking). (1)\n• Explain 2: Cash is spent immediately on stock that sits unsold in the warehouse instead of staying in the bank account. (1)",
       "notes": [
         "Authentic SQA 2022 National 5 Business Management past-paper question (5(d))."
       ],
@@ -8050,12 +8124,12 @@ window.N5_HUB_DATA = {
       "text": "Identify two actions a business could take to lower its break-even point, and explain how each action reduces the number of units needed to break even. (4 marks)",
       "hint": "To break even at fewer units, either increase contribution per unit (raise selling price / cut variable cost) or reduce fixed costs!",
       "acceptedPoints": [
-        "Identify 1: Increase the selling price per unit \u2014 Explain 1: Each unit sold generates more revenue and higher contribution, so fewer units need to be sold to cover total costs",
-        "Identify 2: Switch to a cheaper supplier of raw materials (reduce variable costs) \u2014 Explain 2: Lower variable cost per unit increases the contribution per unit towards paying off fixed costs",
-        "Identify 3: Reduce fixed costs (e.g. move to cheaper premises) \u2014 Explain 3: There is a smaller total fixed overhead to recover, so the Total Cost line drops and crosses Total Revenue at a lower output"
+        "Identify 1: Increase the selling price per unit — Explain 1: Each unit sold generates more revenue and higher contribution, so fewer units need to be sold to cover total costs",
+        "Identify 2: Switch to a cheaper supplier of raw materials (reduce variable costs) — Explain 2: Lower variable cost per unit increases the contribution per unit towards paying off fixed costs",
+        "Identify 3: Reduce fixed costs (e.g. move to cheaper premises) — Explain 3: There is a smaller total fixed overhead to recover, so the Total Cost line drops and crosses Total Revenue at a lower output"
       ],
       "markingRule": "Award 1 mark for each valid action identified (up to 2) and 1 mark for each matching explanation (up to 2).",
-      "solution": "\u2022 Identify 1: Increase the selling price of the product. (1)\n\u2022 Explain 1: Higher revenue is earned on every unit sold, meaning fewer sales are required to cover total costs. (1)\n\u2022 Identify 2: Reduce fixed costs (such as negotiating lower rent) or find a cheaper raw material supplier. (1)\n\u2022 Explain 2: Lower total costs mean the Total Revenue line intersects the Total Cost line at a lower level of output. (1)",
+      "solution": "• Identify 1: Increase the selling price of the product. (1)\n• Explain 1: Higher revenue is earned on every unit sold, meaning fewer sales are required to cover total costs. (1)\n• Identify 2: Reduce fixed costs (such as negotiating lower rent) or find a cheaper raw material supplier. (1)\n• Explain 2: Lower total costs mean the Total Revenue line intersects the Total Cost line at a lower level of output. (1)",
       "notes": [
         "Authentic SQA 2025 National 5 Business Management past-paper question (6(c))."
       ],
@@ -8067,50 +8141,54 @@ window.N5_HUB_DATA = {
     {
       "id": "cs-caledonia",
       "title": "Caledonia Coffee Co.",
-      "focus": "Marketing \u00b7 People \u00b7 Finance \u00b7 External factors",
-      "scenario": "Caledonia Coffee Co. is a Scottish private limited company with three caf\u00e9s in Stirling and Falkirk. It has built a reputation for locally roasted coffee, quick service and a student loyalty scheme. Sales revenue increased by 14% last year, and the directors now want to open a fourth caf\u00e9 close to a large college campus. Before making a decision, staff used questionnaires outside the college and asked students about preferred drinks, prices and opening times. The proposed premises have an annual rent of \u00a338,000 and would require \u00a352,000 of new coffee-making and kitchen equipment. The business has \u00a318,000 of retained profit available and is considering a bank loan for the remaining finance. There are already four caf\u00e9s within a ten-minute walk, including two national chains that regularly offer app-based discounts. Caledonia expects to recruit six employees. Managers want friendly staff who can work during busy breakfast and lunchtime periods, but several applicants have little caf\u00e9 experience. The directors are also concerned that increases in wages, energy prices and interest rates could affect the new branch.",
+      "focus": "Marketing · People · Finance · External factors",
+      "scenario": "Caledonia Coffee Co. is a Scottish private limited company with three cafés in Stirling and Falkirk. It has built a reputation for locally roasted coffee, quick service and a student loyalty scheme. Sales revenue increased by 14% last year, and the directors now want to open a fourth café close to a large college campus. Before making a decision, staff used questionnaires outside the college and asked students about preferred drinks, prices and opening times. The proposed premises have an annual rent of £38,000 and would require £52,000 of new coffee-making and kitchen equipment. The business has £18,000 of retained profit available and is considering a bank loan for the remaining finance. There are already four cafés within a ten-minute walk, including two national chains that regularly offer app-based discounts. Caledonia expects to recruit six employees. Managers want friendly staff who can work during busy breakfast and lunchtime periods, but several applicants have little café experience. The directors are also concerned that increases in wages, energy prices and interest rates could affect the new branch.",
       "questions": [
         {
-          "text": "Explain two benefits to Caledonia Coffee Co. of carrying out field market research before opening the new caf\u00e9.",
+          "text": "Explain two benefits to Caledonia Coffee Co. of carrying out field market research before opening the new café.",
           "marks": 4,
           "hint": "Think about why information collected directly from local students could make the launch less risky. Develop each point with a consequence.",
           "guidance": [
-            "Primary research can provide current, location-specific information about student preferences, helping the caf\u00e9 choose suitable products/prices/opening times.",
+            "Primary research can provide current, location-specific information about student preferences, helping the café choose suitable products/prices/opening times.",
             "Estimating local demand can reduce the risk of opening with an unsuitable marketing mix or making poor investment decisions."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Primary research can provide current, location-specific information about student preferences, helping the café choose suitable products/prices/opening times. (1 mark)\n• Estimating local demand can reduce the risk of opening with an unsuitable marketing mix or making poor investment decisions. (1 mark)"
         },
         {
-          "text": "Describe two factors Caledonia Coffee Co. should consider when selecting employees for the new caf\u00e9.",
+          "text": "Describe two factors Caledonia Coffee Co. should consider when selecting employees for the new café.",
           "marks": 2,
           "hint": "Look at what the scenario tells you about the type of work and when employees will be needed.",
           "guidance": [
             "Relevant skills, experience, personal qualities and availability can be matched against the person specification.",
             "Customer-service ability or availability at breakfast/lunchtime are valid contextual factors."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Relevant skills, experience, personal qualities and availability can be matched against the person specification. (1 mark)\n• Customer-service ability or availability at breakfast/lunchtime are valid contextual factors. (1 mark)"
         },
         {
-          "text": "Justify the use of a bank loan to help purchase the \u00a352,000 of equipment.",
+          "text": "Justify the use of a bank loan to help purchase the £52,000 of equipment.",
           "marks": 2,
-          "hint": "Think about the size and long-term use of the equipment, the \u00a318,000 already available, and what a loan allows the business to do.",
+          "hint": "Think about the size and long-term use of the equipment, the £18,000 already available, and what a loan allows the business to do.",
           "guidance": [
             "A loan can provide the substantial remaining lump sum needed for long-term equipment while allowing repayment to be spread over time.",
             "A developed justification may recognise that interest/repayments must remain affordable, particularly if interest rates rise."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• A loan can provide the substantial remaining lump sum needed for long-term equipment while allowing repayment to be spread over time. (1 mark)\n• A developed justification may recognise that interest/repayments must remain affordable, particularly if interest rates rise. (1 mark)"
         },
         {
-          "text": "Explain one way competition could affect the performance of the new caf\u00e9.",
+          "text": "Explain one way competition could affect the performance of the new café.",
           "marks": 2,
-          "hint": "Use the information about nearby caf\u00e9s and app discounts, then explain what this could cause Caledonia to do or what could happen to sales.",
+          "hint": "Use the information about nearby cafés and app discounts, then explain what this could cause Caledonia to do or what could happen to sales.",
           "guidance": [
             "Nearby established rivals or national-chain discounts could reduce demand, force promotional/price responses or require differentiation, affecting revenue/profit."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Nearby established rivals or national-chain discounts could reduce demand, force promotional/price responses or require differentiation, affecting revenue/profit. (1 mark)"
         }
       ]
     },
     {
       "id": "cs-highland",
       "title": "Highland Activewear",
-      "focus": "Operations \u00b7 Marketing \u00b7 Ethics \u00b7 Technology",
+      "focus": "Operations · Marketing · Ethics · Technology",
       "scenario": "Highland Activewear designs running tops, leggings and jackets in Inverness and sells mainly through its website. Online orders have grown from about 600 to 1,050 per month after several fitness influencers featured the brand. Clothing is currently produced in batches of 100, allowing the business to switch colours and designs between production runs. However, machines must be reset between batches and popular sizes sometimes sell out before the next batch is ready. Fabric is imported from one overseas supplier. The supplier offers a low price but delivery can take five weeks and two recent deliveries arrived late. Managers are comparing this supplier with a Scottish supplier whose fabric costs 12% more but can normally deliver within five working days. Customer research also shows that many buyers value environmentally responsible brands. Highland currently packs each order in a plastic mailing bag and cardboard presentation box. Managers want to reduce packaging and are considering automated cutting equipment and a digital inventory system that would update stock after every online sale.",
       "questions": [
         {
@@ -8120,7 +8198,8 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Batch production allows product variety and changes between runs, helping serve different customer preferences.",
             "Resetting machinery can create downtime/cost, while waiting for another batch can cause stock shortages and lost sales."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Batch production allows product variety and changes between runs, helping serve different customer preferences. (1 mark)\n• Resetting machinery can create downtime/cost, while waiting for another batch can cause stock shortages and lost sales. (1 mark)"
         },
         {
           "text": "Justify two factors Highland Activewear should consider when choosing between its fabric suppliers.",
@@ -8130,7 +8209,8 @@ window.N5_HUB_DATA = {
             "Price affects costs/profit margins; the overseas supplier is cheaper.",
             "Reliability/lead time affects continuity and stock availability; the Scottish supplier is faster and recent overseas deliveries were late.",
             "Quality, ethics and location could also earn credit if properly justified in context."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Price affects costs/profit margins; the overseas supplier is cheaper. (1 mark)\n• Reliability/lead time affects continuity and stock availability; the Scottish supplier is faster and recent overseas deliveries were late. (1 mark)\n• Quality, ethics and location could also earn credit if properly justified in context. (1 mark)"
         },
         {
           "text": "Explain two benefits to Highland Activewear of reducing its packaging.",
@@ -8139,7 +8219,8 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Using less packaging can reduce material/waste-disposal costs and therefore improve costs/profit.",
             "It can improve environmental reputation and appeal to customers who value responsible brands, potentially supporting sales/loyalty."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Using less packaging can reduce material/waste-disposal costs and therefore improve costs/profit. (1 mark)\n• It can improve environmental reputation and appeal to customers who value responsible brands, potentially supporting sales/loyalty. (1 mark)"
         },
         {
           "text": "Describe one way technology could improve Highland Activewear's operations.",
@@ -8148,15 +8229,16 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Automation could cut fabric faster/more consistently and improve productivity.",
             "A digital inventory system could update stock after sales and help identify when popular items need replenished."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Automation could cut fabric faster/more consistently and improve productivity. (1 mark)\n• A digital inventory system could update stock after sales and help identify when popular items need replenished. (1 mark)"
         }
       ]
     },
     {
       "id": "cs-lochview",
       "title": "Lochview Adventures",
-      "focus": "Customer service \u00b7 People \u00b7 Recruitment \u00b7 Training",
-      "scenario": "Lochview Adventures is an outdoor-activity business beside a popular Scottish loch. It offers kayaking, paddleboarding and guided hill walks. Most customers book online, and around 60% of annual sales are made between May and August. During the previous summer, several sessions sold out but some customers complained about long check-in queues and inconsistent information from temporary instructors. The owner wants to increase repeat bookings and online recommendations without greatly increasing permanent staffing costs during the quieter winter months. Lochview currently employs four full-time instructors and eight part-time seasonal instructors. Some part-time staff work for other tourism businesses, which can make rotas difficult to fill at short notice. The owner plans to advertise future vacancies online and use video interviews for applicants who live far away. A new training programme would cover customer service, first aid, equipment checks and emergency procedures. Training would cost \u00a3350 per employee and take two working days.",
+      "focus": "Customer service · People · Recruitment · Training",
+      "scenario": "Lochview Adventures is an outdoor-activity business beside a popular Scottish loch. It offers kayaking, paddleboarding and guided hill walks. Most customers book online, and around 60% of annual sales are made between May and August. During the previous summer, several sessions sold out but some customers complained about long check-in queues and inconsistent information from temporary instructors. The owner wants to increase repeat bookings and online recommendations without greatly increasing permanent staffing costs during the quieter winter months. Lochview currently employs four full-time instructors and eight part-time seasonal instructors. Some part-time staff work for other tourism businesses, which can make rotas difficult to fill at short notice. The owner plans to advertise future vacancies online and use video interviews for applicants who live far away. A new training programme would cover customer service, first aid, equipment checks and emergency procedures. Training would cost £350 per employee and take two working days.",
       "questions": [
         {
           "text": "Explain two reasons why customer satisfaction is important to Lochview Adventures.",
@@ -8165,7 +8247,8 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Satisfied customers may make repeat bookings, increasing future sales revenue.",
             "Positive recommendations/reviews can strengthen reputation and attract new customers; fewer complaints can also reduce service-recovery costs."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Satisfied customers may make repeat bookings, increasing future sales revenue. (1 mark)\n• Positive recommendations/reviews can strengthen reputation and attract new customers; fewer complaints can also reduce service-recovery costs. (1 mark)"
         },
         {
           "text": "Explain one advantage and one disadvantage of using part-time seasonal employees.",
@@ -8174,7 +8257,8 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Part-time seasonal staffing lets labour hours/costs respond to high summer demand without carrying the same staffing level all year.",
             "Staff working elsewhere may be unavailable at short notice, making rotas difficult and potentially affecting service capacity."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Part-time seasonal staffing lets labour hours/costs respond to high summer demand without carrying the same staffing level all year. (1 mark)\n• Staff working elsewhere may be unavailable at short notice, making rotas difficult and potentially affecting service capacity. (1 mark)"
         },
         {
           "text": "Describe two benefits to Lochview Adventures of training its instructors.",
@@ -8183,7 +8267,8 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Training can improve customer service consistency and therefore customer satisfaction.",
             "First-aid/equipment/emergency training can improve safety and employee competence; training can also improve flexibility/motivation."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Training can improve customer service consistency and therefore customer satisfaction. (1 mark)\n• First-aid/equipment/emergency training can improve safety and employee competence; training can also improve flexibility/motivation. (1 mark)"
         },
         {
           "text": "Explain one way technology could help Lochview Adventures recruit employees.",
@@ -8192,24 +8277,26 @@ window.N5_HUB_DATA = {
           "guidance": [
             "Online adverts can reach applicants quickly/widely, potentially increasing the pool of suitable candidates.",
             "Video interviews can reduce travel/time and allow distant applicants to take part."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Online adverts can reach applicants quickly/widely, potentially increasing the pool of suitable candidates. (1 mark)\n• Video interviews can reduce travel/time and allow distant applicants to take part. (1 mark)"
         }
       ]
     },
     {
       "id": "cs-northstar",
       "title": "Northstar Furniture",
-      "focus": "Finance \u00b7 Inventory \u00b7 Quality \u00b7 Suppliers",
-      "scenario": "Northstar Furniture manufactures solid-wood tables and chairs for independent retailers. It buys timber in bulk and currently holds enough stock for about ten weeks of production because managers worry about supply delays. Rising timber prices mean \u00a346,000 is now tied up in raw-material inventory, and extra warehouse space costs \u00a3900 per month. Some timber can warp if it is stored for too long. Finished furniture is inspected by quality-control staff only after production. Last month, 7% of finished tables needed reworking because faults were discovered at final inspection. Managers are considering quality assurance, with checks carried out throughout production. Northstar prepares monthly cash budgets. For one month it expects an opening cash balance of \u00a34,000, cash inflows of \u00a318,500 and cash outflows of \u00a321,000. A possible new timber supplier charges slightly more per unit but offers 60 days' trade credit instead of the current supplier's 30 days.",
+      "focus": "Finance · Inventory · Quality · Suppliers",
+      "scenario": "Northstar Furniture manufactures solid-wood tables and chairs for independent retailers. It buys timber in bulk and currently holds enough stock for about ten weeks of production because managers worry about supply delays. Rising timber prices mean £46,000 is now tied up in raw-material inventory, and extra warehouse space costs £900 per month. Some timber can warp if it is stored for too long. Finished furniture is inspected by quality-control staff only after production. Last month, 7% of finished tables needed reworking because faults were discovered at final inspection. Managers are considering quality assurance, with checks carried out throughout production. Northstar prepares monthly cash budgets. For one month it expects an opening cash balance of £4,000, cash inflows of £18,500 and cash outflows of £21,000. A possible new timber supplier charges slightly more per unit but offers 60 days' trade credit instead of the current supplier's 30 days.",
       "questions": [
         {
           "text": "Explain two problems Northstar Furniture could experience because it holds large quantities of timber.",
           "marks": 4,
-          "hint": "Use the \u00a346,000 tied up, warehouse cost and risk of timber warping. Turn two of these into developed business consequences.",
+          "hint": "Use the £46,000 tied up, warehouse cost and risk of timber warping. Turn two of these into developed business consequences.",
           "guidance": [
             "Cash tied up in inventory is unavailable for other spending and can worsen liquidity/cash flow.",
             "Large stocks create storage costs and may be damaged/warp, causing waste and replacement costs."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 4 marks):\n• Cash tied up in inventory is unavailable for other spending and can worsen liquidity/cash flow. (1 mark)\n• Large stocks create storage costs and may be damaged/warp, causing waste and replacement costs. (1 mark)"
         },
         {
           "text": "Explain one benefit of using quality assurance rather than relying only on final quality control.",
@@ -8217,15 +8304,17 @@ window.N5_HUB_DATA = {
           "hint": "Think about when faults would be found under each system and the 7% of tables currently needing rework.",
           "guidance": [
             "Checking throughout production can identify/prevent faults earlier, reducing defective finished products, rework and waste compared with only checking at the end."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Checking throughout production can identify/prevent faults earlier, reducing defective finished products, rework and waste compared with only checking at the end. (1 mark)"
         },
         {
           "text": "Calculate Northstar Furniture's closing cash balance using the figures in the case study.",
           "marks": 2,
           "hint": "Start with opening cash, add cash inflows, then subtract cash outflows.",
           "guidance": [
-            "\u00a34,000 + \u00a318,500 \u2212 \u00a321,000 = \u00a31,500 closing cash balance."
-          ]
+            "£4,000 + £18,500 − £21,000 = £1,500 closing cash balance."
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• £4,000 + £18,500 − £21,000 = £1,500 closing cash balance. (1 mark)"
         },
         {
           "text": "Justify why the new supplier's 60-day credit terms could help Northstar Furniture.",
@@ -8233,7 +8322,8 @@ window.N5_HUB_DATA = {
           "hint": "Compare 60 days with the current 30 days and think about when cash actually leaves the business.",
           "guidance": [
             "Longer trade credit delays the cash outflow, allowing Northstar to keep cash for longer and improve short-term cash flow/liquidity, which is useful while significant cash is tied up in timber."
-          ]
+          ],
+          "solution": "SQA Model Answer (up to 2 marks):\n• Longer trade credit delays the cash outflow, allowing Northstar to keep cash for longer and improve short-term cash flow/liquidity, which is useful while significant cash is tied up in timber. (1 mark)"
         }
       ]
     }
@@ -8254,7 +8344,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described sector, up to 2 marks. Equivalent valid descriptions can receive credit.",
       "month": "October 2026",
-      "deadline": "31 October 2026"
+      "deadline": "31 October 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Private sector organisations are owned by private individuals, partners or shareholders. (1 mark)\n• Public sector organisations are owned by central or local government. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described sector, up to 2 marks. Equivalent valid descriptions can receive credit."
     },
     {
       "id": "hw-oct-2",
@@ -8264,14 +8355,15 @@ window.N5_HUB_DATA = {
       "year": 2026,
       "ref": "Q5(c)",
       "slide": 107,
-      "text": "Outline 2 factors influencing an organisation\u2019s choice of supplier.",
+      "text": "Outline 2 factors influencing an organisation’s choice of supplier.",
       "acceptedPoints": [
         "The price that the supplier charges for its products.",
         "The quality of the products that the supplier provides."
       ],
       "markingRule": "Award one mark for each valid supplier-choice factor outlined, up to 2 marks. Other suitable factors can receive credit.",
       "month": "October 2026",
-      "deadline": "31 October 2026"
+      "deadline": "31 October 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• The price that the supplier charges for its products. (1 mark)\n• The quality of the products that the supplier provides. (1 mark)\n\nSQA Marking Note: Award one mark for each valid supplier-choice factor outlined, up to 2 marks. Other suitable factors can receive credit."
     },
     {
       "id": "hw-oct-3",
@@ -8288,7 +8380,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark per valid paired comparison that refers to both desk and field research, up to 2 marks.",
       "month": "October 2026",
-      "deadline": "31 October 2026"
+      "deadline": "31 October 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Desk research uses existing secondary information, whereas field research gathers new primary information. (1 mark)\n• Desk research can be obtained quickly because the information already exists, whereas field research takes time to collect. (1 mark)\n\nSQA Marking Note: Award one mark per valid paired comparison that refers to both desk and field research, up to 2 marks."
     },
     {
       "id": "hw-oct-4",
@@ -8306,7 +8399,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described source of finance, up to 3 marks. Other valid sources can receive credit.",
       "month": "October 2026",
-      "deadline": "31 October 2026"
+      "deadline": "31 October 2026",
+      "solution": "SQA Model Answer (up to 3 marks):\n• A bank loan is money borrowed from a bank which must be repaid with interest. (1 mark)\n• A mortgage is a large, long-term loan used to buy business property or land. (1 mark)\n• Retained profit is profit from an earlier year which is kept and reinvested in the business. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described source of finance, up to 3 marks. Other valid sources can receive credit."
     },
     {
       "id": "hw-oct-5",
@@ -8324,7 +8418,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid recruitment stage, up to 3 marks. Recruitment stages such as preparing a person specification or advertising may be valid; interviews and tests are selection, not recruitment.",
       "month": "October 2026",
-      "deadline": "31 October 2026"
+      "deadline": "31 October 2026",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Identify a vacancy that the organisation needs to fill. (1 mark)\n• Carry out a job analysis to establish the duties of the job. (1 mark)\n• Create a job description which states the job's tasks and responsibilities. (1 mark)\n\nSQA Marking Note: Award one mark for each valid recruitment stage, up to 3 marks. Recruitment stages such as preparing a person specification or advertising may be valid; interviews and tests are selection, not recruitment."
     },
     {
       "id": "hw-nov-1",
@@ -8341,7 +8436,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid paired comparison referring to both organisation types, up to 2 marks.",
       "month": "November 2026",
-      "deadline": "30 November 2026"
+      "deadline": "30 November 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A sole trader generally aims to make a profit for its owner, whereas a charity aims to achieve its charitable purpose and help beneficiaries. (1 mark)\n• A sole trader may aim to grow its market share, whereas a charity may aim to increase the number of people it supports. (1 mark)\n\nSQA Marking Note: Award one mark for each valid paired comparison referring to both organisation types, up to 2 marks."
     },
     {
       "id": "hw-nov-2",
@@ -8358,7 +8454,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award up to 2 marks for explained problems that link an inventory shortage to a business consequence.",
       "month": "November 2026",
-      "deadline": "30 November 2026"
+      "deadline": "30 November 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A shortage of raw materials can stop production, so products cannot be made for customers. (1 mark)\n• A shortage of finished goods can prevent the organisation from meeting unexpected orders, causing lost sales revenue. (1 mark)\n\nSQA Marking Note: Award up to 2 marks for explained problems that link an inventory shortage to a business consequence."
     },
     {
       "id": "hw-nov-3",
@@ -8375,7 +8472,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each explained benefit, up to 2 marks. Other valid benefits can receive credit.",
       "month": "November 2026",
-      "deadline": "30 November 2026"
+      "deadline": "30 November 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A recognisable brand helps customers identify the organisation's products, making promotion more effective and potentially increasing sales. (1 mark)\n• Branding can create customer loyalty, so customers are more likely to make repeat purchases. (1 mark)\n\nSQA Marking Note: Award one mark for each explained benefit, up to 2 marks. Other valid benefits can receive credit."
     },
     {
       "id": "hw-nov-4",
@@ -8392,7 +8490,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each explained purpose, up to 2 marks.",
       "month": "November 2026",
-      "deadline": "30 November 2026"
+      "deadline": "30 November 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A cash budget provides spending targets, allowing the business to plan and control its spending. (1 mark)\n• It identifies periods of cash shortage, allowing the business to arrange finance before the shortfall occurs. (1 mark)\n\nSQA Marking Note: Award one mark for each explained purpose, up to 2 marks."
     },
     {
       "id": "hw-nov-5",
@@ -8410,7 +8509,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described selection method, up to 3 marks. Other suitable selection methods can receive credit.",
       "month": "November 2026",
-      "deadline": "30 November 2026"
+      "deadline": "30 November 2026",
+      "solution": "SQA Model Answer (up to 3 marks):\n• An application form is a standard document produced by Vegware which applicants complete to apply for a job. (1 mark)\n• A CV is a document created by an applicant which summarises their education, skills and work experience. (1 mark)\n• An interview is a face-to-face meeting where Vegware asks an applicant questions about their suitability. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described selection method, up to 3 marks. Other suitable selection methods can receive credit."
     },
     {
       "id": "hw-dec-1",
@@ -8427,7 +8527,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid stakeholder influence described, up to 2 marks.",
       "month": "December 2026",
-      "deadline": "22 December 2026"
+      "deadline": "22 December 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Managers influence the company through decisions about how its staff and resources are used. (1 mark)\n• Employees influence the standard of products and services through the quality of their work. (1 mark)\n\nSQA Marking Note: Award one mark for each valid stakeholder influence described, up to 2 marks."
     },
     {
       "id": "hw-dec-2",
@@ -8444,7 +8545,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award 1 mark for a valid advantage and 1 mark for a valid disadvantage of batch production.",
       "month": "December 2026",
-      "deadline": "22 December 2026"
+      "deadline": "22 December 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Large batches can bring economies of scale, reducing the cost per unit. (1 mark)\n• Equipment needs to be cleaned between batches, which interrupts production. (1 mark)\n\nSQA Marking Note: Award 1 mark for a valid advantage and 1 mark for a valid disadvantage of batch production."
     },
     {
       "id": "hw-dec-3",
@@ -8462,7 +8564,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Indicative text-only checklist: 1 mark for a correctly described curve, 1 for both axes, and 1 for at least three correctly labelled stages. A teacher must check the actual drawn diagram; typing its features does not verify the drawing.",
       "month": "December 2026",
-      "deadline": "22 December 2026"
+      "deadline": "22 December 2026",
+      "solution": "SQA Model Answer (up to 3 marks):\n• An appropriate sales curve shows low sales at introduction, a steep rise during growth, levelling at maturity and falling in decline. (1 mark)\n• Both axes are labelled: Sales on the vertical axis and Time on the horizontal axis. (1 mark)\n• At least three stages are labelled correctly: introduction, growth, maturity and decline. (1 mark)\n\nSQA Marking Note: Indicative text-only checklist: 1 mark for a correctly described curve, 1 for both axes, and 1 for at least three correctly labelled stages. A teacher must check the actual drawn diagram; typing its features does not verify the drawing."
     },
     {
       "id": "hw-dec-4",
@@ -8472,7 +8575,7 @@ window.N5_HUB_DATA = {
       "year": 2018,
       "ref": "Q7(c)",
       "slide": 167,
-      "text": "Define the following financial terms from an Income Statement: \u2022 Expenses \u2022 Profit for the Year \u2022 Gross Profit.",
+      "text": "Define the following financial terms from an Income Statement: • Expenses • Profit for the Year • Gross Profit.",
       "acceptedPoints": [
         "Expenses are the costs or overheads incurred by a business, such as rent.",
         "Profit for the year is gross profit minus expenses.",
@@ -8480,7 +8583,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correct definition, up to 3 marks.",
       "month": "December 2026",
-      "deadline": "22 December 2026"
+      "deadline": "22 December 2026",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Expenses are the costs or overheads incurred by a business, such as rent. (1 mark)\n• Profit for the year is gross profit minus expenses. (1 mark)\n• Gross profit is sales revenue minus cost of sales. (1 mark)\n\nSQA Marking Note: Award one mark for each correct definition, up to 3 marks."
     },
     {
       "id": "hw-dec-5",
@@ -8497,7 +8601,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each reason linked to a benefit for the organisation, up to 2 marks.",
       "month": "December 2026",
-      "deadline": "22 December 2026"
+      "deadline": "22 December 2026",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Training increases employees' productivity, allowing the organisation to meet customer demand more easily. (1 mark)\n• Training improves employees' competence, which can lead to a higher quality of work. (1 mark)\n\nSQA Marking Note: Award one mark for each reason linked to a benefit for the organisation, up to 2 marks."
     },
     {
       "id": "hw-jan-1",
@@ -8514,7 +8619,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award 1 mark for a valid advantage and 1 mark for a valid disadvantage.",
       "month": "January 2027",
-      "deadline": "31 January 2027"
+      "deadline": "31 January 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Shareholders have limited liability, so their personal possessions are protected if the company cannot pay its debts. (1 mark)\n• Profits have to be shared between shareholders, so each receives only a share of the profit. (1 mark)\n\nSQA Marking Note: Award 1 mark for a valid advantage and 1 mark for a valid disadvantage."
     },
     {
       "id": "hw-jan-2",
@@ -8532,7 +8638,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described quality method, up to 3 marks.",
       "month": "January 2027",
-      "deadline": "31 January 2027"
+      "deadline": "31 January 2027",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Quality control checks finished products at the end of production to identify items which do not meet the required standard. (1 mark)\n• Quality assurance checks products at each stage of production so errors can be identified early. (1 mark)\n• Quality inputs include well-trained employees who have the skills needed to make the product correctly. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described quality method, up to 3 marks."
     },
     {
       "id": "hw-jan-3",
@@ -8549,7 +8656,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described pricing strategy, up to 2 marks. Other valid pricing strategies can receive credit.",
       "month": "January 2027",
-      "deadline": "31 January 2027"
+      "deadline": "31 January 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Premium pricing sets the price above competitors' prices to suggest a high-quality product. (1 mark)\n• Competitive pricing sets the price in line with competitors' prices. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described pricing strategy, up to 2 marks. Other valid pricing strategies can receive credit."
     },
     {
       "id": "hw-jan-4",
@@ -8559,15 +8667,16 @@ window.N5_HUB_DATA = {
       "year": 2018,
       "ref": "Q7(a)",
       "slide": 165,
-      "text": "An organisation has provided the following financial information. Using the table below, calculate the missing information for (i), (ii) and (iii). Units 0: fixed costs \u00a31,000, variable costs \u00a30, total costs \u00a31,000. Units 100: fixed costs (i), variable costs \u00a32,000, total costs \u00a33,000. Units 200: fixed costs \u00a31,000, variable costs \u00a34,000, total costs (ii). Units 300: fixed costs \u00a31,000, variable costs (iii), total costs \u00a37,000.",
+      "text": "An organisation has provided the following financial information. Using the table below, calculate the missing information for (i), (ii) and (iii). Units 0: fixed costs £1,000, variable costs £0, total costs £1,000. Units 100: fixed costs (i), variable costs £2,000, total costs £3,000. Units 200: fixed costs £1,000, variable costs £4,000, total costs (ii). Units 300: fixed costs £1,000, variable costs (iii), total costs £7,000.",
       "acceptedPoints": [
-        "(i) Fixed costs = \u00a33,000 - \u00a32,000 = \u00a31,000.",
-        "(ii) Total costs = \u00a31,000 + \u00a34,000 = \u00a35,000.",
-        "(iii) Variable costs = \u00a37,000 - \u00a31,000 = \u00a36,000."
+        "(i) Fixed costs = £3,000 - £2,000 = £1,000.",
+        "(ii) Total costs = £1,000 + £4,000 = £5,000.",
+        "(iii) Variable costs = £7,000 - £1,000 = £6,000."
       ],
       "markingRule": "Award one mark for each correct missing figure, up to 3 marks.",
       "month": "January 2027",
-      "deadline": "31 January 2027"
+      "deadline": "31 January 2027",
+      "solution": "SQA Model Answer (up to 3 marks):\n• (i) Fixed costs = £3,000 - £2,000 = £1,000. (1 mark)\n• (ii) Total costs = £1,000 + £4,000 = £5,000. (1 mark)\n• (iii) Variable costs = £7,000 - £1,000 = £6,000. (1 mark)\n\nSQA Marking Note: Award one mark for each correct missing figure, up to 3 marks."
     },
     {
       "id": "hw-jan-5",
@@ -8584,7 +8693,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid working practice identified, up to 2 marks. Other valid working practices can receive credit.",
       "month": "January 2027",
-      "deadline": "31 January 2027"
+      "deadline": "31 January 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Flexi-time. (1 mark)\n• Part-time working. (1 mark)\n\nSQA Marking Note: Award one mark for each valid working practice identified, up to 2 marks. Other valid working practices can receive credit."
     },
     {
       "id": "hw-feb-1",
@@ -8601,7 +8711,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each external factor linked to an appropriate business effect, up to 2 marks. Other valid external factors can receive credit.",
       "month": "February 2027",
-      "deadline": "28 February 2027"
+      "deadline": "28 February 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A political change such as an increase in the National Living Wage raises the organisation's wage costs, increasing its expenses. (1 mark)\n• An economic change such as an increase in interest rates makes borrowing more expensive for the organisation. (1 mark)\n\nSQA Marking Note: Award one mark for each external factor linked to an appropriate business effect, up to 2 marks. Other valid external factors can receive credit."
     },
     {
       "id": "hw-feb-2",
@@ -8618,7 +8729,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid benefit described, up to 2 marks.",
       "month": "February 2027",
-      "deadline": "28 February 2027"
+      "deadline": "28 February 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Recycling materials reduces the organisation's waste and the amount sent to landfill. (1 mark)\n• Environmentally friendly production can protect wildlife and natural habitats. (1 mark)\n\nSQA Marking Note: Award one mark for each valid benefit described, up to 2 marks."
     },
     {
       "id": "hw-feb-3",
@@ -8635,7 +8747,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each different sales promotion described, up to 2 marks. Other valid sales promotions can receive credit.",
       "month": "February 2027",
-      "deadline": "28 February 2027"
+      "deadline": "28 February 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Coupons are vouchers or digital codes which give customers money off a purchase. (1 mark)\n• Loyalty cards let customers collect points or rewards based on how much they spend. (1 mark)\n\nSQA Marking Note: Award one mark for each different sales promotion described, up to 2 marks. Other valid sales promotions can receive credit."
     },
     {
       "id": "hw-feb-4",
@@ -8645,14 +8758,15 @@ window.N5_HUB_DATA = {
       "year": 2024,
       "ref": "Q3(c)",
       "slide": 186,
-      "text": "From the information below, calculate: \u2022 gross profit \u2022 profit for the year. Sales revenue \u00a310,000; Cost of sales \u00a32,000; Expenses \u00a31,000.",
+      "text": "From the information below, calculate: • gross profit • profit for the year. Sales revenue £10,000; Cost of sales £2,000; Expenses £1,000.",
       "acceptedPoints": [
-        "Gross profit = \u00a310,000 - \u00a32,000 = \u00a38,000.",
-        "Profit for the year = \u00a38,000 - \u00a31,000 = \u00a37,000."
+        "Gross profit = £10,000 - £2,000 = £8,000.",
+        "Profit for the year = £8,000 - £1,000 = £7,000."
       ],
       "markingRule": "Award one mark for each correct calculated figure, up to 2 marks.",
       "month": "February 2027",
-      "deadline": "28 February 2027"
+      "deadline": "28 February 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Gross profit = £10,000 - £2,000 = £8,000. (1 mark)\n• Profit for the year = £8,000 - £1,000 = £7,000. (1 mark)\n\nSQA Marking Note: Award one mark for each correct calculated figure, up to 2 marks."
     },
     {
       "id": "hw-feb-5",
@@ -8669,7 +8783,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award 1 mark for a valid positive effect and 1 mark for a valid negative effect.",
       "month": "February 2027",
-      "deadline": "28 February 2027"
+      "deadline": "28 February 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Piece rate pay rewards employees for each item produced, which can encourage higher productivity. (1 mark)\n• Employees may rush their work to make more items, which can reduce the quality of the output. (1 mark)\n\nSQA Marking Note: Award 1 mark for a valid positive effect and 1 mark for a valid negative effect."
     },
     {
       "id": "hw-mar-1",
@@ -8686,7 +8801,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described internal factor, up to 2 marks. Other valid internal factors can receive credit.",
       "month": "March 2027",
-      "deadline": "31 March 2027"
+      "deadline": "31 March 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Finance is the amount of money available to an organisation for its activities. (1 mark)\n• Human resources are the employees and managers who work for the organisation. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described internal factor, up to 2 marks. Other valid internal factors can receive credit."
     },
     {
       "id": "hw-mar-2",
@@ -8703,7 +8819,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid feature described, up to 2 marks.",
       "month": "March 2027",
-      "deadline": "31 March 2027"
+      "deadline": "31 March 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Flow production makes large quantities of identical, standardised products. (1 mark)\n• Products move continuously through a sequence of stages on a production or assembly line. (1 mark)\n\nSQA Marking Note: Award one mark for each valid feature described, up to 2 marks."
     },
     {
       "id": "hw-mar-3",
@@ -8720,7 +8837,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid method outlined, up to 2 marks. Other suitable methods can receive credit.",
       "month": "March 2027",
-      "deadline": "31 March 2027"
+      "deadline": "31 March 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Recruit suitable staff who can deal with customers effectively. (1 mark)\n• Train staff so they know about the products and can answer customer queries. (1 mark)\n\nSQA Marking Note: Award one mark for each valid method outlined, up to 2 marks. Other suitable methods can receive credit."
     },
     {
       "id": "hw-mar-4",
@@ -8737,7 +8855,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each distinct use described, up to 2 marks.",
       "month": "March 2027",
-      "deadline": "31 March 2027"
+      "deadline": "31 March 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Spreadsheet software can use formulas to calculate and update a financial statement, such as a cash budget. (1 mark)\n• Online banking can be used to make electronic payments to suppliers. (1 mark)\n\nSQA Marking Note: Award one mark for each distinct use described, up to 2 marks."
     },
     {
       "id": "hw-mar-5",
@@ -8747,14 +8866,15 @@ window.N5_HUB_DATA = {
       "year": 2024,
       "ref": "Q5(b)",
       "slide": 228,
-      "text": "Outline 1 feature of each of the following pieces of legislation: \u2022 Equality Act \u2022 Health and Safety at Work Act.",
+      "text": "Outline 1 feature of each of the following pieces of legislation: • Equality Act • Health and Safety at Work Act.",
       "acceptedPoints": [
         "The Equality Act protects people from discrimination and victimisation.",
         "The Health and Safety at Work Act requires a safe working environment."
       ],
       "markingRule": "Award one mark for a correct feature of each Act, up to 2 marks.",
       "month": "March 2027",
-      "deadline": "31 March 2027"
+      "deadline": "31 March 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• The Equality Act protects people from discrimination and victimisation. (1 mark)\n• The Health and Safety at Work Act requires a safe working environment. (1 mark)\n\nSQA Marking Note: Award one mark for a correct feature of each Act, up to 2 marks."
     },
     {
       "id": "hw-apr-1",
@@ -8771,7 +8891,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each valid factor of production outlined, up to 2 marks. Capital and enterprise are also valid when correctly outlined.",
       "month": "April 2027",
-      "deadline": "30 April 2027"
+      "deadline": "30 April 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Land means the natural resources used by an organisation. (1 mark)\n• Labour means the human effort provided by employees. (1 mark)\n\nSQA Marking Note: Award one mark for each valid factor of production outlined, up to 2 marks. Capital and enterprise are also valid when correctly outlined."
     },
     {
       "id": "hw-apr-2",
@@ -8789,7 +8910,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each explanation that uses case-study facts and links a location factor to its effect, up to 2 marks. Other valid case-linked factors can receive credit.",
       "month": "April 2027",
-      "deadline": "30 April 2027"
+      "deadline": "30 April 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Sarah should consider larger premises because the current shop is small and she needs space for a make-up artist and beauty therapist. (1 mark)\n• Sarah should consider lower rent because her current rent is high, so a cheaper location could reduce business costs. (1 mark)\n\nSQA Marking Note: Award one mark for each explanation that uses case-study facts and links a location factor to its effect, up to 2 marks. Other valid case-linked factors can receive credit."
     },
     {
       "id": "hw-apr-3",
@@ -8806,7 +8928,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described element other than place, up to 2 marks. Price is also valid when correctly described.",
       "month": "April 2027",
-      "deadline": "30 April 2027"
+      "deadline": "30 April 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Product is the good or service the business provides to its customers. (1 mark)\n• Promotion is the methods used to increase awareness of the business and its products. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described element other than place, up to 2 marks. Price is also valid when correctly described."
     },
     {
       "id": "hw-apr-4",
@@ -8818,14 +8941,15 @@ window.N5_HUB_DATA = {
       "slide": 198,
       "text": "Draw and label a break-even chart.",
       "acceptedPoints": [
-        "Both axes are correctly labelled: Revenue and costs (\u00a3), and Units.",
+        "Both axes are correctly labelled: Revenue and costs (£), and Units.",
         "The horizontal fixed costs line is correctly drawn and labelled.",
         "The upward-sloping total costs line starts at the fixed costs level and is labelled.",
         "The total revenue line starts at the origin and is correctly labelled."
       ],
       "markingRule": "Indicative text-only checklist: award up to 4 marks for correctly described axes, fixed costs, total costs and total revenue lines. A teacher must check the actual diagram; the online typed response cannot verify whether it was drawn accurately.",
       "month": "April 2027",
-      "deadline": "30 April 2027"
+      "deadline": "30 April 2027",
+      "solution": "SQA Model Answer (up to 4 marks):\n• Both axes are correctly labelled: Revenue and costs (£), and Units. (1 mark)\n• The horizontal fixed costs line is correctly drawn and labelled. (1 mark)\n• The upward-sloping total costs line starts at the fixed costs level and is labelled. (1 mark)\n• The total revenue line starts at the origin and is correctly labelled. (1 mark)\n\nSQA Marking Note: Indicative text-only checklist: award up to 4 marks for correctly described axes, fixed costs, total costs and total revenue lines. A teacher must check the actual diagram; the online typed response cannot verify whether it was drawn accurately."
     },
     {
       "id": "hw-apr-5",
@@ -8842,7 +8966,8 @@ window.N5_HUB_DATA = {
       ],
       "markingRule": "Award one mark for each correctly described form of industrial action, up to 2 marks. Other valid forms can receive credit.",
       "month": "April 2027",
-      "deadline": "30 April 2027"
+      "deadline": "30 April 2027",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A strike is when employees refuse to work. (1 mark)\n• An overtime ban is when employees refuse to work more than their contracted hours. (1 mark)\n\nSQA Marking Note: Award one mark for each correctly described form of industrial action, up to 2 marks. Other valid forms can receive credit."
     }
   ],
   "homeworkMonths": [
@@ -8871,13 +8996,13 @@ window.N5_HUB_DATA = {
         "name"
       ],
       "videoId": "_j94oV8CwPQ",
-      "videoTitle": "Identify \u2014 N5 Business Management Command Words",
+      "videoTitle": "Identify — N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "State the required business fact, factor, term or item clearly and directly. You do NOT need a long explanation for an Identify question, but each point must be distinct.",
       "formula": "1 Distinct Point = 1 Mark (Keep it clear, specific, and avoid repeating the same point in different words)",
       "examplePrompt": "Identify two methods of primary (field) market research. (2 marks)",
-      "goodAnswer": "\u2022 Customer questionnaire / survey (1)\n\u2022 Focus group / consumer panel (1)",
-      "badAnswer": "\u2022 Asking customers questions and doing a survey (Only 1 mark \u2014 repeats the same method)"
+      "goodAnswer": "• Customer questionnaire / survey (1)\n• Focus group / consumer panel (1)",
+      "badAnswer": "• Asking customers questions and doing a survey (Only 1 mark — repeats the same method)"
     },
     "describe": {
       "command": "Describe",
@@ -8887,13 +9012,13 @@ window.N5_HUB_DATA = {
         "define"
       ],
       "videoId": "TezKy7BvKsg",
-      "videoTitle": "Describe \u2014 N5 Business Management Command Words",
+      "videoTitle": "Describe — N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "Give a clear, accurate sentence stating WHAT the feature, method or concept is and how it works in a business context. Do not just write a 1-word label!",
       "formula": "Name the point + Add a full descriptive detail of what happens = 1 Mark",
       "examplePrompt": "Describe two methods a business could use to maintain product quality. (2 marks)",
-      "goodAnswer": "\u2022 Quality control involves inspecting sample products at the end of the production line to check for faults. (1)\n\u2022 Quality assurance checks quality at every stage of the production process so zero defects reach the customer. (1)",
-      "badAnswer": "\u2022 Quality control and quality assurance. (0 marks \u2014 only listed names without describing what they involve)"
+      "goodAnswer": "• Quality control involves inspecting sample products at the end of the production line to check for faults. (1)\n• Quality assurance checks quality at every stage of the production process so zero defects reach the customer. (1)",
+      "badAnswer": "• Quality control and quality assurance. (0 marks — only listed names without describing what they involve)"
     },
     "explain": {
       "command": "Explain",
@@ -8901,13 +9026,13 @@ window.N5_HUB_DATA = {
         "explain"
       ],
       "videoId": "yRwnAnw2MgY",
-      "videoTitle": "Explain \u2014 N5 Business Management Command Words",
+      "videoTitle": "Explain — N5 Business Management Command Words",
       "videoChannel": "Mrs Martin Business Education",
       "rule": "State a relevant point AND link it to a clear business consequence or impact using a connector phrase like 'which means that', 'leading to', 'so that', 'therefore', or 'as a result'.",
       "formula": "Point / Cause + Connector ('which means that / leading to / therefore') + Business Impact = 1 Mark",
       "examplePrompt": "Explain two benefits to a business of training its employees. (2 marks)",
-      "goodAnswer": "\u2022 Staff learn how to carry out tasks more efficiently, which means that productivity increases and more output is produced. (1)\n\u2022 Employees feel valued and supported by the business, leading to higher motivation and lower staff turnover. (1)",
-      "badAnswer": "\u2022 Staff are better at their job and feel happier. (0 marks \u2014 too vague; must explain the specific consequence for the business)"
+      "goodAnswer": "• Staff learn how to carry out tasks more efficiently, which means that productivity increases and more output is produced. (1)\n• Employees feel valued and supported by the business, leading to higher motivation and lower staff turnover. (1)",
+      "badAnswer": "• Staff are better at their job and feel happier. (0 marks — too vague; must explain the specific consequence for the business)"
     },
     "compare": {
       "command": "Compare / Distinguish",
@@ -8916,13 +9041,13 @@ window.N5_HUB_DATA = {
         "distinguish"
       ],
       "videoId": "tVeaB55gpzs",
-      "videoTitle": "Compare & Distinguish \u2014 N5 Business Management Command Words",
+      "videoTitle": "Compare & Distinguish — N5 Business Management Command Words",
       "videoChannel": "SQA N5 Business Exam Technique",
       "rule": "Show a direct similarity or difference between BOTH items in the same point using comparative connectors ('whereas', 'on the other hand', 'compared to', or 'both').",
       "formula": "Item A feature + 'whereas / both' + Item B feature on the SAME characteristic = 1 Mark",
       "examplePrompt": "Compare a sole trader and a private limited company (Ltd). (2 marks)",
-      "goodAnswer": "\u2022 A sole trader has unlimited liability, whereas a private limited company has limited liability. (1)\n\u2022 Both a sole trader and a private limited company operate in the private sector and aim to make a profit. (1)",
-      "badAnswer": "\u2022 A sole trader is owned by one person. A private limited company has shareholders. (Often loses marks if not written as a direct comparison on the same feature using 'whereas')"
+      "goodAnswer": "• A sole trader has unlimited liability, whereas a private limited company has limited liability. (1)\n• Both a sole trader and a private limited company operate in the private sector and aim to make a profit. (1)",
+      "badAnswer": "• A sole trader is owned by one person. A private limited company has shareholders. (Often loses marks if not written as a direct comparison on the same feature using 'whereas')"
     },
     "justify": {
       "command": "Justify / Discuss",
@@ -8931,13 +9056,13 @@ window.N5_HUB_DATA = {
         "discuss"
       ],
       "videoId": "FOUsyz5lrsA",
-      "videoTitle": "Discuss & Justify \u2014 N5 Business Management Command Words",
+      "videoTitle": "Discuss & Justify — N5 Business Management Command Words",
       "videoChannel": "Dunoon Grammar Business Education",
       "rule": "For Justify: give a positive reason why the chosen option is suitable (or why an alternative is rejected) with its impact. For Discuss: give developed advantages AND/OR disadvantages with business impacts.",
       "formula": "Reason / Advantage or Disadvantage + Business Impact ('because / which means that') = 1 Mark",
       "examplePrompt": "Justify the use of batch production for a bakery. (2 marks)",
-      "goodAnswer": "\u2022 Different types of bread and cakes can be baked using the same ovens, which allows the bakery to satisfy a wider range of customer tastes. (1)\n\u2022 Batches can be adjusted in size depending on seasonal demand, which reduces wasted ingredients. (1)",
-      "badAnswer": "\u2022 Batch production makes batches of bread. (0 marks \u2014 repeats the question instead of giving a reason why it is suitable)"
+      "goodAnswer": "• Different types of bread and cakes can be baked using the same ovens, which allows the bakery to satisfy a wider range of customer tastes. (1)\n• Batches can be adjusted in size depending on seasonal demand, which reduces wasted ingredients. (1)",
+      "badAnswer": "• Batch production makes batches of bread. (0 marks — repeats the question instead of giving a reason why it is suitable)"
     },
     "multicommand": {
       "command": "Multi-Command (Identify & Justify / Explain)",
@@ -8949,13 +9074,13 @@ window.N5_HUB_DATA = {
         "define + describe"
       ],
       "videoId": "RIpkIWk8VTY",
-      "videoTitle": "Answering Multi-Part & Case Study Questions \u2014 N5 Business Management",
+      "videoTitle": "Answering Multi-Part & Case Study Questions — N5 Business Management",
       "videoChannel": "FVWL RIC N5 Business",
       "rule": "Break the question into clearly labelled parts! First complete the first command word (e.g. Identify: ...), then complete the second command word (e.g. Justify: ...). Never leave the first part implied.",
       "formula": "Part 1 (Identify/Describe) = 1st Mark(s) + Part 2 (Explain/Justify with impact) = Remaining Mark(s)",
       "examplePrompt": "Identify one suitable pricing strategy for a luxury smartwatch and justify your choice. (2 marks)",
-      "goodAnswer": "\u2022 Identify: Price skimming (or high/premium pricing). (1)\n\u2022 Justify: Because the smartwatch has innovative features, early adopters will pay a high price at launch, which helps the business recover its research and development costs quickly. (1)",
-      "badAnswer": "\u2022 Charge a high price to make more profit. (Only 1 mark at best \u2014 must clearly name the strategy and justify why it suits the product)"
+      "goodAnswer": "• Identify: Price skimming (or high/premium pricing). (1)\n• Justify: Because the smartwatch has innovative features, early adopters will pay a high price at launch, which helps the business recover its research and development costs quickly. (1)",
+      "badAnswer": "• Charge a high price to make more profit. (Only 1 mark at best — must clearly name the strategy and justify why it suits the product)"
     }
   },
   "initialDb": {
@@ -9667,7 +9792,7 @@ window.N5_HUB_DATA = {
           "enterprise is the idea or entrepreneur bringing the other factors together"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
         "createdAt": "29/10/2026, 09:36:35"
       },
       {
@@ -9693,7 +9818,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "29/10/2026, 09:30:36"
       },
       {
@@ -9746,7 +9871,7 @@ window.N5_HUB_DATA = {
           "shares cannot be offered to the public"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
         "createdAt": "29/10/2026, 09:20:51"
       },
       {
@@ -9796,7 +9921,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "29/10/2026, 09:11:37"
       },
       {
@@ -9820,7 +9945,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "29/10/2026, 09:11:32"
       },
       {
@@ -9840,10 +9965,10 @@ window.N5_HUB_DATA = {
         "percentage": 50,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation"
+          "finance — the money available to the organisation"
         ],
         "improvements": [
-          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources — employees and managers"
         ],
         "feedback": "Scored 1/2 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
         "createdAt": "29/10/2026, 09:09:03"
@@ -9898,7 +10023,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:30:12"
       },
       {
@@ -9947,7 +10072,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:20:07"
       },
       {
@@ -9961,7 +10086,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "discuss",
         "level": "A",
         "mode": "practice",
-        "answer": "one advantage of a private limited company is limited liability this means that the shareholders personal belongings aren\u2019t at risk only their investment is\n\none disadvantage of a private limited company is that they are difficult to setup with legality this means that they are more difficult to setup than a sole trader or partnership\n\nAnother advantage of a private limited company is that they are easier to raise capital for than a sole trader or partnership because banks see them as less of a risk\n\nAnother disadvantage of a private limited company is disagreements between shareholders this is when shareholders disagree about a business decision which could lead to them falling out or the business collapsing",
+        "answer": "one advantage of a private limited company is limited liability this means that the shareholders personal belongings aren’t at risk only their investment is\n\none disadvantage of a private limited company is that they are difficult to setup with legality this means that they are more difficult to setup than a sole trader or partnership\n\nAnother advantage of a private limited company is that they are easier to raise capital for than a sole trader or partnership because banks see them as less of a risk\n\nAnother disadvantage of a private limited company is disagreements between shareholders this is when shareholders disagree about a business decision which could lead to them falling out or the business collapsing",
         "marks": 4,
         "marksAvailable": 4,
         "percentage": 100,
@@ -9973,7 +10098,7 @@ window.N5_HUB_DATA = {
           "shares cannot be offered to the public"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
         "createdAt": "08/11/2026, 11:40:13"
       },
       {
@@ -9987,7 +10112,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "explain",
         "level": "B",
         "mode": "practice",
-        "answer": "one external factor is technological this is when new innovations are made in technology this means that the business needs to upgrade their current technology to stay competitive \n\nAnother external factor is economic this could be when interest rates fall this means that the business doesn\u2019t need to pay as much interest on top of loans took out when the interest rate is low meaning the business will have more money\n\nA third external factor is political this could be if the government decided to raise minimum wage this means that the business would need to pay employees more increasing the wage bill and redcuing profit",
+        "answer": "one external factor is technological this is when new innovations are made in technology this means that the business needs to upgrade their current technology to stay competitive \n\nAnother external factor is economic this could be when interest rates fall this means that the business doesn’t need to pay as much interest on top of loans took out when the interest rate is low meaning the business will have more money\n\nA third external factor is political this could be if the government decided to raise minimum wage this means that the business would need to pay employees more increasing the wage bill and redcuing profit",
         "marks": 3,
         "marksAvailable": 3,
         "percentage": 100,
@@ -9998,7 +10123,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "08/11/2026, 11:30:08"
       },
       {
@@ -10022,7 +10147,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/11/2026, 11:06:01"
       },
       {
@@ -10046,7 +10171,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/11/2026, 11:04:21"
       },
       {
@@ -10070,7 +10195,7 @@ window.N5_HUB_DATA = {
           "meet government service targets"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
         "createdAt": "08/11/2026, 10:59:56"
       },
       {
@@ -10093,7 +10218,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "08/11/2026, 10:56:01"
       },
       {
@@ -10117,7 +10242,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/11/2026, 10:51:48"
       },
       {
@@ -10137,11 +10262,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/11/2026, 10:46:19"
       },
       {
@@ -10161,11 +10286,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/11/2026, 10:46:13"
       },
       {
@@ -10244,7 +10369,7 @@ window.N5_HUB_DATA = {
           "sea can carry large volumes and may be cheaper for bulk transport"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Place & distribution and applies the 'IDENTIFY + JUSTIFY' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Place & distribution and applies the 'IDENTIFY + JUSTIFY' command word accurately.",
         "createdAt": "07/10/2026, 08:35:44"
       },
       {
@@ -10296,7 +10421,7 @@ window.N5_HUB_DATA = {
           "brand loyalty can lead to repeat purchases"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "07/10/2026, 08:24:55"
       },
       {
@@ -10321,7 +10446,7 @@ window.N5_HUB_DATA = {
           "brand loyalty can lead to repeat purchases"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "07/10/2026, 08:24:45"
       },
       {
@@ -10348,7 +10473,7 @@ window.N5_HUB_DATA = {
           "outdoor, billboard or transport advertising can reach local audiences but may be damaged or malfunction"
         ],
         "improvements": [],
-        "feedback": "Full marks (5/5 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (5/5 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DISCUSS' command word accurately.",
         "createdAt": "07/10/2026, 08:20:56"
       },
       {
@@ -10401,7 +10526,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 08:41:32"
       },
       {
@@ -10425,7 +10550,7 @@ window.N5_HUB_DATA = {
           "printed methods can be kept, use visuals and target local or specialist audiences"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
         "createdAt": "07/10/2026, 08:37:27"
       },
       {
@@ -10450,7 +10575,7 @@ window.N5_HUB_DATA = {
           "carry out market research"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
         "createdAt": "07/10/2026, 08:33:31"
       },
       {
@@ -10476,7 +10601,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 08:26:01"
       },
       {
@@ -10502,7 +10627,7 @@ window.N5_HUB_DATA = {
           "more ideas can be generated"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
         "createdAt": "08/10/2026, 09:31:31"
       },
       {
@@ -10547,11 +10672,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:20:50"
       },
       {
@@ -10575,7 +10700,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:18:31"
       },
       {
@@ -10599,7 +10724,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:15:46"
       },
       {
@@ -10623,7 +10748,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "07/10/2026, 13:55:48"
       },
       {
@@ -10643,11 +10768,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:53:05"
       },
       {
@@ -10671,7 +10796,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:46:45"
       },
       {
@@ -10695,7 +10820,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:37:03"
       },
       {
@@ -10719,7 +10844,7 @@ window.N5_HUB_DATA = {
           "competitive prices can keep unit costs down"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "18/11/2026, 20:06:05"
       },
       {
@@ -10745,7 +10870,7 @@ window.N5_HUB_DATA = {
           "stock may need storing between batches"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Production methods and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Production methods and applies the 'DISCUSS' command word accurately.",
         "createdAt": "18/11/2026, 20:01:39"
       },
       {
@@ -10771,7 +10896,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "18/11/2026, 19:56:09"
       },
       {
@@ -10785,7 +10910,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "compare",
         "level": "B",
         "mode": "practice",
-        "answer": "Desk research means finding out information that already exists whereas field research is going out and finding out new first hand information. \n\nDesk research is usually quicker to find as the information already exists whereas field research can take a long amount of time as the information does not already exist. \n\nDesk research can sometimes not be that reliable as it already exists so therefore might be out of date or doesn\u2019t meet the business\u2019s needs whereas field research is reliable as it is new information constructed by the business to meet their specific needs. ",
+        "answer": "Desk research means finding out information that already exists whereas field research is going out and finding out new first hand information. \n\nDesk research is usually quicker to find as the information already exists whereas field research can take a long amount of time as the information does not already exist. \n\nDesk research can sometimes not be that reliable as it already exists so therefore might be out of date or doesn’t meet the business’s needs whereas field research is reliable as it is new information constructed by the business to meet their specific needs. ",
         "marks": 3,
         "marksAvailable": 3,
         "percentage": 100,
@@ -10796,7 +10921,7 @@ window.N5_HUB_DATA = {
           "desk can be quicker whereas field can take longer"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
         "createdAt": "18/11/2026, 19:50:29"
       },
       {
@@ -10820,7 +10945,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "18/11/2026, 19:45:56"
       },
       {
@@ -10840,11 +10965,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "18/11/2026, 19:44:39"
       },
       {
@@ -10869,7 +10994,7 @@ window.N5_HUB_DATA = {
           "job production often uses highly skilled labour whereas batch production can use more specialised machinery"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Production methods and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Production methods and applies the 'COMPARE' command word accurately.",
         "createdAt": "15/11/2026, 12:34:38"
       },
       {
@@ -10883,7 +11008,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "One consequence of holding excess inventory is that it will result in higher storage costs, this means that the business won\u2019t have enough space for new stock. \n\nAnother consequence of holding excess inventory is that there is higher risk of stock being stolen, this means that if there is stock not being used and just piled there, workers might be inclined to steal it. \n\nA final consequence of holding excess inventory is that there is a higher risk of stock going out of date or out of fashion, this means that the business will struggle to sell it and will loose out on profits. ",
+        "answer": "One consequence of holding excess inventory is that it will result in higher storage costs, this means that the business won’t have enough space for new stock. \n\nAnother consequence of holding excess inventory is that there is higher risk of stock being stolen, this means that if there is stock not being used and just piled there, workers might be inclined to steal it. \n\nA final consequence of holding excess inventory is that there is a higher risk of stock going out of date or out of fashion, this means that the business will struggle to sell it and will loose out on profits. ",
         "marks": 3,
         "marksAvailable": 3,
         "percentage": 100,
@@ -10894,7 +11019,7 @@ window.N5_HUB_DATA = {
           "perishable goods may deteriorate"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Inventory management and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Inventory management and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "15/11/2026, 12:28:27"
       },
       {
@@ -10918,7 +11043,7 @@ window.N5_HUB_DATA = {
           "competitive prices can keep unit costs down"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "15/11/2026, 12:22:45"
       },
       {
@@ -10944,7 +11069,7 @@ window.N5_HUB_DATA = {
           "ability to provide the required quantity"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Suppliers and applies the 'OUTLINE' command word accurately.",
         "createdAt": "15/11/2026, 12:17:33"
       },
       {
@@ -10967,7 +11092,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "27/10/2026, 12:31:02"
       },
       {
@@ -10992,7 +11117,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "27/10/2026, 12:29:36"
       },
       {
@@ -11012,11 +11137,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "27/10/2026, 12:14:41"
       },
       {
@@ -11040,7 +11165,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "27/10/2026, 12:10:56"
       },
       {
@@ -11066,7 +11191,7 @@ window.N5_HUB_DATA = {
           "technological change can alter staffing, capital spending and competitiveness"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
         "createdAt": "24/10/2026, 20:24:47"
       },
       {
@@ -11113,11 +11238,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "20/10/2026, 11:26:22"
       },
       {
@@ -11141,7 +11266,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "20/10/2026, 11:21:26"
       },
       {
@@ -11165,7 +11290,7 @@ window.N5_HUB_DATA = {
           "meet government service targets"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
         "createdAt": "20/10/2026, 11:19:42"
       },
       {
@@ -11189,7 +11314,7 @@ window.N5_HUB_DATA = {
           "meet government service targets"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
         "createdAt": "20/10/2026, 11:19:13"
       },
       {
@@ -11212,7 +11337,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "20/10/2026, 11:09:24"
       },
       {
@@ -11238,7 +11363,7 @@ window.N5_HUB_DATA = {
           "enterprise is the idea or entrepreneur bringing the other factors together"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'OUTLINE' command word accurately.",
         "createdAt": "15/10/2026, 20:22:37"
       },
       {
@@ -11283,11 +11408,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "15/10/2026, 20:14:11"
       },
       {
@@ -11311,7 +11436,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "15/10/2026, 20:10:29"
       },
       {
@@ -11335,7 +11460,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "15/10/2026, 20:06:04"
       },
       {
@@ -11361,7 +11486,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:34:53"
       },
       {
@@ -11385,7 +11510,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/10/2026, 09:27:32"
       },
       {
@@ -11409,7 +11534,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:23:20"
       },
       {
@@ -11461,7 +11586,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "08/10/2026, 09:32:25"
       },
       {
@@ -11481,11 +11606,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:28:01"
       },
       {
@@ -11509,7 +11634,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:25:05"
       },
       {
@@ -11533,7 +11658,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:24:57"
       },
       {
@@ -11637,7 +11762,7 @@ window.N5_HUB_DATA = {
           "researchers can assess body language"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'DISCUSS' command word accurately.",
         "createdAt": "07/10/2026, 13:52:47"
       },
       {
@@ -11662,7 +11787,7 @@ window.N5_HUB_DATA = {
           "brand loyalty can lead to repeat purchases"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "07/10/2026, 13:44:35"
       },
       {
@@ -11713,7 +11838,7 @@ window.N5_HUB_DATA = {
           "desk research can be found quickly whereas field research can take time to collect"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
         "createdAt": "07/10/2026, 13:38:56"
       },
       {
@@ -11737,7 +11862,7 @@ window.N5_HUB_DATA = {
           "a postal survey is a list of questions sent to respondents to complete"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:36:51"
       },
       {
@@ -11761,7 +11886,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:34:40"
       },
       {
@@ -11781,11 +11906,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": true,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "28/10/2026, 14:49:49"
       },
       {
@@ -11810,7 +11935,7 @@ window.N5_HUB_DATA = {
           "identify a target market"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "28/10/2026, 14:30:24"
       },
       {
@@ -11836,7 +11961,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:46:14"
       },
       {
@@ -11862,7 +11987,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:46:11"
       },
       {
@@ -11888,7 +12013,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:46:06"
       },
       {
@@ -11914,7 +12039,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:45:55"
       },
       {
@@ -11963,7 +12088,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:34:45"
       },
       {
@@ -11987,7 +12112,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:34:41"
       },
       {
@@ -12011,7 +12136,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:34:37"
       },
       {
@@ -12037,7 +12162,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:36:03"
       },
       {
@@ -12061,7 +12186,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/10/2026, 09:31:44"
       },
       {
@@ -12109,7 +12234,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:24:20"
       },
       {
@@ -12135,7 +12260,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "15/10/2026, 11:53:21"
       },
       {
@@ -12185,7 +12310,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "15/10/2026, 11:46:47"
       },
       {
@@ -12209,7 +12334,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "15/10/2026, 10:40:30"
       },
       {
@@ -12307,7 +12432,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "18/11/2026, 19:30:35"
       },
       {
@@ -12346,7 +12471,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "outline",
         "level": "B",
         "mode": "practice",
-        "answer": "market research- to research what customers needs and wants are for you to sell.\nproduct design- create a design or prototype.\ntest the product- check if the product works before going for sale.\nlaunch the product- when you put product to shelf\u2019s.\nevaluate- find out reviews of ur product if customers like or not ",
+        "answer": "market research- to research what customers needs and wants are for you to sell.\nproduct design- create a design or prototype.\ntest the product- check if the product works before going for sale.\nlaunch the product- when you put product to shelf’s.\nevaluate- find out reviews of ur product if customers like or not ",
         "marks": 3,
         "marksAvailable": 3,
         "percentage": 100,
@@ -12357,7 +12482,7 @@ window.N5_HUB_DATA = {
           "carry out market research"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
         "createdAt": "18/11/2026, 19:26:54"
       },
       {
@@ -12371,7 +12496,7 @@ window.N5_HUB_DATA = {
         "primaryCommand": "describe",
         "level": "B",
         "mode": "practice",
-        "answer": "BOGOF- buy one get one free, this means that if you buy the same item twice it\u2019s possible that you get one free if the offer is on.\ndiscounts- a discount consists in getting a percentage off your items for example 20% off you would get twenty percent of the price.\nfree samples- you would have employees walking about your store looking for people to try a free sample of whatever.\nlastly you could offer competitions to win stuff ",
+        "answer": "BOGOF- buy one get one free, this means that if you buy the same item twice it’s possible that you get one free if the offer is on.\ndiscounts- a discount consists in getting a percentage off your items for example 20% off you would get twenty percent of the price.\nfree samples- you would have employees walking about your store looking for people to try a free sample of whatever.\nlastly you could offer competitions to win stuff ",
         "marks": 4,
         "marksAvailable": 4,
         "percentage": 100,
@@ -12383,7 +12508,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "18/11/2026, 19:23:58"
       },
       {
@@ -12512,7 +12637,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:27:19"
       },
       {
@@ -12536,7 +12661,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/10/2026, 09:22:21"
       },
       {
@@ -12560,7 +12685,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/10/2026, 09:22:15"
       },
       {
@@ -12658,7 +12783,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "28/10/2026, 14:41:30"
       },
       {
@@ -12682,7 +12807,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "28/10/2026, 14:40:56"
       },
       {
@@ -12706,7 +12831,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "28/10/2026, 14:40:41"
       },
       {
@@ -12778,7 +12903,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 13:57:06"
       },
       {
@@ -12875,7 +13000,7 @@ window.N5_HUB_DATA = {
           "printed methods can be kept, use visuals and target local or specialist audiences"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'JUSTIFY' command word accurately.",
         "createdAt": "07/10/2026, 08:45:15"
       },
       {
@@ -12901,7 +13026,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 08:35:35"
       },
       {
@@ -12927,7 +13052,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "07/10/2026, 08:34:43"
       },
       {
@@ -12951,7 +13076,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "08/10/2026, 09:32:58"
       },
       {
@@ -12975,7 +13100,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:24:19"
       },
       {
@@ -12998,7 +13123,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "23/10/2026, 09:37:41"
       },
       {
@@ -13022,7 +13147,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "23/10/2026, 09:36:42"
       },
       {
@@ -13046,7 +13171,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "23/10/2026, 09:34:43"
       },
       {
@@ -13070,7 +13195,7 @@ window.N5_HUB_DATA = {
           "meet government service targets"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
         "createdAt": "23/10/2026, 09:34:06"
       },
       {
@@ -13093,7 +13218,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "23/10/2026, 09:32:26"
       },
       {
@@ -13117,7 +13242,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "23/10/2026, 09:31:11"
       },
       {
@@ -13141,7 +13266,7 @@ window.N5_HUB_DATA = {
           "meet government service targets"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'OUTLINE' command word accurately.",
         "createdAt": "23/10/2026, 09:29:17"
       },
       {
@@ -13189,7 +13314,7 @@ window.N5_HUB_DATA = {
           "a physical product consumed or used up relatively quickly, such as food or soap"
         ],
         "improvements": [],
-        "feedback": "Full marks (1/1 \u2014 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
+        "feedback": "Full marks (1/1 — 100%). Your answer covers the required SQA marking points for Role of business in society and applies the 'DEFINE' command word accurately.",
         "createdAt": "23/10/2026, 09:23:48"
       },
       {
@@ -13293,7 +13418,7 @@ window.N5_HUB_DATA = {
           "desk can be quicker whereas field can take longer"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
         "createdAt": "27/10/2026, 14:40:17"
       },
       {
@@ -13343,7 +13468,7 @@ window.N5_HUB_DATA = {
           "desk research can be found quickly whereas field research can take time to collect"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
         "createdAt": "02/11/2026, 18:45:57"
       },
       {
@@ -13471,7 +13596,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing sets a price in line with competitors and shifts competition to other aspects of the marketing mix"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Price and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "02/11/2026, 17:43:48"
       },
       {
@@ -13521,7 +13646,7 @@ window.N5_HUB_DATA = {
           "carry out market research"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Product & branding and applies the 'OUTLINE' command word accurately.",
         "createdAt": "02/11/2026, 17:29:31"
       },
       {
@@ -13573,7 +13698,7 @@ window.N5_HUB_DATA = {
           "desk can be quicker whereas field can take longer"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Market research and applies the 'COMPARE' command word accurately.",
         "createdAt": "02/11/2026, 16:50:56"
       },
       {
@@ -13624,7 +13749,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "27/10/2026, 17:10:29"
       },
       {
@@ -13694,11 +13819,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "27/10/2026, 16:50:42"
       },
       {
@@ -13723,7 +13848,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "27/10/2026, 16:47:40"
       },
       {
@@ -13767,11 +13892,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "27/10/2026, 16:31:42"
       },
       {
@@ -13824,7 +13949,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:25:53"
       },
       {
@@ -13850,7 +13975,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:24:39"
       },
       {
@@ -13922,11 +14047,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": true,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:24:26"
       },
       {
@@ -13947,8 +14072,8 @@ window.N5_HUB_DATA = {
         "hintUsed": true,
         "awardedPoints": [],
         "improvements": [
-          "Practise 'DESCRIBE' questions on Internal & external factors: include finance \u2014 the money available to the organisation",
-          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+          "Practise 'DESCRIBE' questions on Internal & external factors: include finance — the money available to the organisation",
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources — employees and managers"
         ],
         "feedback": "Scored 0/2. Review the lesson notes on Internal & external factors and make sure your response directly addresses the 'DESCRIBE' command word.",
         "createdAt": "08/10/2026, 09:23:39"
@@ -13974,7 +14099,7 @@ window.N5_HUB_DATA = {
           "provide a service to others"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:19:13"
       },
       {
@@ -13998,7 +14123,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:18:38"
       },
       {
@@ -14075,7 +14200,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:27:39"
       },
       {
@@ -14124,7 +14249,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:55:38"
       },
       {
@@ -14148,7 +14273,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "07/10/2026, 13:55:28"
       },
       {
@@ -14199,7 +14324,7 @@ window.N5_HUB_DATA = {
           "special offers that give extra product/value"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Promotion and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:34:10"
       },
       {
@@ -14223,7 +14348,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:26:36"
       },
       {
@@ -14249,7 +14374,7 @@ window.N5_HUB_DATA = {
           "technological change can alter staffing, capital spending and competitiveness"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY + EXPLAIN' command word accurately.",
         "createdAt": "08/10/2026, 09:35:34"
       },
       {
@@ -14274,7 +14399,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "08/10/2026, 09:32:14"
       },
       {
@@ -14294,11 +14419,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "08/10/2026, 09:27:54"
       },
       {
@@ -14322,7 +14447,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:25:08"
       },
       {
@@ -14346,7 +14471,7 @@ window.N5_HUB_DATA = {
           "economic boom"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:24:47"
       },
       {
@@ -14423,7 +14548,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "02/11/2026, 11:29:51"
       },
       {
@@ -14443,11 +14568,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "02/11/2026, 11:28:37"
       },
       {
@@ -14473,7 +14598,7 @@ window.N5_HUB_DATA = {
           "more ideas can be generated"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
         "createdAt": "29/10/2026, 09:39:55"
       },
       {
@@ -14526,7 +14651,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "29/10/2026, 09:29:03"
       },
       {
@@ -14579,7 +14704,7 @@ window.N5_HUB_DATA = {
           "shares cannot be offered to the public"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
+        "feedback": "Full marks (4/4 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'DISCUSS' command word accurately.",
         "createdAt": "29/10/2026, 09:23:11"
       },
       {
@@ -14599,11 +14724,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation",
-          "human resources \u2014 employees and managers"
+          "finance — the money available to the organisation",
+          "human resources — employees and managers"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'DESCRIBE' command word accurately.",
         "createdAt": "29/10/2026, 09:17:23"
       },
       {
@@ -14628,7 +14753,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "29/10/2026, 09:14:59"
       },
       {
@@ -14653,7 +14778,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
+        "feedback": "Full marks (3/3 — 100%). Your answer covers the required SQA marking points for Internal & external factors and applies the 'EXPLAIN' command word accurately.",
         "createdAt": "29/10/2026, 09:14:50"
       },
       {
@@ -14677,7 +14802,7 @@ window.N5_HUB_DATA = {
           "sole traders may aim to increase market share whereas charities may aim to raise awareness of a cause"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Business types & sectors and applies the 'COMPARE' command word accurately.",
         "createdAt": "29/10/2026, 09:10:52"
       },
       {
@@ -14697,10 +14822,10 @@ window.N5_HUB_DATA = {
         "percentage": 50,
         "hintUsed": false,
         "awardedPoints": [
-          "finance \u2014 the money available to the organisation"
+          "finance — the money available to the organisation"
         ],
         "improvements": [
-          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources \u2014 employees and managers"
+          "Practise 'DESCRIBE' questions on Internal & external factors: include human resources — employees and managers"
         ],
         "feedback": "Scored 1/2 (50%). Good knowledge of Internal & external factors shown; see the suggested improvements below to gain the remaining 1 mark(s).",
         "createdAt": "29/10/2026, 09:07:07"
@@ -14776,7 +14901,7 @@ window.N5_HUB_DATA = {
           "competitive or market pricing"
         ],
         "improvements": [],
-        "feedback": "Full marks (2/2 \u2014 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
+        "feedback": "Full marks (2/2 — 100%). Your answer covers the required SQA marking points for Price and applies the 'IDENTIFY' command word accurately.",
         "createdAt": "08/10/2026, 09:20:03"
       },
       {
@@ -14801,7 +14926,7 @@ window.N5_HUB_DATA = {
           "provide accurate product information"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Great use of the 'OUTLINE' command word.",
+        "feedback": "Full marks (3/3 — 100%). Great use of the 'OUTLINE' command word.",
         "createdAt": "17/11/2026, 20:41:10"
       },
       {
@@ -14826,7 +14951,7 @@ window.N5_HUB_DATA = {
           "social changes such as tastes and fashions can force product changes"
         ],
         "improvements": [],
-        "feedback": "Full marks (3/3 \u2014 100%). Great use of the 'EXPLAIN' command word.",
+        "feedback": "Full marks (3/3 — 100%). Great use of the 'EXPLAIN' command word.",
         "createdAt": "17/11/2026, 20:43:22"
       },
       {
@@ -14879,7 +15004,7 @@ window.N5_HUB_DATA = {
           "private sector organisations commonly aim to make profit"
         ],
         "improvements": [],
-        "feedback": "Full marks (4/4 \u2014 100%). Great use of the 'DESCRIBE' command word.",
+        "feedback": "Full marks (4/4 — 100%). Great use of the 'DESCRIBE' command word.",
         "createdAt": "17/11/2026, 20:46:30"
       },
       {
@@ -15005,7 +15130,7 @@ window.N5_HUB_DATA = {
           "Replace the interview with a recruitment stage such as identifying the vacancy, analysing the job, preparing a job description or person specification, or advertising.",
           "Replace shortlisting with another recruitment stage, such as carrying out a job analysis or preparing a job description. Shortlisting and interviews are selection activities, not recruitment stages."
         ],
-        "feedback": "You correctly identified advertising the vacancy as a recruitment stage, earning 1 mark. Revise the recruitment and selection subtopic, especially the difference between attracting applicants (recruitment) and choosing between them (selection). Practise the command word \u201coutline\u201d: give three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the position. Avoid repeating selection activities such as shortlisting and interviewing.",
+        "feedback": "You correctly identified advertising the vacancy as a recruitment stage, earning 1 mark. Revise the recruitment and selection subtopic, especially the difference between attracting applicants (recruitment) and choosing between them (selection). Practise the command word “outline”: give three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the position. Avoid repeating selection activities such as shortlisting and interviewing.",
         "submittedAt": "25/10/2026, 11:43:46"
       },
       {
@@ -15026,9 +15151,9 @@ window.N5_HUB_DATA = {
           "Capital/equity: correctly describes an owner investing money in the business; this is a valid alternative source of finance."
         ],
         "improvements": [
-          "Revise sources of finance, including internal and external finance, and practise the command word \u201cdescribe\u201d: for each source, state what it is and explain a relevant feature. Your three descriptions are clear; keep adding precise details such as who provides the finance and whether it must be repaid."
+          "Revise sources of finance, including internal and external finance, and practise the command word “describe”: for each source, state what it is and explain a relevant feature. Your three descriptions are clear; keep adding precise details such as who provides the finance and whether it must be repaid."
         ],
-        "feedback": "3/3. You correctly described three different sources of finance: a bank loan, a government grant and owner\u2019s capital/equity. Your descriptions explain how each source works, and the grant and equity are valid alternatives to the examples in the model points. To strengthen exam technique, practise \u201cdescribe\u201d questions by giving a clear feature or explanation for each point.",
+        "feedback": "3/3. You correctly described three different sources of finance: a bank loan, a government grant and owner’s capital/equity. Your descriptions explain how each source works, and the grant and equity are valid alternatives to the examples in the model points. To strengthen exam technique, practise “describe” questions by giving a clear feature or explanation for each point.",
         "submittedAt": "25/10/2026, 11:39:50"
       },
       {
@@ -15048,7 +15173,7 @@ window.N5_HUB_DATA = {
           "Valid comparison: desk research is quicker to obtain, whereas field research takes longer to collect."
         ],
         "improvements": [],
-        "feedback": "2/2. You made two clear paired comparisons, covering the age/newness of information and the time taken. To keep building confidence, practise the command word \u201ccompare\u201d by making sure each point describes both sides of the comparison.",
+        "feedback": "2/2. You made two clear paired comparisons, covering the age/newness of information and the time taken. To keep building confidence, practise the command word “compare” by making sure each point describes both sides of the comparison.",
         "submittedAt": "25/10/2026, 11:32:02"
       },
       {
@@ -15068,7 +15193,7 @@ window.N5_HUB_DATA = {
           "Reliability of the supplier."
         ],
         "improvements": [],
-        "feedback": "2/2. You identified two valid supplier-choice factors: price and supplier reliability. To maintain this standard, practise the command word \u201coutline\u201d by naming each factor and briefly explaining what it means for the organisation.",
+        "feedback": "2/2. You identified two valid supplier-choice factors: price and supplier reliability. To maintain this standard, practise the command word “outline” by naming each factor and briefly explaining what it means for the organisation.",
         "submittedAt": "25/10/2026, 11:28:28"
       },
       {
@@ -15106,9 +15231,9 @@ window.N5_HUB_DATA = {
         "awardedPoints": [],
         "improvements": [
           "Name three actual recruitment stages, such as identifying a vacancy, carrying out a job analysis, preparing a job description or person specification, and advertising the vacancy.",
-          "Do not use \u201cinput, process, output\u201d: these describe a general process model, not stages of recruitment."
+          "Do not use “input, process, output”: these describe a general process model, not stages of recruitment."
         ],
-        "feedback": "You have listed three terms, but they do not describe recruitment stages, so no marks are awarded. Revise the recruitment subtopic in Human Resource Management, especially the steps taken to attract applicants. Practise the command word \u201coutline\u201d by giving three distinct stages and briefly stating what happens at each one\u2014for example, identify a vacancy, analyse the job, then prepare a job description.",
+        "feedback": "You have listed three terms, but they do not describe recruitment stages, so no marks are awarded. Revise the recruitment subtopic in Human Resource Management, especially the steps taken to attract applicants. Practise the command word “outline” by giving three distinct stages and briefly stating what happens at each one—for example, identify a vacancy, analyse the job, then prepare a job description.",
         "submittedAt": "29/10/2026, 20:33:03"
       },
       {
@@ -15126,10 +15251,10 @@ window.N5_HUB_DATA = {
         "awardedPoints": [
           "Grant: correctly described as money given to a business by local government.",
           "Bank loan: correctly described as money provided by a bank and repaid in instalments.",
-          "Owner\u2019s personal finance: correctly identified as the owner\u2019s personal savings."
+          "Owner’s personal finance: correctly identified as the owner’s personal savings."
         ],
         "improvements": [],
-        "feedback": "3/3. You described three valid sources of finance, and your explanations make clear what each source involves. To keep building on this, practise the exam command word \u201cdescribe\u201d by giving a clear detail about how each source provides money to the organisation.",
+        "feedback": "3/3. You described three valid sources of finance, and your explanations make clear what each source involves. To keep building on this, practise the exam command word “describe” by giving a clear detail about how each source provides money to the organisation.",
         "submittedAt": "29/10/2026, 20:32:15"
       },
       {
@@ -15150,7 +15275,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Complete the second factor with a distinct valid supplier-choice factor, such as the price charged or the quality of the products, and briefly explain why it matters."
         ],
-        "feedback": "You earn 1/2. Your point about how close the supplier is to the business is valid, and you explain why distance matters. For the remaining mark, revise the National 5 Business Management topic of choosing suppliers and practise the command word \u201coutline\u201d: give a second different factor and briefly describe its relevance, for example that the business may choose a supplier offering better prices or higher-quality products.",
+        "feedback": "You earn 1/2. Your point about how close the supplier is to the business is valid, and you explain why distance matters. For the remaining mark, revise the National 5 Business Management topic of choosing suppliers and practise the command word “outline”: give a second different factor and briefly describe its relevance, for example that the business may choose a supplier offering better prices or higher-quality products.",
         "submittedAt": "29/10/2026, 20:30:15"
       },
       {
@@ -15170,7 +15295,7 @@ window.N5_HUB_DATA = {
           "Field research is relevant to the business, while desk research may be irrelevant."
         ],
         "improvements": [],
-        "feedback": "You earned full marks. You made two clear comparisons, covering the type of information and its relevance to the business. To keep building your National 5 Marketing research knowledge, practise the command word \u201ccompare\u201d: make each point a paired statement that refers to both options.",
+        "feedback": "You earned full marks. You made two clear comparisons, covering the type of information and its relevance to the business. To keep building your National 5 Marketing research knowledge, practise the command word “compare”: make each point a paired statement that refers to both options.",
         "submittedAt": "29/10/2026, 20:30:10"
       },
       {
@@ -15190,7 +15315,7 @@ window.N5_HUB_DATA = {
           "Private sector: correctly identifies examples including sole traders and partnerships, which are privately owned."
         ],
         "improvements": [],
-        "feedback": "2/2. You accurately described both the public and private sectors and gave suitable examples. To keep building your National 5 Business Management knowledge, practise the command word \u201cdescribe\u201d: state a feature of each area and explain it briefly. Your ownership descriptions are the key distinction between these sectors.",
+        "feedback": "2/2. You accurately described both the public and private sectors and gave suitable examples. To keep building your National 5 Business Management knowledge, practise the command word “describe”: state a feature of each area and explain it briefly. Your ownership descriptions are the key distinction between these sectors.",
         "submittedAt": "29/10/2026, 20:26:30"
       },
       {
@@ -15207,11 +15332,11 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "awardedPoints": [
           "Interview: describes Vegware asking applicants questions to assess their skills and experience for the job.",
-          "Selection tests: describes tests assessing applicants\u2019 abilities and knowledge relevant to the role.",
+          "Selection tests: describes tests assessing applicants’ abilities and knowledge relevant to the role.",
           "Assessment centres: describes group activities and tasks to assess relevant skills such as communication, teamwork and problem-solving."
         ],
         "improvements": [],
-        "feedback": "Full marks. You clearly describe three suitable selection methods and explain what each helps Vegware assess. To strengthen exam technique further, practise the command word \u201cdescribe\u201d by giving a clear detail about how each method works and linking it to the job or the qualities being assessed.",
+        "feedback": "Full marks. You clearly describe three suitable selection methods and explain what each helps Vegware assess. To strengthen exam technique further, practise the command word “describe” by giving a clear detail about how each method works and linking it to the job or the qualities being assessed.",
         "submittedAt": "04/11/2026, 19:25:37"
       },
       {
@@ -15231,7 +15356,7 @@ window.N5_HUB_DATA = {
           "Explains that a cash budget helps plan future spending and ensure funds are available for bills and expenses."
         ],
         "improvements": [],
-        "feedback": "2/2. You explained two distinct purposes: identifying cash shortages in advance and planning spending so the business can meet expenses. To keep earning full marks on \u201cexplain\u201d questions, give each purpose and say how it helps the business, as you have done here.",
+        "feedback": "2/2. You explained two distinct purposes: identifying cash shortages in advance and planning spending so the business can meet expenses. To keep earning full marks on “explain” questions, give each purpose and say how it helps the business, as you have done here.",
         "submittedAt": "04/11/2026, 19:20:08"
       },
       {
@@ -15247,11 +15372,11 @@ window.N5_HUB_DATA = {
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
-          "Customer loyalty: the answer explains that customers may repeatedly purchase the organisation\u2019s products, increasing sales and profits.",
+          "Customer loyalty: the answer explains that customers may repeatedly purchase the organisation’s products, increasing sales and profits.",
           "Positive brand image: the answer explains that customers may be more likely to buy a product with a good image, increasing sales and profits."
         ],
         "improvements": [],
-        "feedback": "2/2. You explained two distinct benefits: branding can encourage repeat purchases through customer loyalty, and a positive image can persuade customers to buy. Your explanations link each benefit to increased sales. Keep practising the command word \u201cexplain\u201d by giving a clear reason or consequence for each point.",
+        "feedback": "2/2. You explained two distinct benefits: branding can encourage repeat purchases through customer loyalty, and a positive image can persuade customers to buy. Your explanations link each benefit to increased sales. Keep practising the command word “explain” by giving a clear reason or consequence for each point.",
         "submittedAt": "04/11/2026, 18:59:06"
       },
       {
@@ -15262,16 +15387,16 @@ window.N5_HUB_DATA = {
         "questionId": "hw-nov-2",
         "month": "November 2026",
         "topic": "Operations",
-        "answer": "One problem of understocking is that the business\u2019s wont be able to fulfill orders in time, this means that if a business receives a large order and they don\u2019t have enough stock they wont be able to fulfill that order therefore leading to a decrease in profits. \n\nAnother problem of understocking is that the business will be viewed as unreliable and its reputation will be damaged, this means that if a business has multiple orders that they cannot fulfill due to lack of stock the customers will be unhappy therefore leading to negative word of mouth.",
+        "answer": "One problem of understocking is that the business’s wont be able to fulfill orders in time, this means that if a business receives a large order and they don’t have enough stock they wont be able to fulfill that order therefore leading to a decrease in profits. \n\nAnother problem of understocking is that the business will be viewed as unreliable and its reputation will be damaged, this means that if a business has multiple orders that they cannot fulfill due to lack of stock the customers will be unhappy therefore leading to negative word of mouth.",
         "marks": 2,
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
           "Explains that insufficient stock can prevent the business from fulfilling a large order, reducing profits.",
-          "Explains that repeated inability to fulfil orders can damage the business\u2019s reputation and lead to negative word of mouth."
+          "Explains that repeated inability to fulfil orders can damage the business’s reputation and lead to negative word of mouth."
         ],
         "improvements": [],
-        "feedback": "2/2. You clearly explain two different consequences and link each shortage of stock to a business impact: lost profit and damage to reputation. To keep earning full marks on \u201cexplain\u201d questions, make this cause-and-effect link explicit, as you have done here.",
+        "feedback": "2/2. You clearly explain two different consequences and link each shortage of stock to a business impact: lost profit and damage to reputation. To keep earning full marks on “explain” questions, make this cause-and-effect link explicit, as you have done here.",
         "submittedAt": "04/11/2026, 18:53:12"
       },
       {
@@ -15415,7 +15540,7 @@ window.N5_HUB_DATA = {
           "Staff who feel valued may work harder, benefiting the organisation."
         ],
         "improvements": [],
-        "feedback": "2/2. You gave two distinct reasons and linked both to benefits for the organisation: greater productivity and staff feeling valued, which may encourage them to work harder. Good use of justification\u2014keep explaining how each reason helps the organisation.",
+        "feedback": "2/2. You gave two distinct reasons and linked both to benefits for the organisation: greater productivity and staff feeling valued, which may encourage them to work harder. Good use of justification—keep explaining how each reason helps the organisation.",
         "submittedAt": "26/10/2026, 17:57:46"
       },
       {
@@ -15437,7 +15562,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "For Gross Profit, give the calculation: sales revenue minus cost of sales. Saying it is profit before expenses are taken away does not identify how gross profit is calculated."
         ],
-        "feedback": "You earned 2/3. Your definitions of expenses and Profit for the Year are accurate. Revise the Income Statement subtopic of gross profit, then practise the command word \u201cdefine\u201d: give the precise meaning or calculation (Gross Profit = sales revenue \u2212 cost of sales) rather than only describing what is deducted afterwards.",
+        "feedback": "You earned 2/3. Your definitions of expenses and Profit for the Year are accurate. Revise the Income Statement subtopic of gross profit, then practise the command word “define”: give the precise meaning or calculation (Gross Profit = sales revenue − cost of sales) rather than only describing what is deducted afterwards.",
         "submittedAt": "26/10/2026, 17:55:45"
       },
       {
@@ -15460,7 +15585,7 @@ window.N5_HUB_DATA = {
           "Add and label both axes: Sales on the vertical axis and Time on the horizontal axis. This would earn the remaining mark.",
           "For a diagram question, make sure the drawn curve visibly starts low, rises steeply, levels off around maturity and falls in decline; the written descriptions alone cannot confirm the actual drawing."
         ],
-        "feedback": "You know the product life cycle stages and the sales pattern associated with them. Revise the product life cycle diagram in the marketing topic, especially its axes and curve shape. Practise the command word \u201cdraw and label\u201d: sketch the curve, label Sales and Time, and name at least three stages. Development can be shown before introduction, but it does not replace one of the four stages used for the stage-label mark.",
+        "feedback": "You know the product life cycle stages and the sales pattern associated with them. Revise the product life cycle diagram in the marketing topic, especially its axes and curve shape. Practise the command word “draw and label”: sketch the curve, label Sales and Time, and name at least three stages. Development can be shown before introduction, but it does not replace one of the four stages used for the stage-label mark.",
         "submittedAt": "26/10/2026, 17:53:11"
       },
       {
@@ -15497,10 +15622,10 @@ window.N5_HUB_DATA = {
         "percentage": 0,
         "awardedPoints": [],
         "improvements": [
-          "Revise stakeholder influences in private limited companies. Name two stakeholders and describe what each can affect\u2014for example, managers influence how staff and resources are used, while employees influence product or service quality through their work.",
-          "Practise the command word \u201cdescribe\u201d: give a relevant detail about each stakeholder\u2019s influence. Shared financial risk does not describe the influence of two stakeholders."
+          "Revise stakeholder influences in private limited companies. Name two stakeholders and describe what each can affect—for example, managers influence how staff and resources are used, while employees influence product or service quality through their work.",
+          "Practise the command word “describe”: give a relevant detail about each stakeholder’s influence. Shared financial risk does not describe the influence of two stakeholders."
         ],
-        "feedback": "You have mentioned financial risk, but this does not describe how two stakeholders influence a private limited company. Revise stakeholder influences, then practise \u201cdescribe\u201d by naming two stakeholders and explaining one effect each can have on the company.",
+        "feedback": "You have mentioned financial risk, but this does not describe how two stakeholders influence a private limited company. Revise stakeholder influences, then practise “describe” by naming two stakeholders and explaining one effect each can have on the company.",
         "submittedAt": "26/10/2026, 17:25:57"
       },
       {
@@ -15520,7 +15645,7 @@ window.N5_HUB_DATA = {
           "Identifies when a cash surplus will occur and explains that the business can plan to use the extra cash, for example to expand."
         ],
         "improvements": [],
-        "feedback": "2/2. You clearly explained two useful purposes: forecasting cash shortages so the business can prepare, and identifying surplus cash so it can plan how to use it. For future \u201cexplain\u201d questions, keep linking each purpose to why it helps the business, as you have done here.",
+        "feedback": "2/2. You clearly explained two useful purposes: forecasting cash shortages so the business can prepare, and identifying surplus cash so it can plan how to use it. For future “explain” questions, keep linking each purpose to why it helps the business, as you have done here.",
         "submittedAt": "26/10/2026, 17:07:29"
       },
       {
@@ -15537,10 +15662,10 @@ window.N5_HUB_DATA = {
         "percentage": 100,
         "awardedPoints": [
           "Explained that a well-known brand helps customers recognise the product and can encourage them to buy it.",
-          "Explained that a good-quality brand can build customers\u2019 confidence in the organisation\u2019s other products, encouraging further purchases."
+          "Explained that a good-quality brand can build customers’ confidence in the organisation’s other products, encouraging further purchases."
         ],
         "improvements": [],
-        "feedback": "2/2. You explained two distinct benefits: recognition can help sales, and a positive reputation for quality can encourage customers to try other products. To keep building your National 5 Marketing knowledge, revise how branding supports product recognition and brand reputation. Practise the exam command word \u201cexplain\u201d by linking each benefit to why it helps the organisation.",
+        "feedback": "2/2. You explained two distinct benefits: recognition can help sales, and a positive reputation for quality can encourage customers to try other products. To keep building your National 5 Marketing knowledge, revise how branding supports product recognition and brand reputation. Practise the exam command word “explain” by linking each benefit to why it helps the organisation.",
         "submittedAt": "26/10/2026, 17:05:07"
       },
       {
@@ -15561,7 +15686,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Give a second distinct consequence of understocking rather than repeating the loss of customers to competitors. For example, a shortage of raw materials could stop production, meaning products cannot be made for customers."
         ],
-        "feedback": "You clearly explained one valid problem: customers may go to competitors when the product is unavailable, costing the business sales. For the second mark, revise the National 5 Business Management topic of inventory management and practise the command word \u201cexplain\u201d: give a different problem and link it to its business consequence, such as a raw-material shortage stopping production.",
+        "feedback": "You clearly explained one valid problem: customers may go to competitors when the product is unavailable, costing the business sales. For the second mark, revise the National 5 Business Management topic of inventory management and practise the command word “explain”: give a different problem and link it to its business consequence, such as a raw-material shortage stopping production.",
         "submittedAt": "26/10/2026, 16:59:11"
       },
       {
@@ -15582,7 +15707,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "For a second mark, add another distinct paired comparison, such as a sole trader aiming to grow market share while a charity aims to support more people."
         ],
-        "feedback": "Good comparison: you clearly identify a profit objective for a sole trader and a charitable objective for a charity. To earn the second mark, practise the exam command word \u201ccompare\u201d by giving a second distinct point that refers to both types of organisation\u2014for example, comparing growth in market share with increasing the number of people supported.",
+        "feedback": "Good comparison: you clearly identify a profit objective for a sole trader and a charitable objective for a charity. To earn the second mark, practise the exam command word “compare” by giving a second distinct point that refers to both types of organisation—for example, comparing growth in market share with increasing the number of people supported.",
         "submittedAt": "26/10/2026, 16:55:54"
       },
       {
@@ -15659,7 +15784,7 @@ window.N5_HUB_DATA = {
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
-          "Price charged by the supplier, linked to the effect on the business\u2019s profits.",
+          "Price charged by the supplier, linked to the effect on the business’s profits.",
           "Supplier location, linked to delivery costs."
         ],
         "improvements": [],
@@ -15702,9 +15827,9 @@ window.N5_HUB_DATA = {
         "awardedPoints": [],
         "improvements": [
           "Name and describe three distinct sources of finance. For example: a bank loan is borrowed from a bank and repaid with interest; a mortgage is a long-term loan to buy business property or land; retained profit is previous profit kept in the business and reinvested.",
-          "Practise the command word \u201cdescribe\u201d: give a relevant detail about each source, rather than explaining what the business might spend money on. Revise the National 5 Business Management topic of sources of finance."
+          "Practise the command word “describe”: give a relevant detail about each source, rather than explaining what the business might spend money on. Revise the National 5 Business Management topic of sources of finance."
         ],
-        "feedback": "You explain why a business might want money (to promote the business and attract customers), but you do not identify or describe any sources of finance, so no marks can be awarded. To improve, practise \u201cdescribe\u201d questions by naming each source and adding a detail about how it works. For example, a bank loan is borrowed from a bank and repaid with interest. You needed three different sources for the full 3 marks.",
+        "feedback": "You explain why a business might want money (to promote the business and attract customers), but you do not identify or describe any sources of finance, so no marks can be awarded. To improve, practise “describe” questions by naming each source and adding a detail about how it works. For example, a bank loan is borrowed from a bank and repaid with interest. You needed three different sources for the full 3 marks.",
         "submittedAt": "29/10/2026, 18:46:43"
       },
       {
@@ -15723,10 +15848,10 @@ window.N5_HUB_DATA = {
           "Application phase: a valid recruitment stage in which candidates submit applications."
         ],
         "improvements": [
-          "The description of the \u201crecruitment phase\u201d as comparing candidates\u2019 skills and experience describes selection, not a recruitment stage, so it does not earn a mark here.",
-          "A contract is issued after recruitment and selection, so it is not a recruitment stage for this question. Revise the recruitment process, especially identifying a vacancy, job analysis, writing a job description/person specification, and advertising the post. Practise the command word \u201coutline\u201d: state each stage and briefly explain what happens at it."
+          "The description of the “recruitment phase” as comparing candidates’ skills and experience describes selection, not a recruitment stage, so it does not earn a mark here.",
+          "A contract is issued after recruitment and selection, so it is not a recruitment stage for this question. Revise the recruitment process, especially identifying a vacancy, job analysis, writing a job description/person specification, and advertising the post. Practise the command word “outline”: state each stage and briefly explain what happens at it."
         ],
-        "feedback": "You earn 1/3 for identifying the application stage and explaining what applicants do. To gain the other marks, revise recruitment stages: for example, identify a vacancy, analyse the job, prepare a job description or person specification, and advertise the post. Comparing candidates\u2019 qualifications is selection, while issuing a contract comes later. Practise \u201coutline\u201d questions by giving three distinct stages, each with a brief description.",
+        "feedback": "You earn 1/3 for identifying the application stage and explaining what applicants do. To gain the other marks, revise recruitment stages: for example, identify a vacancy, analyse the job, prepare a job description or person specification, and advertise the post. Comparing candidates’ qualifications is selection, while issuing a contract comes later. Practise “outline” questions by giving three distinct stages, each with a brief description.",
         "submittedAt": "29/10/2026, 18:39:09"
       },
       {
@@ -15742,7 +15867,7 @@ window.N5_HUB_DATA = {
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
-          "Price charged by the supplier affects the business\u2019s production costs.",
+          "Price charged by the supplier affects the business’s production costs.",
           "Supplier location affects transport costs and therefore the choice of supplier."
         ],
         "improvements": [],
@@ -15767,7 +15892,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Add a second paired comparison, such as desk research is usually quicker because the information already exists, whereas field research takes time to collect. Saying desk research is expensive does not compare it with field research."
         ],
-        "feedback": "You earned 1 of 2 marks for distinguishing primary field research from secondary desk research. To earn the second mark, practise the command word \u201ccompare\u201d: make a clear paired point about both methods, for example comparing how long each takes. Revise the National 5 research methods topic, especially the differences between primary and secondary research.",
+        "feedback": "You earned 1 of 2 marks for distinguishing primary field research from secondary desk research. To earn the second mark, practise the command word “compare”: make a clear paired point about both methods, for example comparing how long each takes. Revise the National 5 research methods topic, especially the differences between primary and secondary research.",
         "submittedAt": "28/10/2026, 14:56:05"
       },
       {
@@ -15787,7 +15912,7 @@ window.N5_HUB_DATA = {
           "Public sector ownership correctly described as being by the government."
         ],
         "improvements": [],
-        "feedback": "2/2. You accurately described who owns both sectors. Your extra points about profit and taxation are relevant, but the key marks came from identifying ownership. To strengthen this topic further, practise the command word \u201cdescribe\u201d by giving a clear feature of each sector, such as ownership or source of funding.",
+        "feedback": "2/2. You accurately described who owns both sectors. Your extra points about profit and taxation are relevant, but the key marks came from identifying ownership. To strengthen this topic further, practise the command word “describe” by giving a clear feature of each sector, such as ownership or source of funding.",
         "submittedAt": "28/10/2026, 14:50:49"
       },
       {
@@ -15808,7 +15933,7 @@ window.N5_HUB_DATA = {
           "Share capital: correctly described as money raised by a limited company by selling shares to investors; this is a valid alternative source of finance."
         ],
         "improvements": [],
-        "feedback": "Full marks. You accurately described three sources of finance: a bank loan, retained profit and share capital. To maintain this standard, practise the command word \u201cdescribe\u201d by giving a clear detail about what each source is or how it is obtained.",
+        "feedback": "Full marks. You accurately described three sources of finance: a bank loan, retained profit and share capital. To maintain this standard, practise the command word “describe” by giving a clear detail about what each source is or how it is obtained.",
         "submittedAt": "28/10/2026, 13:58:52"
       },
       {
@@ -15828,7 +15953,7 @@ window.N5_HUB_DATA = {
           "Correctly compares desk research as quicker with field research as more time-consuming; the linked cost comparison is also valid."
         ],
         "improvements": [],
-        "feedback": "2/2. You made two clear paired comparisons: the type/source of information and the time and cost involved. Strong use of the command word \u201ccompare\u201d by referring to both methods in each point.",
+        "feedback": "2/2. You made two clear paired comparisons: the type/source of information and the time and cost involved. Strong use of the command word “compare” by referring to both methods in each point.",
         "submittedAt": "28/10/2026, 13:58:52"
       },
       {
@@ -15850,7 +15975,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Replace interviewing and selecting with another recruitment stage, such as carrying out a job analysis, writing a job description, or preparing a person specification."
         ],
-        "feedback": "You correctly outlined two recruitment stages: identifying a vacancy and advertising it. Interviewing and selecting are selection stages, not recruitment, so they do not earn a mark here. Revise the National 5 recruitment process and practise the command word \u201coutline\u201d: give three distinct stages, each with a brief description. For example, explain that a job analysis establishes the duties, or that a job description lists the tasks and responsibilities.",
+        "feedback": "You correctly outlined two recruitment stages: identifying a vacancy and advertising it. Interviewing and selecting are selection stages, not recruitment, so they do not earn a mark here. Revise the National 5 recruitment process and practise the command word “outline”: give three distinct stages, each with a brief description. For example, explain that a job analysis establishes the duties, or that a job description lists the tasks and responsibilities.",
         "submittedAt": "28/10/2026, 13:58:48"
       },
       {
@@ -15870,7 +15995,7 @@ window.N5_HUB_DATA = {
           "Reliability: delivering the correct goods on time helps the business maintain supplies."
         ],
         "improvements": [],
-        "feedback": "Full marks. You clearly outlined two distinct supplier-choice factors: price and reliability. To keep earning marks on \u201coutline\u201d questions, name each factor and briefly explain why it matters to the organisation.",
+        "feedback": "Full marks. You clearly outlined two distinct supplier-choice factors: price and reliability. To keep earning marks on “outline” questions, name each factor and briefly explain why it matters to the organisation.",
         "submittedAt": "28/10/2026, 13:52:06"
       },
       {
@@ -15906,11 +16031,11 @@ window.N5_HUB_DATA = {
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
-          "Compared a sole trader\u2019s aim to make a profit with a charity\u2019s aim to raise funds and promote awareness of its cause.",
-          "Compared a sole trader\u2019s aim to fill a gap in the market with a charity\u2019s aim to improve people\u2019s lives."
+          "Compared a sole trader’s aim to make a profit with a charity’s aim to raise funds and promote awareness of its cause.",
+          "Compared a sole trader’s aim to fill a gap in the market with a charity’s aim to improve people’s lives."
         ],
         "improvements": [],
-        "feedback": "Full marks. You gave two clear comparisons, and each referred to both types of organisation. Your charity objectives are valid alternatives to the model examples. To keep developing this Business objectives topic, practise the command word \u201ccompare\u201d: make each point a paired statement that clearly shows how the sole trader\u2019s objective differs from the charity\u2019s.",
+        "feedback": "Full marks. You gave two clear comparisons, and each referred to both types of organisation. Your charity objectives are valid alternatives to the model examples. To keep developing this Business objectives topic, practise the command word “compare”: make each point a paired statement that clearly shows how the sole trader’s objective differs from the charity’s.",
         "submittedAt": "11/11/2026, 17:55:29"
       },
       {
@@ -15931,9 +16056,9 @@ window.N5_HUB_DATA = {
         ],
         "improvements": [
           "Interviews and assessing candidates belong to the selection process, not recruitment, so this does not earn a recruitment-stage mark. Revise the recruitment versus selection distinction.",
-          "Practise the command word \u201coutline\u201d: give three brief, distinct recruitment stages. You could replace the interview point with identifying a vacancy, carrying out a job analysis, preparing a job description or person specification."
+          "Practise the command word “outline”: give three brief, distinct recruitment stages. You could replace the interview point with identifying a vacancy, carrying out a job analysis, preparing a job description or person specification."
         ],
-        "feedback": "You correctly identified advertising and receiving applications as recruitment stages, earning 2/3 marks. Revise recruitment and selection, especially where interviews fit. Practise \u201coutline\u201d questions by giving the required number of distinct, relevant stages; add a recruitment stage such as identifying the vacancy or preparing a job description to earn the final mark.",
+        "feedback": "You correctly identified advertising and receiving applications as recruitment stages, earning 2/3 marks. Revise recruitment and selection, especially where interviews fit. Practise “outline” questions by giving the required number of distinct, relevant stages; add a recruitment stage such as identifying the vacancy or preparing a job description to earn the final mark.",
         "submittedAt": "28/10/2026, 17:01:16"
       },
       {
@@ -15956,7 +16081,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "To strengthen your answer further, make the description of personal savings even more precise by stating that the owner invests their own funds in the business. You have already explained this correctly, so no mark is lost."
         ],
-        "feedback": "3/3. You correctly described three different sources of finance. Your bank-loan explanation includes repayment and interest, and your descriptions of grants and personal savings are also valid. For revision, review sources of finance and practise the command word \u201cdescribe\u201d: name each source and add a clear detail about how it works. No marks are missing here.",
+        "feedback": "3/3. You correctly described three different sources of finance. Your bank-loan explanation includes repayment and interest, and your descriptions of grants and personal savings are also valid. For revision, review sources of finance and practise the command word “describe”: name each source and add a clear detail about how it works. No marks are missing here.",
         "submittedAt": "28/10/2026, 16:55:21"
       },
       {
@@ -15976,7 +16101,7 @@ window.N5_HUB_DATA = {
           "Correctly compared speed and cost: field research is more time-consuming and expensive, while desk research is quicker and cheaper."
         ],
         "improvements": [],
-        "feedback": "Full marks. You made two clear paired comparisons, covering the type of information and the time/cost involved. For questions using the command word \u201ccompare,\u201d keep stating both sides of each difference, as you did here.",
+        "feedback": "Full marks. You made two clear paired comparisons, covering the type of information and the time/cost involved. For questions using the command word “compare,” keep stating both sides of each difference, as you did here.",
         "submittedAt": "28/10/2026, 16:47:28"
       },
       {
@@ -16016,7 +16141,7 @@ window.N5_HUB_DATA = {
           "Public sector: correctly states that organisations are owned and controlled by government."
         ],
         "improvements": [],
-        "feedback": "2/2. You accurately described both sectors and their ownership. Your added points about profit, taxation and public services are relevant. For further practice, revise ownership of organisations across the private and public sectors, and practise the command word \u201cdescribe\u201d by giving a clear identifying feature for each item.",
+        "feedback": "2/2. You accurately described both sectors and their ownership. Your added points about profit, taxation and public services are relevant. For further practice, revise ownership of organisations across the private and public sectors, and practise the command word “describe” by giving a clear identifying feature for each item.",
         "submittedAt": "28/10/2026, 16:40:22"
       },
       {
@@ -16034,9 +16159,9 @@ window.N5_HUB_DATA = {
         "awardedPoints": [],
         "improvements": [
           "Revise the recruitment process, especially the stages that happen before selection: identifying a vacancy, analysing the job, preparing a job description or person specification, and advertising it.",
-          "Practise the command word \u201coutline\u201d: give three distinct recruitment stages, each with a brief explanation. Interviews and tests are selection stages, not recruitment."
+          "Practise the command word “outline”: give three distinct recruitment stages, each with a brief explanation. Interviews and tests are selection stages, not recruitment."
         ],
-        "feedback": "No recruitment stages were given, so no marks could be awarded. To improve, revise the recruitment process and practise \u201coutline\u201d questions by naming three distinct stages and briefly describing each\u2014for example, identify a vacancy, carry out a job analysis, and prepare a job description. Remember that interviews and tests are part of selection, not recruitment.",
+        "feedback": "No recruitment stages were given, so no marks could be awarded. To improve, revise the recruitment process and practise “outline” questions by naming three distinct stages and briefly describing each—for example, identify a vacancy, carry out a job analysis, and prepare a job description. Remember that interviews and tests are part of selection, not recruitment.",
         "submittedAt": "28/10/2026, 20:23:19"
       },
       {
@@ -16059,7 +16184,7 @@ window.N5_HUB_DATA = {
           "Give a third distinct source of finance, such as retained profit (profit kept in the business and reinvested) or a mortgage (a long-term loan to buy business property or land).",
           "For greater precision, describe a grant as funding provided by the government, usually not requiring repayment, rather than as a loan."
         ],
-        "feedback": "You have described two valid sources of finance: a bank loan and a government grant. To earn the final mark, add and describe a third distinct source. Revise the National 5 Business Management topic of sources of finance and practise the command word \u201cdescribe\u201d: name each source and explain what it is or how it works.",
+        "feedback": "You have described two valid sources of finance: a bank loan and a government grant. To earn the final mark, add and describe a third distinct source. Revise the National 5 Business Management topic of sources of finance and practise the command word “describe”: name each source and explain what it is or how it works.",
         "submittedAt": "28/10/2026, 20:13:35"
       },
       {
@@ -16070,7 +16195,7 @@ window.N5_HUB_DATA = {
         "questionId": "hw-oct-3",
         "month": "October 2026",
         "topic": "Marketing",
-        "answer": "Desk research is unreliable as it may be outdated whereas field research is up-to-date and a reliable source of information\nField research is expensive to commission whereas desk research is free as it\u2019s your own research on the internet",
+        "answer": "Desk research is unreliable as it may be outdated whereas field research is up-to-date and a reliable source of information\nField research is expensive to commission whereas desk research is free as it’s your own research on the internet",
         "marks": 1,
         "marksAvailable": 2,
         "percentage": 50,
@@ -16079,9 +16204,9 @@ window.N5_HUB_DATA = {
         ],
         "improvements": [
           "For the second comparison, avoid claiming desk research is necessarily your own research or free; desk research uses existing secondary information. State a clear contrast such as: desk research uses information that already exists, whereas field research gathers new primary information.",
-          "Practise the command word \u201ccompare\u201d: make each point a paired contrast, referring to both methods in the same comparison. Revise the National 5 Business Management topic of market research, especially primary versus secondary research and the time/cost of collecting information."
+          "Practise the command word “compare”: make each point a paired contrast, referring to both methods in the same comparison. Revise the National 5 Business Management topic of market research, especially primary versus secondary research and the time/cost of collecting information."
         ],
-        "feedback": "You earned 1 of 2 marks for a paired cost comparison. Your other point contrasts reliability and whether information is up to date, but it is not a secure valid comparison as stated: field research is not automatically reliable or up to date. To gain the missing mark, practise \u201ccompare\u201d questions by giving a clear, accurate difference between both methods\u2014for example, desk research uses existing secondary information, while field research collects new primary information.",
+        "feedback": "You earned 1 of 2 marks for a paired cost comparison. Your other point contrasts reliability and whether information is up to date, but it is not a secure valid comparison as stated: field research is not automatically reliable or up to date. To gain the missing mark, practise “compare” questions by giving a clear, accurate difference between both methods—for example, desk research uses existing secondary information, while field research collects new primary information.",
         "submittedAt": "28/10/2026, 20:06:35"
       },
       {
@@ -16092,7 +16217,7 @@ window.N5_HUB_DATA = {
         "questionId": "hw-oct-2",
         "month": "October 2026",
         "topic": "Operations",
-        "answer": "Product quality influences an organisation\u2019s choice of supplier as if its products are low quality, people will not buy them meaning less sales and profit lost.\nPrice influences an organisations choice of supplier as businesses will want the cheapest price possible so they arent spending all their profit on products",
+        "answer": "Product quality influences an organisation’s choice of supplier as if its products are low quality, people will not buy them meaning less sales and profit lost.\nPrice influences an organisations choice of supplier as businesses will want the cheapest price possible so they arent spending all their profit on products",
         "marks": 2,
         "marksAvailable": 2,
         "percentage": 100,
@@ -16101,7 +16226,7 @@ window.N5_HUB_DATA = {
           "Price: explains that businesses seek a lower supplier price to avoid spending too much on products and preserve profit."
         ],
         "improvements": [],
-        "feedback": "2/2. You identified and explained two valid factors: product quality and price. Good application of each factor to sales and profit. For further practice, revise the supplier selection subtopic and practise the command word \u201coutline\u201d: state each factor and briefly explain how it affects the organisation.",
+        "feedback": "2/2. You identified and explained two valid factors: product quality and price. Good application of each factor to sales and profit. For further practice, revise the supplier selection subtopic and practise the command word “outline”: state each factor and briefly explain how it affects the organisation.",
         "submittedAt": "28/10/2026, 20:05:11"
       },
       {
@@ -16122,7 +16247,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "For the second mark, describe the public sector as organisations owned by central or local government. The third sector is not one of the two sectors specified in the model points for this question."
         ],
-        "feedback": "You gave a valid description of the private sector, so you earned 1 mark. Revise the National 5 Business Management topic of sectors of the economy, especially the difference between private and public sector ownership. Practise the command word \u201cdescribe\u201d: give a clear identifying feature for each of the two sectors asked for\u2014for example, state who owns public sector organisations. Your description of the third sector may be accurate, but it does not earn a mark for this question.",
+        "feedback": "You gave a valid description of the private sector, so you earned 1 mark. Revise the National 5 Business Management topic of sectors of the economy, especially the difference between private and public sector ownership. Practise the command word “describe”: give a clear identifying feature for each of the two sectors asked for—for example, state who owns public sector organisations. Your description of the third sector may be accurate, but it does not earn a mark for this question.",
         "submittedAt": "28/10/2026, 19:57:38"
       },
       {
@@ -16143,7 +16268,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "For the second comparison, compare objectives rather than how the organisations are staffed. For example, a sole trader may aim to grow market share, while a charity may aim to support more beneficiaries."
         ],
-        "feedback": "You earned 1 out of 2 marks. Your first point compares a sole trader\u2019s profit objective with a charity\u2019s purpose of supporting a cause. The point about working alone and volunteers describes staffing, not objectives, so it does not earn a mark. Revise the National 5 topic of business objectives in different sectors, and practise the command word \u201ccompare\u201d: make each point a clear paired comparison of both organisations\u2019 objectives.",
+        "feedback": "You earned 1 out of 2 marks. Your first point compares a sole trader’s profit objective with a charity’s purpose of supporting a cause. The point about working alone and volunteers describes staffing, not objectives, so it does not earn a mark. Revise the National 5 topic of business objectives in different sectors, and practise the command word “compare”: make each point a clear paired comparison of both organisations’ objectives.",
         "submittedAt": "14/11/2026, 14:53:24"
       },
       {
@@ -16159,12 +16284,12 @@ window.N5_HUB_DATA = {
         "marksAvailable": 3,
         "percentage": 100,
         "awardedPoints": [
-          "Job description \u2014 correctly identified as a recruitment stage and explained as outlining job details and tasks.",
-          "Person specification \u2014 correctly identified as a recruitment stage and explained as setting criteria candidates should meet.",
-          "Internal advertising \u2014 correctly identified as a valid recruitment stage; vacancies are advertised to existing employees."
+          "Job description — correctly identified as a recruitment stage and explained as outlining job details and tasks.",
+          "Person specification — correctly identified as a recruitment stage and explained as setting criteria candidates should meet.",
+          "Internal advertising — correctly identified as a valid recruitment stage; vacancies are advertised to existing employees."
         ],
         "improvements": [],
-        "feedback": "3/3. You identified three valid recruitment stages and explained each clearly. You could also revise the full recruitment sequence, including identifying a vacancy and carrying out job analysis. Practise the command word \u201coutline\u201d by naming each point and adding a brief description of what it involves.",
+        "feedback": "3/3. You identified three valid recruitment stages and explained each clearly. You could also revise the full recruitment sequence, including identifying a vacancy and carrying out job analysis. Practise the command word “outline” by naming each point and adding a brief description of what it involves.",
         "submittedAt": "14/11/2026, 14:51:24"
       },
       {
@@ -16188,7 +16313,7 @@ window.N5_HUB_DATA = {
           "For an even more precise description of a bank loan, state that interest is normally paid as well as repaying the amount borrowed.",
           "For hire purchase, explain that instalments are paid over time for an asset and that ownership usually transfers after the final payment."
         ],
-        "feedback": "3/3. You described three valid sources of finance, so you have met the command word \u201cDescribe\u201d by giving a feature of each. To strengthen your detail further, revise sources of finance\u2014especially the costs and repayment/ownership arrangements for bank loans and hire purchase. Practise \u201cDescribe\u201d questions by adding a clear feature or explanation for every source you name.",
+        "feedback": "3/3. You described three valid sources of finance, so you have met the command word “Describe” by giving a feature of each. To strengthen your detail further, revise sources of finance—especially the costs and repayment/ownership arrangements for bank loans and hire purchase. Practise “Describe” questions by adding a clear feature or explanation for every source you name.",
         "submittedAt": "14/11/2026, 14:36:00"
       },
       {
@@ -16208,7 +16333,7 @@ window.N5_HUB_DATA = {
           "Valid comparison: desk research uses secondary information, whereas field research gathers primary information."
         ],
         "improvements": [],
-        "feedback": "Full marks. You made two clear paired comparisons, covering the time involved and whether the information is secondary or primary. To keep building your National 5 research-methods skills, practise the command word \u201ccompare\u201d: state a relevant feature of both methods in each point.",
+        "feedback": "Full marks. You made two clear paired comparisons, covering the time involved and whether the information is secondary or primary. To keep building your National 5 research-methods skills, practise the command word “compare”: state a relevant feature of both methods in each point.",
         "submittedAt": "14/11/2026, 14:30:12"
       },
       {
@@ -16228,7 +16353,7 @@ window.N5_HUB_DATA = {
           "Price: the pupil explains that high input costs may force the organisation to raise its prices."
         ],
         "improvements": [],
-        "feedback": "2/2. You identified two valid supplier-choice factors and explained why each matters: location affects delivery time, and price affects the organisation\u2019s costs and selling prices. To maintain this standard, practise the command word \u201coutline\u201d by giving a relevant factor and briefly explaining it.",
+        "feedback": "2/2. You identified two valid supplier-choice factors and explained why each matters: location affects delivery time, and price affects the organisation’s costs and selling prices. To maintain this standard, practise the command word “outline” by giving a relevant factor and briefly explaining it.",
         "submittedAt": "14/11/2026, 14:28:34"
       },
       {
@@ -16248,7 +16373,7 @@ window.N5_HUB_DATA = {
           "Public sector: correctly describes it as government controlled and gives the NHS as an example."
         ],
         "improvements": [],
-        "feedback": "Full marks. You accurately described both sectors and gave relevant examples. To maintain this in an exam, practise the command word \u201cdescribe\u201d by stating a clear feature of each term, rather than only naming it.",
+        "feedback": "Full marks. You accurately described both sectors and gave relevant examples. To maintain this in an exam, practise the command word “describe” by stating a clear feature of each term, rather than only naming it.",
         "submittedAt": "14/11/2026, 14:24:23"
       },
       {
@@ -16264,11 +16389,11 @@ window.N5_HUB_DATA = {
         "marksAvailable": 2,
         "percentage": 100,
         "awardedPoints": [
-          "Cost of raw materials: a supplier\u2019s price is a valid factor in choosing a supplier.",
+          "Cost of raw materials: a supplier’s price is a valid factor in choosing a supplier.",
           "Delivery time: timely delivery is a valid supplier-choice factor, and the pupil explains that delays can cause products to go out of date."
         ],
         "improvements": [],
-        "feedback": "Full marks. You identified two distinct factors: cost and delivery time, and linked delivery time to the risk of products going out of date. Keep practising the command word \u201coutline\u201d: give each factor and add a brief relevant detail explaining it.",
+        "feedback": "Full marks. You identified two distinct factors: cost and delivery time, and linked delivery time to the risk of products going out of date. Keep practising the command word “outline”: give each factor and add a brief relevant detail explaining it.",
         "submittedAt": "26/10/2026, 20:13:09"
       },
       {
@@ -16289,7 +16414,7 @@ window.N5_HUB_DATA = {
           "Identifies an application form as a recruitment stage; this is a valid equivalent recruitment activity."
         ],
         "improvements": [],
-        "feedback": "3/3. You have outlined three valid recruitment stages: identifying a vacancy, carrying out job analysis and using an application form. Good distinction between recruitment and selection. To build on this, revise the recruitment process subtopic and practise the command word \u201coutline\u201d by naming each stage and briefly explaining what happens at it\u2014for example, creating a job description or person specification.",
+        "feedback": "3/3. You have outlined three valid recruitment stages: identifying a vacancy, carrying out job analysis and using an application form. Good distinction between recruitment and selection. To build on this, revise the recruitment process subtopic and practise the command word “outline” by naming each stage and briefly explaining what happens at it—for example, creating a job description or person specification.",
         "submittedAt": "26/10/2026, 20:07:04"
       },
       {
@@ -16313,7 +16438,7 @@ window.N5_HUB_DATA = {
           "To make descriptions more precise, explain a bank loan is borrowed from a bank and must be repaid, usually with interest.",
           "For a mortgage, add that it is a large loan used to buy business property or land."
         ],
-        "feedback": "3/3. You have identified three valid sources of finance and described each. To strengthen your National 5 finance knowledge, revise the features and uses of sources of finance, especially the repayment terms of loans and the purpose of mortgages. Practise the command word \u201cdescribe\u201d by adding a relevant detail about how each source works or what it is used for.",
+        "feedback": "3/3. You have identified three valid sources of finance and described each. To strengthen your National 5 finance knowledge, revise the features and uses of sources of finance, especially the repayment terms of loans and the purpose of mortgages. Practise the command word “describe” by adding a relevant detail about how each source works or what it is used for.",
         "submittedAt": "26/10/2026, 19:59:28"
       },
       {
@@ -16332,9 +16457,9 @@ window.N5_HUB_DATA = {
           "Correctly distinguishes desk research as using publicly available information from field research as using first-hand information (primary data)."
         ],
         "improvements": [
-          "Your second comparison says both methods gather the same amount of information and only differ in time, but it does not give a valid contrast in collection time. Revise the market research subtopic of desk and field research, then practise the command word \u201ccompare\u201d: give a paired difference for both methods, such as desk research being quicker because the information already exists, while field research takes time to collect."
+          "Your second comparison says both methods gather the same amount of information and only differ in time, but it does not give a valid contrast in collection time. Revise the market research subtopic of desk and field research, then practise the command word “compare”: give a paired difference for both methods, such as desk research being quicker because the information already exists, while field research takes time to collect."
         ],
-        "feedback": "You earned 1/2 marks for a valid comparison of the type of information used. To earn the second mark, make another clear paired comparison that refers to both methods\u2014for example, compare how long each takes to collect.",
+        "feedback": "You earned 1/2 marks for a valid comparison of the type of information used. To earn the second mark, make another clear paired comparison that refers to both methods—for example, compare how long each takes to collect.",
         "submittedAt": "26/10/2026, 19:54:56"
       },
       {
@@ -16354,7 +16479,7 @@ window.N5_HUB_DATA = {
           "Public sector organisations such as the NHS are managed and controlled by government."
         ],
         "improvements": [],
-        "feedback": "2/2. You correctly described both the private and public sectors, with suitable examples. To keep building confidence, practise the command word \u201cdescribe\u201d by giving a clear feature of each concept, as you have done here.",
+        "feedback": "2/2. You correctly described both the private and public sectors, with suitable examples. To keep building confidence, practise the command word “describe” by giving a clear feature of each concept, as you have done here.",
         "submittedAt": "26/10/2026, 19:34:15"
       },
       {
@@ -16375,7 +16500,7 @@ window.N5_HUB_DATA = {
           "Carries out a job analysis to identify the tasks and skills needed for the job."
         ],
         "improvements": [],
-        "feedback": "3/3. You correctly outlined three recruitment stages: identifying a vacancy, creating a job description and carrying out a job analysis. Your explanations show what the job description and analysis are for. Keep practising the command word \u201coutline\u201d by naming each stage and briefly explaining it; you did this successfully here.",
+        "feedback": "3/3. You correctly outlined three recruitment stages: identifying a vacancy, creating a job description and carrying out a job analysis. Your explanations show what the job description and analysis are for. Keep practising the command word “outline” by naming each stage and briefly explaining it; you did this successfully here.",
         "submittedAt": "28/10/2026, 08:15:48"
       },
       {
@@ -16399,7 +16524,7 @@ window.N5_HUB_DATA = {
           "To strengthen your description of a grant, explain that it is funding provided by an external organisation, often for a particular purpose or to meet conditions.",
           "For a loan from family or friends, add that it is borrowed money and clarify any agreed repayment terms."
         ],
-        "feedback": "3/3. You described three valid sources of finance: a bank loan, a grant and a loan from family or friends. You correctly explained the bank loan\u2019s repayment with interest and that a grant does not need to be repaid. For further practice, revise sources of finance and practise the command word \u201cdescribe\u201d: state what each source is and add a relevant detail about repayment, interest or conditions.",
+        "feedback": "3/3. You described three valid sources of finance: a bank loan, a grant and a loan from family or friends. You correctly explained the bank loan’s repayment with interest and that a grant does not need to be repaid. For further practice, revise sources of finance and practise the command word “describe”: state what each source is and add a relevant detail about repayment, interest or conditions.",
         "submittedAt": "28/10/2026, 08:12:21"
       },
       {
@@ -16416,10 +16541,10 @@ window.N5_HUB_DATA = {
         "percentage": 0,
         "awardedPoints": [],
         "improvements": [
-          "For each comparison, state a difference involving both types of research\u2014for example, desk research uses information that already exists, whereas field research collects new information.",
+          "For each comparison, state a difference involving both types of research—for example, desk research uses information that already exists, whereas field research collects new information.",
           "Your point that desk research saves time needs a matching point about field research (for example, field research takes longer to collect). Saying desk research may be out of date is not, by itself, a comparison with field research."
         ],
-        "feedback": "You have identified a possible advantage of desk research, but the question asks you to compare, so each mark needs a paired difference referring to both desk and field research. Revise the National 5 Business Management topic of market research, especially primary (field) and secondary (desk) research. Practise the command word \u201ccompare\u201d by writing two clear \u201cwhereas\u201d statements, each explaining how the two methods differ.",
+        "feedback": "You have identified a possible advantage of desk research, but the question asks you to compare, so each mark needs a paired difference referring to both desk and field research. Revise the National 5 Business Management topic of market research, especially primary (field) and secondary (desk) research. Practise the command word “compare” by writing two clear “whereas” statements, each explaining how the two methods differ.",
         "submittedAt": "28/10/2026, 07:42:28"
       },
       {
@@ -16439,7 +16564,7 @@ window.N5_HUB_DATA = {
           "Product quality: the pupil identifies how good or bad the supplies are, a valid supplier-choice factor."
         ],
         "improvements": [],
-        "feedback": "2/2. You correctly outlined two factors: price and the quality of supplies. To strengthen this type of answer, keep practising the command word \u201coutline\u201d by briefly explaining what each factor means for the organisation when choosing a supplier.",
+        "feedback": "2/2. You correctly outlined two factors: price and the quality of supplies. To strengthen this type of answer, keep practising the command word “outline” by briefly explaining what each factor means for the organisation when choosing a supplier.",
         "submittedAt": "28/10/2026, 07:42:21"
       },
       {
@@ -16477,9 +16602,9 @@ window.N5_HUB_DATA = {
         "percentage": 0,
         "awardedPoints": [],
         "improvements": [
-          "Revise the recruitment process: identify a vacancy, analyse the job, prepare a job description/person specification, and advertise the post. Practise the command word \u201coutline\u201d by naming each stage and adding a brief detail about it."
+          "Revise the recruitment process: identify a vacancy, analyse the job, prepare a job description/person specification, and advertise the post. Practise the command word “outline” by naming each stage and adding a brief detail about it."
         ],
-        "feedback": "You haven\u2019t given any recruitment stages, so no marks can be awarded. Revise the National 5 topic of recruitment, especially the difference between recruitment (attracting applicants) and selection (choosing between them). For an \u201coutline\u201d question, state three distinct stages and briefly explain each\u2014for example, identify the vacancy, analyse the job, and create a job description.",
+        "feedback": "You haven’t given any recruitment stages, so no marks can be awarded. Revise the National 5 topic of recruitment, especially the difference between recruitment (attracting applicants) and selection (choosing between them). For an “outline” question, state three distinct stages and briefly explain each—for example, identify the vacancy, analyse the job, and create a job description.",
         "submittedAt": "02/11/2026, 16:14:41"
       },
       {
@@ -16499,9 +16624,9 @@ window.N5_HUB_DATA = {
         ],
         "improvements": [
           "Describe two more valid sources of finance to reach the required three. For example, a mortgage is a long-term loan to buy business property or land, while retained profit is profit kept in the business and reinvested.",
-          "Revise the National 5 Business Management topic of sources of finance and practise the command word \u201cdescribe\u201d: give a relevant detail about what each source is or how it is used. For a bank loan, adding that interest is paid would make the description more complete, though the borrowing and repayment detail earns credit here."
+          "Revise the National 5 Business Management topic of sources of finance and practise the command word “describe”: give a relevant detail about what each source is or how it is used. For a bank loan, adding that interest is paid would make the description more complete, though the borrowing and repayment detail earns credit here."
         ],
-        "feedback": "You earn 1 mark for describing a bank loan: the organisation borrows from a bank and repays the money over time. You needed to describe two additional sources of finance. Revise sources of finance and practise \u201cdescribe\u201d by giving a clear detail about each source.",
+        "feedback": "You earn 1 mark for describing a bank loan: the organisation borrows from a bank and repays the money over time. You needed to describe two additional sources of finance. Revise sources of finance and practise “describe” by giving a clear detail about each source.",
         "submittedAt": "02/11/2026, 16:14:10"
       },
       {
@@ -16521,7 +16646,7 @@ window.N5_HUB_DATA = {
           "Valid paired comparison: desk research uses information that already exists, while field research gathers new information directly from customers."
         ],
         "improvements": [],
-        "feedback": "2/2. You gave two clear comparisons, covering time/cost and existing versus newly collected information. You can revise desk and field research, but no marks are missing here. Practise the command word \u201ccompare\u201d by stating both sides of each difference in a paired sentence.",
+        "feedback": "2/2. You gave two clear comparisons, covering time/cost and existing versus newly collected information. You can revise desk and field research, but no marks are missing here. Practise the command word “compare” by stating both sides of each difference in a paired sentence.",
         "submittedAt": "02/11/2026, 16:12:45"
       },
       {
@@ -16541,7 +16666,7 @@ window.N5_HUB_DATA = {
           "Cost/price of goods or services offered by the supplier."
         ],
         "improvements": [],
-        "feedback": "2/2. You identified two valid factors: product quality and supplier cost. Both are clearly linked to choosing a supplier. Keep practising the command word \u201coutline\u201d by giving two distinct, relevant factors; for full marks, each factor should be clear enough to identify.",
+        "feedback": "2/2. You identified two valid factors: product quality and supplier cost. Both are clearly linked to choosing a supplier. Keep practising the command word “outline” by giving two distinct, relevant factors; for full marks, each factor should be clear enough to identify.",
         "submittedAt": "02/11/2026, 16:10:17"
       },
       {
@@ -16563,7 +16688,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "To build on this answer, practise identifying the private and public sectors too: private organisations are owned by individuals, partners or shareholders, while public organisations are owned by central or local government."
         ],
-        "feedback": "2/2. You accurately described two sectors of the economy: primary and secondary. The question asks you to describe, so give a clear feature of each sector, as you did. Revise the economy\u2019s sectors and practise the command word \u201cdescribe\u201d so you can state a relevant feature for each one.",
+        "feedback": "2/2. You accurately described two sectors of the economy: primary and secondary. The question asks you to describe, so give a clear feature of each sector, as you did. Revise the economy’s sectors and practise the command word “describe” so you can state a relevant feature for each one.",
         "submittedAt": "02/11/2026, 16:08:41"
       },
       {
@@ -16583,7 +16708,7 @@ window.N5_HUB_DATA = {
           "Correctly compares desk research as relatively quick and inexpensive with field research as time-consuming and expensive."
         ],
         "improvements": [],
-        "feedback": "Full marks. You gave two clear paired comparisons: the type of information collected and the time/cost involved. To keep building confidence, practise the command word \u201ccompare\u201d by making sure each point explicitly describes both sides.",
+        "feedback": "Full marks. You gave two clear paired comparisons: the type of information collected and the time/cost involved. To keep building confidence, practise the command word “compare” by making sure each point explicitly describes both sides.",
         "submittedAt": "06/11/2026, 21:09:04"
       },
       {
@@ -16604,7 +16729,7 @@ window.N5_HUB_DATA = {
           "Overdraft: correctly described as an agreed facility to spend beyond the account balance up to a limit; the short-term cash-flow use is also explained."
         ],
         "improvements": [],
-        "feedback": "3/3. You described three different valid sources of finance, and your explanations show how each works. Your examples of a grant and an overdraft are valid alternatives to the booklet examples. To build on this, revise the sources of finance topic, including when each source is suitable, and practise the command word \u201cdescribe\u201d by stating a clear feature of each source (for example, whether it is repaid and what it can be used for). No marks are missing here.",
+        "feedback": "3/3. You described three different valid sources of finance, and your explanations show how each works. Your examples of a grant and an overdraft are valid alternatives to the booklet examples. To build on this, revise the sources of finance topic, including when each source is suitable, and practise the command word “describe” by stating a clear feature of each source (for example, whether it is repaid and what it can be used for). No marks are missing here.",
         "submittedAt": "06/11/2026, 21:09:02"
       },
       {
@@ -16624,7 +16749,7 @@ window.N5_HUB_DATA = {
           "Public sector: correctly described as owned and controlled by local councils/government."
         ],
         "improvements": [],
-        "feedback": "Full marks. You accurately described ownership in both the private and public sectors. Your extra details and examples are relevant; for this \u201cdescribe\u201d question, make sure you clearly state the defining feature of each sector, as you have done here.",
+        "feedback": "Full marks. You accurately described ownership in both the private and public sectors. Your extra details and examples are relevant; for this “describe” question, make sure you clearly state the defining feature of each sector, as you have done here.",
         "submittedAt": "06/11/2026, 21:09:01"
       },
       {
@@ -16644,7 +16769,7 @@ window.N5_HUB_DATA = {
           "Reliability: explains that a reliable supplier delivers goods on time, helping the business keep goods available and customers happy."
         ],
         "improvements": [],
-        "feedback": "Full marks. You outlined two valid factors: price and supplier reliability, and explained why each matters to the business. To keep earning marks on an \u201coutline\u201d question, name each factor and briefly explain its effect, as you have done here.",
+        "feedback": "Full marks. You outlined two valid factors: price and supplier reliability, and explained why each matters to the business. To keep earning marks on an “outline” question, name each factor and briefly explain its effect, as you have done here.",
         "submittedAt": "06/11/2026, 21:09:01"
       },
       {
@@ -16666,7 +16791,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Do not count interviewing and selecting the successful candidate as recruitment; these are selection stages. Add another recruitment stage, such as identifying a vacancy, carrying out a job analysis, preparing a job description or person specification, or advertising the post."
         ],
-        "feedback": "You have outlined two valid recruitment stages: advertising the vacancy and receiving applications. For the third mark, revise the recruitment process and the distinction between recruitment and selection: interviews and choosing the successful applicant are selection. Practise the command word \u201coutline\u201d by briefly stating three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the job.",
+        "feedback": "You have outlined two valid recruitment stages: advertising the vacancy and receiving applications. For the third mark, revise the recruitment process and the distinction between recruitment and selection: interviews and choosing the successful applicant are selection. Practise the command word “outline” by briefly stating three distinct recruitment stages, such as identifying a vacancy, preparing a job description or person specification, and advertising the job.",
         "submittedAt": "06/11/2026, 21:09:00"
       },
       {
@@ -16688,7 +16813,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "Replace interviewing with another recruitment stage, such as identifying a vacancy to fill, preparing a person specification, or creating a job description."
         ],
-        "feedback": "You correctly outlined job analysis and advertising, earning 2 marks. Interviewing is part of selection, not recruitment, so it does not score here. Revise the recruitment process subtopic and practise the command word \u201coutline\u201d: give three distinct recruitment stages, each with a brief explanation of what happens. For example, creating a job description means listing the job\u2019s tasks and responsibilities.",
+        "feedback": "You correctly outlined job analysis and advertising, earning 2 marks. Interviewing is part of selection, not recruitment, so it does not score here. Revise the recruitment process subtopic and practise the command word “outline”: give three distinct recruitment stages, each with a brief explanation of what happens. For example, creating a job description means listing the job’s tasks and responsibilities.",
         "submittedAt": "01/11/2026, 12:54:29"
       },
       {
@@ -16710,9 +16835,9 @@ window.N5_HUB_DATA = {
         ],
         "improvements": [
           "For greater precision, describe a bank loan as borrowing from a bank and state that it must be repaid with interest.",
-          "To practise the command word \u201cdescribe\u201d, include a clear detail explaining what each source is or how it is used."
+          "To practise the command word “describe”, include a clear detail explaining what each source is or how it is used."
         ],
-        "feedback": "3/3. You correctly describe retained profit and a government grant, and your bank-loan description includes repayment with interest. Revise the sources of finance topic and practise \u201cdescribe\u201d questions by giving a defining detail for each source; for a bank loan, name the bank as the lender.",
+        "feedback": "3/3. You correctly describe retained profit and a government grant, and your bank-loan description includes repayment with interest. Revise the sources of finance topic and practise “describe” questions by giving a defining detail for each source; for a bank loan, name the bank as the lender.",
         "submittedAt": "01/11/2026, 12:51:11"
       },
       {
@@ -16732,7 +16857,7 @@ window.N5_HUB_DATA = {
           "Correctly contrasts desk research being quicker and cheaper with field research being time-consuming and expensive."
         ],
         "improvements": [],
-        "feedback": "Full marks. You gave two clear comparisons, and each one referred to both desk and field research. You correctly identified the risk that desk research may be outdated and that field research gathers first-hand information, then compared the relative cost and time involved. Keep practising the command word \u201ccompare\u201d by making a paired point for both sides in each comparison.",
+        "feedback": "Full marks. You gave two clear comparisons, and each one referred to both desk and field research. You correctly identified the risk that desk research may be outdated and that field research gathers first-hand information, then compared the relative cost and time involved. Keep practising the command word “compare” by making a paired point for both sides in each comparison.",
         "submittedAt": "01/11/2026, 12:33:42"
       },
       {
@@ -16752,7 +16877,7 @@ window.N5_HUB_DATA = {
           "Reliable, on-time delivery: this can help ensure the organisation receives goods when needed."
         ],
         "improvements": [],
-        "feedback": "2/2 marks. You outlined two valid factors: price and reliable delivery. To keep building your Business Management skills, practise the command word \u201coutline\u201d by naming each factor and briefly explaining how it affects the organisation\u2019s choice.",
+        "feedback": "2/2 marks. You outlined two valid factors: price and reliable delivery. To keep building your Business Management skills, practise the command word “outline” by naming each factor and briefly explaining how it affects the organisation’s choice.",
         "submittedAt": "01/11/2026, 12:32:05"
       },
       {
@@ -16770,7 +16895,7 @@ window.N5_HUB_DATA = {
         "awardedPoints": [],
         "improvements": [
           "Describe two sectors by ownership: the private sector is owned by individuals, partners or shareholders; the public sector is owned by central or local government.",
-          "Practise the command word \u201cdescribe\u201d: give a clear feature of each sector, rather than naming different sector categories and describing what they do."
+          "Practise the command word “describe”: give a clear feature of each sector, rather than naming different sector categories and describing what they do."
         ],
         "feedback": "You accurately describe the primary sector (extracting raw materials) and secondary sector (manufacturing or processing them). However, this question is asking about the private and public sectors, which are distinguished by who owns the organisations, so those descriptions do not earn marks here. Revise the National 5 topic of sectors of the economy, especially ownership in the private and public sectors. To earn the marks, describe one ownership feature for each sector.",
         "submittedAt": "01/11/2026, 12:30:10"
@@ -16844,7 +16969,7 @@ window.N5_HUB_DATA = {
         "questionId": "hw-oct-4",
         "month": "October 2026",
         "topic": "Finance",
-        "answer": "1. Bank loan \u2014 borrowing a lump sum from a bank and paying it back over time with interest.\n2. Retained profit \u2014 using profits kept from previous years to reinvest in the business.\n3. Overdraft.",
+        "answer": "1. Bank loan — borrowing a lump sum from a bank and paying it back over time with interest.\n2. Retained profit — using profits kept from previous years to reinvest in the business.\n3. Overdraft.",
         "marks": 2,
         "marksAvailable": 3,
         "percentage": 67,
@@ -16907,7 +17032,7 @@ window.N5_HUB_DATA = {
         "questionId": "hw-nov-2",
         "month": "November 2026",
         "topic": "Operations",
-        "answer": "Fixed costs stay level at \u00a320,000 across all output levels.\nTotal costs start at Fixed Costs (\u00a320,000) and slope upwards.\nSales revenue starts at \u00a30 and slopes upwards more steeply.\nThe break-even point is where the Sales Revenue line crosses the Total Costs line.",
+        "answer": "Fixed costs stay level at £20,000 across all output levels.\nTotal costs start at Fixed Costs (£20,000) and slope upwards.\nSales revenue starts at £0 and slopes upwards more steeply.\nThe break-even point is where the Sales Revenue line crosses the Total Costs line.",
         "marks": 3,
         "marksAvailable": 4,
         "percentage": 75,
@@ -16917,9 +17042,9 @@ window.N5_HUB_DATA = {
           "Break-even point identified where Total Revenue crosses Total Costs."
         ],
         "improvements": [
-          "Remember to label both axes clearly: 'Output (Units)' on the horizontal x-axis and 'Costs / Revenue (\u00a3)' on the vertical y-axis."
+          "Remember to label both axes clearly: 'Output (Units)' on the horizontal x-axis and 'Costs / Revenue (£)' on the vertical y-axis."
         ],
-        "feedback": "3/4. You identified the key lines and the break-even intersection point accurately. Make sure you also explicitly label the horizontal axis (Output in units) and vertical axis (Costs and Revenue in \u00a3).",
+        "feedback": "3/4. You identified the key lines and the break-even intersection point accurately. Make sure you also explicitly label the horizontal axis (Output in units) and vertical axis (Costs and Revenue in £).",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
@@ -16960,7 +17085,7 @@ window.N5_HUB_DATA = {
         "improvements": [
           "A cash budget only shows cash inflows and outflows, not profit (profit is calculated in an Income Statement). For a second mark, state that a cash budget helps control departmental spending or supports loan applications."
         ],
-        "feedback": "1/2. You earned 1 mark for explaining that a cash budget highlights future deficits early. Be careful not to confuse cash flow with profit \u2014 an Income Statement measures profit, whereas a cash budget forecasts cash receipts and payments.",
+        "feedback": "1/2. You earned 1 mark for explaining that a cash budget highlights future deficits early. Be careful not to confuse cash flow with profit — an Income Statement measures profit, whereas a cash budget forecasts cash receipts and payments.",
         "submittedAt": "17/11/2026, 20:49:11"
       },
       {
