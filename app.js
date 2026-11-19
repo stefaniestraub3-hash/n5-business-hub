@@ -3764,8 +3764,6 @@
   try {
     const params = new URLSearchParams(window.location.search);
     if (params.has("teacher")) {
-      state.showTeacherLogin = true;
-      state.user = null;
       const tName = (params.get("tName") || "").trim();
       const tPin = (params.get("tPin") || "").trim().toUpperCase();
       const tClassesRaw = (params.get("tClasses") || "").trim();
@@ -3791,12 +3789,33 @@
         };
         if (existingIdx >= 0) state.teachers[existingIdx] = rec;
         else state.teachers.push(rec);
-        state.teacherNameInput = tName;
+        // Automatically open their own Teacher Dashboard immediately (zero setup needed!)
+        state.user = {
+          userId: rec.id,
+          name: rec.name,
+          role: "teacher",
+          teacher: true,
+          owner: false,
+          pinVerified: true,
+          assignedClasses: rec.assignedClasses,
+          classCode: "TEACHER",
+          className: "Teacher"
+        };
+        state.showTeacherLogin = false;
+        state.teacherUnlocked = true;
+        state.teacherClassFilter = "ALL";
+        state.activeTab = "teacher";
+      } else {
+        state.showTeacherLogin = true;
+        state.user = null;
       }
       saveLocalState();
     } else if (state.user?.role === "admin") {
       state.user = null;
       saveLocalState();
+    } else if (state.user?.role === "teacher" || state.user?.teacher) {
+      state.teacherUnlocked = true;
+      state.activeTab = "teacher";
     }
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
