@@ -319,9 +319,20 @@
     }
   }
 
+  function isTeacherUser(u) {
+    return Boolean(
+      u?.role === "admin" ||
+      u?.role === "teacher" ||
+      u?.teacher ||
+      u?.classCode === "TEACHER"
+    );
+  }
+
+  const initialUser = isTeacherUrl ? null : (saved.user || null);
+
   const state = {
-    user: isTeacherUrl ? null : (saved.user || null),
-    rememberedPupil: saved.rememberedPupil || (saved.user && saved.user.role !== "admin" ? saved.user : null),
+    user: initialUser,
+    rememberedPupil: saved.rememberedPupil || (saved.user && !isTeacherUser(saved.user) ? saved.user : null),
     showPhoneAppModal: !isStandaloneApp,
     loginName: "",
     loginCode: "",
@@ -330,8 +341,8 @@
     teacherNameInput: "Mrs Straub (Business Teacher)",
     teacherPinInput: "",
     teacherPinError: "",
-    teacherUnlocked: false,
-    activeTab: "dashboard",
+    teacherUnlocked: isTeacherUser(initialUser),
+    activeTab: isTeacherUser(initialUser) ? "teacher" : "dashboard",
     // Timed SQA Mini-Exam Sprint state
     examQuestions: [],
     examAnswers: {},
@@ -438,8 +449,9 @@
       const pinMatch = String(t.pin || "").trim().toUpperCase() === pin;
       if (!pinMatch) return false;
       if (!name) return true;
-      return String(t.name || "").trim().toLowerCase() === name.toLowerCase() ||
-             String(t.name || "").trim().toLowerCase().includes(name.toLowerCase());
+      const tNameLower = String(t.name || "").trim().toLowerCase();
+      const inputLower = name.toLowerCase();
+      return tNameLower === inputLower || tNameLower.includes(inputLower) || inputLower.includes(tNameLower);
     });
     if (matched) {
       return {
@@ -641,7 +653,7 @@
             </p>
 
             <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #7c3aed;">
-              <div style="font-weight:800;font-size:16px;color:#7c3aed;">🎓 Mrs Straub — Teacher Dashboard &amp; Class Records</div>
+              <div style="font-weight:800;font-size:16px;color:#7c3aed;">🎓 ${escapeHtml(state.teacherNameInput || "Teacher")} — Teacher Dashboard &amp; Class Records</div>
               <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock individual pupil records, saved answers, practice marks, and monthly homework results.</p>
               <div style="display:flex;flex-direction:column;gap:10px;">
                 <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
@@ -1199,7 +1211,7 @@
                   <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ @ScottishEducationalVideos ↗</a>
                   <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ Your Business Tutor (${escapeHtml(activeLesson.title)}) ↗</a>
                 </div>
-                ${state.user?.role === "admin" ? `
+                ${isTeacherUser(state.user) ? `
                   <div style="display:flex;gap:6px;align-items:center;width:100%;margin-top:6px;">
                     <input type="text" id="custom-video-input" placeholder="Teacher: Paste any YouTube link or ID for this lesson…" style="flex:1;padding:6px 10px;font-size:12.5px;" />
                     <button type="button" class="btn btn-primary btn-sm" id="btn-save-custom-video" data-lesson-title="${escapeHtml(activeLesson.title)}">
@@ -2456,12 +2468,18 @@
 
   function renderMainHub() {
     const analytics = computeAnalytics();
-    const isTeacher = Boolean(
+    const isTeacher = isTeacherUser(state.user);
+    const isOwnerTeacher = Boolean(
+      state.user?.owner ||
       state.user?.role === "admin" ||
-      state.user?.role === "teacher" ||
-      state.user?.teacher ||
-      state.user?.classCode === "TEACHER"
+      (state.user?.name || "").toLowerCase().includes("straub")
     );
+    const teacherVisibleClassCodes = new Set(getVisibleClassesForTeacher().map(c => String(c.code || "").toUpperCase()));
+    const teacherPupilCount = isTeacher
+      ? (isOwnerTeacher || (state.user?.assignedClasses || []).includes("ALL")
+          ? state.pupils.length
+          : state.pupils.filter(p => teacherVisibleClassCodes.has(String(p.classCode || "").toUpperCase())).length)
+      : 0;
     const topicsPractisedCount = new Set(getUserAttempts().map(a => a.topic).filter(Boolean)).size;
 
     return `
@@ -2503,7 +2521,7 @@
         <nav class="nav-tabs" id="hub-workspace" style="margin-top:14px;">
           ${isTeacher ? `
             <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher" style="font-weight:800;">
-              🎓 Teacher Dashboard (41 Pupils · Results &amp; Homework)
+              🎓 Teacher Dashboard (${teacherPupilCount} ${teacherPupilCount === 1 ? "Pupil" : "Pupils"} · Results &amp; Homework)
             </button>
           ` : ""}
           <button type="button" class="nav-tab ${state.activeTab === "dashboard" ? "active" : ""}" data-tab="dashboard">
