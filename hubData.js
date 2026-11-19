@@ -771,9 +771,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "A7RcKW7Kvjg",
-        "title": "Market Segmentation & Target Markets — Business Revision",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Customers, segmentation & target markets",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "7:45",
         "summary": "How businesses segment markets by age, gender, income, lifestyle, and geographical location to target customer needs effectively."
       }
@@ -861,9 +861,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "sfNhIyFiLao",
-        "title": "Primary (Field) & Secondary (Desk) Market Research Explained",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Market research",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "9:15",
         "summary": "Compares field research (surveys, interviews, focus groups, observations) and desk research (websites, reports, sales data) with advantages and drawbacks."
       }
@@ -953,9 +953,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "WytupBAFI4E",
-        "title": "The Marketing Mix: Product, Branding & The Product Life Cycle",
-        "channel": "Sense Business Studies",
+        "videoId": "",
+        "title": "National 5 Business Management — Product & product life cycle",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "10:12",
         "summary": "Covers branding, USP, product portfolio, stages of the Product Life Cycle (Development, Introduction, Growth, Maturity, Decline) and extension strategies."
       }
@@ -1043,9 +1043,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "jKjLaXIsrQk",
-        "title": "The Marketing Mix: Pricing Strategies (Skimming, Penetration, Destroyer, Promotional)",
-        "channel": "Sense Business Studies",
+        "videoId": "",
+        "title": "National 5 Business Management — Price",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "8:55",
         "summary": "When and why businesses use high price, low price, price skimming, market penetration, promotional pricing, destroyer pricing and cost-plus pricing."
       }
@@ -1133,9 +1133,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "H2EZEOPRA38",
-        "title": "The Marketing Mix: Place, Distribution Channels & Choosing a Location",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Place & distribution",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "9:30",
         "summary": "Direct selling vs retailers and wholesalers, factors affecting physical location, and the impact of e-commerce on distribution."
       }
@@ -1329,9 +1329,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "H2EZEOPRA38",
-        "title": "E-Commerce, Social Media, Digital Marketing & Online Survey Tools",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Technology in marketing",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "8:20",
         "summary": "How websites, social media, targeted digital adverts, electronic surveys and customer databases transform modern marketing."
       }
@@ -1423,9 +1423,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "gYF1awX9E1Q",
-        "title": "Operations Management: Factors to Consider When Choosing a Supplier",
-        "channel": "Business Studies Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Choosing suppliers",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "7:50",
         "summary": "How price, quality of raw materials, lead time, reliability, location, storage capacity and bulk discounts affect supplier choice."
       }
@@ -1892,9 +1892,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "2Hkusv-21fU",
-        "title": "Technology in Operations: EPOS, Barcodes, CAD/CAM & Automation",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Technology in operations",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "9:10",
         "summary": "How computerised inventory control, barcode scanners, EPOS, CAD, CAM and robotics improve accuracy and productivity."
       }
@@ -1990,9 +1990,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "XEqGPjxgLqE",
-        "title": "The Recruitment & Selection Process (Job Analysis to Contract of Employment)",
-        "channel": "Business Studies Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Recruitment, selection & contracts",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "12:05",
         "summary": "Step-by-step guide to job analysis, job description, person specification, internal vs external advertising, application forms, CVs, interviews, testing and references."
       }
@@ -2079,9 +2079,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "xdhopNi5yIc",
-        "title": "Employee Training: Induction, On-the-Job and Off-the-Job Training",
-        "channel": "Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Training",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "9:40",
         "summary": "Why organisations use induction training for new starters, on-the-job vs off-the-job training, and the benefits and costs of staff development."
       }
@@ -2396,9 +2396,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "cDbbDeyoo1Y",
-        "title": "Employment Legislation: Equality Act 2010, Health & Safety & Minimum Wage",
-        "channel": "Business Studies Revision",
+        "videoId": "ePp1LaIzNr4",
+        "title": "Health and Safety at Work Act 1974 — @ScottishEducationalVideos",
+        "channel": "@ScottishEducationalVideos",
         "duration": "9:50",
         "summary": "Protected characteristics under the Equality Act 2010, Health and Safety at Work Act 1974 duties for employers/employees, and National Minimum Wage."
       }
@@ -2508,9 +2508,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "EO8wSIOIT7k",
-        "title": "Technology in HR: Online Recruitment, Video Interviews, E-Learning & Digital Records",
-        "channel": "Business Studies Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Technology in managing people",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "8:30",
         "summary": "How online recruitment portals, video conferencing, e-learning, electronic staff records and collaborative tools support modern HR."
       }
@@ -2604,9 +2604,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "PEjU10ucsYs",
-        "title": "Sources of Finance: Bank Loans, Overdrafts, Retained Profit, Grants & Trade Credit",
-        "channel": "Sense Business Studies",
+        "videoId": "",
+        "title": "National 5 Business Management — Sources of finance",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "10:50",
         "summary": "Internal vs external sources of finance, short-term vs long-term borrowing, and choosing the right source for different business needs."
       }
@@ -2694,9 +2694,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "033eL3lVQU0",
-        "title": "Cash Budgets & Solving Cash Flow Deficits — Business Finance",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Cash budgets",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "11:20",
         "summary": "How to interpret and calculate Opening Balance, Total Receipts, Total Payments, Net Cash Flow and Closing Balance, plus actions to fix a cash deficit."
       }
@@ -2784,9 +2784,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "I2ciFL-Si3M",
-        "title": "Income Statements: Sales Revenue, Cost of Sales, Gross Profit & Profit for the Year",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Income statements",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "9:35",
         "summary": "Explains the structure of an Income Statement (Trading, Profit & Loss), how to calculate Gross Profit and Profit for the Year, and how to improve profit."
       }
@@ -2875,9 +2875,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "UB8aIchQ8j4",
-        "title": "Break-Even Analysis Made Easy: Fixed Costs, Variable Costs, Total Costs & Revenue",
-        "channel": "Business 101 Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Break-even & costs",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "12:10",
         "summary": "How to distinguish fixed and variable costs, read a break-even chart, identify the break-even point, and explain what happens when costs or prices change."
       }
@@ -2967,9 +2967,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "vVePL5kI7qk",
-        "title": "Technology in Finance: Spreadsheets, Formulas, Charting & Online Banking",
-        "channel": "Sense Business Studies",
+        "videoId": "",
+        "title": "National 5 Business Management — Technology in finance",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "8:40",
         "summary": "How spreadsheets (=SUM, =AVERAGE, =IF), what-if scenarios, accounting software, online banking and EPOS reduce errors and speed up financial decisions."
       }
