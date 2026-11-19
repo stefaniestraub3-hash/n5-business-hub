@@ -921,39 +921,39 @@ textarea:focus {
   .mobile-dock {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(46px, 1fr));
+    gap: 4px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.96);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-top: 1px solid var(--border);
-    padding: 6px 4px calc(6px + env(safe-area-inset-bottom, 0px)) 4px;
+    background: #2e1065;
+    border-top: 2px solid #7c3aed;
+    padding: 7px 6px calc(7px + env(safe-area-inset-bottom, 0px)) 6px;
     z-index: 50;
-    box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.1);
+    box-shadow: 0 -4px 18px rgba(46, 16, 101, 0.28);
   }
 
   .mobile-dock button {
-    background: none;
+    background: transparent;
     border: none;
     padding: 6px 2px;
     font-size: 10.5px;
     font-weight: 600;
-    color: var(--text-muted);
+    color: #ddd6fe;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 10px;
     touch-action: manipulation;
   }
 
   .mobile-dock button.active {
-    color: var(--primary);
-    background: var(--primary-soft);
+    color: #ffffff;
+    background: #7c3aed;
     font-weight: 800;
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.45);
   }
 }
