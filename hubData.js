@@ -322,8 +322,8 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "dWFtZzSiR_0",
-        "title": "Business Organisations (Sole Traders, Partnerships & Ltd) — N5 Business Management",
+        "videoId": "MG9T_CaiKXU",
+        "title": "Private Limited Companies & Business Organisations — N5 Business Management",
         "channel": "Your Business Tutor (SQA N5)",
         "duration": "14:20",
         "summary": "Compares ownership, control, liability, and sources of finance across sole traders, partnerships, private limited companies (Ltd), franchises, social enterprises and charities."
@@ -545,7 +545,7 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "ONXsXXw5i6k",
-        "title": "External Factors (PESTEC) & Business Environment — N5 Business Management",
+        "title": "External Factors (PESTEC) — N5 Business Management",
         "channel": "Your Business Tutor (SQA N5)",
         "duration": "11:30",
         "summary": "Explains Political, Economic, Social, Technological, Environmental and Competitive (PESTEC) external factors plus internal factors (finance, human resources, technology)."
@@ -664,9 +664,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Stakeholders",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "87XfosdZbN8",
+        "title": "Stakeholder Interest & Influence — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "13:10",
         "summary": "How owners, managers, employees, customers, suppliers, lenders, local community and government influence a business and why their interests conflict."
       }
@@ -771,9 +771,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Customers, segmentation & target markets",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "EfceEYuWWc4",
+        "title": "Market Segmentation — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "7:45",
         "summary": "How businesses segment markets by age, gender, income, lifestyle, and geographical location to target customer needs effectively."
       }
@@ -953,9 +953,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Product & product life cycle",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "Gkeb4FTZckc",
+        "title": "Product Development & Life Cycle — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "10:12",
         "summary": "Covers branding, USP, product portfolio, stages of the Product Life Cycle (Development, Introduction, Growth, Maturity, Decline) and extension strategies."
       }
@@ -1043,9 +1043,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Price",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "6rT-OdxpPjI",
+        "title": "Marketing Mix & Pricing — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "8:55",
         "summary": "When and why businesses use high price, low price, price skimming, market penetration, promotional pricing, destroyer pricing and cost-plus pricing."
       }
@@ -1133,9 +1133,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Place & distribution",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "z1I_uZb5RVI",
+        "title": "Methods of Distribution (Place) — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "9:30",
         "summary": "Direct selling vs retailers and wholesalers, factors affecting physical location, and the impact of e-commerce on distribution."
       }
@@ -1223,8 +1223,8 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "NKYRcMdYxzk",
-        "title": "Into and Out the Pipeline Promotion — Scottish Educational Videos",
-        "channel": "Scottish Educational Videos",
+        "title": "Into and Out the Pipeline Promotion — N5 Business Management",
+        "channel": "@ScottishEducationalVideos",
         "duration": "11:05",
         "summary": "Into-the-pipeline and out-of-the-pipeline promotion, advertising media, public relations, BOGOF, loyalty cards, and ethical marketing practices."
       }
@@ -1329,9 +1329,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Technology in marketing",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "wUSDasxENj0",
+        "title": "Marketing Technology — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "8:20",
         "summary": "How websites, social media, targeted digital adverts, electronic surveys and customer databases transform modern marketing."
       }
@@ -1423,9 +1423,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Choosing suppliers",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "KS3PV7THJII",
+        "title": "Choosing Suppliers — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "7:50",
         "summary": "How price, quality of raw materials, lead time, reliability, location, storage capacity and bulk discounts affect supplier choice."
       }
@@ -1512,9 +1512,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "XcM_dI1VAz8",
-        "title": "Inventory Control Systems — @ScottishEducationalVideos",
-        "channel": "@ScottishEducationalVideos",
+        "videoId": "6aKOK2pdyEU",
+        "title": "Inventory Management — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "10:25",
         "summary": "Explains maximum, minimum and re-order stock levels, the risks of overstocking vs understocking, and Just-in-Time (JIT) production."
       }
@@ -1602,8 +1602,8 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "AibcJmIom04",
-        "title": "Quality Methods in Production — Scottish Educational Videos",
-        "channel": "Scottish Educational Videos",
+        "title": "Quality Methods in Production — N5 Business Management",
+        "channel": "@ScottishEducationalVideos",
         "duration": "11:40",
         "summary": "Compares job production, batch production and flow production, plus labour-intensive vs capital-intensive manufacturing."
       }
@@ -1691,9 +1691,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "C_S63xDfgok",
-        "title": "Ensuring Quality — Scottish Educational Videos",
-        "channel": "Scottish Educational Videos",
+        "videoId": "h75x1f9Ttuo",
+        "title": "Methods of Quality — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "9:18",
         "summary": "How high-quality raw materials, staff training, Quality Control (end inspection), Quality Assurance (every stage), mystery shoppers and benchmarking ensure quality."
       }
@@ -1781,8 +1781,8 @@ window.N5_HUB_DATA = {
       ],
       "video": {
         "videoId": "r1w5FXX2FeQ",
-        "title": "Ethics in Operations — Scottish Educational Videos",
-        "channel": "Scottish Educational Videos",
+        "title": "Ethics in Operations — N5 Business Management",
+        "channel": "@ScottishEducationalVideos",
         "duration": "8:45",
         "summary": "Minimising waste, reducing packaging, recycling, ethical sourcing (Fairtrade) and the business costs vs reputation benefits."
       }
@@ -1892,9 +1892,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Technology in operations",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "GKF3U-30X94",
+        "title": "Operations Technology — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "9:10",
         "summary": "How computerised inventory control, barcode scanners, EPOS, CAD, CAM and robotics improve accuracy and productivity."
       }
@@ -1990,9 +1990,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Recruitment, selection & contracts",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "dhfm0S0EB1k",
+        "title": "Recruitment Process — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "12:05",
         "summary": "Step-by-step guide to job analysis, job description, person specification, internal vs external advertising, application forms, CVs, interviews, testing and references."
       }
@@ -2191,9 +2191,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "IiZ80PMCe48",
-        "title": "Employee Relations and ACAS — @ScottishEducationalVideos",
-        "channel": "@ScottishEducationalVideos",
+        "videoId": "P5G2g0f54_I",
+        "title": "Motivation — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "11:15",
         "summary": "Covers time rate, piece rate, salary, commission, bonus, profit sharing, fringe benefits, and flexible working practices (flexitime, homeworking, job share)."
       }
@@ -2288,9 +2288,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "IiZ80PMCe48",
-        "title": "Employee Relations and ACAS — @ScottishEducationalVideos",
-        "channel": "@ScottishEducationalVideos",
+        "videoId": "0wN_RGWG5Xw",
+        "title": "Industrial Relations — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "10:05",
         "summary": "Role of trade unions, collective bargaining, works councils, and impacts of strikes, overtime bans, work-to-rule and sit-ins."
       }
@@ -2396,9 +2396,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "ePp1LaIzNr4",
-        "title": "Health and Safety at Work Act 1974 — @ScottishEducationalVideos",
-        "channel": "@ScottishEducationalVideos",
+        "videoId": "-hGgfJu2Pv0",
+        "title": "HR Legislation (Equality & Health and Safety) — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "9:50",
         "summary": "Protected characteristics under the Equality Act 2010, Health and Safety at Work Act 1974 duties for employers/employees, and National Minimum Wage."
       }
@@ -2604,9 +2604,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Sources of finance",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "fJoPIXIO24A",
+        "title": "Sources of Finance — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "10:50",
         "summary": "Internal vs external sources of finance, short-term vs long-term borrowing, and choosing the right source for different business needs."
       }
@@ -2694,9 +2694,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Cash budgets",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "snGtPJhRM1U",
+        "title": "Cash Budgets — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "11:20",
         "summary": "How to interpret and calculate Opening Balance, Total Receipts, Total Payments, Net Cash Flow and Closing Balance, plus actions to fix a cash deficit."
       }
@@ -2875,9 +2875,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Break-even & costs",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "clJlVUT0PMA",
+        "title": "Break-Even Analysis — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "12:10",
         "summary": "How to distinguish fixed and variable costs, read a break-even chart, identify the break-even point, and explain what happens when costs or prices change."
       }
@@ -2967,9 +2967,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "",
-        "title": "National 5 Business Management — Technology in finance",
-        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
+        "videoId": "1TXZBqXabYs",
+        "title": "Finance Technology — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "8:40",
         "summary": "How spreadsheets (=SUM, =AVERAGE, =IF), what-if scenarios, accounting software, online banking and EPOS reduce errors and speed up financial decisions."
       }
