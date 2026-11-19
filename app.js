@@ -93,19 +93,27 @@
         const cleanNums = numbersInPt.map(n => n.replace(/,/g, ""));
         matched = cleanNums.every(n => answer.replace(/,/g, "").includes(n));
       } else if (ptStems.length > 0) {
-        const hitCount = ptStems.filter(stem =>
-          answerStems.has(stem) || expandedAnswer.includes(stem)
-        ).length;
-        // If point has a "Key Term — explanation" format, credit if pupil uses the key term + context (or just key term for Identify)
+        const ansWords = expandedAnswer.split(/\s+/).filter(Boolean);
+        const matchesStem = (stem) => {
+          if (answerStems.has(stem) || expandedAnswer.includes(stem)) return true;
+          // SQA spelling tolerance: match first 5 characters for words >= 6 chars (e.g. "entrepruner" -> "entrepreneur")
+          if (stem.length >= 5) {
+            const pref = stem.slice(0, 5);
+            if (ansWords.some(w => w.length >= 5 && w.startsWith(pref))) return true;
+          }
+          return false;
+        };
+        const hitCount = ptStems.filter(matchesStem).length;
         const dashParts = pt.split(/—| - |:/);
         let keyTermMatched = false;
         if (dashParts.length >= 2) {
           const termStems = getStems(normalizeText(dashParts[0]));
-          if (termStems.length > 0 && termStems.every(ts => answerStems.has(ts) || expandedAnswer.includes(ts))) {
+          if (termStems.length > 0 && termStems.every(matchesStem)) {
             keyTermMatched = primaryCmd.includes("identify") || hitCount >= Math.min(2, ptStems.length);
           }
         }
-        const threshold = ptStems.length <= 2 ? 1 : Math.min(4, Math.max(2, Math.ceil(ptStems.length * 0.32)));
+        // Fair SQA threshold: 1 stem for short points (<=2 stems), 2 stems for full descriptive/explain points
+        const threshold = ptStems.length <= 2 ? 1 : 2;
         matched = keyTermMatched || hitCount >= threshold;
       }
 
@@ -693,7 +701,7 @@
 
         <div style="margin-top:12px;padding-top:12px;border-top:1px solid rgba(15,23,42,0.12);">
           <strong style="font-size:13.5px;display:block;margin-bottom:4px;">SQA Model Answer:</strong>
-          <div style="white-space:pre-line;font-size:13.5px;background:rgba(255,255,255,0.75);padding:10px 12px;border-radius:8px;border:1px solid var(--border);">
+          <div class="no-copy-model" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" style="white-space:pre-line;font-size:13.5px;background:rgba(255,255,255,0.75);padding:10px 12px;border-radius:8px;border:1px solid var(--border);">
             ${escapeHtml(res.modelAnswer || q?.solution || "")}
           </div>
         </div>
@@ -2903,6 +2911,14 @@
       a.download = "N5_Business_Class_Tracking.csv";
       a.click();
       URL.revokeObjectURL(url);
+    });
+
+    // Prevent copy/paste cheating into pupil answer boxes
+    document.querySelectorAll("#drill-answer-box, #prac-answer-box, [data-case-input], [data-hw-input], [data-exam-input]").forEach(box => {
+      box.addEventListener("paste", e => {
+        e.preventDefault();
+        alert("✏️ Please type your answer in your own words — pasting is disabled so you remember it for the SQA exam!");
+      });
     });
 
     // DRILLS TAB EVENTS
