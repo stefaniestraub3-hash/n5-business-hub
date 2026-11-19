@@ -3109,11 +3109,11 @@
           saveLocalState();
           return render();
         }
-        if (name.toLowerCase() === "rebecca") {
-          const customOwn = (state.classes || []).filter(c => c.createdBy === "Rebecca").map(c => String(c.code).toUpperCase());
+        if (name.toLowerCase() === "rebecca" || name.toLowerCase().startsWith("rebecca ")) {
+          const customOwn = (state.classes || []).filter(c => c.createdBy === "Rebecca" || c.createdBy === name).map(c => String(c.code).toUpperCase());
           state.user = {
             userId: "teacher-rebecca",
-            name: "Rebecca",
+            name: name || "Rebecca",
             role: "teacher",
             teacher: true,
             owner: false,
@@ -4380,6 +4380,23 @@
         owner: false,
         pinVerified: true,
         assignedClasses: Array.from(new Set(["ABCD", ...customOwn])),
+        classCode: "TEACHER",
+        className: "Teacher"
+      };
+      state.teacherUnlocked = true;
+      state.teacherClassFilter = "ALL";
+      state.activeTab = "teacher";
+      saveLocalState();
+    } else if (state.user && ((state.user.name || "").trim().toLowerCase() === "rebecca" || (state.user.name || "").trim().toLowerCase().startsWith("rebecca "))) {
+      const customOwn = (state.classes || []).filter(c => c.createdBy === "Rebecca" || c.createdBy === state.user.name).map(c => String(c.code).toUpperCase());
+      state.user = {
+        userId: "teacher-rebecca",
+        name: state.user.name || "Rebecca",
+        role: "teacher",
+        teacher: true,
+        owner: false,
+        pinVerified: true,
+        assignedClasses: customOwn,
         classCode: "TEACHER",
         className: "Teacher"
       };
