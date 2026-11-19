@@ -1,7 +1,8 @@
 window.N5_HUB_DATA = {
   "courseAreas": {
     "Understanding Business": [
-      "Role of business in society",
+      "Sectors of industry & factors of production",
+      "Sectors of the economy",
       "Customer satisfaction",
       "Business organisations, entrepreneurs & business plans",
       "Objectives",
@@ -44,157 +45,83 @@ window.N5_HUB_DATA = {
   "lessons": [
     {
       "topic": "Understanding Business",
-      "title": "Role of business in society",
-      "overview": "Organisations use resources to produce goods and services that satisfy human wants. National 5 requires you to understand sectors of industry/economy and the factors of production.",
-      "extras": {
-        "benefits": [
-          "Producing goods and services satisfies wants and generates employment, wages and tax revenue.",
-          "Specialisation between primary, secondary and tertiary businesses helps resources move from extraction through production to customers."
-        ],
-        "limitations": [
-          "Natural resources are finite; extracting them can create pollution or environmental damage.",
-          "Changes in demand or shortages of land, labour or capital can restrict production and increase costs."
-        ],
-        "examFocus": "Identify each factor of production and distinguish sectors of industry (activity) from sectors of the economy (ownership)."
-      },
-      "terms": [
-        "capital",
-        "consumption",
-        "durable goods",
-        "enterprise",
-        "goods",
-        "human wants",
-        "labour",
-        "land",
-        "non-durable goods",
-        "primary",
-        "private sector",
-        "public sector",
-        "secondary",
-        "services",
-        "tertiary",
-        "third sector",
-        "wealth creation"
+      "title": "Sectors of industry & factors of production",
+      "overview": "Businesses transform raw materials into finished goods and services through three Sectors of Industry (Primary, Secondary, Tertiary), combining the four Factors of Production to add value and create wealth.",
+      "points": [
+        "Primary Sector: extracts or harvests raw materials directly from the earth or sea (e.g. farming, fishing, forestry, mining, oil extraction).",
+        "Secondary Sector: manufactures, processes, or constructs raw materials into finished or semi-finished goods (e.g. car manufacturing, bakeries, house building).",
+        "Tertiary Sector: provides services to consumers and other businesses (e.g. retail shops, banking, schools, hairdressers, transport).",
+        "Factors of Production (CELL): Capital (machinery, equipment, money), Enterprise (the entrepreneur taking risks), Land (natural resources/raw materials), Labour (human workforce).",
+        "Adding Value & Wealth Creation: each stage in the chain of production increases the value of the product, creating jobs and profit."
       ],
       "definitions": [
         {
-          "term": "capital",
-          "definition": "Man-made resources used to produce goods or services, such as machinery, tools and buildings."
+          "term": "Primary Sector",
+          "definition": "Businesses involved in extracting natural raw materials from the earth or sea (e.g. farming, fishing, mining)."
         },
         {
-          "term": "consumption",
-          "definition": "The use of goods and services to satisfy people's needs and wants."
+          "term": "Secondary Sector",
+          "definition": "Businesses involved in manufacturing or construction, turning raw materials into finished goods."
         },
         {
-          "term": "durable goods",
-          "definition": "Physical products that can be used repeatedly over a relatively long period, such as furniture."
+          "term": "Tertiary Sector",
+          "definition": "Businesses that provide services rather than physical goods (e.g. retail, banking, healthcare)."
         },
         {
-          "term": "enterprise",
-          "definition": "The skill and willingness to organise the other factors of production, make decisions and take business risks."
+          "term": "Factors of Production",
+          "definition": "The four resources needed to produce goods and services: Land, Labour, Capital, and Enterprise."
         },
         {
-          "term": "goods",
-          "definition": "Physical products that can be seen or touched."
-        },
-        {
-          "term": "human wants",
-          "definition": "Things people would like to have to improve their lives, beyond basic needs."
-        },
-        {
-          "term": "labour",
-          "definition": "Human effort used in production or service provision."
-        },
-        {
-          "term": "land",
-          "definition": "Natural resources and physical sites used to produce goods or services."
-        },
-        {
-          "term": "non-durable goods",
-          "definition": "Products used up quickly or after a small number of uses, such as food."
-        },
-        {
-          "term": "primary",
-          "definition": "The sector of industry that obtains or extracts natural resources, for example farming, fishing, forestry and mining."
-        },
-        {
-          "term": "private sector",
-          "definition": "The sector of the economy owned by private individuals or shareholders."
-        },
-        {
-          "term": "public sector",
-          "definition": "The sector of the economy owned or controlled by government/public authorities and funded mainly from public money."
-        },
-        {
-          "term": "secondary",
-          "definition": "The sector of industry that manufactures or constructs goods by turning raw materials into finished or semi-finished products."
-        },
-        {
-          "term": "services",
-          "definition": "Activities provided for customers rather than physical products."
-        },
-        {
-          "term": "tertiary",
-          "definition": "The sector of industry that provides services to consumers or other organisations."
-        },
-        {
-          "term": "third sector",
-          "definition": "Independent organisations primarily set up for a social or community purpose rather than distributing profit to private owners."
-        },
-        {
-          "term": "wealth creation",
-          "definition": "Generating economic value through producing and selling goods or services."
+          "term": "Adding Value",
+          "definition": "Increasing the worth of a product at each stage of production so it can be sold for more than the cost of its inputs."
         }
       ],
-      "points": [
-        "Primary organisations extract natural resources; secondary organisations manufacture or construct; tertiary organisations provide services.",
-        "Private-sector organisations are owned by individuals/shareholders, public-sector organisations by government, and third-sector organisations mainly pursue social purposes.",
-        "Land means natural resources/sites, labour is human effort, capital is man-made productive resources and enterprise organises resources and accepts risk.",
-        "Businesses need four factors of production to make goods or provide services: land, labour, capital and enterprise.",
-        "Land means natural resources and the physical site used by a business. Labour is the human effort of employees. Capital means man-made resources used in production, such as machinery, tools and buildings.",
-        "Enterprise is the skill and willingness of the entrepreneur to organise the other resources, make decisions and take business risks.",
-        "Do not confuse capital with profit. In this topic, capital is the productive equipment/resources used to create output.",
-        "Land includes natural resources/site; labour is human effort.",
-        "Capital means productive man-made assets such as machinery, not simply cash.",
-        "Enterprise organises resources and accepts risk.",
-        "Businesses combine land, labour, capital and enterprise to produce goods or provide services. Goods are physical items; services are activities. Consumers use these outputs to satisfy wants. Durable goods are used repeatedly over time, while non-durable goods are used up relatively quickly. Selling output can generate revenue, wages, profit and tax, creating wealth and employment.",
-        "Sectors of INDUSTRY describe activity: primary extracts or harvests natural resources; secondary manufactures or constructs products; tertiary provides services. A farm is primary, a food factory secondary and a supermarket tertiary.",
-        "Sectors of the ECONOMY describe ownership and purpose: private organisations are owned by individuals or shareholders; public organisations are government owned or controlled; third-sector organisations, including charities, pursue social purposes. A state school is public sector but its educational activity is tertiary industry.",
-        "A factor of production is an input, not the finished product: land includes farmland and water; labour is people's work; capital includes ovens and equipment; enterprise combines the other factors and takes risk. Flour bought by a bakery is a material input, while its ovens are capital.",
-        "Do not confuse industry with ownership. A privately owned nursery is in the tertiary industry and private sector; a council nursery provides a tertiary service in the public sector."
-      ],
-      "example": "A privately owned Scottish bakery uses water as a natural resource (land), employs bakers (labour), uses ovens (capital) and relies on its owner to organise production (enterprise). It manufactures bread in secondary industry and sells it to satisfy customers' wants.",
-      "examTip": "Use the command word: identify/state = brief point; describe = factual detail; explain = point plus consequence; discuss = developed range/balance.",
-      "check": [
-        "Define one key factors of production term.",
-        "Give one business example of factors of production.",
-        "Explain one effect of factors of production on an organisation."
-      ],
-      "mistakes": [
-        "Listing factors of production terms without showing what they mean.",
-        "Giving a vague effect without linking it to a business consequence."
-      ],
-      "model": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals.",
-      "tasks": [
-        {
-          "prompt": "Quick recall: define “capital” in your own words.",
-          "answer": "Man-made resources used to produce goods or services, such as machinery, tools and buildings."
-        },
-        {
-          "prompt": "Application: give one realistic business example of role of business in society.",
-          "answer": "A privately owned Scottish bakery uses water as a natural resource (land), employs bakers (labour), uses ovens (capital) and relies on its owner to organise production (enterprise). It manufactures bread in secondary industry and sells it to satisfy customers' wants."
-        },
-        {
-          "prompt": "Mini exam task: explain one business effect connected to role of business in society.",
-          "answer": "A fishing business belongs to primary industry because it harvests a natural resource, while a café belongs to tertiary industry because it provides a service. Both may be private-sector organisations if owned by individuals."
-        }
-      ],
+      "example": "A Scottish bakery uses wheat from a farm (Primary), bakes it into loaves (Secondary), and sells the bread to customers in its high-street shop (Tertiary).",
+      "examTip": "Never confuse Sectors of Industry (Primary, Secondary, Tertiary) with Sectors of the Economy (Private, Public, Third) — SQA markers will award 0 marks if you mix them up!",
       "video": {
-        "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business Management — Understanding Business (Sectors & Factors of Production)",
-        "channel": "SQA N5 Business Revision",
-        "duration": "12:15",
-        "summary": "Covers sectors of industry (primary, secondary, tertiary), sectors of economy (private, public, third) and the four factors of production (land, labour, capital, enterprise)."
+        "videoId": "ZuYOpXlQzV0",
+        "title": "Sectors of Industry — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
+        "duration": "06:45",
+        "summary": "Explains Primary, Secondary, and Tertiary sectors, the chain of production, and how businesses add value."
+      }
+    },
+    {
+      "topic": "Understanding Business",
+      "title": "Sectors of the economy",
+      "overview": "Every organisation operates in one of three Sectors of the Economy — Private, Public, or Third — depending on who owns it, how it is funded, and what its main aims are.",
+      "points": [
+        "Private Sector: owned and controlled by private individuals or shareholders (e.g. Sole Traders, Partnerships, Private Limited Companies (Ltd)). Main aim is usually to make a profit.",
+        "Public Sector: owned and funded by central or local government using taxpayers' money (e.g. NHS, state schools, local councils, police). Main aim is to provide a quality public service within a budget.",
+        "Third Sector: includes charities, voluntary organisations, clubs, and social enterprises (e.g. Oxfam, British Heart Foundation, local sports clubs). Funded by donations, grants, and fundraising.",
+        "Social Enterprises: operate in the Third Sector like a business to generate profit, but reinvest all profits back into a social or environmental cause."
+      ],
+      "definitions": [
+        {
+          "term": "Private Sector",
+          "definition": "Organisations owned by private individuals or shareholders, usually aiming to maximise profit."
+        },
+        {
+          "term": "Public Sector",
+          "definition": "Organisations owned and funded by the government through taxation to provide essential public services."
+        },
+        {
+          "term": "Third Sector",
+          "definition": "Non-profit organisations such as charities, voluntary groups, and social enterprises aiming to help a cause or community."
+        },
+        {
+          "term": "Social Enterprise",
+          "definition": "A third-sector business that trades to make a profit and reinvests that profit into a social or environmental mission."
+        }
+      ],
+      "example": "Tesco operates in the Private Sector (owned by shareholders for profit), the NHS operates in the Public Sector (funded by taxes), and Cancer Research UK operates in the Third Sector (funded by donations).",
+      "examTip": "Use the acronym P-P-T (Private, Public, Third) for Sectors of the Economy, and always state WHO owns it and HOW it is funded in Describe/Compare questions.",
+      "video": {
+        "videoId": "tjlf1xCerNY",
+        "title": "Sectors of the Economy — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
+        "duration": "07:10",
+        "summary": "Explains Private, Public, and Third sectors of the economy, ownership, funding, and aims with Scottish examples."
       }
     },
     {
@@ -395,9 +322,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "vjnHyYKHey4",
-        "title": "SQA National 5 Business — Sole Traders, Partnerships, Private Ltd Companies & Charities",
-        "channel": "SQA N5 Business Revision",
+        "videoId": "dWFtZzSiR_0",
+        "title": "Business Organisations (Sole Traders, Partnerships & Ltd) — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "14:20",
         "summary": "Compares ownership, control, liability, and sources of finance across sole traders, partnerships, private limited companies (Ltd), franchises, social enterprises and charities."
       }
@@ -617,9 +544,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "GueEUUbHzLk",
-        "title": "External Factors (PESTEC) & Internal Factors — N5 Business Management",
-        "channel": "Scottish Business Education",
+        "videoId": "ONXsXXw5i6k",
+        "title": "External Factors (PESTEC) & Business Environment — N5 Business Management",
+        "channel": "Your Business Tutor (SQA N5)",
         "duration": "11:30",
         "summary": "Explains Political, Economic, Social, Technological, Environmental and Competitive (PESTEC) external factors plus internal factors (finance, human resources, technology)."
       }
