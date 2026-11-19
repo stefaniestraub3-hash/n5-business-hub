@@ -128,12 +128,16 @@
           return false;
         };
         const hitCount = ptStems.filter(matchesStem).length;
-        const dashParts = pt.split(/—| - |:/);
+        const dashParts = pt.split(/—| - |:|\(/);
         let keyTermMatched = false;
+        const isIdentifyCmd = primaryCmd.includes("identify") || primaryCmd.includes("state") || primaryCmd.includes("name");
         if (dashParts.length >= 2) {
-          const termStems = getStems(normalizeText(dashParts[0]));
-          if (termStems.length > 0 && termStems.every(matchesStem)) {
-            keyTermMatched = primaryCmd.includes("identify") || hitCount >= Math.min(2, ptStems.length);
+          const genericLabelWords = new Set(["factor", "factors", "method", "methods", "type", "types", "sector", "sectors", "using", "use", "used", "business", "businesses", "system", "systems", "source", "sources", "way", "ways", "feature", "features"]);
+          const rawLeadStems = getStems(normalizeText(dashParts[0]));
+          const coreLeadStems = rawLeadStems.filter(s => !genericLabelWords.has(s));
+          const leadToCheck = (isIdentifyCmd && coreLeadStems.length > 0) ? coreLeadStems : rawLeadStems;
+          if (leadToCheck.length > 0 && leadToCheck.every(matchesStem)) {
+            keyTermMatched = isIdentifyCmd || hitCount >= Math.min(2, ptStems.length);
           }
         }
         // Fair SQA threshold: 1 stem for short points (<=2 stems), 2 stems for full descriptive/explain points
