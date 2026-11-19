@@ -132,11 +132,14 @@
         let keyTermMatched = false;
         const isIdentifyCmd = primaryCmd.includes("identify") || primaryCmd.includes("state") || primaryCmd.includes("name");
         if (dashParts.length >= 2) {
+          const leadPhrase = normalizeText(dashParts[0]);
           const genericLabelWords = new Set(["factor", "factors", "method", "methods", "type", "types", "sector", "sectors", "using", "use", "used", "business", "businesses", "system", "systems", "source", "sources", "way", "ways", "feature", "features"]);
-          const rawLeadStems = getStems(normalizeText(dashParts[0]));
+          const rawLeadStems = getStems(leadPhrase);
           const coreLeadStems = rawLeadStems.filter(s => !genericLabelWords.has(s));
           const leadToCheck = (isIdentifyCmd && coreLeadStems.length > 0) ? coreLeadStems : rawLeadStems;
-          if (leadToCheck.length > 0 && leadToCheck.every(matchesStem)) {
+          if (isIdentifyCmd && leadPhrase.length >= 3 && (normAnswer.includes(leadPhrase) || expandedAnswer.includes(leadPhrase))) {
+            keyTermMatched = true;
+          } else if (leadToCheck.length > 0 && leadToCheck.every(matchesStem)) {
             keyTermMatched = isIdentifyCmd || hitCount >= Math.min(2, ptStems.length);
           }
         }
