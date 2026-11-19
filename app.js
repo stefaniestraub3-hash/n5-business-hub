@@ -294,7 +294,10 @@
     drillAnswer: "",
     drillResult: null,
     drillShowHint: false,
+    drillShowSolution: false,
+    drillShowBlueprint: false,
     drillShowVideo: false,
+    drillEmptyError: "",
 
     // Lessons & Flashcards state
     lessonTopic: "Understanding Business",
@@ -316,16 +319,19 @@
     practiceResult: null,
     practiceHint: false,
     practiceSolution: false,
+    practiceEmptyError: "",
 
     // Case studies state
     activeCaseId: DATA.caseStudies[0]?.id || "cs-caledonia",
     caseAnswers: {},
     caseResults: {},
+    caseEmptyErrors: {},
 
     // Homework state
     activeHwMonth: DATA.homeworkMonths[0] || "October 2026",
     hwAnswers: {},
     hwResults: {},
+    hwEmptyErrors: {},
 
     // Teacher Dashboard state
     newClassName: "",
@@ -687,23 +693,24 @@
     const questions = getDrillQuestions();
     const safeIdx = questions.length ? Math.min(state.drillIndex, questions.length - 1) : 0;
     const currentQ = questions[safeIdx];
+    const activeCatMeta = drillCats.find(c => c.key === state.drillCategory) || drillCats[0];
 
     return `
       <section class="section-panel">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+        <div class="drill-header-row">
           <div>
-            <p class="kicker">SQA COMMAND WORD DRILL HUB</p>
-            <h2 style="margin-bottom:4px;">Targeted Command Word Drills — Instant Marking & Feedback</h2>
-            <p style="margin:0;color:var(--text-secondary);font-size:14px;">
-              Choose a command word below (<strong>Identify</strong>, <strong>Describe</strong>, <strong>Explain</strong>, etc.) to practise SQA questions back-to-back, get marked straight away, and track your areas to improve.
+            <p class="kicker">SQA COMMAND WORD DRILL HUB · 172 PAST-PAPER QUESTIONS</p>
+            <h2 style="margin-bottom:4px;">Targeted Command Word Drills — Instant Marking &amp; Feedback</h2>
+            <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">
+              Tap any command word below (<strong>Identify</strong>, <strong>Describe</strong>, <strong>Explain</strong>, <strong>Compare</strong>, <strong>Justify</strong>, or <strong>Multi-Command</strong>) to drill 26–39 authentic SQA past-paper questions right away.
             </p>
           </div>
-          <div style="display:flex;gap:8px;flex-wrap:wrap;">
-            <select id="drill-topic-select" style="width:auto;">
+          <div class="drill-filter-bar">
+            <select id="drill-topic-select" aria-label="Filter drill by course area">
               <option value="All topics" ${state.drillTopic === "All topics" ? "selected" : ""}>All 5 Course Areas</option>
               ${Object.keys(DATA.courseAreas).map(t => `<option value="${escapeHtml(t)}" ${state.drillTopic === t ? "selected" : ""}>${escapeHtml(t)}</option>`).join("")}
             </select>
-            <select id="drill-level-select" style="width:auto;">
+            <select id="drill-level-select" aria-label="Filter drill by difficulty level">
               <option value="All levels" ${state.drillLevel === "All levels" ? "selected" : ""}>All Difficulty Levels (A/B/C)</option>
               <option value="C" ${state.drillLevel === "C" ? "selected" : ""}>Level C — Support</option>
               <option value="B" ${state.drillLevel === "B" ? "selected" : ""}>Level B — Standard N5</option>
@@ -712,97 +719,127 @@
           </div>
         </div>
 
+        <!-- 6 COMMAND WORD DRILL BUTTONS (2-Column Mobile Grid / 6-Column Desktop) -->
         <div class="drill-selector-grid">
           ${drillCats.map(c => {
+            const isActive = state.drillCategory === c.key;
             const count = DATA.questions.filter(q => getQuestionDrillCategory(q) === c.key).length;
             const stat = analytics.commandStats.find(s => s.key === c.key);
-            const avgBadge = stat && stat.attempts > 0 ? `${stat.average}% avg (${stat.attempts})` : `${count} questions`;
+            const avgBadge = stat && stat.attempts > 0 ? `${stat.average}% avg · ${count} Qs` : `${count} SQA Qs`;
             return `
-              <button type="button" class="drill-pill-card ${state.drillCategory === c.key ? "active" : ""}" data-drill-cat="${c.key}">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
-                  <span class="badge ${state.drillCategory === c.key ? "badge-primary" : ""}">${escapeHtml(avgBadge)}</span>
+              <button type="button" class="drill-pill-card ${isActive ? "active" : ""}" data-drill-cat="${c.key}" aria-pressed="${isActive}">
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:4px;margin-bottom:4px;">
+                  <span class="badge ${isActive ? "badge-active-pill" : ""}">${escapeHtml(avgBadge)}</span>
+                  ${isActive ? `<span style="font-size:11px;font-weight:800;color:#ffffff;">✓ ACTIVE</span>` : ""}
                 </div>
                 <h4>${escapeHtml(c.title)}</h4>
-                <p><strong>${escapeHtml(c.sub)}</strong> · ${escapeHtml(c.desc)}</p>
+                <p><strong>${escapeHtml(c.sub)}</strong><span class="drill-desc-text"> · ${escapeHtml(c.desc)}</span></p>
               </button>
             `;
           }).join("")}
         </div>
 
         <div class="two-col-layout">
-          <div>
-            <!-- Command Word Blueprint + YouTube Video Toggle -->
-            <div class="side-card" style="margin-bottom:16px;background:var(--surface-tint);border-color:#bfdbfe;">
-              <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
-                <div>
-                  <span class="badge badge-primary">SQA Exam Technique Blueprint: ${escapeHtml(guide.command)}</span>
-                  <h3 style="margin:6px 0 4px 0;font-size:17px;">${escapeHtml(guide.formula)}</h3>
-                  <p style="margin:0;font-size:13.5px;color:var(--text-secondary);">${escapeHtml(guide.rule)}</p>
-                </div>
-                <button type="button" class="btn btn-outline btn-sm" id="btn-toggle-drill-video">
-                  ▶ ${state.drillShowVideo ? "Hide Command Word Video" : "Watch YouTube Guide (" + guide.command + ")"}
-                </button>
-              </div>
-
-              ${state.drillShowVideo ? `
-                <div class="video-card" style="margin-top:12px;">
-                  <div class="video-header">
-                    <h4>▶ ${escapeHtml(guide.videoTitle)}</h4>
-                    <a href="https://www.youtube.com/watch?v=${escapeHtml(guide.videoId)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">
-                      Open on YouTube ↗
-                    </a>
-                  </div>
-                  <div class="video-frame-wrap">
-                    <iframe
-                      src="https://www.youtube-nocookie.com/embed/${escapeHtml(guide.videoId)}"
-                      title="${escapeHtml(guide.videoTitle)}"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              ` : ""}
-
-              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:12px;font-size:13px;">
-                <div style="background:#dcfce7;border:1px solid #86efac;padding:10px;border-radius:8px;">
-                  <strong style="color:#15803d;">✓ Full-Mark Example (${escapeHtml(guide.examplePrompt)}):</strong>
-                  <div style="white-space:pre-line;margin-top:4px;">${escapeHtml(guide.goodAnswer)}</div>
-                </div>
-                <div style="background:#fee2e2;border:1px solid #fca5a5;padding:10px;border-radius:8px;">
-                  <strong style="color:#b91c1c;">✗ Common Mistake to Avoid:</strong>
-                  <div style="white-space:pre-line;margin-top:4px;">${escapeHtml(guide.badAnswer)}</div>
-                </div>
-              </div>
-            </div>
-
+          <div id="drill-question-card">
             ${!currentQ ? `
               <div class="question-card">
-                <p>No drill questions match that exact filter combination. Try selecting "All 5 Course Areas" or "All Difficulty Levels".</p>
+                <p style="margin:0 0 10px 0;">No drill questions match that exact filter combination.</p>
+                <button type="button" class="btn btn-primary btn-sm" id="btn-reset-drill-filters">
+                  ↺ Reset Filters to Show All ${DATA.questions.filter(q => getQuestionDrillCategory(q) === state.drillCategory).length} ${escapeHtml(activeCatMeta.title)} Questions
+                </button>
               </div>
             ` : `
-              <div class="question-card">
-                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+              <!-- ACTIVE DRILL QUESTION CARD (Placed FIRST so mobile users see it immediately!) -->
+              <div class="question-card" style="border:2px solid var(--primary);box-shadow:var(--shadow-md);">
+                <!-- TOP QUICK-SWITCH BAR: Prev / Jump to Question Dropdown / Next -->
+                <div class="question-nav-bar">
+                  <button type="button" class="btn btn-outline btn-sm" id="btn-top-prev-drill">
+                    ← Prev
+                  </button>
+                  <select id="drill-question-jump" aria-label="Jump to drill question" style="flex:1;min-width:160px;font-weight:700;border-color:var(--primary);background:#f0fdfa;">
+                    ${questions.map((qItem, qIdx) => `
+                      <option value="${qIdx}" ${qIdx === safeIdx ? "selected" : ""}>
+                        Q${qIdx + 1} of ${questions.length} · ${escapeHtml(String(qItem.sourceYear))} Q${escapeHtml(String(qItem.sourceQuestion).replace(/^Q/i, ""))} (${escapeHtml(qItem.subtopic)})
+                      </option>
+                    `).join("")}
+                  </select>
+                  <button type="button" class="btn btn-primary btn-sm" id="btn-top-next-drill">
+                    Next →
+                  </button>
+                </div>
+
+                <!-- COMPACT COMMAND WORD BLUEPRINT & YOUTUBE GUIDE TOGGLE BAR -->
+                <div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#f0fdfa;border:1px solid #99f6e4;">
+                  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+                    <div style="font-size:13px;">
+                      <strong style="color:#0f766e;">🎯 ${escapeHtml(guide.command.toUpperCase())} Rule:</strong>
+                      <span>${escapeHtml(guide.formula)}</span>
+                    </div>
+                    <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                      <button type="button" class="btn btn-outline btn-sm" id="btn-toggle-drill-blueprint" style="background:#fff;">
+                        📖 ${state.drillShowBlueprint ? "Hide Example" : "Full-Mark Example"}
+                      </button>
+                      <button type="button" class="btn btn-outline btn-sm" id="btn-toggle-drill-video" style="background:#fff;">
+                        ▶ ${state.drillShowVideo ? "Hide Video" : "YouTube Guide"}
+                      </button>
+                    </div>
+                  </div>
+
+                  ${state.drillShowBlueprint ? `
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid #99f6e4;">
+                      <p style="margin:0 0 8px 0;font-size:13px;color:var(--text-secondary);">${escapeHtml(guide.rule)}</p>
+                      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;font-size:12.5px;">
+                        <div style="background:#dcfce7;border:1px solid #86efac;padding:9px;border-radius:8px;">
+                          <strong style="color:#15803d;">✓ Full-Mark Example (${escapeHtml(guide.examplePrompt)}):</strong>
+                          <div style="white-space:pre-line;margin-top:4px;">${escapeHtml(guide.goodAnswer)}</div>
+                        </div>
+                        <div style="background:#fee2e2;border:1px solid #fca5a5;padding:9px;border-radius:8px;">
+                          <strong style="color:#b91c1c;">✗ Common Mistake to Avoid:</strong>
+                          <div style="white-space:pre-line;margin-top:4px;">${escapeHtml(guide.badAnswer)}</div>
+                        </div>
+                      </div>
+                    </div>
+                  ` : ""}
+
+                  ${state.drillShowVideo ? `
+                    <div class="video-card" style="margin-top:10px;margin-bottom:2px;">
+                      <div class="video-header">
+                        <h4>▶ ${escapeHtml(guide.videoTitle)}</h4>
+                        <a href="https://www.youtube.com/watch?v=${escapeHtml(guide.videoId)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">
+                          Open on YouTube ↗
+                        </a>
+                      </div>
+                      <div class="video-frame-wrap">
+                        <iframe
+                          src="https://www.youtube-nocookie.com/embed/${escapeHtml(guide.videoId)}"
+                          title="${escapeHtml(guide.videoTitle)}"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  ` : ""}
+                </div>
+
+                <!-- QUESTION METADATA BADGES -->
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
                   <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                    <span class="badge badge-primary">${escapeHtml(currentQ.primaryCommand.toUpperCase())}</span>
-                    <span class="badge">${ currentQ.marks } ${ currentQ.marks === 1 ? "mark" : "marks" }</span>
+                    <span class="badge badge-primary">Command: ${escapeHtml(currentQ.primaryCommand.toUpperCase())}</span>
+                    <span class="badge" style="font-weight:700;">${currentQ.marks} ${currentQ.marks === 1 ? "mark" : "marks"}</span>
                     <span class="badge">Level ${escapeHtml(currentQ.computedLevel || currentQ.level || "B")}</span>
                     <span class="badge">${escapeHtml(currentQ.topic)} · ${escapeHtml(currentQ.subtopic)}</span>
-                    <span class="badge">SQA Past Paper · ${escapeHtml(String(currentQ.sourceYear))} · Q${escapeHtml(String(currentQ.sourceQuestion).replace(/^Q/i, ""))}</span>
+                    <span class="badge">SQA ${escapeHtml(String(currentQ.sourceYear))} · Q${escapeHtml(String(currentQ.sourceQuestion).replace(/^Q/i, ""))}</span>
                   </div>
-                  <span style="font-size:13px;font-weight:600;color:var(--text-muted);">
-                    Drill Question ${safeIdx + 1} of ${questions.length}
-                  </span>
                 </div>
 
                 ${currentQ.paperUrl || currentQ.markingUrl ? `
-                  <div style="font-size:12.5px;margin-bottom:8px;">
-                    ${currentQ.paperUrl ? `<a href="${escapeHtml(currentQ.paperUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">Open original SQA ${escapeHtml(String(currentQ.sourceYear))} paper ↗</a>` : ""}
-                    ${currentQ.paperUrl && currentQ.markingUrl ? " · " : ""}
-                    ${currentQ.markingUrl ? `<a href="${escapeHtml(currentQ.markingUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">Open official SQA marking instructions ↗</a>` : ""}
+                  <div style="font-size:12.5px;margin-bottom:8px;display:flex;gap:10px;flex-wrap:wrap;">
+                    ${currentQ.paperUrl ? `<a href="${escapeHtml(currentQ.paperUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">📄 Open SQA ${escapeHtml(String(currentQ.sourceYear))} paper ↗</a>` : ""}
+                    ${currentQ.markingUrl ? `<a href="${escapeHtml(currentQ.markingUrl)}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">✓ Official SQA marking instructions ↗</a>` : ""}
                   </div>
                 ` : ""}
 
-                <h3 style="font-size:18px;margin:8px 0 12px 0;line-height:1.45;">
+                <h3 style="font-size:17.5px;margin:8px 0 12px 0;line-height:1.45;">
                   ${escapeHtml(currentQ.text)}
                 </h3>
 
@@ -811,33 +848,49 @@
                 </label>
                 <textarea
                   id="drill-answer-box"
-                  rows="5"
+                  rows="4"
                   placeholder="Write your SQA answer here using bullet points…"
                 >${escapeHtml(state.drillAnswer)}</textarea>
 
-                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-top:12px;">
-                  <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                    <button type="button" class="btn btn-primary" id="btn-mark-drill">
-                      ✓ Mark Straight Away
-                    </button>
-                    <button type="button" class="btn btn-outline" id="btn-drill-hint">
-                      ${state.drillShowHint ? "Hide Hint" : "Show Hint"}
-                    </button>
+                ${state.drillEmptyError ? `
+                  <div role="alert" style="margin-top:8px;padding:10px 12px;border-radius:8px;background:#fffbeb;border:1.5px solid #f59e0b;color:#b45309;font-size:13.5px;font-weight:600;">
+                    ${escapeHtml(state.drillEmptyError)}
                   </div>
-                  <div style="display:flex;gap:8px;">
-                    <button type="button" class="btn btn-outline btn-sm" id="btn-prev-drill" ${safeIdx === 0 ? "disabled" : ""}>
-                      ← Previous
-                    </button>
-                    <button type="button" class="btn btn-soft btn-sm" id="btn-next-drill">
-                      Next Drill Question →
-                    </button>
-                  </div>
+                ` : ""}
+
+                <div class="drill-action-buttons">
+                  <button type="button" class="btn btn-primary" id="btn-mark-drill">
+                    ✓ Mark Straight Away
+                  </button>
+                  <button type="button" class="btn btn-outline" id="btn-drill-hint">
+                    💡 ${state.drillShowHint ? "Hide Hint" : "Show Hint"}
+                  </button>
+                  <button type="button" class="btn btn-outline" id="btn-drill-solution">
+                    👁 ${state.drillShowSolution ? "Hide Model Answer" : "SQA Model Answer"}
+                  </button>
+                </div>
+
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px;padding-top:10px;border-top:1px solid var(--border);">
+                  <button type="button" class="btn btn-outline btn-sm" id="btn-prev-drill" style="flex:1;">
+                    ← Previous Question
+                  </button>
+                  <button type="button" class="btn btn-soft btn-sm" id="btn-next-drill" style="flex:1;">
+                    Next Drill Question →
+                  </button>
                 </div>
 
                 ${state.drillShowHint ? `
                   <div style="margin-top:12px;padding:12px;background:var(--warning-bg);border:1px solid var(--warning-border);border-radius:8px;font-size:13.5px;">
-                    <strong>SQA Hint:</strong> ${escapeHtml(currentQ.hint)}
+                    <strong>💡 SQA Hint:</strong> ${escapeHtml(currentQ.hint)}
                     <div style="margin-top:4px;color:var(--text-secondary);"><strong>Marking Rule:</strong> ${escapeHtml(currentQ.markingRule)}</div>
+                  </div>
+                ` : ""}
+
+                ${state.drillShowSolution ? `
+                  <div style="margin-top:12px;padding:14px;background:#f0fdf4;border:1.5px solid #86efac;border-radius:10px;font-size:13.5px;">
+                    <strong style="color:#15803d;display:block;margin-bottom:6px;">✓ Official SQA Model Answer &amp; Marking Points (${currentQ.marks} marks):</strong>
+                    <div style="white-space:pre-line;background:#ffffff;padding:10px 12px;border-radius:8px;border:1px solid #bbf7d0;margin-bottom:8px;">${escapeHtml(currentQ.solution || (currentQ.acceptedPoints || []).map(p => `• ${p} (1)`).join("\n"))}</div>
+                    <div style="font-size:12.5px;color:#166534;"><strong>SQA Marking Rule:</strong> ${escapeHtml(currentQ.markingRule)}</div>
                   </div>
                 ` : ""}
 
@@ -851,22 +904,23 @@
             <div class="side-card">
               <h3 style="font-size:16px;margin-bottom:8px;">Command Word Mastery</h3>
               <p style="font-size:13px;color:var(--text-secondary);margin:0 0 12px 0;">
-                Your live score across every SQA command word type. Click any row to drill it immediately:
+                Your live score across every SQA command word type. Tap any row to switch to that drill:
               </p>
               <div style="display:flex;flex-direction:column;gap:10px;">
                 ${analytics.commandStats.map(c => {
                   const pct = c.average ?? 0;
                   const barColor = c.attempts === 0 ? "#cbd5e1" : pct >= 70 ? "#15803d" : pct >= 50 ? "#d97706" : "#b91c1c";
+                  const isCurrent = state.drillCategory === c.key;
                   return `
-                    <div style="cursor:pointer;" data-drill-cat="${c.key}">
-                      <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600;margin-bottom:3px;">
-                        <span>${escapeHtml(c.label)}</span>
-                        <span>${c.attempts === 0 ? "Not drilled yet" : `${pct}% (${c.attempts})`}</span>
+                    <button type="button" class="mastery-row-btn ${isCurrent ? "active" : ""}" data-drill-cat="${c.key}">
+                      <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-bottom:4px;width:100%;">
+                        <span>${isCurrent ? "▶ " : ""}${escapeHtml(c.label)}</span>
+                        <span>${c.attempts === 0 ? "Tap to drill →" : `${pct}% (${c.attempts})`}</span>
                       </div>
-                      <div style="height:8px;background:#e2e8f0;border-radius:99px;overflow:hidden;">
+                      <div style="height:8px;background:#e2e8f0;border-radius:99px;overflow:hidden;width:100%;">
                         <div style="height:100%;width:${c.attempts === 0 ? 0 : pct}%;background:${barColor};"></div>
                       </div>
-                    </div>
+                    </button>
                   `;
                 }).join("")}
               </div>
@@ -876,7 +930,7 @@
               <h3 style="font-size:16px;margin-bottom:8px;">Areas to Improve (Tracked Automatically)</h3>
               ${analytics.subtopicStats.length === 0 ? `
                 <p style="font-size:13px;color:var(--text-muted);margin:0;">
-                  Mark your first drill question on the left and your weakest topics & command words will appear here automatically.
+                  Mark your first drill question and your weakest topics &amp; command words will appear here automatically.
                 </p>
               ` : `
                 <div style="display:flex;flex-direction:column;gap:10px;">
@@ -893,7 +947,7 @@
                       </p>
                       <div style="display:flex;gap:6px;flex-wrap:wrap;">
                         <button type="button" class="btn btn-outline btn-sm" data-open-lesson="${escapeHtml(s.topic)}||${escapeHtml(s.subtopic)}">
-                          Watch Video & Notes
+                          Watch Video &amp; Notes
                         </button>
                         <button type="button" class="btn btn-soft btn-sm" data-drill-topic="${escapeHtml(s.topic)}">
                           Drill Topic
@@ -1318,7 +1372,7 @@
                 </button>
               </div>
               <div style="display:flex;gap:8px;">
-                <button type="button" class="btn btn-outline btn-sm" id="btn-prev-prac" ${safeIdx === 0 ? "disabled" : ""}>
+                <button type="button" class="btn btn-outline btn-sm" id="btn-prev-prac">
                   ← Previous
                 </button>
                 <button type="button" class="btn btn-soft btn-sm" id="btn-next-prac">
@@ -1326,6 +1380,12 @@
                 </button>
               </div>
             </div>
+
+            ${state.practiceEmptyError ? `
+              <div style="margin-top:10px;padding:10px 12px;background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:8px;font-size:13.5px;font-weight:600;">
+                ${escapeHtml(state.practiceEmptyError)}
+              </div>
+            ` : ""}
 
             ${state.practiceHint ? `
               <div style="margin-top:12px;padding:12px;background:var(--warning-bg);border:1px solid var(--warning-border);border-radius:8px;font-size:13.5px;">
@@ -1420,6 +1480,11 @@
                     ✓ ${myCaseAttempts.length ? "Submit Another Attempt" : "Mark This Attempt"}
                   </button>
                 </div>
+                ${state.caseEmptyErrors?.[key] ? `
+                  <div style="margin-top:8px;padding:8px 10px;background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:8px;font-size:13px;font-weight:600;">
+                    ${escapeHtml(state.caseEmptyErrors[key])}
+                  </div>
+                ` : ""}
                 ${renderFeedbackCard(res, { marks: q.marks, acceptedPoints: qGuidance, solution: q.solution || qGuidance.map(g => `• ${g} (1)`).join("\n") })}
                 ${myCaseAttempts.length > 0 ? `
                   <details style="margin-top:10px;padding:10px;background:#f8fafc;border-radius:8px;border:1px solid var(--border);font-size:13px;">
@@ -1531,6 +1596,11 @@
                       ✓ Mark My Homework
                     </button>
                   </div>
+                  ${state.hwEmptyErrors?.[hw.id] ? `
+                    <div style="margin-top:8px;padding:8px 10px;background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:8px;font-size:13px;font-weight:600;">
+                      ${escapeHtml(state.hwEmptyErrors[hw.id])}
+                    </div>
+                  ` : ""}
                 ` : ""}
                 ${renderFeedbackCard(res, { marks: hw.marks, acceptedPoints: qAccepted, markingRule: hw.markingRule, solution: hw.solution || qAccepted.map(p => `• ${p} (1)`).join("\n") })}
               </div>
@@ -2399,8 +2469,14 @@
         state.drillIndex = 0;
         state.drillAnswer = "";
         state.drillResult = null;
+        state.drillShowHint = false;
+        state.drillShowSolution = false;
+        state.drillEmptyError = "";
         state.activeTab = "drills";
         render();
+        setTimeout(() => {
+          document.getElementById("drill-question-card")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 40);
       });
     });
 
@@ -2412,7 +2488,14 @@
         state.drillAnswer = "";
         state.drillResult = null;
         state.drillShowHint = false;
+        state.drillShowSolution = false;
+        state.drillEmptyError = "";
         render();
+        if (window.innerWidth <= 920) {
+          setTimeout(() => {
+            document.getElementById("drill-question-card")?.scrollIntoView({ behavior: "smooth", block: "start" });
+          }, 40);
+        }
       });
     });
 
@@ -2421,6 +2504,8 @@
       state.drillIndex = 0;
       state.drillAnswer = "";
       state.drillResult = null;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
       render();
     });
 
@@ -2429,6 +2514,24 @@
       state.drillIndex = 0;
       state.drillAnswer = "";
       state.drillResult = null;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
+      render();
+    });
+
+    document.getElementById("btn-reset-drill-filters")?.addEventListener("click", () => {
+      state.drillTopic = "All topics";
+      state.drillLevel = "All levels";
+      state.drillIndex = 0;
+      state.drillAnswer = "";
+      state.drillResult = null;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
+      render();
+    });
+
+    document.getElementById("btn-toggle-drill-blueprint")?.addEventListener("click", () => {
+      state.drillShowBlueprint = !state.drillShowBlueprint;
       render();
     });
 
@@ -2437,15 +2540,37 @@
       render();
     });
 
+    document.getElementById("drill-question-jump")?.addEventListener("change", e => {
+      state.drillIndex = Number(e.target.value) || 0;
+      state.drillAnswer = "";
+      state.drillResult = null;
+      state.drillShowHint = false;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
+      render();
+    });
+
     const drillBox = document.getElementById("drill-answer-box");
     if (drillBox) {
-      drillBox.addEventListener("input", e => { state.drillAnswer = e.target.value; });
+      drillBox.addEventListener("input", e => {
+        state.drillAnswer = e.target.value;
+        if (state.drillEmptyError && state.drillAnswer.trim()) {
+          state.drillEmptyError = "";
+        }
+      });
     }
 
     document.getElementById("btn-mark-drill")?.addEventListener("click", () => {
       const questions = getDrillQuestions();
       const q = questions[Math.min(state.drillIndex, questions.length - 1)];
-      if (!q || !state.drillAnswer.trim()) return;
+      if (!q) return;
+      if (!state.drillAnswer.trim()) {
+        state.drillEmptyError = "✏️ Please type your answer in the box above before clicking Mark — or tap '👁 SQA Model Answer' to view the official solution!";
+        render();
+        document.getElementById("drill-answer-box")?.focus();
+        return;
+      }
+      state.drillEmptyError = "";
       const res = markSqaClient(q, state.drillAnswer);
       state.drillResult = res;
       recordAttempt(q, state.drillAnswer, res, "drill");
@@ -2457,22 +2582,37 @@
       render();
     });
 
-    document.getElementById("btn-prev-drill")?.addEventListener("click", () => {
-      state.drillIndex = Math.max(0, state.drillIndex - 1);
-      state.drillAnswer = "";
-      state.drillResult = null;
-      state.drillShowHint = false;
+    document.getElementById("btn-drill-solution")?.addEventListener("click", () => {
+      state.drillShowSolution = !state.drillShowSolution;
       render();
     });
 
-    document.getElementById("btn-next-drill")?.addEventListener("click", () => {
+    const goPrevDrill = () => {
+      const questions = getDrillQuestions();
+      state.drillIndex = questions.length ? (state.drillIndex - 1 + questions.length) % questions.length : 0;
+      state.drillAnswer = "";
+      state.drillResult = null;
+      state.drillShowHint = false;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
+      render();
+    };
+
+    const goNextDrill = () => {
       const questions = getDrillQuestions();
       state.drillIndex = questions.length ? (state.drillIndex + 1) % questions.length : 0;
       state.drillAnswer = "";
       state.drillResult = null;
       state.drillShowHint = false;
+      state.drillShowSolution = false;
+      state.drillEmptyError = "";
       render();
-    });
+    };
+
+    document.getElementById("btn-prev-drill")?.addEventListener("click", goPrevDrill);
+    document.getElementById("btn-top-prev-drill")?.addEventListener("click", goPrevDrill);
+    document.getElementById("btn-next-drill")?.addEventListener("click", goNextDrill);
+    document.getElementById("btn-top-next-drill")?.addEventListener("click", goNextDrill);
 
     // LESSONS TAB EVENTS
     document.querySelectorAll("[data-select-lesson-topic]").forEach(btn => {
@@ -2567,6 +2707,7 @@
       state.practiceIdx = 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
@@ -2575,6 +2716,7 @@
       state.practiceIdx = 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
@@ -2583,6 +2725,7 @@
       state.practiceIdx = 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
@@ -2591,17 +2734,28 @@
       state.practiceIdx = 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
     document.getElementById("prac-answer-box")?.addEventListener("input", e => {
       state.practiceAnswer = e.target.value;
+      if (state.practiceEmptyError && state.practiceAnswer.trim()) {
+        state.practiceEmptyError = "";
+      }
     });
 
     document.getElementById("btn-mark-prac")?.addEventListener("click", () => {
       const questions = getPracticeQuestions();
       const q = questions[Math.min(state.practiceIdx, questions.length - 1)];
-      if (!q || !state.practiceAnswer.trim()) return;
+      if (!q) return;
+      if (!state.practiceAnswer.trim()) {
+        state.practiceEmptyError = "✏️ Please type your answer in the box above before clicking Submit Answer!";
+        render();
+        document.getElementById("prac-answer-box")?.focus();
+        return;
+      }
+      state.practiceEmptyError = "";
       const res = markSqaClient(q, state.practiceAnswer);
       state.practiceResult = res;
       recordAttempt(q, state.practiceAnswer, res, "practice");
@@ -2619,9 +2773,11 @@
     });
 
     document.getElementById("btn-prev-prac")?.addEventListener("click", () => {
-      state.practiceIdx = Math.max(0, state.practiceIdx - 1);
+      const questions = getPracticeQuestions();
+      state.practiceIdx = questions.length ? (state.practiceIdx - 1 + questions.length) % questions.length : 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
@@ -2630,6 +2786,7 @@
       state.practiceIdx = questions.length ? (state.practiceIdx + 1) % questions.length : 0;
       state.practiceAnswer = "";
       state.practiceResult = null;
+      state.practiceEmptyError = "";
       render();
     });
 
@@ -2652,7 +2809,11 @@
 
     document.querySelectorAll("[data-case-input]").forEach(box => {
       box.addEventListener("input", e => {
-        state.caseAnswers[box.getAttribute("data-case-input")] = e.target.value;
+        const k = box.getAttribute("data-case-input");
+        state.caseAnswers[k] = e.target.value;
+        if (state.caseEmptyErrors?.[k] && e.target.value.trim()) {
+          delete state.caseEmptyErrors[k];
+        }
       });
     });
 
@@ -2664,7 +2825,14 @@
         const qObj = cs?.questions?.[idx];
         const key = `${caseId}-${idx}`;
         const ans = state.caseAnswers[key] || "";
-        if (!qObj || !ans.trim()) return;
+        if (!qObj) return;
+        if (!ans.trim()) {
+          state.caseEmptyErrors = state.caseEmptyErrors || {};
+          state.caseEmptyErrors[key] = "✏️ Please type your case study answer in the box above before clicking Mark!";
+          render();
+          return;
+        }
+        if (state.caseEmptyErrors?.[key]) delete state.caseEmptyErrors[key];
         const qText = qObj.text || qObj.q || "";
         const qGuidance = qObj.guidance || qObj.points || [];
         const res = markSqaClient({
@@ -2702,7 +2870,11 @@
 
     document.querySelectorAll("[data-hw-input]").forEach(box => {
       box.addEventListener("input", e => {
-        state.hwAnswers[box.getAttribute("data-hw-input")] = e.target.value;
+        const hwId = box.getAttribute("data-hw-input");
+        state.hwAnswers[hwId] = e.target.value;
+        if (state.hwEmptyErrors?.[hwId] && e.target.value.trim()) {
+          delete state.hwEmptyErrors[hwId];
+        }
       });
     });
 
@@ -2711,7 +2883,14 @@
         const hwId = btn.getAttribute("data-submit-hw");
         const hw = DATA.homework.find(h => h.id === hwId);
         const ans = state.hwAnswers[hwId] || "";
-        if (!hw || !ans.trim()) return;
+        if (!hw) return;
+        if (!ans.trim()) {
+          state.hwEmptyErrors = state.hwEmptyErrors || {};
+          state.hwEmptyErrors[hwId] = "✏️ Please type your homework answer in the box above before clicking Mark My Homework!";
+          render();
+          return;
+        }
+        if (state.hwEmptyErrors?.[hwId]) delete state.hwEmptyErrors[hwId];
         const qText = hw.text || hw.question || "";
         const qAccepted = hw.acceptedPoints || hw.points || [];
         const res = markSqaClient({
