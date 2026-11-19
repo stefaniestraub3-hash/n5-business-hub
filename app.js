@@ -267,7 +267,8 @@
       teachers: init.teachers || [
         { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] },
         { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4C2026", isOwner: false, assignedClasses: ["4CBM", "4CBM3"] },
-        { id: "teacher-craig-stephenson", name: "Craig Stephenson", pin: "CS2026", isOwner: false, assignedClasses: ["ABCD"] }
+        { id: "teacher-craig-stephenson", name: "Craig Stephenson", pin: "CS2026", isOwner: false, assignedClasses: ["ABCD"] },
+        { id: "teacher-rebecca", name: "Rebecca", pin: "RB2026", isOwner: false, assignedClasses: [] }
       ],
       pupils: init.pupils || [],
       attempts: init.attempts || [],
@@ -3108,6 +3109,26 @@
           saveLocalState();
           return render();
         }
+        if (name.toLowerCase() === "rebecca") {
+          const customOwn = (state.classes || []).filter(c => c.createdBy === "Rebecca").map(c => String(c.code).toUpperCase());
+          state.user = {
+            userId: "teacher-rebecca",
+            name: "Rebecca",
+            role: "teacher",
+            teacher: true,
+            owner: false,
+            pinVerified: true,
+            assignedClasses: customOwn,
+            classCode: "TEACHER",
+            className: "Teacher"
+          };
+          state.teacherUnlocked = true;
+          state.activeTab = "teacher";
+          state.teacherClassFilter = "ALL";
+          state.loginError = "";
+          saveLocalState();
+          return render();
+        }
         if (name.length < 2) {
           state.loginError = "Please enter your full name.";
           return render();
@@ -4289,7 +4310,7 @@
       if (tName && tPin) {
         const assignedClasses = tClassesRaw
           ? tClassesRaw.split(",").map(c => c.trim().toUpperCase()).filter(Boolean)
-          : ["ALL"];
+          : [];
         // Ensure assigned classes exist in state.classes
         assignedClasses.forEach(code => {
           if (code !== "ALL" && !state.classes.some(c => String(c.code).toUpperCase() === code)) {
