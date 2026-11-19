@@ -275,6 +275,10 @@
       homeworkSubmissions: init.homeworkSubmissions || [],
       trackingRecords: init.trackingRecords || {},
       reviseTerms: [],
+      masteredTerms: [],
+      assignmentChecklist: {},
+      streakData: { days: 1, lastDate: new Date().toISOString().slice(0, 10) },
+      cloudSyncUrl: "",
       customVideos: {}
     };
   }
@@ -291,6 +295,10 @@
         homeworkSubmissions: state.homeworkSubmissions,
         trackingRecords: state.trackingRecords || {},
         reviseTerms: state.reviseTerms,
+        masteredTerms: state.masteredTerms || [],
+        assignmentChecklist: state.assignmentChecklist || {},
+        streakData: state.streakData || { days: 1, lastDate: new Date().toISOString().slice(0, 10) },
+        cloudSyncUrl: state.cloudSyncUrl || "",
         customVideos: state.customVideos,
         rememberedPupil: state.rememberedPupil
       }));
@@ -421,7 +429,24 @@
     homeworkSubmissions: saved.homeworkSubmissions,
     trackingRecords: saved.trackingRecords || {},
     trackingClassFilter: 'All',
-    customVideos: saved.customVideos || {}
+    customVideos: saved.customVideos || {},
+    // Flashcards state
+    flashcardTopic: "All",
+    flashcardIndex: 0,
+    flashcardFlipped: false,
+    masteredTerms: saved.masteredTerms || [],
+    // N5 Assignment Helper checklist
+    assignmentChecklist: saved.assignmentChecklist || {},
+    // Daily Revision Streak
+    streakData: saved.streakData || { days: 1, lastDate: new Date().toISOString().slice(0, 10) },
+    // Full 70-Mark Timed SQA Mock Exam
+    mockPaper: null,
+    mockAnswers: {},
+    mockResults: null,
+    mockSecondsLeft: 5400,
+    mockTimerId: null,
+    // Optional Firebase/Cloud Sync URL
+    cloudSyncUrl: saved.cloudSyncUrl || ""
   };
 
   function matchTeacherAccount(rawName, rawPin) {
@@ -2467,6 +2492,320 @@
     `;
   }
 
+  function getAllFlashcards() {
+    const cards = [];
+    (DATA.lessons || []).forEach(l => {
+      (l.definitions || []).forEach(d => {
+        if (d && d.term && d.meaning) {
+          cards.push({ topic: l.topic || "Understanding Business", subtopic: l.title || "", term: d.term, meaning: d.meaning });
+        }
+      });
+    });
+    return cards;
+  }
+
+  function renderFlashcardsTab() {
+    const allCards = getAllFlashcards();
+    const filtered = state.flashcardTopic === "All"
+      ? allCards
+      : allCards.filter(c => c.topic === state.flashcardTopic);
+    const safeIdx = filtered.length ? Math.max(0, Math.min(state.flashcardIndex, filtered.length - 1)) : 0;
+    const card = filtered[safeIdx];
+    const masteredSet = new Set(state.masteredTerms || []);
+    const masteredCount = filtered.filter(c => masteredSet.has(c.term)).length;
+
+    return `
+      <section class="section-panel">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+          <div>
+            <p class="kicker">QUICK-FIRE SQA DEFINITIONS · TAP CARD TO FLIP</p>
+            <h2 style="margin:0 0 4px 0;">🃏 Key Term Flashcards</h2>
+            <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">Master essential SQA National 5 Business Management definitions in 5-minute bursts.</p>
+          </div>
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+            <select id="flashcard-topic-select" style="padding:8px 10px;border-radius:8px;border:1px solid var(--border);font-size:13.5px;">
+              <option value="All" ${state.flashcardTopic === "All" ? "selected" : ""}>All 5 Course Areas (${allCards.length})</option>
+              ${Object.keys(DATA.courseAreas).map(t => `<option value="${escapeHtml(t)}" ${state.flashcardTopic === t ? "selected" : ""}>${escapeHtml(t)}</option>`).join("")}
+            </select>
+            <span class="badge badge-success">✅ Mastered: ${masteredCount} / ${filtered.length}</span>
+          </div>
+        </div>
+
+        ${card ? `
+          <div id="flashcard-box" style="cursor:pointer;min-height:220px;padding:28px 22px;border-radius:18px;background:${state.flashcardFlipped ? "#f5f3ff" : "linear-gradient(135deg,#6d28d9,#4c1d95)"};color:${state.flashcardFlipped ? "#2e1065" : "#ffffff"};border:2px solid #7c3aed;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;box-shadow:0 8px 24px rgba(109,40,217,0.16);transition:all 0.2s ease;">
+            <span style="font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;opacity:0.85;margin-bottom:10px;">
+              ${escapeHtml(card.topic)} · Card ${safeIdx + 1} of ${filtered.length} · ${state.flashcardFlipped ? "SQA DEFINITION" : "KEY TERM (TAP TO FLIP)"}
+            </span>
+            <div style="font-size:${state.flashcardFlipped ? "17px" : "24px"};font-weight:${state.flashcardFlipped ? "600" : "800"};line-height:1.45;max-width:620px;">
+              ${escapeHtml(state.flashcardFlipped ? card.meaning : card.term)}
+            </div>
+            ${masteredSet.has(card.term) ? `<span class="badge badge-success" style="margin-top:14px;">✅ Mastered</span>` : ""}
+          </div>
+
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;">
+            <button type="button" class="btn btn-outline btn-sm" id="btn-fc-prev">← Previous</button>
+            <button type="button" class="btn btn-outline btn-sm" id="btn-fc-revise" style="border-color:#f59e0b;color:#b45309;font-weight:700;">🔁 Revise Again</button>
+            <button type="button" class="btn btn-primary btn-sm" id="btn-fc-gotit" style="background:#16a34a;border-color:#16a34a;">✅ Got It! (+5 XP)</button>
+            <button type="button" class="btn btn-outline btn-sm" id="btn-fc-next">Next →</button>
+          </div>
+        ` : `<p>No flashcards found for this topic.</p>`}
+      </section>
+    `;
+  }
+
+  function renderAssignmentTab() {
+    const sections = [
+      {
+        id: "intro",
+        title: "1. Title & Introduction (2 marks)",
+        marks: "2 marks",
+        items: [
+          { id: "a1", text: "State the name of the real business/organisation you are researching." },
+          { id: "a2", text: "State a clear, specific purpose/objective for your report (e.g. 'To investigate how [Business] uses marketing to attract customers')." }
+        ],
+        tip: "SQA Tip: Keep your title focused on ONE clear business topic (e.g. Marketing, Customer Service, or HR) — broad topics lose marks in analysis."
+      },
+      {
+        id: "research",
+        title: "2. Research Methods (4 marks)",
+        marks: "4 marks",
+        items: [
+          { id: "a3", text: "Use at least TWO different research sources (e.g. Primary: questionnaire/interview + Secondary: company website/news article)." },
+          { id: "a4", text: "State WHY each source was suitable, reliable, or limited (e.g. bias, up-to-date, sample size)." }
+        ],
+        tip: "SQA Tip: Don't just list 'Google' — name the exact website, date accessed, or who you surveyed and how many responses you got."
+      },
+      {
+        id: "analysis",
+        title: "3. Analysis & Interpretation of Findings (12 marks)",
+        marks: "12 marks",
+        items: [
+          { id: "a5", text: "Present key findings clearly using charts, graphs, or tables (not giant walls of copied text)." },
+          { id: "a6", text: "Explain WHAT each finding means for the business (use 'This means that...', 'As a result...', 'This could lead to...')." },
+          { id: "a7", text: "Link findings directly to SQA N5 Business Management theory (e.g. 4 Ps, customer loyalty, motivation, cash flow)." }
+        ],
+        tip: "SQA Pitfall: Copying and pasting from websites earns 0 analysis marks. Every paragraph must explain the impact on the business."
+      },
+      {
+        id: "conclusions",
+        title: "4. Conclusions & Recommendations (8 marks)",
+        marks: "8 marks",
+        items: [
+          { id: "a8", text: "Write clear conclusions that directly answer your report's original purpose." },
+          { id: "a9", text: "Make realistic, justified recommendations for the business — each backed up by your research findings." }
+        ],
+        tip: "SQA Tip: Never introduce brand-new facts in your conclusion. Every recommendation must say HOW it solves a finding from Section 3."
+      },
+      {
+        id: "presentation",
+        title: "5. Report Presentation & Structure (4 marks)",
+        marks: "4 marks",
+        items: [
+          { id: "a10", text: "Use clear headings, subheadings, page numbers, and accurate N5 business terminology." },
+          { id: "a11", text: "Include properly labelled appendices (e.g. blank questionnaire, tally chart, or source list) and stay within the SQA word/page limit." }
+        ],
+        tip: "SQA Tip: Keep it professional — proofread spelling of business terms and make sure every chart has a title and labelled axes."
+      }
+    ];
+    const cl = state.assignmentChecklist || {};
+    const allItems = sections.flatMap(s => s.items);
+    const doneCount = allItems.filter(i => cl[i.id]).length;
+    const pct = Math.round((doneCount / allItems.length) * 100);
+
+    return `
+      <section class="section-panel">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+          <div>
+            <p class="kicker">SQA NATIONAL 5 ASSIGNMENT · 30 RAW MARKS (22% OF FINAL GRADE)</p>
+            <h2 style="margin:0 0 4px 0;">📋 N5 Business Assignment Helper &amp; Checklist</h2>
+            <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">Tick off each SQA marking requirement as you build your report. Your checklist saves automatically.</p>
+          </div>
+          <span class="badge badge-primary" style="font-size:14px;padding:6px 12px;">Progress: ${doneCount} / ${allItems.length} (${pct}%)</span>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          ${sections.map(sec => `
+            <div style="padding:14px 16px;border-radius:12px;background:#fff;border:1.5px solid var(--border);">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+                <strong style="font-size:15px;color:#2e1065;">${sec.title}</strong>
+                <span class="badge badge-soft">${sec.marks}</span>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:7px;">
+                ${sec.items.map(it => `
+                  <label style="display:flex;gap:10px;align-items:flex-start;cursor:pointer;font-size:13.5px;">
+                    <input type="checkbox" data-assign-check="${it.id}" ${cl[it.id] ? "checked" : ""} style="margin-top:3px;width:17px;height:17px;accent-color:#7c3aed;" />
+                    <span style="${cl[it.id] ? "text-decoration:line-through;color:var(--text-muted);" : ""}">${escapeHtml(it.text)}</span>
+                  </label>
+                `).join("")}
+              </div>
+              <div style="margin-top:10px;padding:8px 10px;border-radius:8px;background:#f5f3ff;color:#4c1d95;font-size:12.5px;font-weight:600;">
+                💡 ${escapeHtml(sec.tip)}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function startFullMockExam() {
+    if (state.mockTimerId) clearInterval(state.mockTimerId);
+    const caseObj = (DATA.caseStudies || [])[Math.floor(Math.random() * Math.max(1, (DATA.caseStudies || []).length))] || null;
+    const sec1Questions = caseObj ? (caseObj.questions || []).slice(0, 6) : [];
+    const sec2Sections = Object.keys(DATA.courseAreas).map(topic => {
+      const pool = (DATA.questions || []).filter(q => q.topic === topic).sort(() => Math.random() - 0.5);
+      const picked = [];
+      let m = 0;
+      for (const q of pool) {
+        const qm = Number(q.marks) || 2;
+        if (m + qm <= 10 || picked.length < 3) {
+          picked.push(q);
+          m += qm;
+        }
+        if (m >= 10) break;
+      }
+      return { topic, questions: picked, marks: m };
+    });
+    state.mockPaper = { caseObj, sec1Questions, sec2Sections };
+    state.mockAnswers = {};
+    state.mockResults = null;
+    state.mockSecondsLeft = 5400; // 1 hr 30 mins
+    state.activeTab = "mock";
+    state.mockTimerId = setInterval(() => {
+      if (state.mockSecondsLeft > 0 && !state.mockResults) {
+        state.mockSecondsLeft--;
+        const el = document.getElementById("mock-timer-display");
+        if (el) {
+          const m = String(Math.floor(state.mockSecondsLeft / 60)).padStart(2, "0");
+          const s = String(state.mockSecondsLeft % 60).padStart(2, "0");
+          el.textContent = `${m}:${s}`;
+        }
+      } else if (state.mockSecondsLeft <= 0) {
+        clearInterval(state.mockTimerId);
+      }
+    }, 1000);
+    render();
+  }
+
+  function renderFullMockTab() {
+    if (!state.mockPaper) {
+      return `
+        <section class="section-panel">
+          <p class="kicker">FULL SQA EXAM PAPER GENERATOR · 70 MARKS · 1 HOUR 30 MINUTES</p>
+          <h2>📄 Full 70-Mark SQA National 5 Mock Exam</h2>
+          <p style="color:var(--text-secondary);font-size:14px;">
+            Generates a complete SQA-style National 5 Business Management exam paper:
+            <strong>Section 1</strong> (Case Study stimulus questions) + <strong>Section 2</strong> (five 10-mark sections across all 5 course areas), with a 90-minute countdown timer, instant SQA auto-marking, estimated Grade Band (A–D), and a printable summary for parents' night.
+          </p>
+          <button type="button" class="btn btn-primary" id="btn-start-full-mock">📄 Generate &amp; Start 70-Mark Mock Exam</button>
+        </section>
+      `;
+    }
+    const mins = String(Math.floor(state.mockSecondsLeft / 60)).padStart(2, "0");
+    const secs = String(state.mockSecondsLeft % 60).padStart(2, "0");
+    const { caseObj, sec1Questions, sec2Sections } = state.mockPaper;
+
+    return `
+      <section class="section-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
+          <div>
+            <p class="kicker">SQA NATIONAL 5 MOCK EXAM · 1 HOUR 30 MINUTES</p>
+            <h2 style="margin:0;">📄 Full Mock Exam Paper</h2>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;" class="no-print">
+            <span class="badge badge-primary" style="font-size:15px;padding:6px 14px;">⏱️ <span id="mock-timer-display">${mins}:${secs}</span></span>
+            <button type="button" class="btn btn-outline btn-sm" id="btn-start-full-mock">↻ New Paper</button>
+            <button type="button" class="btn btn-outline btn-sm" onclick="window.print()">🖨️ Print Summary</button>
+          </div>
+        </div>
+
+        ${state.mockResults ? `
+          <div class="feedback-box ${state.mockResults.pct >= 70 ? "full-marks" : state.mockResults.pct >= 50 ? "partial-marks" : "zero-marks"}" style="margin-bottom:16px;">
+            <h3 style="margin:0 0 6px 0;">Mock Exam Result: ${state.mockResults.earned} / ${state.mockResults.total} marks (${state.mockResults.pct}%) — Estimated SQA Band: ${state.mockResults.grade}</h3>
+            <p style="margin:0;font-size:13.5px;">Pupil: <strong>${escapeHtml(state.user?.name || "Pupil")}</strong> · Date: ${new Date().toLocaleDateString("en-GB")} · Use the Print Summary button above for parents' night or teacher review.</p>
+          </div>
+        ` : ""}
+
+        ${caseObj ? `
+          <div style="padding:16px;border-radius:12px;background:#f5f3ff;border:1.5px solid #c4b5fd;margin-bottom:16px;">
+            <p class="kicker" style="margin-bottom:4px;">SECTION 1 · CASE STUDY STIMULUS</p>
+            <h3 style="margin:0 0 8px 0;">${escapeHtml(caseObj.title)}</h3>
+            <p style="margin:0 0 12px 0;font-size:13.5px;white-space:pre-line;">${escapeHtml(caseObj.scenario || caseObj.stimulus || "")}</p>
+            ${sec1Questions.map((q, idx) => {
+              const qKey = "s1-" + idx;
+              const res = state.mockResults?.details?.[qKey];
+              return `
+                <div style="padding:12px;background:#fff;border-radius:10px;border:1px solid var(--border);margin-bottom:10px;">
+                  <div style="font-weight:700;font-size:14px;margin-bottom:6px;">1(${String.fromCharCode(97 + idx)}) ${escapeHtml(q.prompt || q.question)} <span class="badge badge-primary">${q.marks || 2}m</span></div>
+                  <textarea rows="3" data-mock-q="${qKey}" onpaste="return false;" placeholder="Type your SQA answer here..." style="width:100%;padding:9px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">${escapeHtml(state.mockAnswers[qKey] || "")}</textarea>
+                  ${res ? `<div style="margin-top:6px;font-size:13px;font-weight:700;color:${res.marks === res.marksAvailable ? "#15803d" : "#b45309"};">Marked: ${res.marks} / ${res.marksAvailable} marks</div>` : ""}
+                </div>
+              `;
+            }).join("")}
+          </div>
+        ` : ""}
+
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          ${sec2Sections.map((sec, sIdx) => `
+            <div style="padding:16px;border-radius:12px;background:#fff;border:1.5px solid var(--border);">
+              <p class="kicker" style="margin-bottom:4px;">SECTION 2 · QUESTION ${sIdx + 2} (${sec.marks} MARKS)</p>
+              <h3 style="margin:0 0 10px 0;">${escapeHtml(sec.topic)}</h3>
+              ${sec.questions.map((q, qIdx) => {
+                const qKey = `s2-${sIdx}-${qIdx}`;
+                const res = state.mockResults?.details?.[qKey];
+                return `
+                  <div style="margin-bottom:12px;">
+                    <div style="font-weight:700;font-size:14px;margin-bottom:6px;">${sIdx + 2}(${String.fromCharCode(97 + qIdx)}) ${escapeHtml(q.prompt)} <span class="badge badge-primary">${q.marks}m</span></div>
+                    <textarea rows="3" data-mock-q="${qKey}" onpaste="return false;" placeholder="Type your SQA answer here..." style="width:100%;padding:9px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">${escapeHtml(state.mockAnswers[qKey] || "")}</textarea>
+                    ${res ? `<div style="margin-top:6px;font-size:13px;font-weight:700;color:${res.marks === res.marksAvailable ? "#15803d" : "#b45309"};">Marked: ${res.marks} / ${res.marksAvailable} marks</div>` : ""}
+                  </div>
+                `;
+              }).join("")}
+            </div>
+          `).join("")}
+        </div>
+
+        ${!state.mockResults ? `
+          <div style="margin-top:16px;" class="no-print">
+            <button type="button" class="btn btn-primary" id="btn-submit-full-mock" style="width:100%;padding:13px;font-size:15px;">
+              ✅ Submit &amp; Auto-Mark Full Mock Exam
+            </button>
+          </div>
+        ` : ""}
+      </section>
+    `;
+  }
+
+  function renderClassLeaderboardCard() {
+    const myClass = String(state.user?.classCode || "").toUpperCase();
+    if (!myClass || myClass === "TEACHER") return "";
+    const classmates = (state.pupils || []).filter(p => String(p.classCode || "").toUpperCase() === myClass);
+    const ranked = classmates.map(p => {
+      const pAtt = (state.attempts || []).filter(a => a.userId === p.userId || a.userName?.toLowerCase() === p.name?.toLowerCase());
+      const xp = pAtt.length * 10 + pAtt.filter(a => a.percentage === 100).length * 15;
+      const parts = String(p.name || "Pupil").trim().split(/\s+/);
+      const shortName = parts.length > 1 ? `${parts[0]} ${parts[parts.length - 1][0]}.` : parts[0];
+      return { userId: p.userId, shortName, xp, isMe: p.userId === state.user?.userId || p.name?.toLowerCase() === state.user?.name?.toLowerCase() };
+    }).sort((a, b) => b.xp - a.xp).slice(0, 5);
+    if (!ranked.length) return "";
+    return `
+      <div style="margin-top:14px;padding:14px 16px;border-radius:12px;background:#faf5ff;border:1.5px solid #c4b5fd;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+          <strong style="font-size:14.5px;color:#2e1065;">🏆 Class ${escapeHtml(state.user?.className || myClass)} XP Leaderboard</strong>
+          <span class="badge badge-primary">🔥 ${state.streakData?.days || 1}-day streak</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:5px;">
+          ${ranked.map((r, i) => `
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:8px;background:${r.isMe ? "#ede9fe" : "#fff"};border:1px solid ${r.isMe ? "#7c3aed" : "#e2e8f0"};font-size:13px;">
+              <span><strong>#${i + 1}</strong> ${escapeHtml(r.shortName)} ${r.isMe ? "<strong>(You)</strong>" : ""}</span>
+              <span style="font-weight:700;color:#6d28d9;">${r.xp} XP</span>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+
   function renderMainHub() {
     const analytics = computeAnalytics();
     const isTeacher = isTeacherUser(state.user);
@@ -2569,13 +2908,18 @@
 
             <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin-top:14px;">
               <button type="button" class="btn btn-primary btn-sm" data-tab="drills">⚡ Command Drills</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="flashcards">🃏 Key Term Flashcards</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="homework">📅 Monthly Homework</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="practice">📝 Past Papers</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="cases">🏢 Case Studies</button>
-              <button type="button" class="btn btn-primary btn-sm" id="btn-launch-mini-exam">⏱️ 10-Mark SQA Sprint</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="assignment">📋 N5 Assignment</button>
+              <button type="button" class="btn btn-primary btn-sm" id="btn-launch-mini-exam">⏱️ 10-Mark Sprint</button>
+              <button type="button" class="btn btn-primary btn-sm" data-tab="mock" style="background:#4c1d95;border-color:#4c1d95;">📄 70-Mark Mock</button>
               <button type="button" class="btn btn-outline btn-sm" data-goto-drill="${escapeHtml((analytics.commandStats || []).slice().sort((a,b) => (a.avgPct||0) - (b.avgPct||0))[0]?.key || 'explain')}">🧠 Fix Weakest Area</button>
             </div>
+
+            ${renderClassLeaderboardCard()}
 
             <details style="margin-top:12px;font-size:13px;color:var(--text-secondary);background:var(--surface-alt);padding:8px 12px;border-radius:8px;border:1px solid var(--border);">
               <summary style="font-weight:700;cursor:pointer;color:var(--text);">Exam information and official SQA course specification</summary>
@@ -2618,6 +2962,9 @@
         ${state.activeTab === "homework" ? renderHomeworkTab() : ""}
         ${state.activeTab === "progress" ? renderProgressTab(analytics) : ""}
         ${state.activeTab === "exam" ? renderMiniExamTab() : ""}
+        ${state.activeTab === "flashcards" ? renderFlashcardsTab() : ""}
+        ${state.activeTab === "assignment" ? renderAssignmentTab() : ""}
+        ${state.activeTab === "mock" ? renderFullMockTab() : ""}
 
         <!-- MOBILE BOTTOM NAVIGATION DOCK -->
         <nav class="mobile-dock">
@@ -3814,6 +4161,114 @@
         saveLocalState();
         render();
       });
+    });
+
+    // FLASHCARDS EVENTS
+    document.getElementById("flashcard-topic-select")?.addEventListener("change", e => {
+      state.flashcardTopic = e.target.value;
+      state.flashcardIndex = 0;
+      state.flashcardFlipped = false;
+      render();
+    });
+
+    document.getElementById("flashcard-box")?.addEventListener("click", () => {
+      state.flashcardFlipped = !state.flashcardFlipped;
+      render();
+    });
+
+    document.getElementById("btn-fc-prev")?.addEventListener("click", () => {
+      const all = getAllFlashcards().filter(c => state.flashcardTopic === "All" || c.topic === state.flashcardTopic);
+      if (!all.length) return;
+      state.flashcardIndex = (state.flashcardIndex - 1 + all.length) % all.length;
+      state.flashcardFlipped = false;
+      render();
+    });
+
+    document.getElementById("btn-fc-next")?.addEventListener("click", () => {
+      const all = getAllFlashcards().filter(c => state.flashcardTopic === "All" || c.topic === state.flashcardTopic);
+      if (!all.length) return;
+      state.flashcardIndex = (state.flashcardIndex + 1) % all.length;
+      state.flashcardFlipped = false;
+      render();
+    });
+
+    document.getElementById("btn-fc-gotit")?.addEventListener("click", () => {
+      const all = getAllFlashcards().filter(c => state.flashcardTopic === "All" || c.topic === state.flashcardTopic);
+      const card = all[state.flashcardIndex];
+      if (card) {
+        state.masteredTerms = Array.from(new Set([...(state.masteredTerms || []), card.term]));
+        state.reviseTerms = (state.reviseTerms || []).filter(t => t !== card.term);
+        state.flashcardIndex = (state.flashcardIndex + 1) % Math.max(1, all.length);
+        state.flashcardFlipped = false;
+        saveLocalState();
+        render();
+      }
+    });
+
+    document.getElementById("btn-fc-revise")?.addEventListener("click", () => {
+      const all = getAllFlashcards().filter(c => state.flashcardTopic === "All" || c.topic === state.flashcardTopic);
+      const card = all[state.flashcardIndex];
+      if (card) {
+        state.reviseTerms = Array.from(new Set([...(state.reviseTerms || []), card.term]));
+        state.masteredTerms = (state.masteredTerms || []).filter(t => t !== card.term);
+        state.flashcardIndex = (state.flashcardIndex + 1) % Math.max(1, all.length);
+        state.flashcardFlipped = false;
+        saveLocalState();
+        render();
+      }
+    });
+
+    // N5 ASSIGNMENT CHECKLIST EVENTS
+    document.querySelectorAll("[data-assign-check]").forEach(cb => {
+      cb.addEventListener("change", () => {
+        const id = cb.getAttribute("data-assign-check");
+        state.assignmentChecklist = state.assignmentChecklist || {};
+        state.assignmentChecklist[id] = cb.checked;
+        saveLocalState();
+        render();
+      });
+    });
+
+    // FULL 70-MARK MOCK EXAM EVENTS
+    document.getElementById("btn-start-full-mock")?.addEventListener("click", () => {
+      startFullMockExam();
+    });
+
+    document.querySelectorAll("[data-mock-q]").forEach(ta => {
+      ta.addEventListener("input", e => {
+        state.mockAnswers[ta.getAttribute("data-mock-q")] = e.target.value;
+      });
+    });
+
+    document.getElementById("btn-submit-full-mock")?.addEventListener("click", () => {
+      if (!state.mockPaper) return;
+      if (state.mockTimerId) clearInterval(state.mockTimerId);
+      const details = {};
+      let earned = 0;
+      let total = 0;
+      (state.mockPaper.sec1Questions || []).forEach((q, idx) => {
+        const qKey = "s1-" + idx;
+        const ans = state.mockAnswers[qKey] || "";
+        const res = markSqaClient({ ...q, prompt: q.prompt || q.question, marks: q.marks || 2 }, ans);
+        details[qKey] = res;
+        earned += res.marks;
+        total += res.marksAvailable;
+      });
+      (state.mockPaper.sec2Sections || []).forEach((sec, sIdx) => {
+        (sec.questions || []).forEach((q, qIdx) => {
+          const qKey = `s2-${sIdx}-${qIdx}`;
+          const ans = state.mockAnswers[qKey] || "";
+          const res = markSqaClient(q, ans);
+          details[qKey] = res;
+          earned += res.marks;
+          total += res.marksAvailable;
+        });
+      });
+      const pct = total > 0 ? Math.round((earned / total) * 100) : 0;
+      const grade = pct >= 70 ? "A" : pct >= 60 ? "B" : pct >= 50 ? "C" : pct >= 40 ? "D" : "No Award";
+      state.mockResults = { earned, total, pct, grade, details };
+      saveLocalState();
+      render();
     });
   }
 
