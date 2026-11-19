@@ -2234,7 +2234,12 @@
                       name: state.trackingRecords[k]?.name || k,
                       className: state.trackingRecords[k]?.className || ""
                     }))
-                  ].filter(r => state.trackingClassFilter === "All" || (r.className || "").toUpperCase().includes(state.trackingClassFilter));
+                  ].filter(r => {
+                    const clsUpper = (r.className || "").toUpperCase();
+                    const inTeacherScope = isOwnerTeacher || (state.user?.assignedClasses || []).includes("ALL") || [...visibleClassCodes].some(c => clsUpper.includes(c));
+                    const matchesFilter = state.trackingClassFilter === "All" || clsUpper.includes(state.trackingClassFilter);
+                    return inTeacherScope && matchesFilter;
+                  });
 
                   return allRows.map(r => {
                     const rec = (state.trackingRecords || {})[r.key] || {};
@@ -2307,7 +2312,10 @@
                       · PIN: <code>${escapeHtml(t.pin)}</code>
                       · Classes: <strong>${(t.assignedClasses || ["ALL"]).includes("ALL") ? "All classes" : escapeHtml((t.assignedClasses || []).join(", "))}</strong>
                     </div>
-                    ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-remove-teacher="${escapeHtml(t.id)}" style="color:#dc2626;border-color:#fca5a5;">Remove</button>` : ""}
+                    <div style="display:flex;gap:6px;align-items:center;">
+                      ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-copy-teacher-link="${escapeHtml(t.id)}" style="color:#7c3aed;border-color:#c4b5fd;">📋 Copy Personal Link</button>` : ""}
+                      ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-remove-teacher="${escapeHtml(t.id)}" style="color:#dc2626;border-color:#fca5a5;">Remove</button>` : ""}
+                    </div>
                   </div>
                 `).join("")}
               </div>
@@ -3683,6 +3691,30 @@
       render();
     });
 
+    document.querySelectorAll("[data-copy-teacher-link]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-copy-teacher-link");
+        const t = (state.teachers || []).find(x => x.id === id);
+        if (!t) return;
+        const base = window.location.origin + window.location.pathname;
+        const q = new URLSearchParams({
+          teacher: "1",
+          tName: t.name,
+          tPin: t.pin,
+          tClasses: (t.assignedClasses || ["ALL"]).join(",")
+        });
+        const url = `${base}?${q.toString()}`;
+        if (navigator.clipboard?.writeText) {
+          navigator.clipboard.writeText(url).then(() => {
+            btn.textContent = "✓ Link Copied!";
+            setTimeout(() => { btn.textContent = "📋 Copy Personal Link"; }, 2000);
+          }).catch(() => window.prompt("Copy this teacher's personal link:", url));
+        } else {
+          window.prompt("Copy this teacher's personal link:", url);
+        }
+      });
+    });
+
     document.querySelectorAll("[data-remove-teacher]").forEach(btn => {
       btn.addEventListener("click", () => {
         const id = btn.getAttribute("data-remove-teacher");
@@ -3699,6 +3731,33 @@
     if (params.has("teacher")) {
       state.showTeacherLogin = true;
       state.user = null;
+      const tName = (params.get("tName") || "").trim();
+      const tPin = (params.get("tPin") || "").trim().toUpperCase();
+      const tClassesRaw = (params.get("tClasses") || "").trim();
+      if (tName && tPin) {
+        const assignedClasses = tClassesRaw
+          ? tClassesRaw.split(",").map(c => c.trim().toUpperCase()).filter(Boolean)
+          : ["ALL"];
+        // Ensure assigned classes exist in state.classes
+        assignedClasses.forEach(code => {
+          if (code !== "ALL" && !state.classes.some(c => String(c.code).toUpperCase() === code)) {
+            state.classes.push({ id: "cls-" + code.toLowerCase(), name: code, code });
+          }
+        });
+        // Register or update this colleague's teacher account on their device
+        state.teachers = state.teachers || [];
+        const existingIdx = state.teachers.findIndex(t => !t.isOwner && String(t.name).toLowerCase() === tName.toLowerCase());
+        const rec = {
+          id: existingIdx >= 0 ? state.teachers[existingIdx].id : ("teacher-" + Date.now()),
+          name: tName,
+          pin: tPin,
+          isOwner: false,
+          assignedClasses
+        };
+        if (existingIdx >= 0) state.teachers[existingIdx] = rec;
+        else state.teachers.push(rec);
+        state.teacherNameInput = tName;
+      }
       saveLocalState();
     } else if (state.user?.role === "admin") {
       state.user = null;
