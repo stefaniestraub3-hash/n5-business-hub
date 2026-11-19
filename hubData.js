@@ -8664,19 +8664,22 @@ window.N5_HUB_DATA = {
       "number": 4,
       "topic": "Finance",
       "marks": 3,
-      "year": 2018,
-      "ref": "Q7(a)",
+      "year": 2019,
+      "ref": "Q6(a)",
       "slide": 165,
-      "text": "An organisation has provided the following financial information. Using the table below, calculate the missing information for (i), (ii) and (iii). Units 0: fixed costs £1,000, variable costs £0, total costs £1,000. Units 100: fixed costs (i), variable costs £2,000, total costs £3,000. Units 200: fixed costs £1,000, variable costs £4,000, total costs (ii). Units 300: fixed costs £1,000, variable costs (iii), total costs £7,000.",
+      "text": "Describe 3 sources of finance that a business could use to fund expansion.",
       "acceptedPoints": [
-        "(i) Fixed costs = £3,000 - £2,000 = £1,000.",
-        "(ii) Total costs = £1,000 + £4,000 = £5,000.",
-        "(iii) Variable costs = £7,000 - £1,000 = £6,000."
+        "Bank loan — borrowing a lump sum from a bank which is paid back in regular monthly instalments with interest.",
+        "Retained profits — using profits saved from previous years to reinvest in the business without paying interest.",
+        "Government grant — money awarded by the government or local council that does not have to be paid back.",
+        "Share issue — selling shares in a limited company to raise capital without having to repay the money.",
+        "Bank overdraft — spending more money than is currently in the business bank account up to an agreed limit for short-term cash needs.",
+        "Hire purchase — buying equipment or vehicles by paying a deposit followed by monthly instalments until fully owned."
       ],
-      "markingRule": "Award one mark for each correct missing figure, up to 3 marks.",
+      "markingRule": "Award 1 mark for each valid source of finance clearly described, up to 3 marks.",
       "month": "January 2027",
       "deadline": "31 January 2027",
-      "solution": "SQA Model Answer (up to 3 marks):\n• (i) Fixed costs = £3,000 - £2,000 = £1,000. (1 mark)\n• (ii) Total costs = £1,000 + £4,000 = £5,000. (1 mark)\n• (iii) Variable costs = £7,000 - £1,000 = £6,000. (1 mark)\n\nSQA Marking Note: Award one mark for each correct missing figure, up to 3 marks."
+      "solution": "SQA Model Answer (up to 3 marks):\n• Bank loan — borrowing a lump sum from a bank which is paid back in regular monthly instalments with interest. (1 mark)\n• Retained profits — using profits saved from previous years to reinvest in the business without paying interest. (1 mark)\n• Government grant — money awarded by the government or local council that does not have to be paid back. (1 mark)\n• Share issue — selling shares in a limited company to raise capital without having to repay it. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid source of finance clearly described, up to 3 marks."
     },
     {
       "id": "hw-jan-5",
