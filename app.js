@@ -2456,7 +2456,12 @@
 
   function renderMainHub() {
     const analytics = computeAnalytics();
-    const isTeacher = state.user?.role === "admin";
+    const isTeacher = Boolean(
+      state.user?.role === "admin" ||
+      state.user?.role === "teacher" ||
+      state.user?.teacher ||
+      state.user?.classCode === "TEACHER"
+    );
     const topicsPractisedCount = new Set(getUserAttempts().map(a => a.topic).filter(Boolean)).size;
 
     return `
