@@ -2133,6 +2133,7 @@
               <button type="button" class="btn btn-soft btn-sm" data-tab="homework">📅 Monthly Homework</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="practice">📝 Past Papers</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="cases">🏢 Case Studies</button>
             </div>
 
             <details style="margin-top:12px;font-size:13px;color:var(--text-secondary);background:var(--surface-alt);padding:8px 12px;border-radius:8px;border:1px solid var(--border);">

@@ -775,6 +775,20 @@ textarea:focus {
 
 @media (max-width: 768px) {
 
+  /* Ultra-compact 1-line mobile app header */
+  .top-bar {
+    flex-wrap: nowrap !important;
+    padding: 8px 10px !important;
+  }
+  .top-bar .user-pill-row .badge {
+    display: none !important;
+  }
+  .top-bar .brand-row p,
+  .top-bar .brand-row small {
+    display: none !important;
+  }
+
+
   /* Native Mobile App Layout Enhancements */
   .nav-tabs {
     display: none !important;
