@@ -1070,14 +1070,24 @@
                   </a>
                 </div>
               </div>
-              <div class="video-frame-wrap">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/${escapeHtml(videoId)}"
-                  title="${escapeHtml(videoTitle)}"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
+              ${videoId ? `
+                <div class="video-frame-wrap">
+                  <iframe
+                    src="https://www.youtube-nocookie.com/embed/${escapeHtml(videoId)}"
+                    title="${escapeHtml(videoTitle)}"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              ` : `
+                <div style="padding:20px 16px;background:linear-gradient(135deg,#2e1065 0%,#4c1d95 100%);text-align:center;">
+                  <p style="margin:0 0 12px 0;color:#ede9fe;font-size:14px;">Watch Scottish National 5 Business Management videos for <strong>${escapeHtml(activeLesson.title)}</strong>:</p>
+                  <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+                    <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" class="btn btn-primary btn-sm">▶ @ScottishEducationalVideos ↗</a>
+                    <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">▶ Your Business Tutor (N5) ↗</a>
+                  </div>
+                </div>
+              `}
               <div class="video-footer">
                 <span>${escapeHtml(activeLesson.video?.summary || "Watch this video alongside the key points below for missed classes or exam revision.")}</span>
                 <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;width:100%;">
