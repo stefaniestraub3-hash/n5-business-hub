@@ -1080,6 +1080,10 @@
               </div>
               <div class="video-footer">
                 <span>${escapeHtml(activeLesson.video?.summary || "Watch this video alongside the key points below for missed classes or exam revision.")}</span>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;width:100%;">
+                  <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ @ScottishEducationalVideos ↗</a>
+                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ Your Business Tutor (${escapeHtml(activeLesson.title)}) ↗</a>
+                </div>
                 ${state.user?.role === "admin" ? `
                   <div style="display:flex;gap:6px;align-items:center;width:100%;margin-top:6px;">
                     <input type="text" id="custom-video-input" placeholder="Teacher: Paste any YouTube link or ID for this lesson…" style="flex:1;padding:6px 10px;font-size:12.5px;" />
