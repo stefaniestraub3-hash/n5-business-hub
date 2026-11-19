@@ -29,7 +29,31 @@
     ["flow production", "mass production", "continuous", "assembly line", "conveyor"],
     ["skimming", "price skimming", "high initial price", "early adopters"],
     ["penetration", "market penetration", "low initial price", "attract customers away"],
-    ["spreadsheet", "excel", "formula", "formulae", "=sum", "=average", "=if", "what-if"]
+    ["spreadsheet", "excel", "formula", "formulae", "=sum", "=average", "=if", "what-if"],
+    ["land", "natural resources", "raw materials", "earth", "farmland", "oil", "coal", "timber", "water"],
+    ["capital", "machinery", "equipment", "buildings", "premises", "finance", "tools", "vehicles"],
+    ["enterprise", "entrepreneur", "business idea", "risk taker", "combines factors"],
+    ["primary sector", "extracting", "harvesting", "farming", "fishing", "mining", "forestry"],
+    ["secondary sector", "manufacturing", "construction", "making goods", "factory", "processing"],
+    ["tertiary sector", "services", "retail", "banking", "transport", "hospitality", "shops"],
+    ["private sector", "private individuals", "shareholders", "make a profit", "profit maximisation"],
+    ["public sector", "government", "taxpayers", "taxation", "council", "nhs", "state"],
+    ["third sector", "charity", "charities", "voluntary", "social enterprise", "donations", "non-profit"],
+    ["mortgage", "long term loan", "secured against property", "buy property", "buy buildings", "premises"],
+    ["retained profit", "retained profits", "saved profit", "ploughed back", "reinvested profit"],
+    ["hire purchase", "hp", "deposit and instalments", "monthly instalments"],
+    ["leasing", "renting equipment", "renting vehicles", "lease"],
+    ["trade credit", "buy now pay later", "30 days", "pay suppliers later"],
+    ["venture capital", "business angel", "dragon", "equity finance", "crowdfunding"],
+    ["primary research", "field research", "first hand", "new data", "questionnaire", "survey", "interview", "observation"],
+    ["secondary research", "desk research", "already exists", "existing data", "internet", "government statistics", "competitor websites"],
+    ["teleworking", "homeworking", "working from home", "remote working", "wfh"],
+    ["flexitime", "flexible hours", "core hours", "flexible working", "job share", "compressed hours", "zero hours"],
+    ["tqm", "total quality management", "quality assurance", "quality control", "quality circles", "mystery shopper", "benchmarking"],
+    ["epos", "barcodes", "till", "electronic point of sale", "stock levels", "inventory"],
+    ["cad", "cam", "computer aided design", "computer aided manufacture", "automation", "robotics"],
+    ["competitors", "rivals", "competition", "other businesses", "market share"],
+    ["legislation", "law", "equality act", "health and safety", "minimum wage", "national living wage", "gdpr", "data protection"]
   ];
 
   function normalizeText(str) {
