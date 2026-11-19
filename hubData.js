@@ -4151,7 +4151,15 @@ window.N5_HUB_DATA = {
         "personal savings — owner's own saved money with no borrowing interest",
         "share issue — raising finance by selling ownership shares",
         "hire purchase — obtaining an asset and paying by instalments until ownership is achieved",
-        "retained profit — previous profit reinvested in the business"
+        "retained profit — previous profit reinvested in the business",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Bank overdraft — spending more than is in the bank account up to an agreed limit for short-term needs.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Up to 3 marks. At least two sources must be described for full marks. Award valid descriptions and one valid development where appropriate. Other suitable sources can receive credit.",
       "restrictions": [
@@ -4513,7 +4521,17 @@ window.N5_HUB_DATA = {
         "bank loans can provide large sums and staged repayments but charge interest and may require collateral",
         "overdrafts can solve short-term cash-flow problems but may carry high daily interest",
         "mortgages can raise large sums over a long period but charge interest and put property at risk",
-        "government grants do not normally need repaid but have eligibility criteria and an application process"
+        "government grants do not normally need repaid but have eligibility criteria and an application process",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Hire purchase — buying equipment or vehicles with a deposit and monthly instalments until owned.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Bank overdraft — spending more than is in the bank account up to an agreed limit for short-term needs.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Up to 3 marks. At least one advantage and one disadvantage must be discussed for full marks. Credit valid points for any suitable sole-trader finance source.",
       "subtopic": "Sources of finance",
@@ -4935,7 +4953,14 @@ window.N5_HUB_DATA = {
         "overdraft — withdrawing more than the current bank balance",
         "personal savings — owner's saved money with no borrowing interest",
         "share issue — raising finance by selling ownership shares",
-        "hire purchase — paying for an asset in instalments until ownership transfers"
+        "hire purchase — paying for an asset in instalments until ownership transfers",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Bank overdraft — spending more than is in the bank account up to an agreed limit for short-term needs.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Up to 4 marks. At least two sources must be described for full marks. Valid developments can receive additional credit; accept other suitable finance sources.",
       "subtopic": "Sources of finance",
@@ -5858,7 +5883,13 @@ window.N5_HUB_DATA = {
         "Government grant",
         "Trade credit (buying now and paying suppliers later)",
         "Issuing shares privately to invited shareholders",
-        "Hire purchase or leasing"
+        "Hire purchase or leasing",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash."
       ],
       "markingRule": "Award 1 mark for each distinct external source of finance valid for a private limited company, up to 3 marks. Do not credit selling shares on the Stock Exchange (PLC only) or retained profit (internal).",
       "solution": "Any three from:\n• Bank loan (1)\n• Bank overdraft (1)\n• Government grant (1)\n• Issuing shares privately (1)\n• Hire purchase / leasing (1)\n• Trade credit (1)",
@@ -6200,7 +6231,17 @@ window.N5_HUB_DATA = {
       "acceptedPoints": [
         "Identify: Bank loan, Hire purchase, or Leasing",
         "Justify 1: The £40,000 cost can be spread over several years in fixed monthly instalments, which makes budgeting easier and avoids a sudden cash flow deficit",
-        "Justify 2: The business can use the delivery van immediately to make customer deliveries and generate revenue while paying it off"
+        "Justify 2: The business can use the delivery van immediately to make customer deliveries and generate revenue while paying it off",
+        "Mortgage — a long-term loan secured against property or premises used to buy land or buildings to expand the business, repaid over many years with interest.",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Government grant — money awarded by the government or local council that does not need to be repaid.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Bank overdraft — spending more than is in the bank account up to an agreed limit for short-term needs.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Award 1 mark for identifying a valid source (Bank loan, Hire purchase, or Leasing) and up to 2 marks for valid justifications.",
       "solution": "• Identify: Hire purchase (or Bank loan). (1)\n• Justify 1: The business can use the delivery van straight away to fulfil customer orders and earn revenue before paying the full £40,000. (1)\n• Justify 2: Repayments are spread out in fixed monthly instalments over several years, which protects cash flow and makes budgeting easier. (1)",
@@ -7426,7 +7467,18 @@ window.N5_HUB_DATA = {
       "acceptedPoints": [
         "A bank loan is a medium-to-long-term source of finance repaid in fixed monthly instalments over several years, whereas a bank overdraft is a short-term facility allowing a current account to go below zero up to an agreed limit",
         "A bank loan is used to buy expensive non-current assets like machinery or vehicles, whereas a bank overdraft is used to cover temporary short-term cash flow deficits",
-        "Both a bank loan and a bank overdraft are external sources of finance provided by a bank that charge interest"
+        "Both a bank loan and a bank overdraft are external sources of finance provided by a bank that charge interest",
+        "Mortgage — a long-term loan secured against property or premises used to buy land or buildings to expand the business, repaid over many years with interest.",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Government grant — money awarded by the government or local council that does not need to be repaid.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Hire purchase — buying equipment or vehicles with a deposit and monthly instalments until owned.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Award 1 mark for each valid similarity ('both') or difference ('whereas'), up to 3 marks.",
       "solution": "• A bank loan is a long-term lump sum repaid in fixed monthly instalments, whereas a bank overdraft is a flexible short-term borrowing limit on a current account. (1)\n• A bank loan is suitable for purchasing capital equipment or vehicles, whereas an overdraft is suitable for covering a temporary monthly cash deficit. (1)\n• Both are external sources of finance from a bank that must be repaid with interest. (1)",
@@ -8317,7 +8369,18 @@ window.N5_HUB_DATA = {
       "acceptedPoints": [
         "Identify: Bank overdraft (or Trade credit)",
         "Justify 1: An overdraft is quick and flexible to arrange for a short 3-week period and can be paid off as soon as December Christmas cash sales come in",
-        "Justify 2: Interest is only charged on the exact amount overdrawn for those 3 weeks, making it cheaper than taking out a long-term loan"
+        "Justify 2: Interest is only charged on the exact amount overdrawn for those 3 weeks, making it cheaper than taking out a long-term loan",
+        "Mortgage — a long-term loan secured against property or premises used to buy land or buildings to expand the business, repaid over many years with interest.",
+        "Bank loan — borrowing a lump sum from a bank paid back in monthly instalments with interest.",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Government grant — money awarded by the government or local council that does not need to be repaid.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Hire purchase — buying equipment or vehicles with a deposit and monthly instalments until owned.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash."
       ],
       "markingRule": "Award 1 mark for identifying a Bank Overdraft (or Trade Credit), and up to 2 marks for valid justifications.",
       "solution": "• Identify: Bank overdraft. (1)\n• Justify 1: It provides flexible short-term cover for the 3-week deficit and is automatically cleared when December cash receipts arrive. (1)\n• Justify 2: Interest is only paid on the daily amount overdrawn for those few weeks rather than being locked into a long-term loan. (1)",
@@ -8644,7 +8707,18 @@ window.N5_HUB_DATA = {
       "acceptedPoints": [
         "A bank loan is money borrowed from a bank which must be repaid with interest.",
         "A mortgage is a large, long-term loan used to buy business property or land.",
-        "Retained profit is profit from an earlier year which is kept and reinvested in the business."
+        "Retained profit is profit from an earlier year which is kept and reinvested in the business.",
+        "Retained profits — reinvesting profits saved from previous years without having to pay interest.",
+        "Government grant — money awarded by the government or local council that does not need to be repaid.",
+        "Share issue — selling shares in a limited company to raise capital without needing to repay it.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Hire purchase — buying equipment or vehicles with a deposit and monthly instalments until owned.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Bank overdraft — spending more than is in the bank account up to an agreed limit for short-term needs.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Award one mark for each correctly described source of finance, up to 3 marks. Other valid sources can receive credit.",
       "month": "October 2026",
@@ -8923,12 +8997,19 @@ window.N5_HUB_DATA = {
         "Government grant — money awarded by the government or local council that does not have to be paid back.",
         "Share issue — selling shares in a limited company to raise capital without having to repay the money.",
         "Bank overdraft — spending more money than is currently in the business bank account up to an agreed limit for short-term cash needs.",
-        "Hire purchase — buying equipment or vehicles by paying a deposit followed by monthly instalments until fully owned."
+        "Hire purchase — buying equipment or vehicles by paying a deposit followed by monthly instalments until fully owned.",
+        "Mortgage — a long-term loan secured against property or premises used to buy land or buildings to expand the business, repaid over many years with interest.",
+        "Venture capital / business angel — investment from wealthy individuals or firms in return for a share of ownership/profits.",
+        "Crowdfunding — raising small amounts of money from a large number of people online.",
+        "Leasing — renting equipment or vehicles for regular payments rather than buying outright.",
+        "Personal savings / owner's capital — using the owner's own money to fund the business.",
+        "Sale of assets — selling unwanted equipment, vehicles, or property to raise cash.",
+        "Trade credit — buying goods from suppliers now and paying for them later (e.g. 30 days)."
       ],
       "markingRule": "Award 1 mark for each valid source of finance clearly described, up to 3 marks.",
       "month": "January 2027",
       "deadline": "31 January 2027",
-      "solution": "SQA Model Answer (up to 3 marks):\n• Bank loan — borrowing a lump sum from a bank which is paid back in regular monthly instalments with interest. (1 mark)\n• Retained profits — using profits saved from previous years to reinvest in the business without paying interest. (1 mark)\n• Government grant — money awarded by the government or local council that does not have to be paid back. (1 mark)\n• Share issue — selling shares in a limited company to raise capital without having to repay it. (1 mark)\n\nSQA Marking Note: Award 1 mark for each valid source of finance clearly described, up to 3 marks."
+      "solution": "SQA Model Answer (up to 3 marks):\n• Mortgage — a long-term loan secured against property/premises to buy buildings and expand the business, repaid over many years with interest. (1 mark)\n• Bank loan — borrowing a lump sum from a bank paid back in monthly instalments with interest. (1 mark)\n• Retained profits — reinvesting profits saved from previous years without paying interest. (1 mark)\n• Government grant — money from the government/council that does not have to be repaid. (1 mark)\n• Share issue / Venture capital / Crowdfunding / Hire purchase / Leasing / Personal savings / Sale of assets. (1 mark each)\n\nSQA Marking Note: Award 1 mark for each valid SQA source of finance clearly described, up to 3 marks."
     },
     {
       "id": "hw-jan-5",
