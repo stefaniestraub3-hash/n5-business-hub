@@ -506,20 +506,94 @@
     return state.classes.filter(c => allowedSet.has(String(c.code || "").toUpperCase()) || allowedSet.has(String(c.name || "").toUpperCase()));
   }
 
-  // Sync with backend if running on server
+  // Live Firebase Realtime Database Cloud Sync (auto-detects Europe or US endpoint)
+  const FIREBASE_CANDIDATES = [
+    "https://n5-business-hub-default-rtdb.europe-west1.firebasedatabase.app",
+    "https://n5-business-hub-default-rtdb.firebaseio.com"
+  ];
+  let resolvedCloudBase = state.cloudSyncUrl || "";
+
+  async function getCloudBaseUrl() {
+    if (resolvedCloudBase) return resolvedCloudBase;
+    for (const base of FIREBASE_CANDIDATES) {
+      try {
+        const r = await fetch(base + "/.json?shallow=true");
+        if (r.ok) {
+          resolvedCloudBase = base;
+          state.cloudSyncUrl = base;
+          saveLocalState();
+          return base;
+        }
+      } catch {}
+    }
+    return "";
+  }
+
+  function safeFirebaseKey(str) {
+    return String(str || "id").replace(/[.#$\[\]\/\s]+/g, "_").slice(0, 80);
+  }
+
+  async function cloudPut(path, value) {
+    try {
+      const base = await getCloudBaseUrl();
+      if (!base) return;
+      await fetch(`${base}/${path}.json`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(value)
+      });
+    } catch {}
+  }
+
+  async function cloudDelete(path) {
+    try {
+      const base = await getCloudBaseUrl();
+      if (!base) return;
+      await fetch(`${base}/${path}.json`, { method: "DELETE" });
+    } catch {}
+  }
+
+  function mergeById(localArr, cloudObj, idKey = "id") {
+    const map = new Map();
+    (localArr || []).forEach(item => {
+      if (item && item[idKey]) map.set(String(item[idKey]).toLowerCase(), item);
+    });
+    if (cloudObj && typeof cloudObj === "object") {
+      Object.values(cloudObj).forEach(item => {
+        if (item && item[idKey]) map.set(String(item[idKey]).toLowerCase(), item);
+      });
+    }
+    return Array.from(map.values());
+  }
+
+  // Sync with Firebase Realtime Database (and local backend if present)
   async function syncFromServer() {
     try {
-      const res = await fetch("/_api/state");
-      if (!res.ok) return;
-      const db = await res.json();
-      if (db.classes) state.classes = db.classes;
-      if (db.pupils) state.pupils = db.pupils;
-      if (db.attempts) state.attempts = db.attempts;
-      if (db.caseAttempts) state.caseAttempts = db.caseAttempts;
-      if (db.homeworkSubmissions) state.homeworkSubmissions = db.homeworkSubmissions;
-      if (db.customVideos) state.customVideos = db.customVideos;
-      saveLocalState();
-      render();
+      const base = await getCloudBaseUrl();
+      if (base) {
+        const res = await fetch(`${base}/.json`, { cache: "no-store" });
+        if (res.ok) {
+          const db = (await res.json()) || {};
+          if (db.classes) state.classes = mergeById(state.classes, db.classes, "code");
+          if (db.teachers) state.teachers = mergeById(state.teachers, db.teachers, "id");
+          if (db.pupils) state.pupils = mergeById(state.pupils, db.pupils, "userId");
+          if (db.attempts) {
+            state.attempts = mergeById(state.attempts, db.attempts, "id")
+              .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+          }
+          if (db.caseAttempts) state.caseAttempts = mergeById(state.caseAttempts, db.caseAttempts, "id");
+          if (db.homeworkSubmissions) state.homeworkSubmissions = mergeById(state.homeworkSubmissions, db.homeworkSubmissions, "id");
+          if (db.trackingRecords && typeof db.trackingRecords === "object") {
+            state.trackingRecords = { ...(state.trackingRecords || {}), ...db.trackingRecords };
+          }
+          saveLocalState();
+          // Never interrupt a pupil or teacher while actively typing in an input/textarea
+          const tag = (document.activeElement && document.activeElement.tagName || "").toUpperCase();
+          if (tag !== "INPUT" && tag !== "TEXTAREA" && tag !== "SELECT") {
+            render();
+          }
+        }
+      }
     } catch {}
   }
 
@@ -3007,6 +3081,7 @@
     };
     state.attempts.unshift(att);
     saveLocalState();
+    cloudPut("attempts/" + safeFirebaseKey(att.id), att);
 
     fetch("/_api/mark-answer", {
       method: "POST",
@@ -3179,10 +3254,23 @@
           };
           state.rememberedPupil = state.user;
           if (!matchedClass) {
-            state.classes.push({ id: "cls-" + Date.now(), name: finalClassName, code: finalCode });
+            const newCls = { id: "cls-" + Date.now(), name: finalClassName, code: finalCode };
+            state.classes.push(newCls);
+            cloudPut("classes/" + safeFirebaseKey(finalCode), newCls);
           }
-          state.pupils.push({ userId: state.user.userId, name, classCode: finalCode, className: finalClassName });
+          const newPupil = { userId: state.user.userId, name, classCode: finalCode, className: finalClassName, lastActiveAt: new Date().toISOString() };
+          state.pupils.push(newPupil);
+          cloudPut("pupils/" + safeFirebaseKey(state.user.userId), newPupil);
           state.loginError = "";
+        }
+        if (state.user && state.user.role === "user") {
+          cloudPut("pupils/" + safeFirebaseKey(state.user.userId), {
+            userId: state.user.userId,
+            name: state.user.name,
+            classCode: state.user.classCode,
+            className: state.user.className || state.user.classCode,
+            lastActiveAt: new Date().toISOString()
+          });
         }
         saveLocalState();
         render();
@@ -4097,12 +4185,14 @@
         return;
       }
       if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
-        state.classes.push({
+        const newCls = {
           id: "cls-" + Date.now(),
           name: clsName,
           code: clsCode,
           createdBy: state.user?.name || "Teacher"
-        });
+        };
+        state.classes.push(newCls);
+        cloudPut("classes/" + safeFirebaseKey(clsCode), newCls);
       }
       // If a colleague teacher adds a class under their own account, automatically assign it to them
       if (state.user && Array.isArray(state.user.assignedClasses) && !state.user.assignedClasses.includes("ALL")) {
@@ -4112,6 +4202,7 @@
         const tRec = (state.teachers || []).find(t => t.id === state.user.userId || String(t.name).toLowerCase() === String(state.user.name || "").toLowerCase());
         if (tRec && Array.isArray(tRec.assignedClasses) && !tRec.assignedClasses.includes("ALL") && !tRec.assignedClasses.includes(clsCode)) {
           tRec.assignedClasses.push(clsCode);
+          cloudPut("teachers/" + safeFirebaseKey(tRec.id), tRec);
         }
       }
       saveLocalState();
@@ -4121,7 +4212,9 @@
     document.querySelectorAll("[data-remove-class]").forEach(btn => {
       btn.addEventListener("click", () => {
         const id = btn.getAttribute("data-remove-class");
+        const removed = state.classes.find(c => c.id === id);
         state.classes = state.classes.filter(c => c.id !== id);
+        if (removed) cloudDelete("classes/" + safeFirebaseKey(removed.code));
         if (state.teacherClassFilter !== "ALL" && !state.classes.some(c => c.code === state.teacherClassFilter)) {
           state.teacherClassFilter = "ALL";
         }
@@ -4143,17 +4236,21 @@
         const clsCode = tClassRaw.toUpperCase().replace(/\s+/g, "");
         assignedClasses.push(clsCode);
         if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
-          state.classes.push({ id: "cls-" + Date.now(), name: tClassRaw, code: clsCode, createdBy: tName });
+          const newCls = { id: "cls-" + Date.now(), name: tClassRaw, code: clsCode, createdBy: tName };
+          state.classes.push(newCls);
+          cloudPut("classes/" + safeFirebaseKey(clsCode), newCls);
         }
       }
       state.teachers = state.teachers || [];
-      state.teachers.push({
+      const newTeacher = {
         id: "teacher-" + Date.now(),
         name: tName,
         pin: tPin,
         isOwner: false,
         assignedClasses
-      });
+      };
+      state.teachers.push(newTeacher);
+      cloudPut("teachers/" + safeFirebaseKey(newTeacher.id), newTeacher);
       saveLocalState();
       render();
     });
