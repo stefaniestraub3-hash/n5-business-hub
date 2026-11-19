@@ -264,6 +264,9 @@
         { id: "cls-4fbm", name: "4FBM", code: "4FBM" },
         { id: "cls-4e", name: "4E", code: "ABCD" }
       ],
+      teachers: init.teachers || [
+        { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] }
+      ],
       pupils: init.pupils || [],
       attempts: init.attempts || [],
       caseAttempts: init.caseAttempts || [],
@@ -279,6 +282,7 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
         user: state.user,
         classes: state.classes,
+        teachers: state.teachers,
         pupils: state.pupils,
         attempts: state.attempts,
         caseAttempts: state.caseAttempts,
@@ -395,6 +399,9 @@
 
     // Synced DB collections
     classes: saved.classes,
+    teachers: (saved.teachers && saved.teachers.length)
+      ? saved.teachers
+      : [{ id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] }],
     pupils: saved.pupils,
     attempts: saved.attempts,
     caseAttempts: saved.caseAttempts,
@@ -403,6 +410,61 @@
     trackingClassFilter: 'All',
     customVideos: saved.customVideos || {}
   };
+
+  function matchTeacherAccount(rawName, rawPin) {
+    const name = (rawName || "").trim();
+    const pin = (rawPin || "").trim().toUpperCase();
+    if (!pin) return null;
+    const ownerPins = ["2026", "STRAUB", "N5BM", "TEACHER2026"];
+    // Check Mrs Straub (owner) master PINs
+    if (ownerPins.includes(pin) && (!name || name.toLowerCase().includes("straub") || name.toLowerCase() === "teacher")) {
+      const ownerRec = (state.teachers || []).find(t => t.isOwner) || {
+        id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"]
+      };
+      return {
+        userId: ownerRec.id,
+        name: name || ownerRec.name || "Mrs Straub (Business Teacher)",
+        role: "admin",
+        teacher: true,
+        owner: true,
+        pinVerified: true,
+        assignedClasses: ["ALL"],
+        classCode: "TEACHER",
+        className: "Business Teacher"
+      };
+    }
+    // Check custom teacher accounts created by Mrs Straub
+    const matched = (state.teachers || []).find(t => {
+      const pinMatch = String(t.pin || "").trim().toUpperCase() === pin;
+      if (!pinMatch) return false;
+      if (!name) return true;
+      return String(t.name || "").trim().toLowerCase() === name.toLowerCase() ||
+             String(t.name || "").trim().toLowerCase().includes(name.toLowerCase());
+    });
+    if (matched) {
+      return {
+        userId: matched.id,
+        name: matched.name,
+        role: matched.isOwner ? "admin" : "teacher",
+        teacher: true,
+        owner: Boolean(matched.isOwner),
+        pinVerified: true,
+        assignedClasses: Array.isArray(matched.assignedClasses) && matched.assignedClasses.length ? matched.assignedClasses : ["ALL"],
+        classCode: "TEACHER",
+        className: matched.isOwner ? "Business Teacher" : "Teacher"
+      };
+    }
+    return null;
+  }
+
+  function getVisibleClassesForTeacher() {
+    const assigned = state.user?.assignedClasses;
+    if (!assigned || assigned.includes("ALL") || state.user?.owner) {
+      return state.classes;
+    }
+    const allowedSet = new Set(assigned.map(c => String(c).toUpperCase()));
+    return state.classes.filter(c => allowedSet.has(String(c.code || "").toUpperCase()) || allowedSet.has(String(c.name || "").toUpperCase()));
+  }
 
   // Sync with backend if running on server
   async function syncFromServer() {
@@ -1775,8 +1837,15 @@
   }
 
   function renderTeacherTab() {
+    const visibleClasses = getVisibleClassesForTeacher();
+    const visibleClassCodes = new Set(visibleClasses.map(c => String(c.code || "").toUpperCase()));
+    const isOwnerTeacher = Boolean(state.user?.owner || state.user?.role === "admin");
+    const teacherScopedPupils = isOwnerTeacher || (state.user?.assignedClasses || []).includes("ALL")
+      ? state.pupils
+      : state.pupils.filter(p => visibleClassCodes.has(String(p.classCode || "").toUpperCase()));
+
     const searchQuery = (state.teacherSearchQuery || "").trim().toLowerCase();
-    const classFilteredPupils = state.pupils.filter(p =>
+    const classFilteredPupils = teacherScopedPupils.filter(p =>
       state.teacherClassFilter === "ALL" || p.classCode?.toUpperCase() === state.teacherClassFilter
     );
     const filteredPupils = classFilteredPupils.filter(p =>
@@ -1859,8 +1928,8 @@
           <div style="min-width:200px;flex:1;">
             <label style="font-size:12.5px;font-weight:700;display:block;margin-bottom:4px;">Class</label>
             <select id="teacher-class-filter" style="width:100%;padding:9px 11px;">
-              <option value="ALL" ${state.teacherClassFilter === "ALL" ? "selected" : ""}>All classes (${state.pupils.length} pupils)</option>
-              ${state.classes.map(c => `<option value="${escapeHtml(c.code)}" ${state.teacherClassFilter === c.code ? "selected" : ""}>${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})</option>`).join("")}
+              <option value="ALL" ${state.teacherClassFilter === "ALL" ? "selected" : ""}>All my classes (${teacherScopedPupils.length} pupils)</option>
+              ${visibleClasses.map(c => `<option value="${escapeHtml(c.code)}" ${state.teacherClassFilter === c.code ? "selected" : ""}>${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})</option>`).join("")}
             </select>
           </div>
           <div style="min-width:240px;flex:1.5;">
@@ -2187,6 +2256,63 @@
               </tbody>
             </table>
           </div>
+        </div>
+
+        <!-- MANAGE CLASSES & TEACHER ACCOUNTS -->
+        <div style="margin-top:22px;padding:18px;border-radius:14px;background:#f8fafc;border:1.5px solid #cbd5e1;">
+          <h3 style="margin:0 0 6px 0;font-size:17px;color:#2e1065;">🏫 Manage Classes &amp; Teacher Accounts</h3>
+          <p style="margin:0 0 14px 0;font-size:13.5px;color:var(--text-secondary);">
+            Add new classes for pupils to join, and create personal teacher accounts so other Business teachers can sign in with their own name &amp; PIN to view their classes.
+          </p>
+
+          <!-- Add New Class -->
+          <div style="padding:14px;background:#fff;border-radius:10px;border:1px solid var(--border);margin-bottom:14px;">
+            <div style="font-weight:700;font-size:14px;margin-bottom:8px;">➕ Add a New Class</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+              <input type="text" id="new-class-name" placeholder="Class name (e.g. 4HBM1)" style="flex:1;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+              <input type="text" id="new-class-code" placeholder="Join code (e.g. 4HBM1)" style="flex:1;min-width:140px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+              <button type="button" class="btn btn-primary btn-sm" id="btn-add-class">➕ Add Class</button>
+            </div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">
+              ${state.classes.map(c => `
+                <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#f5f3ff;border:1px solid #c4b5fd;font-size:12.5px;font-weight:600;color:#4c1d95;">
+                  ${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})
+                  ${isOwnerTeacher && !["4GBM", "4CBM", "4FBM", "ABCD"].includes(String(c.code).toUpperCase()) ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
+                </span>
+              `).join("")}
+            </div>
+          </div>
+
+          ${isOwnerTeacher ? `
+            <!-- Manage Teacher Accounts (Owner Only) -->
+            <div style="padding:14px;background:#fff;border-radius:10px;border:1px solid var(--border);">
+              <div style="font-weight:700;font-size:14px;margin-bottom:6px;">👩‍🏫 Teacher Accounts (Give Other Teachers Their Own Login)</div>
+              <p style="margin:0 0 10px 0;font-size:12.5px;color:var(--text-secondary);">
+                Other teachers can sign in using the private teacher link (<code>?teacher=1</code>) <strong>or</strong> directly on the main app login screen by entering their Name and Personal PIN.
+              </p>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px;">
+                <input type="text" id="new-teacher-name" placeholder="Teacher name (e.g. Mr Smith)" style="flex:1.2;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+                <input type="text" id="new-teacher-pin" placeholder="Personal PIN (e.g. 4821)" style="flex:0.8;min-width:130px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+                <select id="new-teacher-class" style="flex:1;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">
+                  <option value="ALL">Access: All classes</option>
+                  ${state.classes.map(c => `<option value="${escapeHtml(c.code)}">Class only: ${escapeHtml(c.name)} (${escapeHtml(c.code)})</option>`).join("")}
+                </select>
+                <button type="button" class="btn btn-primary btn-sm" id="btn-add-teacher">➕ Add Teacher</button>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:6px;">
+                ${(state.teachers || []).map(t => `
+                  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:8px 12px;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0;font-size:13px;">
+                    <div>
+                      <strong>${escapeHtml(t.name)}</strong> ${t.isOwner ? `<span class="badge badge-primary" style="margin-left:4px;">Lead Teacher</span>` : ""}
+                      · PIN: <code>${escapeHtml(t.pin)}</code>
+                      · Classes: <strong>${(t.assignedClasses || ["ALL"]).includes("ALL") ? "All classes" : escapeHtml((t.assignedClasses || []).join(", "))}</strong>
+                    </div>
+                    ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-remove-teacher="${escapeHtml(t.id)}" style="color:#dc2626;border-color:#fca5a5;">Remove</button>` : ""}
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          ` : ""}
         </div>
       </section>
     `;
@@ -2549,16 +2675,12 @@
         const name = state.loginName.trim();
         const code = state.loginCode.trim().toUpperCase();
         // Private Teacher Access directly from the installed phone app (no teacher buttons shown to pupils)
-        if ((name.toLowerCase().includes("straub") || name.toLowerCase() === "teacher") && (code === "2026" || code === "STRAUB")) {
-          state.user = {
-            userId: "teacher-mrs-straub",
-            name: "Mrs Straub",
-            role: "teacher",
-            classCode: "TEACHER",
-            className: "Business Teacher"
-          };
+        const matchedTeacher = matchTeacherAccount(name, code);
+        if (matchedTeacher) {
+          state.user = matchedTeacher;
           state.teacherUnlocked = true;
           state.activeTab = "teacher";
+          state.teacherClassFilter = "ALL";
           state.loginError = "";
           saveLocalState();
           return render();
@@ -2693,23 +2815,16 @@
     });
 
     document.getElementById("btn-teacher-login")?.addEventListener("click", async () => {
-      const pin = (state.teacherPinInput || "").trim().toUpperCase();
-      const validPins = ["2026", "STRAUB", "N5BM", "TEACHER2026"];
-      if (!validPins.includes(pin)) {
-        state.teacherPinError = "Incorrect Teacher PIN. Please enter your Teacher PIN to access the Teacher Dashboard.";
+      const matchedTeacher = matchTeacherAccount(state.teacherNameInput, state.teacherPinInput);
+      if (!matchedTeacher) {
+        state.teacherPinError = "Incorrect Teacher Name or PIN. Please enter your Teacher Name and PIN to access the Teacher Dashboard.";
         render();
         return;
       }
       state.teacherPinError = "";
       state.teacherUnlocked = true;
-      state.user = {
-        userId: "teacher-owner",
-        name: state.teacherNameInput.trim() || "Mrs Straub (Business Teacher)",
-        role: "admin",
-        teacher: true,
-        owner: true,
-        pinVerified: true
-      };
+      state.user = matchedTeacher;
+      state.teacherClassFilter = "ALL";
       state.activeTab = "teacher";
       saveLocalState();
       await syncFromServer();
@@ -3524,6 +3639,57 @@
       a.href = URL.createObjectURL(blob);
       a.download = "n5-business-class-report.csv";
       a.click();
+    });
+
+    document.getElementById("btn-add-class")?.addEventListener("click", () => {
+      const nameInput = document.getElementById("new-class-name");
+      const codeInput = document.getElementById("new-class-code");
+      const clsName = (nameInput?.value || "").trim();
+      const clsCode = (codeInput?.value || clsName).trim().toUpperCase().replace(/\s+/g, "");
+      if (!clsName || !clsCode) return;
+      if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
+        state.classes.push({ id: "cls-" + Date.now(), name: clsName, code: clsCode });
+        saveLocalState();
+      }
+      render();
+    });
+
+    document.querySelectorAll("[data-remove-class]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-remove-class");
+        state.classes = state.classes.filter(c => c.id !== id);
+        if (state.teacherClassFilter !== "ALL" && !state.classes.some(c => c.code === state.teacherClassFilter)) {
+          state.teacherClassFilter = "ALL";
+        }
+        saveLocalState();
+        render();
+      });
+    });
+
+    document.getElementById("btn-add-teacher")?.addEventListener("click", () => {
+      const tName = (document.getElementById("new-teacher-name")?.value || "").trim();
+      const tPin = (document.getElementById("new-teacher-pin")?.value || "").trim().toUpperCase();
+      const tClass = document.getElementById("new-teacher-class")?.value || "ALL";
+      if (!tName || tPin.length < 3) return;
+      state.teachers = state.teachers || [];
+      state.teachers.push({
+        id: "teacher-" + Date.now(),
+        name: tName,
+        pin: tPin,
+        isOwner: false,
+        assignedClasses: tClass === "ALL" ? ["ALL"] : [tClass]
+      });
+      saveLocalState();
+      render();
+    });
+
+    document.querySelectorAll("[data-remove-teacher]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-remove-teacher");
+        state.teachers = (state.teachers || []).filter(t => t.id !== id || t.isOwner);
+        saveLocalState();
+        render();
+      });
     });
   }
 
