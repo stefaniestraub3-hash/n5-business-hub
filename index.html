@@ -13,26 +13,31 @@
   <meta name="apple-mobile-web-app-title" content="N5 Business" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#7c3aed" />
-  <link rel="manifest" href="./manifest.json?v=53" />
-  <link rel="icon" type="image/png" href="./n5-app-icon.png?v=53" />
-  <link rel="apple-touch-icon" href="./n5-app-icon.png?v=53" />
-  <link rel="stylesheet" href="./styles.css?v=53" />
+  <link rel="manifest" href="./manifest.json?v=54" />
+  <link rel="icon" type="image/png" href="./n5-app-icon.png?v=54" />
+  <link rel="apple-touch-icon" href="./n5-app-icon.png?v=54" />
+  <link rel="stylesheet" href="./styles.css?v=54" />
 </head>
 <body>
   <div id="app"></div>
-  <script src="./hubData.js?v=53"></script>
-  <script src="./app.js?v=53"></script>
+  <script src="./hubData.js?v=54"></script>
+  <script src="./app.js?v=54"></script>
   <script>
     (function () {
-      const CURRENT_V = "51";
+      const appScript = document.querySelector('script[src*="app.js?v="]');
+      const curMatch = appScript ? appScript.getAttribute("src").match(/\?v=(\d+)/) : null;
+      const CURRENT_V = curMatch ? curMatch[1] : "";
       let reloading = false;
       function reloadOnce() {
+        const tag = (document.activeElement && document.activeElement.tagName || "").toUpperCase();
+        if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
         if (!reloading) {
           reloading = true;
           window.location.reload();
         }
       }
       function checkLatestVersion() {
+        if (!CURRENT_V) return;
         fetch("./index.html?t=" + Date.now(), { cache: "no-store" })
           .then(r => r.ok ? r.text() : "")
           .then(html => {
@@ -43,7 +48,7 @@
       }
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.addEventListener("controllerchange", reloadOnce);
-        navigator.serviceWorker.register("./sw.js?v=53", { updateViaCache: "none" }).then(reg => {
+        navigator.serviceWorker.register("./sw.js?v=54", { updateViaCache: "none" }).then(reg => {
           reg.update();
           document.addEventListener("visibilitychange", () => {
             if (document.visibilityState === "visible") {
