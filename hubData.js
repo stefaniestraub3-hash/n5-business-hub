@@ -1512,9 +1512,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "8t5zXcg6V3Q",
-        "title": "Inventory Control: Overstocking, Understocking, Economic Stock Levels & JIT",
-        "channel": "Business 101 Revision",
+        "videoId": "XcM_dI1VAz8",
+        "title": "Inventory Control Systems — @ScottishEducationalVideos",
+        "channel": "@ScottishEducationalVideos",
         "duration": "10:25",
         "summary": "Explains maximum, minimum and re-order stock levels, the risks of overstocking vs understocking, and Just-in-Time (JIT) production."
       }
@@ -2191,9 +2191,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "V7aHygudSHM",
-        "title": "Employee Motivation, Financial & Non-Financial Rewards & Flexible Working",
-        "channel": "Business Studies Revision",
+        "videoId": "IiZ80PMCe48",
+        "title": "Employee Relations and ACAS — @ScottishEducationalVideos",
+        "channel": "@ScottishEducationalVideos",
         "duration": "11:15",
         "summary": "Covers time rate, piece rate, salary, commission, bonus, profit sharing, fringe benefits, and flexible working practices (flexitime, homeworking, job share)."
       }
@@ -2288,9 +2288,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "6VNMQy2VyM0",
-        "title": "Employee Relations, Trade Unions, Collective Bargaining & Industrial Action",
-        "channel": "BizzWizard Business Revision",
+        "videoId": "IiZ80PMCe48",
+        "title": "Employee Relations and ACAS — @ScottishEducationalVideos",
+        "channel": "@ScottishEducationalVideos",
         "duration": "10:05",
         "summary": "Role of trade unions, collective bargaining, works councils, and impacts of strikes, overtime bans, work-to-rule and sit-ins."
       }
