@@ -265,7 +265,8 @@
         { id: "cls-4e", name: "4E", code: "ABCD" }
       ],
       teachers: init.teachers || [
-        { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] }
+        { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] },
+        { id: "teacher-lee-morgan", name: "Lee Morgan", pin: "4E2026", isOwner: false, assignedClasses: ["ABCD"] }
       ],
       pupils: init.pupils || [],
       attempts: init.attempts || [],
@@ -3834,6 +3835,21 @@
     } else if (state.user?.role === "teacher" || state.user?.teacher) {
       state.teacherUnlocked = true;
       state.activeTab = "teacher";
+    } else if ((state.user?.name || "").trim().toLowerCase() === "lee morgan") {
+      state.user = {
+        userId: "teacher-lee-morgan",
+        name: "Lee Morgan",
+        role: "teacher",
+        teacher: true,
+        owner: false,
+        pinVerified: true,
+        assignedClasses: ["ABCD"],
+        classCode: "TEACHER",
+        className: "Teacher"
+      };
+      state.teacherUnlocked = true;
+      state.activeTab = "teacher";
+      saveLocalState();
     }
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
