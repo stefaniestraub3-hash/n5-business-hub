@@ -488,7 +488,7 @@
         teacher: true,
         owner: Boolean(matched.isOwner),
         pinVerified: true,
-        assignedClasses: Array.isArray(matched.assignedClasses) && matched.assignedClasses.length ? matched.assignedClasses : ["ALL"],
+        assignedClasses: Array.isArray(matched.assignedClasses) ? matched.assignedClasses : [],
         classCode: "TEACHER",
         className: matched.isOwner ? "Business Teacher" : "Teacher"
       };
@@ -2343,12 +2343,9 @@
                 Other teachers can sign in using the private teacher link (<code>?teacher=1</code>) <strong>or</strong> directly on the main app login screen by entering their Name and Personal PIN.
               </p>
               <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px;">
-                <input type="text" id="new-teacher-name" placeholder="Teacher name (e.g. Mr Smith)" style="flex:1.2;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
-                <input type="text" id="new-teacher-pin" placeholder="Personal PIN (e.g. 4821)" style="flex:0.8;min-width:130px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
-                <select id="new-teacher-class" style="flex:1;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">
-                  <option value="ALL">Access: All classes</option>
-                  ${state.classes.map(c => `<option value="${escapeHtml(c.code)}">Class only: ${escapeHtml(c.name)} (${escapeHtml(c.code)})</option>`).join("")}
-                </select>
+                <input type="text" id="new-teacher-name" placeholder="Teacher name (e.g. Mr Smith)" style="flex:1.2;min-width:150px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+                <input type="text" id="new-teacher-pin" placeholder="Personal PIN (e.g. 4821)" style="flex:0.8;min-width:120px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+                <input type="text" id="new-teacher-class" placeholder="Starting class (optional, e.g. 4HBM1)" style="flex:1.1;min-width:170px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
                 <button type="button" class="btn btn-primary btn-sm" id="btn-add-teacher">➕ Add Teacher</button>
               </div>
               <div style="display:flex;flex-direction:column;gap:6px;">
@@ -2357,7 +2354,7 @@
                     <div>
                       <strong>${escapeHtml(t.name)}</strong> ${t.isOwner ? `<span class="badge badge-primary" style="margin-left:4px;">Lead Teacher</span>` : ""}
                       · PIN: <code>${escapeHtml(t.pin)}</code>
-                      · Classes: <strong>${(t.assignedClasses || ["ALL"]).includes("ALL") ? "All classes" : escapeHtml((t.assignedClasses || []).join(", "))}</strong>
+                      · Classes: <strong>${(t.assignedClasses || []).includes("ALL") ? "All classes" : ((t.assignedClasses || []).length ? escapeHtml(t.assignedClasses.join(", ")) : "No classes yet (can add own)")}</strong>
                     </div>
                     <div style="display:flex;gap:6px;align-items:center;">
                       ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-copy-teacher-link="${escapeHtml(t.id)}" style="color:#7c3aed;border-color:#c4b5fd;">📋 Copy Personal Link</button>` : ""}
@@ -4070,10 +4067,12 @@
     document.getElementById("btn-add-class")?.addEventListener("click", () => {
       const nameInput = document.getElementById("new-class-name");
       const codeInput = document.getElementById("new-class-code");
-      const clsName = (nameInput?.value || "").trim();
-      const clsCode = (codeInput?.value || clsName).trim().toUpperCase().replace(/\s+/g, "");
+      const rawName = (nameInput?.value || "").trim();
+      const rawCode = (codeInput?.value || "").trim();
+      const clsName = rawName || rawCode;
+      const clsCode = (rawCode || rawName).toUpperCase().replace(/\s+/g, "");
       if (!clsName || !clsCode) {
-        alert("Please enter a Class Name (e.g. 4HBM1) and Join Code.");
+        alert("Please enter a Class Name (e.g. 4HBM1) before clicking Add Class.");
         return;
       }
       if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
@@ -4113,10 +4112,18 @@
     document.getElementById("btn-add-teacher")?.addEventListener("click", () => {
       const tName = (document.getElementById("new-teacher-name")?.value || "").trim();
       const tPin = (document.getElementById("new-teacher-pin")?.value || "").trim().toUpperCase();
-      const tClass = document.getElementById("new-teacher-class")?.value || "ALL";
+      const tClassRaw = (document.getElementById("new-teacher-class")?.value || "").trim();
       if (!tName || tPin.length < 3) {
         alert("Please enter a Teacher Name and a Personal PIN (at least 3 characters).");
         return;
+      }
+      const assignedClasses = [];
+      if (tClassRaw) {
+        const clsCode = tClassRaw.toUpperCase().replace(/\s+/g, "");
+        assignedClasses.push(clsCode);
+        if (!state.classes.some(c => String(c.code).toUpperCase() === clsCode)) {
+          state.classes.push({ id: "cls-" + Date.now(), name: tClassRaw, code: clsCode, createdBy: tName });
+        }
       }
       state.teachers = state.teachers || [];
       state.teachers.push({
@@ -4124,7 +4131,7 @@
         name: tName,
         pin: tPin,
         isOwner: false,
-        assignedClasses: tClass === "ALL" ? ["ALL"] : [tClass]
+        assignedClasses
       });
       saveLocalState();
       render();
