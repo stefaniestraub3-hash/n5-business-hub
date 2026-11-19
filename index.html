@@ -13,15 +13,15 @@
   <meta name="apple-mobile-web-app-title" content="N5 Business" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#7c3aed" />
-  <link rel="manifest" href="./manifest.json?v=38" />
-  <link rel="icon" type="image/png" href="./n5-app-icon.png?v=38" />
-  <link rel="apple-touch-icon" href="./n5-app-icon.png?v=38" />
-  <link rel="stylesheet" href="./styles.css?v=38" />
+  <link rel="manifest" href="./manifest.json?v=39" />
+  <link rel="icon" type="image/png" href="./n5-app-icon.png?v=39" />
+  <link rel="apple-touch-icon" href="./n5-app-icon.png?v=39" />
+  <link rel="stylesheet" href="./styles.css?v=39" />
 </head>
 <body>
   <div id="app"></div>
-  <script src="./hubData.js?v=38"></script>
-  <script src="./app.js?v=38"></script>
+  <script src="./hubData.js?v=39"></script>
+  <script src="./app.js?v=39"></script>
   <script>
     if ("serviceWorker" in navigator) {
       let refreshing = false;
@@ -31,7 +31,7 @@
           window.location.reload();
         }
       });
-      navigator.serviceWorker.register("./sw.js?v=38", { updateViaCache: "none" }).then(reg => {
+      navigator.serviceWorker.register("./sw.js?v=39", { updateViaCache: "none" }).then(reg => {
         reg.update();
         document.addEventListener("visibilitychange", () => {
           if (document.visibilityState === "visible") reg.update();
