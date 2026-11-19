@@ -2568,8 +2568,9 @@
     const cards = [];
     (DATA.lessons || []).forEach(l => {
       (l.definitions || []).forEach(d => {
-        if (d && d.term && d.meaning) {
-          cards.push({ topic: l.topic || "Understanding Business", subtopic: l.title || "", term: d.term, meaning: d.meaning });
+        const defText = d && (d.definition || d.meaning || d.text);
+        if (d && d.term && defText) {
+          cards.push({ topic: l.topic || "Understanding Business", subtopic: l.title || "", term: d.term, meaning: defText });
         }
       });
     });
@@ -2806,9 +2807,10 @@
             ${sec1Questions.map((q, idx) => {
               const qKey = "s1-" + idx;
               const res = state.mockResults?.details?.[qKey];
+              const qText = q.text || q.question || q.prompt || "";
               return `
                 <div style="padding:12px;background:#fff;border-radius:10px;border:1px solid var(--border);margin-bottom:10px;">
-                  <div style="font-weight:700;font-size:14px;margin-bottom:6px;">1(${String.fromCharCode(97 + idx)}) ${escapeHtml(q.prompt || q.question)} <span class="badge badge-primary">${q.marks || 2}m</span></div>
+                  <div style="font-weight:700;font-size:14px;margin-bottom:6px;">1(${String.fromCharCode(97 + idx)}) ${escapeHtml(qText)} <span class="badge badge-primary">${q.marks || 2} marks</span></div>
                   <textarea rows="3" data-mock-q="${qKey}" onpaste="return false;" placeholder="Type your SQA answer here..." style="width:100%;padding:9px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">${escapeHtml(state.mockAnswers[qKey] || "")}</textarea>
                   ${res ? `<div style="margin-top:6px;font-size:13px;font-weight:700;color:${res.marks === res.marksAvailable ? "#15803d" : "#b45309"};">Marked: ${res.marks} / ${res.marksAvailable} marks</div>` : ""}
                 </div>
@@ -2825,9 +2827,10 @@
               ${sec.questions.map((q, qIdx) => {
                 const qKey = `s2-${sIdx}-${qIdx}`;
                 const res = state.mockResults?.details?.[qKey];
+                const qText = q.question || q.prompt || q.text || "";
                 return `
                   <div style="margin-bottom:12px;">
-                    <div style="font-weight:700;font-size:14px;margin-bottom:6px;">${sIdx + 2}(${String.fromCharCode(97 + qIdx)}) ${escapeHtml(q.prompt)} <span class="badge badge-primary">${q.marks}m</span></div>
+                    <div style="font-weight:700;font-size:14px;margin-bottom:6px;">${sIdx + 2}(${String.fromCharCode(97 + qIdx)}) ${escapeHtml(qText)} <span class="badge badge-primary">${q.marks || 2} marks</span></div>
                     <textarea rows="3" data-mock-q="${qKey}" onpaste="return false;" placeholder="Type your SQA answer here..." style="width:100%;padding:9px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;">${escapeHtml(state.mockAnswers[qKey] || "")}</textarea>
                     ${res ? `<div style="margin-top:6px;font-size:13px;font-weight:700;color:${res.marks === res.marksAvailable ? "#15803d" : "#b45309"};">Marked: ${res.marks} / ${res.marksAvailable} marks</div>` : ""}
                   </div>
@@ -4374,7 +4377,12 @@
       (state.mockPaper.sec1Questions || []).forEach((q, idx) => {
         const qKey = "s1-" + idx;
         const ans = state.mockAnswers[qKey] || "";
-        const res = markSqaClient({ ...q, prompt: q.prompt || q.question, marks: q.marks || 2 }, ans);
+        const res = markSqaClient({
+          ...q,
+          question: q.text || q.question || q.prompt || "",
+          markingPoints: q.markingPoints || q.guidance || [],
+          marks: q.marks || 2
+        }, ans);
         details[qKey] = res;
         earned += res.marks;
         total += res.marksAvailable;
