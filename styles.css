@@ -971,3 +971,15 @@ textarea:focus {
     box-shadow: 0 2px 8px rgba(124, 58, 237, 0.45);
   }
 }
+
+@media print {
+  .nav-tabs, .mobile-dock, .no-print, .btn, button {
+    display: none !important;
+  }
+  body, .app-shell, .section-panel {
+    background: #ffffff !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+}

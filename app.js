@@ -284,7 +284,16 @@
     teacherPinInput: "",
     teacherPinError: "",
     teacherUnlocked: false,
-    activeTab: "dashboard", // 'dashboard' | 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
+    activeTab: "dashboard",
+    // Timed SQA Mini-Exam Sprint state
+    examQuestions: [],
+    examAnswers: {},
+    examResults: null,
+    examSecondsLeft: 900,
+    examTimerId: null,
+    examRunning: false,
+    speakingText: "",
+ // 'dashboard' | 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
 
     // Command Word Drills state
     drillCategory: "identify", // 'identify' | 'describe' | 'explain' | 'compare' | 'justify' | 'multicommand'
@@ -556,8 +565,8 @@
           <h1>Welcome to your Revision Hub</h1>
 
           ${rem ? `
-            <div style="background:#dcfce7;border:2px solid #22c55e;border-radius:14px;padding:12px 14px;margin-bottom:14px;">
-              <div style="font-size:12px;font-weight:800;color:#15803d;text-transform:uppercase;letter-spacing:0.04em;">Saved on This Phone / Device</div>
+            <div style="background:#f5f3ff;border:2px solid #a78bfa;border-radius:14px;padding:12px 14px;margin-bottom:14px;">
+              <div style="font-size:12px;font-weight:800;color:#6d28d9;text-transform:uppercase;letter-spacing:0.04em;">Saved on This Phone / Device</div>
               <button type="button" class="btn btn-primary" id="btn-continue-remembered" style="width:100%;margin-top:6px;padding:13px;font-size:15.5px;">
                 👋 Tap to Continue as ${escapeHtml(rem.name)} (${escapeHtml(rem.className || rem.classCode)})
               </button>
@@ -1351,7 +1360,7 @@
               </div>
             ` : ""}
 
-            <h3 style="font-size:18px;margin:8px 0 12px 0;">${escapeHtml(currentQ.text)}</h3>
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin:8px 0 12px 0;"><h3 style="font-size:18px;margin:0;flex:1;">${escapeHtml(currentQ.text)}</h3><button type="button" class="btn btn-outline btn-sm" data-read-text="${escapeHtml(currentQ.text)}" title="Read question aloud">🔊 Read</button></div>
 
             <textarea
               id="prac-answer-box"
@@ -2040,6 +2049,125 @@
     `;
   }
 
+  function speakText(text) {
+    if (!("speechSynthesis" in window)) {
+      alert("Read-aloud is not supported on this browser.");
+      return;
+    }
+    if (window.speechSynthesis.speaking && state.speakingText === text) {
+      window.speechSynthesis.cancel();
+      state.speakingText = "";
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "en-GB";
+    utter.rate = 0.96;
+    state.speakingText = text;
+    utter.onend = () => { state.speakingText = ""; };
+    window.speechSynthesis.speak(utter);
+  }
+
+  function startMiniExam() {
+    if (state.examTimerId) clearInterval(state.examTimerId);
+    const pool = [...(DATA.questions || [])].sort(() => Math.random() - 0.5);
+    const picked = [];
+    let totalM = 0;
+    for (const q of pool) {
+      if (picked.length >= 4 || totalM >= 10) break;
+      picked.push(q);
+      totalM += (Number(q.marks) || 1);
+    }
+    state.examQuestions = picked;
+    state.examAnswers = {};
+    state.examResults = null;
+    state.examSecondsLeft = 900; // 15 mins
+    state.examRunning = true;
+    state.activeTab = "exam";
+    state.examTimerId = setInterval(() => {
+      if (!state.examRunning) return;
+      state.examSecondsLeft = Math.max(0, state.examSecondsLeft - 1);
+      const el = document.getElementById("exam-timer-display");
+      if (el) {
+        const m = String(Math.floor(state.examSecondsLeft / 60)).padStart(2, "0");
+        const s = String(state.examSecondsLeft % 60).padStart(2, "0");
+        el.textContent = `${m}:${s}`;
+      }
+      if (state.examSecondsLeft === 0) {
+        clearInterval(state.examTimerId);
+        state.examRunning = false;
+      }
+    }, 1000);
+    render();
+  }
+
+  function renderMiniExamTab() {
+    if (!state.examQuestions.length) {
+      return `
+        <section class="section-panel">
+          <p class="kicker">TIMED SQA MINI-EXAM SPRINT</p>
+          <h2>⏱️ 10-Mark Timed SQA Exam Sprint (15 Minutes)</h2>
+          <p style="color:var(--text-secondary);font-size:14px;">Practise real SQA exam timing! You will get a random 10+ mark set of SQA past-paper questions with a 15-minute countdown timer, instant auto-marking, and an estimated SQA Grade Band (A–D).</p>
+          <button type="button" class="btn btn-primary" id="btn-start-mini-exam">⏱️ Start 15-Minute SQA Sprint</button>
+        </section>
+      `;
+    }
+    const mins = String(Math.floor(state.examSecondsLeft / 60)).padStart(2, "0");
+    const secs = String(state.examSecondsLeft % 60).padStart(2, "0");
+    const totalMarks = state.examQuestions.reduce((s, q) => s + (Number(q.marks) || 1), 0);
+    return `
+      <section class="section-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
+          <div>
+            <p class="kicker">TIMED SQA MINI-EXAM SPRINT</p>
+            <h2 style="margin:0;">⏱️ ${totalMarks}-Mark SQA Sprint</h2>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge badge-primary" style="font-size:15px;padding:6px 14px;">⏱️ <span id="exam-timer-display">${mins}:${secs}</span></span>
+            <button type="button" class="btn btn-outline btn-sm" id="btn-start-mini-exam">↻ New Sprint</button>
+          </div>
+        </div>
+
+        ${state.examResults ? `
+          <div class="feedback-box ${state.examResults.pct >= 70 ? "full-marks" : state.examResults.pct >= 50 ? "partial-marks" : "zero-marks"}" style="margin-bottom:16px;">
+            <h3 style="margin:0 0 6px 0;">SQA Sprint Result: ${state.examResults.earned} / ${state.examResults.total} marks (${state.examResults.pct}%) — Estimated SQA Band: ${state.examResults.grade}</h3>
+            <p style="margin:0;font-size:13.5px;">Review your individual SQA model answers below to see how to push into Grade A (70%+).</p>
+          </div>
+        ` : ""}
+
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          ${state.examQuestions.map((q, idx) => {
+            const ans = state.examAnswers[q.id] || "";
+            const res = state.examResults?.items?.[idx] || null;
+            return `
+              <div class="question-card">
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:6px;">
+                  <div>
+                    <span class="badge badge-primary">Q${idx + 1} · ${escapeHtml((q.primaryCommand || "").toUpperCase())}</span>
+                    <span class="badge">${q.marks} ${q.marks === 1 ? "mark" : "marks"}</span>
+                    <span class="badge">${escapeHtml(q.topic)}</span>
+                  </div>
+                  <button type="button" class="btn btn-outline btn-sm" data-read-text="${escapeHtml(q.text)}">🔊 Read Aloud</button>
+                </div>
+                <h4 style="margin:6px 0 10px 0;font-size:16px;">${escapeHtml(q.text)}</h4>
+                <textarea rows="4" data-exam-input="${escapeHtml(q.id)}" placeholder="Type your SQA exam answer here...">${escapeHtml(ans)}</textarea>
+                ${res ? renderFeedbackCard(res, q) : ""}
+              </div>
+            `;
+          }).join("")}
+        </div>
+
+        ${!state.examResults ? `
+          <div style="margin-top:16px;">
+            <button type="button" class="btn btn-primary" id="btn-submit-mini-exam" style="width:100%;padding:13px;font-size:15px;">
+              ✓ Finish &amp; Mark My SQA Sprint
+            </button>
+          </div>
+        ` : ""}
+      </section>
+    `;
+  }
+
   function renderMainHub() {
     const analytics = computeAnalytics();
     const isTeacher = state.user?.role === "admin";
@@ -2125,6 +2253,7 @@
                 <span class="badge badge-success">Average mark: ${analytics.avgPct}%</span>
                 <span class="badge">Course areas practised: ${topicsPractisedCount} / 5</span>
                 <span class="badge">Revision Challenge: ${Math.min(5, analytics.uniqueQuestionsCount)} / 5</span>
+                <span class="badge badge-primary">🔥 XP: ${analytics.totalAttempts * 10 + (analytics.fullMarksCount || 0) * 15}</span>
               </div>
             </div>
 
@@ -2134,6 +2263,8 @@
               <button type="button" class="btn btn-soft btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="practice">📝 Past Papers</button>
               <button type="button" class="btn btn-soft btn-sm" data-tab="cases">🏢 Case Studies</button>
+              <button type="button" class="btn btn-primary btn-sm" id="btn-launch-mini-exam">⏱️ 10-Mark SQA Sprint</button>
+              <button type="button" class="btn btn-outline btn-sm" data-goto-drill="${escapeHtml((analytics.commandStats || []).slice().sort((a,b) => (a.avgPct||0) - (b.avgPct||0))[0]?.key || 'explain')}">🧠 Fix Weakest Area</button>
             </div>
 
             <details style="margin-top:12px;font-size:13px;color:var(--text-secondary);background:var(--surface-alt);padding:8px 12px;border-radius:8px;border:1px solid var(--border);">
@@ -2176,6 +2307,7 @@
         ${state.activeTab === "cases" ? renderCasesTab() : ""}
         ${state.activeTab === "homework" ? renderHomeworkTab() : ""}
         ${state.activeTab === "progress" ? renderProgressTab(analytics) : ""}
+        ${state.activeTab === "exam" ? renderMiniExamTab() : ""}
 
         <!-- MOBILE BOTTOM NAVIGATION DOCK -->
         <nav class="mobile-dock">
@@ -2492,6 +2624,44 @@
           document.getElementById("drill-question-card")?.scrollIntoView({ behavior: "smooth", block: "start" });
         }, 40);
       });
+    });
+
+    // READ ALOUD, TIMED MINI-EXAM & PRINT REPORT EVENTS
+    document.querySelectorAll("[data-read-text]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        speakText(btn.getAttribute("data-read-text") || "");
+      });
+    });
+
+    document.getElementById("btn-launch-mini-exam")?.addEventListener("click", startMiniExam);
+    document.getElementById("btn-start-mini-exam")?.addEventListener("click", startMiniExam);
+
+    document.querySelectorAll("[data-exam-input]").forEach(box => {
+      box.addEventListener("input", e => {
+        state.examAnswers[box.getAttribute("data-exam-input")] = e.target.value;
+      });
+    });
+
+    document.getElementById("btn-submit-mini-exam")?.addEventListener("click", () => {
+      if (state.examTimerId) clearInterval(state.examTimerId);
+      state.examRunning = false;
+      let earned = 0, total = 0;
+      const items = state.examQuestions.map(q => {
+        const ans = state.examAnswers[q.id] || "";
+        const res = markSqaClient(q, ans);
+        earned += res.marks;
+        total += res.maxMarks;
+        if (ans.trim()) recordAttempt(q, ans, res, "exam");
+        return res;
+      });
+      const pct = total ? Math.round((earned / total) * 100) : 0;
+      const grade = pct >= 70 ? "Grade A" : pct >= 60 ? "Grade B" : pct >= 50 ? "Grade C" : pct >= 40 ? "Grade D" : "No Award (Keep Practising!)";
+      state.examResults = { earned, total, pct, grade, items };
+      render();
+    });
+
+    document.getElementById("btn-print-teacher-report")?.addEventListener("click", () => {
+      window.print();
     });
 
     // DRILLS TAB EVENTS
