@@ -2727,6 +2727,44 @@
           saveLocalState();
           return render();
         }
+        if (name.toLowerCase() === "lee morgan") {
+          state.user = {
+            userId: "teacher-lee-morgan",
+            name: "Lee Morgan",
+            role: "teacher",
+            teacher: true,
+            owner: false,
+            pinVerified: true,
+            assignedClasses: ["ABCD"],
+            classCode: "TEACHER",
+            className: "Teacher"
+          };
+          state.teacherUnlocked = true;
+          state.activeTab = "teacher";
+          state.teacherClassFilter = "ALL";
+          state.loginError = "";
+          saveLocalState();
+          return render();
+        }
+        if (name.toLowerCase() === "craig stephenson") {
+          state.user = {
+            userId: "teacher-craig-stephenson",
+            name: "Craig Stephenson",
+            role: "teacher",
+            teacher: true,
+            owner: false,
+            pinVerified: true,
+            assignedClasses: ["ALL"],
+            classCode: "TEACHER",
+            className: "Teacher"
+          };
+          state.teacherUnlocked = true;
+          state.activeTab = "teacher";
+          state.teacherClassFilter = "ALL";
+          state.loginError = "";
+          saveLocalState();
+          return render();
+        }
         if (name.length < 2) {
           state.loginError = "Please enter your full name.";
           return render();
