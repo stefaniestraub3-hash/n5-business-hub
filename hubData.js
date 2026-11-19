@@ -202,9 +202,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "RIpkIWk8VTY",
-        "title": "National 5 Business Management — Maximising Customer Satisfaction & Loyalty",
-        "channel": "FVWL RIC N5 Business",
+        "videoId": "",
+        "title": "National 5 Business Management — Customer satisfaction",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "10:40",
         "summary": "How organisations deliver high standards of customer service, handle complaints, offer after-sales support, and the benefits of repeat custom."
       }
@@ -432,9 +432,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "vjnHyYKHey4",
-        "title": "National 5 Business — Business Objectives (Survival, Profit, Growth, Social Responsibility)",
-        "channel": "SQA N5 Business Revision",
+        "videoId": "",
+        "title": "National 5 Business Management — Objectives",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "8:50",
         "summary": "Why different organisations set different objectives (profit maximisation, survival, growth, customer satisfaction, market share, and service provision)."
       }
@@ -664,9 +664,9 @@ window.N5_HUB_DATA = {
         }
       ],
       "video": {
-        "videoId": "u0z54n2K4io",
-        "title": "National 5 Business Management — Internal & External Stakeholders (Interests, Influence & Conflict)",
-        "channel": "Scottish Business Education",
+        "videoId": "",
+        "title": "National 5 Business Management — Stakeholders",
+        "channel": "@ScottishEducationalVideos · Your Business Tutor (N5)",
         "duration": "13:10",
         "summary": "How owners, managers, employees, customers, suppliers, lenders, local community and government influence a business and why their interests conflict."
       }
