@@ -2977,6 +2977,214 @@ window.N5_HUB_DATA = {
   ],
   "questions": [
     {
+      "id": "sqa-hrtech-3",
+      "sourceYear": 2024,
+      "sourceQuestion": "5(c)",
+      "topic": "Management of People",
+      "subtopic": "Technology in managing people",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "primaryCommand": "explain",
+      "commands": [
+        "explain"
+      ],
+      "text": "Explain one advantage and one disadvantage of using video conferencing for job interviews.",
+      "hint": "Use 'which means that' / 'leading to' to explain both a benefit (e.g. wider pool of applicants) and a drawback (e.g. technical/internet issues).",
+      "acceptedPoints": [
+        "Advantage: Candidates from anywhere in the world can be interviewed without travelling, which means that the business can attract a wider pool of skilled applicants and save travel expenses.",
+        "Disadvantage: Poor internet connection or technical glitches can interrupt the interview, leading to misunderstandings or difficulty judging a candidate's body language."
+      ],
+      "markingRule": "Award 1 mark for a developed explanation of an advantage and 1 mark for a developed explanation of a disadvantage, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Advantage: Candidates can be interviewed remotely from any location, which means that the business saves on travel costs and can attract a wider pool of talented applicants. (1 mark)\n• Disadvantage: Technical issues such as poor Wi-Fi can disrupt the call, leading to poor communication and making it harder to assess the candidate's body language. (1 mark)\n\nSQA Marking Note: Award 1 mark for advantage and 1 mark for disadvantage with clear cause and impact."
+    },
+    {
+      "id": "sqa-hrtech-2",
+      "sourceYear": 2023,
+      "sourceQuestion": "6(b)",
+      "topic": "Management of People",
+      "subtopic": "Technology in managing people",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 2,
+      "primaryCommand": "describe",
+      "commands": [
+        "describe"
+      ],
+      "text": "Describe two benefits of using e-learning to train employees.",
+      "hint": "Think about flexibility, travel costs, and consistent training quality.",
+      "acceptedPoints": [
+        "Employees can complete training at their own pace and at a time that suits them without leaving the workplace.",
+        "It saves money on travel, accommodation, and hiring external trainers.",
+        "All staff receive the exact same high-quality, consistent training materials."
+      ],
+      "markingRule": "Award 1 mark for each valid benefit of e-learning clearly described, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Employees can complete training at their own pace and at a convenient time without needing to leave the workplace. (1 mark)\n• The business saves money because it does not have to pay for travel, venue hire, or external trainers. (1 mark)\n\nSQA Marking Note: Award 1 mark per valid description, up to 2 marks."
+    },
+    {
+      "id": "sqa-hrtech-1",
+      "sourceYear": 2022,
+      "sourceQuestion": "5(a)",
+      "topic": "Management of People",
+      "subtopic": "Technology in managing people",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "primaryCommand": "identify",
+      "commands": [
+        "identify"
+      ],
+      "text": "Identify two ways technology can be used by the Human Resources (People) department.",
+      "hint": "Think about online recruitment, video interviews, e-learning, or digital staff databases.",
+      "acceptedPoints": [
+        "Advertising job vacancies online (e.g. company website or Indeed).",
+        "Conducting video interviews (e.g. Zoom or Microsoft Teams).",
+        "Delivering online training / e-learning courses.",
+        "Storing employee records securely in a computerised database."
+      ],
+      "markingRule": "Award 1 mark for each valid use of HR technology identified, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Advertising job vacancies online on job websites or social media. (1 mark)\n• Conducting interviews using video conferencing software such as Microsoft Teams or Zoom. (1 mark)\n• Delivering staff training through e-learning platforms. (1 mark)\n\nSQA Marking Note: Award 1 mark per valid point, up to 2 marks."
+    },
+    {
+      "id": "sqa-eco-3",
+      "sourceYear": 2024,
+      "sourceQuestion": "2(c)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of the economy",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "primaryCommand": "compare",
+      "commands": [
+        "compare"
+      ],
+      "text": "Compare a private sector organisation with a public sector organisation.",
+      "hint": "Use 'whereas' or 'both' to compare ownership, funding, or aims.",
+      "acceptedPoints": [
+        "A private sector business is owned by private individuals or shareholders, whereas a public sector organisation is owned by the government.",
+        "A private sector business aims to maximise profit, whereas a public sector organisation aims to provide a quality service within a budget.",
+        "A private sector business is funded by sales revenue and private investment, whereas a public sector organisation is funded by taxpayers' money."
+      ],
+      "markingRule": "Award 1 mark for each valid comparison using linking language (e.g. whereas), up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• A private sector organisation is owned by private individuals or shareholders, whereas a public sector organisation is owned by the government. (1 mark)\n• A private sector organisation aims to maximise profit, whereas a public sector organisation aims to provide a quality public service within a budget. (1 mark)\n\nSQA Marking Note: Must include a clear comparison word (e.g. whereas) to gain marks."
+    },
+    {
+      "id": "sqa-eco-2",
+      "sourceYear": 2022,
+      "sourceQuestion": "4(a)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of the economy",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "primaryCommand": "describe",
+      "commands": [
+        "describe"
+      ],
+      "text": "Describe the main features of the private, public, and third sectors of the economy.",
+      "hint": "For each sector, state who owns it, how it is funded, or what its main aim is.",
+      "acceptedPoints": [
+        "Private sector organisations are owned by private individuals or shareholders and aim to make a profit (e.g. sole traders, Ltd companies).",
+        "Public sector organisations are owned and funded by the government through taxation to provide essential services (e.g. NHS, state schools).",
+        "Third sector organisations include charities, clubs, and social enterprises funded by donations or grants to help a social cause."
+      ],
+      "markingRule": "Award 1 mark for each sector of the economy clearly described, up to 3 marks.",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Private sector businesses are owned by private individuals or shareholders and aim to maximise profit. (1 mark)\n• Public sector organisations are owned and funded by central or local government using taxpayers' money to provide public services such as the NHS. (1 mark)\n• Third sector organisations (charities, voluntary groups, and social enterprises) are funded by donations and grants to support a social cause rather than make profit for owners. (1 mark)\n\nSQA Marking Note: Award 1 mark per clear description, up to 3 marks."
+    },
+    {
+      "id": "sqa-eco-1",
+      "sourceYear": 2021,
+      "sourceQuestion": "1(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Sectors of the economy",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 3,
+      "primaryCommand": "identify",
+      "commands": [
+        "identify"
+      ],
+      "text": "Identify the three sectors of the economy.",
+      "hint": "Remember P-P-T: Private, Public, and Third.",
+      "acceptedPoints": [
+        "Private sector",
+        "Public sector",
+        "Third sector"
+      ],
+      "markingRule": "Award 1 mark for each sector of the economy identified, up to 3 marks.",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Private sector. (1 mark)\n• Public sector. (1 mark)\n• Third sector. (1 mark)\n\nSQA Marking Note: Do not credit primary/secondary/tertiary (those are sectors of industry)."
+    },
+    {
+      "id": "sqa-stk-3",
+      "sourceYear": 2024,
+      "sourceQuestion": "1(d)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "A",
+      "computedLevel": "A",
+      "marks": 2,
+      "primaryCommand": "explain",
+      "commands": [
+        "explain"
+      ],
+      "text": "Explain why conflict may occur between two stakeholders of a business.",
+      "hint": "Show how one stakeholder's interest (e.g. employees wanting higher wages) clashes with another's (e.g. owners wanting higher profits) using 'which means that'.",
+      "acceptedPoints": [
+        "Employees want higher wages and better working conditions, which means that business costs increase and profits/dividends for owners may fall.",
+        "Customers want lower prices and higher quality, which means that profit margins are reduced for shareholders.",
+        "The local community wants less noise and pollution, which means that the business may have to spend more on eco-friendly operations, reducing profits."
+      ],
+      "markingRule": "Award 1 mark for each clear explanation of stakeholder conflict with cause and impact, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Employees want higher wages, which means that business expenses increase and owners/shareholders receive lower profits. (1 mark)\n• Customers want lower prices for high-quality goods, which means that the business earns a smaller profit margin, conflicting with owners' aim of profit maximisation. (1 mark)\n\nSQA Marking Note: Must explain the clash between two named stakeholders with cause and impact."
+    },
+    {
+      "id": "sqa-stk-2",
+      "sourceYear": 2023,
+      "sourceQuestion": "3(b)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "B",
+      "computedLevel": "B",
+      "marks": 3,
+      "primaryCommand": "describe",
+      "commands": [
+        "describe"
+      ],
+      "text": "Describe how three different stakeholders can influence a business.",
+      "hint": "Think about what actions customers, employees, suppliers, or banks can take to affect the business.",
+      "acceptedPoints": [
+        "Customers can choose to buy from competitors or leave bad reviews if they are unhappy with prices or quality.",
+        "Employees can take industrial action (such as going on strike) or work less productively if pay or working conditions are poor.",
+        "Suppliers can increase the price of raw materials, refuse trade credit, or delay deliveries.",
+        "Banks can refuse to lend money or increase interest rates on loans.",
+        "Owners/shareholders can vote at the AGM to replace managers or withdraw their investment."
+      ],
+      "markingRule": "Award 1 mark for each valid description of stakeholder influence, up to 3 marks.",
+      "solution": "SQA Model Answer (up to 3 marks):\n• Customers can stop buying products and switch to competitors if quality drops or prices rise. (1 mark)\n• Employees can go on strike or work to rule if they are unhappy with pay or working conditions. (1 mark)\n• Suppliers can raise the price of raw materials or refuse to offer trade credit. (1 mark)\n• Banks can refuse to grant a loan or charge higher interest rates. (1 mark)\n\nSQA Marking Note: Award 1 mark for each distinct stakeholder influence clearly described, up to 3 marks."
+    },
+    {
+      "id": "sqa-stk-1",
+      "sourceYear": 2022,
+      "sourceQuestion": "2(a)",
+      "topic": "Understanding Business",
+      "subtopic": "Stakeholders",
+      "level": "C",
+      "computedLevel": "C",
+      "marks": 2,
+      "primaryCommand": "identify",
+      "commands": [
+        "identify"
+      ],
+      "text": "Identify two internal stakeholders and two external stakeholders of a business.",
+      "hint": "Internal stakeholders work inside or own the business; external stakeholders are outside the business.",
+      "acceptedPoints": [
+        "Internal stakeholders: owners/shareholders, managers, employees.",
+        "External stakeholders: customers, suppliers, banks/lenders, local community, government."
+      ],
+      "markingRule": "Award 1 mark for two valid internal stakeholders and 1 mark for two valid external stakeholders, up to 2 marks.",
+      "solution": "SQA Model Answer (up to 2 marks):\n• Internal stakeholders: employees and owners/managers. (1 mark)\n• External stakeholders: customers and suppliers/banks/government/local community. (1 mark)\n\nSQA Marking Note: Award 1 mark for internal stakeholders and 1 mark for external stakeholders, up to 2 marks."
+    },
+    {
       "id": "sqa-ind-5",
       "sourceYear": 2025,
       "sourceQuestion": "1(c)",
