@@ -284,7 +284,7 @@
     teacherPinInput: "",
     teacherPinError: "",
     teacherUnlocked: false,
-    activeTab: "drills", // 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
+    activeTab: "dashboard", // 'dashboard' | 'drills' | 'lessons' | 'practice' | 'cases' | 'homework' | 'progress' | 'teacher'
 
     // Command Word Drills state
     drillCategory: "identify", // 'identify' | 'describe' | 'explain' | 'compare' | 'justify' | 'multicommand'
@@ -2080,21 +2080,24 @@
           </div>
         ` : ""}
 
-        <!-- NAVIGATION TABS (Always at top so Teacher Dashboard or Pupil Tabs are 1 click away) -->
+        <!-- NAVIGATION TABS -->
         <nav class="nav-tabs" id="hub-workspace" style="margin-top:14px;">
           ${isTeacher ? `
             <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher" style="font-weight:800;">
               🎓 Teacher Dashboard (41 Pupils · Results &amp; Homework)
             </button>
           ` : ""}
+          <button type="button" class="nav-tab ${state.activeTab === "dashboard" ? "active" : ""}" data-tab="dashboard">
+            🏠 My Dashboard
+          </button>
           <button type="button" class="nav-tab ${state.activeTab === "drills" ? "active" : ""}" data-tab="drills">
-            ⚡ Command Word Drills (Identify · Describe · Explain)
+            ⚡ Command Word Drills
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "practice" ? "active" : ""}" data-tab="practice">
             📝 Practice
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "lessons" ? "active" : ""}" data-tab="lessons">
-            ▶ Lessons, Videos &amp; Flashcards
+            ▶ Lessons &amp; Videos
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "cases" ? "active" : ""}" data-tab="cases">
             🏢 Case Studies
@@ -2108,6 +2111,64 @@
         </nav>
 
         ${state.activeTab === "teacher" ? renderTeacherTab() : ""}
+
+        ${state.activeTab === "dashboard" ? `
+          <section class="dashboard-overview">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+              <div>
+                <p class="kicker">YOUR REVISION SPACE · LEARNING OVERVIEW</p>
+                <h1 style="font-size:21px;margin:0;">Welcome to your revision dashboard, ${escapeHtml(state.user.name)}</h1>
+                <p style="margin:4px 0 0 0;font-size:13.5px;color:var(--text-secondary);">Pick a topic, learn the key ideas, drill SQA command words, and practise exam-style questions. Your progress is saved as you go.</p>
+              </div>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                <span class="badge badge-primary">Questions attempted: ${analytics.totalAttempts}</span>
+                <span class="badge badge-success">Average mark: ${analytics.avgPct}%</span>
+                <span class="badge">Course areas practised: ${topicsPractisedCount} / 5</span>
+                <span class="badge">Revision Challenge: ${Math.min(5, analytics.uniqueQuestionsCount)} / 5</span>
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin-top:14px;">
+              <button type="button" class="btn btn-primary btn-sm" data-tab="drills">⚡ Command Drills</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="homework">📅 Monthly Homework</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="practice">📝 Past Papers</button>
+            </div>
+
+            <details style="margin-top:12px;font-size:13px;color:var(--text-secondary);background:var(--surface-alt);padding:8px 12px;border-radius:8px;border:1px solid var(--border);">
+              <summary style="font-weight:700;cursor:pointer;color:var(--text);">Exam information and official SQA course specification</summary>
+              <p style="margin:6px 0 0 0;">
+                <strong>2026–27 exam:</strong> 70 marks in 1 hour 30 minutes. Section 1: one 20-mark stimulus question. Section 2: five 10-mark questions. The assignment has 30 raw marks, scaled to 20 (22% of the overall assessment).
+                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-bus-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">Official course specification ↗</a> ·
+                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-sqp-business-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">2026 specimen paper &amp; marking instructions ↗</a>
+              </p>
+            </details>
+
+            <h3 style="font-size:15px;margin:16px 0 6px 0;">National 5 Course Areas</h3>
+            <div class="course-grid">
+              ${Object.entries(DATA.courseAreas).map(([topic, subtopics], idx) => `
+                <div class="course-card">
+                  <div>
+                    <span class="course-num">0${idx + 1}</span>
+                    <h3 style="font-size:16px;margin:0 0 4px 0;">${escapeHtml(topic)}</h3>
+                    <p style="margin:0;font-size:12.5px;color:var(--text-muted);">
+                      ${subtopics.length} video lessons · definitions, examples, flashcards &amp; SQA drills
+                    </p>
+                  </div>
+                  <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                    <button type="button" class="btn btn-outline btn-sm" data-card-lessons="${escapeHtml(topic)}">
+                      ▶ Lessons &amp; Videos
+                    </button>
+                    <button type="button" class="btn btn-soft btn-sm" data-drill-topic="${escapeHtml(topic)}">
+                      ⚡ Command Drills
+                    </button>
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </section>
+        ` : ""}
+
         ${state.activeTab === "drills" ? renderDrillsTab(analytics) : ""}
         ${state.activeTab === "lessons" ? renderLessonsTab() : ""}
         ${state.activeTab === "practice" ? renderPracticeTab() : ""}
@@ -2115,61 +2176,13 @@
         ${state.activeTab === "homework" ? renderHomeworkTab() : ""}
         ${state.activeTab === "progress" ? renderProgressTab(analytics) : ""}
 
-        <!-- ORIGINAL FLOOT LEARNING OVERVIEW & COURSE CARDS DASHBOARD -->
-        <section class="dashboard-overview" style="margin-top:20px;">
-          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
-            <div>
-              <p class="kicker">YOUR REVISION SPACE · LEARNING OVERVIEW</p>
-              <h1 style="font-size:21px;margin:0;">Welcome to your revision dashboard, ${escapeHtml(state.user.name)}</h1>
-              <p style="margin:4px 0 0 0;font-size:13.5px;color:var(--text-secondary);">Pick a topic, learn the key ideas, drill SQA command words, and practise exam-style questions. Your progress is saved as you go.</p>
-            </div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap;">
-              <span class="badge badge-primary">Questions attempted: ${analytics.totalAttempts}</span>
-              <span class="badge badge-success">Average mark: ${analytics.avgPct}%</span>
-              <span class="badge">Course areas practised: ${topicsPractisedCount} / 5</span>
-              <span class="badge">Revision Challenge: ${Math.min(5, analytics.uniqueQuestionsCount)} / 5</span>
-            </div>
-          </div>
-
-          <details style="margin-top:10px;font-size:13px;color:var(--text-secondary);background:#f8fafc;padding:8px 12px;border-radius:8px;border:1px solid var(--border);">
-            <summary style="font-weight:700;cursor:pointer;color:var(--text);">Exam information and official SQA course specification</summary>
-            <p style="margin:6px 0 0 0;">
-              <strong>2026–27 exam:</strong> 70 marks in 1 hour 30 minutes. Section 1: one 20-mark stimulus question. Section 2: five 10-mark questions. The assignment has 30 raw marks, scaled to 20 (22% of the overall assessment).
-              <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-bus-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">Official course specification ↗</a> ·
-              <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-sqp-business-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">2026 specimen paper &amp; marking instructions ↗</a>
-            </p>
-          </details>
-
-          <div class="course-grid">
-            ${Object.entries(DATA.courseAreas).map(([topic, subtopics], idx) => `
-              <div class="course-card">
-                <div>
-                  <span class="course-num">0${idx + 1}</span>
-                  <h3 style="font-size:16px;margin:0 0 4px 0;">${escapeHtml(topic)}</h3>
-                  <p style="margin:0;font-size:12.5px;color:var(--text-muted);">
-                    ${subtopics.length} video lessons · definitions, examples, flashcards &amp; SQA drills
-                  </p>
-                </div>
-                <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                  <button type="button" class="btn btn-outline btn-sm" data-card-lessons="${escapeHtml(topic)}">
-                    ▶ Study Lessons &amp; Videos
-                  </button>
-                  <button type="button" class="btn btn-soft btn-sm" data-drill-topic="${escapeHtml(topic)}">
-                    ⚡ Command Drills
-                  </button>
-                </div>
-              </div>
-            `).join("")}
-          </div>
-        </section>
-
         <!-- MOBILE BOTTOM NAVIGATION DOCK -->
         <nav class="mobile-dock">
           ${isTeacher ? `<button type="button" class="${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher">🎓<span>Teacher</span></button>` : ""}
+          <button type="button" class="${state.activeTab === "dashboard" ? "active" : ""}" data-tab="dashboard">🏠<span>Home</span></button>
           <button type="button" class="${state.activeTab === "drills" ? "active" : ""}" data-tab="drills">⚡<span>Drills</span></button>
           <button type="button" class="${state.activeTab === "practice" ? "active" : ""}" data-tab="practice">📝<span>Practice</span></button>
           <button type="button" class="${state.activeTab === "lessons" ? "active" : ""}" data-tab="lessons">▶<span>Lessons</span></button>
-          <button type="button" class="${state.activeTab === "cases" ? "active" : ""}" data-tab="cases">🏢<span>Cases</span></button>
           <button type="button" class="${state.activeTab === "homework" ? "active" : ""}" data-tab="homework">📅<span>HW</span></button>
           <button type="button" class="${state.activeTab === "progress" ? "active" : ""}" data-tab="progress">📊<span>Progress</span></button>
         </nav>
@@ -2366,7 +2379,7 @@
         const found = state.pupils.find(p => p.name.toLowerCase() === pName.toLowerCase());
         state.user = found ? { ...found, role: "user" } : { userId: "pupil-demo", name: pName, classCode: pCode, role: "user" };
         state.rememberedPupil = state.user;
-        state.activeTab = "drills";
+        state.activeTab = "dashboard";
         saveLocalState();
         render();
       });
