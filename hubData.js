@@ -3040,7 +3040,12 @@ window.N5_HUB_DATA = {
         "Advertising job vacancies online (e.g. company website or Indeed).",
         "Conducting video interviews (e.g. Zoom or Microsoft Teams).",
         "Delivering online training / e-learning courses.",
-        "Storing employee records securely in a computerised database."
+        "Storing employee records securely in a computerised database.",
+        "Using spreadsheets to record and track staff attendance, holidays, wages, or training records.",
+        "Using email to communicate with employees, send job offers, or distribute company policies.",
+        "Using word processing software to create job descriptions, person specifications, and contracts of employment.",
+        "Using presentation software (e.g. PowerPoint) to deliver induction or staff training sessions.",
+        "Using biometric or electronic clock-in systems to monitor employee attendance and hours worked."
       ],
       "markingRule": "Award 1 mark for each valid use of HR technology identified, up to 2 marks.",
       "solution": "SQA Model Answer (up to 2 marks):\n• Advertising job vacancies online on job websites or social media. (1 mark)\n• Conducting interviews using video conferencing software such as Microsoft Teams or Zoom. (1 mark)\n• Delivering staff training through e-learning platforms. (1 mark)\n\nSQA Marking Note: Award 1 mark per valid point, up to 2 marks."
