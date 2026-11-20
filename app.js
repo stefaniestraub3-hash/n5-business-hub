@@ -513,10 +513,11 @@
     return state.classes.filter(c => allowedSet.has(String(c.code || "").toUpperCase()) || allowedSet.has(String(c.name || "").toUpperCase()));
   }
 
-  // Live Firebase Realtime Database Cloud Sync (auto-detects Europe or US endpoint)
+  // Live Firebase Realtime Database Cloud Sync (auto-detects Europe, US, or Asia endpoint)
   const FIREBASE_CANDIDATES = [
     "https://n5-business-hub-default-rtdb.europe-west1.firebasedatabase.app",
-    "https://n5-business-hub-default-rtdb.firebaseio.com"
+    "https://n5-business-hub-default-rtdb.firebaseio.com",
+    "https://n5-business-hub-default-rtdb.asia-southeast1.firebasedatabase.app"
   ];
   let resolvedCloudBase = state.cloudSyncUrl || "";
 
@@ -524,7 +525,7 @@
     if (resolvedCloudBase) return resolvedCloudBase;
     for (const base of FIREBASE_CANDIDATES) {
       try {
-        const r = await fetch(base + "/.json?shallow=true");
+        const r = await fetch(base + "/.json?shallow=true", { cache: "no-store" });
         if (r.ok) {
           resolvedCloudBase = base;
           state.cloudSyncUrl = base;
@@ -543,13 +544,16 @@
   async function cloudPut(path, value) {
     try {
       const base = await getCloudBaseUrl();
-      if (!base) return;
-      await fetch(`${base}/${path}.json`, {
+      if (!base) return false;
+      const r = await fetch(`${base}/${path}.json`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(value)
       });
-    } catch {}
+      return r.ok;
+    } catch {
+      return false;
+    }
   }
 
   async function cloudDelete(path) {
@@ -590,11 +594,30 @@
     return kept;
   }
 
+  async function syncCurrentPupilToCloud() {
+    if (!state.user || state.user.role !== "user" || isExcludedPupil(state.user)) return;
+    const uid = state.user.userId || ("pupil-" + String(state.user.name || "").toLowerCase().replace(/\s+/g, "-"));
+    const pupilRec = {
+      userId: uid,
+      name: state.user.name,
+      classCode: String(state.user.classCode || "").toUpperCase(),
+      className: state.user.className || state.user.classCode || "",
+      lastActiveAt: new Date().toISOString()
+    };
+    await cloudPut("pupils/" + safeFirebaseKey(uid), pupilRec);
+    // Also push any recent local attempts for this pupil so teachers see them live
+    const myAtts = (state.attempts || []).filter(a => a.userId === uid || a.userName?.toLowerCase() === state.user.name?.toLowerCase()).slice(0, 25);
+    for (const att of myAtts) {
+      if (att && att.id) await cloudPut("attempts/" + safeFirebaseKey(att.id), att);
+    }
+  }
+
   // Sync with Firebase Realtime Database (and local backend if present)
   async function syncFromServer() {
     try {
       const base = await getCloudBaseUrl();
       if (base) {
+        await syncCurrentPupilToCloud();
         const res = await fetch(`${base}/.json`, { cache: "no-store" });
         if (res.ok) {
           const db = (await res.json()) || {};
@@ -611,6 +634,7 @@
           if (db.trackingRecords && typeof db.trackingRecords === "object") {
             state.trackingRecords = { ...(state.trackingRecords || {}), ...db.trackingRecords };
           }
+          state.cloudLastSynced = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
           saveLocalState();
           // Never interrupt a pupil or teacher while actively typing in an input/textarea
           const tag = (document.activeElement && document.activeElement.tagName || "").toUpperCase();
@@ -2064,6 +2088,9 @@
             </p>
           </div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button type="button" class="btn btn-outline btn-sm" id="btn-sync-cloud-now" style="border-color:#16a34a;color:#15803d;font-weight:700;">
+              🔄 Refresh Live Scores${state.cloudLastSynced ? ` (${escapeHtml(state.cloudLastSynced)})` : ""}
+            </button>
             <button type="button" class="btn btn-outline btn-sm" onclick="document.getElementById('manage-classes-teachers-panel')?.scrollIntoView({behavior:'smooth'})" style="border-color:#7c3aed;color:#6d28d9;font-weight:700;">
               ${isOwnerTeacher ? "🏫 Manage Classes &amp; Teachers" : "🏫 My Classes (+ Add Class)"}
             </button>
@@ -4564,4 +4591,16 @@
   state.pupils = cleanPupilList(state.pupils);
   render();
   syncFromServer();
+  setInterval(() => {
+    if (document.visibilityState === "visible" && state.activeTab === "teacher") {
+      syncFromServer();
+    }
+  }, 30000);
+  document.addEventListener("click", e => {
+    const btn = e.target && e.target.closest && e.target.closest("#btn-sync-cloud-now");
+    if (btn) {
+      btn.textContent = "🔄 Syncing…";
+      syncFromServer();
+    }
+  });
 })();
