@@ -513,13 +513,12 @@
     return state.classes.filter(c => allowedSet.has(String(c.code || "").toUpperCase()) || allowedSet.has(String(c.name || "").toUpperCase()));
   }
 
-  // Live Firebase Realtime Database Cloud Sync (auto-detects Europe, US, or Asia endpoint)
+  // Live Firebase Realtime Database Cloud Sync (verified endpoint)
   const FIREBASE_CANDIDATES = [
-    "https://n5-business-hub-default-rtdb.europe-west1.firebasedatabase.app",
     "https://n5-business-hub-default-rtdb.firebaseio.com",
-    "https://n5-business-hub-default-rtdb.asia-southeast1.firebasedatabase.app"
+    "https://n5-business-hub-default-rtdb.europe-west1.firebasedatabase.app"
   ];
-  let resolvedCloudBase = state.cloudSyncUrl || "";
+  let resolvedCloudBase = "https://n5-business-hub-default-rtdb.firebaseio.com";
 
   async function getCloudBaseUrl() {
     if (resolvedCloudBase) return resolvedCloudBase;
