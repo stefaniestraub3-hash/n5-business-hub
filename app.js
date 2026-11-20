@@ -637,6 +637,7 @@
           if (db.trackingRecords && typeof db.trackingRecords === "object") {
             state.trackingRecords = { ...(state.trackingRecords || {}), ...db.trackingRecords };
           }
+          state.cloudPupilCount = db.pupils ? Object.keys(db.pupils).length : 0;
           state.cloudLastSynced = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
           saveLocalState();
           // Never interrupt a pupil or teacher while actively typing in an input/textarea
@@ -645,6 +646,8 @@
             render();
           }
         }
+      } else if (!state.cloudSyncError) {
+        state.cloudSyncError = "Could not reach Firebase database — check your internet connection or Firebase Realtime Database URL.";
       }
     } catch {}
   }
@@ -2096,7 +2099,7 @@
           </div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
             <button type="button" class="btn btn-outline btn-sm" id="btn-sync-cloud-now" style="border-color:#16a34a;color:#15803d;font-weight:700;">
-              🔄 Refresh Live Scores${state.cloudLastSynced ? ` (${escapeHtml(state.cloudLastSynced)})` : ""}
+              🔄 Refresh Live Scores${state.cloudLastSynced ? ` (☁️ ${state.cloudPupilCount ?? 0} synced · ${escapeHtml(state.cloudLastSynced)})` : ""}
             </button>
             <button type="button" class="btn btn-outline btn-sm" onclick="document.getElementById('manage-classes-teachers-panel')?.scrollIntoView({behavior:'smooth'})" style="border-color:#7c3aed;color:#6d28d9;font-weight:700;">
               ${isOwnerTeacher ? "🏫 Manage Classes &amp; Teachers" : "🏫 My Classes (+ Add Class)"}
