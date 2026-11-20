@@ -4022,7 +4022,7 @@
           solution: qObj.solution || qGuidance.map(g => `• ${g} (1)`).join("\n")
         }, ans);
         state.caseResults[key] = res;
-        state.caseAttempts.unshift({
+        const csAtt = {
           id: "csatt-" + Date.now(),
           userId: state.user?.userId || "local",
           userName: state.user?.name || "Pupil",
@@ -4034,8 +4034,11 @@
           marksAvailable: qObj.marks,
           percentage: res.percentage,
           createdAt: new Date().toLocaleString("en-GB")
-        });
+        };
+        state.caseAttempts.unshift(csAtt);
         saveLocalState();
+        cloudPut("caseAttempts/" + safeFirebaseKey(csAtt.id), csAtt);
+        syncCurrentPupilToCloud();
         render();
       });
     });
@@ -4080,7 +4083,7 @@
           solution: hw.solution || qAccepted.map(p => `• ${p} (1)`).join("\n")
         }, ans);
         state.hwResults[hwId] = res;
-        state.homeworkSubmissions.push({
+        const hwSub = {
           id: "hwsub-" + Date.now(),
           userId: state.user?.userId || "local",
           userName: state.user?.name || "Pupil",
@@ -4096,8 +4099,11 @@
           awardedPoints: res.awardedPoints,
           improvements: res.improvements,
           submittedAt: new Date().toLocaleString("en-GB")
-        });
+        };
+        state.homeworkSubmissions.push(hwSub);
         saveLocalState();
+        cloudPut("homeworkSubmissions/" + safeFirebaseKey(hwSub.id), hwSub);
+        syncCurrentPupilToCloud();
         fetch("/_api/mark-homework", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
