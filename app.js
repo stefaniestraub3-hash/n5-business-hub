@@ -529,8 +529,11 @@
         if (r.ok) {
           resolvedCloudBase = base;
           state.cloudSyncUrl = base;
+          state.cloudSyncError = "";
           saveLocalState();
           return base;
+        } else if (r.status === 401 || r.status === 403) {
+          state.cloudSyncError = "Firebase Locked (401) — open Firebase → Realtime Database → Rules and set read & write to true";
         }
       } catch {}
     }
@@ -2012,9 +2015,13 @@
       : state.pupils.filter(p => visibleClassCodes.has(String(p.classCode || "").toUpperCase()));
 
     const searchQuery = (state.teacherSearchQuery || "").trim().toLowerCase();
-    const classFilteredPupils = teacherScopedPupils.filter(p =>
-      state.teacherClassFilter === "ALL" || p.classCode?.toUpperCase() === state.teacherClassFilter
-    );
+    const classFilteredPupils = teacherScopedPupils.filter(p => {
+      if (state.teacherClassFilter === "ALL") return true;
+      const f = String(state.teacherClassFilter || "").toUpperCase();
+      const pc = String(p.classCode || "").toUpperCase();
+      const pn = String(p.className || "").toUpperCase();
+      return pc === f || pn === f || pc.startsWith(f) || f.startsWith(pc) || pn.includes(f);
+    });
     const filteredPupils = classFilteredPupils.filter(p =>
       !searchQuery || p.name?.toLowerCase().includes(searchQuery) || p.classCode?.toLowerCase().includes(searchQuery)
     );
@@ -2099,6 +2106,11 @@
             </button>
           </div>
         </div>
+        ${state.cloudSyncError ? `
+          <div style="margin-bottom:12px;padding:10px 14px;border-radius:10px;background:#fef2f2;border:1.5px solid #fca5a5;color:#991b1b;font-size:13px;font-weight:700;">
+            ⚠️ ${escapeHtml(state.cloudSyncError)}
+          </div>
+        ` : ""}
 
         <!-- CLASS & PUPIL DROPDOWN SELECTORS (Exact Original Floot Controls + Search) -->
         <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:14px;padding:14px;background:#f8fafc;border-radius:12px;border:1px solid var(--border);">
