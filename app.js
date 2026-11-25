@@ -843,25 +843,24 @@
       return `
         <main class="login-page">
           <section class="login-panel">
-            <div class="login-logo">N5</div>
-            <p class="kicker">NATIONAL 5 BUSINESS MANAGEMENT · PRIVATE TEACHER PORTAL</p>
-            <h1>🔒 Teacher Dashboard Sign-In</h1>
-            <p class="login-lead">
-              This private portal is only accessible via your personal teacher link (<code>?teacher=1</code>) and does <strong>not</strong> appear on the pupils' login page.
-            </p>
+            <div class="login-studio-head">
+              <p class="kicker">NATIONAL 5 BUSINESS / PRIVATE TEACHER PORTAL</p>
+              <h1>🔒 Teacher Dashboard Sign-In</h1>
+              <p>Private teacher portal (<code>?teacher=1</code>) — hidden from pupils.</p>
+            </div>
 
-            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:8px;padding:18px;border-radius:14px;background:#f8fafc;border:2px solid #7c3aed;">
-              <div style="font-weight:800;font-size:16px;color:#7c3aed;">🎓 ${escapeHtml(state.teacherNameInput || "Teacher")} — Teacher Dashboard &amp; Class Records</div>
+            <div class="teacher-area" style="display:flex;flex-direction:column;gap:12px;margin-top:0;padding:18px;border-radius:14px;background:var(--surface-alt);border:1.5px solid var(--primary-border);">
+              <div style="font-weight:700;font-size:15.5px;color:var(--studio-dark);">🎓 ${escapeHtml(state.teacherNameInput || "Teacher")} — Teacher Dashboard &amp; Class Records</div>
               <p style="margin:0;font-size:13.5px;color:var(--text-muted);">Enter your Teacher PIN below to unlock individual pupil records, saved answers, practice marks, and monthly homework results.</p>
               <div style="display:flex;flex-direction:column;gap:10px;">
-                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Display Name
-                  <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #cbd5e1;font-size:14.5px;" />
+                <label style="font-size:13px;font-weight:600;color:var(--text);">Teacher Display Name
+                  <input type="text" id="teacher-name-field" value="${escapeHtml(state.teacherNameInput)}" placeholder="Mrs Straub (Business Teacher)" style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid var(--border-strong);font-size:14.5px;" />
                 </label>
-                <label style="font-size:13px;font-weight:700;color:var(--text);">Teacher Password / PIN
-                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid #7c3aed;font-size:15px;" />
+                <label style="font-size:13px;font-weight:600;color:var(--text);">Teacher Password / PIN
+                  <input type="password" id="teacher-pin-field" value="${escapeHtml(state.teacherPinInput)}" placeholder="Enter Teacher PIN" autofocus style="width:100%;margin-top:4px;padding:11px;border-radius:8px;border:1.5px solid var(--primary);font-size:15px;" />
                 </label>
               </div>
-              ${state.teacherPinError ? `<div style="color:#dc2626;font-size:13.5px;font-weight:700;padding:8px 10px;background:#fef2f2;border-radius:8px;border:1px solid #fecaca;">${escapeHtml(state.teacherPinError)}</div>` : ""}
+              ${state.teacherPinError ? `<div style="color:var(--danger);font-size:13.5px;font-weight:600;padding:8px 10px;background:var(--danger-bg);border-radius:8px;border:1px solid var(--danger-border);">${escapeHtml(state.teacherPinError)}</div>` : ""}
               <button type="button" class="btn btn-primary" id="btn-teacher-login" style="width:100%;padding:13px;font-size:15px;font-weight:700;">
                 🎓 Unlock Teacher Dashboard
               </button>
@@ -877,14 +876,16 @@
     return `
       <main class="login-page">
         <section class="login-panel">
-          <div class="login-logo">N5</div>
-          <p class="kicker">NATIONAL 5 BUSINESS MANAGEMENT</p>
-          <h1>Welcome to your Revision Hub</h1>
+          <div class="login-studio-head">
+            <p class="kicker">NATIONAL 5 BUSINESS / REVISION STUDIO</p>
+            <h1>Welcome to your Revision Hub</h1>
+            <p>SQA lessons, command word drills, flashcards, past papers &amp; homework.</p>
+          </div>
 
           ${rem ? `
-            <div style="background:#f5f3ff;border:2px solid #a78bfa;border-radius:14px;padding:12px 14px;margin-bottom:14px;">
-              <div style="font-size:12px;font-weight:800;color:#6d28d9;text-transform:uppercase;letter-spacing:0.04em;">Saved on This Phone / Device</div>
-              <button type="button" class="btn btn-primary" id="btn-continue-remembered" style="width:100%;margin-top:6px;padding:13px;font-size:15.5px;">
+            <div style="background:var(--surface-tint);border:1.5px solid var(--primary-border);border-radius:14px;padding:12px 14px;margin-bottom:14px;">
+              <div style="font-size:11.5px;font-weight:700;color:var(--studio-dark);text-transform:uppercase;letter-spacing:0.06em;">Saved on This Phone / Device</div>
+              <button type="button" class="btn btn-primary" id="btn-continue-remembered" style="width:100%;margin-top:6px;padding:12px;font-size:15px;">
                 👋 Tap to Continue as ${escapeHtml(rem.name)} (${escapeHtml(rem.className || rem.classCode)})
               </button>
             </div>
@@ -927,21 +928,21 @@
             ${state.loginError ? `<p role="alert" style="color:var(--danger);font-size:13.5px;margin:0;font-weight:600;">${escapeHtml(state.loginError)}</p>` : ""}
 
             <button type="submit" class="btn btn-primary" style="margin-top:4px;width:100%;padding:12px;">
-              Enter Revision Hub (Pupil)
+              Enter Revision Studio
             </button>
           </form>
 
           <!-- ADD TO PHONE HOME SCREEN APP ICON BUTTON -->
-          <div style="margin-top:14px;padding:12px;border-radius:12px;background:#f5f3ff;border:1.5px solid #c4b5fd;">
-            <button type="button" class="btn btn-primary" id="btn-install-phone-app" style="width:100%;padding:11px;background:#7c3aed;font-size:14px;">
+          <div style="margin-top:14px;padding:12px;border-radius:12px;background:var(--surface-tint);border:1px solid var(--primary-border);">
+            <button type="button" class="btn btn-soft" id="btn-install-phone-app" style="width:100%;padding:10px;font-size:13.5px;font-weight:700;">
               📲 Add "N5 Business" App Button to My Phone Screen
             </button>
             ${state.showPhoneAppModal ? `
-              <div style="margin-top:10px;padding:12px;background:#ffffff;border-radius:10px;border:1px solid #cbd5e1;font-size:13px;line-height:1.5;color:var(--text);">
+              <div style="margin-top:10px;padding:12px;background:#ffffff;border-radius:10px;border:1px solid var(--border);font-size:13px;line-height:1.5;color:var(--text);">
                 <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
-                  <div style="width:42px;height:42px;border-radius:10px;background:#7c3aed;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;flex-shrink:0;">
+                  <div style="width:42px;height:42px;border-radius:10px;background:var(--studio-dark);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;flex-shrink:0;">
                     <span style="font-size:16px;line-height:1;">N5</span>
-                    <span style="font-size:6px;">BUSINESS</span>
+                    <span style="font-size:6px;color:var(--studio-kicker);">BUSINESS</span>
                   </div>
                   <div>
                     <strong>How to put this App Icon on your Phone Screen (takes 5 seconds):</strong>
@@ -949,7 +950,7 @@
                 </div>
                 <div style="margin-bottom:6px;">🍎 <strong>On iPhone (Safari):</strong><br/>1. Tap the <strong>Share</strong> button <strong>(square with arrow ↑)</strong> at the bottom of Safari.<br/>2. Scroll down and tap <strong>"Add to Home Screen" (➕)</strong>, then tap <strong>Add</strong>.</div>
                 <div>🤖 <strong>On Android (Chrome):</strong><br/>1. Tap the <strong>3 dots (⋮)</strong> in the top-right corner of Chrome.<br/>2. Tap <strong>"Add to Home screen"</strong> or <strong>"Install app"</strong>.</div>
-                <div style="margin-top:8px;color:#7c3aed;font-weight:700;">✓ Once added, tapping the N5 Business icon on your phone opens straight into your account!</div>
+                <div style="margin-top:8px;color:var(--primary-hover);font-weight:700;">✓ Once added, tapping the N5 Business icon on your phone opens straight into your account!</div>
               </div>
             ` : ""}
           </div>
@@ -957,7 +958,7 @@
           <div class="login-features">
             <div>✓ <strong>Returning Pupils:</strong> Sign in with <strong>just your name</strong> (all 41 existing pupils already linked!)</div>
             <div>✓ <strong>First-Time Class Codes:</strong> <code>4GBM1</code> (4GBM) · <code>4FBM2</code> (4FBM) · <code>4CBM3</code> (4CBM) · <code>ABCD</code> (4E)</div>
-            <div>✓ <strong>NEW:</strong> SQA Command Word Drills (Identify · Describe · Explain) &amp; YouTube Videos</div>
+            <div>✓ <strong>Revision Studio:</strong> SQA Command Word Drills, Flashcards, Past Papers &amp; YouTube Videos</div>
           </div>
         </section>
       </main>
@@ -1082,7 +1083,7 @@
                   <button type="button" class="btn btn-outline btn-sm" id="btn-top-prev-drill">
                     ← Prev
                   </button>
-                  <select id="drill-question-jump" aria-label="Jump to drill question" style="flex:1;min-width:160px;font-weight:700;border-color:var(--primary);background:#f5f3ff;">
+                  <select id="drill-question-jump" aria-label="Jump to drill question" style="flex:1;min-width:160px;font-weight:700;border-color:var(--primary);background:#eef7f3;">
                     ${questions.map((qItem, qIdx) => `
                       <option value="${qIdx}" ${qIdx === safeIdx ? "selected" : ""}>
                         Q${qIdx + 1} of ${questions.length} · ${escapeHtml(String(qItem.sourceYear))} Q${escapeHtml(String(qItem.sourceQuestion).replace(/^Q/i, ""))} (${escapeHtml(qItem.subtopic)})
@@ -1095,10 +1096,10 @@
                 </div>
 
                 <!-- COMPACT COMMAND WORD BLUEPRINT & YOUTUBE GUIDE TOGGLE BAR -->
-                <div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#f5f3ff;border:1px solid #c4b5fd;">
+                <div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#eef7f3;border:1px solid #a7dcc8;">
                   <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
                     <div style="font-size:13px;">
-                      <strong style="color:#7c3aed;">🎯 ${escapeHtml(guide.command.toUpperCase())} Rule:</strong>
+                      <strong style="color:#2a9d74;">🎯 ${escapeHtml(guide.command.toUpperCase())} Rule:</strong>
                       <span>${escapeHtml(guide.formula)}</span>
                     </div>
                     <div style="display:flex;gap:6px;flex-wrap:wrap;">
@@ -1112,7 +1113,7 @@
                   </div>
 
                   ${state.drillShowBlueprint ? `
-                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid #c4b5fd;">
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid #a7dcc8;">
                       <p style="margin:0 0 8px 0;font-size:13px;color:var(--text-secondary);">${escapeHtml(guide.rule)}</p>
                       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;font-size:12.5px;">
                         <div style="background:#dcfce7;border:1px solid #86efac;padding:9px;border-radius:8px;">
@@ -1380,7 +1381,7 @@
                       Watch on YouTube ↗
                     </a>
                   ` : ""}
-                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="background:#4c1d95;color:#fff;border-color:#7c3aed;">
+                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="background:#1a393f;color:#fff;border-color:#2a9d74;">
                     Your Business Tutor (N5) ↗
                   </a>
                 </div>
@@ -1395,8 +1396,8 @@
                   ></iframe>
                 </div>
               ` : `
-                <div style="padding:20px 16px;background:linear-gradient(135deg,#2e1065 0%,#4c1d95 100%);text-align:center;">
-                  <p style="margin:0 0 12px 0;color:#ede9fe;font-size:14px;">Watch Scottish National 5 Business Management videos for <strong>${escapeHtml(activeLesson.title)}</strong>:</p>
+                <div style="padding:20px 16px;background:linear-gradient(135deg,#132c31 0%,#1a393f 100%);text-align:center;">
+                  <p style="margin:0 0 12px 0;color:#ddf1e9;font-size:14px;">Watch Scottish National 5 Business Management videos for <strong>${escapeHtml(activeLesson.title)}</strong>:</p>
                   <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
                     <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" class="btn btn-primary btn-sm">▶ @ScottishEducationalVideos ↗</a>
                     <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" class="btn btn-soft btn-sm">▶ Your Business Tutor (N5) ↗</a>
@@ -1406,8 +1407,8 @@
               <div class="video-footer">
                 <span>${escapeHtml(activeLesson.video?.summary || "Watch this video alongside the key points below for missed classes or exam revision.")}</span>
                 <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;width:100%;">
-                  <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ @ScottishEducationalVideos ↗</a>
-                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" style="color:#ddd6fe;font-weight:700;text-decoration:underline;">▶ Your Business Tutor (${escapeHtml(activeLesson.title)}) ↗</a>
+                  <a href="https://www.youtube.com/@ScottishEducationalVideos/videos" target="_blank" rel="noopener" style="color:#c6ebe0;font-weight:700;text-decoration:underline;">▶ @ScottishEducationalVideos ↗</a>
+                  <a href="https://www.youtube.com/results?search_query=Your+Business+Tutor+N5+Business+Management+${encodeURIComponent(activeLesson.title)}" target="_blank" rel="noopener" style="color:#c6ebe0;font-weight:700;text-decoration:underline;">▶ Your Business Tutor (${escapeHtml(activeLesson.title)}) ↗</a>
                 </div>
                 ${isTeacherUser(state.user) ? `
                   <div style="display:flex;gap:6px;align-items:center;width:100%;margin-top:6px;">
@@ -1543,7 +1544,7 @@
                     const tRev = state.lessonTaskRevealed[tKey];
                     return `
                       <div class="side-card" style="background:#f8fafc;">
-                        <strong style="font-size:13.5px;color:#7c3aed;">Task ${idx + 1}: ${escapeHtml(t.prompt)}</strong>
+                        <strong style="font-size:13.5px;color:#2a9d74;">Task ${idx + 1}: ${escapeHtml(t.prompt)}</strong>
                         <textarea rows="2" data-lesson-task-input="${escapeHtml(tKey)}" placeholder="Write your answer first…" style="margin-top:6px;">${escapeHtml(tAns)}</textarea>
                         <div style="margin-top:6px;">
                           <button type="button" class="btn btn-outline btn-sm" data-check-lesson-task="${escapeHtml(tKey)}">
@@ -1745,7 +1746,7 @@
                   ${(matchingLesson.points || []).map(pt => `<li>${escapeHtml(pt)}</li>`).join("")}
                 </ul>
                 ${matchingLesson.example ? `<div style="margin-top:8px;font-size:13px;"><strong>Worked example:</strong> ${escapeHtml(matchingLesson.example)}</div>` : ""}
-                ${matchingLesson.examTip ? `<div style="margin-top:6px;font-size:13px;color:#7c3aed;"><strong>Exam technique:</strong> ${escapeHtml(matchingLesson.examTip)}</div>` : ""}
+                ${matchingLesson.examTip ? `<div style="margin-top:6px;font-size:13px;color:#2a9d74;"><strong>Exam technique:</strong> ${escapeHtml(matchingLesson.examTip)}</div>` : ""}
               </div>
             ` : ""}
 
@@ -2006,7 +2007,7 @@
                   <span class="badge ${tAtt.length ? (tAvg >= 75 ? "badge-success" : tAvg >= 55 ? "badge-warning" : "badge-danger") : ""}">${tAtt.length ? tAvg + "%" : "Not started"}</span>
                 </div>
                 <div style="height:8px;border-radius:6px;background:#e2e8f0;overflow:hidden;margin-bottom:6px;">
-                  <div style="height:100%;width:${tAvg}%;background:#7c3aed;"></div>
+                  <div style="height:100%;width:${tAvg}%;background:#2a9d74;"></div>
                 </div>
                 <small style="color:var(--text-muted);">${tAtt.length ? (tAvg < 60 ? "Priority for practice" : tAvg >= 80 ? "Strong area" : "Keep practising") : "Choose this topic to begin"}</small>
               </div>
@@ -2142,7 +2143,7 @@
             <button type="button" class="btn btn-outline btn-sm" id="btn-sync-cloud-now" style="border-color:#16a34a;color:#15803d;font-weight:700;">
               🔄 Refresh Live Scores${state.cloudLastSynced ? ` (☁️ ${state.cloudPupilCount ?? 0} synced · ${escapeHtml(state.cloudLastSynced)})` : ""}
             </button>
-            <button type="button" class="btn btn-outline btn-sm" onclick="document.getElementById('manage-classes-teachers-panel')?.scrollIntoView({behavior:'smooth'})" style="border-color:#7c3aed;color:#6d28d9;font-weight:700;">
+            <button type="button" class="btn btn-outline btn-sm" onclick="document.getElementById('manage-classes-teachers-panel')?.scrollIntoView({behavior:'smooth'})" style="border-color:#2a9d74;color:#21815f;font-weight:700;">
               ${isOwnerTeacher ? "🏫 Manage Classes &amp; Teachers" : "🏫 My Classes (+ Add Class)"}
             </button>
             <button type="button" class="btn btn-primary btn-sm" id="btn-export-csv">
@@ -2167,7 +2168,7 @@
           </div>
           <div style="min-width:240px;flex:1.5;">
             <label style="font-size:12.5px;font-weight:700;display:block;margin-bottom:4px;">Pupil (Select to inspect all saved answers &amp; homework marks)</label>
-            <select id="teacher-pupil-select" style="width:100%;padding:9px 11px;border-color:#7c3aed;font-weight:600;">
+            <select id="teacher-pupil-select" style="width:100%;padding:9px 11px;border-color:#2a9d74;font-weight:600;">
               <option value="ALL" ${!inspectedPupil ? "selected" : ""}>All pupils — Select a pupil to inspect individual answers…</option>
               ${classFilteredPupils.map(p => `<option value="${escapeHtml(p.userId)}" ${inspectedPupil?.userId === p.userId ? "selected" : ""}>${escapeHtml(p.name)} — ${escapeHtml(p.className || p.classCode)} (${escapeHtml(p.classCode)})</option>`).join("")}
             </select>
@@ -2189,7 +2190,7 @@
           <strong>Class overview:</strong> ${below50Count} pupil${below50Count === 1 ? "" : "s"} currently average below 50% on practice questions; ${notStartedCount} pupil${notStartedCount === 1 ? " has" : "s have"} not started. These are indicators for teacher review, not predictions of exam grades.
         </div>
 
-        <div style="display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;background:#f5f3ff;border:1px solid #c4b5fd;border-radius:10px;margin-bottom:18px;font-size:14px;">
+        <div style="display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;background:#eef7f3;border:1px solid #a7dcc8;border-radius:10px;margin-bottom:18px;font-size:14px;">
           <strong>👥 ${enrichedPupils.length} pupils</strong>
           <strong>📝 ${allFilteredAttempts.length} practice attempts</strong>
           <strong>📊 ${allFilteredAttempts.length ? avgPracticeAll + "%" : "—"} practice average</strong>
@@ -2199,12 +2200,12 @@
 
         ${inspectedPupil ? `
           <!-- INDIVIDUAL PUPIL FULL RECORD (Exact Original Floot Pupil Inspector + Monthly Homework Table + Expandable Answers) -->
-          <div style="margin-bottom:24px;padding:20px;border-radius:14px;background:#f5f3ff;border:2px solid #7c3aed;box-shadow:0 6px 20px rgba(15,118,110,0.12);">
+          <div style="margin-bottom:24px;padding:20px;border-radius:14px;background:#eef7f3;border:2px solid #2a9d74;box-shadow:0 6px 20px rgba(15,118,110,0.12);">
             <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:12px;">
               <div>
                 <span class="badge badge-primary" style="margin-bottom:4px;">INDIVIDUAL PUPIL RECORD &amp; SAVED ANSWERS</span>
                 <h3 style="margin:0;font-size:21px;color:#0f172a;">
-                  👤 ${escapeHtml(inspectedPupil.name)} — ${escapeHtml(inspectedPupil.className || inspectedPupil.classCode)} <span style="font-size:14px;font-weight:600;color:#7c3aed;">(Class Code: ${escapeHtml(inspectedPupil.classCode)})</span>
+                  👤 ${escapeHtml(inspectedPupil.name)} — ${escapeHtml(inspectedPupil.className || inspectedPupil.classCode)} <span style="font-size:14px;font-weight:600;color:#2a9d74;">(Class Code: ${escapeHtml(inspectedPupil.classCode)})</span>
                 </h3>
                 <p style="margin:6px 0 0 0;font-size:14px;color:var(--text-secondary);">
                   Practice average: <strong>${inspectedPupil.avg === null ? "—" : inspectedPupil.avg + "%"}</strong> ·
@@ -2242,9 +2243,9 @@
                           ${escapeHtml(qTitle)} — <span class="badge ${(h.percentage || 0) >= 70 ? "badge-success" : (h.percentage || 0) >= 50 ? "badge-warning" : "badge-danger"}">${h.marks ?? 0}/${h.marksAvailable ?? hwObj?.marks ?? "—"} (${h.percentage ?? 0}%)</span> — <span style="font-weight:400;color:var(--text-muted);font-size:12px;">${escapeHtml(h.submittedAt || "—")}</span>
                         </summary>
                         ${qPrompt ? `<p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qPrompt)}</p>` : ""}
-                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #7c3aed;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(h.answer || "—")}</p>
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #2a9d74;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(h.answer || "—")}</p>
                         ${Array.isArray(h.awardedPoints) && h.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(h.awardedPoints.join(" · "))}</p>` : ""}
-                        ${h.feedback ? `<p style="margin:4px 0;color:#7c3aed;"><strong>Feedback:</strong> ${escapeHtml(h.feedback)}</p>` : ""}
+                        ${h.feedback ? `<p style="margin:4px 0;color:#2a9d74;"><strong>Feedback:</strong> ${escapeHtml(h.feedback)}</p>` : ""}
                         ${Array.isArray(h.improvements) && h.improvements.length > 0 ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(h.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
@@ -2269,9 +2270,9 @@
                         </summary>
                         <p style="margin:6px 0 4px 0;"><strong>Question:</strong> ${escapeHtml(qObj?.text || a.questionId)}</p>
                         <p style="margin:4px 0;"><strong>Command word:</strong> <span class="badge badge-primary">${escapeHtml((a.primaryCommand || qObj?.primaryCommand || "describe").toUpperCase())}</span> · <strong>Hint used:</strong> ${a.hintUsed ? "Yes" : "No"}</p>
-                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #7c3aed;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(a.answer || "")}</p>
+                        <p style="margin:6px 0;padding:8px 10px;background:#ffffff;border-left:3px solid #2a9d74;border-radius:6px;white-space:pre-wrap;"><strong>Saved pupil answer:</strong><br/>${escapeHtml(a.answer || "")}</p>
                         ${Array.isArray(a.awardedPoints) && a.awardedPoints.length > 0 ? `<p style="margin:4px 0;color:#15803d;"><strong>✓ Credited points:</strong> ${escapeHtml(a.awardedPoints.join(" · "))}</p>` : ""}
-                        ${a.feedback ? `<p style="margin:4px 0;color:#7c3aed;"><strong>Feedback:</strong> ${escapeHtml(a.feedback)}</p>` : ""}
+                        ${a.feedback ? `<p style="margin:4px 0;color:#2a9d74;"><strong>Feedback:</strong> ${escapeHtml(a.feedback)}</p>` : ""}
                         ${a.improvements?.length ? `<p style="margin:4px 0;color:#b45309;background:#fffbeb;padding:6px 8px;border-radius:6px;border:1px solid #fde68a;"><strong>→ What to improve / Next steps:</strong> ${escapeHtml(a.improvements.join(" "))}</p>` : ""}
                       </details>
                     `;
@@ -2329,7 +2330,7 @@
                 return `
                   <tr style="${isSelected ? "background:#ccfbf1;" : ""}">
                     <td>
-                      <button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#7c3aed;font-weight:800;font-size:14.5px;cursor:pointer;text-decoration:underline;text-align:left;">
+                      <button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#2a9d74;font-weight:800;font-size:14.5px;cursor:pointer;text-decoration:underline;text-align:left;">
                         ${escapeHtml(p.name)}
                       </button>
                       <small style="display:block;color:var(--text-muted);">${escapeHtml(p.className || p.classCode)} (${escapeHtml(p.classCode)})</small>
@@ -2389,7 +2390,7 @@
                     <summary style="font-weight:700;cursor:pointer;">${escapeHtml(c.name)} · ${clsPupils.length} pupils <span style="font-weight:500;color:var(--text-muted);font-size:12px;">(Added by: ${escapeHtml(addedBy)})</span></summary>
                     <p style="margin:6px 0;">Join code: <strong>${escapeHtml(c.code)}</strong> · Added by: <strong>${escapeHtml(addedBy)}</strong> (share privately with this class)</p>
                     <ul style="margin:0;padding-left:18px;">
-                      ${clsPupils.map(p => `<li><button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#7c3aed;text-decoration:underline;cursor:pointer;">${escapeHtml(p.name)}</button></li>`).join("")}
+                      ${clsPupils.map(p => `<li><button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#2a9d74;text-decoration:underline;cursor:pointer;">${escapeHtml(p.name)}</button></li>`).join("")}
                     </ul>
                   </details>
                 `;
@@ -2502,7 +2503,7 @@
 
         <!-- MANAGE CLASSES & TEACHER ACCOUNTS -->
         <div id="manage-classes-teachers-panel" style="margin-top:22px;padding:18px;border-radius:14px;background:#f8fafc;border:1.5px solid #cbd5e1;">
-          <h3 style="margin:0 0 6px 0;font-size:17px;color:#2e1065;">🏫 Manage Classes &amp; Teacher Accounts</h3>
+          <h3 style="margin:0 0 6px 0;font-size:17px;color:#132c31;">🏫 Manage Classes &amp; Teacher Accounts</h3>
           <p style="margin:0 0 14px 0;font-size:13.5px;color:var(--text-secondary);">
             Add new classes for pupils to join, and create personal teacher accounts so other Business teachers can sign in with their own name &amp; PIN to view their classes.
           </p>
@@ -2521,9 +2522,9 @@
                 const isCoreClass = CORE_CLASS_CODES.has(String(c.code || "").trim().toUpperCase());
                 const canRemove = (isOwnerTeacher || (c.createdBy && (c.createdBy === state.user?.name || addedBy.toLowerCase() === getCurrentTeacherDisplayName().toLowerCase()))) && !isCoreClass;
                 return `
-                <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#f5f3ff;border:1px solid #c4b5fd;font-size:12.5px;font-weight:600;color:#4c1d95;">
+                <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#eef7f3;border:1px solid #a7dcc8;font-size:12.5px;font-weight:600;color:#1a393f;">
                   <span>${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})</span>
-                  <span style="font-size:11.5px;font-weight:500;color:#6d28d9;background:#ede9fe;padding:1px 7px;border-radius:999px;">Added by: ${escapeHtml(addedBy)}</span>
+                  <span style="font-size:11.5px;font-weight:500;color:#21815f;background:#ddf1e9;padding:1px 7px;border-radius:999px;">Added by: ${escapeHtml(addedBy)}</span>
                   ${canRemove ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
                 </span>
               `;
@@ -2553,7 +2554,7 @@
                       · Classes: <strong>${(t.assignedClasses || []).includes("ALL") ? "All classes" : ((t.assignedClasses || []).length ? escapeHtml(t.assignedClasses.join(", ")) : "No classes yet (can add own)")}</strong>
                     </div>
                     <div style="display:flex;gap:6px;align-items:center;">
-                      ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-copy-teacher-link="${escapeHtml(t.id)}" style="color:#7c3aed;border-color:#c4b5fd;">📋 Copy Personal Link</button>` : ""}
+                      ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-copy-teacher-link="${escapeHtml(t.id)}" style="color:#2a9d74;border-color:#a7dcc8;">📋 Copy Personal Link</button>` : ""}
                       ${!t.isOwner ? `<button type="button" class="btn btn-outline btn-sm" data-remove-teacher="${escapeHtml(t.id)}" style="color:#dc2626;border-color:#fca5a5;">Remove</button>` : ""}
                     </div>
                   </div>
@@ -2726,7 +2727,7 @@
         </div>
 
         ${card ? `
-          <div id="flashcard-box" style="cursor:pointer;min-height:220px;padding:28px 22px;border-radius:18px;background:${state.flashcardFlipped ? "#f5f3ff" : "linear-gradient(135deg,#6d28d9,#4c1d95)"};color:${state.flashcardFlipped ? "#2e1065" : "#ffffff"};border:2px solid #7c3aed;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;box-shadow:0 8px 24px rgba(109,40,217,0.16);transition:all 0.2s ease;">
+          <div id="flashcard-box" style="cursor:pointer;min-height:220px;padding:28px 22px;border-radius:18px;background:${state.flashcardFlipped ? "#eef7f3" : "linear-gradient(135deg,#21815f,#1a393f)"};color:${state.flashcardFlipped ? "#132c31" : "#ffffff"};border:2px solid #2a9d74;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;box-shadow:0 8px 24px rgba(26,57,63,0.16);transition:all 0.2s ease;">
             <span style="font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;opacity:0.85;margin-bottom:10px;">
               ${escapeHtml(card.topic)} · Card ${safeIdx + 1} of ${filtered.length} · ${state.flashcardFlipped ? "SQA DEFINITION" : "KEY TERM (TAP TO FLIP)"}
             </span>
@@ -2821,18 +2822,18 @@
           ${sections.map(sec => `
             <div style="padding:14px 16px;border-radius:12px;background:#fff;border:1.5px solid var(--border);">
               <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-                <strong style="font-size:15px;color:#2e1065;">${sec.title}</strong>
+                <strong style="font-size:15px;color:#132c31;">${sec.title}</strong>
                 <span class="badge badge-soft">${sec.marks}</span>
               </div>
               <div style="display:flex;flex-direction:column;gap:7px;">
                 ${sec.items.map(it => `
                   <label style="display:flex;gap:10px;align-items:flex-start;cursor:pointer;font-size:13.5px;">
-                    <input type="checkbox" data-assign-check="${it.id}" ${cl[it.id] ? "checked" : ""} style="margin-top:3px;width:17px;height:17px;accent-color:#7c3aed;" />
+                    <input type="checkbox" data-assign-check="${it.id}" ${cl[it.id] ? "checked" : ""} style="margin-top:3px;width:17px;height:17px;accent-color:#2a9d74;" />
                     <span style="${cl[it.id] ? "text-decoration:line-through;color:var(--text-muted);" : ""}">${escapeHtml(it.text)}</span>
                   </label>
                 `).join("")}
               </div>
-              <div style="margin-top:10px;padding:8px 10px;border-radius:8px;background:#f5f3ff;color:#4c1d95;font-size:12.5px;font-weight:600;">
+              <div style="margin-top:10px;padding:8px 10px;border-radius:8px;background:#eef7f3;color:#1a393f;font-size:12.5px;font-weight:600;">
                 💡 ${escapeHtml(sec.tip)}
               </div>
             </div>
@@ -2921,7 +2922,7 @@
         ` : ""}
 
         ${caseObj ? `
-          <div style="padding:16px;border-radius:12px;background:#f5f3ff;border:1.5px solid #c4b5fd;margin-bottom:16px;">
+          <div style="padding:16px;border-radius:12px;background:#eef7f3;border:1.5px solid #a7dcc8;margin-bottom:16px;">
             <p class="kicker" style="margin-bottom:4px;">SECTION 1 · CASE STUDY STIMULUS</p>
             <h3 style="margin:0 0 8px 0;">${escapeHtml(caseObj.title)}</h3>
             <p style="margin:0 0 12px 0;font-size:13.5px;white-space:pre-line;">${escapeHtml(caseObj.scenario || caseObj.stimulus || "")}</p>
@@ -2985,16 +2986,16 @@
     }).sort((a, b) => b.xp - a.xp).slice(0, 5);
     if (!ranked.length) return "";
     return `
-      <div style="margin-top:14px;padding:14px 16px;border-radius:12px;background:#faf5ff;border:1.5px solid #c4b5fd;">
+      <div style="margin-top:14px;padding:14px 16px;border-radius:12px;background:#eef7f3;border:1.5px solid #a7dcc8;">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-          <strong style="font-size:14.5px;color:#2e1065;">🏆 Class ${escapeHtml(state.user?.className || myClass)} XP Leaderboard</strong>
+          <strong style="font-size:14.5px;color:#132c31;">🏆 Class ${escapeHtml(state.user?.className || myClass)} XP Leaderboard</strong>
           <span class="badge badge-primary">🔥 ${state.streakData?.days || 1}-day streak</span>
         </div>
         <div style="display:flex;flex-direction:column;gap:5px;">
           ${ranked.map((r, i) => `
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:8px;background:${r.isMe ? "#ede9fe" : "#fff"};border:1px solid ${r.isMe ? "#7c3aed" : "#e2e8f0"};font-size:13px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:8px;background:${r.isMe ? "#ddf1e9" : "#fff"};border:1px solid ${r.isMe ? "#2a9d74" : "#e2e8f0"};font-size:13px;">
               <span><strong>#${i + 1}</strong> ${escapeHtml(r.shortName)} ${r.isMe ? "<strong>(You)</strong>" : ""}</span>
-              <span style="font-weight:700;color:#6d28d9;">${r.xp} XP</span>
+              <span style="font-weight:700;color:#21815f;">${r.xp} XP</span>
             </div>
           `).join("")}
         </div>
@@ -3018,34 +3019,50 @@
       : 0;
     const topicsPractisedCount = new Set(getUserAttempts().map(a => a.topic).filter(Boolean)).size;
 
+    const activeTabMeta = {
+      dashboard: { title: "National 5 Business Management", sub: "Explore all 5 SQA units, command word drills, flashcards, past papers & live homework feedback." },
+      drills: { title: "Command Word Drills", sub: "Practise Identify, Describe, Explain, Compare, Justify & Multi-Command SQA past-paper questions." },
+      practice: { title: "Past Paper Practice", sub: "Filter authentic SQA questions by course area, subtopic, difficulty level and year." },
+      lessons: { title: "Lessons & Video Guides", sub: "Watch Scottish N5 Business videos, review core notes and check key definitions." },
+      flashcards: { title: "Key Term Flashcards", sub: "Flip cards to revise N5 Business definitions and track terms you have mastered." },
+      cases: { title: "Case Studies", sub: "Apply National 5 Business theory to realistic SQA-style business stimulus scenarios." },
+      homework: { title: "Monthly Homework", sub: "Complete assigned monthly SQA homework tasks — answers save live for your teacher." },
+      assignment: { title: "N5 Assignment Helper", sub: "Step-by-step checklist and research guidance for the 30-mark SQA Business Assignment." },
+      mock: { title: "70-Mark Timed Mock Exam", sub: "Full 1 hour 30 minute Section 1 & Section 2 exam paper with instant auto-marking." },
+      exam: { title: "10-Mark Mini-Exam Sprint", sub: "Quick 15-minute timed revision sprint with instant SQA feedback." },
+      progress: { title: "My Revision Progress", sub: "Review your average mark, weakest command words and completed course areas." },
+      teacher: { title: "Teacher Dashboard", sub: "Live Firebase class overview, individual pupil scripts, tracking sheet & class management." }
+    }[state.activeTab] || { title: "National 5 Business Management", sub: "Qualifications Scotland (SQA) Course & Marking Guidance" };
+
     return `
-      <div class="app-shell">
-        <header class="top-bar">
-          <div class="brand-row">
-            <span class="brand-badge">N5 BUSINESS</span>
-            <div>
-              <strong style="font-size:16px;display:block;">National 5 Business Management Revision Hub</strong>
-              <span style="font-size:12.5px;color:var(--text-muted);">Qualifications Scotland (SQA) Course &amp; Marking Guidance</span>
-            </div>
+      <header class="studio-banner">
+        <div class="studio-banner-inner">
+          <div>
+            <p class="studio-kicker">BUSINESS MANAGEMENT / REVISION STUDIO</p>
+            <h1 class="studio-title">${escapeHtml(activeTabMeta.title)}</h1>
+            <p class="studio-subtitle">${escapeHtml(activeTabMeta.sub)}</p>
           </div>
           <div class="user-pill-row">
             ${!isStandaloneApp ? `
-              <button type="button" class="btn btn-primary btn-sm" id="btn-top-install-app" style="background:#7c3aed;">
+              <button type="button" class="btn btn-primary btn-sm" id="btn-top-install-app">
                 📲 Add App to Phone
               </button>
             ` : ""}
-            <span class="badge badge-primary">
+            <span class="studio-user-chip">
               👤 ${escapeHtml(state.user.name)} ${state.user.classCode ? `(${escapeHtml(state.user.classCode)})` : "(Teacher)"}
             </span>
-            <button type="button" class="btn btn-outline btn-sm" id="btn-logout">
+            <button type="button" class="btn studio-signout-btn btn-sm" id="btn-logout">
               Sign out
             </button>
           </div>
-        </header>
+        </div>
+      </header>
+
+      <div class="app-shell">
         ${state.showTopPhoneModal && !isStandaloneApp ? `
-          <div style="margin:12px auto 0;max-width:1180px;padding:12px 16px;background:#f5f3ff;border:1.5px solid #7c3aed;border-radius:12px;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+          <div style="margin:0 0 14px 0;padding:12px 16px;background:var(--surface);border:1.5px solid var(--primary-border);border-radius:12px;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;box-shadow:var(--shadow-sm);">
             <div>
-              <strong>📲 Add the Green "N5 Business" App Icon to Your Phone Screen:</strong><br/>
+              <strong>📲 Add the "N5 Business" App Icon to Your Phone Screen:</strong><br/>
               🍎 <strong>iPhone (Safari):</strong> Tap <strong>Share (↑)</strong> at the bottom &rarr; tap <strong>"Add to Home Screen" (➕)</strong> &rarr; <strong>Add</strong>.<br/>
               🤖 <strong>Android (Chrome):</strong> Tap the <strong>3 dots (⋮)</strong> top-right &rarr; tap <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong>.
             </div>
@@ -3053,33 +3070,42 @@
           </div>
         ` : ""}
 
-        <!-- NAVIGATION TABS -->
-        <nav class="nav-tabs" id="hub-workspace" style="margin-top:14px;">
+        <!-- STUDIO NAVIGATION PILL ROW -->
+        <nav class="nav-tabs" id="hub-workspace">
           ${isTeacher ? `
-            <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher" style="font-weight:800;">
-              🎓 Teacher Dashboard (${teacherPupilCount} ${teacherPupilCount === 1 ? "Pupil" : "Pupils"} · Results &amp; Homework)
+            <button type="button" class="nav-tab ${state.activeTab === "teacher" ? "active" : ""}" data-tab="teacher">
+              🎓 Teacher Dashboard (${teacherPupilCount})
             </button>
           ` : ""}
           <button type="button" class="nav-tab ${state.activeTab === "dashboard" ? "active" : ""}" data-tab="dashboard">
-            🏠 My Dashboard
+            Overview
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "drills" ? "active" : ""}" data-tab="drills">
-            ⚡ Command Word Drills
+            Command Drills
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "practice" ? "active" : ""}" data-tab="practice">
-            📝 Practice
+            Past Papers
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "lessons" ? "active" : ""}" data-tab="lessons">
-            ▶ Lessons &amp; Videos
+            Lessons &amp; Videos
+          </button>
+          <button type="button" class="nav-tab ${state.activeTab === "flashcards" ? "active" : ""}" data-tab="flashcards">
+            Flashcards
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "cases" ? "active" : ""}" data-tab="cases">
-            🏢 Case Studies
+            Case Studies
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "homework" ? "active" : ""}" data-tab="homework">
-            📅 Homework
+            Homework
+          </button>
+          <button type="button" class="nav-tab ${state.activeTab === "assignment" ? "active" : ""}" data-tab="assignment">
+            N5 Assignment
+          </button>
+          <button type="button" class="nav-tab ${state.activeTab === "mock" ? "active" : ""}" data-tab="mock">
+            70-Mark Mock
           </button>
           <button type="button" class="nav-tab ${state.activeTab === "progress" ? "active" : ""}" data-tab="progress">
-            📊 My Progress
+            My Progress
           </button>
         </nav>
 
@@ -3087,67 +3113,66 @@
 
         ${state.activeTab === "dashboard" ? `
           <section class="dashboard-overview">
-            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+            <div class="studio-section-head">
               <div>
-                <p class="kicker">YOUR REVISION SPACE · LEARNING OVERVIEW</p>
-                <h1 style="font-size:21px;margin:0;">Welcome to your revision dashboard, ${escapeHtml(state.user.name)}</h1>
-                <p style="margin:4px 0 0 0;font-size:13.5px;color:var(--text-secondary);">Pick a topic, learn the key ideas, drill SQA command words, and practise exam-style questions. Your progress is saved as you go.</p>
+                <h2 style="font-size:21px;margin:0 0 3px 0;">Welcome back, ${escapeHtml(state.user.name)}</h2>
+                <p style="margin:0;font-size:13.5px;color:var(--text-secondary);">Choose a course area or revision activity below. Feedback and marks appear straight away.</p>
               </div>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                <span class="badge badge-primary">Questions attempted: ${analytics.totalAttempts}</span>
-                <span class="badge badge-success">Average mark: ${analytics.avgPct}%</span>
-                <span class="badge">Course areas practised: ${topicsPractisedCount} / 5</span>
-                <span class="badge">Revision Challenge: ${Math.min(5, analytics.uniqueQuestionsCount)} / 5</span>
-                <span class="badge badge-primary">🔥 XP: ${analytics.totalAttempts * 10 + (analytics.fullMarksCount || 0) * 15}</span>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+                <span class="studio-score-pill">Average: <strong>${analytics.avgPct}%</strong></span>
+                <span class="studio-score-pill">Attempted: <strong>${analytics.totalAttempts}</strong></span>
+                <span class="studio-score-pill">Areas: <strong>${topicsPractisedCount}/5</strong></span>
+                <span class="studio-score-pill" style="background:var(--primary-soft);border-color:var(--primary-border);color:var(--studio-dark);">🔥 <strong>${analytics.totalAttempts * 10 + (analytics.fullMarksCount || 0) * 15} XP</strong></span>
               </div>
             </div>
 
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin-top:14px;">
+            <div class="studio-quick-bar">
               <button type="button" class="btn btn-primary btn-sm" data-tab="drills">⚡ Command Drills</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="flashcards">🃏 Key Term Flashcards</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="homework">📅 Monthly Homework</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="practice">📝 Past Papers</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="cases">🏢 Case Studies</button>
-              <button type="button" class="btn btn-soft btn-sm" data-tab="assignment">📋 N5 Assignment</button>
-              <button type="button" class="btn btn-primary btn-sm" id="btn-launch-mini-exam">⏱️ 10-Mark Sprint</button>
-              <button type="button" class="btn btn-primary btn-sm" data-tab="mock" style="background:#4c1d95;border-color:#4c1d95;">📄 70-Mark Mock</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="flashcards">🃏 Key Term Flashcards</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="homework">📅 Monthly Homework</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="lessons">▶ Lessons &amp; Videos</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="practice">📝 Past Papers</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="cases">🏢 Case Studies</button>
+              <button type="button" class="btn btn-outline btn-sm" data-tab="assignment">📋 N5 Assignment</button>
+              <button type="button" class="btn btn-soft btn-sm" id="btn-launch-mini-exam">⏱️ 10-Mark Sprint</button>
+              <button type="button" class="btn btn-soft btn-sm" data-tab="mock">📄 70-Mark Mock</button>
               <button type="button" class="btn btn-outline btn-sm" data-goto-drill="${escapeHtml((analytics.commandStats || []).slice().sort((a,b) => (a.avgPct||0) - (b.avgPct||0))[0]?.key || 'explain')}">🧠 Fix Weakest Area</button>
             </div>
 
-            ${renderClassLeaderboardCard()}
-
-            <details style="margin-top:12px;font-size:13px;color:var(--text-secondary);background:var(--surface-alt);padding:8px 12px;border-radius:8px;border:1px solid var(--border);">
-              <summary style="font-weight:700;cursor:pointer;color:var(--text);">Exam information and official SQA course specification</summary>
-              <p style="margin:6px 0 0 0;">
-                <strong>2026–27 exam:</strong> 70 marks in 1 hour 30 minutes. Section 1: one 20-mark stimulus question. Section 2: five 10-mark questions. The assignment has 30 raw marks, scaled to 20 (22% of the overall assessment).
-                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-bus-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">Official course specification ↗</a> ·
-                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-sqp-business-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">2026 specimen paper &amp; marking instructions ↗</a>
-              </p>
-            </details>
-
-            <h3 style="font-size:15px;margin:16px 0 6px 0;">National 5 Course Areas</h3>
+            <h3 style="font-size:18px;margin:20px 0 6px 0;">National 5 Course Areas</h3>
+            <p style="margin:0 0 10px 0;font-size:13px;color:var(--text-muted);">Select a unit to open video lessons, key definitions, flashcards and SQA past-paper drills.</p>
             <div class="course-grid">
               ${Object.entries(DATA.courseAreas).map(([topic, subtopics], idx) => `
                 <div class="course-card">
                   <div>
-                    <span class="course-num">0${idx + 1}</span>
-                    <h3 style="font-size:16px;margin:0 0 4px 0;">${escapeHtml(topic)}</h3>
-                    <p style="margin:0;font-size:12.5px;color:var(--text-muted);">
+                    <span class="course-num">Unit 0${idx + 1}</span>
+                    <h3 style="font-size:17px;margin:0 0 5px 0;">${idx + 1}. ${escapeHtml(topic)}</h3>
+                    <p style="margin:0;font-size:13px;color:var(--text-muted);">
                       ${subtopics.length} video lessons · definitions, examples, flashcards &amp; SQA drills
                     </p>
                   </div>
-                  <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                    <button type="button" class="btn btn-outline btn-sm" data-card-lessons="${escapeHtml(topic)}">
-                      ▶ Lessons &amp; Videos
+                  <div class="course-card-actions">
+                    <button type="button" class="btn course-row-btn" data-card-lessons="${escapeHtml(topic)}">
+                      <span>▶ Open Lessons &amp; Videos</span><span>→</span>
                     </button>
-                    <button type="button" class="btn btn-soft btn-sm" data-drill-topic="${escapeHtml(topic)}">
-                      ⚡ Command Drills
+                    <button type="button" class="btn course-row-btn" data-drill-topic="${escapeHtml(topic)}">
+                      <span>⚡ Practise Command Word Drills</span><span>→</span>
                     </button>
                   </div>
                 </div>
               `).join("")}
             </div>
+
+            ${renderClassLeaderboardCard()}
+
+            <details style="margin-top:16px;font-size:13px;color:var(--text-secondary);background:var(--surface);padding:12px 16px;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow-sm);">
+              <summary style="font-weight:700;cursor:pointer;color:var(--text);">Exam information and official SQA course specification</summary>
+              <p style="margin:8px 0 0 0;">
+                <strong>2026–27 exam:</strong> 70 marks in 1 hour 30 minutes. Section 1: one 20-mark stimulus question. Section 2: five 10-mark questions. The assignment has 30 raw marks, scaled to 20 (22% of the overall assessment).
+                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-bus-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary-hover);font-weight:600;">Official course specification ↗</a> ·
+                <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-sqp-business-management.pdf" target="_blank" rel="noreferrer" style="color:var(--primary-hover);font-weight:600;">2026 specimen paper &amp; marking instructions ↗</a>
+              </p>
+            </details>
           </section>
         ` : ""}
 
