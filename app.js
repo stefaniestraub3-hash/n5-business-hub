@@ -266,10 +266,10 @@
     return {
       user: null,
       classes: init.classes || [
-        { id: "cls-4gbm", name: "4GBM", code: "4GBM" },
-        { id: "cls-4cbm", name: "4CBM", code: "4CBM" },
-        { id: "cls-4fbm", name: "4FBM", code: "4FBM" },
-        { id: "cls-4e", name: "4E", code: "ABCD" }
+        { id: "cls-4gbm", name: "4GBM", code: "4GBM1", aliases: ["4GBM", "4GBM1"], createdBy: "Mrs Straub" },
+        { id: "cls-4cbm", name: "4CBM", code: "4CBM3", aliases: ["4CBM", "4CBM3"], createdBy: "Mrs Straub" },
+        { id: "cls-4fbm", name: "4FBM", code: "4FBM2", aliases: ["4FBM", "4FBM2"], createdBy: "Mrs Straub" },
+        { id: "cls-4e", name: "4E", code: "ABCD", aliases: ["ABCD", "4E"], createdBy: "Mrs Straub" }
       ],
       teachers: init.teachers || [
         { id: "teacher-mrs-straub", name: "Mrs Straub", pin: "2026", isOwner: true, assignedClasses: ["ALL"] },
@@ -511,6 +511,48 @@
     }
     const allowedSet = new Set(assigned.map(c => String(c).toUpperCase()));
     return state.classes.filter(c => allowedSet.has(String(c.code || "").toUpperCase()) || allowedSet.has(String(c.name || "").toUpperCase()));
+  }
+
+  const CORE_CLASS_CODES = new Set(["4GBM", "4GBM1", "4FBM", "4FBM2", "4CBM", "4CBM3", "ABCD"]);
+  const BUILTIN_CLASS_ALIASES = {
+    "4GBM": ["4GBM", "4GBM1"],
+    "4GBM1": ["4GBM", "4GBM1"],
+    "4FBM": ["4FBM", "4FBM2"],
+    "4FBM2": ["4FBM", "4FBM2"],
+    "4CBM": ["4CBM", "4CBM3"],
+    "4CBM3": ["4CBM", "4CBM3"],
+    "ABCD": ["ABCD", "4E"],
+    "4E": ["ABCD", "4E"]
+  };
+
+  function findValidClassByCode(rawCode) {
+    const norm = String(rawCode || "").trim().toUpperCase().replace(/\s+/g, "");
+    if (!norm) return null;
+    const allowedSet = new Set(BUILTIN_CLASS_ALIASES[norm] || [norm]);
+    return (state.classes || []).find(c => {
+      const cCode = String(c.code || "").trim().toUpperCase().replace(/\s+/g, "");
+      const cName = String(c.name || "").trim().toUpperCase().replace(/\s+/g, "");
+      if (allowedSet.has(cCode) || allowedSet.has(cName)) return true;
+      if (Array.isArray(c.aliases) && c.aliases.some(a => allowedSet.has(String(a || "").trim().toUpperCase().replace(/\s+/g, "")))) {
+        return true;
+      }
+      return false;
+    }) || null;
+  }
+
+  function getCurrentTeacherDisplayName() {
+    return String(state.user?.name || "Teacher")
+      .replace(/\s*\(Business Teacher\)\s*$/i, "")
+      .trim() || "Teacher";
+  }
+
+  function getClassAddedByLabel(c) {
+    if (c && c.createdBy) {
+      return String(c.createdBy).replace(/\s*\(Business Teacher\)\s*$/i, "").trim() || "Teacher";
+    }
+    const code = String(c?.code || "").trim().toUpperCase();
+    if (CORE_CLASS_CODES.has(code)) return "Mrs Straub";
+    return "Unknown";
   }
 
   // Live Firebase Realtime Database Cloud Sync (verified endpoint)
@@ -2334,11 +2376,18 @@
             </div>
             <div style="display:grid;gap:8px;">
               ${state.classes.map(c => {
-                const clsPupils = state.pupils.filter(p => p.classCode?.toUpperCase() === c.code?.toUpperCase());
+                const cCodeUpper = String(c.code || "").toUpperCase();
+                const cNameUpper = String(c.name || "").toUpperCase();
+                const clsPupils = state.pupils.filter(p => {
+                  const pc = String(p.classCode || "").toUpperCase();
+                  const pn = String(p.className || "").toUpperCase();
+                  return pc === cCodeUpper || pn === cNameUpper || (cNameUpper && pc.startsWith(cNameUpper));
+                });
+                const addedBy = getClassAddedByLabel(c);
                 return `
                   <details style="padding:8px 12px;background:#f8fafc;border:1px solid var(--border);border-radius:8px;font-size:13.5px;">
-                    <summary style="font-weight:700;cursor:pointer;">${escapeHtml(c.name)} · ${clsPupils.length} pupils</summary>
-                    <p style="margin:6px 0;">Join code: <strong>${escapeHtml(c.code)}</strong> (share privately with this class)</p>
+                    <summary style="font-weight:700;cursor:pointer;">${escapeHtml(c.name)} · ${clsPupils.length} pupils <span style="font-weight:500;color:var(--text-muted);font-size:12px;">(Added by: ${escapeHtml(addedBy)})</span></summary>
+                    <p style="margin:6px 0;">Join code: <strong>${escapeHtml(c.code)}</strong> · Added by: <strong>${escapeHtml(addedBy)}</strong> (share privately with this class)</p>
                     <ul style="margin:0;padding-left:18px;">
                       ${clsPupils.map(p => `<li><button type="button" data-inspect-pupil="${escapeHtml(p.userId)}" style="background:none;border:none;padding:0;color:#7c3aed;text-decoration:underline;cursor:pointer;">${escapeHtml(p.name)}</button></li>`).join("")}
                     </ul>
@@ -2462,17 +2511,23 @@
           <div style="padding:14px;background:#fff;border-radius:10px;border:1px solid var(--border);margin-bottom:14px;">
             <div style="font-weight:700;font-size:14px;margin-bottom:8px;">➕ Add a New Class</div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
-              <input type="text" id="new-class-name" placeholder="Class name (e.g. 4HBM1)" style="flex:1;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
-              <input type="text" id="new-class-code" placeholder="Join code (e.g. 4HBM1)" style="flex:1;min-width:140px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+              <input type="text" id="add-class-name" placeholder="Class name (e.g. 4HBM1)" style="flex:1;min-width:160px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
+              <input type="text" id="add-class-code" placeholder="Join code (e.g. 4HBM1)" style="flex:1;min-width:140px;padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;font-size:13.5px;" />
               <button type="button" class="btn btn-primary btn-sm" id="btn-add-class">➕ Add Class</button>
             </div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">
-              ${visibleClasses.map(c => `
+              ${visibleClasses.map(c => {
+                const addedBy = getClassAddedByLabel(c);
+                const isCoreClass = CORE_CLASS_CODES.has(String(c.code || "").trim().toUpperCase());
+                const canRemove = (isOwnerTeacher || (c.createdBy && (c.createdBy === state.user?.name || addedBy.toLowerCase() === getCurrentTeacherDisplayName().toLowerCase()))) && !isCoreClass;
+                return `
                 <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#f5f3ff;border:1px solid #c4b5fd;font-size:12.5px;font-weight:600;color:#4c1d95;">
-                  ${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})
-                  ${(isOwnerTeacher || c.createdBy === state.user?.name) && !["4GBM", "4CBM", "4FBM", "ABCD"].includes(String(c.code).toUpperCase()) ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
+                  <span>${escapeHtml(c.name)} (Code: ${escapeHtml(c.code)})</span>
+                  <span style="font-size:11.5px;font-weight:500;color:#6d28d9;background:#ede9fe;padding:1px 7px;border-radius:999px;">Added by: ${escapeHtml(addedBy)}</span>
+                  ${canRemove ? `<button type="button" data-remove-class="${escapeHtml(c.id)}" style="border:none;background:none;color:#dc2626;cursor:pointer;font-weight:800;padding:0 2px;" title="Remove class">✕</button>` : ""}
                 </span>
-              `).join("")}
+              `;
+              }).join("")}
             </div>
           </div>
 
@@ -3301,7 +3356,7 @@
           }
         } catch {}
 
-        // Offline / standalone fallback with smart matching for 4GBM1, 4FBM2, 4CBM3, ABCD
+        // Offline / standalone fallback with strict class code validation (4GBM/4GBM1, 4FBM/4FBM2, 4CBM/4CBM3, ABCD, or teacher-added classes)
         const existingPupil = findExistingPupilByName(name, code);
         if (existingPupil) {
           state.user = { ...existingPupil, role: "user" };
@@ -3312,9 +3367,17 @@
             state.loginError = "First time logging in? Please enter your Class Code once (4GBM1, 4FBM2, 4CBM3, or ABCD). Next time you will only need your name!";
             return render();
           }
-          const matchedClass = state.classes.find(c => c.code.toUpperCase() === code || (c.name && c.name.toUpperCase() === code));
-          const finalCode = matchedClass ? matchedClass.code.toUpperCase() : code;
-          const finalClassName = matchedClass ? matchedClass.name : "Class " + code;
+          let matchedClass = findValidClassByCode(code);
+          if (!matchedClass) {
+            await syncFromServer();
+            matchedClass = findValidClassByCode(code);
+          }
+          if (!matchedClass) {
+            state.loginError = `Class code "${code}" was not recognised. Please check your class code with your teacher (e.g. 4GBM1, 4FBM2, 4CBM3, ABCD, or your teacher's class code).`;
+            return render();
+          }
+          const finalCode = String(matchedClass.code || code).toUpperCase();
+          const finalClassName = matchedClass.name || finalCode;
           state.user = {
             userId: "pupil-" + name.toLowerCase().replace(/\s+/g, "-"),
             name,
@@ -3323,11 +3386,6 @@
             role: "user"
           };
           state.rememberedPupil = state.user;
-          if (!matchedClass) {
-            const newCls = { id: "cls-" + Date.now(), name: finalClassName, code: finalCode };
-            state.classes.push(newCls);
-            cloudPut("classes/" + safeFirebaseKey(finalCode), newCls);
-          }
           const newPupil = { userId: state.user.userId, name, classCode: finalCode, className: finalClassName, lastActiveAt: new Date().toISOString() };
           state.pupils.push(newPupil);
           cloudPut("pupils/" + safeFirebaseKey(state.user.userId), newPupil);
@@ -4127,10 +4185,27 @@
 
     document.getElementById("btn-save-class")?.addEventListener("click", async () => {
       const name = state.newClassName.trim();
-      const code = state.newClassCode.trim().toUpperCase();
+      const code = state.newClassCode.trim().toUpperCase().replace(/\s+/g, "");
       if (!name || !code) return;
-      if (!state.classes.some(c => c.code.toUpperCase() === code)) {
-        state.classes.push({ id: "cls-" + Date.now(), name, code });
+      if (!state.classes.some(c => String(c.code || "").toUpperCase() === code)) {
+        const newCls = {
+          id: "cls-" + Date.now(),
+          name,
+          code,
+          createdBy: getCurrentTeacherDisplayName()
+        };
+        state.classes.push(newCls);
+        cloudPut("classes/" + safeFirebaseKey(code), newCls);
+      }
+      if (state.user && Array.isArray(state.user.assignedClasses) && !state.user.assignedClasses.includes("ALL")) {
+        if (!state.user.assignedClasses.includes(code)) {
+          state.user.assignedClasses.push(code);
+        }
+        const tRec = (state.teachers || []).find(t => t.id === state.user.userId || String(t.name).toLowerCase() === String(state.user.name || "").toLowerCase());
+        if (tRec && Array.isArray(tRec.assignedClasses) && !tRec.assignedClasses.includes("ALL") && !tRec.assignedClasses.includes(code)) {
+          tRec.assignedClasses.push(code);
+          cloudPut("teachers/" + safeFirebaseKey(tRec.id), tRec);
+        }
       }
       state.newClassName = "";
       state.newClassCode = "";
@@ -4159,15 +4234,28 @@
       }
       if (rows.length === 0) return;
       rows.forEach(r => {
-        if (!state.classes.some(c => c.code.toUpperCase() === r.code)) {
-          state.classes.push({ id: "cls-" + Date.now() + Math.random(), name: "Class " + r.code, code: r.code });
+        const existingCls = findValidClassByCode(r.code);
+        let finalCode = existingCls ? String(existingCls.code).toUpperCase() : r.code;
+        let finalName = existingCls ? existingCls.name : "Class " + r.code;
+        if (!existingCls) {
+          const newCls = {
+            id: "cls-" + Date.now() + Math.random(),
+            name: finalName,
+            code: finalCode,
+            createdBy: getCurrentTeacherDisplayName()
+          };
+          state.classes.push(newCls);
+          cloudPut("classes/" + safeFirebaseKey(finalCode), newCls);
         }
-        if (!state.pupils.some(p => p.name.toLowerCase() === r.name.toLowerCase() && p.classCode.toUpperCase() === r.code)) {
-          state.pupils.push({
+        if (!state.pupils.some(p => p.name.toLowerCase() === r.name.toLowerCase() && p.classCode.toUpperCase() === finalCode)) {
+          const newPupil = {
             userId: "pupil-" + r.name.toLowerCase().replace(/\s+/g, "-"),
             name: r.name,
-            classCode: r.code
-          });
+            classCode: finalCode,
+            className: finalName
+          };
+          state.pupils.push(newPupil);
+          cloudPut("pupils/" + safeFirebaseKey(newPupil.userId), newPupil);
         }
       });
       state.importStatusMsg = `Imported ${rows.length} pupil records & class codes!`;
@@ -4250,8 +4338,8 @@
     });
 
     document.getElementById("btn-add-class")?.addEventListener("click", () => {
-      const nameInput = document.getElementById("new-class-name");
-      const codeInput = document.getElementById("new-class-code");
+      const nameInput = document.getElementById("add-class-name");
+      const codeInput = document.getElementById("add-class-code");
       const rawName = (nameInput?.value || "").trim();
       const rawCode = (codeInput?.value || "").trim();
       const clsName = rawName || rawCode;
@@ -4265,7 +4353,7 @@
           id: "cls-" + Date.now(),
           name: clsName,
           code: clsCode,
-          createdBy: state.user?.name || "Teacher"
+          createdBy: getCurrentTeacherDisplayName()
         };
         state.classes.push(newCls);
         cloudPut("classes/" + safeFirebaseKey(clsCode), newCls);
@@ -4594,14 +4682,21 @@
         state.user = { ...matched, role: "user" };
         saveLocalState();
       } else if (urlCode.length >= 2) {
-        state.user = {
-          userId: "pupil-" + urlPupil.toLowerCase().replace(/\s+/g, "-"),
-          name: urlPupil,
-          classCode: urlCode,
-          className: urlCode,
-          role: "user"
-        };
-        saveLocalState();
+        const matchedClass = findValidClassByCode(urlCode);
+        if (matchedClass) {
+          state.user = {
+            userId: "pupil-" + urlPupil.toLowerCase().replace(/\s+/g, "-"),
+            name: urlPupil,
+            classCode: String(matchedClass.code || urlCode).toUpperCase(),
+            className: matchedClass.name || urlCode,
+            role: "user"
+          };
+          saveLocalState();
+        } else {
+          state.loginName = urlPupil;
+          state.loginCode = urlCode;
+          state.loginError = `Class code "${urlCode}" was not recognised. Please check your class code with your teacher (e.g. 4GBM1, 4FBM2, 4CBM3, ABCD, or your teacher's class code).`;
+        }
       } else {
         state.loginName = urlPupil;
       }
