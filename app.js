@@ -622,9 +622,116 @@
   }
 
   const EXCLUDED_PUPIL_NAMES = new Set(["lee morgan", "mr m", "craig stephenson", "mrs straub", "rebecca"]);
+
+  const BLOCKED_CELEBRITY_FULL_NAMES = new Set([
+    // Footballers & athletes
+    "cristiano ronaldo", "cristaino ronaldo", "christiano ronaldo", "lionel messi", "leo messi",
+    "kylian mbappe", "neymar jr", "neymar junior", "erling haaland", "jude bellingham",
+    "mohamed salah", "mo salah", "harry kane", "bukayo saka", "cole palmer", "lamine yamal",
+    "marcus rashford", "wayne rooney", "david beckham", "zlatan ibrahimovic", "virgil van dijk",
+    "kevin de bruyne", "vinicius junior", "vinicius jr", "robert lewandowski", "karim benzema",
+    "diego maradona", "scott mctominay", "andy robertson", "john mcginn", "kieran tierney",
+    "lebron james", "michael jordan", "kobe bryant", "stephen curry", "usain bolt",
+    "conor mcgregor", "tyson fury", "anthony joshua", "lewis hamilton", "max verstappen",
+    "lando norris", "tiger woods", "serena williams", "roger federer", "novak djokovic",
+    "rafael nadal", "andy murray", "simone biles", "tom brady",
+    // Musicians, pop stars & rappers
+    "taylor swift", "beyonce knowles", "ariana grande", "billie eilish", "olivia rodrigo",
+    "sabrina carpenter", "dua lipa", "ed sheeran", "harry styles", "justin bieber",
+    "selena gomez", "kanye west", "travis scott", "kendrick lamar", "marshall mathers",
+    "snoop dogg", "ice spice", "nicki minaj", "cardi b", "doja cat", "lady gaga", "katy perry",
+    "bruno mars", "the weeknd", "post malone", "bad bunny", "michael jackson", "elvis presley",
+    "lewis capaldi", "calvin harris", "gerry cinnamon", "paolo nutini", "adele adkins",
+    "rihanna fenty", "shawn mendes", "charli xcx", "chappell roan", "central cee",
+    "playboi carti", "lil wayne", "tupac shakur", "miley cyrus", "lizzo", "sam smith",
+    "elton john", "paul mccartney", "john lennon", "freddie mercury", "kurt cobain",
+    // YouTubers, streamers & influencers
+    "mr beast", "jimmy donaldson", "kai cenat", "logan paul", "jake paul", "jj olatunji",
+    "felix kjellberg", "andrew tate", "tristan tate", "kim kardashian", "kylie jenner",
+    "kendall jenner", "khloe kardashian", "kourtney kardashian", "charli damelio", "addison rae",
+    "bella poarch", "duke dennis", "adin ross", "niko omilana", "beta squad", "darren watkins",
+    // Actors, TV & public figures
+    "dwayne johnson", "the rock", "john cena", "tom holland", "timothee chalamet",
+    "leonardo dicaprio", "brad pitt", "johnny depp", "tom cruise", "will smith",
+    "ryan reynolds", "ryan gosling", "margot robbie", "emma watson", "daniel radcliffe",
+    "scarlett johansson", "robert downey", "chris hemsworth", "chris evans", "chris pratt",
+    "keanu reeves", "morgan freeman", "samuel jackson", "jack black", "adam sandler",
+    "jim carrey", "kevin hart", "jenna ortega", "millie bobby brown", "pedro pascal",
+    "cillian murphy", "florence pugh", "sydney sweeney", "jacob elordi", "gordon ramsay",
+    "simon cowell", "david attenborough", "mr bean", "rowan atkinson", "angelina jolie",
+    "jennifer aniston", "jennifer lopez", "robert pattinson", "zendaya coleman",
+    // Politicians & billionaires
+    "donald trump", "joe biden", "barack obama", "elon musk", "jeff bezos", "mark zuckerberg",
+    "bill gates", "keir starmer", "boris johnson", "rishi sunak", "nicola sturgeon",
+    "john swinney", "king charles", "prince william", "prince harry", "queen elizabeth",
+    "vladimir putin", "kim jong", "oprah winfrey", "greta thunberg", "nigel farage",
+    // Fictional characters & prank/meme names
+    "harry potter", "hermione granger", "ron weasley", "darth vader", "luke skywalker",
+    "spider man", "peter parker", "bruce wayne", "clark kent", "iron man", "tony stark",
+    "homer simpson", "bart simpson", "peter griffin", "stewie griffin", "patrick star",
+    "mickey mouse", "donald duck", "super mario", "walter white", "jesse pinkman",
+    "saul goodman", "thomas shelby", "patrick bateman", "john wick", "james bond",
+    "sherlock holmes", "santa claus", "father christmas", "easter bunny", "tooth fairy",
+    "skibidi toilet", "sigma male", "john pork", "p diddy", "sean combs", "jeffrey epstein",
+    "ben dover", "mike oxlong", "hugh jass", "seymour butts", "anita bath", "joe mama",
+    "deez nuts", "test pupil", "test user", "fake name", "your mum", "your mom", "ur mum", "ur mom"
+  ]);
+
+  // Unique unmistakable celebrity/fictional/meme words (catches misspellings like "cristaino ronaldo")
+  const BLOCKED_CELEBRITY_TOKENS = new Set([
+    "ronaldo", "ronaldinho", "cristiano", "cristaino", "christiano", "messi", "mbappe", "neymar",
+    "haaland", "bellingham", "ibrahimovic", "maradona", "lewandowski", "benzema", "beyonce",
+    "rihanna", "eminem", "kanye", "zendaya", "bieber", "kardashian", "mrbeast", "ishowspeed",
+    "kaicenat", "pewdiepie", "caseoh", "jynxzi", "spongebob", "spiderman", "batman", "superman",
+    "voldemort", "shrek", "skibidi", "rizzler", "gyatt", "diddy", "epstein", "trump", "putin",
+    "oprah", "stormzy", "shakira", "madonna", "snoop", "tupac", "chalamet", "dicaprio",
+    "schwarzenegger", "stallone", "pikachu", "vader", "goku", "naruto", "ligma"
+  ]);
+
+  function normalizeNameForCheck(rawName) {
+    return String(rawName || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  function isWithinOneEdit(a, b) {
+    if (Math.abs(a.length - b.length) > 1) return false;
+    let i = 0, j = 0, edits = 0;
+    while (i < a.length && j < b.length) {
+      if (a[i] === b[j]) {
+        i++; j++;
+      } else {
+        edits++;
+        if (edits > 1) return false;
+        if (a.length > b.length) i++;
+        else if (b.length > a.length) j++;
+        else { i++; j++; }
+      }
+    }
+    if (i < a.length || j < b.length) edits++;
+    return edits <= 1;
+  }
+
+  const FUZZY_CELEBRITY_TOKENS = ["ronaldo", "cristiano", "messi", "mbappe", "neymar", "haaland", "beyonce", "kardashian", "mrbeast", "ishowspeed", "spongebob", "skibidi"];
+
+  function isBlockedCelebrityOrFakeName(rawName) {
+    const norm = normalizeNameForCheck(rawName);
+    if (!norm) return false;
+    const collapsed = norm.replace(/\s+/g, "");
+    if (BLOCKED_CELEBRITY_FULL_NAMES.has(norm) || BLOCKED_CELEBRITY_TOKENS.has(collapsed)) return true;
+    const words = norm.split(" ").filter(Boolean);
+    if (words.some(w => BLOCKED_CELEBRITY_TOKENS.has(w))) return true;
+    // Catch 1-letter typos on the most common celebrity/meme names (e.g. "cristaino", "ronlado", "mesii")
+    if (words.some(w => w.length >= 5 && FUZZY_CELEBRITY_TOKENS.some(t => isWithinOneEdit(w, t)))) return true;
+    return false;
+  }
+
   function isExcludedPupil(p) {
     const n = String(p?.name || "").trim().toLowerCase();
-    return EXCLUDED_PUPIL_NAMES.has(n);
+    return EXCLUDED_PUPIL_NAMES.has(n) || isBlockedCelebrityOrFakeName(p?.name);
   }
   function cleanPupilList(arr) {
     const kept = [];
@@ -671,12 +778,31 @@
           else state.pupils = cleanPupilList(state.pupils);
           if (db.attempts) {
             state.attempts = mergeById(state.attempts, db.attempts, "id")
+              .filter(a => {
+                if (isBlockedCelebrityOrFakeName(a?.userName)) {
+                  if (a?.id) cloudDelete("attempts/" + safeFirebaseKey(a.id));
+                  return false;
+                }
+                return true;
+              })
               .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
           }
-          if (db.caseAttempts) state.caseAttempts = mergeById(state.caseAttempts, db.caseAttempts, "id");
-          if (db.homeworkSubmissions) state.homeworkSubmissions = mergeById(state.homeworkSubmissions, db.homeworkSubmissions, "id");
+          if (db.caseAttempts) {
+            state.caseAttempts = mergeById(state.caseAttempts, db.caseAttempts, "id")
+              .filter(a => !isBlockedCelebrityOrFakeName(a?.userName));
+          }
+          if (db.homeworkSubmissions) {
+            state.homeworkSubmissions = mergeById(state.homeworkSubmissions, db.homeworkSubmissions, "id")
+              .filter(a => !isBlockedCelebrityOrFakeName(a?.userName));
+          }
           if (db.trackingRecords && typeof db.trackingRecords === "object") {
-            state.trackingRecords = { ...(state.trackingRecords || {}), ...db.trackingRecords };
+            const mergedTrack = { ...(state.trackingRecords || {}), ...db.trackingRecords };
+            Object.keys(mergedTrack).forEach(k => {
+              if (isBlockedCelebrityOrFakeName(k) || isBlockedCelebrityOrFakeName(mergedTrack[k]?.name)) {
+                delete mergedTrack[k];
+              }
+            });
+            state.trackingRecords = mergedTrack;
           }
           state.cloudPupilCount = db.pupils ? Object.keys(db.pupils).length : 0;
           state.cloudLastSynced = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
@@ -3333,6 +3459,10 @@
           state.loginError = "Please enter your full First Name and Surname (e.g. Sophie Miller).";
           return render();
         }
+        if (isBlockedCelebrityOrFakeName(name)) {
+          state.loginError = "Please enter your real First Name and Surname — celebrity, fictional, or joke names are not allowed.";
+          return render();
+        }
         try {
           const res = await fetch("/_api/pupil-class-login", {
             method: "POST",
@@ -4677,33 +4807,47 @@
     const urlPupil = (params.get("pupil") || "").trim();
     const urlCode = (params.get("code") || "").trim().toUpperCase();
     if (urlPupil.length >= 2) {
-      const matched = findExistingPupilByName(urlPupil, urlCode);
-      if (matched) {
-        state.user = { ...matched, role: "user" };
-        saveLocalState();
-      } else if (urlCode.length >= 2) {
-        const matchedClass = findValidClassByCode(urlCode);
-        if (matchedClass) {
-          state.user = {
-            userId: "pupil-" + urlPupil.toLowerCase().replace(/\s+/g, "-"),
-            name: urlPupil,
-            classCode: String(matchedClass.code || urlCode).toUpperCase(),
-            className: matchedClass.name || urlCode,
-            role: "user"
-          };
+      if (isBlockedCelebrityOrFakeName(urlPupil)) {
+        state.loginError = "Please enter your real First Name and Surname — celebrity, fictional, or joke names are not allowed.";
+      } else {
+        const matched = findExistingPupilByName(urlPupil, urlCode);
+        if (matched) {
+          state.user = { ...matched, role: "user" };
           saveLocalState();
+        } else if (urlCode.length >= 2) {
+          const matchedClass = findValidClassByCode(urlCode);
+          if (matchedClass) {
+            state.user = {
+              userId: "pupil-" + urlPupil.toLowerCase().replace(/\s+/g, "-"),
+              name: urlPupil,
+              classCode: String(matchedClass.code || urlCode).toUpperCase(),
+              className: matchedClass.name || urlCode,
+              role: "user"
+            };
+            saveLocalState();
+          } else {
+            state.loginName = urlPupil;
+            state.loginCode = urlCode;
+            state.loginError = `Class code "${urlCode}" was not recognised. Please check your class code with your teacher (e.g. 4GBM1, 4FBM2, 4CBM3, ABCD, or your teacher's class code).`;
+          }
         } else {
           state.loginName = urlPupil;
-          state.loginCode = urlCode;
-          state.loginError = `Class code "${urlCode}" was not recognised. Please check your class code with your teacher (e.g. 4GBM1, 4FBM2, 4CBM3, ABCD, or your teacher's class code).`;
         }
-      } else {
-        state.loginName = urlPupil;
       }
     }
   } catch {}
 
+  if (state.user && !isTeacherUser(state.user) && isBlockedCelebrityOrFakeName(state.user.name)) {
+    state.user = null;
+  }
+  if (state.rememberedPupil && isBlockedCelebrityOrFakeName(state.rememberedPupil.name)) {
+    state.rememberedPupil = null;
+  }
   state.pupils = cleanPupilList(state.pupils);
+  state.attempts = (state.attempts || []).filter(a => !isBlockedCelebrityOrFakeName(a?.userName));
+  state.caseAttempts = (state.caseAttempts || []).filter(a => !isBlockedCelebrityOrFakeName(a?.userName));
+  state.homeworkSubmissions = (state.homeworkSubmissions || []).filter(a => !isBlockedCelebrityOrFakeName(a?.userName));
+  saveLocalState();
   render();
   syncFromServer();
   setInterval(() => {
