@@ -2874,57 +2874,139 @@
   }
 
   function renderAssignmentTab() {
+    const mk = (code, tip) => `<span style="display:inline-block;padding:1px 7px;margin:0 2px;border-radius:999px;background:#dcfce7;border:1px solid #86efac;color:#15803d;font-size:11.5px;font-weight:800;vertical-align:middle;" title="${escapeHtml(tip)}">✓ +${escapeHtml(code)}</span>`;
+    const mkZero = (reason) => `<span style="display:inline-block;padding:1px 7px;margin:0 2px;border-radius:999px;background:#fee2e2;border:1px solid #fca5a5;color:#b91c1c;font-size:11.5px;font-weight:800;vertical-align:middle;">✗ 0 marks — ${escapeHtml(reason)}</span>`;
+
     const sections = [
       {
-        id: "intro",
-        title: "1. Title & Introduction (2 marks)",
-        marks: "2 marks",
+        id: "background",
+        title: "1. Background Information (4 marks)",
+        marks: "4 marks",
+        rule: "1 mark for a clear statement of purpose & organisation (1P) + up to 3 marks for background facts (history, structure/sector, target market, location/branches, products/services, operations, or mission/awards). Max 3/4 if no purpose is stated.",
         items: [
-          { id: "a1", text: "State the name of the real business/organisation you are researching." },
-          { id: "a2", text: "State a clear, specific purpose/objective for your report (e.g. 'To investigate how [Business] uses marketing to attract customers')." }
+          { id: "a1", text: "State the name of the real organisation and a clear, specific purpose for your report (1P)." },
+          { id: "a2", text: "Include at least 3 distinct background facts about the organisation (e.g. when/where established, sector/ownership, products/services, locations, or target market) (3 marks)." }
         ],
-        tip: "SQA Tip: Keep your title focused on ONE clear business topic (e.g. Marketing, Customer Service, or HR) — broad topics lose marks in analysis."
+        sqaExampleTitle: "Official SQA Marked Example — 4/4 Marks Granted",
+        sqaExampleHtml: `
+          <p style="margin:0 0 8px 0;line-height:1.65;">
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;"><strong>I am investigating the promotion methods of</strong> Caledonian Bakery Ltd.</span> ${mk("1P", "Clear statement of purpose and organisation chosen")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">The business was established in Glasgow in 2012</span> ${mk("1B", "Brief history — where and when established")}
+            and operates as a <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">private limited company in the tertiary sector employing 18 staff.</span> ${mk("1B", "Structure — ownership, sector, number of workers")}
+            It sells <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">freshly baked artisan bread, cakes and takeaway coffee across 3 city-centre branches.</span> ${mk("1B", "Products/services & locations")}
+          </p>
+        `,
+        zeroTrapHtml: `
+          <div><strong>Why marks are missed:</strong> Writing <em>"Caledonian Bakery is a great local bakery that makes nice cakes"</em> without stating your report's purpose caps this section at <strong>max 3/4</strong>, and vague opinions earn ${mkZero("no factual background")}.</div>
+        `,
+        tip: "SQA Rule: Always open with 'The purpose of this report is to investigate [specific topic] of [Organisation]' to bank your 1P mark immediately."
       },
       {
         id: "research",
-        title: "2. Research Methods (4 marks)",
-        marks: "4 marks",
+        title: "2. Research Methods and Sources (6 marks)",
+        marks: "6 marks",
+        rule: "Up to 3 marks for stating the reason/purpose for using each source (1P) + marks for EXPLAINING the value (strengths/weaknesses) of each source (1V). At least 2 sources required for 6/6 (max 5/6 if only 1 source).",
         items: [
-          { id: "a3", text: "Use at least TWO different research sources (e.g. Primary: questionnaire/interview + Secondary: company website/news article)." },
-          { id: "a4", text: "State WHY each source was suitable, reliable, or limited (e.g. bias, up-to-date, sample size)." }
+          { id: "a3", text: "Use at least TWO different research methods/sources (e.g. company website, TripAdvisor reviews, customer survey/questionnaire, interview, news article) and note brief source details/URLs." },
+          { id: "a4", text: "State the specific REASON you chose each source (1P per source, max 3 marks)." },
+          { id: "a5", text: "EXPLAIN the value (strengths and/or limitations) of each source — e.g. WHY it is up to date, reliable, biased, or limited (1V per explained point)." }
         ],
-        tip: "SQA Tip: Don't just list 'Google' — name the exact website, date accessed, or who you surveyed and how many responses you got."
+        sqaExampleTitle: "Official SQA Marked Example — 6/6 Marks Granted",
+        sqaExampleHtml: `
+          <p style="margin:0 0 8px 0;line-height:1.65;">
+            <strong>Source 1 (Company Website):</strong>
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">I used the Caledonian Bakery website (see Appendix 1) to find out information about the range of products and current promotions the business offers.</span> ${mk("1P", "Reason for choosing source 1")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">This information is up to date because the website was last updated two months ago with their new seasonal menu.</span> ${mk("1V", "Explained value — why up to date")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">However, the website may be biased because the business wants to promote itself positively and may hide negative customer feedback.</span> ${mk("1V", "Explained limitation — why biased")}
+          </p>
+          <p style="margin:0;line-height:1.65;">
+            <strong>Source 2 (Customer Survey):</strong>
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">I carried out a primary survey of 30 local customers (see Appendix 2) to find out which promotional offers actually encouraged them to visit.</span> ${mk("1P", "Reason for choosing source 2")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">This was valuable because I could ask specific questions tailored directly to my report topic, giving relevant first-hand data.</span> ${mk("1V", "Explained strength — specific & first-hand")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">A limitation is that 30 people is a small sample size, so the views may not represent all customers across Glasgow.</span> ${mk("1V", "Explained weakness — sample size")}
+          </p>
+        `,
+        zeroTrapHtml: `
+          <div><strong>Why marks are missed:</strong> Simply listing <em>"I used the website and Google. The website was quick, reliable, up to date and biased"</em> earns ${mkZero("values listed without explaining WHY")}. No marks are awarded just for naming a source!</div>
+        `,
+        tip: "SQA Rule: If you use 2 sources, write 1 Reason (1P) + 2 Explained Values (2V) for EACH source = 6/6 marks. If you use 3 sources, write 1 Reason (1P) + 1 Explained Value (1V) for each = 6/6 marks."
       },
       {
         id: "analysis",
-        title: "3. Analysis & Interpretation of Findings (12 marks)",
+        title: "3. Findings, Analysis and Interpretation (12 marks)",
         marks: "12 marks",
+        rule: "1 mark per relevant, referenced finding (1F, max 6 finding marks) + 1 mark per analytical/interpretative point (1A). Maximum 3 marks total from any single finding (e.g. 1F + 1A + 1A).",
         items: [
-          { id: "a5", text: "Present key findings clearly using charts, graphs, or tables (not giant walls of copied text)." },
-          { id: "a6", text: "Explain WHAT each finding means for the business (use 'This means that...', 'As a result...', 'This could lead to...')." },
-          { id: "a7", text: "Link findings directly to SQA N5 Business Management theory (e.g. 4 Ps, customer loyalty, motivation, cash flow)." }
+          { id: "a6", text: "State clear, relevant findings referenced to your sources/appendices (up to 6 × 1F marks)." },
+          { id: "a7", text: "Analyse and interpret EACH finding (up to 2 × 1A marks per finding) using phrases like 'This means that…', 'This could be because…', 'As a result…', 'The impact is…'." },
+          { id: "a8", text: "Avoid repeating the same analysis point across different sources — if two sources show a similar finding, give DIFFERENT analysis points for each." }
         ],
-        tip: "SQA Pitfall: Copying and pasting from websites earns 0 analysis marks. Every paragraph must explain the impact on the business."
+        sqaExampleTitle: "Official SQA Marking Instructions Example — Where Marks Stop!",
+        sqaExampleHtml: `
+          <p style="margin:0 0 8px 0;line-height:1.65;">
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">TripAdvisor (see Appendix 1) showed that 40% of people thought that XXX had poor quality staff.</span> ${mk("1F", "Relevant referenced finding from Source 1")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">This means that XXX is not good at recruiting and selecting the right people.</span> ${mk("1A", "Analysis point explaining what the finding shows")}
+          </p>
+          <p style="margin:0;line-height:1.65;">
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">My survey (see Appendix 2) showed that 50% of people thought there was poor quality staff at XXX.</span> ${mk("1F", "Similar finding from a DIFFERENT source still earns 1F")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">This could be because of poor staff training,</span> ${mk("1A", "1st analysis point on this finding — different from above")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">or it might be due to the untidy appearance of the shop assistants.</span> ${mk("1A", "2nd analysis point on this finding (reaches 3-mark cap: 1F + 2A)")}
+            <span style="background:#fee2e2;padding:1px 4px;border-radius:4px;text-decoration:line-through;">The impact of this is that customers may go to competitors.</span> ${mkZero("max 3 marks already awarded from this one finding")}
+          </p>
+        `,
+        zeroTrapHtml: `
+          <div><strong>Why marks are missed:</strong> (1) Copying generic textbook theory with no link to your research earns at most <strong>1 mark total (1GF)</strong>. (2) Trying to get 4–5 marks out of one finding stops at <strong>3 marks max (1F + 1A + 1A)</strong> — move on to your next finding!</div>
+        `,
+        tip: "SQA Golden Formula for 12/12: Aim for 4 to 6 separate referenced findings, each with 1–2 sharp analysis/impact points (e.g. 4 findings × 3 marks = 12/12, or 6 findings × 2 marks = 12/12)."
       },
       {
         id: "conclusions",
-        title: "4. Conclusions & Recommendations (8 marks)",
-        marks: "8 marks",
+        title: "4. Conclusion(s) and Recommendation(s) (6 marks)",
+        marks: "6 marks",
+        rule: "1 mark per justified conclusion (1C) or justified recommendation (1R) linked to Section 3 findings + 1 mark per development/impact (1D). At least 2 justified conclusions/recommendations needed for 6/6. Max 1/6 across the whole section if NOT linked to evidence!",
         items: [
-          { id: "a8", text: "Write clear conclusions that directly answer your report's original purpose." },
-          { id: "a9", text: "Make realistic, justified recommendations for the business — each backed up by your research findings." }
+          { id: "a9", text: "Write at least TWO justified conclusions and/or recommendations explicitly linked back to findings in Section 3 (1C / 1R)." },
+          { id: "a10", text: "Develop each recommendation/conclusion by explaining the likely business impact (e.g. higher sales revenue, improved reputation, customer loyalty) (1D)." }
         ],
-        tip: "SQA Tip: Never introduce brand-new facts in your conclusion. Every recommendation must say HOW it solves a finding from Section 3."
+        sqaExampleTitle: "Official SQA Marking Instructions Example — 3/6 Marks Shown",
+        sqaExampleHtml: `
+          <p style="margin:0 0 8px 0;line-height:1.65;">
+            <strong>Justified Conclusion:</strong>
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">I conclude that people are happy with the current level of customer service because the results from my questionnaire confirm that 82% rated staff as friendly and helpful.</span> ${mk("1C", "Conclusion justified by evidence from Section 3")}
+          </p>
+          <p style="margin:0;line-height:1.65;">
+            <strong>Justified Recommendation + Impact:</strong>
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">I recommend that XXX lengthens its opening hours to close at 6 pm because my survey found that 65% of commuters pass the shop on their way home from work and want to buy products then.</span> ${mk("1R", "Recommendation justified by Section 3 finding")}
+            <span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">This should increase the sales revenue and market share of XXX.</span> ${mk("1D", "Development — business impact of recommendation")}
+          </p>
+        `,
+        zeroTrapHtml: `
+          <div><strong>Why marks are missed:</strong> Writing <em>"I recommend XXX lowers its prices and opens a TikTok account"</em> when you never researched prices or TikTok in Section 3 earns ${mkZero("not linked to findings — caps ENTIRE section at max 1/6")}.</div>
+        `,
+        tip: "SQA Rule: Always include the word 'because' pointing back to a specific finding from Section 3, then add a second sentence starting with 'This will result in…' to earn the development mark (1D)."
       },
       {
-        id: "presentation",
-        title: "5. Report Presentation & Structure (4 marks)",
-        marks: "4 marks",
+        id: "collating",
+        title: "5. Collating and Reporting (2 marks)",
+        marks: "2 marks",
+        rule: "1 mark for appropriate & consistent use of the 4 SQA section headings (1H) + 1 mark for appropriate use of at least TWO different display materials (1D). Max 1,300 words (+10% tolerance) and max 2 A4 pages of appendices.",
         items: [
-          { id: "a10", text: "Use clear headings, subheadings, page numbers, and accurate N5 business terminology." },
-          { id: "a11", text: "Include properly labelled appendices (e.g. blank questionnaire, tally chart, or source list) and stay within the SQA word/page limit." }
+          { id: "a11", text: "Use the exact 4 SQA section headings consistently: Background Information, Research Methods and Sources, Findings/Analysis and Interpretation, Conclusion(s)/Recommendation(s) (1H)." },
+          { id: "a12", text: "Include at least TWO different relevant display materials (e.g. a bar/pie chart of your survey results AND a table, map, product photo, or logo) (1D)." },
+          { id: "a13", text: "Check word count is 1,300 words or fewer (penalty applies above 1,430 words), appendices are max 2 A4 pages, and formatting uses clear size-12 font, 1.5 line spacing, numbered pages & SCN in footer." }
         ],
-        tip: "SQA Tip: Keep it professional — proofread spelling of business terms and make sure every chart has a title and labelled axes."
+        sqaExampleTitle: "Official SQA Marked Example — 2/2 Marks Granted",
+        sqaExampleHtml: `
+          <ul style="margin:0;padding-left:18px;line-height:1.65;">
+            <li><span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">All 4 SQA headings used clearly in order across the report</span> ${mk("1H", "Appropriate and consistent headings")}</li>
+            <li><span style="background:#dcfce7;padding:1px 4px;border-radius:4px;">Bar chart showing customer survey results + table comparing competitor prices (2 different display types)</span> ${mk("1D", "At least two different display materials")}</li>
+            <li style="margin-top:4px;"><span style="background:#fee2e2;padding:1px 4px;border-radius:4px;">Pasting the same company logo twice with no other charts/tables/images</span> ${mkZero("repetition does not count as two different displays")}</li>
+          </ul>
+        `,
+        zeroTrapHtml: `
+          <div><strong>Word Count Penalty Warning:</strong> The official SQA limit is <strong>1,300 words</strong> (appendices excluded, max 2 A4 pages). Exceeding 1,300 words by more than 10% (over <strong>1,430 words</strong>) triggers an automatic SQA marking penalty!</div>
+        `,
+        tip: "SQA Tip: Easy 2/2 marks! Use the SQA template headings, put your survey results into a labelled bar/pie chart, and add one other different visual (e.g. a table, map, or photo)."
       }
     ];
     const cl = state.assignmentChecklist || {};
@@ -2936,20 +3018,87 @@
       <section class="section-panel">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
           <div>
-            <p class="kicker">SQA NATIONAL 5 ASSIGNMENT · 30 RAW MARKS (22% OF FINAL GRADE)</p>
-            <h2 style="margin:0 0 4px 0;">📋 N5 Business Assignment Helper &amp; Checklist</h2>
-            <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">Tick off each SQA marking requirement as you build your report. Your checklist saves automatically.</p>
+            <p class="kicker">QUALIFICATIONS SCOTLAND (SQA) N5 ASSIGNMENT · 30 RAW MARKS (SCALED TO 20 = 22% OF GRADE)</p>
+            <h2 style="margin:0 0 4px 0;">📋 N5 Business Assignment Guide, SQA Marked Examples &amp; Checklist</h2>
+            <p style="margin:0;color:var(--text-secondary);font-size:13.5px;">See <strong>exactly where SQA markers grant marks</strong> (<code>1P</code>, <code>1B</code>, <code>1V</code>, <code>1F</code>, <code>1A</code>, <code>1C</code>, <code>1R</code>, <code>1D</code>, <code>1H</code>), avoid 0-mark traps, and tick off your checklist as you write.</p>
           </div>
-          <span class="badge badge-primary" style="font-size:14px;padding:6px 12px;">Progress: ${doneCount} / ${allItems.length} (${pct}%)</span>
+          <span class="badge badge-primary" style="font-size:14px;padding:6px 12px;">Checklist: ${doneCount} / ${allItems.length} (${pct}%)</span>
         </div>
 
-        <div style="display:flex;flex-direction:column;gap:12px;">
+        <!-- OFFICIAL SQA 30-MARK BREAKDOWN BAR & LINKS -->
+        <div style="padding:14px 16px;border-radius:12px;background:#f5f3ff;border:1.5px solid #c4b5fd;margin-bottom:16px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+            <strong style="font-size:14.5px;color:#2e1065;">🎯 Official SQA 30-Mark Breakdown (Max 1,300 words + 2 A4 pages of appendices)</strong>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <a href="https://www.sqa.org.uk/sqa/files_ccc/n5-cat-bus-management.pdf" target="_blank" rel="noreferrer" class="btn btn-outline btn-sm" style="border-color:#7c3aed;color:#6d28d9;">📄 Official SQA Marking Instructions ↗</a>
+              <a href="https://www.understandingstandards.org.uk/Subjects/BusinessManagement/national5/Assignment" target="_blank" rel="noreferrer" class="btn btn-outline btn-sm" style="border-color:#7c3aed;color:#6d28d9;">🎓 SQA Understanding Standards Examples ↗</a>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;">
+            <div style="background:#fff;padding:8px 10px;border-radius:8px;border:1px solid #ddd6fe;font-size:12.5px;">
+              <div style="font-weight:800;color:#7c3aed;">4 marks</div>
+              <div style="font-weight:600;color:var(--text);">1. Background Info</div>
+              <div style="color:var(--text-muted);font-size:11.5px;">1P purpose + 3 facts</div>
+            </div>
+            <div style="background:#fff;padding:8px 10px;border-radius:8px;border:1px solid #ddd6fe;font-size:12.5px;">
+              <div style="font-weight:800;color:#7c3aed;">6 marks</div>
+              <div style="font-weight:600;color:var(--text);">2. Research Methods</div>
+              <div style="color:var(--text-muted);font-size:11.5px;">1P reason + 1V values</div>
+            </div>
+            <div style="background:#fff;padding:8px 10px;border-radius:8px;border:1px solid #ddd6fe;font-size:12.5px;">
+              <div style="font-weight:800;color:#7c3aed;">12 marks</div>
+              <div style="font-weight:600;color:var(--text);">3. Findings &amp; Analysis</div>
+              <div style="color:var(--text-muted);font-size:11.5px;">Max 6F + 1A (max 3/finding)</div>
+            </div>
+            <div style="background:#fff;padding:8px 10px;border-radius:8px;border:1px solid #ddd6fe;font-size:12.5px;">
+              <div style="font-weight:800;color:#7c3aed;">6 marks</div>
+              <div style="font-weight:600;color:var(--text);">4. Conclusions / Recs</div>
+              <div style="color:var(--text-muted);font-size:11.5px;">1C/1R justified + 1D</div>
+            </div>
+            <div style="background:#fff;padding:8px 10px;border-radius:8px;border:1px solid #ddd6fe;font-size:12.5px;">
+              <div style="font-weight:800;color:#7c3aed;">2 marks</div>
+              <div style="font-weight:600;color:var(--text);">5. Collating &amp; Report</div>
+              <div style="color:var(--text-muted);font-size:11.5px;">1H headings + 1D displays</div>
+            </div>
+          </div>
+          <div style="margin-top:10px;font-size:12px;color:#4c1d95;display:flex;flex-wrap:wrap;gap:6px;align-items:center;">
+            <strong>SQA Marker Codes Key:</strong>
+            <span class="badge badge-success">1P = Purpose / Reason</span>
+            <span class="badge badge-success">1B = Background Fact</span>
+            <span class="badge badge-success">1V = Explained Value</span>
+            <span class="badge badge-success">1F = Referenced Finding</span>
+            <span class="badge badge-success">1A = Analysis Point</span>
+            <span class="badge badge-success">1C / 1R = Justified Conclusion / Rec</span>
+            <span class="badge badge-success">1D = Development / Display</span>
+            <span class="badge badge-success">1H = Headings</span>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:14px;">
           ${sections.map(sec => `
-            <div style="padding:14px 16px;border-radius:12px;background:#fff;border:1.5px solid var(--border);">
-              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-                <strong style="font-size:15px;color:#2e1065;">${sec.title}</strong>
-                <span class="badge badge-soft">${sec.marks}</span>
+            <div style="padding:16px 18px;border-radius:12px;background:#fff;border:1.5px solid var(--border);box-shadow:var(--shadow-sm);">
+              <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:6px;">
+                <strong style="font-size:16px;color:#2e1065;">${sec.title}</strong>
+                <span class="badge badge-primary" style="font-weight:700;">${sec.marks}</span>
               </div>
+              <p style="margin:0 0 10px 0;font-size:12.5px;color:var(--text-secondary);background:#f8fafc;padding:8px 10px;border-radius:8px;border:1px solid var(--border);">
+                <strong>How SQA awards marks:</strong> ${escapeHtml(sec.rule)}
+              </p>
+
+              <!-- SQA ANNOTATED MARK-GRANTED EXAMPLE -->
+              <details open style="margin-bottom:12px;padding:12px 14px;border-radius:10px;background:#f0fdf4;border:1.5px solid #86efac;">
+                <summary style="font-weight:800;font-size:13.5px;color:#15803d;cursor:pointer;margin-bottom:6px;">
+                  ✅ ${escapeHtml(sec.sqaExampleTitle)} (Highlighted where marks are granted)
+                </summary>
+                <div style="margin-top:8px;padding:10px 12px;border-radius:8px;background:#ffffff;border:1px solid #bbf7d0;font-size:13.5px;color:var(--text);">
+                  ${sec.sqaExampleHtml}
+                </div>
+                <div style="margin-top:8px;padding:8px 10px;border-radius:8px;background:#fef2f2;border:1px solid #fecaca;font-size:12.5px;color:#7f1d1d;">
+                  ${sec.zeroTrapHtml}
+                </div>
+              </details>
+
+              <!-- CHECKLIST ITEMS -->
               <div style="display:flex;flex-direction:column;gap:7px;">
                 ${sec.items.map(it => `
                   <label style="display:flex;gap:10px;align-items:flex-start;cursor:pointer;font-size:13.5px;">
